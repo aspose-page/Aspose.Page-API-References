@@ -3,16 +3,16 @@ title: PdfSaveOptions
 second_title: Aspose.Page for Java API Reference
 description: Class for XPS-as-PDF saving options.
 type: docs
-weight: 17
+weight: 14
 url: /java/com.aspose.xps.rendering/pdfsaveoptions/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.page.SaveOptions](../../com.aspose.page/saveoptions)
 
 **All Implemented Interfaces:**
-[com.aspose.page.IMultiPageSaveOptions](../../com.aspose.page/imultipagesaveoptions)
+[com.aspose.page.IMultiPageSaveOptions](../../com.aspose.page/imultipagesaveoptions), [com.aspose.xps.rendering.IXpsTextConversionOptions](../../com.aspose.xps.rendering/ixpstextconversionoptions)
 ```
-public class PdfSaveOptions extends SaveOptions implements IMultiPageSaveOptions
+public class PdfSaveOptions extends SaveOptions implements IMultiPageSaveOptions, IXpsTextConversionOptions
 ```
 
 Class for XPS-as-PDF saving options.
@@ -42,6 +42,8 @@ Class for XPS-as-PDF saving options.
 | [isSupressErrors()](#isSupressErrors--) | Returns a value indicating whether errors will be suppressed during conversion. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [preserveText()](#preserveText--) | In XPS, some text elements may contain references to alternate glyph forms that do not correspond to any character code in the font. |
+| [preserveText(boolean value)](#preserveText-boolean-) | In XPS, some text elements may contain references to alternate glyph forms that do not correspond to any character code in the font. |
 | [setAdditionalFontsFolders(String[] fontsFolders)](#setAdditionalFontsFolders-java.lang.String---) | Specifies additional fonts folders where converter should find fonts for input document. |
 | [setDebug(boolean debug)](#setDebug-boolean-) | Specifies the flag that allows output of warnings and messages during conversion. |
 | [setEncryptionDetails(PdfEncryptionDetails value)](#setEncryptionDetails-com.aspose.xps.rendering.PdfEncryptionDetails-) | Sets the encryption details. |
@@ -235,6 +237,29 @@ public final native void notifyAll()
 
 
 
+
+### preserveText() {#preserveText--}
+```
+public boolean preserveText()
+```
+
+
+In XPS, some text elements may contain references to alternate glyph forms that do not correspond to any character code in the font. If this flag is set to true, the text from such XPS elements is converted to graphic shapes. Then the text itself appears transparent on top. This leaves the text of such elements selectable. But the side effect is that the output file may be much larger than the original. If this flag is set to false, the characters that should be displayed as alternate forms are replaced with some other characters that become mapped to the alternate glyph forms. Therefore the text, although still selectable, will be modified and likely become unreadable.
+
+**Returns:**
+boolean - The flag value.
+### preserveText(boolean value) {#preserveText-boolean-}
+```
+public void preserveText(boolean value)
+```
+
+
+In XPS, some text elements may contain references to alternate glyph forms that do not correspond to any character code in the font. If this flag is set to true, the text from such XPS elements is converted to graphic shapes. Then the text itself appears transparent on top. This leaves the text of such elements selectable. But the side effect is that the output file may be much larger than the original. If this flag is set to false, the characters that should be displayed as alternate forms are replaced with some other characters that become mapped to the alternate glyph forms. Therefore the text, although still selectable, will be modified and likely become unreadable.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The flag value. |
 
 ### setAdditionalFontsFolders(String[] fontsFolders) {#setAdditionalFontsFolders-java.lang.String---}
 ```

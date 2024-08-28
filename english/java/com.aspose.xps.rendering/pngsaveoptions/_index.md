@@ -3,7 +3,7 @@ title: PngSaveOptions
 second_title: Aspose.Page for Java API Reference
 description: Class for XPS-as-PNG saving options.
 type: docs
-weight: 18
+weight: 15
 url: /java/com.aspose.xps.rendering/pngsaveoptions/
 ---
 **Inheritance:**

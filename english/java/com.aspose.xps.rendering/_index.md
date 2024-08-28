@@ -15,16 +15,18 @@ The **com.aspose.xps.rendering** package provides base classes for rendering XPS
 | Class | Description |
 | --- | --- |
 | [BmpSaveOptions](../com.aspose.xps.rendering/bmpsaveoptions) | Class for XPS-as-BMP saving options. |
-| [DeviceXps](../com.aspose.xps.rendering/devicexps) | Intermediate device class containing internal convenience members. |
-| [ImageDevice](../com.aspose.xps.rendering/imagedevice) | Class incapsulating image composing device. |
 | [ImageSaveOptions](../com.aspose.xps.rendering/imagesaveoptions) | Basic class for XPS-as-image saving options. |
 | [JpegSaveOptions](../com.aspose.xps.rendering/jpegsaveoptions) | Class for XPS-as-JPEG saving options. |
-| [PdfDevice](../com.aspose.xps.rendering/pdfdevice) | Class incapsulating image composing device. |
 | [PdfEncryptionDetails](../com.aspose.xps.rendering/pdfencryptiondetails) | Contains details for a pdf encryption. |
 | [PdfSaveOptions](../com.aspose.xps.rendering/pdfsaveoptions) | Class for XPS-as-PDF saving options. |
 | [PngSaveOptions](../com.aspose.xps.rendering/pngsaveoptions) | Class for XPS-as-PNG saving options. |
-| [PsDevice](../com.aspose.xps.rendering/psdevice) | Class incapsulating PostScript composing device. |
 | [TiffSaveOptions](../com.aspose.xps.rendering/tiffsaveoptions) | Class for XPS-as-TIFF saving options. |
+
+## Interfaces
+
+| Interface | Description |
+| --- | --- |
+| [IXpsTextConversionOptions](../com.aspose.xps.rendering/ixpstextconversionoptions) | Defines options for conversion of XPS to other formats. |
 
 ## Enumerations
 

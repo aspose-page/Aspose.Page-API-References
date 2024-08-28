@@ -3,7 +3,7 @@ title: ImageSaveOptions
 second_title: Aspose.Page for Java API Reference
 description: Basic class for XPS-as-image saving options.
 type: docs
-weight: 13
+weight: 11
 url: /java/com.aspose.xps.rendering/imagesaveoptions/
 ---
 **Inheritance:**

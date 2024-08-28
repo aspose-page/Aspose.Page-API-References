@@ -3,7 +3,7 @@ title: JpegSaveOptions
 second_title: Aspose.Page for Java API Reference
 description: Class for XPS-as-JPEG saving options.
 type: docs
-weight: 14
+weight: 12
 url: /java/com.aspose.xps.rendering/jpegsaveoptions/
 ---
 **Inheritance:**

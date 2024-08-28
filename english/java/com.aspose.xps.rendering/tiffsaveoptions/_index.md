@@ -3,7 +3,7 @@ title: TiffSaveOptions
 second_title: Aspose.Page for Java API Reference
 description: Class for XPS-as-TIFF saving options.
 type: docs
-weight: 20
+weight: 16
 url: /java/com.aspose.xps.rendering/tiffsaveoptions/
 ---
 **Inheritance:**
