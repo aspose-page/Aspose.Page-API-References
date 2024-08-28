@@ -1,51 +1,33 @@
 ---
-title: XpsDocument
+title: PageAPI
 second_title: Aspose.Page for Java API Reference
-description: Class incapsulating the main entity of XPS document that provides manipulation methods for any XPS element.
+description: The Page element modification API.
 type: docs
-weight: 19
-url: /java/com.aspose.xps/xpsdocument/
+weight: 12
+url: /java/com.aspose.xps.features.eventbasedmodifications/pageapi/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.page.Document](../../com.aspose.page/document)
+java.lang.Object
 
 **All Implemented Interfaces:**
-java.io.Closeable
+[com.aspose.xps.features.EventBasedModifications.IModificationAPI](../../com.aspose.xps.features.eventbasedmodifications/imodificationapi)
 ```
-public final class XpsDocument extends Document implements Closeable
+public class PageAPI implements EventBasedModifications.IModificationAPI
 ```
 
-Class incapsulating the main entity of XPS document that provides manipulation methods for any XPS element.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [XpsDocument()](#XpsDocument--) | Creates empty XPS document with default page size. |
-| [XpsDocument(String path)](#XpsDocument-java.lang.String-) | Opens an existing XPS document located at the  path . |
-| [XpsDocument(InputStream stream, LoadOptions options)](#XpsDocument-java.io.InputStream-com.aspose.xps.LoadOptions-) | Loads an existing document stored in the  stream  as XPS document. |
+The **Page** element modification API.
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [<T>add(T element)](#-T-add-T-) | Adds a content element (Canvas, Path, or Glyphs) |
-| [<T>insert(int index, T element)](#-T-insert-int-T-) | Inserts an element (Canvas, Path, or Glyphs) to the active page at  index  position. |
-| [<T>remove(T element)](#-T-remove-T-) | Removes an element from the active page. |
-| [addCanvas()](#addCanvas--) | Adds a new canvas to the active page. |
-| [addDocument()](#addDocument--) | Adds an empty document with default page size and selects added document as active. |
-| [addDocument(boolean activate)](#addDocument-boolean-) | Adds an empty document with default page size. |
-| [addDocument(float width, float height)](#addDocument-float-float-) | Adds an empty document with the first page dimensions  width  and  height  and selects added document as active. |
-| [addDocument(float width, float height, boolean activate)](#addDocument-float-float-boolean-) | Adds an empty document with the first page dimensions  width  and  height . |
-| [addGlyphs(XpsFont font, float fontRenderingEmSize, float originX, float originY, String unicodeString)](#addGlyphs-com.aspose.xps.XpsFont-float-float-float-java.lang.String-) | Adds new glyphs to the active page. |
-| [addGlyphs(String fontFamily, float fontRenderingEmSize, XpsFontStyle fontStyle, float originX, float originY, String unicodeString)](#addGlyphs-java.lang.String-float-com.aspose.xps.XpsFontStyle-float-float-java.lang.String-) | Adds new glyphs to the active page. |
-| [addOutlineEntry(String description, int outlineLevel, XpsHyperlinkTarget target)](#addOutlineEntry-java.lang.String-int-com.aspose.xps.XpsHyperlinkTarget-) | Adds an outline entry to the document. |
-| [addPage()](#addPage--) | Adds an empty page to the document with default page size. |
-| [addPage(boolean activate)](#addPage-boolean-) | Adds an empty page to the document with default page size. |
-| [addPage(XpsPage page)](#addPage-com.aspose.xps.XpsPage-) | Adds a page to the document and selects added page as active. |
-| [addPage(XpsPage page, boolean activate)](#addPage-com.aspose.xps.XpsPage-boolean-) | Adds a page to the document. |
-| [addPage(float width, float height)](#addPage-float-float-) | Adds an empty page to the document with specified  width  and  height . |
-| [addPage(float width, float height, boolean activate)](#addPage-float-float-boolean-) | Adds an empty page to the document with specified  width  and  height . |
-| [addPath(XpsPathGeometry data)](#addPath-com.aspose.xps.XpsPathGeometry-) | Adds a new path to the active page. |
-| [close()](#close--) | Disposes the instance. |
+| [<T>insert(int index, T element)](#-T-insert-int-T-) | Inserts an element (Canvas, Path, or Glyphs) to the page at  index  position. |
+| [<T>remove(T element)](#-T-remove-T-) | Removes an element from the page. |
+| [addCanvas()](#addCanvas--) | Adds a new canvas to the page. |
+| [addGlyphs(XpsFont font, float fontRenderingEmSize, float originX, float originY, String unicodeString)](#addGlyphs-com.aspose.xps.XpsFont-float-float-float-java.lang.String-) | Adds new glyphs to the page. |
+| [addGlyphs(String fontFamily, float fontRenderingEmSize, XpsFontStyle fontStyle, float originX, float originY, String unicodeString)](#addGlyphs-java.lang.String-float-com.aspose.xps.XpsFontStyle-float-float-java.lang.String-) | Adds new glyphs to the page. |
+| [addOutlineEntry(String description, int outlineLevel, int targetPageNumber)](#addOutlineEntry-java.lang.String-int-int-) | Adds an outline entry to the document. |
+| [addPath(XpsPathGeometry data)](#addPath-com.aspose.xps.XpsPathGeometry-) | Adds a new path to the page. |
 | [createArcSegment(Point2D point, Dimension2D size, float rotationAngle, boolean isLargeArc, XpsSweepDirection sweepDirection)](#createArcSegment-java.awt.geom.Point2D-java.awt.geom.Dimension2D-float-boolean-com.aspose.xps.XpsSweepDirection-) | Creates a new stroked elliptical arc segment. |
 | [createArcSegment(Point2D point, Dimension2D size, float rotationAngle, boolean isLargeArc, XpsSweepDirection sweepDirection, boolean isStroked)](#createArcSegment-java.awt.geom.Point2D-java.awt.geom.Dimension2D-float-boolean-com.aspose.xps.XpsSweepDirection-boolean-) | Creates a new elliptical arc segment. |
 | [createCanvas()](#createCanvas--) | Creates a new canvas. |
@@ -56,16 +38,10 @@ Class incapsulating the main entity of XPS document that provides manipulation m
 | [createColor(int a, int r, int g, int b)](#createColor-int-int-int-int-) | Creates a new color in sRGB color space. |
 | [createColor(Color color)](#createColor-java.awt.Color-) | Creates a new color. |
 | [createColor(String path, float[] components)](#createColor-java.lang.String-float...-) | Creates a new color in ICC based color space. |
-| [createFont(InputStream stream)](#createFont-java.io.InputStream-) | Creates a new TrueType font resource out of stream. |
-| [createFont(String fontFamily, XpsFontStyle fontStyle)](#createFont-java.lang.String-com.aspose.xps.XpsFontStyle-) | Creates a new TrueType font resource. |
 | [createGlyphs(XpsFont font, float fontRenderingEmSize, float originX, float originY, String unicodeString)](#createGlyphs-com.aspose.xps.XpsFont-float-float-float-java.lang.String-) | Creates new glyphs. |
 | [createGlyphs(String fontFamily, float fontRenderingEmSize, XpsFontStyle fontStyle, float originX, float originY, String unicodeString)](#createGlyphs-java.lang.String-float-com.aspose.xps.XpsFontStyle-float-float-java.lang.String-) | Creates new glyphs. |
 | [createGradientStop(XpsColor color, float offset)](#createGradientStop-com.aspose.xps.XpsColor-float-) | Creates a new gradient stop. |
 | [createGradientStop(Color color, float offset)](#createGradientStop-java.awt.Color-float-) | Creates a new gradient stop. |
-| [createIccProfile(InputStream stream)](#createIccProfile-java.io.InputStream-) | Creates a new ICC profile resource out of  stream . |
-| [createIccProfile(String iccProfilePath)](#createIccProfile-java.lang.String-) | Creates a new ICC profile resource out of ICC profile file located at the  iccProfilePath . |
-| [createImage(InputStream stream)](#createImage-java.io.InputStream-) | Creates a new image resource out of  stream . |
-| [createImage(String imagePath)](#createImage-java.lang.String-) | Creates a new image resource out of image file located at the  imagePath . |
 | [createImageBrush(XpsImage image, Rectangle2D viewbox, Rectangle2D viewport)](#createImageBrush-com.aspose.xps.XpsImage-java.awt.geom.Rectangle2D-java.awt.geom.Rectangle2D-) | Creates a new image brush. |
 | [createImageBrush(String imagePath, Rectangle2D viewbox, Rectangle2D viewport)](#createImageBrush-java.lang.String-java.awt.geom.Rectangle2D-java.awt.geom.Rectangle2D-) | Creates a new image brush. |
 | [createLinearGradientBrush(Point2D startPoint, Point2D endPoint)](#createLinearGradientBrush-java.awt.geom.Point2D-java.awt.geom.Point2D-) | Creates a new linear gradient brush. |
@@ -91,95 +67,26 @@ Class incapsulating the main entity of XPS document that provides manipulation m
 | [createSolidColorBrush(Color color)](#createSolidColorBrush-java.awt.Color-) | Creates a new solid color brush. |
 | [createVisualBrush(XpsContentElement element, Rectangle2D viewbox, Rectangle2D viewport)](#createVisualBrush-com.aspose.xps.XpsContentElement-java.awt.geom.Rectangle2D-java.awt.geom.Rectangle2D-) | Creates a new visual brush. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getActiveDocument()](#getActiveDocument--) | Returns the active document number. |
-| [getActivePage()](#getActivePage--) | Returns the active page number within the active document. |
 | [getClass()](#getClass--) |  |
-| [getDocumentCount()](#getDocumentCount--) | Returns the number of documents inside the XPS package. |
-| [getDocumentPrintTicket(int documentIndex)](#getDocumentPrintTicket-int-) | Gets the print ticket of the document indexed by  documentIndex . |
-| [getJobPrintTicket()](#getJobPrintTicket--) | Returns the document's job print ticket. |
-| [getPage()](#getPage--) | Returns the  XpsPage  instance for active page. |
+| [getHeight()](#getHeight--) | Returns the height of the page, expressed as a real number in units of the effective coordinate space. |
 | [getPageCount()](#getPageCount--) | Returns the number of pages in the active document. |
-| [getPagePrintTicket(int documentIndex, int pageIndex)](#getPagePrintTicket-int-int-) | Gets the print ticket of the page indexed by  pageIndex  in the document indexed by  documentIndex . |
 | [getTotalPageCount()](#getTotalPageCount--) | Returns the total number of pages in all documents inside XPS document. |
 | [getUtils()](#getUtils--) | Gets the object that provides utilities beyond the formal XPS manipulation API. |
+| [getWidth()](#getWidth--) | Returns the width of the page, expressed as a real number in units of the effective coordinate space. |
 | [hashCode()](#hashCode--) |  |
-| [insertCanvas(int index)](#insertCanvas-int-) | Inserts a new canvas to the active page at  index  position. |
-| [insertDocument(int index)](#insertDocument-int-) | Inserts an empty document with default page size at  index  position and selects inserted document as active. |
-| [insertDocument(int index, boolean activate)](#insertDocument-int-boolean-) | Inserts an empty document with default page size at  index  position. |
-| [insertDocument(int index, float width, float height)](#insertDocument-int-float-float-) | Inserts an empty document with the first page dimensions  width  and  height  at  index  position and selects inserted document as active. |
-| [insertDocument(int index, float width, float height, boolean activate)](#insertDocument-int-float-float-boolean-) | Inserts an empty document with the first page dimensions  width  and  height  at  index  position. |
-| [insertGlyphs(int index, XpsFont font, float fontSize, float originX, float originY, String unicodeString)](#insertGlyphs-int-com.aspose.xps.XpsFont-float-float-float-java.lang.String-) | Inserts new glyphs to the active page at  index  position. |
-| [insertGlyphs(int index, String fontFamily, float fontSize, XpsFontStyle fontStyle, float originX, float originY, String unicodeString)](#insertGlyphs-int-java.lang.String-float-com.aspose.xps.XpsFontStyle-float-float-java.lang.String-) | Inserts new glyphs to the active page at  index  position. |
-| [insertPage(int index)](#insertPage-int-) | Inserts an empty page to the document with default page size at  index  position and select inserted page as active. |
-| [insertPage(int index, boolean activate)](#insertPage-int-boolean-) | Inserts an empty page to the document with default page size at  index  position. |
-| [insertPage(int index, XpsPage page)](#insertPage-int-com.aspose.xps.XpsPage-) | Inserts a page to the document at  index  position and selects inserted page as active. |
-| [insertPage(int index, XpsPage page, boolean activate)](#insertPage-int-com.aspose.xps.XpsPage-boolean-) | Inserts a page to the document at  index  position. |
-| [insertPage(int index, float width, float height)](#insertPage-int-float-float-) | Inserts an empty page to the document with specified  width  and  height  at  index  position and selects inserted page as active. |
-| [insertPage(int index, float width, float height, boolean activate)](#insertPage-int-float-float-boolean-) | Inserts an empty page to the document with specified  width  and  height  at  index  position. |
-| [insertPath(int index, XpsPathGeometry data)](#insertPath-int-com.aspose.xps.XpsPathGeometry-) | Inserts a new path to the active page at  index  position. |
-| [isLicensed()](#isLicensed--) | Indicates whether Aspose.Page for Java product license is accessed and valid. |
-| [merge(String[] filesForMerge, OutputStream outStream)](#merge-java.lang.String---java.io.OutputStream-) | Merging several XPS files into one XPS document. |
-| [merge(String[] filesForMerge, String outXpsFilePath)](#merge-java.lang.String---java.lang.String-) | Merging several XPS files into one XPS document. |
-| [mergeToPdf(String outPdfFilePath, String[] filesForMerge, PdfSaveOptions options)](#mergeToPdf-java.lang.String-java.lang.String---com.aspose.xps.rendering.PdfSaveOptions-) | Merging XPS documents to PDF using the  Device  instance. |
-| [mergeToPdf(String[] filesForMerge, OutputStream pdfStream, PdfSaveOptions options)](#mergeToPdf-java.lang.String---java.io.OutputStream-com.aspose.xps.rendering.PdfSaveOptions-) | Merging XPS documents to PDF using the  Device  instance. |
+| [insertCanvas(int index)](#insertCanvas-int-) | Inserts a new canvas to the page at  index  position. |
+| [insertGlyphs(int index, XpsFont font, float fontSize, float originX, float originY, String unicodeString)](#insertGlyphs-int-com.aspose.xps.XpsFont-float-float-float-java.lang.String-) | Inserts new glyphs to the page at  index  position. |
+| [insertGlyphs(int index, String fontFamily, float fontSize, XpsFontStyle fontStyle, float originX, float originY, String unicodeString)](#insertGlyphs-int-java.lang.String-float-com.aspose.xps.XpsFontStyle-float-float-java.lang.String-) | Inserts new glyphs to the page at  index  position. |
+| [insertPath(int index, XpsPathGeometry data)](#insertPath-int-com.aspose.xps.XpsPathGeometry-) | Inserts a new path to the page at  index  position. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [removeAt(int index)](#removeAt-int-) | Removes an element at  index  position from the active page. |
-| [removeDocumentAt(int index)](#removeDocumentAt-int-) | Removes a document at  index  position. |
-| [removePage(XpsPage page)](#removePage-com.aspose.xps.XpsPage-) | Removes a page from the document. |
-| [removePageAt(int index)](#removePageAt-int-) | Removes a page from the document at  index  position. |
-| [save(Device device, SaveOptions options)](#save-com.aspose.page.Device-com.aspose.page.SaveOptions-) | Saves the document using the  Device  instance. |
-| [save(OutputStream stream)](#save-java.io.OutputStream-) | Saves XPS document to stream. |
-| [save(String path)](#save-java.lang.String-) | Saves XPS document to the XPS file located at the  path . |
-| [saveAsImage(ImageSaveOptions options)](#saveAsImage-com.aspose.xps.rendering.ImageSaveOptions-) | Saves the document in a bitmap image format. |
-| [saveAsPdf(OutputStream stream, PdfSaveOptions options)](#saveAsPdf-java.io.OutputStream-com.aspose.xps.rendering.PdfSaveOptions-) | Saves the document in PDF format. |
-| [saveAsPdf(String outPdfFilePath, PdfSaveOptions options)](#saveAsPdf-java.lang.String-com.aspose.xps.rendering.PdfSaveOptions-) | Saves the document in PDF format. |
-| [saveAsPs(OutputStream stream, PsSaveOptions options)](#saveAsPs-java.io.OutputStream-com.aspose.eps.device.PsSaveOptions-) | Saves the document in PS format. |
-| [saveAsPs(String outPsFilePath, PsSaveOptions options)](#saveAsPs-java.lang.String-com.aspose.eps.device.PsSaveOptions-) | Saves the document in PostSscript format. |
-| [selectActiveDocument(int documentNumber)](#selectActiveDocument-int-) | Selects an active document for editing. |
-| [selectActivePage(int pageNumber)](#selectActivePage-int-) | Selects an active document page for editing. |
-| [setDocumentPrintTicket(int documentIndex, DocumentPrintTicket printTicket)](#setDocumentPrintTicket-int-com.aspose.xps.metadata.DocumentPrintTicket-) | Links the  printTicket  to the document indexed by  documentIndex . |
-| [setJobPrintTicket(JobPrintTicket value)](#setJobPrintTicket-com.aspose.xps.metadata.JobPrintTicket-) | Sets the document's job print ticket. |
-| [setPagePrintTicket(int documentIndex, int pageIndex, PagePrintTicket printTicket)](#setPagePrintTicket-int-int-com.aspose.xps.metadata.PagePrintTicket-) | Links the  printTicket  to the page indexed by  pageIndex  in the document indexed by  documentIndex . |
+| [removeAt(int index)](#removeAt-int-) | Removes an element at  index  position from the page. |
+| [setHeight(float value)](#setHeight-float-) | Sets the height of the page, expressed as a real number in units of the effective coordinate space. |
+| [setWidth(float value)](#setWidth-float-) | Sets the width of the page, expressed as a real number in units of the effective coordinate space. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### XpsDocument() {#XpsDocument--}
-```
-public XpsDocument()
-```
-
-
-Creates empty XPS document with default page size.
-
-### XpsDocument(String path) {#XpsDocument-java.lang.String-}
-```
-public XpsDocument(String path)
-```
-
-
-Opens an existing XPS document located at the  path .
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| path | java.lang.String | Location of the document. |
-
-### XpsDocument(InputStream stream, LoadOptions options) {#XpsDocument-java.io.InputStream-com.aspose.xps.LoadOptions-}
-```
-public XpsDocument(InputStream stream, LoadOptions options)
-```
-
-
-Loads an existing document stored in the  stream  as XPS document.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | java.io.InputStream | Document stream. |
-| options | [LoadOptions](../../com.aspose.xps/loadoptions) | Document loading options. |
-
 ### <T>add(T element) {#-T-add-T-}
 ```
 public T <T>add(T element)
@@ -201,7 +108,7 @@ public T <T>insert(int index, T element)
 ```
 
 
-Inserts an element (Canvas, Path, or Glyphs) to the active page at  index  position.
+Inserts an element (Canvas, Path, or Glyphs) to the page at  index  position.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -217,7 +124,7 @@ public T <T>remove(T element)
 ```
 
 
-Removes an element from the active page.
+Removes an element from the page.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -232,67 +139,17 @@ public XpsCanvas addCanvas()
 ```
 
 
-Adds a new canvas to the active page.
+Adds a new canvas to the page.
 
 **Returns:**
 [XpsCanvas](../../com.aspose.xps/xpscanvas) - Added canvas.
-### addDocument() {#addDocument--}
-```
-public void addDocument()
-```
-
-
-Adds an empty document with default page size and selects added document as active.
-
-### addDocument(boolean activate) {#addDocument-boolean-}
-```
-public void addDocument(boolean activate)
-```
-
-
-Adds an empty document with default page size.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| activate | boolean | Flag indicating whether to select added document as active. |
-
-### addDocument(float width, float height) {#addDocument-float-float-}
-```
-public void addDocument(float width, float height)
-```
-
-
-Adds an empty document with the first page dimensions  width  and  height  and selects added document as active.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| width | float | Width of the first page. |
-| height | float | Height of the first page. |
-
-### addDocument(float width, float height, boolean activate) {#addDocument-float-float-boolean-}
-```
-public void addDocument(float width, float height, boolean activate)
-```
-
-
-Adds an empty document with the first page dimensions  width  and  height .
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| width | float | Width of the first page. |
-| height | float | Height of the first page. |
-| activate | boolean | Flag indicating whether to select added document as active. |
-
 ### addGlyphs(XpsFont font, float fontRenderingEmSize, float originX, float originY, String unicodeString) {#addGlyphs-com.aspose.xps.XpsFont-float-float-float-java.lang.String-}
 ```
 public XpsGlyphs addGlyphs(XpsFont font, float fontRenderingEmSize, float originX, float originY, String unicodeString)
 ```
 
 
-Adds new glyphs to the active page.
+Adds new glyphs to the page.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -311,7 +168,7 @@ public XpsGlyphs addGlyphs(String fontFamily, float fontRenderingEmSize, XpsFont
 ```
 
 
-Adds new glyphs to the active page.
+Adds new glyphs to the page.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -325,9 +182,9 @@ Adds new glyphs to the active page.
 
 **Returns:**
 [XpsGlyphs](../../com.aspose.xps/xpsglyphs) - Added glyphs.
-### addOutlineEntry(String description, int outlineLevel, XpsHyperlinkTarget target) {#addOutlineEntry-java.lang.String-int-com.aspose.xps.XpsHyperlinkTarget-}
+### addOutlineEntry(String description, int outlineLevel, int targetPageNumber) {#addOutlineEntry-java.lang.String-int-int-}
 ```
-public void addOutlineEntry(String description, int outlineLevel, XpsHyperlinkTarget target)
+public void addOutlineEntry(String description, int outlineLevel, int targetPageNumber)
 ```
 
 
@@ -338,104 +195,15 @@ Adds an outline entry to the document.
 | --- | --- | --- |
 | description | java.lang.String | The entry description. |
 | outlineLevel | int | The outline level. |
-| target | [XpsHyperlinkTarget](../../com.aspose.xps/xpshyperlinktarget) | The entry target. |
+| targetPageNumber | int | The target page number. |
 
-### addPage() {#addPage--}
-```
-public XpsPage addPage()
-```
-
-
-Adds an empty page to the document with default page size.
-
-**Returns:**
-[XpsPage](../../com.aspose.xps/xpspage) - Added page.
-### addPage(boolean activate) {#addPage-boolean-}
-```
-public XpsPage addPage(boolean activate)
-```
-
-
-Adds an empty page to the document with default page size.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| activate | boolean | Flag indicating whether to select added page as active. |
-
-**Returns:**
-[XpsPage](../../com.aspose.xps/xpspage) - Added page.
-### addPage(XpsPage page) {#addPage-com.aspose.xps.XpsPage-}
-```
-public XpsPage addPage(XpsPage page)
-```
-
-
-Adds a page to the document and selects added page as active.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| page | [XpsPage](../../com.aspose.xps/xpspage) | Page to be added. |
-
-**Returns:**
-[XpsPage](../../com.aspose.xps/xpspage) - Added page.
-### addPage(XpsPage page, boolean activate) {#addPage-com.aspose.xps.XpsPage-boolean-}
-```
-public XpsPage addPage(XpsPage page, boolean activate)
-```
-
-
-Adds a page to the document.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| page | [XpsPage](../../com.aspose.xps/xpspage) | Page to be added. |
-| activate | boolean | Flag indicating whether to select added page as active. |
-
-**Returns:**
-[XpsPage](../../com.aspose.xps/xpspage) - Added page.
-### addPage(float width, float height) {#addPage-float-float-}
-```
-public XpsPage addPage(float width, float height)
-```
-
-
-Adds an empty page to the document with specified  width  and  height .
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| width | float | Width of a new page. |
-| height | float | Height of a new page. |
-
-**Returns:**
-[XpsPage](../../com.aspose.xps/xpspage) - Added page.
-### addPage(float width, float height, boolean activate) {#addPage-float-float-boolean-}
-```
-public XpsPage addPage(float width, float height, boolean activate)
-```
-
-
-Adds an empty page to the document with specified  width  and  height .
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| width | float | Width of a new page. |
-| height | float | Height of a new page. |
-| activate | boolean | Flag indicating whether to select added page as active. |
-
-**Returns:**
-[XpsPage](../../com.aspose.xps/xpspage) - Added page.
 ### addPath(XpsPathGeometry data) {#addPath-com.aspose.xps.XpsPathGeometry-}
 ```
 public XpsPath addPath(XpsPathGeometry data)
 ```
 
 
-Adds a new path to the active page.
+Adds a new path to the page.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -444,14 +212,6 @@ Adds a new path to the active page.
 
 **Returns:**
 [XpsPath](../../com.aspose.xps/xpspath) - Added path.
-### close() {#close--}
-```
-public void close()
-```
-
-
-Disposes the instance.
-
 ### createArcSegment(Point2D point, Dimension2D size, float rotationAngle, boolean isLargeArc, XpsSweepDirection sweepDirection) {#createArcSegment-java.awt.geom.Point2D-java.awt.geom.Dimension2D-float-boolean-com.aspose.xps.XpsSweepDirection-}
 ```
 public XpsArcSegment createArcSegment(Point2D point, Dimension2D size, float rotationAngle, boolean isLargeArc, XpsSweepDirection sweepDirection)
@@ -618,37 +378,6 @@ Creates a new color in ICC based color space.
 
 **Returns:**
 [XpsColor](../../com.aspose.xps/xpscolor) - New color.
-### createFont(InputStream stream) {#createFont-java.io.InputStream-}
-```
-public XpsFont createFont(InputStream stream)
-```
-
-
-Creates a new TrueType font resource out of stream.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | java.io.InputStream | The stream containing the ICC profile to take as a resource. |
-
-**Returns:**
-[XpsFont](../../com.aspose.xps/xpsfont) - New TrueType font resource.
-### createFont(String fontFamily, XpsFontStyle fontStyle) {#createFont-java.lang.String-com.aspose.xps.XpsFontStyle-}
-```
-public XpsFont createFont(String fontFamily, XpsFontStyle fontStyle)
-```
-
-
-Creates a new TrueType font resource.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fontFamily | java.lang.String | The font family. |
-| fontStyle | [XpsFontStyle](../../com.aspose.xps/xpsfontstyle) | The font style. See  XpsFont  class constants (which are bit flags) for values available to combine. |
-
-**Returns:**
-[XpsFont](../../com.aspose.xps/xpsfont) - New TrueType font resource.
 ### createGlyphs(XpsFont font, float fontRenderingEmSize, float originX, float originY, String unicodeString) {#createGlyphs-com.aspose.xps.XpsFont-float-float-float-java.lang.String-}
 ```
 public XpsGlyphs createGlyphs(XpsFont font, float fontRenderingEmSize, float originX, float originY, String unicodeString)
@@ -720,66 +449,6 @@ Creates a new gradient stop.
 
 **Returns:**
 [XpsGradientStop](../../com.aspose.xps/xpsgradientstop) - New gradient stop.
-### createIccProfile(InputStream stream) {#createIccProfile-java.io.InputStream-}
-```
-public XpsIccProfile createIccProfile(InputStream stream)
-```
-
-
-Creates a new ICC profile resource out of  stream .
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | java.io.InputStream | The stream containing the ICC profile to take as a resource. |
-
-**Returns:**
-[XpsIccProfile](../../com.aspose.xps/xpsiccprofile) - New ICC profile resource.
-### createIccProfile(String iccProfilePath) {#createIccProfile-java.lang.String-}
-```
-public XpsIccProfile createIccProfile(String iccProfilePath)
-```
-
-
-Creates a new ICC profile resource out of ICC profile file located at the  iccProfilePath .
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| iccProfilePath | java.lang.String | The path to the ICC profile to take as a resource. |
-
-**Returns:**
-[XpsIccProfile](../../com.aspose.xps/xpsiccprofile) - New ICC profile resource.
-### createImage(InputStream stream) {#createImage-java.io.InputStream-}
-```
-public XpsImage createImage(InputStream stream)
-```
-
-
-Creates a new image resource out of  stream .
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | java.io.InputStream | The stream containing the image to take as a resource. |
-
-**Returns:**
-[XpsImage](../../com.aspose.xps/xpsimage) - New image resource.
-### createImage(String imagePath) {#createImage-java.lang.String-}
-```
-public XpsImage createImage(String imagePath)
-```
-
-
-Creates a new image resource out of image file located at the  imagePath .
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| imagePath | java.lang.String | The path to the image to take as a resource. |
-
-**Returns:**
-[XpsImage](../../com.aspose.xps/xpsimage) - New image resource.
 ### createImageBrush(XpsImage image, Rectangle2D viewbox, Rectangle2D viewport) {#createImageBrush-com.aspose.xps.XpsImage-java.awt.geom.Rectangle2D-java.awt.geom.Rectangle2D-}
 ```
 public XpsImageBrush createImageBrush(XpsImage image, Rectangle2D viewbox, Rectangle2D viewport)
@@ -1157,7 +826,7 @@ Creates a new visual brush.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| element | [XpsContentElement](../../com.aspose.xps/xpscontentelement) | The XPS element (Canvas, Path or Glyphs) for Visual property od visual brush. |
+| element | [XpsContentElement](../../com.aspose.xps/xpscontentelement) | The XPS element (Canvas, Path, or Glyphs) for Visual property od visual brush. |
 | viewbox | java.awt.geom.Rectangle2D | The position and dimensions of the brush's source content. |
 | viewport | java.awt.geom.Rectangle2D | The region in the containing coordinate space of the prime brush tile that is (possibly repeatedly) applied to fill the region to which the brush is applied |
 
@@ -1178,26 +847,6 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
-### getActiveDocument() {#getActiveDocument--}
-```
-public int getActiveDocument()
-```
-
-
-Returns the active document number.
-
-**Returns:**
-int - The int value.
-### getActivePage() {#getActivePage--}
-```
-public int getActivePage()
-```
-
-
-Returns the active page number within the active document.
-
-**Returns:**
-int - The int value.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -1208,51 +857,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getDocumentCount() {#getDocumentCount--}
+### getHeight() {#getHeight--}
 ```
-public int getDocumentCount()
+public float getHeight()
 ```
 
 
-Returns the number of documents inside the XPS package.
+Returns the height of the page, expressed as a real number in units of the effective coordinate space.
 
 **Returns:**
-int - The number of documents inside the XPS package.
-### getDocumentPrintTicket(int documentIndex) {#getDocumentPrintTicket-int-}
-```
-public DocumentPrintTicket getDocumentPrintTicket(int documentIndex)
-```
-
-
-Gets the print ticket of the document indexed by  documentIndex .
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| documentIndex | int | Index of the document whose print ticket to return. |
-
-**Returns:**
-[DocumentPrintTicket](../../com.aspose.xps.metadata/documentprintticket) - Document's print ticket.
-### getJobPrintTicket() {#getJobPrintTicket--}
-```
-public JobPrintTicket getJobPrintTicket()
-```
-
-
-Returns the document's job print ticket.
-
-**Returns:**
-[JobPrintTicket](../../com.aspose.xps.metadata/jobprintticket) - The document's job print ticket.
-### getPage() {#getPage--}
-```
-public XpsPage getPage()
-```
-
-
-Returns the  XpsPage  instance for active page.
-
-**Returns:**
-[XpsPage](../../com.aspose.xps/xpspage) - The  XpsPage  instance for active page.
+float - The height of the page.
 ### getPageCount() {#getPageCount--}
 ```
 public int getPageCount()
@@ -1263,22 +877,6 @@ Returns the number of pages in the active document.
 
 **Returns:**
 int - The number of pages in the active document.
-### getPagePrintTicket(int documentIndex, int pageIndex) {#getPagePrintTicket-int-int-}
-```
-public PagePrintTicket getPagePrintTicket(int documentIndex, int pageIndex)
-```
-
-
-Gets the print ticket of the page indexed by  pageIndex  in the document indexed by  documentIndex .
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| documentIndex | int | Index of the document. |
-| pageIndex | int | Index of the page whose print ticket to return. |
-
-**Returns:**
-[PagePrintTicket](../../com.aspose.xps.metadata/pageprintticket) - Page's print ticket.
 ### getTotalPageCount() {#getTotalPageCount--}
 ```
 public int getTotalPageCount()
@@ -1298,7 +896,17 @@ public DocumentUtils getUtils()
 Gets the object that provides utilities beyond the formal XPS manipulation API.
 
 **Returns:**
-[DocumentUtils](../../com.aspose.xps/documentutils) - The utilities object.
+[DocumentUtils](../../com.aspose.xps/documentutils) - The object that provides utilities beyond the formal XPS manipulation API.
+### getWidth() {#getWidth--}
+```
+public float getWidth()
+```
+
+
+Returns the width of the page, expressed as a real number in units of the effective coordinate space.
+
+**Returns:**
+float - The width of the page.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -1315,7 +923,7 @@ public XpsCanvas insertCanvas(int index)
 ```
 
 
-Inserts a new canvas to the active page at  index  position.
+Inserts a new canvas to the page at  index  position.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1324,71 +932,13 @@ Inserts a new canvas to the active page at  index  position.
 
 **Returns:**
 [XpsCanvas](../../com.aspose.xps/xpscanvas) - Inserted canvas.
-### insertDocument(int index) {#insertDocument-int-}
-```
-public void insertDocument(int index)
-```
-
-
-Inserts an empty document with default page size at  index  position and selects inserted document as active.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | Position at which a document should be inserted. |
-
-### insertDocument(int index, boolean activate) {#insertDocument-int-boolean-}
-```
-public void insertDocument(int index, boolean activate)
-```
-
-
-Inserts an empty document with default page size at  index  position.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | Position at which a document should be inserted. |
-| activate | boolean | Flag indicating whether to select inserted document as active. |
-
-### insertDocument(int index, float width, float height) {#insertDocument-int-float-float-}
-```
-public void insertDocument(int index, float width, float height)
-```
-
-
-Inserts an empty document with the first page dimensions  width  and  height  at  index  position and selects inserted document as active.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | Position at which a document should be inserted. |
-| width | float | Width of the first page. |
-| height | float | Height of the first page. |
-
-### insertDocument(int index, float width, float height, boolean activate) {#insertDocument-int-float-float-boolean-}
-```
-public void insertDocument(int index, float width, float height, boolean activate)
-```
-
-
-Inserts an empty document with the first page dimensions  width  and  height  at  index  position.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | Position at which a document should be inserted. |
-| width | float | Width of the first page. |
-| height | float | Height of the first page. |
-| activate | boolean | Flag indicating whether to select inserted document as active. |
-
 ### insertGlyphs(int index, XpsFont font, float fontSize, float originX, float originY, String unicodeString) {#insertGlyphs-int-com.aspose.xps.XpsFont-float-float-float-java.lang.String-}
 ```
 public XpsGlyphs insertGlyphs(int index, XpsFont font, float fontSize, float originX, float originY, String unicodeString)
 ```
 
 
-Inserts new glyphs to the active page at  index  position.
+Inserts new glyphs to the page at  index  position.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1408,7 +958,7 @@ public XpsGlyphs insertGlyphs(int index, String fontFamily, float fontSize, XpsF
 ```
 
 
-Inserts new glyphs to the active page at  index  position.
+Inserts new glyphs to the page at  index  position.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1423,112 +973,13 @@ Inserts new glyphs to the active page at  index  position.
 
 **Returns:**
 [XpsGlyphs](../../com.aspose.xps/xpsglyphs) - Inserted glyphs.
-### insertPage(int index) {#insertPage-int-}
-```
-public XpsPage insertPage(int index)
-```
-
-
-Inserts an empty page to the document with default page size at  index  position and select inserted page as active.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | Position at which a page should be inserted. |
-
-**Returns:**
-[XpsPage](../../com.aspose.xps/xpspage) - Inserted page.
-### insertPage(int index, boolean activate) {#insertPage-int-boolean-}
-```
-public XpsPage insertPage(int index, boolean activate)
-```
-
-
-Inserts an empty page to the document with default page size at  index  position.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | Position at which a page should be inserted. |
-| activate | boolean | Flag indicating whether to select inserted page as active. |
-
-**Returns:**
-[XpsPage](../../com.aspose.xps/xpspage) - Inserted page.
-### insertPage(int index, XpsPage page) {#insertPage-int-com.aspose.xps.XpsPage-}
-```
-public XpsPage insertPage(int index, XpsPage page)
-```
-
-
-Inserts a page to the document at  index  position and selects inserted page as active.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | Position at which a page should be added. |
-| page | [XpsPage](../../com.aspose.xps/xpspage) | Page to be inserted. |
-
-**Returns:**
-[XpsPage](../../com.aspose.xps/xpspage) - Inserted page.
-### insertPage(int index, XpsPage page, boolean activate) {#insertPage-int-com.aspose.xps.XpsPage-boolean-}
-```
-public XpsPage insertPage(int index, XpsPage page, boolean activate)
-```
-
-
-Inserts a page to the document at  index  position.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | Position at which a page should be added. |
-| page | [XpsPage](../../com.aspose.xps/xpspage) | Page to be inserted. |
-| activate | boolean | Flag indicating whether to select inserted page as active. |
-
-**Returns:**
-[XpsPage](../../com.aspose.xps/xpspage) - Inserted page.
-### insertPage(int index, float width, float height) {#insertPage-int-float-float-}
-```
-public XpsPage insertPage(int index, float width, float height)
-```
-
-
-Inserts an empty page to the document with specified  width  and  height  at  index  position and selects inserted page as active.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | Position at which a page should be inserted. |
-| width | float | Width of a new page. |
-| height | float | Height of a new page. |
-
-**Returns:**
-[XpsPage](../../com.aspose.xps/xpspage) - Inserted page.
-### insertPage(int index, float width, float height, boolean activate) {#insertPage-int-float-float-boolean-}
-```
-public XpsPage insertPage(int index, float width, float height, boolean activate)
-```
-
-
-Inserts an empty page to the document with specified  width  and  height  at  index  position.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | Position at which a page should be inserted. |
-| width | float | Width of a new page. |
-| height | float | Height of a new page. |
-| activate | boolean | Flag indicating whether to select inserted page as active. |
-
-**Returns:**
-[XpsPage](../../com.aspose.xps/xpspage) - Inserted page.
 ### insertPath(int index, XpsPathGeometry data) {#insertPath-int-com.aspose.xps.XpsPathGeometry-}
 ```
 public XpsPath insertPath(int index, XpsPathGeometry data)
 ```
 
 
-Inserts a new path to the active page at  index  position.
+Inserts a new path to the page at  index  position.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1538,74 +989,6 @@ Inserts a new path to the active page at  index  position.
 
 **Returns:**
 [XpsPath](../../com.aspose.xps/xpspath) - Inserted path.
-### isLicensed() {#isLicensed--}
-```
-public boolean isLicensed()
-```
-
-
-Indicates whether Aspose.Page for Java product license is accessed and valid.
-
-**Returns:**
-boolean - boolean value
-### merge(String[] filesForMerge, OutputStream outStream) {#merge-java.lang.String---java.io.OutputStream-}
-```
-public void merge(String[] filesForMerge, OutputStream outStream)
-```
-
-
-Merging several XPS files into one XPS document.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| filesForMerge | java.lang.String[] | XPS files for merging with this document. |
-| outStream | java.io.OutputStream | The output stream where to save merged XPS documents. |
-
-### merge(String[] filesForMerge, String outXpsFilePath) {#merge-java.lang.String---java.lang.String-}
-```
-public void merge(String[] filesForMerge, String outXpsFilePath)
-```
-
-
-Merging several XPS files into one XPS document.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| filesForMerge | java.lang.String[] | XPS files for merging with this document. |
-| outXpsFilePath | java.lang.String | The output XPS file path. |
-
-### mergeToPdf(String outPdfFilePath, String[] filesForMerge, PdfSaveOptions options) {#mergeToPdf-java.lang.String-java.lang.String---com.aspose.xps.rendering.PdfSaveOptions-}
-```
-public void mergeToPdf(String outPdfFilePath, String[] filesForMerge, PdfSaveOptions options)
-```
-
-
-Merging XPS documents to PDF using the  Device  instance.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| outPdfFilePath | java.lang.String | The output PDF file path. |
-| filesForMerge | java.lang.String[] | XPS files for merging with this document to an output device. |
-| options | [PdfSaveOptions](../../com.aspose.xps.rendering/pdfsaveoptions) | Document saving options. |
-
-### mergeToPdf(String[] filesForMerge, OutputStream pdfStream, PdfSaveOptions options) {#mergeToPdf-java.lang.String---java.io.OutputStream-com.aspose.xps.rendering.PdfSaveOptions-}
-```
-public void mergeToPdf(String[] filesForMerge, OutputStream pdfStream, PdfSaveOptions options)
-```
-
-
-Merging XPS documents to PDF using the  Device  instance.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| filesForMerge | java.lang.String[] | XPS files for merging with this document to an output device. |
-| pdfStream | java.io.OutputStream | The output stream to write the resulting PDF to. |
-| options | [PdfSaveOptions](../../com.aspose.xps.rendering/pdfsaveoptions) | Document saving options. |
-
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -1628,7 +1011,7 @@ public XpsContentElement removeAt(int index)
 ```
 
 
-Removes an element at  index  position from the active page.
+Removes an element at  index  position from the page.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1637,229 +1020,31 @@ Removes an element at  index  position from the active page.
 
 **Returns:**
 [XpsContentElement](../../com.aspose.xps/xpscontentelement) - Removed element.
-### removeDocumentAt(int index) {#removeDocumentAt-int-}
+### setHeight(float value) {#setHeight-float-}
 ```
-public void removeDocumentAt(int index)
+public void setHeight(float value)
 ```
 
 
-Removes a document at  index  position.
+Sets the height of the page, expressed as a real number in units of the effective coordinate space.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | Position at which a document should be removed. |
+| value | float | The height of the page. |
 
-### removePage(XpsPage page) {#removePage-com.aspose.xps.XpsPage-}
+### setWidth(float value) {#setWidth-float-}
 ```
-public XpsPage removePage(XpsPage page)
+public void setWidth(float value)
 ```
 
 
-Removes a page from the document.
+Sets the width of the page, expressed as a real number in units of the effective coordinate space.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| page | [XpsPage](../../com.aspose.xps/xpspage) | Page to be removed. |
-
-**Returns:**
-[XpsPage](../../com.aspose.xps/xpspage) - Removed page.
-### removePageAt(int index) {#removePageAt-int-}
-```
-public XpsPage removePageAt(int index)
-```
-
-
-Removes a page from the document at  index  position.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | Position at which a page should be removed. |
-
-**Returns:**
-[XpsPage](../../com.aspose.xps/xpspage) - Removed page.
-### save(Device device, SaveOptions options) {#save-com.aspose.page.Device-com.aspose.page.SaveOptions-}
-```
-public void save(Device device, SaveOptions options)
-```
-
-
-Saves the document using the  Device  instance.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| device | [Device](../../com.aspose.page/device) | The  Device  instance. |
-| options | [SaveOptions](../../com.aspose.page/saveoptions) | Document saving options. |
-
-### save(OutputStream stream) {#save-java.io.OutputStream-}
-```
-public void save(OutputStream stream)
-```
-
-
-Saves XPS document to stream.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | java.io.OutputStream | Stream XPS document to be saved into. |
-
-### save(String path) {#save-java.lang.String-}
-```
-public void save(String path)
-```
-
-
-Saves XPS document to the XPS file located at the  path .
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| path | java.lang.String | Location of the document. |
-
-### saveAsImage(ImageSaveOptions options) {#saveAsImage-com.aspose.xps.rendering.ImageSaveOptions-}
-```
-public byte[][][] saveAsImage(ImageSaveOptions options)
-```
-
-
-Saves the document in a bitmap image format.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| options | [ImageSaveOptions](../../com.aspose.xps.rendering/imagesaveoptions) | Options for saving the document in a bitmap image format. |
-
-**Returns:**
-byte[][][] - The resulting images byte arrays. The first dimension is for inner documents and the second one is for pages within inner documents.
-### saveAsPdf(OutputStream stream, PdfSaveOptions options) {#saveAsPdf-java.io.OutputStream-com.aspose.xps.rendering.PdfSaveOptions-}
-```
-public void saveAsPdf(OutputStream stream, PdfSaveOptions options)
-```
-
-
-Saves the document in PDF format.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | java.io.OutputStream | The stream to write the output PDF file to. |
-| options | [PdfSaveOptions](../../com.aspose.xps.rendering/pdfsaveoptions) | Options for saving the document in PDF format. |
-
-### saveAsPdf(String outPdfFilePath, PdfSaveOptions options) {#saveAsPdf-java.lang.String-com.aspose.xps.rendering.PdfSaveOptions-}
-```
-public void saveAsPdf(String outPdfFilePath, PdfSaveOptions options)
-```
-
-
-Saves the document in PDF format.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| outPdfFilePath | java.lang.String | The output PDF file path. |
-| options | [PdfSaveOptions](../../com.aspose.xps.rendering/pdfsaveoptions) | Options for saving the document in PDF format. |
-
-### saveAsPs(OutputStream stream, PsSaveOptions options) {#saveAsPs-java.io.OutputStream-com.aspose.eps.device.PsSaveOptions-}
-```
-public void saveAsPs(OutputStream stream, PsSaveOptions options)
-```
-
-
-Saves the document in PS format.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | java.io.OutputStream | The stream to write the output PS file to. |
-| options | [PsSaveOptions](../../com.aspose.eps.device/pssaveoptions) | Options for saving the document in PS format. |
-
-### saveAsPs(String outPsFilePath, PsSaveOptions options) {#saveAsPs-java.lang.String-com.aspose.eps.device.PsSaveOptions-}
-```
-public void saveAsPs(String outPsFilePath, PsSaveOptions options)
-```
-
-
-Saves the document in PostSscript format.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| outPsFilePath | java.lang.String | The output PostScript file path. |
-| options | [PsSaveOptions](../../com.aspose.eps.device/pssaveoptions) | Options for saving the document in PDF format. |
-
-### selectActiveDocument(int documentNumber) {#selectActiveDocument-int-}
-```
-public void selectActiveDocument(int documentNumber)
-```
-
-
-Selects an active document for editing.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| documentNumber | int | A document number. |
-
-### selectActivePage(int pageNumber) {#selectActivePage-int-}
-```
-public XpsPage selectActivePage(int pageNumber)
-```
-
-
-Selects an active document page for editing.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| pageNumber | int | A page number. |
-
-**Returns:**
-[XpsPage](../../com.aspose.xps/xpspage) -  XpsPage  instance for active page.
-### setDocumentPrintTicket(int documentIndex, DocumentPrintTicket printTicket) {#setDocumentPrintTicket-int-com.aspose.xps.metadata.DocumentPrintTicket-}
-```
-public void setDocumentPrintTicket(int documentIndex, DocumentPrintTicket printTicket)
-```
-
-
-Links the  printTicket  to the document indexed by  documentIndex .
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| documentIndex | int | Index of the document to link the print ticket to. |
-| printTicket | [DocumentPrintTicket](../../com.aspose.xps.metadata/documentprintticket) | The print ticket to link. |
-
-### setJobPrintTicket(JobPrintTicket value) {#setJobPrintTicket-com.aspose.xps.metadata.JobPrintTicket-}
-```
-public void setJobPrintTicket(JobPrintTicket value)
-```
-
-
-Sets the document's job print ticket.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [JobPrintTicket](../../com.aspose.xps.metadata/jobprintticket) | The document's job print ticket. |
-
-### setPagePrintTicket(int documentIndex, int pageIndex, PagePrintTicket printTicket) {#setPagePrintTicket-int-int-com.aspose.xps.metadata.PagePrintTicket-}
-```
-public void setPagePrintTicket(int documentIndex, int pageIndex, PagePrintTicket printTicket)
-```
-
-
-Links the  printTicket  to the page indexed by  pageIndex  in the document indexed by  documentIndex .
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| documentIndex | int | Index of the document. |
-| pageIndex | int | Index of the page to link the print ticket to. |
-| printTicket | [PagePrintTicket](../../com.aspose.xps.metadata/pageprintticket) | The print ticket to link. |
+| value | float | The width of the page. |
 
 ### toString() {#toString--}
 ```

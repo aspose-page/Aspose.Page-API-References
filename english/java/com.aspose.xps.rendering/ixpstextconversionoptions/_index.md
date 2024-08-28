@@ -3,7 +3,7 @@ title: IXpsTextConversionOptions
 second_title: Aspose.Page for Java API Reference
 description: Defines options for conversion of XPS to other formats.
 type: docs
-weight: 17
+weight: 19
 url: /java/com.aspose.xps.rendering/ixpstextconversionoptions/
 ---```
 public interface IXpsTextConversionOptions

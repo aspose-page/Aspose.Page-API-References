@@ -365,7 +365,7 @@ public String extractText(SaveOptions options, int startPage, int endPage)
 ```
 
 
-Extracts text from PS file. It works only for text that is written with TrueType fonts (Type 42) or composite fonts (Type 0) that consists of TrueType fonts. \*
+Extracts text from PS file. It works only for text that is written with TrueType fonts (Type 42) or composite fonts (Type 0) that consists of TrueType fonts.
 
 **Parameters:**
 | Parameter | Type | Description |

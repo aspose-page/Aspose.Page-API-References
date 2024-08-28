@@ -4,7 +4,7 @@ second_title: Aspose.Page for Java API Reference
 description: The class provides collecting hyperlinked XPS elements from the current page of an XPS document.
 type: docs
 weight: 10
-url: /java/com.aspose.xps.features/hyperlinkcollector/
+url: /java/com.aspose.xps.features.hyperlinkcollector/hyperlinkcollector/
 ---
 **Inheritance:**
 java.lang.Object

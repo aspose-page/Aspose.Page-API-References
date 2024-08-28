@@ -3,7 +3,7 @@ title: TextRenderingHint
 second_title: Aspose.Page for Java API Reference
 description: Specifies the quality of text rendering.
 type: docs
-weight: 23
+weight: 25
 url: /java/com.aspose.xps.rendering/textrenderinghint/
 ---
 **Inheritance:**
