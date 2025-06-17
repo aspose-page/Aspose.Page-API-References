@@ -43,6 +43,19 @@ is_root: true
 | [AsposeXMPAddNamespace](./xmp/xmpaddnamespace/) | Merge a Postscript files to PDF. |
 | [AsposeXMPAddSimpleProperties](./xmp/xmpaddsimpleproperties/) | Merge a Postscript files to PDF. |
 
+## EPS functions
+
+| Function | Description |
+| -------- | ----------- |
+| [AsposeCropEPS](./eps/cropeps/) | Crops EPS file. |
+| [AsposeResizeEPS](./eps/resizeeps/) | Resize EPS file. |
+
+## Image functions
+
+| Function | Description |
+| -------- | ----------- |
+| [AsposeSaveImageAsEps](./image/saveimageaseps/) | Save image as EPS file. |
+
 ## Core Functions
 
 | Function | Description |

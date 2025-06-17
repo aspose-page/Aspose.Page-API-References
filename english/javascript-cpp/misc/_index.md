@@ -2,7 +2,7 @@
 title: "Miscellaneous functions"
 second_title: Aspose.Page for JavaScript via C++
 description:  "Secondary functions for working with Postscript/XPS files."
-weight: 50
+weight: 90
 type: docs
 url: /javascript-cpp/misc/
 ---

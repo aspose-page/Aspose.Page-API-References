@@ -2,7 +2,7 @@
 title: "Core functions"
 second_title: Aspose.Page for JavaScript via C++
 description:  "Core functions for working with Postscript/XPS files."
-weight: 40
+weight: 60
 type: docs
 url: /javascript-cpp/core/
 ---
