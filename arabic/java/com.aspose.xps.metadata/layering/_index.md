@@ -1,6 +1,6 @@
 ---
 title: "PageWatermark.Layering"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف ميزة Layering الداخلية."
 type: docs
 weight: 10
@@ -16,16 +16,16 @@ public static final class PageWatermark.Layering extends Feature implements Page
 ```
 
 يصف ميزة Layering الداخلية. يحدد سلوك الطبقة للعلامة المائية.
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [Layering(PageWatermark.LayeringOption[] options)](#Layering-com.aspose.xps.metadata.PageWatermark.LayeringOption...-) | ينشئ نسخة جديدة. |
+| [Layering(PageWatermark.LayeringOption[] options)](#Layering-com.aspose.xps.metadata.PageWatermark.LayeringOption...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public Layering(PageWatermark.LayeringOption[] options)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

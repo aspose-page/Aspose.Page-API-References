@@ -1,6 +1,6 @@
 ---
 title: "JobAccountingSheet"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف ورقة المحاسبة التي سيتم إخراجها للوظيفة."
 type: docs
 weight: 44
@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class JobAccountingSheet extends Feature implements IJobPrintTicketItem
 ```
 
-يصف ورقة المحاسبة التي يجب إخراجها للوظيفة. يجب إخراج ورقة المحاسبة بحجم الصفحة الافتراضي  PageMediaSize  وباستخدام نوع الصفحة الافتراضي  PageMediaType . يجب عزل ورقة المحاسبة عن باقي الوظيفة. وهذا يعني أن أي خيارات إنهاء أو معالجة (مثل  JobDuplex ,  JobStaple , أو  JobBinding ) يجب ألا تشمل ورقة المحاسبة. قد تظهر ورقة المحاسبة كأول أو آخر صفحة في الوظيفة حسب تقدير المنفذ. https://docs.microsoft.com/en-us/windows/win32/printdocs/jobaccountingsheet
-## المنشئات
+يصف ورقة المحاسبة التي يجب إخراجها للوظيفة. يجب إخراج ورقة المحاسبة بحجم الصفحة الافتراضي  PageMediaSize  واستخدام نوع الصفحة الافتراضي  PageMediaType . يجب عزل ورقة المحاسبة عن باقي الوظيفة. وهذا يعني أن أي خيارات إنهاء أو معالجة (مثل  JobDuplex ,  JobStaple , أو  JobBinding ) يجب ألا تشمل ورقة المحاسبة. قد تظهر ورقة المحاسبة كأول أو آخر صفحة في الوظيفة حسب تقدير المنفذ. https://docs.microsoft.com/en-us/windows/win32/printdocs/jobaccountingsheet
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [JobAccountingSheet(JobAccountingSheet.JobAccountingSheetOption[] options)](#JobAccountingSheet-com.aspose.xps.metadata.JobAccountingSheet.JobAccountingSheetOption...-) | ينشئ نسخة جديدة. |
+| [JobAccountingSheet(JobAccountingSheet.JobAccountingSheetOption[] options)](#JobAccountingSheet-com.aspose.xps.metadata.JobAccountingSheet.JobAccountingSheetOption...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public JobAccountingSheet(JobAccountingSheet.JobAccountingSheetOption[] options)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

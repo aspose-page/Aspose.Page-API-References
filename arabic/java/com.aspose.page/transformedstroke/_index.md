@@ -1,6 +1,6 @@
 ---
 title: "TransformedStroke"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "خط يحتوي على تحويل."
 type: docs
 weight: 17
@@ -16,18 +16,18 @@ public class TransformedStroke implements Stroke
 ```
 
 خط يحتوي على تحويل.
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [TransformedStroke(Stroke base, AffineTransform at)](#TransformedStroke-java.awt.Stroke-java.awt.geom.AffineTransform-) | ينشئ TransformedStroke بناءً على Stroke آخر وAffineTransform. |
+| [TransformedStroke(Stroke base, AffineTransform at)](#TransformedStroke-java.awt.Stroke-java.awt.geom.AffineTransform-) | ينشئ TransformedStroke بناءً على Stroke آخر و AffineTransform. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [createStrokedShape(Shape s)](#createStrokedShape-java.awt.Shape-) | يرسم Shape المعطى بهذا stroke، مكوّنًا مخططًا. |
+| [createStrokedShape(Shape s)](#createStrokedShape-java.awt.Shape-) | يرسم الشكل المعطى باستخدام هذا الخط، مكوّنًا مخططًا. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBaseStroke()](#getBaseStroke--) | يحصل على stroke الأساسي. |
+| [getBaseStroke()](#getBaseStroke--) | يحصل على الخط الأساسي. |
 | [getClass()](#getClass--) |  |
 | [getTransform()](#getTransform--) | يحصل على تحويل. |
 | [hashCode()](#hashCode--) |  |
@@ -43,13 +43,13 @@ public TransformedStroke(Stroke base, AffineTransform at)
 ```
 
 
-ينشئ TransformedStroke بناءً على Stroke آخر وAffineTransform.
+ينشئ TransformedStroke بناءً على Stroke آخر و AffineTransform.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| base | java.awt.Stroke | قاعدة stroke. |
-| at | java.awt.geom.AffineTransform | التحويل AffineTransform. |
+| القاعدة | java.awt.Stroke | قاعدة الخط. |
+| في | java.awt.geom.AffineTransform | التحويل المتجانس. |
 
 ### createStrokedShape(Shape s) {#createStrokedShape-java.awt.Shape-}
 ```
@@ -57,15 +57,15 @@ public Shape createStrokedShape(Shape s)
 ```
 
 
-يرسم Shape المعطى بهذا stroke، مكوّنًا مخططًا. يُشوه هذا المخطط بواسطة AffineTransform الخاص بنا مقارنةً بالمخطط الذي كان سيُعطى بواسطة base stroke، ولكن فقط من حيث التحجيم (أي سمك الخطوط)، حيث يتم إلغاء الترجمة والدوران بعد عملية الرسم.
+يرسم الشكل المعطى باستخدام هذا الخط، مكوّنًا مخططًا. يتم تشويه هذا المخطط بواسطة AffineTransform الخاص بنا مقارنةً بالمخطط الذي كان سيُعطى بواسطة الخط الأساسي، ولكن فقط من حيث التحجيم (أي سمك الخطوط)، حيث يتم إلغاء الترجمة والدوران بعد عملية الرسم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| s | java.awt.Shape | كـ Shape لتحديد المخطط. |
+| s | java.awt.Shape | كـ Shape لتخطيطه. |
 
 **Returns:**
-java.awt.Shape - مخطط للـ shape.
+java.awt.Shape - مخطط الشكل.
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -80,17 +80,17 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getBaseStroke() {#getBaseStroke--}
 ```
 public Stroke getBaseStroke()
 ```
 
 
-يحصل على stroke الأساسي.
+يحصل على الخط الأساسي.
 
 **Returns:**
-java.awt.Stroke - stroke أساسي.
+java.awt.Stroke - الخط الأساسي.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

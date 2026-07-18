@@ -1,6 +1,6 @@
 ---
 title: "JobInputBin"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف صينية الإدخال المثبتة في الجهاز أو القائمة الكاملة للصناديق المدعومة للجهاز."
 type: docs
 weight: 57
@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class JobInputBin extends InputBin implements IJobPrintTicketItem
 ```
 
-يصف صينية الإدخال المثبتة في الجهاز أو القائمة الكاملة للصناديق المدعومة للجهاز. يسمح بتحديد صينية الإدخال لكل وظيفة على حدة. الكلمات المفتاحية JobInputBin و DocumentInputBin و PageInputBin متعارضة ولا يمكن استخدامها معًا. لا ينبغي تحديدها simultaneously في وثيقة PrintTicket أو وثيقة Print Capabilities. https://docs.microsoft.com/en-us/windows/win32/printdocs/jobinputbin
-## المنشئات
+يصف صينية الإدخال المثبتة في الجهاز أو القائمة الكاملة للصناديق المدعومة للجهاز. يسمح بتحديد صينية الإدخال لكل وظيفة على حدة. كلمات المفتاح JobInputBin و DocumentInputBin و PageInputBin متعارضة. لا ينبغي تحديدهما معًا في مستند PrintTicket أو مستند قدرات الطباعة. https://docs.microsoft.com/en-us/windows/win32/printdocs/jobinputbin
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [JobInputBin(InputBin.IInputBinItem[] items)](#JobInputBin-com.aspose.xps.metadata.InputBin.IInputBinItem...-) | ينشئ نسخة جديدة. |
+| [JobInputBin(InputBin.IInputBinItem[] items)](#JobInputBin-com.aspose.xps.metadata.InputBin.IInputBinItem...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public JobInputBin(InputBin.IInputBinItem[] items)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

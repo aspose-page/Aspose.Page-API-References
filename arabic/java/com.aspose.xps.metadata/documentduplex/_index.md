@@ -1,6 +1,6 @@
 ---
 title: "DocumentDuplex"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف خصائص الطباعة المزدوجة للإخراج."
 type: docs
 weight: 23
@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class DocumentDuplex extends Duplex implements IJobPrintTicketItem, IDocumentPrintTicketItem
 ```
 
-يصف خصائص الازدواجية للإخراج. تسمح ميزة الازدواجية بالطباعة على جانبي الوسائط. يتم ازدواج كل مستند بشكل منفصل. خاصية DocumentDuplex و JobDuplexAllDocumentsContiguously متعارضتان. يعود الأمر إلى برنامج التشغيل لتحديد معالجة القيود بين هذه الكلمات المفتاحية. https://docs.microsoft.com/en-us/windows/win32/printdocs/documentduplex
-## المنشئات
+يصف خصائص الازدواجية للإخراج. تسمح ميزة الازدواجية بالطباعة على جانبي الوسائط. يتم ازدواج كل مستند بشكل منفصل. DocumentDuplex و JobDuplexAllDocumentsContiguously متعارضان. يعود إلى برنامج التشغيل تحديد معالجة القيود بين هذه الكلمات المفتاحية. https://docs.microsoft.com/en-us/windows/win32/printdocs/documentduplex
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [DocumentDuplex(Duplex.DuplexOption[] options)](#DocumentDuplex-com.aspose.xps.metadata.Duplex.DuplexOption...-) | ينشئ نسخة جديدة. |
+| [DocumentDuplex(Duplex.DuplexOption[] options)](#DocumentDuplex-com.aspose.xps.metadata.Duplex.DuplexOption...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public DocumentDuplex(Duplex.DuplexOption[] options)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

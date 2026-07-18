@@ -1,6 +1,6 @@
 ---
 title: "JobBindAllDocuments.BindingOption"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف خيارات ميزة JobBindAllDocuments."
 type: docs
 weight: 11
@@ -12,12 +12,12 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class JobBindAllDocuments.BindingOption extends Option
 ```
 
-يصف خيارات ميزة JobBindAllDocuments.
-## المنشئات
+يصف خيارات الميزة JobBindAllDocuments.
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [BindingOption(String name, JobBindAllDocuments.IBindingOptionItem[] items)](#BindingOption-java.lang.String-com.aspose.xps.metadata.JobBindAllDocuments.IBindingOptionItem...-) | ينشئ نسخة جديدة. |
+| [BindingOption(String name, JobBindAllDocuments.IBindingOptionItem[] items)](#BindingOption-java.lang.String-com.aspose.xps.metadata.JobBindAllDocuments.IBindingOptionItem...-) | ينشئ مثيلًا جديدًا. |
 ## الحقول
 
 | حقل | الوصف |
@@ -26,21 +26,21 @@ public static final class JobBindAllDocuments.BindingOption extends Option
 | [BindBottom](#BindBottom) | يحدد الربط على الحافة السفلية. |
 | [BindLeft](#BindLeft) | يحدد الربط على الحافة اليسرى. |
 | [BindRight](#BindRight) | يحدد الربط على الحافة اليمنى. |
-| [BindTop](#BindTop) | يحدد الربط على الحافة العليا. |
+| [BindTop](#BindTop) | يحدد الربط على الحافة العلوية. |
 | [Booklet](#Booklet) | يحدد ربط الكتيب. |
 | [EdgeStitchBottom](#EdgeStitchBottom) | يحدد خياطة الحافة على الحافة السفلية. |
 | [EdgeStitchLeft](#EdgeStitchLeft) | يحدد خياطة الحافة على الحافة اليسرى. |
 | [EdgeStitchRight](#EdgeStitchRight) | يحدد خياطة الحافة على الحافة اليمنى. |
-| [EdgeStitchTop](#EdgeStitchTop) | يحدد خياطة الحافة على الحافة العليا. |
-| [Fold](#Fold) | يحدد ربط مطوي. |
-| [JogOffset](#JogOffset) | يحدد ربط إزاحة الجوج. |
+| [EdgeStitchTop](#EdgeStitchTop) | يحدد خياطة الحافة على الحافة العلوية. |
+| [Fold](#Fold) | يحدد ربطًا مطويًا. |
+| [JogOffset](#JogOffset) | يحدد ربطًا بإزاحة متعرجة. |
 | [None](#None) | يحدد عدم وجود ربط. |
-| [Trim](#Trim) | يحدد ربط القص. |
+| [Trim](#Trim) | يحدد ربطًا بالتقليم. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. |
+| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -57,13 +57,13 @@ public BindingOption(String name, JobBindAllDocuments.IBindingOptionItem[] items
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | الاسم | java.lang.String | اسم خيار. |
-| items | [IBindingOptionItem\[\]](../../com.aspose.xps.metadata/ibindingoptionitem) | مصفوفة من العناصر الفرعية الصالحة. |
+| items | [IBindingOptionItem\[\]](../../com.aspose.xps.metadata/ibindingoptionitem) | مصفوفة من العناصر الفرعية القانونية. |
 
 ### Bale {#Bale}
 ```
@@ -103,7 +103,7 @@ public static final JobBindAllDocuments.BindingOption BindTop
 ```
 
 
-يحدد الربط على الحافة العليا.
+يحدد الربط على الحافة العلوية.
 
 ### Booklet {#Booklet}
 ```
@@ -143,7 +143,7 @@ public static final JobBindAllDocuments.BindingOption EdgeStitchTop
 ```
 
 
-يحدد خياطة الحافة على الحافة العليا.
+يحدد خياطة الحافة على الحافة العلوية.
 
 ### Fold {#Fold}
 ```
@@ -151,7 +151,7 @@ public static final JobBindAllDocuments.BindingOption Fold
 ```
 
 
-يحدد ربط مطوي.
+يحدد ربطًا مطويًا.
 
 ### JogOffset {#JogOffset}
 ```
@@ -159,7 +159,7 @@ public static final JobBindAllDocuments.BindingOption JogOffset
 ```
 
 
-يحدد ربط إزاحة الجوج.
+يحدد ربطًا بإزاحة متعرجة.
 
 ### None {#None}
 ```
@@ -175,7 +175,7 @@ public static final JobBindAllDocuments.BindingOption Trim
 ```
 
 
-يحدد ربط القص.
+يحدد ربطًا بالتقليم.
 
 ### add(IOptionItem[] items) {#add-com.aspose.xps.metadata.IOptionItem...-}
 ```
@@ -183,7 +183,7 @@ public void add(IOptionItem[] items)
 ```
 
 
-يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. يجب أن يكون كل عنصر إما  ScoredProperty  أو  Property  مثيل.
+يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. يجب أن يكون كل عنصر إما مثال ScoredProperty أو مثال Property.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -204,7 +204,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

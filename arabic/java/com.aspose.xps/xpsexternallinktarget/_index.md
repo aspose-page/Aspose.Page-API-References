@@ -1,7 +1,7 @@
 ---
 title: "XpsExternalLinkTarget"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "فئة تُغلف هدف الارتباط التشعبي الخارجي."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "فئة تجسد هدف الارتباط التشعبي الخارجي."
 type: docs
 weight: 22
 url: /ar/java/com.aspose.xps/xpsexternallinktarget/
@@ -12,10 +12,10 @@ java.lang.Object, [com.aspose.xps.XpsHyperlinkTarget](../../com.aspose.xps/xpshy
 public final class XpsExternalLinkTarget extends XpsHyperlinkTarget
 ```
 
-فئة تُغلف هدف الارتباط التشعبي الخارجي.
-## المنشئات
+فئة تجسد هدف الارتباط التشعبي الخارجي.
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [XpsExternalLinkTarget(String targetUri)](#XpsExternalLinkTarget-java.lang.String-) | ينشئ المثيل الجديد. |
 ## الطرق
@@ -59,7 +59,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

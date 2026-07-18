@@ -1,7 +1,7 @@
 ---
 title: "JobNUpAllDocumentsContiguously"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يصف إخراج صفحات منطقية متعددة إلى ورقة مادية واحدة."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يصف إخراج صفحات منطقية متعددة إلى ورقة فعلية واحدة."
 type: docs
 weight: 58
 url: /ar/java/com.aspose.xps.metadata/jobnupalldocumentscontiguously/
@@ -15,18 +15,18 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class JobNUpAllDocumentsContiguously extends NUp implements IJobPrintTicketItem
 ```
 
-يصف إخراج صفحات منطقية متعددة إلى ورقة مادية واحدة. جميع المستندات في المهمة تُجمع معًا بشكل متتابع. JobNUpAllDocumentsContiguously و DocumentNUp متنافيان. يعود للبرنامج التعريفي (السائق) تحديد معالجة القيود بين هاتين الكلمتين المفتاحيتين. https://docs.microsoft.com/en-us/windows/win32/printdocs/jobnupalldocumentscontiguously
-## المنشئات
+يصف إخراج عدة صفحات منطقية على ورقة مادية واحدة. جميع المستندات في المهمة تُجمع معًا بشكل متتابع. JobNUpAllDocumentsContiguously و DocumentNUp متنافيان. يعود للبرنامج التعريفي (driver) تحديد معالجة القيود بين هاتين الكلمتين المفتاحيتين. https://docs.microsoft.com/en-us/windows/win32/printdocs/jobnupalldocumentscontiguously
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [JobNUpAllDocumentsContiguously(NUp.INUpItem[] items)](#JobNUpAllDocumentsContiguously-com.aspose.xps.metadata.NUp.INUpItem...-) | ينشئ نسخة جديدة. |
+| [JobNUpAllDocumentsContiguously(NUp.INUpItem[] items)](#JobNUpAllDocumentsContiguously-com.aspose.xps.metadata.NUp.INUpItem...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
-| [addPagesPerSheetOption(int value)](#addPagesPerSheetOption-int-) | يضيف خيارًا مع قيمة خاصية ScoredProperty للـ PagesPerSheet. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
+| [addPagesPerSheetOption(int value)](#addPagesPerSheetOption-int-) | يضيف خيارًا مع قيمة خاصية متدرجة PagesPerSheet. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -43,7 +43,7 @@ public JobNUpAllDocumentsContiguously(NUp.INUpItem[] items)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -69,12 +69,12 @@ public JobNUpAllDocumentsContiguously addPagesPerSheetOption(int value)
 ```
 
 
-يضيف خيارًا مع قيمة خاصية ScoredProperty للـ PagesPerSheet. يحدد عدد الصفحات المنطقية لكل ورقة مادية.
+يضيف خيارًا مع قيمة خاصية متدرجة PagesPerSheet. يحدد عدد الصفحات المنطقية لكل ورقة مادية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | قيمة خاصية ScoredProperty للـ PagesPerSheet. مجموعة القيم المدعومة يمكن أن تكون أي مجموعة من الأعداد الصحيحة، مثال: \{1,2,4,6,8,9,16\}. |
+| القيمة | int | قيمة خاصية متدرجة PagesPerSheet. يمكن أن تكون المجموعة المدعومة أي مجموعة من الأعداد الصحيحة، مثل \{1,2,4,6,8,9,16\}. |
 
 **Returns:**
 [JobNUpAllDocumentsContiguously](../../com.aspose.xps.metadata/jobnupalldocumentscontiguously) - This feature instance.
@@ -92,7 +92,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

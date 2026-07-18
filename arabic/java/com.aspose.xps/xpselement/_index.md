@@ -1,13 +1,13 @@
 ---
 title: "XpsElement"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "فئة تُغلف الميزات العامة لعناصر XPS."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "فئة تجسد ميزات عناصر XPS الشائعة."
 type: docs
 weight: 20
 url: /ar/java/com.aspose.xps/xpselement/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject)
+java.lang.Object, [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject)
 
 **All Implemented Interfaces:**
 java.lang.Iterable
@@ -15,19 +15,19 @@ java.lang.Iterable
 public abstract class XpsElement extends XpsObject implements Iterable<XpsContentElement>
 ```
 
-فئة تُغلف الميزات العامة لعناصر XPS.
+فئة تجسد ميزات عناصر XPS الشائعة.
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int i)](#get-int-) | يوفر الوصول إلى أبناء العنصر حسب الفهرس i. |
+| [get(int i)](#get-int-) | يوفر وصولاً إلى أبناء العنصر حسب الفهرس i. |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | تنفيذ واجهة Iterable. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [size()](#size--) | يرجع عدد العناصر الفرعية. |
+| [size()](#size--) | يعيد عدد العناصر الفرعية. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -46,14 +46,14 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### get(int i) {#get-int-}
 ```
 public XpsContentElement get(int i)
 ```
 
 
-يوفر الوصول إلى أبناء العنصر حسب الفهرس i.
+يوفر وصولاً إلى أبناء العنصر حسب الفهرس i.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -91,7 +91,7 @@ public Iterator<XpsContentElement> iterator()
 تنفيذ واجهة Iterable.
 
 **Returns:**
-java.util.Iterator<com.aspose.xps.XpsContentElement> - يرجع المُعدِّد للقائمة.
+java.util.Iterator<com.aspose.xps.XpsContentElement> - يعيد المُعدِّد للقائمة.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -114,7 +114,7 @@ public int size()
 ```
 
 
-يرجع عدد العناصر الفرعية.
+يعيد عدد العناصر الفرعية.
 
 **Returns:**
 int - عدد العناصر الفرعية.

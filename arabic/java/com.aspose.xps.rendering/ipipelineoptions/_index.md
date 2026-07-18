@@ -1,6 +1,6 @@
 ---
 title: "IPipelineOptions"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يحدد خيارات التحويل المتعلقة بتكوين خط الأنابيب."
 type: docs
 weight: 18

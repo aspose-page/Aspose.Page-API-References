@@ -1,7 +1,7 @@
 ---
 title: "IGlyph"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "توفر هذه الواجهة الوصول إلى المعلمات الرئيسية للglyph."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "توفر هذه الواجهة الوصول إلى المعلمات الرئيسية للرمز."
 type: docs
 weight: 19
 url: /ar/java/com.aspose.page/iglyph/

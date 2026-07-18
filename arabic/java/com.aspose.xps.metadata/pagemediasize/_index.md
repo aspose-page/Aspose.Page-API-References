@@ -1,7 +1,7 @@
 ---
 title: "PageMediaSize"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يصف أبعاد الوسائط الفيزيائية المستخدمة في الإخراج."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يصف أبعاد الوسائط الفيزيائية المستخدمة للإخراج."
 type: docs
 weight: 102
 url: /ar/java/com.aspose.xps.metadata/pagemediasize/
@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class PageMediaSize extends Feature implements IJobPrintTicketItem, IDocumentPrintTicketItem, IPagePrintTicketItem
 ```
 
-يصف أبعاد الوسائط الفيزيائية المستخدمة في المخرجات. https://docs.microsoft.com/en-us/windows/win32/printdocs/pagemediasize
-## المنشئات
+يصف أبعاد الوسائط الفيزيائية المستخدمة للمخرجات. https://docs.microsoft.com/en-us/windows/win32/printdocs/pagemediasize
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PageMediaSize(PageMediaSize.IPageMediaSizeItem[] options)](#PageMediaSize-com.aspose.xps.metadata.PageMediaSize.IPageMediaSizeItem...-) | ينشئ نسخة جديدة. |
+| [PageMediaSize(PageMediaSize.IPageMediaSizeItem[] options)](#PageMediaSize-com.aspose.xps.metadata.PageMediaSize.IPageMediaSizeItem...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public PageMediaSize(PageMediaSize.IPageMediaSizeItem[] options)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

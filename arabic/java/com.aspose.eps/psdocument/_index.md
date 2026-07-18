@@ -1,49 +1,49 @@
 ---
 title: "PsDocument"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "هذه الفئة تغلف مستندات PS/EPS."
 type: docs
 weight: 16
 url: /ar/java/com.aspose.eps/psdocument/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.page.Document](../../com.aspose.page/document)
+java.lang.Object, [com.aspose.page.Document](../../com.aspose.page/document)
 ```
 public final class PsDocument extends Document
 ```
 
 هذه الفئة تغلف مستندات PS/EPS.
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PsDocument()](#PsDocument--) | يُهيئ PsDocument فارغًا بصفحة مبدئية. |
-| [PsDocument(String outPsFilePath, PsSaveOptions options)](#PsDocument-java.lang.String-com.aspose.eps.device.PsSaveOptions-) | يُهيئ PsDocument فارغًا بصفحة مبدئية. |
-| [PsDocument(OutputStream psStream, PsSaveOptions options)](#PsDocument-java.io.OutputStream-com.aspose.eps.device.PsSaveOptions-) | يُهيئ PsDocument فارغًا بصفحة مبدئية. |
+| [PsDocument()](#PsDocument--) | يُهيئ PsDocument فارغًا بصفحة مهيأة. |
+| [PsDocument(String outPsFilePath, PsSaveOptions options)](#PsDocument-java.lang.String-com.aspose.eps.device.PsSaveOptions-) | يُهيئ PsDocument فارغًا بصفحة مهيأة. |
+| [PsDocument(OutputStream psStream, PsSaveOptions options)](#PsDocument-java.io.OutputStream-com.aspose.eps.device.PsSaveOptions-) | يُهيئ PsDocument فارغًا بصفحة مهيأة. |
 | [PsDocument(String outPsFilePath, PsSaveOptions options, boolean multipaged)](#PsDocument-java.lang.String-com.aspose.eps.device.PsSaveOptions-boolean-) | يُهيئ PsDocument فارغًا. |
 | [PsDocument(OutputStream psStream, PsSaveOptions options, boolean multipaged)](#PsDocument-java.io.OutputStream-com.aspose.eps.device.PsSaveOptions-boolean-) | يُهيئ PsDocument فارغًا. |
 | [PsDocument(String outPsFilePath, PsSaveOptions options, int numberOfPages)](#PsDocument-java.lang.String-com.aspose.eps.device.PsSaveOptions-int-) | يُهيئ PsDocument فارغًا عندما يكون عدد صفحات مستند Postscript معروفًا مسبقًا. |
 | [PsDocument(OutputStream psStream, PsSaveOptions options, int numberOfPages)](#PsDocument-java.io.OutputStream-com.aspose.eps.device.PsSaveOptions-int-) | يُهيئ PsDocument فارغًا عندما يكون عدد صفحات مستند Postscript معروفًا مسبقًا. |
-| [PsDocument(String psFilePath)](#PsDocument-java.lang.String-) | يُهيئ PsDocument بملف PS/EPS مدخل. |
+| [PsDocument(String psFilePath)](#PsDocument-java.lang.String-) | يُهيئ PsDocument بملف PS/EPS كمدخل. |
 | [PsDocument(InputStream psStream)](#PsDocument-java.io.InputStream-) | يُهيئ PsDocument بتدفق ملف PS/EPS. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [clip(Shape s)](#clip-java.awt.Shape-) | يضيف قصًا إلى حالة الرسومات الحالية. |
-| [clipAndNewPath(Shape s)](#clipAndNewPath-java.awt.Shape-) | يضيف قصًا إلى حالة الرسومات الحالية ثم يكتب عامل \"newpath\". |
+| [clipAndNewPath(Shape s)](#clipAndNewPath-java.awt.Shape-) | يضيف قصًا إلى حالة الرسومات الحالية ثم يكتب عامل "newpath". |
 | [clipRectangle(Rectangle2D.Float rect)](#clipRectangle-java.awt.geom.Rectangle2D.Float-) | يضيف مستطيل قص إلى حالة الرسومات الحالية. |
-| [clipText(String text, Font font, float x, float y)](#clipText-java.lang.String-java.awt.Font-float-float-) | يضيف قصًا من مخطط النص المعطى بالخط المحدد. |
+| [clipText(String text, Font font, float x, float y)](#clipText-java.lang.String-java.awt.Font-float-float-) | يضيف قصًا من مخطط النص المحدد بالخط المحدد. |
 | [closePage()](#closePage--) | أكمل الصفحة الحالية. |
-| [convertType1FontToTTF(String type1FontFilePath, String outputDir)](#convertType1FontToTTF-java.lang.String-java.lang.String-) | يحوّل الخط من النوع 1 إلى TrueType. |
-| [convertType3FontToTTF(String type3FontFilePath, OutputStream outputStream)](#convertType3FontToTTF-java.lang.String-java.io.OutputStream-) | يحوّل الخط من النوع 3 إلى TrueType. |
-| [convertType3FontToTTF(String type3FontFilePath, String outputDir)](#convertType3FontToTTF-java.lang.String-java.lang.String-) | يحوّل الخط من النوع 3 إلى TrueType. |
-| [cropEps(OutputStream epsStream, float[] cropBox)](#cropEps-java.io.OutputStream-float---) | يقص PsDocument المعطى كملف EPS. |
-| [draw(Shape shape)](#draw-java.awt.Shape-) | ارسم مسارًا عشوائيًا. |
+| [convertType1FontToTTF(String type1FontFilePath, String outputDir)](#convertType1FontToTTF-java.lang.String-java.lang.String-) | يحوّل خط Type 1 إلى TrueType. |
+| [convertType3FontToTTF(String type3FontFilePath, OutputStream outputStream)](#convertType3FontToTTF-java.lang.String-java.io.OutputStream-) | يحوّل خط Type 3 إلى TrueType. |
+| [convertType3FontToTTF(String type3FontFilePath, String outputDir)](#convertType3FontToTTF-java.lang.String-java.lang.String-) | يحوّل خط Type 3 إلى TrueType. |
+| [cropEps(OutputStream epsStream, float[] cropBox)](#cropEps-java.io.OutputStream-float---) | يقص PsDocument المحدد كملف EPS. |
+| [draw(Shape shape)](#draw-java.awt.Shape-) | ارسم مسارًا تعسفيًا. |
 | [drawExplicitImageMask(BufferedImage image24bpp, BufferedImage alphaMask1bpp, AffineTransform transform)](#drawExplicitImageMask-java.awt.image.BufferedImage-java.awt.image.BufferedImage-java.awt.geom.AffineTransform-) | ارسم صورةً مقنّعة. |
 | [drawImage(BufferedImage image)](#drawImage-java.awt.image.BufferedImage-) | ارسم صورةً. |
-| [drawImage(BufferedImage image, AffineTransform transform, Color bkg)](#drawImage-java.awt.image.BufferedImage-java.awt.geom.AffineTransform-java.awt.Color-) | ارسم صورةً محوَّلةً مع خلفية. |
-| [drawTransparentImage(BufferedImage image, AffineTransform transform, int transparencyThreshold)](#drawTransparentImage-java.awt.image.BufferedImage-java.awt.geom.AffineTransform-int-) | ارسم صورةً شفافةً محوَّلةً مع خلفية. |
+| [drawImage(BufferedImage image, AffineTransform transform, Color bkg)](#drawImage-java.awt.image.BufferedImage-java.awt.geom.AffineTransform-java.awt.Color-) | ارسم صورةً محوّلة مع خلفية. |
+| [drawTransparentImage(BufferedImage image, AffineTransform transform, int transparencyThreshold)](#drawTransparentImage-java.awt.image.BufferedImage-java.awt.geom.AffineTransform-int-) | ارسم صورةً شفافة محوّلة مع خلفية. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [extractEpsBoundingBox()](#extractEpsBoundingBox--) | يقرأ ملف EPS ويستخرج صندوق الحدود لصورة EPS من تعليق %%BoundingBox أو الحدود لحجم الصفحة الافتراضي (0, 0, 595, 842) إذا لم يكن موجودًا. |
 | [extractEpsSize()](#extractEpsSize--) | يقرأ ملف EPS ويستخرج حجم صورة EPS من تعليق %%BoundingBox أو حجم الصفحة الافتراضي (595, 842) إذا لم يكن موجودًا. |
@@ -85,32 +85,32 @@ public final class PsDocument extends Document
 | [outlineText(String text, Font font, float x, float y)](#outlineText-java.lang.String-java.awt.Font-float-float-) | يضيف سلسلة نصية عن طريق رسم حدود الحروف. |
 | [outlineText(String text, Font font, float x, float y, Paint outlinePaint, Stroke stroke)](#outlineText-java.lang.String-java.awt.Font-float-float-java.awt.Paint-java.awt.Stroke-) | يضيف سلسلة نصية عن طريق رسم حدود الحروف. |
 | [resizeEps(OutputStream epsStream, DimensionF newSizeInUnits, Units units)](#resizeEps-java.io.OutputStream-com.aspose.page.DimensionF-com.aspose.page.Units-) | يعيد تحجيم PsDocument المعطى كملف EPS. |
-| [rotate(float angleRadians)](#rotate-float-) | يضيف دورانًا عكس اتجاه عقرب الساعة حول الأصل إلى حالة الرسومات الحالية (تدوير المصفوفة الحالية). |
-| [rotate(int angleDegrees)](#rotate-int-) | يضيف دورانًا عكس اتجاه عقرب الساعة حول الأصل إلى حالة الرسومات الحالية (تدوير المصفوفة الحالية). |
+| [rotate(float angleRadians)](#rotate-float-) | يضيف دورانًا عكس اتجاه عقارب الساعة حول الأصل إلى حالة الرسومات الحالية (تدوير المصفوفة الحالية). |
+| [rotate(int angleDegrees)](#rotate-int-) | يضيف دورانًا عكس اتجاه عقارب الساعة حول الأصل إلى حالة الرسومات الحالية (تدوير المصفوفة الحالية). |
 | [save()](#save--) | يحفظ PsDocument المعطى كملف PS أو EPS. |
 | [save(Device device, SaveOptions options)](#save-com.aspose.page.Device-com.aspose.page.SaveOptions-) | يحفظ ملف PS/EPS إلى جهاز. |
-| [save(OutputStream epsStream)](#save-java.io.OutputStream-) | يحفظ PsDocument المعطى إلى التدفق. |
+| [save(OutputStream epsStream)](#save-java.io.OutputStream-) | يحفظ PsDocument المعطى إلى الدفق. |
 | [save(String outEpsFilePath)](#save-java.lang.String-) | يحفظ PsDocument المعطى كملف EPS. |
 | [saveAsImage(ImageSaveOptions options)](#saveAsImage-com.aspose.eps.device.ImageSaveOptions-) | يحفظ ملف PS/EPS إلى ملف صورة. |
 | [saveAsImage(ImageSaveOptions options, String outDir, String fileNameTemplate)](#saveAsImage-com.aspose.eps.device.ImageSaveOptions-java.lang.String-java.lang.String-) | يحفظ ملف PS/EPS إلى ملف صورة في الدليل المحدد بالاسم المحدد. |
 | [saveAsImagesBytes(ImageSaveOptions options)](#saveAsImagesBytes-com.aspose.eps.device.ImageSaveOptions-) | يحفظ ملف PS/EPS إلى مصفوفات بايتات الصور. |
-| [saveAsPdf(OutputStream pdfStream, PdfSaveOptions options)](#saveAsPdf-java.io.OutputStream-com.aspose.eps.device.PdfSaveOptions-) | يحفظ ملف PS/EPS إلى تدفق PDF خارجي. |
+| [saveAsPdf(OutputStream pdfStream, PdfSaveOptions options)](#saveAsPdf-java.io.OutputStream-com.aspose.eps.device.PdfSaveOptions-) | يحفظ ملف PS/EPS إلى دفق PDF إخراج. |
 | [saveAsPdf(String outPdfFilePath, PdfSaveOptions options)](#saveAsPdf-java.lang.String-com.aspose.eps.device.PdfSaveOptions-) | يحفظ ملف PS/EPS إلى ملف PDF. |
 | [saveImageAsEps(BufferedImage image, OutputStream epsStream, PsSaveOptions options)](#saveImageAsEps-java.awt.image.BufferedImage-java.io.OutputStream-com.aspose.eps.device.PsSaveOptions-) | يحفظ كائن BufferedImage إلى ملف EPS. |
 | [saveImageAsEps(BufferedImage image, String epsFilePath, PsSaveOptions options)](#saveImageAsEps-java.awt.image.BufferedImage-java.lang.String-com.aspose.eps.device.PsSaveOptions-) | يحفظ كائن BufferedImage إلى ملف EPS. |
-| [saveImageAsEps(InputStream imageStream, OutputStream epsStream, PsSaveOptions options)](#saveImageAsEps-java.io.InputStream-java.io.OutputStream-com.aspose.eps.device.PsSaveOptions-) | يحفظ صورة PNG/JPEG/BMP/GIF من تدفق الإدخال إلى تدفق إخراج EPS. |
+| [saveImageAsEps(InputStream imageStream, OutputStream epsStream, PsSaveOptions options)](#saveImageAsEps-java.io.InputStream-java.io.OutputStream-com.aspose.eps.device.PsSaveOptions-) | يحفظ صورة PNG/JPEG/BMP/GIF من دفق الإدخال إلى دفق إخراج EPS. |
 | [saveImageAsEps(String imageFilePath, String epsFilePath, PsSaveOptions options)](#saveImageAsEps-java.lang.String-java.lang.String-com.aspose.eps.device.PsSaveOptions-) | يحفظ صورة PNG/JPEG/BMP/GIF من ملف إلى ملف EPS. |
-| [scale(float xScale, float yScale)](#scale-float-float-) | يضيف مقياسًا إلى حالة الرسومات الحالية (مقياس المصفوفة الحالية). |
+| [scale(float xScale, float yScale)](#scale-float-float-) | يضيف مقياسًا إلى حالة الرسومات الحالية (scale current matrix). |
 | [setInputStream(InputStream is)](#setInputStream-java.io.InputStream-) | يحدد تدفق إدخال. |
-| [setPageDevice(Map<String,Object> pageParams)](#setPageDevice-java.util.Map-java.lang.String-java.lang.Object--) | يضبط معلمات جهاز الصفحة (انظر المشغل "setpagedevice" في مواصفات PostScript). |
+| [setPageDevice(Map<String,Object> pageParams)](#setPageDevice-java.util.Map-java.lang.String-java.lang.Object--) | يضبط معلمات جهاز الصفحة (انظر المشغل "setpagedevice" مواصفات PostScript). |
 | [setPageSize(float width, float height)](#setPageSize-float-float-) | يضبط حجم الصفحة. |
 | [setPaint(Paint paint)](#setPaint-java.awt.Paint-) | يضبط الطلاء في حالة الرسومات الحالية. |
 | [setStroke(Stroke stroke)](#setStroke-java.awt.Stroke-) | يضبط الحد في حالة الرسومات الحالية. |
-| [setTransform(AffineTransform matrix)](#setTransform-java.awt.geom.AffineTransform-) | اضبط التحويل الحالي إلى هذا. |
-| [shear(float shx, float shy)](#shear-float-float-) | يضيف تحويل قص إلى حالة الرسومات الحالية (قص المصفوفة الحالية). |
+| [setTransform(AffineTransform matrix)](#setTransform-java.awt.geom.AffineTransform-) | عيّن التحويل الحالي إلى هذا. |
+| [shear(float shx, float shy)](#shear-float-float-) | يضيف تحويل قص إلى حالة الرسومات الحالية (shear current matrix). |
 | [toString()](#toString--) |  |
-| [transform(AffineTransform matrix)](#transform-java.awt.geom.AffineTransform-) | يضيف تحويلًا إلى حالة الرسومات الحالية (يضمّ هذه المصفوفة إلى الحالية). |
-| [translate(float x, float y)](#translate-float-float-) | يضيف إزاحة إلى حالة الرسومات الحالية (يُحوّل المصفوفة الحالية). |
+| [transform(AffineTransform matrix)](#transform-java.awt.geom.AffineTransform-) | يضيف تحويلًا إلى حالة الرسومات الحالية (concatenates this matrix with current one). |
+| [translate(float x, float y)](#translate-float-float-) | يضيف إزاحة إلى حالة الرسومات الحالية (translates current matrix). |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -130,7 +130,7 @@ public PsDocument(String outPsFilePath, PsSaveOptions options)
 ```
 
 
-يُهيئ PsDocument فارغًا بصفحة مبدئية.
+يُهيئ PsDocument فارغًا بصفحة مهيأة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -144,7 +144,7 @@ public PsDocument(OutputStream psStream, PsSaveOptions options)
 ```
 
 
-يُهيئ PsDocument فارغًا بصفحة مبدئية.
+يُهيئ PsDocument فارغًا بصفحة مهيأة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -165,7 +165,7 @@ public PsDocument(String outPsFilePath, PsSaveOptions options, boolean multipage
 | --- | --- | --- |
 | outPsFilePath | java.lang.String | مسار ملف PS/EPS الناتج. |
 | options | [PsSaveOptions](../../com.aspose.eps.device/pssaveoptions) | مجموعة من المعلمات التي تتحكم في حفظ ملف PostScript. |
-| multipaged | boolean | إذا كان false لن يتم تهيئة الصفحة. في هذه الحالة يجب إجراء تهيئة الصفحة عبر استدعاء صريح "openPage(width, height) call. |
+| multipaged | منطقي | إذا كان false لن يتم تهيئة الصفحة. في هذه الحالة يجب تنفيذ تهيئة الصفحة عبر استدعاء صريح "openPage(width, height)". |
 
 ### PsDocument(OutputStream psStream, PsSaveOptions options, boolean multipaged) {#PsDocument-java.io.OutputStream-com.aspose.eps.device.PsSaveOptions-boolean-}
 ```
@@ -180,7 +180,7 @@ public PsDocument(OutputStream psStream, PsSaveOptions options, boolean multipag
 | --- | --- | --- |
 | psStream | java.io.OutputStream | التدفق الذي يُحفظ فيه ملف PS/EPS. |
 | options | [PsSaveOptions](../../com.aspose.eps.device/pssaveoptions) | مجموعة من المعلمات التي تتحكم في حفظ ملف PostScript. |
-| multipaged | boolean | إذا كان false لن يتم تهيئة الصفحة. في هذه الحالة يجب إجراء تهيئة الصفحة عبر استدعاء صريح "openPage(width, height) call. |
+| multipaged | منطقي | إذا كان false لن يتم تهيئة الصفحة. في هذه الحالة يجب تنفيذ تهيئة الصفحة عبر استدعاء صريح "openPage(width, height)". |
 
 ### PsDocument(String outPsFilePath, PsSaveOptions options, int numberOfPages) {#PsDocument-java.lang.String-com.aspose.eps.device.PsSaveOptions-int-}
 ```
@@ -218,7 +218,7 @@ public PsDocument(String psFilePath)
 ```
 
 
-يُهيئ PsDocument بملف PS/EPS مدخل.
+يُهيئ PsDocument بملف PS/EPS كمدخل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -257,7 +257,7 @@ public void clipAndNewPath(Shape s)
 ```
 
 
-يضيف القص إلى حالة الرسومات الحالية ثم يكتب عامل \"newpath\". من الضروري القيام بذلك لتجنب تداخل مسار القص مع بعض المسارات اللاحقة مثل الحروف المرسومة باستخدام عامل \"charpath\".
+يضيف قصًا إلى حالة الرسومات الحالية ثم يكتب معامل "newpath". من الضروري القيام بذلك لتجنب التلاقي بين مسار القص هذا وبعض المسارات اللاحقة مثل الرموز المرسومة باستخدام معامل "charpath".
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -283,7 +283,7 @@ public void clipText(String text, Font font, float x, float y)
 ```
 
 
-يضيف قصًا من مخطط النص المعطى بالخط المحدد.
+يضيف قصًا من مخطط النص المحدد بالخط المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -307,13 +307,13 @@ public void convertType1FontToTTF(String type1FontFilePath, String outputDir)
 ```
 
 
-يحوّل خط Type 1 إلى TrueType. سيكون اسم ملف الخط TTF المحوّل هو نفسه مثل خط Type 1 المدخل مع امتداد \".ttf\". سيتم حفظ ملف TTF في الدليل المحدد للإخراج.
+يقوم بتحويل خط Type 1 إلى TrueType. سيكون اسم ملف الخط TTF المحول هو نفسه اسم خط Type 1 المدخل مع امتداد ".ttf". سيتم حفظ ملف TTF في دليل الإخراج المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | type1FontFilePath | java.lang.String | مسار ملف خط Type 1.. |
-| outputDir | java.lang.String | دليل الإخراج حيث يتم حفظ الخط TrueType الناتج. |
+| outputDir | java.lang.String | دليل الإخراج حيث يتم حفظ خط TrueType الناتج. |
 
 ### convertType3FontToTTF(String type3FontFilePath, OutputStream outputStream) {#convertType3FontToTTF-java.lang.String-java.io.OutputStream-}
 ```
@@ -321,13 +321,13 @@ public void convertType3FontToTTF(String type3FontFilePath, OutputStream outputS
 ```
 
 
-يحوّل خط Type 3 إلى TrueType. سيتم حفظ ملف TTF إلى تدفق الإخراج المقدم.
+يقوم بتحويل خط Type 3 إلى TrueType. سيتم حفظ ملف TTF في تدفق الإخراج المقدم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | type3FontFilePath | java.lang.String | مسار ملف خط Type 3. |
-| outputStream | java.io.OutputStream | تدفق الإخراج حيث يتم حفظ الخط TrueType الناتج. |
+| outputStream | java.io.OutputStream | تدفق الإخراج حيث يتم حفظ خط TrueType الناتج. |
 
 ### convertType3FontToTTF(String type3FontFilePath, String outputDir) {#convertType3FontToTTF-java.lang.String-java.lang.String-}
 ```
@@ -335,13 +335,13 @@ public void convertType3FontToTTF(String type3FontFilePath, String outputDir)
 ```
 
 
-يحوّل خط Type 3 إلى TrueType. سيكون اسم ملف الخط TTF المحوّل هو نفسه مثل خط Type 3 المدخل مع امتداد \".ttf\". سيتم حفظ ملف TTF في الدليل المحدد للإخراج.
+يقوم بتحويل خط Type 3 إلى TrueType. سيكون اسم ملف الخط TTF المحول هو نفسه اسم خط Type 3 المدخل مع امتداد ".ttf". سيتم حفظ ملف TTF في دليل الإخراج المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | type3FontFilePath | java.lang.String | مسار ملف خط Type 3.. |
-| outputDir | java.lang.String | دليل الإخراج حيث يتم حفظ الخط TrueType الناتج. |
+| outputDir | java.lang.String | دليل الإخراج حيث يتم حفظ خط TrueType الناتج. |
 
 ### cropEps(OutputStream epsStream, float[] cropBox) {#cropEps-java.io.OutputStream-float---}
 ```
@@ -349,7 +349,7 @@ public void cropEps(OutputStream epsStream, float[] cropBox)
 ```
 
 
-يقص مستند PsDocument المعطى كملف EPS. يحفظ ملف EPS الأولي مع تحديث %%BoundingBox الموجود أو يتم إنشاء واحد جديد.
+يقص مستند PsDocument المعطى كملف EPS. يحفظ ملف EPS الأصلي مع تحديث %%BoundingBox الموجود أو إنشاء واحد جديد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -363,7 +363,7 @@ public void draw(Shape shape)
 ```
 
 
-ارسم مسارًا عشوائيًا.
+ارسم مسارًا تعسفيًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -381,8 +381,8 @@ public void drawExplicitImageMask(BufferedImage image24bpp, BufferedImage alphaM
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| image24bpp | java.awt.image.BufferedImage | الصورة للرسم. يجب أن تكون بتنسيق صورة RGB 24bpp. |
-| alphaMask1bpp | java.awt.image.BufferedImage | قناع الصورة. يجب أن يكون بتنسيق صورة 1bpp. |
+| image24bpp | java.awt.image.BufferedImage | الصورة للرسم. يجب أن تكون بتنسيق صورة RGB 24 بت. |
+| alphaMask1bpp | java.awt.image.BufferedImage | قناع الصورة. يجب أن يكون بتنسيق صورة 1 بت. |
 | transform | java.awt.geom.AffineTransform | المصفوفة لتحويل الصورة. |
 
 ### drawImage(BufferedImage image) {#drawImage-java.awt.image.BufferedImage-}
@@ -404,7 +404,7 @@ public void drawImage(BufferedImage image, AffineTransform transform, Color bkg)
 ```
 
 
-ارسم صورةً محوَّلةً مع خلفية.
+ارسم صورةً محوّلة مع خلفية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -442,7 +442,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### extractEpsBoundingBox() {#extractEpsBoundingBox--}
 ```
 public int[] extractEpsBoundingBox()
@@ -452,7 +452,7 @@ public int[] extractEpsBoundingBox()
 يقرأ ملف EPS ويستخرج صندوق الحدود لصورة EPS من تعليق %%BoundingBox أو الحدود لحجم الصفحة الافتراضي (0, 0, 595, 842) إذا لم يكن موجودًا.
 
 **Returns:**
-int[] - صندوق الحدود لصورة EPS.
+int[] - الصندوق المحيط لصورة EPS.
 ### extractEpsSize() {#extractEpsSize--}
 ```
 public Dimension extractEpsSize()
@@ -476,7 +476,7 @@ public String extractText(SaveOptions options, int startPage, int endPage)
 | --- | --- | --- |
 | options | [SaveOptions](../../com.aspose.page/saveoptions) | خيارات الحفظ. |
 | startPage | int | الصفحة التي يبدأ منها استخراج النص شاملًا. |
-| endPage | int | الصفحة التي يتم استخراج النص منها بشكل شامل. |
+| endPage | int | الصفحة التي يجب استخراج النص منها بشكل شامل. |
 
 **Returns:**
 java.lang.String - النص الموجود في الصفحات المحددة من ملف PS.
@@ -506,11 +506,11 @@ public void fillAndStrokeText(String text, DrFont drFont, float x, float y, Pain
 | --- | --- | --- |
 | نص | java.lang.String | النص المراد إضافته. |
 | drFont | com.aspose.foundation.drawing.DrFont | DrFont الذي سيُستخدم لرسم النص. يمكن استخدامه مع خط مخصص موجود في مجلد مخصص. |
-| x | float | الإحداثي X لنقطة أصل النص. |
-| y | float | الإحداثي Y لنقطة أصل النص. |
+| x | float | الإحداثي X لأصل النص. |
+| y | float | الإحداثي Y لأصل النص. |
 | fillPaint | java.awt.Paint | التعبئة المستخدمة لطلاء داخل الحروف. |
 | strokePaint | java.awt.Paint | java.awt.Paint المستخدم لطلاء حدود الحروف. يمكن أن يكون أي فئة فرعية من فئة java.awt.Paint في JDK. |
-| stroke | java.awt.Stroke | الخط المستخدم لرسم محيط الحروف. |
+| stroke | java.awt.Stroke | الخط المستخدم لرسم محيطات الحروف. |
 
 ### fillAndStrokeText(String text, float[] advances, DrFont drFont, float x, float y, Paint fillPaint, Paint strokePaint, Stroke stroke) {#fillAndStrokeText-java.lang.String-float---com.aspose.foundation.drawing.DrFont-float-float-java.awt.Paint-java.awt.Paint-java.awt.Stroke-}
 ```
@@ -526,11 +526,11 @@ public void fillAndStrokeText(String text, float[] advances, DrFont drFont, floa
 | نص | java.lang.String | النص المراد إضافته. |
 | advances | float[] | مصفوفة عرض الحروف. يجب أن يتطابق طولها مع عدد الحروف في السلسلة. |
 | drFont | com.aspose.foundation.drawing.DrFont | DrFont الذي سيُستخدم لرسم النص. يمكن استخدامه مع خط مخصص موجود في مجلد مخصص. |
-| x | float | الإحداثي X لنقطة أصل النص. |
-| y | float | الإحداثي Y لنقطة أصل النص. |
+| x | float | الإحداثي X لأصل النص. |
+| y | float | الإحداثي Y لأصل النص. |
 | fillPaint | java.awt.Paint | التعبئة المستخدمة لطلاء داخل الحروف. |
 | strokePaint | java.awt.Paint | java.awt.Paint المستخدم لطلاء حدود الحروف. يمكن أن يكون أي فئة فرعية من فئة java.awt.Paint في JDK. |
-| stroke | java.awt.Stroke | الخط المستخدم لرسم محيط الحروف. |
+| stroke | java.awt.Stroke | الخط المستخدم لرسم محيطات الحروف. |
 
 ### fillAndStrokeText(String text, float[] advances, Font font, float x, float y, Paint fillPaint, Paint strokePaint, Stroke stroke) {#fillAndStrokeText-java.lang.String-float---java.awt.Font-float-float-java.awt.Paint-java.awt.Paint-java.awt.Stroke-}
 ```
@@ -545,12 +545,12 @@ public void fillAndStrokeText(String text, float[] advances, Font font, float x,
 | --- | --- | --- |
 | نص | java.lang.String | النص المراد إضافته. advances مصفوفة عرض الحروف. يجب أن يتطابق طولها مع عدد الحروف في السلسلة. |
 | advances | float[] |  |
-| خط | java.awt.Font | الخط النظامي الذي سيُستخدم لرسم النص. |
-| x | float | الإحداثي X لنقطة أصل النص. |
-| y | float | الإحداثي Y لنقطة أصل النص. |
+| خط | java.awt.Font | خط النظام الذي سيُستخدم لرسم النص. |
+| x | float | الإحداثي X لأصل النص. |
+| y | float | الإحداثي Y لأصل النص. |
 | fillPaint | java.awt.Paint | التعبئة المستخدمة لطلاء داخل الحروف. |
 | strokePaint | java.awt.Paint | java.awt.Paint المستخدم لطلاء حدود الحروف. يمكن أن يكون أي فئة فرعية من فئة java.awt.Paint في JDK. |
-| stroke | java.awt.Stroke | الخط المستخدم لرسم محيط الحروف. |
+| stroke | java.awt.Stroke | الخط المستخدم لرسم محيطات الحروف. |
 
 ### fillAndStrokeText(String text, Font font, float x, float y, Paint fillPaint, Paint strokePaint, Stroke stroke) {#fillAndStrokeText-java.lang.String-java.awt.Font-float-float-java.awt.Paint-java.awt.Paint-java.awt.Stroke-}
 ```
@@ -564,12 +564,12 @@ public void fillAndStrokeText(String text, Font font, float x, float y, Paint fi
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | نص | java.lang.String | النص المراد إضافته. |
-| خط | java.awt.Font | الخط النظامي الذي سيُستخدم لرسم النص. |
-| x | float | الإحداثي X لنقطة أصل النص. |
-| y | float | الإحداثي Y لنقطة أصل النص. |
+| خط | java.awt.Font | خط النظام الذي سيُستخدم لرسم النص. |
+| x | float | الإحداثي X لأصل النص. |
+| y | float | الإحداثي Y لأصل النص. |
 | fillPaint | java.awt.Paint | التعبئة المستخدمة لطلاء داخل الحروف. |
 | strokePaint | java.awt.Paint | java.awt.Paint المستخدم لطلاء حدود الحروف. يمكن أن يكون أي فئة فرعية من فئة java.awt.Paint في JDK. |
-| stroke | java.awt.Stroke | الخط المستخدم لرسم محيط الحروف. |
+| stroke | java.awt.Stroke | الخط المستخدم لرسم محيطات الحروف. |
 
 ### fillText(String text, DrFont drFont, float x, float y) {#fillText-java.lang.String-com.aspose.foundation.drawing.DrFont-float-float-}
 ```
@@ -584,8 +584,8 @@ public void fillText(String text, DrFont drFont, float x, float y)
 | --- | --- | --- |
 | نص | java.lang.String | النص المراد إضافته. |
 | drFont | com.aspose.foundation.drawing.DrFont | DrFont الذي سيُستخدم لرسم النص. يمكن استخدامه مع خط مخصص موجود في مجلد مخصص. |
-| x | float | الإحداثي X لنقطة أصل النص. |
-| y | float | الإحداثي Y لنقطة أصل النص. |
+| x | float | الإحداثي X لأصل النص. |
+| y | float | الإحداثي Y لأصل النص. |
 
 ### fillText(String text, DrFont drFont, float x, float y, Paint fill) {#fillText-java.lang.String-com.aspose.foundation.drawing.DrFont-float-float-java.awt.Paint-}
 ```
@@ -600,8 +600,8 @@ public void fillText(String text, DrFont drFont, float x, float y, Paint fill)
 | --- | --- | --- |
 | نص | java.lang.String | النص المراد إضافته. |
 | drFont | com.aspose.foundation.drawing.DrFont | DrFont الذي سيُستخدم لرسم النص. يمكن استخدامه مع خط مخصص موجود في مجلد مخصص. |
-| x | float | الإحداثي X لنقطة أصل النص. |
-| y | float | الإحداثي Y لنقطة أصل النص. |
+| x | float | الإحداثي X لأصل النص. |
+| y | float | الإحداثي Y لأصل النص. |
 | fill | java.awt.Paint | التعبئة المستخدمة لطلاء الحروف. |
 
 ### fillText(String text, float[] advances, DrFont drFont, float x, float y) {#fillText-java.lang.String-float---com.aspose.foundation.drawing.DrFont-float-float-}
@@ -618,8 +618,8 @@ public void fillText(String text, float[] advances, DrFont drFont, float x, floa
 | نص | java.lang.String | النص المراد إضافته. |
 | advances | float[] | مصفوفة عرض الحروف. يجب أن يتطابق طولها مع عدد الحروف في السلسلة. |
 | drFont | com.aspose.foundation.drawing.DrFont | DrFont الذي سيُستخدم لرسم النص. يمكن استخدامه مع خط مخصص موجود في مجلد مخصص. |
-| x | float | الإحداثي X لنقطة أصل النص. |
-| y | float | الإحداثي Y لنقطة أصل النص. |
+| x | float | الإحداثي X لأصل النص. |
+| y | float | الإحداثي Y لأصل النص. |
 
 ### fillText(String text, float[] advances, DrFont drFont, float x, float y, Paint fill) {#fillText-java.lang.String-float---com.aspose.foundation.drawing.DrFont-float-float-java.awt.Paint-}
 ```
@@ -635,8 +635,8 @@ public void fillText(String text, float[] advances, DrFont drFont, float x, floa
 | نص | java.lang.String | النص المراد إضافته. |
 | advances | float[] | مصفوفة عرض الحروف. يجب أن يتطابق طولها مع عدد الحروف في السلسلة. |
 | drFont | com.aspose.foundation.drawing.DrFont | DrFont الذي سيُستخدم لرسم النص. يمكن استخدامه مع خط مخصص موجود في مجلد مخصص. |
-| x | float | الإحداثي X لنقطة أصل النص. |
-| y | float | الإحداثي Y لنقطة أصل النص. |
+| x | float | الإحداثي X لأصل النص. |
+| y | float | الإحداثي Y لأصل النص. |
 | fill | java.awt.Paint | التعبئة المستخدمة لطلاء الحروف. |
 
 ### fillText(String text, float[] advances, Font font, float x, float y) {#fillText-java.lang.String-float---java.awt.Font-float-float-}
@@ -652,9 +652,9 @@ public void fillText(String text, float[] advances, Font font, float x, float y)
 | --- | --- | --- |
 | نص | java.lang.String | النص المراد إضافته. |
 | advances | float[] | مصفوفة عرض الحروف. يجب أن يتطابق طولها مع عدد الحروف في السلسلة. |
-| خط | java.awt.Font | الخط النظامي الذي سيُستخدم لرسم النص. |
-| x | float | الإحداثي X لنقطة أصل النص. |
-| y | float | الإحداثي Y لنقطة أصل النص. |
+| خط | java.awt.Font | خط النظام الذي سيُستخدم لرسم النص. |
+| x | float | الإحداثي X لأصل النص. |
+| y | float | الإحداثي Y لأصل النص. |
 
 ### fillText(String text, float[] advances, Font font, float x, float y, Paint fill) {#fillText-java.lang.String-float---java.awt.Font-float-float-java.awt.Paint-}
 ```
@@ -670,8 +670,8 @@ public void fillText(String text, float[] advances, Font font, float x, float y,
 | نص | java.lang.String | النص المراد إضافته. |
 | advances | float[] | مصفوفة عرض الحروف. يجب أن يتطابق طولها مع عدد الحروف في السلسلة. |
 | خط | java.awt.Font | الخط الذي سيُستخدم لرسم النص. |
-| x | float | الإحداثي X لنقطة أصل النص. |
-| y | float | الإحداثي Y لنقطة أصل النص. |
+| x | float | الإحداثي X لأصل النص. |
+| y | float | الإحداثي Y لأصل النص. |
 | fill | java.awt.Paint | التعبئة المستخدمة لطلاء الحروف. |
 
 ### fillText(String text, Font font, float x, float y) {#fillText-java.lang.String-java.awt.Font-float-float-}
@@ -686,9 +686,9 @@ public void fillText(String text, Font font, float x, float y)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | نص | java.lang.String | النص المراد إضافته. |
-| خط | java.awt.Font | الخط النظامي الذي سيُستخدم لرسم النص. |
-| x | float | الإحداثي X لنقطة أصل النص. |
-| y | float | الإحداثي Y لنقطة أصل النص. |
+| خط | java.awt.Font | خط النظام الذي سيُستخدم لرسم النص. |
+| x | float | الإحداثي X لأصل النص. |
+| y | float | الإحداثي Y لأصل النص. |
 
 ### fillText(String text, Font font, float x, float y, Paint fill) {#fillText-java.lang.String-java.awt.Font-float-float-java.awt.Paint-}
 ```
@@ -703,8 +703,8 @@ public void fillText(String text, Font font, float x, float y, Paint fill)
 | --- | --- | --- |
 | نص | java.lang.String | النص المراد إضافته. |
 | خط | java.awt.Font | الخط الذي سيُستخدم لرسم النص. |
-| x | float | الإحداثي X لنقطة أصل النص. |
-| y | float | الإحداثي Y لنقطة أصل النص. |
+| x | float | الإحداثي X لأصل النص. |
+| y | float | الإحداثي Y لأصل النص. |
 | fill | java.awt.Paint | التعبئة المستخدمة لطلاء الحروف. |
 
 ### getClass() {#getClass--}
@@ -860,7 +860,7 @@ public void openPage(float width, float height)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | width | float | عرض الصفحة الجديدة. |
-| الارتفاع | float | ارتفاع الصفحة الجديدة. |
+| height | float | ارتفاع الصفحة الجديدة. |
 
 ### openPage(String pageName) {#openPage-java.lang.String-}
 ```
@@ -888,8 +888,8 @@ public void outlineText(String text, DrFont drFont, float x, float y)
 | --- | --- | --- |
 | نص | java.lang.String | النص المراد إضافته. |
 | drFont | com.aspose.foundation.drawing.DrFont | DrFont الذي سيُستخدم لرسم النص. يمكن استخدامه مع خط مخصص موجود في مجلد مخصص. |
-| x | float | الإحداثي X لنقطة أصل النص. |
-| y | float | الإحداثي Y لنقطة أصل النص. |
+| x | float | الإحداثي X لأصل النص. |
+| y | float | الإحداثي Y لأصل النص. |
 
 ### outlineText(String text, DrFont drFont, float x, float y, Paint outlinePaint, Stroke stroke) {#outlineText-java.lang.String-com.aspose.foundation.drawing.DrFont-float-float-java.awt.Paint-java.awt.Stroke-}
 ```
@@ -904,10 +904,10 @@ public void outlineText(String text, DrFont drFont, float x, float y, Paint outl
 | --- | --- | --- |
 | نص | java.lang.String | النص المراد إضافته. |
 | drFont | com.aspose.foundation.drawing.DrFont | DrFont الذي سيُستخدم لرسم النص. يمكن استخدامه مع خط مخصص موجود في مجلد مخصص. |
-| x | float | الإحداثي X لنقطة أصل النص. |
-| y | float | الإحداثي Y لنقطة أصل النص. |
+| x | float | الإحداثي X لأصل النص. |
+| y | float | الإحداثي Y لأصل النص. |
 | outlinePaint | java.awt.Paint | java.awt.Paint المستخدم لطلاء حدود الحروف. يمكن أن يكون أي فئة فرعية من فئة java.awt.Paint في JDK. |
-| stroke | java.awt.Stroke | الخط المستخدم لرسم محيط الحروف. |
+| stroke | java.awt.Stroke | الخط المستخدم لرسم محيطات الحروف. |
 
 ### outlineText(String text, float[] advances, DrFont drFont, float x, float y) {#outlineText-java.lang.String-float---com.aspose.foundation.drawing.DrFont-float-float-}
 ```
@@ -923,8 +923,8 @@ public void outlineText(String text, float[] advances, DrFont drFont, float x, f
 | نص | java.lang.String | النص المراد إضافته. |
 | advances | float[] | مصفوفة عرض الحروف. يجب أن يتطابق طولها مع عدد الحروف في السلسلة. |
 | drFont | com.aspose.foundation.drawing.DrFont | DrFont الذي سيُستخدم لرسم النص. يمكن استخدامه مع خط مخصص موجود في مجلد مخصص. |
-| x | float | الإحداثي X لنقطة أصل النص. |
-| y | float | الإحداثي Y لنقطة أصل النص. |
+| x | float | الإحداثي X لأصل النص. |
+| y | float | الإحداثي Y لأصل النص. |
 
 ### outlineText(String text, float[] advances, DrFont drFont, float x, float y, Paint outlinePaint, Stroke stroke) {#outlineText-java.lang.String-float---com.aspose.foundation.drawing.DrFont-float-float-java.awt.Paint-java.awt.Stroke-}
 ```
@@ -940,10 +940,10 @@ public void outlineText(String text, float[] advances, DrFont drFont, float x, f
 | نص | java.lang.String | النص المراد إضافته. |
 | advances | float[] | مصفوفة عرض الحروف. يجب أن يتطابق طولها مع عدد الحروف في السلسلة. |
 | drFont | com.aspose.foundation.drawing.DrFont | DrFont الذي سيُستخدم لرسم النص. يمكن استخدامه مع خط مخصص موجود في مجلد مخصص. |
-| x | float | الإحداثي X لنقطة أصل النص. |
-| y | float | الإحداثي Y لنقطة أصل النص. |
+| x | float | الإحداثي X لأصل النص. |
+| y | float | الإحداثي Y لأصل النص. |
 | outlinePaint | java.awt.Paint | java.awt.Paint المستخدم لطلاء حدود الحروف. يمكن أن يكون أي فئة فرعية من فئة java.awt.Paint في JDK. |
-| stroke | java.awt.Stroke | الخط المستخدم لرسم محيط الحروف. |
+| stroke | java.awt.Stroke | الخط المستخدم لرسم محيطات الحروف. |
 
 ### outlineText(String text, float[] advances, Font font, float x, float y) {#outlineText-java.lang.String-float---java.awt.Font-float-float-}
 ```
@@ -958,9 +958,9 @@ public void outlineText(String text, float[] advances, Font font, float x, float
 | --- | --- | --- |
 | نص | java.lang.String | النص المراد إضافته. |
 | advances | float[] | مصفوفة عرض الحروف. يجب أن يتطابق طولها مع عدد الحروف في السلسلة. |
-| خط | java.awt.Font | الخط النظامي الذي سيُستخدم لرسم النص. |
-| x | float | الإحداثي X لنقطة أصل النص. |
-| y | float | الإحداثي Y لنقطة أصل النص. |
+| خط | java.awt.Font | خط النظام الذي سيُستخدم لرسم النص. |
+| x | float | الإحداثي X لأصل النص. |
+| y | float | الإحداثي Y لأصل النص. |
 
 ### outlineText(String text, float[] advances, Font font, float x, float y, Paint outlinePaint, Stroke stroke) {#outlineText-java.lang.String-float---java.awt.Font-float-float-java.awt.Paint-java.awt.Stroke-}
 ```
@@ -976,10 +976,10 @@ public void outlineText(String text, float[] advances, Font font, float x, float
 | نص | java.lang.String | النص المراد إضافته. |
 | advances | float[] | مصفوفة عرض الحروف. يجب أن يتطابق طولها مع عدد الحروف في السلسلة. |
 | خط | java.awt.Font | الخط الذي سيُستخدم لرسم النص. |
-| x | float | الإحداثي X لنقطة أصل النص. |
-| y | float | الإحداثي Y لنقطة أصل النص. |
+| x | float | الإحداثي X لأصل النص. |
+| y | float | الإحداثي Y لأصل النص. |
 | outlinePaint | java.awt.Paint | java.awt.Paint المستخدم لطلاء حدود الحروف. يمكن أن يكون أي فئة فرعية من فئة java.awt.Paint في JDK. |
-| stroke | java.awt.Stroke | الخط المستخدم لرسم محيط الحروف. |
+| stroke | java.awt.Stroke | الخط المستخدم لرسم محيطات الحروف. |
 
 ### outlineText(String text, Font font, float x, float y) {#outlineText-java.lang.String-java.awt.Font-float-float-}
 ```
@@ -993,9 +993,9 @@ public void outlineText(String text, Font font, float x, float y)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | نص | java.lang.String | النص المراد إضافته. |
-| خط | java.awt.Font | الخط النظامي الذي سيُستخدم لرسم النص. |
-| x | float | الإحداثي X لنقطة أصل النص. |
-| y | float | الإحداثي Y لنقطة أصل النص. |
+| خط | java.awt.Font | خط النظام الذي سيُستخدم لرسم النص. |
+| x | float | الإحداثي X لأصل النص. |
+| y | float | الإحداثي Y لأصل النص. |
 
 ### outlineText(String text, Font font, float x, float y, Paint outlinePaint, Stroke stroke) {#outlineText-java.lang.String-java.awt.Font-float-float-java.awt.Paint-java.awt.Stroke-}
 ```
@@ -1010,10 +1010,10 @@ public void outlineText(String text, Font font, float x, float y, Paint outlineP
 | --- | --- | --- |
 | نص | java.lang.String | النص المراد إضافته. |
 | خط | java.awt.Font | الخط الذي سيُستخدم لرسم النص. |
-| x | float | الإحداثي X لنقطة أصل النص. |
-| y | float | الإحداثي Y لنقطة أصل النص. |
+| x | float | الإحداثي X لأصل النص. |
+| y | float | الإحداثي Y لأصل النص. |
 | outlinePaint | java.awt.Paint | java.awt.Paint المستخدم لطلاء حدود الحروف. يمكن أن يكون أي فئة فرعية من فئة java.awt.Paint في JDK. |
-| stroke | java.awt.Stroke | الخط المستخدم لرسم محيط الحروف. |
+| stroke | java.awt.Stroke | الخط المستخدم لرسم محيطات الحروف. |
 
 ### resizeEps(OutputStream epsStream, DimensionF newSizeInUnits, Units units) {#resizeEps-java.io.OutputStream-com.aspose.page.DimensionF-com.aspose.page.Units-}
 ```
@@ -1021,13 +1021,13 @@ public void resizeEps(OutputStream epsStream, DimensionF newSizeInUnits, Units u
 ```
 
 
-يعيد تحجيم كائن PsDocument المعطى كملف EPS. تُستخدم هذه الطريقة فقط بعد استخراج حجم EPS. يحفظ ملف EPS الأصلي مع تحديث %%BoundingBox الموجود أو يتم إنشاء واحد جديد. سيتم أيضًا تعيين مصفوفة تحويل الصفحة.
+يعيد تحجيم PsDocument المعطى كملف EPS. تُستخدم هذه الطريقة فقط بعد استخراج حجم EPS. يحفظ الملف EPS الأصلي مع تحديث %%BoundingBox الموجود أو يتم إنشاء واحد جديد. سيتم أيضًا تعيين مصفوفة تحويل الصفحة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | epsStream | java.io.OutputStream |  |
-| newSizeInUnits | [DimensionF](../../com.aspose.page/dimensionf) | الحجم الجديد لصورة EPS بالوحدات المعينة. |
+| newSizeInUnits | [DimensionF](../../com.aspose.page/dimensionf) | الحجم الجديد لصورة EPS بالوحدات المحددة. |
 | units | [Units](../../com.aspose.page/units) | وحدات الحجم الجديد. يمكن أن تكون نقاطًا أو بوصات أو مليمترات أو سنتيمترات ونسب مئوية من الحجم الأصلي. |
 
 ### rotate(float angleRadians) {#rotate-float-}
@@ -1036,7 +1036,7 @@ public void rotate(float angleRadians)
 ```
 
 
-يضيف دورانًا عكس اتجاه عقرب الساعة حول الأصل إلى حالة الرسومات الحالية (تدوير المصفوفة الحالية).
+يضيف دورانًا عكس اتجاه عقارب الساعة حول الأصل إلى حالة الرسومات الحالية (تدوير المصفوفة الحالية).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1049,7 +1049,7 @@ public void rotate(int angleDegrees)
 ```
 
 
-يضيف دورانًا عكس اتجاه عقرب الساعة حول الأصل إلى حالة الرسومات الحالية (تدوير المصفوفة الحالية).
+يضيف دورانًا عكس اتجاه عقارب الساعة حول الأصل إلى حالة الرسومات الحالية (تدوير المصفوفة الحالية).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1062,7 +1062,7 @@ public void save()
 ```
 
 
-يحفظ كائن PsDocument المعطى كملف PS أو EPS. تُستخدم هذه الطريقة فقط عندما يتم إنشاء PsDocument من الصفر.
+يحفظ PsDocument المعطى كملف PS أو EPS. تُستخدم هذه الطريقة فقط عندما يتم إنشاء PsDocument من الصفر.
 
 ### save(Device device, SaveOptions options) {#save-com.aspose.page.Device-com.aspose.page.SaveOptions-}
 ```
@@ -1084,7 +1084,7 @@ public void save(OutputStream epsStream)
 ```
 
 
-يحفظ كائن PsDocument المعطى إلى الدفق. تُستخدم هذه الطريقة فقط بعد تحديث بيانات XMP الوصفية. يحفظ ملف EPS الأصلي مع تحديث البيانات الوصفية الموجودة أو يتم إنشاء واحد جديد أثناء استدعاء طريقة getMetadata. في الحالة الأخيرة تُضاف جميع شفرة PostScript الضرورية وتعليقات EPS.
+يحفظ PsDocument المعطى إلى الدفق. تُستخدم هذه الطريقة فقط بعد تحديث بيانات تعريف XMP. يحفظ ملف EPS الأصلي مع تحديث البيانات الوصفية الموجودة أو يتم إنشاء واحد جديد أثناء استدعاء طريقة getMetadata. في الحالة الأخيرة تُضاف جميع شفرة PostScript الضرورية وتعليقات EPS.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1097,7 +1097,7 @@ public void save(String outEpsFilePath)
 ```
 
 
-يحفظ كائن PsDocument المعطى كملف EPS. تُستخدم هذه الطريقة فقط بعد تحديث بيانات XMP الوصفية. يحفظ ملف EPS الأصلي مع تحديث البيانات الوصفية الموجودة أو يتم إنشاء واحد جديد أثناء استدعاء طريقة getMetadata. في الحالة الأخيرة تُضاف جميع شفرة PostScript الضرورية وتعليقات EPS.
+يحفظ PsDocument المعطى كملف EPS. تُستخدم هذه الطريقة فقط بعد تحديث بيانات تعريف XMP. يحفظ ملف EPS الأصلي مع تحديث البيانات الوصفية الموجودة أو يتم إنشاء واحد جديد أثناء استدعاء طريقة getMetadata. في الحالة الأخيرة تُضاف جميع شفرة PostScript الضرورية وتعليقات EPS.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1110,12 +1110,12 @@ public void saveAsImage(ImageSaveOptions options)
 ```
 
 
-يحفظ ملف PS/EPS إلى ملف صورة. سيكون دليل الإخراج واسم الملف هو نفسه كما في ملف PS الإدخالي. سيتطابق امتداد الملف مع تنسيق الصورة في معامل \"options\". إذا تم تهيئة المستند باستخدام تدفق ليس مشتقًا من FileInputStream، فسيتم حفظ ملف الصورة في المجلد الحالي باستخدام قالب اسم ملف افتراضي.
+يحفظ ملف PS/EPS كملف صورة. سيكون دليل الإخراج واسم الملف هو نفسه كما في ملف PS المدخل. سيتطابق امتداد الملف مع تنسيق الصورة في معامل \"options\". إذا تم تهيئة المستند باستخدام تدفق ليس مشتقًا من FileInputStream، فسيتم حفظ ملف الصورة في المجلد الحالي باستخدام قالب اسم ملف افتراضي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| options | [ImageSaveOptions](../../com.aspose.eps.device/imagesaveoptions) | يحتوي على المعلمات الضرورية لحفظ الصورة والعلامات التي تحدد إخراج الأخطاء التي تُطرح أثناء التحويل. |
+| options | [ImageSaveOptions](../../com.aspose.eps.device/imagesaveoptions) | يحتوي على المعلمات الضرورية لحفظ الصورة والعلامات التي تحدد إخراج الأخطاء التي تُرمى أثناء التحويل. |
 
 ### saveAsImage(ImageSaveOptions options, String outDir, String fileNameTemplate) {#saveAsImage-com.aspose.eps.device.ImageSaveOptions-java.lang.String-java.lang.String-}
 ```
@@ -1123,14 +1123,14 @@ public void saveAsImage(ImageSaveOptions options, String outDir, String fileName
 ```
 
 
-يحفظ ملف PS/EPS إلى ملف صورة في الدليل المحدد مع اسم الملف المحدد. سيتطابق امتداد الملف مع تنسيق الصورة في معامل \"options\".
+يحفظ ملف PS/EPS كملف صورة في الدليل المحدد مع اسم الملف المحدد. سيتطابق امتداد الملف مع تنسيق الصورة في معامل \"options\".
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| options | [ImageSaveOptions](../../com.aspose.eps.device/imagesaveoptions) | يحتوي على المعلمات الضرورية لحفظ الصورة والعلامات التي تحدد إخراج الأخطاء التي تُطرح أثناء التحويل. |
+| options | [ImageSaveOptions](../../com.aspose.eps.device/imagesaveoptions) | يحتوي على المعلمات الضرورية لحفظ الصورة والعلامات التي تحدد إخراج الأخطاء التي تُرمى أثناء التحويل. |
 | outDir | java.lang.String | دليل الإخراج حيث سيتم حفظ ملف الصورة. |
-| fileNameTemplate | java.lang.String | قالب اسم الملف للصورة (بدون الامتداد). إذا كان ملف PS/EPS الإدخالي صفحة واحدة فسيكون اسم الملف بالضبط، وإلا سيكون \"\\_[n]\" حيث \"n\" - رقم الصفحة بدءًا من 0، وسيُضاف لاحقة إلى ذلك. سيتطابق امتداد الملف مع تنسيق الصورة في معامل \"option\". |
+| fileNameTemplate | java.lang.String | قالب اسم الملف للصورة (بدون الامتداد). إذا كان ملف PS/EPS المدخل صفحة واحدة فسيكون بالضبط اسم الملف، وإلا \"\\_[n]\" حيث \"n\" - رقم الصفحة بدءًا من 0، سيتم إلحاق لاحقة إلى ذلك. سيتطابق امتداد الملف مع تنسيق الصورة في معامل \"option\". |
 
 ### saveAsImagesBytes(ImageSaveOptions options) {#saveAsImagesBytes-com.aspose.eps.device.ImageSaveOptions-}
 ```
@@ -1143,7 +1143,7 @@ public byte[][] saveAsImagesBytes(ImageSaveOptions options)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| options | [ImageSaveOptions](../../com.aspose.eps.device/imagesaveoptions) | يحتوي على المعلمات الضرورية لحفظ الصورة والعلامات التي تحدد إخراج الأخطاء التي تُطرح أثناء التحويل. |
+| options | [ImageSaveOptions](../../com.aspose.eps.device/imagesaveoptions) | يحتوي على المعلمات الضرورية لحفظ الصورة والعلامات التي تحدد إخراج الأخطاء التي تُرمى أثناء التحويل. |
 
 **Returns:**
 byte[][] - بايتات الصور. مصفوفة بايت واحدة لكل صفحة.
@@ -1153,7 +1153,7 @@ public void saveAsPdf(OutputStream pdfStream, PdfSaveOptions options)
 ```
 
 
-يحفظ ملف PS/EPS إلى تدفق PDF خارجي.
+يحفظ ملف PS/EPS إلى دفق PDF إخراج.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1188,7 +1188,7 @@ public static void saveImageAsEps(BufferedImage image, OutputStream epsStream, P
 | --- | --- | --- |
 | image | java.awt.image.BufferedImage | الصورة. |
 | epsStream | java.io.OutputStream | تدفق إخراج EPS. |
-| options | [PsSaveOptions](../../com.aspose.eps.device/pssaveoptions) | يحتوي على معلمات تحدد إخراج الأخطاء التي تُطرح أثناء التحويل. |
+| options | [PsSaveOptions](../../com.aspose.eps.device/pssaveoptions) | يحتوي على المعلمات التي تحدد إخراج الأخطاء التي تُرمى أثناء التحويل. |
 
 ### saveImageAsEps(BufferedImage image, String epsFilePath, PsSaveOptions options) {#saveImageAsEps-java.awt.image.BufferedImage-java.lang.String-com.aspose.eps.device.PsSaveOptions-}
 ```
@@ -1203,7 +1203,7 @@ public static void saveImageAsEps(BufferedImage image, String epsFilePath, PsSav
 | --- | --- | --- |
 | image | java.awt.image.BufferedImage | الصورة. |
 | epsFilePath | java.lang.String | مسار ملف EPS. |
-| options | [PsSaveOptions](../../com.aspose.eps.device/pssaveoptions) | يحتوي على معلمات تحدد إخراج الأخطاء التي تُطرح أثناء التحويل. |
+| options | [PsSaveOptions](../../com.aspose.eps.device/pssaveoptions) | يحتوي على المعلمات التي تحدد إخراج الأخطاء التي تُرمى أثناء التحويل. |
 
 ### saveImageAsEps(InputStream imageStream, OutputStream epsStream, PsSaveOptions options) {#saveImageAsEps-java.io.InputStream-java.io.OutputStream-com.aspose.eps.device.PsSaveOptions-}
 ```
@@ -1211,14 +1211,14 @@ public static void saveImageAsEps(InputStream imageStream, OutputStream epsStrea
 ```
 
 
-يحفظ صورة PNG/JPEG/BMP/GIF من تدفق الإدخال إلى تدفق إخراج EPS.
+يحفظ صورة PNG/JPEG/BMP/GIF من دفق الإدخال إلى دفق إخراج EPS.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | imageStream | java.io.InputStream | تدفق إدخال الصورة. |
 | epsStream | java.io.OutputStream | تدفق إخراج EPS. |
-| options | [PsSaveOptions](../../com.aspose.eps.device/pssaveoptions) | يحتوي على معلمات تحدد إخراج الأخطاء التي تُطرح أثناء التحويل. |
+| options | [PsSaveOptions](../../com.aspose.eps.device/pssaveoptions) | يحتوي على المعلمات التي تحدد إخراج الأخطاء التي تُرمى أثناء التحويل. |
 
 ### saveImageAsEps(String imageFilePath, String epsFilePath, PsSaveOptions options) {#saveImageAsEps-java.lang.String-java.lang.String-com.aspose.eps.device.PsSaveOptions-}
 ```
@@ -1233,7 +1233,7 @@ public static void saveImageAsEps(String imageFilePath, String epsFilePath, PsSa
 | --- | --- | --- |
 | imageFilePath | java.lang.String | مسار ملف الصورة. |
 | epsFilePath | java.lang.String | مسار ملف EPS. |
-| options | [PsSaveOptions](../../com.aspose.eps.device/pssaveoptions) | يحتوي على معلمات تحدد إخراج الأخطاء التي تُطرح أثناء التحويل. |
+| options | [PsSaveOptions](../../com.aspose.eps.device/pssaveoptions) | يحتوي على المعلمات التي تحدد إخراج الأخطاء التي تُرمى أثناء التحويل. |
 
 ### scale(float xScale, float yScale) {#scale-float-float-}
 ```
@@ -1241,13 +1241,13 @@ public void scale(float xScale, float yScale)
 ```
 
 
-يضيف مقياسًا إلى حالة الرسومات الحالية (مقياس المصفوفة الحالية).
+يضيف مقياسًا إلى حالة الرسومات الحالية (scale current matrix).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| xScale | float | المقياس على المحور X. |
-| yScale | float | المقياس على المحور Y. |
+| xScale | float | المقياس في المحور X. |
+| yScale | float | المقياس في المحور Y. |
 
 ### setInputStream(InputStream is) {#setInputStream-java.io.InputStream-}
 ```
@@ -1268,12 +1268,12 @@ public void setPageDevice(Map<String,Object> pageParams)
 ```
 
 
-يضبط معلمات جهاز الصفحة (انظر المشغل \"setpagedevice\" في مواصفات PostScript). من بين هذه المعلمات قد تكون حجم الصفحة واللون وغيرها.
+يضبط معلمات جهاز الصفحة (انظر المشغل \"setpagedevice\" في مواصفات PostScript). من بين هذه المعلمات يمكن أن تكون حجم الصفحة واللون وغيرها.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| pageParams | java.util.Map<java.lang.String,java.lang.Object> | معلمات الصفحة. يمكن أن يحتوي هذا القاموس على حجم الصفحة واللون وما إلى ذلك. |
+| pageParams | java.util.Map<java.lang.String,java.lang.Object> | معلمات الصفحة. في هذا القاموس يمكن أن تكون حجم الصفحة واللون إلخ. |
 
 ### setPageSize(float width, float height) {#setPageSize-float-float-}
 ```
@@ -1287,7 +1287,7 @@ public void setPageSize(float width, float height)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | width | float | عرض الصفحة في ملف PostScript الناتج. |
-| الارتفاع | float | ارتفاع الصفحة في ملف PostScript الناتج. |
+| height | float | ارتفاع الصفحة في ملف PostScript الناتج. |
 
 ### setPaint(Paint paint) {#setPaint-java.awt.Paint-}
 ```
@@ -1321,7 +1321,7 @@ public void setTransform(AffineTransform matrix)
 ```
 
 
-اضبط التحويل الحالي إلى هذا.
+عيّن التحويل الحالي إلى هذا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1334,7 +1334,7 @@ public void shear(float shx, float shy)
 ```
 
 
-يضيف تحويل قص إلى حالة الرسومات الحالية (قص المصفوفة الحالية).
+يضيف تحويل قص إلى حالة الرسومات الحالية (shear current matrix).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1358,7 +1358,7 @@ public void transform(AffineTransform matrix)
 ```
 
 
-يضيف تحويلًا إلى حالة الرسومات الحالية (يضمّ هذه المصفوفة إلى الحالية).
+يضيف تحويلًا إلى حالة الرسومات الحالية (concatenates this matrix with current one).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1371,13 +1371,13 @@ public void translate(float x, float y)
 ```
 
 
-يضيف إزاحة إلى حالة الرسومات الحالية (يُحوّل المصفوفة الحالية).
+يضيف إزاحة إلى حالة الرسومات الحالية (translates current matrix).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| x | float | الإزاحة في الاتجاه X. |
-| y | float | الإزاحة في الاتجاه Y. |
+| x | float | الإزاحة في اتجاه X. |
+| y | float | الإزاحة في اتجاه Y. |
 
 ### wait() {#wait--}
 ```

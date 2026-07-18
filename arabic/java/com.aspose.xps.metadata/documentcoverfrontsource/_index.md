@@ -1,6 +1,6 @@
 ---
 title: "DocumentCoverFrontSource"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يحدد المصدر لورقة غلاف أمامي مخصصة."
 type: docs
 weight: 22
@@ -16,11 +16,11 @@ public final class DocumentCoverFrontSource extends StringParameterInit implemen
 ```
 
 يحدد المصدر لورقة الغلاف الأمامي المخصصة. https://docs.microsoft.com/en-us/windows/win32/printdocs/documentcoverfrontsource
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [DocumentCoverFrontSource(String value)](#DocumentCoverFrontSource-java.lang.String-) | ينشئ نسخة جديدة. |
+| [DocumentCoverFrontSource(String value)](#DocumentCoverFrontSource-java.lang.String-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -43,7 +43,7 @@ public DocumentCoverFrontSource(String value)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -64,7 +64,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

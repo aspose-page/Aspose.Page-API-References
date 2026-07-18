@@ -1,6 +1,6 @@
 ---
 title: "PageWatermarkTextColor"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يحدد لون sRGB لنص العلامة المائية."
 type: docs
 weight: 135
@@ -15,12 +15,12 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class PageWatermarkTextColor extends StringParameterInit implements IJobPrintTicketItem, IDocumentPrintTicketItem, IPagePrintTicketItem
 ```
 
-يعرف لون sRGB لنص العلامة المائية. الصيغة هي ARGB: \#AARRGGBB. https://docs.microsoft.com/en-us/windows/win32/printdocs/pagewatermarktextcolor
-## المنشئات
+يحدد لون sRGB لنص العلامة المائية. الصيغة هي ARGB: \#AARRGGBB. https://docs.microsoft.com/en-us/windows/win32/printdocs/pagewatermarktextcolor
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PageWatermarkTextColor(String value)](#PageWatermarkTextColor-java.lang.String-) | ينشئ نسخة جديدة. |
+| [PageWatermarkTextColor(String value)](#PageWatermarkTextColor-java.lang.String-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -43,7 +43,7 @@ public PageWatermarkTextColor(String value)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -64,7 +64,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

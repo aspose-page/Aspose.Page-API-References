@@ -1,6 +1,6 @@
 ---
 title: "PageForceFrontSide"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يفرض ظهور الإخراج على الوجه الأمامي لورقة الوسائط."
 type: docs
 weight: 97
@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class PageForceFrontSide extends Feature implements IJobPrintTicketItem, IDocumentPrintTicketItem, IPagePrintTicketItem
 ```
 
-يفرض ظهور الإخراج على الوجه الأمامي لورقة الوسائط. يتعلق ذلك بأوراق الوسائط التي لها أسطح مختلفة على كل جانب. في الحالات التي يتداخل فيها هذا الميزة مع خيارات المعالجة (مثل  DocumentDuplex )، فإن  PageForceFrontSide  يتفوق للصفحة المحددة التي ينطبق عليها الميزة.
-## المنشئات
+يفرض ظهور المخرجات على الوجه الأمامي لورقة الوسائط. يتعلق بأوراق الوسائط التي لها أسطح مختلفة على كل جانب. في الحالات التي يتعارض فيها هذا الخيار مع خيارات المعالجة (مثل  DocumentDuplex ) ، فإن  PageForceFrontSide  يتفوق للصفحة المحددة التي ينطبق عليها هذا الخيار.
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PageForceFrontSide(PageForceFrontSide.PageForceFrontSideOption[] options)](#PageForceFrontSide-com.aspose.xps.metadata.PageForceFrontSide.PageForceFrontSideOption...-) | ينشئ نسخة جديدة. |
+| [PageForceFrontSide(PageForceFrontSide.PageForceFrontSideOption[] options)](#PageForceFrontSide-com.aspose.xps.metadata.PageForceFrontSide.PageForceFrontSideOption...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public PageForceFrontSide(PageForceFrontSide.PageForceFrontSideOption[] options)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

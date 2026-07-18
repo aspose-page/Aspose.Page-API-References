@@ -1,7 +1,7 @@
 ---
 title: "PageMediaType.PrePunched"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يحدد الثوابت لقيمة الخاصية المتدرجة PrePunched."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يعرّف الثوابت لقيمة الخاصية المتدرجة PrePunched."
 type: docs
 weight: 15
 url: /ar/java/com.aspose.xps.metadata/pagemediatype.prepunched/
@@ -15,12 +15,12 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class PageMediaType.PrePunched extends ScoredProperty implements PageMediaType.IPageMediaTypeOptionItem
 ```
 
-يعرّف الثوابت لقيمة الخاصية المقيمة PrePunched.
+يعرف الثوابت لقيمة الخاصية المقيمة  PrePunched .
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
-| [None](#None) | قيمة لا شيء. |
+| [None](#None) | قيمة None. |
 | [PrePunchedValue](#PrePunchedValue) | قيمة PrePunched. |
 ## الطرق
 
@@ -42,7 +42,7 @@ public static PageMediaType.PrePunched None
 ```
 
 
-قيمة لا شيء.
+قيمة None.
 
 ### PrePunchedValue {#PrePunchedValue}
 ```
@@ -66,7 +66,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

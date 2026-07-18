@@ -1,6 +1,6 @@
 ---
 title: "DocumentNUp"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف الإخراج وتنسيق صفحات منطقية متعددة إلى ورقة مادية واحدة."
 type: docs
 weight: 28
@@ -15,18 +15,18 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class DocumentNUp extends NUp implements IJobPrintTicketItem, IDocumentPrintTicketItem
 ```
 
-يصف الإخراج وتنسيق عدة صفحات منطقية إلى ورقة مادية واحدة. يتم تجميع كل مستند بشكل منفصل.  DocumentNUp  و  JobNUpAllDocumentsContiguously  متنافيان. يعود الأمر إلى السائق لتحديد كيفية معالجة القيود بين هاتين الكلمتين المفتاحيتين. https://docs.microsoft.com/en-us/windows/win32/printdocs/documentnup
-## المنشئات
+يصف المخرجات وتنسيق عدة صفحات منطقية على ورقة مادية واحدة. يتم تجميع كل مستند بشكل منفصل.  DocumentNUp  و  JobNUpAllDocumentsContiguously  متنافيان. يعود إلى السائق تحديد كيفية معالجة القيود بين هاتين الكلمتين المفتاحيتين. https://docs.microsoft.com/en-us/windows/win32/printdocs/documentnup
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [DocumentNUp(NUp.INUpItem[] items)](#DocumentNUp-com.aspose.xps.metadata.NUp.INUpItem...-) | ينشئ نسخة جديدة. |
+| [DocumentNUp(NUp.INUpItem[] items)](#DocumentNUp-com.aspose.xps.metadata.NUp.INUpItem...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
-| [addPagesPerSheetOption(int value)](#addPagesPerSheetOption-int-) | يضيف خيارًا مع قيمة خاصية ScoredProperty للـ PagesPerSheet. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
+| [addPagesPerSheetOption(int value)](#addPagesPerSheetOption-int-) | يضيف خيارًا مع قيمة خاصية متدرجة PagesPerSheet. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -43,7 +43,7 @@ public DocumentNUp(NUp.INUpItem[] items)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -69,7 +69,7 @@ public DocumentNUp addPagesPerSheetOption(int value)
 ```
 
 
-يضيف خيارًا مع قيمة خاصية ScoredProperty للـ PagesPerSheet. يحدد عدد الصفحات المنطقية لكل ورقة مادية.
+يضيف خيارًا مع قيمة خاصية متدرجة PagesPerSheet. يحدد عدد الصفحات المنطقية لكل ورقة مادية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -80,7 +80,7 @@ public DocumentNUp addPagesPerSheetOption(int value)
 PagesPerSheet
 ```
 
-قيمة خاصية متدرجة. يمكن أن تكون المجموعة المدعومة أي مجموعة من الأعداد الصحيحة مثل \\{1,2,4,6,8,9,16\\}. |
+قيمة خاصية مُقيمة. يمكن أن تكون المجموعة المدعومة أي مجموعة من الأعداد الصحيحة مثل \{1,2,4,6,8,9,16\}. |
 
 **Returns:**
 [DocumentNUp](../../com.aspose.xps.metadata/documentnup) - This feature instance.
@@ -98,7 +98,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

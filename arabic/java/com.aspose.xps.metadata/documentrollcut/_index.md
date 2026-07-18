@@ -1,13 +1,13 @@
 ---
 title: "DocumentRollCut"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف طريقة القطع للورق اللف."
 type: docs
 weight: 33
 url: /ar/java/com.aspose.xps.metadata/documentrollcut/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.xps.metadata/printticketelement), [com.aspose.xps.metadata.CompositePrintTicketElement](../../com.aspose.xps.metadata/compositeprintticketelement), [com.aspose.xps.metadata.Feature](../../com.aspose.xps.metadata/feature), [com.aspose.xps.metadata.RollCut](../../com.aspose.xps.metadata/rollcut)
+java.lang.Object، [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.xps.metadata/printticketelement)، [com.aspose.xps.metadata.CompositePrintTicketElement](../../com.aspose.xps.metadata/compositeprintticketelement)، [com.aspose.xps.metadata.Feature](../../com.aspose.xps.metadata/feature)، [com.aspose.xps.metadata.RollCut](../../com.aspose.xps.metadata/rollcut)
 
 **All Implemented Interfaces:**
 [com.aspose.xps.metadata.IJobPrintTicketItem](../../com.aspose.xps.metadata/ijobprintticketitem), [com.aspose.xps.metadata.IDocumentPrintTicketItem](../../com.aspose.xps.metadata/idocumentprintticketitem)
@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class DocumentRollCut extends RollCut implements IJobPrintTicketItem, IDocumentPrintTicketItem
 ```
 
-يصف طريقة القطع للورق اللف. يتم معالجة كل مستند بشكل منفصل. الخيارات المحددة تصف الطرق المختلفة للقطع اللف. https://docs.microsoft.com/en-us/windows/win32/printdocs/documentrollcut
-## المنشئات
+يصف طريقة القطع للورق المدور. يتم معالجة كل مستند بشكل منفصل. الخيارات المحددة تصف الطرق المختلفة للقطع الدائري. https://docs.microsoft.com/en-us/windows/win32/printdocs/documentrollcut
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [DocumentRollCut(RollCut.RollCutOption[] options)](#DocumentRollCut-com.aspose.xps.metadata.RollCut.RollCutOption...-) | ينشئ نسخة جديدة. |
+| [DocumentRollCut(RollCut.RollCutOption[] options)](#DocumentRollCut-com.aspose.xps.metadata.RollCut.RollCutOption...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public DocumentRollCut(RollCut.RollCutOption[] options)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

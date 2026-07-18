@@ -1,7 +1,7 @@
 ---
 title: "PageResolution.QualitativeResolution"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يحدد الثوابت لقيمة الخاصية المتدرجة QualitativeResolution."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يعرف الثوابت لقيمة الخاصية المتدرجة QualitativeResolution."
 type: docs
 weight: 11
 url: /ar/java/com.aspose.xps.metadata/pageresolution.qualitativeresolution/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class PageResolution.QualitativeResolution extends ScoredProperty implements PageResolution.IPageResolutionOptionItem
 ```
 
-يحدد الثوابت لقيمة الخاصية المُقيمة  QualitativeResolution .
+يحدد الثوابت لقيمة الخاصية المتدرجة  QualitativeResolution .
 ## الحقول
 
 | حقل | الوصف |
@@ -93,7 +93,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

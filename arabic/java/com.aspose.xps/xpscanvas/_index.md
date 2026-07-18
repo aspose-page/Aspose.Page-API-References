@@ -1,51 +1,51 @@
 ---
 title: "XpsCanvas"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "فئة تُغلف ميزات عنصر Canvas."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "فئة تجسد ميزات عنصر Canvas."
 type: docs
 weight: 16
 url: /ar/java/com.aspose.xps/xpscanvas/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject)، [com.aspose.xps.XpsElement](../../com.aspose.xps/xpselement)، [com.aspose.xps.XpsHyperlinkElement](../../com.aspose.xps/xpshyperlinkelement)، [com.aspose.xps.XpsContentElement](../../com.aspose.xps/xpscontentelement)
+java.lang.Object, [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject), [com.aspose.xps.XpsElement](../../com.aspose.xps/xpselement), [com.aspose.xps.XpsHyperlinkElement](../../com.aspose.xps/xpshyperlinkelement), [com.aspose.xps.XpsContentElement](../../com.aspose.xps/xpscontentelement)
 ```
 public final class XpsCanvas extends XpsContentElement
 ```
 
-فئة تُغلف ميزات عنصر Canvas. يجمع هذا العنصر العناصر معًا. على سبيل المثال، يمكن تجميع عناصر Glyphs و Path في Canvas لتحديدها كوحدة (كوجهة ارتباط تشعبي) أو لتطبيق قيمة خاصية مركبة على كل عنصر فرعي وسلف.
+فئة تُجَمِّع ميزات عنصر Canvas. هذا العنصر يجمع العناصر معًا. على سبيل المثال، يمكن تجميع عناصر Glyphs و Path في Canvas لتحديدها كوحدة (كوجهة رابط تشعبي) أو لتطبيق قيمة خاصية مركبة على كل عنصر فرعي وسلف.
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [<T>add(T element)](#-T-add-T-) | يضيف عنصرًا إلى قائمة الأطفال لهذا الـcanvas. |
-| [<T>insert(int index, T element)](#-T-insert-int-T-) | يدرج عنصرًا إلى قائمة الأطفال لهذا الـcanvas في موضع الفهرس. |
-| [addCanvas()](#addCanvas--) | يضيف canvas جديدًا إلى قائمة الأطفال لهذا الـcanvas. |
-| [addGlyphs(String fontFamily, float fontSize, XpsFontStyle fontStyle, float originX, float originY, String unicodeString)](#addGlyphs-java.lang.String-float-com.aspose.xps.XpsFontStyle-float-float-java.lang.String-) | يضيف glyphs جديدة إلى قائمة الأطفال لهذا الـcanvas. |
-| [addPath(XpsPathGeometry data)](#addPath-com.aspose.xps.XpsPathGeometry-) | يضيف مسارًا جديدًا إلى قائمة الأطفال لهذا الـcanvas. |
-| [deepClone()](#deepClone--) | ينسخ هذا الـcanvas. |
+| [<T>add(T element)](#-T-add-T-) | يضيف عنصرًا إلى قائمة العناصر الفرعية لهذا الـ canvas. |
+| [<T>insert(int index, T element)](#-T-insert-int-T-) | يدرج عنصرًا في قائمة العناصر الفرعية لهذا الـ canvas في موضع الفهرس. |
+| [addCanvas()](#addCanvas--) | يضيف canvas جديدًا إلى قائمة العناصر الفرعية لهذا الـ canvas. |
+| [addGlyphs(String fontFamily, float fontSize, XpsFontStyle fontStyle, float originX, float originY, String unicodeString)](#addGlyphs-java.lang.String-float-com.aspose.xps.XpsFontStyle-float-float-java.lang.String-) | يضيف glyphs جديدة إلى قائمة العناصر الفرعية لهذا الـ canvas. |
+| [addPath(XpsPathGeometry data)](#addPath-com.aspose.xps.XpsPathGeometry-) | يضيف path جديدًا إلى قائمة العناصر الفرعية لهذا الـ canvas. |
+| [deepClone()](#deepClone--) | ينسخ هذا الـ canvas. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int i)](#get-int-) | يوفر الوصول إلى أبناء العنصر حسب الفهرس i. |
+| [get(int i)](#get-int-) | يوفر وصولاً إلى أبناء العنصر حسب الفهرس i. |
 | [getClass()](#getClass--) |  |
 | [getClip()](#getClip--) | يعيد هندسة المسار التي تحدّ المنطقة المرسومة للعنصر. |
-| [getEdgeMode()](#getEdgeMode--) | يعيد القيمة التي تتحكم في كيفية رسم حواف المسارات داخل الـcanvas. |
+| [getEdgeMode()](#getEdgeMode--) | يعيد القيمة التي تتحكم في كيفية عرض حواف الـ paths داخل الـ canvas. |
 | [getHyperlinkTarget()](#getHyperlinkTarget--) | يعيد كائن هدف الارتباط التشعبي. |
-| [getOpacity()](#getOpacity--) | يعيد القيمة التي تحدد شفافية العنصر الموحدة. |
-| [getOpacityMask()](#getOpacityMask--) | يعيد الفرشاة التي تحدد قناع قيم ألفا المطبقة على العنصر بنفس طريقة خاصية Opacity، ولكن تسمح بقيم ألفا مختلفة لمناطق مختلفة من العنصر. |
-| [getRenderTransform()](#getRenderTransform--) | يعيد مصفوفة التحويل المتجانسة التي تُنشئ إطار إحداثيات جديد لجميع خصائص العنصر ولكل العناصر الفرعية (إن وجدت). |
+| [getOpacity()](#getOpacity--) | يعيد القيمة التي تحدد الشفافية الموحدة للعنصر. |
+| [getOpacityMask()](#getOpacityMask--) | يعيد الفرشاة التي تحدد قناع قيم ألفا المطبقة على العنصر بنفس طريقة خاصية الشفافية (Opacity)، ولكن تسمح بقيم ألفا مختلفة لمناطق مختلفة من العنصر. |
+| [getRenderTransform()](#getRenderTransform--) | يعيد مصفوفة التحويل المتجانس التي تُنشئ إطار إحداثيات جديد لجميع خصائص العنصر ولكل العناصر الفرعية (إن وجدت). |
 | [hashCode()](#hashCode--) |  |
-| [insertCanvas(int index)](#insertCanvas-int-) | يدرج canvas جديدًا إلى قائمة الأطفال لهذا الـcanvas في موضع الفهرس. |
-| [insertGlyphs(int index, String fontFamily, float fontSize, XpsFontStyle fontStyle, float originX, float originY, String unicodeString)](#insertGlyphs-int-java.lang.String-float-com.aspose.xps.XpsFontStyle-float-float-java.lang.String-) | يدرج glyphs جديدة إلى قائمة الأطفال لهذا الـcanvas في موضع الفهرس. |
-| [insertPath(int index, XpsPathGeometry data)](#insertPath-int-com.aspose.xps.XpsPathGeometry-) | يدرج مسارًا جديدًا إلى قائمة الأطفال لهذا الـcanvas في موضع الفهرس. |
+| [insertCanvas(int index)](#insertCanvas-int-) | يدرج canvas جديدًا في قائمة العناصر الفرعية لهذا الـ canvas في موضع الفهرس. |
+| [insertGlyphs(int index, String fontFamily, float fontSize, XpsFontStyle fontStyle, float originX, float originY, String unicodeString)](#insertGlyphs-int-java.lang.String-float-com.aspose.xps.XpsFontStyle-float-float-java.lang.String-) | يدرج glyphs جديدة في قائمة العناصر الفرعية لهذا الـ canvas في موضع الفهرس. |
+| [insertPath(int index, XpsPathGeometry data)](#insertPath-int-com.aspose.xps.XpsPathGeometry-) | يدرج path جديدًا في قائمة العناصر الفرعية لهذا الـ canvas في موضع الفهرس. |
 | [iterator()](#iterator--) | تنفيذ واجهة Iterable. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setClip(XpsPathGeometry value)](#setClip-com.aspose.xps.XpsPathGeometry-) | يضبط هندسة المسار التي تحد من المنطقة المرسومة للعنصر. |
-| [setEdgeMode(XpsEdgeMode value)](#setEdgeMode-com.aspose.xps.XpsEdgeMode-) | يضبط القيمة التي تتحكم في كيفية رسم حواف المسارات داخل الـcanvas. |
+| [setClip(XpsPathGeometry value)](#setClip-com.aspose.xps.XpsPathGeometry-) | يضبط هندسة المسار التي تحدّ المنطقة المرسومة للعنصر. |
+| [setEdgeMode(XpsEdgeMode value)](#setEdgeMode-com.aspose.xps.XpsEdgeMode-) | يضبط القيمة التي تتحكم في كيفية عرض حواف الـ paths داخل الـ canvas. |
 | [setHyperlinkTarget(XpsHyperlinkTarget value)](#setHyperlinkTarget-com.aspose.xps.XpsHyperlinkTarget-) | يضبط كائن هدف الارتباط التشعبي. |
-| [setOpacity(float value)](#setOpacity-float-) | يضبط القيمة التي تحدد الشفافية الموحدة للعنصر. |
-| [setOpacityMask(XpsBrush value)](#setOpacityMask-com.aspose.xps.XpsBrush-) | يضبط الفرشاة التي تحدد قناع قيم ألفا المطبق على العنصر بنفس طريقة خاصية Opacity، مع السماح بقيم ألفا مختلفة لمناطق مختلفة من العنصر. |
-| [setRenderTransform(XpsMatrix value)](#setRenderTransform-com.aspose.xps.XpsMatrix-) | يضبط مصفوفة التحويل الأفينية التي تنشئ إطار إحداثيات جديد لجميع خصائص العنصر وجميع العناصر الفرعية (إن وجدت). |
-| [size()](#size--) | يرجع عدد العناصر الفرعية. |
+| [setOpacity(float value)](#setOpacity-float-) | يضبط القيمة التي تحدد الشفافية المتساوية للعنصر. |
+| [setOpacityMask(XpsBrush value)](#setOpacityMask-com.aspose.xps.XpsBrush-) | يضبط الفرشاة التي تحدد قناعًا لقيم ألفا يُطبق على العنصر بنفس طريقة خاصية Opacity، مع السماح بقيم ألفا مختلفة لمناطق مختلفة من العنصر. |
+| [setRenderTransform(XpsMatrix value)](#setRenderTransform-com.aspose.xps.XpsMatrix-) | يضبط مصفوفة التحويل الأفيني التي تُنشئ إطار إحداثيات جديد لجميع خصائص العنصر ولكل العناصر الفرعية (إن وجدت). |
+| [size()](#size--) | يعيد عدد العناصر الفرعية. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -56,7 +56,7 @@ public T <T>add(T element)
 ```
 
 
-يضيف عنصرًا إلى قائمة الأطفال لهذا الـcanvas.
+يضيف عنصرًا إلى قائمة العناصر الفرعية لهذا الـ canvas.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -71,7 +71,7 @@ public T <T>insert(int index, T element)
 ```
 
 
-يدرج عنصرًا إلى قائمة الأطفال لهذا الـcanvas في موضع الفهرس.
+يدرج عنصرًا في قائمة العناصر الفرعية لهذا الـ canvas في موضع الفهرس.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -87,7 +87,7 @@ public XpsCanvas addCanvas()
 ```
 
 
-يضيف canvas جديدًا إلى قائمة الأطفال لهذا الـcanvas.
+يضيف canvas جديدًا إلى قائمة العناصر الفرعية لهذا الـ canvas.
 
 **Returns:**
 [XpsCanvas](../../com.aspose.xps/xpscanvas) - Added canvas.
@@ -97,7 +97,7 @@ public XpsGlyphs addGlyphs(String fontFamily, float fontSize, XpsFontStyle fontS
 ```
 
 
-يضيف glyphs جديدة إلى قائمة الأطفال لهذا الـcanvas.
+يضيف glyphs جديدة إلى قائمة العناصر الفرعية لهذا الـ canvas.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -106,7 +106,7 @@ public XpsGlyphs addGlyphs(String fontFamily, float fontSize, XpsFontStyle fontS
 | fontSize | float | حجم الخط. |
 | fontStyle | [XpsFontStyle](../../com.aspose.xps/xpsfontstyle) | نمط الخط. |
 | originX | float | إحداثي X لأصل الحروف. |
-| originY | float | إحداثي T الأصل للـglyphs. |
+| originY | float | إحداثي T الأصلي للـ Glyphs. |
 | unicodeString | java.lang.String | السلسلة التي سيتم طباعتها. |
 
 **Returns:**
@@ -117,7 +117,7 @@ public XpsPath addPath(XpsPathGeometry data)
 ```
 
 
-يضيف مسارًا جديدًا إلى قائمة الأطفال لهذا الـcanvas.
+يضيف path جديدًا إلى قائمة العناصر الفرعية لهذا الـ canvas.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -132,7 +132,7 @@ public XpsCanvas deepClone()
 ```
 
 
-ينسخ هذا الـcanvas.
+ينسخ هذا الـ canvas.
 
 **Returns:**
 [XpsCanvas](../../com.aspose.xps/xpscanvas) - Clone of this canvas.
@@ -150,14 +150,14 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### get(int i) {#get-int-}
 ```
 public XpsContentElement get(int i)
 ```
 
 
-يوفر الوصول إلى أبناء العنصر حسب الفهرس i.
+يوفر وصولاً إلى أبناء العنصر حسب الفهرس i.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -192,7 +192,7 @@ public XpsEdgeMode getEdgeMode()
 ```
 
 
-يعيد القيمة التي تتحكم في كيفية رسم حواف المسارات داخل الـcanvas.
+يعيد القيمة التي تتحكم في كيفية عرض حواف الـ paths داخل الـ canvas.
 
 **Returns:**
 [XpsEdgeMode](../../com.aspose.xps/xpsedgemode) - The edge rendering mode.
@@ -212,17 +212,17 @@ public float getOpacity()
 ```
 
 
-يعيد القيمة التي تحدد شفافية العنصر الموحدة.
+يعيد القيمة التي تحدد الشفافية الموحدة للعنصر.
 
 **Returns:**
-float - القيمة التي تحدد الشفافية الموحدة للعنصر.
+float - القيمة التي تحدد الشفافية المتساوية للعنصر.
 ### getOpacityMask() {#getOpacityMask--}
 ```
 public XpsBrush getOpacityMask()
 ```
 
 
-يعيد الفرشاة التي تحدد قناع قيم ألفا المطبقة على العنصر بنفس طريقة خاصية Opacity، ولكن تسمح بقيم ألفا مختلفة لمناطق مختلفة من العنصر.
+يعيد الفرشاة التي تحدد قناع قيم ألفا المطبقة على العنصر بنفس طريقة خاصية الشفافية (Opacity)، ولكن تسمح بقيم ألفا مختلفة لمناطق مختلفة من العنصر.
 
 **Returns:**
 [XpsBrush](../../com.aspose.xps/xpsbrush) - The brush specifying a mask.
@@ -232,7 +232,7 @@ public XpsMatrix getRenderTransform()
 ```
 
 
-يعيد مصفوفة التحويل المتجانسة التي تُنشئ إطار إحداثيات جديد لجميع خصائص العنصر ولكل العناصر الفرعية (إن وجدت).
+يعيد مصفوفة التحويل المتجانس التي تُنشئ إطار إحداثيات جديد لجميع خصائص العنصر ولكل العناصر الفرعية (إن وجدت).
 
 **Returns:**
 [XpsMatrix](../../com.aspose.xps/xpsmatrix) - The affine transformation matrix.
@@ -252,7 +252,7 @@ public XpsCanvas insertCanvas(int index)
 ```
 
 
-يدرج canvas جديدًا إلى قائمة الأطفال لهذا الـcanvas في موضع الفهرس.
+يدرج canvas جديدًا في قائمة العناصر الفرعية لهذا الـ canvas في موضع الفهرس.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -267,7 +267,7 @@ public XpsGlyphs insertGlyphs(int index, String fontFamily, float fontSize, XpsF
 ```
 
 
-يدرج glyphs جديدة إلى قائمة الأطفال لهذا الـcanvas في موضع الفهرس.
+يدرج glyphs جديدة في قائمة العناصر الفرعية لهذا الـ canvas في موضع الفهرس.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -277,7 +277,7 @@ public XpsGlyphs insertGlyphs(int index, String fontFamily, float fontSize, XpsF
 | fontSize | float | حجم الخط. |
 | fontStyle | [XpsFontStyle](../../com.aspose.xps/xpsfontstyle) | نمط الخط. |
 | originX | float | إحداثي X لأصل الحروف. |
-| originY | float | إحداثي T الأصل للـglyphs. |
+| originY | float | إحداثي T الأصلي للـ Glyphs. |
 | unicodeString | java.lang.String | السلسلة التي سيتم طباعتها. |
 
 **Returns:**
@@ -288,7 +288,7 @@ public XpsPath insertPath(int index, XpsPathGeometry data)
 ```
 
 
-يدرج مسارًا جديدًا إلى قائمة الأطفال لهذا الـcanvas في موضع الفهرس.
+يدرج path جديدًا في قائمة العناصر الفرعية لهذا الـ canvas في موضع الفهرس.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -307,7 +307,7 @@ public Iterator<XpsContentElement> iterator()
 تنفيذ واجهة Iterable.
 
 **Returns:**
-java.util.Iterator<com.aspose.xps.XpsContentElement> - يرجع المُعدِّد للقائمة.
+java.util.Iterator<com.aspose.xps.XpsContentElement> - يعيد المُعدِّد للقائمة.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -330,12 +330,12 @@ public void setClip(XpsPathGeometry value)
 ```
 
 
-يضبط هندسة المسار التي تحد من المنطقة المرسومة للعنصر.
+يضبط هندسة المسار التي تحدّ المنطقة المرسومة للعنصر.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [XpsPathGeometry](../../com.aspose.xps/xpspathgeometry) | هندسة المسار التي تحد من المنطقة المرسومة للعنصر. |
+| value | [XpsPathGeometry](../../com.aspose.xps/xpspathgeometry) | هندسة المسار التي تحدّ المنطقة المرسومة للعنصر. |
 
 ### setEdgeMode(XpsEdgeMode value) {#setEdgeMode-com.aspose.xps.XpsEdgeMode-}
 ```
@@ -343,12 +343,12 @@ public void setEdgeMode(XpsEdgeMode value)
 ```
 
 
-يضبط القيمة التي تتحكم في كيفية رسم حواف المسارات داخل الـcanvas.
+يضبط القيمة التي تتحكم في كيفية عرض حواف الـ paths داخل الـ canvas.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [XpsEdgeMode](../../com.aspose.xps/xpsedgemode) | وضعية رسم الحافة. |
+| value | [XpsEdgeMode](../../com.aspose.xps/xpsedgemode) | وضعية عرض الحافة. |
 
 ### setHyperlinkTarget(XpsHyperlinkTarget value) {#setHyperlinkTarget-com.aspose.xps.XpsHyperlinkTarget-}
 ```
@@ -369,12 +369,12 @@ public void setOpacity(float value)
 ```
 
 
-يضبط القيمة التي تحدد الشفافية الموحدة للعنصر.
+يضبط القيمة التي تحدد الشفافية المتساوية للعنصر.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | القيمة التي تحدد الشفافية الموحدة للعنصر. |
+| القيمة | float | القيمة التي تحدد الشفافية المتساوية للعنصر. |
 
 ### setOpacityMask(XpsBrush value) {#setOpacityMask-com.aspose.xps.XpsBrush-}
 ```
@@ -382,7 +382,7 @@ public void setOpacityMask(XpsBrush value)
 ```
 
 
-يضبط الفرشاة التي تحدد قناع قيم ألفا المطبق على العنصر بنفس طريقة خاصية Opacity، مع السماح بقيم ألفا مختلفة لمناطق مختلفة من العنصر.
+يضبط الفرشاة التي تحدد قناعًا لقيم ألفا يُطبق على العنصر بنفس طريقة خاصية Opacity، مع السماح بقيم ألفا مختلفة لمناطق مختلفة من العنصر.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -395,12 +395,12 @@ public void setRenderTransform(XpsMatrix value)
 ```
 
 
-يضبط مصفوفة التحويل الأفينية التي تنشئ إطار إحداثيات جديد لجميع خصائص العنصر وجميع العناصر الفرعية (إن وجدت).
+يضبط مصفوفة التحويل الأفيني التي تُنشئ إطار إحداثيات جديد لجميع خصائص العنصر ولكل العناصر الفرعية (إن وجدت).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [XpsMatrix](../../com.aspose.xps/xpsmatrix) | مصفوفة التحويل الأفينية. |
+| value | [XpsMatrix](../../com.aspose.xps/xpsmatrix) | مصفوفة التحويل الأفيني. |
 
 ### size() {#size--}
 ```
@@ -408,7 +408,7 @@ public int size()
 ```
 
 
-يرجع عدد العناصر الفرعية.
+يعيد عدد العناصر الفرعية.
 
 **Returns:**
 int - عدد العناصر الفرعية.

@@ -1,7 +1,7 @@
 ---
 title: "InputBin.MediaPath"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يعرف الثوابت لقيمة خاصية MediaPath المتدرجة."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يحدد الثوابت لقيمة خاصية MediaPath المقيمة."
 type: docs
 weight: 16
 url: /ar/java/com.aspose.xps.metadata/inputbin.mediapath/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class InputBin.MediaPath extends ScoredProperty implements InputBin.IInputBinOptionItem
 ```
 
-يحدد الثوابت لقيمة خاصية  MediaPath  المُسجلة.
+يحدد الثوابت لقيمة الخاصية المقيمة MediaPath.
 ## الحقول
 
 | حقل | الوصف |
@@ -66,7 +66,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

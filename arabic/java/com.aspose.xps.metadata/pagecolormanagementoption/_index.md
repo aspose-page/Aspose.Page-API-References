@@ -1,6 +1,6 @@
 ---
 title: "PageColorManagement.PageColorManagementOption"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف خيارات ميزة PageColorManagement."
 type: docs
 weight: 10
@@ -17,15 +17,15 @@ public static final class PageColorManagement.PageColorManagementOption extends 
 
 | حقل | الوصف |
 | --- | --- |
-| [Device](#Device) | لم يقم التطبيق بإجراء إدارة الألوان والجهاز يحدد إدارة الألوان. |
-| [Driver](#Driver) | لم يقم التطبيق بإجراء إدارة الألوان والسائق يحدد إدارة الألوان. |
-| [None](#None) | قام التطبيق بإجراء إدارة الألوان إلى ملف تعريف الوجهة. |
-| [System](#System) | يتم تنفيذ إدارة الألوان بواسطة النظام. |
+| [Device](#Device) | لم يقم التطبيق بتنفيذ إدارة اللون والجهاز يحدد إدارة اللون. |
+| [Driver](#Driver) | لم يقم التطبيق بتنفيذ إدارة اللون والسائق يحدد إدارة اللون. |
+| [None](#None) | قام التطبيق بتنفيذ إدارة اللون إلى ملف تعريف الوجهة. |
+| [System](#System) | يتم تنفيذ إدارة اللون بواسطة النظام. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. |
+| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public static PageColorManagement.PageColorManagementOption Device
 ```
 
 
-لم يقم التطبيق بإجراء إدارة الألوان والجهاز يحدد إدارة الألوان.
+لم يقم التطبيق بتنفيذ إدارة اللون والجهاز يحدد إدارة اللون.
 
 ### Driver {#Driver}
 ```
@@ -50,7 +50,7 @@ public static PageColorManagement.PageColorManagementOption Driver
 ```
 
 
-لم يقم التطبيق بإجراء إدارة الألوان والسائق يحدد إدارة الألوان.
+لم يقم التطبيق بتنفيذ إدارة اللون والسائق يحدد إدارة اللون.
 
 ### None {#None}
 ```
@@ -58,7 +58,7 @@ public static PageColorManagement.PageColorManagementOption None
 ```
 
 
-قام التطبيق بإجراء إدارة الألوان إلى ملف تعريف الوجهة.
+قام التطبيق بتنفيذ إدارة اللون إلى ملف تعريف الوجهة.
 
 ### System {#System}
 ```
@@ -66,7 +66,7 @@ public static PageColorManagement.PageColorManagementOption System
 ```
 
 
-يتم تنفيذ إدارة الألوان بواسطة النظام. لا يُستخدم عند الطباعة إلى برامج تشغيل الطباعة XPSDrv.
+يتم تنفيذ إدارة اللون بواسطة النظام. لا يُستخدم عند الطباعة إلى برامج تشغيل الطباعة XPSDrv.
 
 ### add(IOptionItem[] items) {#add-com.aspose.xps.metadata.IOptionItem...-}
 ```
@@ -74,7 +74,7 @@ public void add(IOptionItem[] items)
 ```
 
 
-يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. يجب أن يكون كل عنصر إما  ScoredProperty  أو  Property  مثيل.
+يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. يجب أن يكون كل عنصر إما مثال ScoredProperty أو مثال Property.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -95,7 +95,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

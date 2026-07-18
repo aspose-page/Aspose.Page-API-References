@@ -1,7 +1,7 @@
 ---
 title: "JobDeviceLanguage"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يصف لغات الجهاز المدعومة لإرسال البيانات من البرنامج إلى الجهاز الفعلي."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يصف لغات الجهاز المدعومة لإرسال البيانات من برنامج التشغيل إلى الجهاز الفعلي."
 type: docs
 weight: 50
 url: /ar/java/com.aspose.xps.metadata/jobdevicelanguage/
@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class JobDeviceLanguage extends Feature implements IJobPrintTicketItem
 ```
 
-يصف لغات الأجهزة المدعومة لإرسال البيانات من برنامج التشغيل إلى الجهاز الفعلي. غالبًا ما يُطلق على ذلك "لغة وصف الصفحة". تُحدد هذه الكلمة المفتاحية لغة وصف الصفحة التي يدعمها برنامج التشغيل والجهاز الفعلي. https://docs.microsoft.com/en-us/windows/win32/printdocs/jobdevicelanguage
-## المنشئات
+يصف لغات الجهاز المدعومة لإرسال البيانات من برنامج التشغيل إلى الجهاز الفعلي. غالبًا ما يُطلق على ذلك "لغة وصف الصفحة". تُحدد هذه الكلمة المفتاحية ما هي لغة وصف الصفحة المدعومة من قبل برنامج التشغيل والجهاز الفعلي. https://docs.microsoft.com/en-us/windows/win32/printdocs/jobdevicelanguage
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [JobDeviceLanguage(JobDeviceLanguage.JobDeviceLanguageOption[] options)](#JobDeviceLanguage-com.aspose.xps.metadata.JobDeviceLanguage.JobDeviceLanguageOption...-) | ينشئ نسخة جديدة. |
+| [JobDeviceLanguage(JobDeviceLanguage.JobDeviceLanguageOption[] options)](#JobDeviceLanguage-com.aspose.xps.metadata.JobDeviceLanguage.JobDeviceLanguageOption...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public JobDeviceLanguage(JobDeviceLanguage.JobDeviceLanguageOption[] options)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

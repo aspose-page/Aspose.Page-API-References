@@ -1,7 +1,7 @@
 ---
 title: "IBeforeSavingEventHandler"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يحدد واجهة معالج الحدث المشترك قبل الحفظ."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يحدد الواجهة العامة لمعالج أحداث before-saving."
 type: docs
 weight: 13
 url: /ar/java/com.aspose.xps.features.eventbasedmodifications/ibeforesavingeventhandler/

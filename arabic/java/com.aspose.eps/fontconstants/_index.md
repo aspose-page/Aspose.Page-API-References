@@ -1,6 +1,6 @@
 ---
 title: "FontConstants"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "هذه الفئة تعرف مجموعة من الثوابت لحفظ الخطوط."
 type: docs
 weight: 10
@@ -17,11 +17,11 @@ public class FontConstants
 
 | حقل | الوصف |
 | --- | --- |
-| [EMBED_FONTS](#EMBED-FONTS) | مفتاح الخاصية التي تشير إلى ما إذا كان سيتم تضمين الخطوط في المستند المحفوظ |
-| [EMBED_FONTS_AS](#EMBED-FONTS-AS) | مفتاح الخاصية التي تشير إلى نوع الخط لاستخدامه عند حفظ المستند |
-| [EMBED_FONTS_TRUETYPE](#EMBED-FONTS-TRUETYPE) | "TrueType" قيمة نوع الخط للمفتاح "EMBED\_FONTS\_AS" |
-| [EMBED_FONTS_TYPE1](#EMBED-FONTS-TYPE1) | "Type3" قيمة نوع الخط للمفتاح "EMBED\_FONTS\_AS" |
-| [EMBED_FONTS_TYPE3](#EMBED-FONTS-TYPE3) | "Type3" قيمة نوع الخط للمفتاح "EMBED\_FONTS\_AS" |
+| [EMBED_FONTS](#EMBED-FONTS) | مفتاح الخاصية التي تشير إلى ما إذا كان يجب تضمين الخطوط في المستند المحفوظ |
+| [EMBED_FONTS_AS](#EMBED-FONTS-AS) | مفتاح الخاصية التي تشير إلى نوع الخط الذي يُستخدم عند حفظ المستند |
+| [EMBED_FONTS_TRUETYPE](#EMBED-FONTS-TRUETYPE) | \"TrueType\" قيمة نوع الخط لـ \"EMBED\\_FONTS\\_AS\" المفتاح |
+| [EMBED_FONTS_TYPE1](#EMBED-FONTS-TYPE1) | \"Type3\" قيمة نوع الخط لـ \"EMBED\\_FONTS\\_AS\" المفتاح |
+| [EMBED_FONTS_TYPE3](#EMBED-FONTS-TYPE3) | \"Type3\" قيمة نوع الخط لـ \"EMBED\\_FONTS\\_AS\" المفتاح |
 ## الطرق
 
 | طريقة | الوصف |
@@ -42,7 +42,7 @@ public static final String EMBED_FONTS
 ```
 
 
-مفتاح الخاصية التي تشير إلى ما إذا كان سيتم تضمين الخطوط في المستند المحفوظ
+مفتاح الخاصية التي تشير إلى ما إذا كان يجب تضمين الخطوط في المستند المحفوظ
 
 ### EMBED_FONTS_AS {#EMBED-FONTS-AS}
 ```
@@ -50,7 +50,7 @@ public static final String EMBED_FONTS_AS
 ```
 
 
-مفتاح الخاصية التي تشير إلى نوع الخط لاستخدامه عند حفظ المستند
+مفتاح الخاصية التي تشير إلى نوع الخط الذي يُستخدم عند حفظ المستند
 
 ### EMBED_FONTS_TRUETYPE {#EMBED-FONTS-TRUETYPE}
 ```
@@ -58,7 +58,7 @@ public static final String EMBED_FONTS_TRUETYPE
 ```
 
 
-"TrueType" قيمة نوع الخط للمفتاح "EMBED\_FONTS\_AS"
+\"TrueType\" قيمة نوع الخط لـ \"EMBED\\_FONTS\\_AS\" المفتاح
 
 ### EMBED_FONTS_TYPE1 {#EMBED-FONTS-TYPE1}
 ```
@@ -66,7 +66,7 @@ public static final String EMBED_FONTS_TYPE1
 ```
 
 
-"Type3" قيمة نوع الخط للمفتاح "EMBED\_FONTS\_AS"
+\"Type3\" قيمة نوع الخط لـ \"EMBED\\_FONTS\\_AS\" المفتاح
 
 ### EMBED_FONTS_TYPE3 {#EMBED-FONTS-TYPE3}
 ```
@@ -74,7 +74,7 @@ public static final String EMBED_FONTS_TYPE3
 ```
 
 
-"Type3" قيمة نوع الخط للمفتاح "EMBED\_FONTS\_AS"
+\"Type3\" قيمة نوع الخط لـ \"EMBED\\_FONTS\\_AS\" المفتاح
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -90,7 +90,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -110,7 +110,7 @@ public static final String[] getEmbedFontsAsList()
 
 
 **Returns:**
-java.lang.String[] - القيم المتاحة لـ "EMBED\_FONTS\_AS"
+java.lang.String[] - القيم المتاحة لـ \"EMBED\\_FONTS\\_AS\"
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

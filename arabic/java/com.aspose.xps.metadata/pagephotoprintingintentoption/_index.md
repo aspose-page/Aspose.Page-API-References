@@ -1,6 +1,6 @@
 ---
 title: "PagePhotoPrintingIntent.PagePhotoPrintingIntentOption"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يحدد خيارات ميزة PagePhotoPrintingIntent."
 type: docs
 weight: 10
@@ -12,20 +12,20 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class PagePhotoPrintingIntent.PagePhotoPrintingIntentOption extends Option
 ```
 
-يحدد خيارات ميزة  PagePhotoPrintingIntent .
+يحدد  PagePhotoPrintingIntent  خيارات الميزة.
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
-| [None](#None) | بدون نية طباعة صور (يسمح للتطبيق بتحديد عدم وجود حل للنية). |
-| [PhotoBest](#PhotoBest) | أفضل جودة لطباعة الصور (مقدمة أساسًا لأسباب تسويقية؛ تستخدم أقصى قدرات الجهاز). |
+| [None](#None) | عدم وجود نية طباعة الصور (يسمح للتطبيق بتحديد عدم وجود حل للنية). |
+| [PhotoBest](#PhotoBest) | أفضل جودة لطباعة الصور (مقدمة أساسًا لأسباب تسويقية؛ تستفيد من أعلى قدرات الجهاز). |
 | [PhotoDraft](#PhotoDraft) | جودة مسودة لطباعة الصور (طباعة سريعة بحجم حبر منخفض لأغراض المعاينة). |
 | [PhotoStandard](#PhotoStandard) | جودة قياسية لطباعة الصور (إعدادات مقترحة من الشركة المصنعة للطباعة القياسية للصور). |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. |
+| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public static PagePhotoPrintingIntent.PagePhotoPrintingIntentOption None
 ```
 
 
-بدون نية طباعة صور (يسمح للتطبيق بتحديد عدم وجود حل للنية. لا يجب تعديل إعدادات PrintTicket).
+عدم وجود نية طباعة الصور (يسمح للتطبيق بتحديد عدم وجود حل للنية. يجب عدم تعديل إعدادات PrintTicket).
 
 ### PhotoBest {#PhotoBest}
 ```
@@ -50,7 +50,7 @@ public static PagePhotoPrintingIntent.PagePhotoPrintingIntentOption PhotoBest
 ```
 
 
-أفضل جودة لطباعة الصور (مقدمة أساسًا لأسباب تسويقية؛ تستخدم أقصى قدرات الجهاز).
+أفضل جودة لطباعة الصور (مقدمة أساسًا لأسباب تسويقية؛ تستفيد من أعلى قدرات الجهاز).
 
 ### PhotoDraft {#PhotoDraft}
 ```
@@ -74,7 +74,7 @@ public void add(IOptionItem[] items)
 ```
 
 
-يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. يجب أن يكون كل عنصر إما  ScoredProperty  أو  Property  مثيل.
+يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. يجب أن يكون كل عنصر إما مثال ScoredProperty أو مثال Property.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -95,7 +95,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

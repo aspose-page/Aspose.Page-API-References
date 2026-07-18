@@ -1,6 +1,6 @@
 ---
 title: "XpsDashCap"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "القيم الصالحة لخاصية StrokeDashCap لعناصر Path."
 type: docs
 weight: 57
@@ -17,10 +17,10 @@ public enum XpsDashCap extends Enum<XpsDashCap>
 
 | حقل | الوصف |
 | --- | --- |
-| [Flat](#Flat) | غطاء dash مسطح. |
-| [Round](#Round) | غطاء dash مستدير. |
-| [Square](#Square) | غطاء dash مربع. |
-| [Triangle](#Triangle) | غطاء dash مثلث. |
+| [Flat](#Flat) | قمة مسطحة. |
+| [Round](#Round) | قمة مستديرة. |
+| [Square](#Square) | قمة مربعة. |
+| [Triangle](#Triangle) | قمة مثلثية. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -48,7 +48,7 @@ public static final XpsDashCap Flat
 ```
 
 
-غطاء dash مسطح.
+قمة مسطحة.
 
 ### Round {#Round}
 ```
@@ -56,7 +56,7 @@ public static final XpsDashCap Round
 ```
 
 
-غطاء dash مستدير.
+قمة مستديرة.
 
 ### Square {#Square}
 ```
@@ -64,7 +64,7 @@ public static final XpsDashCap Square
 ```
 
 
-غطاء dash مربع.
+قمة مربعة.
 
 ### Triangle {#Triangle}
 ```
@@ -72,7 +72,7 @@ public static final XpsDashCap Triangle
 ```
 
 
-غطاء dash مثلث.
+قمة مثلثية.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```
@@ -129,7 +129,7 @@ public final boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

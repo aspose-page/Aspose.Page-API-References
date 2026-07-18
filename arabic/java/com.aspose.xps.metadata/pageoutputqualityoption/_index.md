@@ -1,7 +1,7 @@
 ---
 title: "PageOutputQuality.PageOutputQualityOption"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يحدد خيارات ميزة PageOutputQuality."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يعرف خيارات ميزة PageOutputQuality."
 type: docs
 weight: 10
 url: /ar/java/com.aspose.xps.metadata/pageoutputquality.pageoutputqualityoption/
@@ -12,23 +12,23 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class PageOutputQuality.PageOutputQualityOption extends Option
 ```
 
-يحدد خيارات ميزة  PageOutputQuality .
+يحدد  PageOutputQuality  خيارات الميزة.
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
 | [Automatic](#Automatic) | يحدد النية للإخراج التلقائي (يسمح للعميل باختيار الإعدادات الأفضل تلقائيًا). |
-| [Draft](#Draft) | يحدد النية لإخراج مسودة (متوازن لنص ورسومات بجودة مسودة). |
+| [Draft](#Draft) | يحدد النية لإخراج مسودة (متوازن لنصوص ورسومات بجودة مسودة). |
 | [Fax](#Fax) | يحدد النية لإخراج الفاكس (متوازن لجودة الفاكس القياسية). |
-| [High](#High) | يحدد النية لإخراج عالي الجودة (متوازن لنص ورسومات عالية الجودة). |
-| [Normal](#Normal) | يحدد النية للإخراج العادي (متوازن للحصول على نص ورسومات ذات جودة جيدة). |
-| [Photographic](#Photographic) | يحدد النية للإخراج الفوتوغرافي (يجب أن تكون الصور بأعلى جودة). |
-| [Text](#Text) | يحدد النية لإخراج النص فقط (قد تكون الرسومات ذات إخراج ضعيف أو لا تُخرج على الإطلاق). |
+| [High](#High) | يحدد النية لإخراج عالي الجودة (متوازن لنصوص ورسومات عالية الجودة). |
+| [Normal](#Normal) | يحدد الهدف للإخراج العادي (متوازن للحصول على نص ورسومات ذات جودة جيدة). |
+| [Photographic](#Photographic) | يحدد الهدف للإخراج الفوتوغرافي (يجب أن تكون الصور بأعلى جودة). |
+| [Text](#Text) | يحدد الهدف لإخراج النص فقط (قد تكون الرسومات ذات جودة ضعيفة أو لا تُخرج على الإطلاق). |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. |
+| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -53,7 +53,7 @@ public static PageOutputQuality.PageOutputQualityOption Draft
 ```
 
 
-يحدد النية لإخراج مسودة (متوازن لنص ورسومات بجودة مسودة).
+يحدد النية لإخراج مسودة (متوازن لنصوص ورسومات بجودة مسودة).
 
 ### Fax {#Fax}
 ```
@@ -69,7 +69,7 @@ public static PageOutputQuality.PageOutputQualityOption High
 ```
 
 
-يحدد النية لإخراج عالي الجودة (متوازن لنص ورسومات عالية الجودة).
+يحدد النية لإخراج عالي الجودة (متوازن لنصوص ورسومات عالية الجودة).
 
 ### Normal {#Normal}
 ```
@@ -77,7 +77,7 @@ public static PageOutputQuality.PageOutputQualityOption Normal
 ```
 
 
-يحدد النية للإخراج العادي (متوازن للحصول على نص ورسومات ذات جودة جيدة).
+يحدد الهدف للإخراج العادي (متوازن للحصول على نص ورسومات ذات جودة جيدة).
 
 ### Photographic {#Photographic}
 ```
@@ -85,7 +85,7 @@ public static PageOutputQuality.PageOutputQualityOption Photographic
 ```
 
 
-يحدد النية للإخراج الفوتوغرافي (يجب أن تكون الصور بأعلى جودة).
+يحدد الهدف للإخراج الفوتوغرافي (يجب أن تكون الصور بأعلى جودة).
 
 ### Text {#Text}
 ```
@@ -93,7 +93,7 @@ public static PageOutputQuality.PageOutputQualityOption Text
 ```
 
 
-يحدد النية لإخراج النص فقط (قد تكون الرسومات ذات إخراج ضعيف أو لا تُخرج على الإطلاق).
+يحدد الهدف لإخراج النص فقط (قد تكون الرسومات ذات جودة ضعيفة أو لا تُخرج على الإطلاق).
 
 ### add(IOptionItem[] items) {#add-com.aspose.xps.metadata.IOptionItem...-}
 ```
@@ -101,7 +101,7 @@ public void add(IOptionItem[] items)
 ```
 
 
-يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. يجب أن يكون كل عنصر إما  ScoredProperty  أو  Property  مثيل.
+يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. يجب أن يكون كل عنصر إما مثال ScoredProperty أو مثال Property.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -122,7 +122,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

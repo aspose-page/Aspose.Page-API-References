@@ -1,7 +1,7 @@
 ---
 title: "PageWatermark.IPageWatermarkItem"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "الواجهة لأي عنصر ميزة PageWatermark."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "واجهة أي عنصر ميزة PageWatermark."
 type: docs
 weight: 13
 url: /ar/java/com.aspose.xps.metadata/pagewatermark.ipagewatermarkitem/
@@ -12,4 +12,4 @@ url: /ar/java/com.aspose.xps.metadata/pagewatermark.ipagewatermarkitem/
 public static interface PageWatermark.IPageWatermarkItem extends IFeatureItem
 ```
 
-الواجهة لأي  PageWatermark  عنصر ميزة.
+واجهة أي  PageWatermark  عنصر ميزة.

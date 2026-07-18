@@ -1,7 +1,7 @@
 ---
 title: "XpsPolyLineSegment"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "الفئة التي تُجمل ميزات عنصر PolyLineSegment."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "فئة تغلف ميزات عنصر PolyLineSegment."
 type: docs
 weight: 46
 url: /ar/java/com.aspose.xps/xpspolylinesegment/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject), [c
 public class XpsPolyLineSegment extends XpsPathPolySegment
 ```
 
-فئة تضم ميزات عنصر PolyLineSegment. يصف هذا العنصر رسمًا متعدد الأضلاع يحتوي على عدد تعسفي من الرؤوس الفردية.
+فئة تُضمِّن ميزات عنصر PolyLineSegment. يصف هذا العنصر رسمًا متعدد الأضلاع يحتوي على عدد تعسفي من الرؤوس الفردية.
 ## الطرق
 
 | طريقة | الوصف |
@@ -53,7 +53,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -111,7 +111,7 @@ public void setStroked(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة التي تحدد ما إذا كان الحد لهذا الجزء من المسار مرسومًا. |
+| القيمة | منطقي | القيمة التي تحدد ما إذا كان الحد لهذا الجزء من المسار مرسومًا. |
 
 ### toString() {#toString--}
 ```

@@ -1,6 +1,6 @@
 ---
 title: "PageScaling.IPageScalingItem"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "واجهة أي عنصر ميزة PageScaling."
 type: docs
 weight: 13
@@ -12,4 +12,4 @@ url: /ar/java/com.aspose.xps.metadata/pagescaling.ipagescalingitem/
 public static interface PageScaling.IPageScalingItem extends IFeatureItem
 ```
 
-واجهة أي  PageScaling  عنصر ميزة.
+واجهة أي عنصر ميزة  PageScaling  .

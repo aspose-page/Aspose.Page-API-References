@@ -1,6 +1,6 @@
 ---
 title: "PsLoadOptions"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "خيارات تحميل مستند PS."
 type: docs
 weight: 18
@@ -13,11 +13,11 @@ public class PsLoadOptions extends LoadOptions
 ```
 
 خيارات تحميل مستند PS.
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PsLoadOptions()](#PsLoadOptions--) | ينشئ مثلاً جديداً من الخيارات. |
+| [PsLoadOptions()](#PsLoadOptions--) | ينشئ مثلاً جديداً للخيارات. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -37,7 +37,7 @@ public PsLoadOptions()
 ```
 
 
-ينشئ مثلاً جديداً من الخيارات.
+ينشئ مثلاً جديداً للخيارات.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -53,7 +53,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

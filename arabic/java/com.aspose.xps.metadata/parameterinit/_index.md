@@ -1,6 +1,6 @@
 ---
 title: "ParameterInit"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "الفئة التي تنفذ مُهيئ معلمات تذكرة الطباعة."
 type: docs
 weight: 139
@@ -15,12 +15,12 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public class ParameterInit extends PrintTicketElement implements IPrintTicketItem
 ```
 
-فئة تنفّذ مبدئ معلمة تذكرة الطباعة. الفئة التي تنفّذ مبدئ معلمة PrintTicket شائع. الفئة الأساسية لجميع مبدئي المعلمات المعرفة بالمخطط. يعرّف قيمة لنسخة من عنصر  ParameterDef . عنصر  ParameterInit  هو هدف الإشارة التي أنشأها عنصر  ParameterRef . https://docs.microsoft.com/en-us/windows/win32/printdocs/parameterinit
-## المنشئات
+فئة تنفذ مبدئ معلمات تذكرة الطباعة. الفئة التي تنفذ مبدئ معلمات PrintTicket الشائع. الفئة الأساسية لجميع مبدئي المعلمات المعرفة بالمخطط. تحدد قيمة لنسخة من عنصر  ParameterDef . عنصر  ParameterInit  هو هدف الإشارة التي يُنشئها عنصر  ParameterRef . https://docs.microsoft.com/en-us/windows/win32/printdocs/parameterinit
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [ParameterInit(String name, Value value)](#ParameterInit-java.lang.String-com.aspose.xps.metadata.Value-) | ينشئ نسخة جديدة. |
+| [ParameterInit(String name, Value value)](#ParameterInit-java.lang.String-com.aspose.xps.metadata.Value-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -41,7 +41,7 @@ public ParameterInit(String name, Value value)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -63,7 +63,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

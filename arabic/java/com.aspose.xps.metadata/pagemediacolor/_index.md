@@ -1,6 +1,6 @@
 ---
 title: "PageMediaColor"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف خيارات لون الوسائط وخصائص كل خيار."
 type: docs
 weight: 101
@@ -16,16 +16,16 @@ public final class PageMediaColor extends Feature implements IJobPrintTicketItem
 ```
 
 يصف خيارات لون الوسائط والخصائص الخاصة بكل خيار. https://docs.microsoft.com/en-us/windows/win32/printdocs/pagemediacolor
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PageMediaColor(PageMediaColor.PageMediaColorOption[] options)](#PageMediaColor-com.aspose.xps.metadata.PageMediaColor.PageMediaColorOption...-) | ينشئ نسخة جديدة. |
+| [PageMediaColor(PageMediaColor.PageMediaColorOption[] options)](#PageMediaColor-com.aspose.xps.metadata.PageMediaColor.PageMediaColorOption...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public PageMediaColor(PageMediaColor.PageMediaColorOption[] options)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

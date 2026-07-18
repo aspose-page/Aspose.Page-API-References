@@ -1,6 +1,6 @@
 ---
 title: "PagePoster"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف مخرجات صفحة واحدة إلى عدة أوراق وسائط مادية."
 type: docs
 weight: 118
@@ -16,17 +16,17 @@ public final class PagePoster extends Feature implements IJobPrintTicketItem, ID
 ```
 
 يصف إخراج صفحة واحدة إلى عدة أوراق وسائط مادية. https://docs.microsoft.com/en-us/windows/win32/printdocs/pageposter
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PagePoster()](#PagePoster--) | ينشئ نسخة جديدة. |
+| [PagePoster()](#PagePoster--) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
-| [addPagesPerSheetOption(int value)](#addPagesPerSheetOption-int-) | يضيف خيارًا مع قيمة خاصية ScoredProperty للـ PagesPerSheet. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
+| [addPagesPerSheetOption(int value)](#addPagesPerSheetOption-int-) | يضيف خيارًا مع قيمة خاصية متدرجة PagesPerSheet. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -43,7 +43,7 @@ public PagePoster()
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 ### add(IFeatureItem[] items) {#add-com.aspose.xps.metadata.IFeatureItem...-}
 ```
@@ -64,12 +64,12 @@ public PagePoster addPagesPerSheetOption(int value)
 ```
 
 
-يضيف خيارًا مع قيمة الخاصية المتدرجة  PagesPerSheet . يحدد عدد الأوراق المادية لكل صفحة منطقية.
+يضيف خيارًا مع قيمة خاصية  PagesPerSheet  المتدرجة. يحدد عدد الأوراق المادية لكل صفحة منطقية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | قيمة الخاصية المتدرجة  PagesPerSheet . |
+| القيمة | int | قيمة خاصية  PagesPerSheet  المتدرجة. |
 
 **Returns:**
 [PagePoster](../../com.aspose.xps.metadata/pageposter) - This feature instance.
@@ -87,7 +87,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

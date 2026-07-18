@@ -1,6 +1,6 @@
 ---
 title: "PageSourceColorProfileURI"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يحدد المصدر لملف تعريف اللون."
 type: docs
 weight: 129
@@ -16,11 +16,11 @@ public final class PageSourceColorProfileURI extends StringParameterInit impleme
 ```
 
 يحدد المصدر لملف تعريف اللون.
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PageSourceColorProfileURI(String value)](#PageSourceColorProfileURI-java.lang.String-) | ينشئ نسخة جديدة. |
+| [PageSourceColorProfileURI(String value)](#PageSourceColorProfileURI-java.lang.String-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -43,7 +43,7 @@ public PageSourceColorProfileURI(String value)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -64,7 +64,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

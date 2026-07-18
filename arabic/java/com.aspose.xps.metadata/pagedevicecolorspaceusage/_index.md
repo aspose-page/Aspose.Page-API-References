@@ -1,7 +1,7 @@
 ---
 title: "PageDeviceColorSpaceUsage"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "بالاشتراك مع معلمة PageDeviceColorSpaceProfileURI، تحدد هذه المعلمة سلوك العرض للعناصر المعروضة في مساحة لون الجهاز."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "بالاشتراك مع معلمة PageDeviceColorSpaceProfileURI، يحدد هذا المعامل سلوك العرض للعناصر المعروضة في مساحة لون الجهاز."
 type: docs
 weight: 95
 url: /ar/java/com.aspose.xps.metadata/pagedevicecolorspaceusage/
@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class PageDeviceColorSpaceUsage extends Feature implements IJobPrintTicketItem, IDocumentPrintTicketItem, IPagePrintTicketItem
 ```
 
-بالاشتراك مع معلمة PageDeviceColorSpaceProfileURI، تحدد هذه المعلمة سلوك العرض للعناصر المعروضة في مساحة لون الجهاز. https://docs.microsoft.com/en-us/windows/win32/printdocs/pagedevicecolorspaceusage
-## المنشئات
+بالاشتراك مع معلمة PageDeviceColorSpaceProfileURI، يحدد هذا المعامل سلوك العرض للعناصر المعروضة في مساحة لون الجهاز. https://docs.microsoft.com/en-us/windows/win32/printdocs/pagedevicecolorspaceusage
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PageDeviceColorSpaceUsage(PageDeviceColorSpaceUsage.PageDeviceColorSpaceUsageOption[] options)](#PageDeviceColorSpaceUsage-com.aspose.xps.metadata.PageDeviceColorSpaceUsage.PageDeviceColorSpaceUsageOption...-) | ينشئ نسخة جديدة. |
+| [PageDeviceColorSpaceUsage(PageDeviceColorSpaceUsage.PageDeviceColorSpaceUsageOption[] options)](#PageDeviceColorSpaceUsage-com.aspose.xps.metadata.PageDeviceColorSpaceUsage.PageDeviceColorSpaceUsageOption...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public PageDeviceColorSpaceUsage(PageDeviceColorSpaceUsage.PageDeviceColorSpaceU
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

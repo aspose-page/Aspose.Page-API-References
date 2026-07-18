@@ -1,6 +1,6 @@
 ---
 title: "IScoredPropertyItem"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "واجهة الأساس للفئات التي قد تكون عناصر PrintTicket ScoredProperty."
 type: docs
 weight: 161
@@ -12,4 +12,4 @@ url: /ar/java/com.aspose.xps.metadata/iscoredpropertyitem/
 public interface IScoredPropertyItem extends IPrintTicketElementChild
 ```
 
-واجهة القاعدة للفئات التي قد تكون عناصر PrintTicket ScoredProperty.
+واجهة القاعدة للفئات التي قد تكون عناصر ScoredProperty في PrintTicket.

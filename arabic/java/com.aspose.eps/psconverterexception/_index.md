@@ -1,7 +1,7 @@
 ---
 title: "PsConverterException"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "هذه الفئة تحتوي على معلومات حول خطأ يُطرح أثناء تحويل ملف PS إلى مستند PDF."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "هذه الفئة تحتوي على معلومات حول خطأ يتم إلقاؤه أثناء تحويل ملف PS إلى مستند PDF."
 type: docs
 weight: 14
 url: /ar/java/com.aspose.eps/psconverterexception/
@@ -12,12 +12,12 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception
 public class PsConverterException extends Exception
 ```
 
-هذه الفئة تحتوي على معلومات حول خطأ يُطرح أثناء تحويل ملف PS إلى مستند PDF.
-## المنشئات
+هذه الفئة تحتوي على معلومات حول خطأ يتم إلقاؤه أثناء تحويل ملف PS إلى مستند PDF.
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PsConverterException(String errorStr)](#PsConverterException-java.lang.String-) | ينشئ مثيلاً جديدًا من  PsConverterException  من سلسلة errorStr. |
+| [PsConverterException(String errorStr)](#PsConverterException-java.lang.String-) | يُنشئ مثلاً جديداً من PsConverterException من سلسلة errorStr. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -49,7 +49,7 @@ public PsConverterException(String errorStr)
 ```
 
 
-ينشئ مثيلاً جديدًا من  PsConverterException  من سلسلة errorStr.
+يُنشئ مثلاً جديداً من PsConverterException من سلسلة errorStr.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -83,7 +83,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### fillInStackTrace() {#fillInStackTrace--}
 ```
 public synchronized Throwable fillInStackTrace()

@@ -1,7 +1,7 @@
 ---
 title: "SelectionType"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "الفئة المريحة لخاصية PrintTicket من نوع SelectionType."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "الفئة المريحة لخاصية **SelectionType** في **PrintTicket**."
 type: docs
 weight: 147
 url: /ar/java/com.aspose.xps.metadata/selectiontype/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class SelectionType extends Property
 ```
 
-الفئة المريحة لخاصية PrintTicket من نوع SelectionType.
+الفئة المريحة لخاصية **SelectionType** في **PrintTicket**.
 ## الحقول
 
 | حقل | الوصف |
@@ -63,7 +63,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

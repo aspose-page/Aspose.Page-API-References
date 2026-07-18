@@ -1,6 +1,6 @@
 ---
 title: "JobHolePunch"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف خصائص ثقب الورق للإخراج."
 type: docs
 weight: 55
@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class JobHolePunch extends HolePunch implements IJobPrintTicketItem
 ```
 
-يصف خصائص ثقب الحفر في المخرجات. جميع المستندات تُثقب معًا. كلمتا المفتاح JobHolePunch و DocumentHolePunch متنافيتان. لا يجب تحديدهما معًا في وثيقة PrintTicket أو وثيقة قدرات الطباعة. https://docs.microsoft.com/en-us/windows/win32/printdocs/jobholepunch
-## المنشئات
+يصف خصائص ثقب الفتح في المخرجات. جميع المستندات تُثقب معًا. الكلمتان المفتاحيتان  JobHolePunch  و  DocumentHolePunch  متنافيتان. لا يجب تحديدهما معًا في وثيقة PrintTicket أو وثيقة Print Capabilities. https://docs.microsoft.com/en-us/windows/win32/printdocs/jobholepunch
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [JobHolePunch(HolePunch.HolePunchOption[] options)](#JobHolePunch-com.aspose.xps.metadata.HolePunch.HolePunchOption...-) | ينشئ نسخة جديدة. |
+| [JobHolePunch(HolePunch.HolePunchOption[] options)](#JobHolePunch-com.aspose.xps.metadata.HolePunch.HolePunchOption...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public JobHolePunch(HolePunch.HolePunchOption[] options)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

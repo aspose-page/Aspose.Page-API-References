@@ -1,7 +1,7 @@
 ---
 title: "OutputBin.MediaSheetCapacity"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يعرف قيمة الخاصية المتدرجة MediaSheetCapacity التي تحدد سعة الوسائط بعدد الصفحات عند مستوى الامتلاء الكامل للصندوق."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يحدد قيمة الخاصية المُقيمة MediaSheetCapacity التي تحدد سعة الوسائط بعدد الصفحات في مستوى الامتلاء الكامل للصندوق."
 type: docs
 weight: 11
 url: /ar/java/com.aspose.xps.metadata/outputbin.mediasheetcapacity/
@@ -15,12 +15,12 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class OutputBin.MediaSheetCapacity extends ScoredProperty implements OutputBin.IOutputBinOptionItem
 ```
 
-يحدد قيمة خاصية  MediaSheetCapacity  المُسجلة التي تحدد سعة الوسائط بعدد الصفحات (المستوى الكامل) للصندوق.
-## المنشئات
+يحدد قيمة الخاصية المقيمة MediaSheetCapacity التي تحدد سعة الوسائط بعدد الصفحات (المستوى الكامل) للصندوق.
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [MediaSheetCapacity(int mediaSheetCapacity)](#MediaSheetCapacity-int-) | ينشئ نسخة جديدة. |
+| [MediaSheetCapacity(int mediaSheetCapacity)](#MediaSheetCapacity-int-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -41,12 +41,12 @@ public MediaSheetCapacity(int mediaSheetCapacity)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| mediaSheetCapacity | int | قيمة خاصية متدرجة  MediaSheetCapacity . |
+| mediaSheetCapacity | int | قيمة خاصية مُقيمة MediaSheetCapacity. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -62,7 +62,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

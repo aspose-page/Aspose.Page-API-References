@@ -1,6 +1,6 @@
 ---
 title: "PageICMRenderingIntent"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف نية العرض كما هو معرف في مواصفة ICC v2."
 type: docs
 weight: 98
@@ -16,16 +16,16 @@ public final class PageICMRenderingIntent extends Feature implements IJobPrintTi
 ```
 
 يصف نية العرض كما هو معرف في مواصفة ICC v2. يجب تجاهل هذه القيمة إذا كان للصورة أو العنصر الرسومي ملف تعريف مضمّن يحدد نية العرض. https://docs.microsoft.com/en-us/windows/win32/printdocs/pageicmrenderingintent
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PageICMRenderingIntent(PageICMRenderingIntent.PageICMRenderingIntentOption[] options)](#PageICMRenderingIntent-com.aspose.xps.metadata.PageICMRenderingIntent.PageICMRenderingIntentOption...-) | ينشئ نسخة جديدة. |
+| [PageICMRenderingIntent(PageICMRenderingIntent.PageICMRenderingIntentOption[] options)](#PageICMRenderingIntent-com.aspose.xps.metadata.PageICMRenderingIntent.PageICMRenderingIntentOption...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public PageICMRenderingIntent(PageICMRenderingIntent.PageICMRenderingIntentOptio
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

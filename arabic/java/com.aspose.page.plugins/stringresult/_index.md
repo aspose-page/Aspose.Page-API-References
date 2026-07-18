@@ -1,6 +1,6 @@
 ---
 title: "StringResult"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يمثل نتيجة العملية على شكل سلسلة."
 type: docs
 weight: 19
@@ -16,11 +16,11 @@ public final class StringResult implements IOperationResult
 ```
 
 يمثل نتيجة العملية على شكل سلسلة.
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [StringResult(String result)](#StringResult-java.lang.String-) | يُنشئ مثيلاً جديدًا من StringResult باستخدام سلسلة. |
+| [StringResult(String result)](#StringResult-java.lang.String-) | يُنشئ نسخة جديدة من StringResult باستخدام سلسلة. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -48,7 +48,7 @@ public StringResult(String result)
 ```
 
 
-يُنشئ مثيلاً جديدًا من StringResult باستخدام سلسلة.
+يُنشئ نسخة جديدة من StringResult باستخدام سلسلة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -69,7 +69,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

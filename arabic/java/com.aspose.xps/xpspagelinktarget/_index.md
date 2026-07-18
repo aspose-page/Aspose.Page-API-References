@@ -1,7 +1,7 @@
 ---
 title: "XpsPageLinkTarget"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "الفئة التي تُجمل هدف الارتباط التشعبي للصفحة."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "فئة تغلف هدف الارتباط التشعبي للصفحة."
 type: docs
 weight: 39
 url: /ar/java/com.aspose.xps/xpspagelinktarget/
@@ -12,10 +12,10 @@ java.lang.Object, [com.aspose.xps.XpsHyperlinkTarget](../../com.aspose.xps/xpshy
 public final class XpsPageLinkTarget extends XpsHyperlinkTarget
 ```
 
-الفئة التي تُجمل هدف الارتباط التشعبي للصفحة.
-## المنشئات
+فئة تغلف هدف الارتباط التشعبي للصفحة.
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [XpsPageLinkTarget(int targetPageNumber)](#XpsPageLinkTarget-int-) | ينشئ المثيل الجديد. |
 ## الطرق
@@ -59,7 +59,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

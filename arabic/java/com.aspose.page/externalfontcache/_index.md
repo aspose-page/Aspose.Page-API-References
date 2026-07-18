@@ -1,7 +1,7 @@
 ---
 title: "ExternalFontCache"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "استخدم هذه الفئة للحصول على تغليف الخط في صيغة يتم قبولها من قبل Device."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "استخدم هذه الفئة للحصول على تغليف الخط في شكل يتم قبوله بواسطة Device."
 type: docs
 weight: 13
 url: /ar/java/com.aspose.page/externalfontcache/
@@ -12,10 +12,10 @@ java.lang.Object
 public class ExternalFontCache
 ```
 
-استخدم هذه الفئة للحصول على تغليف الخط في صيغة يتم قبولها من قبل Device.
-## المنشئات
+استخدم هذه الفئة للحصول على تغليف الخط في شكل يتم قبوله بواسطة Device.
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [ExternalFontCache()](#ExternalFontCache--) |  |
 ## الحقول
@@ -33,9 +33,9 @@ public class ExternalFontCache
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fetchDrFont(String familyName, float sizePoints, int style)](#fetchDrFont-java.lang.String-float-int-) | يجلب DrFont حسب اسم عائلة الخط، الحجم والنمط. |
 | [fetchDrFont(String familyName, float sizePoints, int style, int fontCapitals)](#fetchDrFont-java.lang.String-float-int-int-) | يجلب DrFont حسب اسم عائلة الخط، الحجم، النمط وحروف الخط الكبيرة. |
-| [fetchDrFont(String familyName, float sizePoints, int style, String altFamilyName)](#fetchDrFont-java.lang.String-float-int-java.lang.String-) | يجلب DrFont حسب اسم عائلة الخط، الحجم، النمط واسم عائلة الخط البديل. |
-| [fetchDrFont(String familyName, float sizePoints, int style, String altFamilyName, int fontCapitals)](#fetchDrFont-java.lang.String-float-int-java.lang.String-int-) | يجلب DrFont حسب اسم عائلة الخط، الحجم، النمط، حروف الخط الكبيرة واسم عائلة الخط البديل. |
-| [fetchTTFont(String familyName, int style, String altFamilyName)](#fetchTTFont-java.lang.String-int-java.lang.String-) | يجلب TTFont حسب اسم عائلة الخط، النمط واسم عائلة الخط البديل. |
+| [fetchDrFont(String familyName, float sizePoints, int style, String altFamilyName)](#fetchDrFont-java.lang.String-float-int-java.lang.String-) | يجلب DrFont حسب اسم عائلة الخط، الحجم، النمط واسم عائلة الخط البديلة. |
+| [fetchDrFont(String familyName, float sizePoints, int style, String altFamilyName, int fontCapitals)](#fetchDrFont-java.lang.String-float-int-java.lang.String-int-) | يجلب DrFont حسب اسم عائلة الخط، الحجم، النمط، حروف الخط الكبيرة واسم عائلة الخط البديلة. |
+| [fetchTTFont(String familyName, int style, String altFamilyName)](#fetchTTFont-java.lang.String-int-java.lang.String-) | يجلب TTFont حسب اسم عائلة الخط، النمط واسم عائلة الخط البديلة. |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -112,7 +112,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### fetchDrFont(String familyName, float sizePoints, int style) {#fetchDrFont-java.lang.String-float-int-}
 ```
 public static DrFont fetchDrFont(String familyName, float sizePoints, int style)
@@ -154,7 +154,7 @@ public DrFont fetchDrFont(String familyName, float sizePoints, int style, String
 ```
 
 
-يجلب DrFont حسب اسم عائلة الخط، الحجم، النمط واسم عائلة الخط البديل.
+يجلب DrFont حسب اسم عائلة الخط، الحجم، النمط واسم عائلة الخط البديلة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -172,7 +172,7 @@ public DrFont fetchDrFont(String familyName, float sizePoints, int style, String
 ```
 
 
-يجلب DrFont حسب اسم عائلة الخط، الحجم، النمط، حروف الخط الكبيرة واسم عائلة الخط البديل.
+يجلب DrFont حسب اسم عائلة الخط، الحجم، النمط، حروف الخط الكبيرة واسم عائلة الخط البديلة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -191,7 +191,7 @@ public TTFont fetchTTFont(String familyName, int style, String altFamilyName)
 ```
 
 
-يجلب TTFont حسب اسم عائلة الخط، النمط واسم عائلة الخط البديل.
+يجلب TTFont حسب اسم عائلة الخط، النمط واسم عائلة الخط البديلة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -244,7 +244,7 @@ public static void setAdditionalFontsFolders(String[] additionalFontFolders)
 ```
 
 
-يحدد مجلدات الخطوط الإضافية. مجلدات الخطوط التي يستخدمها نظام التشغيل تُستخدم بواسطة ذاكرة التخزين المؤقت للخطوط الخارجية بشكل افتراضي. لا توجد حاجة لتحديدها،
+يحدد مجلدات الخطوط الإضافية. مجلدات الخطوط التي يستخدمها نظام التشغيل تُستخدم بواسطة ذاكرة التخزين المؤقت للخطوط الخارجية افتراضيًا. لا توجد حاجة لتعريفها،
 
 **Parameters:**
 | معامل | نوع | الوصف |

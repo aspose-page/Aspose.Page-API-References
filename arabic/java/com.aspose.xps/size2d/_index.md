@@ -1,7 +1,7 @@
 ---
 title: "Size2D"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "الفئة Size2D تصف الأبعاد w × h."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "صفّ Size2D يصف الأبعاد w x h."
 type: docs
 weight: 12
 url: /ar/java/com.aspose.xps/size2d/
@@ -12,12 +12,12 @@ java.lang.Object, java.awt.geom.Dimension2D
 public abstract class Size2D extends Dimension2D
 ```
 
-الفئة `Size2D` تصف الأبعاد (العرض × الارتفاع).
+فئة `Size2D` تصف الأبعاد (w x h).
 
 هذه الفئة هي فقط الفئة العليا المجردة لجميع الكائنات التي تخزن أبعادًا ثنائية الأبعاد. تمثيل التخزين الفعلي للأبعاد يُترك إلى الفئة الفرعية.
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [Size2D()](#Size2D--) |  |
 ## الطرق
@@ -68,7 +68,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

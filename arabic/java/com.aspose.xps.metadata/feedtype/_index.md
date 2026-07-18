@@ -1,7 +1,7 @@
 ---
 title: "InputBin.FeedType"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يعرّف الثوابت لقيمة الخاصية المتدرجة FeedType."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يعرف الثوابت لقيمة الخاصية المُقيمة FeedType."
 type: docs
 weight: 13
 url: /ar/java/com.aspose.xps.metadata/inputbin.feedtype/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class InputBin.FeedType extends ScoredProperty implements InputBin.IInputBinOptionItem
 ```
 
-يحدد الثوابت لقيمة خاصية  FeedType  المُسجلة.
+يحدد الثوابت لقيمة الخاصية المقيمة FeedType.
 ## الحقول
 
 | حقل | الوصف |
@@ -66,7 +66,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

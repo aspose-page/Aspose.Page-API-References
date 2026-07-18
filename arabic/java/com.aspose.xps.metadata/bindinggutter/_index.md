@@ -1,7 +1,7 @@
 ---
 title: "JobBindAllDocuments.BindingGutter"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يصف الطريقة لتحديد قيمة الخاصية المُقَيمة BindingGutter سواءً بقيمة عدد صحيح أو بالإشارة إلى معامل DocumentBindingGutter."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يصف الطريقة لتحديد قيمة خاصية BindingGutter المتدرجة سواءً بقيمة عددية صحيحة أو بالإشارة إلى معامل DocumentBindingGutter."
 type: docs
 weight: 10
 url: /ar/java/com.aspose.xps.metadata/jobbindalldocuments.bindinggutter/
@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class JobBindAllDocuments.BindingGutter extends ScoredProperty implements JobBindAllDocuments.IBindingOptionItem
 ```
 
-يصف طريقة تحديد قيمة الخاصية المقاسة BindingGutter، سواءً بقيمة عددية أو بالإشارة إلى معامل DocumentBindingGutter.
-## المنشئات
+يصف طريقة تحديد قيمة الخاصية المقطوعة BindingGutter، سواءً بقيمة عددية صحيحة أو بالإشارة إلى معامل DocumentBindingGutter.
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [BindingGutter(int value)](#BindingGutter-int-) | ينشئ نسخة جديدة. |
+| [BindingGutter(int value)](#BindingGutter-int-) | ينشئ مثيلًا جديدًا. |
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
-| [JobBindAllDocumentsGutter](#JobBindAllDocumentsGutter) | يحدد قيمة الخاصية المُقَيمة BindingGutter بالإشارة إلى معامل DocumentBindingGutter. |
+| [JobBindAllDocumentsGutter](#JobBindAllDocumentsGutter) | يحدد قيمة خاصية BindingGutter المتدرجة بالإشارة إلى معامل DocumentBindingGutter. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -46,12 +46,12 @@ public BindingGutter(int value)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | قيمة خاصية مُقَيمة. |
+| القيمة | int | قيمة خاصية متدرجة. |
 
 ### JobBindAllDocumentsGutter {#JobBindAllDocumentsGutter}
 ```
@@ -59,7 +59,7 @@ public static final JobBindAllDocuments.BindingGutter JobBindAllDocumentsGutter
 ```
 
 
-يحدد قيمة الخاصية المُقَيمة BindingGutter بالإشارة إلى معامل DocumentBindingGutter.
+يحدد قيمة خاصية BindingGutter المتدرجة بالإشارة إلى معامل DocumentBindingGutter.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -75,7 +75,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

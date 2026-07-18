@@ -1,6 +1,6 @@
 ---
 title: "PageMediaType.IPageMediaTypeOptionItem"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "واجهة أي عنصر PageMediaType."
 type: docs
 weight: 18

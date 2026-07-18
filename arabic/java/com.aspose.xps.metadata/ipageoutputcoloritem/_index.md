@@ -1,6 +1,6 @@
 ---
 title: "PageOutputColor.IPageOutputColorItem"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "واجهة أي عنصر ميزة PageOutputColor."
 type: docs
 weight: 11
@@ -12,4 +12,4 @@ url: /ar/java/com.aspose.xps.metadata/pageoutputcolor.ipageoutputcoloritem/
 public static interface PageOutputColor.IPageOutputColorItem extends IFeatureItem
 ```
 
-واجهة أي  PageOutputColor  عنصر ميزة.
+واجهة أي عنصر ميزة  PageOutputColor  .

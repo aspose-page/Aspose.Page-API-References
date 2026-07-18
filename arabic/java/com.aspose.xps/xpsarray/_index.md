@@ -1,25 +1,25 @@
 ---
 title: "XpsArray"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "فئة تُغلف ميزات كائن مصفوفة نموذج XPS الشائعة."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "فئة تجسد ميزات كائن مصفوفة نموذج XPS الشائعة."
 type: docs
 weight: 14
 url: /ar/java/com.aspose.xps/xpsarray/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject)
+java.lang.Object, [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject)
 ```
 public abstract class XpsArray<T> extends XpsObject
 ```
 
-فئة تُغلف ميزات كائن مصفوفة نموذج XPS الشائعة.
+فئة تجسد ميزات كائن مصفوفة نموذج XPS الشائعة.
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [add(T obj)](#add-T-) | يضيف كائنًا جديدًا إلى المصفوفة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int i)](#get-int-) | يوفر الوصول إلى عنصر المصفوفة بواسطة الفهرس i. |
+| [get(int i)](#get-int-) | يوفر الوصول إلى عنصر المصفوفة عبر الفهرس i. |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [insert(int index, T obj)](#insert-int-T-) | يدرج كائنًا جديدًا في المصفوفة في الموضع المحدد. |
@@ -43,7 +43,7 @@ public T add(T obj)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| obj | T | الكائن المراد إضافته. |
+| كائن | T | الكائن المراد إضافته. |
 
 **Returns:**
 T - الكائن المضاف.
@@ -61,14 +61,14 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### get(int i) {#get-int-}
 ```
 public T get(int i)
 ```
 
 
-يوفر الوصول إلى عنصر المصفوفة بواسطة الفهرس i.
+يوفر الوصول إلى عنصر المصفوفة عبر الفهرس i.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -108,11 +108,11 @@ public T insert(int index, T obj)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| فهرس | int | الموضع لإدراج كائن فيه. |
-| obj | T | الكائن المراد إدراجه. |
+| فهرس | int | الموضع الذي يُدرج فيه الكائن. |
+| كائن | T | الكائن المراد إدراجه. |
 
 **Returns:**
-T - الكائن المدخل.
+T - الكائن المُدرج.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -140,7 +140,7 @@ public T remove(T obj)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| obj | T | الكائن المراد إزالته. |
+| كائن | T | الكائن المراد إزالته. |
 
 **Returns:**
 T - الكائن المُزال.

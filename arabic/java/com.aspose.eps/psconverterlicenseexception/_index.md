@@ -1,6 +1,6 @@
 ---
 title: "PsConverterLicenseException"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "هذه الفئة تحتوي على معلومات حول خطأ مرتبط بترخيص منتج Aspose.Page."
 type: docs
 weight: 15
@@ -13,9 +13,9 @@ public class PsConverterLicenseException extends PsConverterException
 ```
 
 هذه الفئة تحتوي على معلومات حول خطأ مرتبط بترخيص منتج Aspose.Page.
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [PsConverterLicenseException(String errorStr)](#PsConverterLicenseException-java.lang.String-) | يُهيئ مثلاً جديداً من  PsConverterLicenseException  من سلسلة  errorStr . |
 ## الطرق
@@ -83,7 +83,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### fillInStackTrace() {#fillInStackTrace--}
 ```
 public synchronized Throwable fillInStackTrace()

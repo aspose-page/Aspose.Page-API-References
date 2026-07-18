@@ -1,6 +1,6 @@
 ---
 title: "JobBindAllDocuments"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف طريقة التجليد."
 type: docs
 weight: 45
@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class JobBindAllDocuments extends Feature implements IJobPrintTicketItem
 ```
 
-يصف طريقة التجميع. جميع المستندات في المهمة تُجمع معًا.  JobBindAllDocuments  و  DocumentBinding  متنافيان. يعود للبرنامج التعريفي لتحديد كيفية التعامل مع القيود بين هذه الكلمات المفتاحية. https://docs.microsoft.com/en-us/windows/win32/printdocs/jobbindalldocuments
-## المنشئات
+يصف طريقة التجميع. جميع المستندات في المهمة تُجمع معًا.  JobBindAllDocuments  و  DocumentBinding  متعارضان. الأمر متروك للسائق لتحديد كيفية معالجة القيود بين هذه الكلمات المفتاحية. https://docs.microsoft.com/en-us/windows/win32/printdocs/jobbindalldocuments
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [JobBindAllDocuments(JobBindAllDocuments.BindingOption[] options)](#JobBindAllDocuments-com.aspose.xps.metadata.JobBindAllDocuments.BindingOption...-) | ينشئ نسخة جديدة. |
+| [JobBindAllDocuments(JobBindAllDocuments.BindingOption[] options)](#JobBindAllDocuments-com.aspose.xps.metadata.JobBindAllDocuments.BindingOption...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public JobBindAllDocuments(JobBindAllDocuments.BindingOption[] options)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

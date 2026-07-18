@@ -1,7 +1,7 @@
 ---
 title: "XpsImageBrush"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "فئة تُغلف ميزات عنصر خاصية ImageBrush."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "فئة تجسد ميزات عنصر خاصية ImageBrush."
 type: docs
 weight: 33
 url: /ar/java/com.aspose.xps/xpsimagebrush/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject), [c
 public final class XpsImageBrush extends XpsTilingBrush
 ```
 
-فئة تُجَمِّع ميزات عنصر خاصية ImageBrush. يُستخدم هذا العنصر لملء منطقة بصورة.
+فئة تُغَلِّف ميزات عنصر خاصية ImageBrush. يُستخدم هذا العنصر لملء منطقة بصورة.
 ## الطرق
 
 | طريقة | الوصف |
@@ -21,19 +21,19 @@ public final class XpsImageBrush extends XpsTilingBrush
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getImage()](#getImage--) | يعيد مورد الصورة المستخدم للفرشاة. |
-| [getImageSource()](#getImageSource--) | يعيد URI لمورد صورة. |
+| [getImageSource()](#getImageSource--) | يعيد عنوان URI لمورد الصورة. |
 | [getOpacity()](#getOpacity--) | يعيد القيمة التي تحدد الشفافية الموحدة لتعبئة الفرشاة. |
 | [getTileMode()](#getTileMode--) | يعيد القيمة التي تحدد كيفية تنفيذ التبليط في الهندسة المملوءة. |
-| [getTransform()](#getTransform--) | يعيد تحويل المصفوفة المطبق على فضاء إحداثيات الفرشاة. |
-| [getViewbox()](#getViewbox--) | يعيد المنطقة من محتوى المصدر للفرشاة التي سيتم تعيينها إلى منطقة العرض. |
+| [getTransform()](#getTransform--) | يعيد تحويل المصفوفة المطبق على مساحة إحداثيات الفرشاة. |
+| [getViewbox()](#getViewbox--) | يعيد المنطقة من محتوى المصدر للفرشاة التي سيتم تعيينها إلى نافذة العرض. |
 | [getViewport()](#getViewport--) | يعيد الموضع والأبعاد للقطعة الأولى للفرشاة. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setOpacity(float value)](#setOpacity-float-) | يضبط القيمة التي تحدد الشفافية الموحدة لتعبئة الفرشاة. |
 | [setTileMode(XpsTileMode value)](#setTileMode-com.aspose.xps.XpsTileMode-) | يضبط القيمة التي تحدد كيفية تنفيذ التبليط في الهندسة المملوءة. |
-| [setTransform(XpsMatrix value)](#setTransform-com.aspose.xps.XpsMatrix-) | يضبط تحويل المصفوفة المطبق على فضاء إحداثيات الفرشاة. |
-| [setViewbox(Rectangle2D value)](#setViewbox-java.awt.geom.Rectangle2D-) | يضبط المنطقة من محتوى المصدر للفرشاة التي سيتم تعيينها إلى منطقة العرض. |
+| [setTransform(XpsMatrix value)](#setTransform-com.aspose.xps.XpsMatrix-) | يضبط تحويل المصفوفة المطبق على مساحة إحداثيات الفرشاة. |
+| [setViewbox(Rectangle2D value)](#setViewbox-java.awt.geom.Rectangle2D-) | يضبط المنطقة من محتوى المصدر للفرشاة التي سيتم تعيينها إلى نافذة العرض. |
 | [setViewport(Rectangle2D value)](#setViewport-java.awt.geom.Rectangle2D-) | يضبط الموضع والأبعاد للقطعة الأولى للفرشاة. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -63,7 +63,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -90,10 +90,10 @@ public String getImageSource()
 ```
 
 
-يعيد URI لمورد صورة.
+يعيد عنوان URI لمورد الصورة.
 
 **Returns:**
-java.lang.String - URI لمورد صورة.
+java.lang.String - عنوان URI لمورد الصورة.
 ### getOpacity() {#getOpacity--}
 ```
 public float getOpacity()
@@ -120,7 +120,7 @@ public XpsMatrix getTransform()
 ```
 
 
-يعيد تحويل المصفوفة المطبق على فضاء إحداثيات الفرشاة. يتم ربط خاصية Transform مع تحويل العرض الفعّال الحالي لإنتاج تحويل عرض فعّال محلي للفرشاة. يتم تحويل منطقة العرض للفرشاة باستخدام تحويل العرض الفعّال المحلي.
+يعيد تحويل المصفوفة المطبق على مساحة إحداثيات الفرشاة. يتم ربط خاصية Transform مع تحويل العرض الفعلي الحالي لإنتاج تحويل عرض فعال محلي للفرشاة. يتم تحويل نافذة العرض للفرشاة باستخدام تحويل العرض الفعال المحلي.
 
 **Returns:**
 [XpsMatrix](../../com.aspose.xps/xpsmatrix) - The matrix transformation applied to the coordinate space of the brush.
@@ -130,17 +130,17 @@ public Rectangle2D getViewbox()
 ```
 
 
-يعيد المنطقة من محتوى المصدر للفرشاة التي سيتم تعيينها إلى منطقة العرض.
+يعيد المنطقة من محتوى المصدر للفرشاة التي سيتم تعيينها إلى نافذة العرض.
 
 **Returns:**
-java.awt.geom.Rectangle2D - المنطقة من محتوى المصدر للفرشاة التي سيتم تعيينها إلى منطقة العرض.
+java.awt.geom.Rectangle2D - المنطقة من محتوى المصدر للفرشاة التي سيتم تعيينها إلى نافذة العرض.
 ### getViewport() {#getViewport--}
 ```
 public Rectangle2D getViewport()
 ```
 
 
-يعيد الموضع والأبعاد للقطعة الأولى للفرشاة. يتم وضع القطع اللاحقة نسبياً إلى هذه القطعة، كما هو محدد في وضع التبليط.
+يعيد الموضع والأبعاد للقطعة الأولى للفرشاة. يتم وضع القطع اللاحقة نسبياً إلى هذه القطعة، كما هو محدد بوضعية التبليط.
 
 **Returns:**
 java.awt.geom.Rectangle2D - الموضع والأبعاد للقطعة الأولى للفرشاة.
@@ -202,12 +202,12 @@ public void setTransform(XpsMatrix value)
 ```
 
 
-يضبط تحويل المصفوفة المطبق على فضاء إحداثيات الفرشاة. يتم ربط خاصية Transform مع تحويل العرض الفعّال الحالي لإنتاج تحويل عرض فعّال محلي للفرشاة. يتم تحويل منطقة العرض للفرشاة باستخدام تحويل العرض الفعّال المحلي.
+يضبط تحويل المصفوفة المطبق على مساحة إحداثيات الفرشاة. يتم ربط خاصية Transform مع تحويل العرض الفعلي الحالي لإنتاج تحويل عرض فعال محلي للفرشاة. يتم تحويل نافذة العرض للفرشاة باستخدام تحويل العرض الفعال المحلي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [XpsMatrix](../../com.aspose.xps/xpsmatrix) | تحويل المصفوفة المطبق على فضاء إحداثيات الفرشاة. |
+| value | [XpsMatrix](../../com.aspose.xps/xpsmatrix) | تحويل المصفوفة المطبق على مساحة إحداثيات الفرشاة. |
 
 ### setViewbox(Rectangle2D value) {#setViewbox-java.awt.geom.Rectangle2D-}
 ```
@@ -215,12 +215,12 @@ public void setViewbox(Rectangle2D value)
 ```
 
 
-يضبط المنطقة من محتوى المصدر للفرشاة التي سيتم تعيينها إلى منطقة العرض.
+يضبط المنطقة من محتوى المصدر للفرشاة التي سيتم تعيينها إلى نافذة العرض.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.awt.geom.Rectangle2D | المنطقة من محتوى المصدر للفرشاة التي سيتم تعيينها إلى منطقة العرض. |
+| القيمة | java.awt.geom.Rectangle2D | المنطقة من محتوى المصدر للفرشاة التي سيتم تعيينها إلى نافذة العرض. |
 
 ### setViewport(Rectangle2D value) {#setViewport-java.awt.geom.Rectangle2D-}
 ```
@@ -228,7 +228,7 @@ public void setViewport(Rectangle2D value)
 ```
 
 
-يضبط الموضع والأبعاد للقطعة الأولى للفرشاة. يتم وضع القطع اللاحقة نسبياً إلى هذه القطعة، كما هو محدد في وضع التبليط.
+يضبط الموضع والأبعاد للقطعة الأولى للفرشاة. يتم وضع القطع اللاحقة نسبياً إلى هذه القطعة، كما هو محدد بوضعية التبليط.
 
 **Parameters:**
 | معامل | نوع | الوصف |

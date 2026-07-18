@@ -1,6 +1,6 @@
 ---
 title: "LoadOptions"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "فئة أساسية لخيارات تحميل المستند."
 type: docs
 weight: 11
@@ -40,7 +40,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

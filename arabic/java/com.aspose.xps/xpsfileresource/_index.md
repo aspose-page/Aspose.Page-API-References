@@ -1,7 +1,7 @@
 ---
 title: "XpsFileResource"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "فئة تُغلف الميزات المشتركة لجميع موارد الملفات."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "فئة تجسد الميزات المشتركة لجميع موارد الملفات."
 type: docs
 weight: 23
 url: /ar/java/com.aspose.xps/xpsfileresource/
@@ -12,7 +12,7 @@ java.lang.Object
 public class XpsFileResource
 ```
 
-فئة تُغلف الميزات المشتركة لجميع موارد الملفات.
+فئة تجسد الميزات المشتركة لجميع موارد الملفات.
 ## الطرق
 
 | طريقة | الوصف |
@@ -40,7 +40,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

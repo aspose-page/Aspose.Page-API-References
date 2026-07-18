@@ -1,6 +1,6 @@
 ---
 title: "PSObjectEqComparer"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: 
 type: docs
 weight: 10
@@ -14,9 +14,9 @@ java.util.Comparator
 ```
 public class PSObjectEqComparer<T> implements Comparator<T>
 ```
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [PSObjectEqComparer()](#PSObjectEqComparer--) |  |
 ## الطرق
@@ -72,7 +72,7 @@ public boolean equals(T x, T y)
 | y | T |  |
 
 **Returns:**
-boolean
+منطقي
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -84,10 +84,10 @@ public boolean equals(Object obj)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| obj | java.lang.Object |  |
+| كائن | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -109,7 +109,7 @@ public int getHashCode(T obj)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| obj | T |  |
+| كائن | T |  |
 
 **Returns:**
 int

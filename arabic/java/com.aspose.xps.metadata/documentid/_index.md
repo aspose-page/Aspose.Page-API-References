@@ -1,7 +1,7 @@
 ---
 title: "DocumentID"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يحدد معرفًا فريدًا للمستند."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يحدد معرفًا فريدًا للوثيقة."
 type: docs
 weight: 25
 url: /ar/java/com.aspose.xps.metadata/documentid/
@@ -13,11 +13,11 @@ public final class DocumentID extends IDProperty
 ```
 
 يحدد معرفًا فريدًا للمستند. https://docs.microsoft.com/en-us/windows/win32/printdocs/documentid
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [DocumentID(String documentID)](#DocumentID-java.lang.String-) | ينشئ نسخة جديدة. |
+| [DocumentID(String documentID)](#DocumentID-java.lang.String-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -38,7 +38,7 @@ public DocumentID(String documentID)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -59,7 +59,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

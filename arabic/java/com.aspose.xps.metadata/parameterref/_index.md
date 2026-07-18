@@ -1,7 +1,7 @@
 ---
 title: "ParameterRef"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "الفئة التي تنفذ مرجع معلمة PrintTicket شائع."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "الفئة التي تنفذ مرجع معلمة **PrintTicket** شائع."
 type: docs
 weight: 140
 url: /ar/java/com.aspose.xps.metadata/parameterref/
@@ -15,12 +15,12 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public class ParameterRef extends PrintTicketElement implements IPrintTicketItem
 ```
 
-الفئة التي تنفّذ مرجع معلمة PrintTicket شائع. عنصر ParameterRef يعرّف إشارة إلى عنصر ParameterInit. عنصر ScoredProperty الذي يحتوي على عنصر ParameterRef لا يمتلك عنصر Value محدد صراحةً. بدلاً من ذلك، يحصل عنصر ScoredProperty على قيمته من عنصر ParameterInit المشار إليه بواسطة عنصر ParameterRef. https://docs.microsoft.com/en-us/windows/win32/printdocs/parameterref
-## المنشئات
+الفئة التي تنفّذ مرجع معلمة PrintTicket شائع. عنصر  ParameterRef  يعرّف إشارة إلى عنصر  ParameterInit . عنصر  ScoredProperty  الذي يحتوي على عنصر ParameterRef لا يمتلك عنصر  Value  محدد صراحةً. بدلاً من ذلك، يحصل عنصر  ScoredProperty  على قيمته من عنصر  ParameterInit  المشار إليه بواسطة عنصر ParameterRef. https://docs.microsoft.com/en-us/windows/win32/printdocs/parameterref
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [ParameterRef(String name)](#ParameterRef-java.lang.String-) | ينشئ نسخة جديدة. |
+| [ParameterRef(String name)](#ParameterRef-java.lang.String-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -41,7 +41,7 @@ public ParameterRef(String name)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -62,7 +62,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

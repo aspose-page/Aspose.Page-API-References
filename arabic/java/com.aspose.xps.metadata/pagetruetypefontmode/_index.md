@@ -1,7 +1,7 @@
 ---
 title: "PageTrueTypeFontMode"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يصف طريقة معالجة خطوط TrueType التي ستُستخدم."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يصف طريقة معالجة خطوط TrueType التي سيتم استخدامها."
 type: docs
 weight: 130
 url: /ar/java/com.aspose.xps.metadata/pagetruetypefontmode/
@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class PageTrueTypeFontMode extends Feature implements IJobPrintTicketItem, IDocumentPrintTicketItem, IPagePrintTicketItem
 ```
 
-يصف طريقة معالجة خطوط TrueType التي سيتم استخدامها. https://docs.microsoft.com/en-us/windows/win32/printdocs/pagetruetypefontmode
-## المنشئات
+يصف طريقة معالجة خطوط TrueType التي ستُستخدم. https://docs.microsoft.com/en-us/windows/win32/printdocs/pagetruetypefontmode
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PageTrueTypeFontMode(PageTrueTypeFontMode.PageTrueTypeFontModeOption[] options)](#PageTrueTypeFontMode-com.aspose.xps.metadata.PageTrueTypeFontMode.PageTrueTypeFontModeOption...-) | ينشئ نسخة جديدة. |
+| [PageTrueTypeFontMode(PageTrueTypeFontMode.PageTrueTypeFontModeOption[] options)](#PageTrueTypeFontMode-com.aspose.xps.metadata.PageTrueTypeFontMode.PageTrueTypeFontModeOption...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public PageTrueTypeFontMode(PageTrueTypeFontMode.PageTrueTypeFontModeOption[] op
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

@@ -1,7 +1,7 @@
 ---
 title: "InputBin.FeedFace"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يعرّف الثوابت لقيمة الخاصية المتدرجة FeedFace."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يعرف الثوابت لقيمة الخاصية المُقيمة FeedFace."
 type: docs
 weight: 12
 url: /ar/java/com.aspose.xps.metadata/inputbin.feedface/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class InputBin.FeedFace extends Property implements InputBin.IInputBinOptionItem
 ```
 
-يحدد الثوابت لقيمة خاصية  FeedFace  المُسجلة.
+يحدد الثوابت لقيمة الخاصية المقيمة FeedFace.
 ## الحقول
 
 | حقل | الوصف |
@@ -66,7 +66,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

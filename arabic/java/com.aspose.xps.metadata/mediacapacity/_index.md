@@ -1,7 +1,7 @@
 ---
 title: "InputBin.MediaCapacity"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "تعريف الثوابت لقيمة الخاصية المقيمة MediaCapacity التي تحدد ما إذا كان الصندوق ذو سعة عالية نوعيًا."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "تعريف الثوابت لقيمة الخاصية المقيمة MediaCapacity التي تحدد ما إذا كان الصندوق صندوق سعة عالية نوعيًا."
 type: docs
 weight: 15
 url: /ar/java/com.aspose.xps.metadata/inputbin.mediacapacity/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class InputBin.MediaCapacity extends ScoredProperty implements InputBin.IInputBinOptionItem
 ```
 
-يحدد الثوابت لقيمة خاصية  MediaCapacity  المُسجلة التي تحدد ما إذا كان الصندوق ذو سعة عالية (نوعي).
+يحدد الثوابت لقيمة الخاصية المقيمة MediaCapacity التي تحدد ما إذا كان الصندوق عالي السعة (نوعي).
 ## الحقول
 
 | حقل | الوصف |
@@ -66,7 +66,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

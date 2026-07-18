@@ -1,18 +1,18 @@
 ---
 title: "XpsIccProfile"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "فئة تُغلف مورد ملف تعريف ICC."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "فئة تجسد مورد ملف تعريف ICC."
 type: docs
 weight: 31
 url: /ar/java/com.aspose.xps/xpsiccprofile/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.xps.XpsFileResource](../../com.aspose.xps/xpsfileresource)
+java.lang.Object, [com.aspose.xps.XpsFileResource](../../com.aspose.xps/xpsfileresource)
 ```
 public final class XpsIccProfile extends XpsFileResource
 ```
 
-فئة تُغلف مورد ملف تعريف ICC.
+فئة تجسد مورد ملف تعريف ICC.
 ## الطرق
 
 | طريقة | الوصف |
@@ -40,7 +40,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

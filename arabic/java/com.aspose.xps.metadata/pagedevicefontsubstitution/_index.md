@@ -1,6 +1,6 @@
 ---
 title: "PageDeviceFontSubstitution"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف حالة تمكين/تعطيل استبدال خطوط الجهاز."
 type: docs
 weight: 96
@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class PageDeviceFontSubstitution extends Feature implements IJobPrintTicketItem, IDocumentPrintTicketItem, IPagePrintTicketItem
 ```
 
-يصف حالة التمكين/التعطيل لاستبدال خط الجهاز. https://docs.microsoft.com/en-us/windows/win32/printdocs/pagedevicefontsubstitution
-## المنشئات
+يصف حالة تمكين/تعطيل استبدال خط الجهاز. https://docs.microsoft.com/en-us/windows/win32/printdocs/pagedevicefontsubstitution
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PageDeviceFontSubstitution(PageDeviceFontSubstitution.PageDeviceFontSubstitutionOption[] options)](#PageDeviceFontSubstitution-com.aspose.xps.metadata.PageDeviceFontSubstitution.PageDeviceFontSubstitutionOption...-) | ينشئ نسخة جديدة. |
+| [PageDeviceFontSubstitution(PageDeviceFontSubstitution.PageDeviceFontSubstitutionOption[] options)](#PageDeviceFontSubstitution-com.aspose.xps.metadata.PageDeviceFontSubstitution.PageDeviceFontSubstitutionOption...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public PageDeviceFontSubstitution(PageDeviceFontSubstitution.PageDeviceFontSubst
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

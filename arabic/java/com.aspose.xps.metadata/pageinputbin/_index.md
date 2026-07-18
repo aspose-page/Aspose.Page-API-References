@@ -1,6 +1,6 @@
 ---
 title: "PageInputBin"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف صينية الإدخال المثبتة في الجهاز أو القائمة الكاملة للصناديق المدعومة للجهاز."
 type: docs
 weight: 100
@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class PageInputBin extends InputBin implements IJobPrintTicketItem, IDocumentPrintTicketItem, IPagePrintTicketItem
 ```
 
-يصف صينية الإدخال المثبتة في الجهاز أو القائمة الكاملة للصناديق المدعومة للجهاز. يسمح بتحديد صينية الإدخال على أساس كل صفحة. الكلمات المفتاحية JobInputBin ,  DocumentInputBin  and  PageInputBin متعارضة. لا ينبغي تحديد كلاهما في نفس الوقت في مستند PrintTicket أو مستند إمكانيات الطباعة. https://docs.microsoft.com/en-us/windows/win32/printdocs/pageinputbin
-## المنشئات
+يصف صينية الإدخال المثبتة في الجهاز أو القائمة الكاملة للصناديق المدعومة للجهاز. يسمح بتحديد صينية الإدخال على أساس كل صفحة. الكلمات المفتاحية JobInputBin و DocumentInputBin و PageInputBin متعارضة. لا ينبغي تحديد كلاهما في نفس الوقت في مستند PrintTicket أو مستند قدرات الطباعة. https://docs.microsoft.com/en-us/windows/win32/printdocs/pageinputbin
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PageInputBin(InputBin.IInputBinItem[] items)](#PageInputBin-com.aspose.xps.metadata.InputBin.IInputBinItem...-) | ينشئ نسخة جديدة. |
+| [PageInputBin(InputBin.IInputBinItem[] items)](#PageInputBin-com.aspose.xps.metadata.InputBin.IInputBinItem...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public PageInputBin(InputBin.IInputBinItem[] items)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

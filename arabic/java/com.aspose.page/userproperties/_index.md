@@ -1,7 +1,7 @@
 ---
 title: "UserProperties"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "فئة خاصية خاصة تسمح بتعيين وإرجاع الخصائص ذات النوع المحدد."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "فئة خاصية خاصة تسمح بتعيين وإرجاع الخصائص ذات النوع."
 type: docs
 weight: 18
 url: /ar/java/com.aspose.page/userproperties/
@@ -12,14 +12,14 @@ java.lang.Object, java.util.Dictionary, java.util.Hashtable, java.util.Propertie
 public class UserProperties extends Properties
 ```
 
-فئة خاصية خاصة تسمح بتعيين وإرجاع الخصائص ذات النوع المحدد. كما تسمح بربط كائنين خاصيين افتراضيين للبحث إذا لم يحتوي كائن الخاصية هذا على الخاصية.
-## المنشئات
+فئة خاصية خاصة تسمح بتعيين وإرجاع الخصائص ذات النوع المحدد. كما تسمح بربط كائنين خاصية افتراضيين للبحث إذا لم يحتوي كائن الخاصية هذا على الخاصية.
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [UserProperties()](#UserProperties--) | يُهيئ نسخة فارغة من فئة UserProperties. |
 | [UserProperties(Properties defaults)](#UserProperties-java.util.Properties-) | يُهيئ فئة UserProperties بقيم افتراضية. |
-| [UserProperties(Properties defaults, Properties altDefaults)](#UserProperties-java.util.Properties-java.util.Properties-) | يبني UserProperties بجدولي defaults و altDefaults، اللذين يتم البحث فيهما بهذا الترتيب. |
+| [UserProperties(Properties defaults, Properties altDefaults)](#UserProperties-java.util.Properties-java.util.Properties-) | يبني UserProperties بجدول defaults و altDefaults، يتم البحث فيهما بهذا الترتيب. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -46,28 +46,28 @@ public class UserProperties extends Properties
 | [getOrDefault(Object arg0, Object arg1)](#getOrDefault-java.lang.Object-java.lang.Object-) |  |
 | [getProperty(String key)](#getProperty-java.lang.String-) | يحصل على قيمة الخاصية النصية. |
 | [getProperty(String key, String def)](#getProperty-java.lang.String-java.lang.String-) | يحصل على قيمة الخاصية النصية. |
-| [getPropertyColor(String key)](#getPropertyColor-java.lang.String-) | يحصل على قيمة خاصية اللون. |
-| [getPropertyColor(String key, Color def)](#getPropertyColor-java.lang.String-java.awt.Color-) | يحصل على قيمة خاصية اللون. |
-| [getPropertyDimension(String key)](#getPropertyDimension-java.lang.String-) | يحصل على قيمة خاصية البُعد. |
-| [getPropertyDimension(String key, Dimension def)](#getPropertyDimension-java.lang.String-java.awt.Dimension-) | يحصل على قيمة خاصية البُعد. |
-| [getPropertyDouble(String key)](#getPropertyDouble-java.lang.String-) | يحصل على قيمة خاصية double. |
-| [getPropertyDouble(String key, double def)](#getPropertyDouble-java.lang.String-double-) | يحصل على قيمة خاصية double. |
-| [getPropertyFloat(String key)](#getPropertyFloat-java.lang.String-) | يحصل على قيمة خاصية float. |
-| [getPropertyFloat(String key, float def)](#getPropertyFloat-java.lang.String-float-) | يحصل على قيمة خاصية float. |
-| [getPropertyInsets(String key)](#getPropertyInsets-java.lang.String-) | يحصل على قيمة خاصية insets. |
-| [getPropertyInsets(String key, Insets def)](#getPropertyInsets-java.lang.String-java.awt.Insets-) | يحصل على قيمة خاصية insets. |
-| [getPropertyInt(String key)](#getPropertyInt-java.lang.String-) | يحصل على قيمة خاصية integer. |
-| [getPropertyInt(String key, int def)](#getPropertyInt-java.lang.String-int-) | يحصل على قيمة خاصية integer. |
-| [getPropertyMatrix(String key)](#getPropertyMatrix-java.lang.String-) | يحصل على قيمة خاصية float. |
-| [getPropertyMatrix(String key, AffineTransform def)](#getPropertyMatrix-java.lang.String-java.awt.geom.AffineTransform-) | يحصل على قيمة خاصية float. |
-| [getPropertyRectangle(String key)](#getPropertyRectangle-java.lang.String-) | يحصل على قيمة خاصية rectangle. |
-| [getPropertyRectangle(String key, Rectangle def)](#getPropertyRectangle-java.lang.String-java.awt.Rectangle-) | يحصل على قيمة خاصية rectangle. |
-| [getPropertyStringArray(String key)](#getPropertyStringArray-java.lang.String-) | يحصل على قيمة خاصية مصفوفة السلاسل. |
-| [getPropertyStringArray(String key, String[] def)](#getPropertyStringArray-java.lang.String-java.lang.String---) | يحصل على قيمة خاصية مصفوفة السلاسل. |
+| [getPropertyColor(String key)](#getPropertyColor-java.lang.String-) | يحصل على قيمة الخاصية color. |
+| [getPropertyColor(String key, Color def)](#getPropertyColor-java.lang.String-java.awt.Color-) | يحصل على قيمة الخاصية color. |
+| [getPropertyDimension(String key)](#getPropertyDimension-java.lang.String-) | يحصل على قيمة الخاصية dimension. |
+| [getPropertyDimension(String key, Dimension def)](#getPropertyDimension-java.lang.String-java.awt.Dimension-) | يحصل على قيمة الخاصية dimension. |
+| [getPropertyDouble(String key)](#getPropertyDouble-java.lang.String-) | يحصل على قيمة الخاصية double. |
+| [getPropertyDouble(String key, double def)](#getPropertyDouble-java.lang.String-double-) | يحصل على قيمة الخاصية double. |
+| [getPropertyFloat(String key)](#getPropertyFloat-java.lang.String-) | يحصل على قيمة الخاصية float. |
+| [getPropertyFloat(String key, float def)](#getPropertyFloat-java.lang.String-float-) | يحصل على قيمة الخاصية float. |
+| [getPropertyInsets(String key)](#getPropertyInsets-java.lang.String-) | يحصل على قيمة الخاصية insets. |
+| [getPropertyInsets(String key, Insets def)](#getPropertyInsets-java.lang.String-java.awt.Insets-) | يحصل على قيمة الخاصية insets. |
+| [getPropertyInt(String key)](#getPropertyInt-java.lang.String-) | يحصل على قيمة الخاصية integer. |
+| [getPropertyInt(String key, int def)](#getPropertyInt-java.lang.String-int-) | يحصل على قيمة الخاصية integer. |
+| [getPropertyMatrix(String key)](#getPropertyMatrix-java.lang.String-) | يحصل على قيمة الخاصية float. |
+| [getPropertyMatrix(String key, AffineTransform def)](#getPropertyMatrix-java.lang.String-java.awt.geom.AffineTransform-) | يحصل على قيمة الخاصية float. |
+| [getPropertyRectangle(String key)](#getPropertyRectangle-java.lang.String-) | يحصل على قيمة الخاصية rectangle. |
+| [getPropertyRectangle(String key, Rectangle def)](#getPropertyRectangle-java.lang.String-java.awt.Rectangle-) | يحصل على قيمة الخاصية rectangle. |
+| [getPropertyStringArray(String key)](#getPropertyStringArray-java.lang.String-) | يحصل على قيمة الخاصية string array. |
+| [getPropertyStringArray(String key, String[] def)](#getPropertyStringArray-java.lang.String-java.lang.String---) | يحصل على قيمة الخاصية string array. |
 | [hashCode()](#hashCode--) |  |
 | [isEmpty()](#isEmpty--) |  |
-| [isProperty(String key)](#isProperty-java.lang.String-) | يحصل على قيمة خاصية boolean. |
-| [isProperty(String key, boolean def)](#isProperty-java.lang.String-boolean-) | يحصل على قيمة خاصية boolean. |
+| [isProperty(String key)](#isProperty-java.lang.String-) | يحصل على قيمة الخاصية boolean. |
+| [isProperty(String key, boolean def)](#isProperty-java.lang.String-boolean-) | يحصل على قيمة الخاصية boolean. |
 | [keySet()](#keySet--) |  |
 | [keys()](#keys--) |  |
 | [list(PrintStream arg0)](#list-java.io.PrintStream-) |  |
@@ -96,24 +96,24 @@ public class UserProperties extends Properties
 | [replaceAll(BiFunction<? super K,? super V,? extends V> arg0)](#replaceAll-java.util.function.BiFunction---super-K---super-V---extends-V--) |  |
 | [replaceAll(BiFunction<? super Object,? super Object,?> arg0)](#replaceAll-java.util.function.BiFunction---super-java.lang.Object---super-java.lang.Object----) |  |
 | [save(OutputStream arg0, String arg1)](#save-java.io.OutputStream-java.lang.String-) |  |
-| [setProperties(Properties properties)](#setProperties-java.util.Properties-) | ينسخ الخصائص، بما في ذلك القيم الافتراضية، إلى هذا UserProperties. |
-| [setProperty(String key, boolean value)](#setProperty-java.lang.String-boolean-) | يضبط قيمة خاصية boolean. |
-| [setProperty(String key, double value)](#setProperty-java.lang.String-double-) | يضبط قيمة خاصية double. |
-| [setProperty(String key, float value)](#setProperty-java.lang.String-float-) | يضبط قيمة خاصية float. |
-| [setProperty(String key, int value)](#setProperty-java.lang.String-int-) | يضبط قيمة خاصية integer. |
-| [setProperty(String key, Color value)](#setProperty-java.lang.String-java.awt.Color-) | يضبط قيمة خاصية اللون. |
-| [setProperty(String key, Dimension value)](#setProperty-java.lang.String-java.awt.Dimension-) | يضبط قيمة خاصية البُعد. |
-| [setProperty(String key, Insets value)](#setProperty-java.lang.String-java.awt.Insets-) | يضبط قيمة خاصية insets. |
-| [setProperty(String key, Rectangle value)](#setProperty-java.lang.String-java.awt.Rectangle-) | يضبط قيمة خاصية rectangle. |
-| [setProperty(String key, AffineTransform value)](#setProperty-java.lang.String-java.awt.geom.AffineTransform-) | يضبط قيمة خاصية matrix. |
-| [setProperty(String key, String value)](#setProperty-java.lang.String-java.lang.String-) | يضبط قيمة خاصية السلسلة. |
-| [setProperty(String key, String[] value)](#setProperty-java.lang.String-java.lang.String---) | يضبط قيمة خاصية مصفوفة السلاسل. |
-| [setProperty(Properties properties, String key, boolean value)](#setProperty-java.util.Properties-java.lang.String-boolean-) | يضبط قيمة خاصية boolean في جدول الخصائص المحدد. |
-| [setProperty(Properties properties, String key, double value)](#setProperty-java.util.Properties-java.lang.String-double-) | يضبط قيمة خاصية double في جدول الخصائص المحدد. |
+| [setProperties(Properties properties)](#setProperties-java.util.Properties-) | ينسخ الخصائص، بما في ذلك القيم الافتراضية، إلى هذا UserProperties |
+| [setProperty(String key, boolean value)](#setProperty-java.lang.String-boolean-) | يضبط قيمة الخاصية boolean. |
+| [setProperty(String key, double value)](#setProperty-java.lang.String-double-) | يضبط قيمة الخاصية double. |
+| [setProperty(String key, float value)](#setProperty-java.lang.String-float-) | يضبط قيمة الخاصية float. |
+| [setProperty(String key, int value)](#setProperty-java.lang.String-int-) | يضبط قيمة الخاصية integer. |
+| [setProperty(String key, Color value)](#setProperty-java.lang.String-java.awt.Color-) | يضبط قيمة الخاصية color. |
+| [setProperty(String key, Dimension value)](#setProperty-java.lang.String-java.awt.Dimension-) | يضبط قيمة الخاصية dimension. |
+| [setProperty(String key, Insets value)](#setProperty-java.lang.String-java.awt.Insets-) | يضبط قيمة الخاصية insets. |
+| [setProperty(String key, Rectangle value)](#setProperty-java.lang.String-java.awt.Rectangle-) | يضبط قيمة الخاصية rectangle. |
+| [setProperty(String key, AffineTransform value)](#setProperty-java.lang.String-java.awt.geom.AffineTransform-) | يضبط قيمة الخاصية matrix. |
+| [setProperty(String key, String value)](#setProperty-java.lang.String-java.lang.String-) | يضبط قيمة الخاصية string. |
+| [setProperty(String key, String[] value)](#setProperty-java.lang.String-java.lang.String---) | يضبط قيمة الخاصية string array. |
+| [setProperty(Properties properties, String key, boolean value)](#setProperty-java.util.Properties-java.lang.String-boolean-) | يضبط قيمة الخاصية boolean في جدول الخصائص المحدد. |
+| [setProperty(Properties properties, String key, double value)](#setProperty-java.util.Properties-java.lang.String-double-) | يضبط قيمة الخاصية double في جدول الخصائص المحدد. |
 | [setProperty(Properties properties, String key, float value)](#setProperty-java.util.Properties-java.lang.String-float-) | يضبط قيمة خاصية float في جدول الخصائص المحدد. |
 | [setProperty(Properties properties, String key, int value)](#setProperty-java.util.Properties-java.lang.String-int-) | يضبط قيمة خاصية integer في جدول الخصائص المحدد. |
 | [setProperty(Properties properties, String key, Color value)](#setProperty-java.util.Properties-java.lang.String-java.awt.Color-) | يضبط قيمة خاصية اللون في جدول الخصائص المحدد. |
-| [setProperty(Properties properties, String key, Dimension value)](#setProperty-java.util.Properties-java.lang.String-java.awt.Dimension-) | يضبط قيمة خاصية البُعد في جدول الخصائص المحدد. |
+| [setProperty(Properties properties, String key, Dimension value)](#setProperty-java.util.Properties-java.lang.String-java.awt.Dimension-) | يضبط قيمة خاصية الأبعاد في جدول الخصائص المحدد. |
 | [setProperty(Properties properties, String key, Insets value)](#setProperty-java.util.Properties-java.lang.String-java.awt.Insets-) | يضبط قيمة خاصية الهوامش الداخلية في جدول الخصائص المحدد. |
 | [setProperty(Properties properties, String key, Rectangle value)](#setProperty-java.util.Properties-java.lang.String-java.awt.Rectangle-) | يضبط قيمة خاصية المستطيل في جدول الخصائص المحدد. |
 | [setProperty(Properties properties, String key, AffineTransform value)](#setProperty-java.util.Properties-java.lang.String-java.awt.geom.AffineTransform-) | يضبط قيمة خاصية المصفوفة في جدول الخصائص المحدد. |
@@ -157,7 +157,7 @@ public UserProperties(Properties defaults, Properties altDefaults)
 ```
 
 
-يبني UserProperties بجدولي defaults و altDefaults، اللذين يتم البحث فيهما بهذا الترتيب.
+يبني UserProperties بجدول defaults و altDefaults، يتم البحث فيهما بهذا الترتيب.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -293,7 +293,7 @@ public boolean contains(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### containsKey(Object arg0) {#containsKey-java.lang.Object-}
 ```
 public boolean containsKey(Object arg0)
@@ -308,7 +308,7 @@ public boolean containsKey(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### containsValue(Object arg0) {#containsValue-java.lang.Object-}
 ```
 public boolean containsValue(Object arg0)
@@ -323,7 +323,7 @@ public boolean containsValue(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### elements() {#elements--}
 ```
 public Enumeration<Object> elements()
@@ -358,7 +358,7 @@ public synchronized boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### forEach(BiConsumer<? super K,? super V> arg0) {#forEach-java.util.function.BiConsumer---super-K---super-V--}
 ```
 public synchronized void forEach(BiConsumer<? super K,? super V> arg0)
@@ -453,7 +453,7 @@ public String getProperty(String key)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 
 **Returns:**
 java.lang.String - قيمة الخاصية.
@@ -463,12 +463,12 @@ public String getProperty(String key, String def)
 ```
 
 
-يحصل على قيمة الخاصية من نوع string. إذا كانت الخاصية المطلوبة غير موجودة، يتم إرجاع القيمة الافتراضية المقدمة.
+يحصل على قيمة خاصية السلسلة. إذا كانت الخاصية المطلوبة غير موجودة، يرجع القيمة الافتراضية المقدمة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 | def | java.lang.String | القيمة الافتراضية للخاصية. |
 
 **Returns:**
@@ -479,12 +479,12 @@ public Color getPropertyColor(String key)
 ```
 
 
-يحصل على قيمة خاصية اللون.
+يحصل على قيمة الخاصية color.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 
 **Returns:**
 java.awt.Color - قيمة الخاصية.
@@ -494,12 +494,12 @@ public Color getPropertyColor(String key, Color def)
 ```
 
 
-يحصل على قيمة الخاصية من نوع color. إذا كانت الخاصية المطلوبة غير موجودة، يتم إرجاع القيمة الافتراضية المقدمة.
+يحصل على قيمة خاصية اللون. إذا كانت الخاصية المطلوبة غير موجودة، يرجع القيمة الافتراضية المقدمة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 | def | java.awt.Color | القيمة الافتراضية للخاصية. |
 
 **Returns:**
@@ -510,12 +510,12 @@ public Dimension getPropertyDimension(String key)
 ```
 
 
-يحصل على قيمة خاصية البُعد.
+يحصل على قيمة الخاصية dimension.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 
 **Returns:**
 java.awt.Dimension - قيمة الخاصية.
@@ -525,12 +525,12 @@ public Dimension getPropertyDimension(String key, Dimension def)
 ```
 
 
-يحصل على قيمة الخاصية من نوع dimension. إذا كانت الخاصية المطلوبة غير موجودة، يتم إرجاع القيمة الافتراضية المقدمة.
+يحصل على قيمة خاصية البُعد. إذا كانت الخاصية المطلوبة غير موجودة، يرجع القيمة الافتراضية المقدمة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 | def | java.awt.Dimension | القيمة الافتراضية للخاصية. |
 
 **Returns:**
@@ -541,12 +541,12 @@ public double getPropertyDouble(String key)
 ```
 
 
-يحصل على قيمة خاصية double.
+يحصل على قيمة الخاصية double.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 
 **Returns:**
 double - قيمة الخاصية.
@@ -556,12 +556,12 @@ public double getPropertyDouble(String key, double def)
 ```
 
 
-يحصل على قيمة الخاصية من نوع double. إذا كانت الخاصية المطلوبة غير موجودة، يتم إرجاع القيمة الافتراضية المقدمة.
+يحصل على قيمة خاصية double. إذا كانت الخاصية المطلوبة غير موجودة، يرجع القيمة الافتراضية المقدمة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 | def | double | القيمة الافتراضية للخاصية. |
 
 **Returns:**
@@ -572,12 +572,12 @@ public float getPropertyFloat(String key)
 ```
 
 
-يحصل على قيمة خاصية float.
+يحصل على قيمة الخاصية float.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 
 **Returns:**
 float - قيمة الخاصية.
@@ -587,12 +587,12 @@ public float getPropertyFloat(String key, float def)
 ```
 
 
-يحصل على قيمة الخاصية من نوع float. إذا كانت الخاصية المطلوبة غير موجودة، يتم إرجاع القيمة الافتراضية المقدمة.
+يحصل على قيمة خاصية float. إذا كانت الخاصية المطلوبة غير موجودة، يرجع القيمة الافتراضية المقدمة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 | def | float | القيمة الافتراضية للخاصية. |
 
 **Returns:**
@@ -603,12 +603,12 @@ public Insets getPropertyInsets(String key)
 ```
 
 
-يحصل على قيمة خاصية insets.
+يحصل على قيمة الخاصية insets.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 
 **Returns:**
 java.awt.Insets - قيمة الخاصية.
@@ -618,12 +618,12 @@ public Insets getPropertyInsets(String key, Insets def)
 ```
 
 
-يحصل على قيمة الخاصية من نوع insets. إذا كانت الخاصية المطلوبة غير موجودة، يتم إرجاع القيمة الافتراضية المقدمة.
+يحصل على قيمة خاصية الهوامش الداخلية. إذا كانت الخاصية المطلوبة غير موجودة، يرجع القيمة الافتراضية المقدمة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 | def | java.awt.Insets | القيمة الافتراضية للخاصية. |
 
 **Returns:**
@@ -634,12 +634,12 @@ public int getPropertyInt(String key)
 ```
 
 
-يحصل على قيمة خاصية integer.
+يحصل على قيمة الخاصية integer.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 
 **Returns:**
 int - قيمة الخاصية.
@@ -649,12 +649,12 @@ public int getPropertyInt(String key, int def)
 ```
 
 
-يحصل على قيمة الخاصية من نوع integer. إذا كانت الخاصية المطلوبة غير موجودة، يتم إرجاع القيمة الافتراضية المقدمة.
+يحصل على قيمة خاصية عدد صحيح. إذا كانت الخاصية المطلوبة غير موجودة، يرجع القيمة الافتراضية المقدمة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 | def | int | القيمة الافتراضية للخاصية. |
 
 **Returns:**
@@ -665,12 +665,12 @@ public AffineTransform getPropertyMatrix(String key)
 ```
 
 
-يحصل على قيمة خاصية float.
+يحصل على قيمة الخاصية float.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 
 **Returns:**
 java.awt.geom.AffineTransform - قيمة الخاصية.
@@ -680,12 +680,12 @@ public AffineTransform getPropertyMatrix(String key, AffineTransform def)
 ```
 
 
-يحصل على قيمة الخاصية من نوع float. إذا كانت الخاصية المطلوبة غير موجودة، يتم إرجاع القيمة الافتراضية المقدمة.
+يحصل على قيمة خاصية float. إذا كانت الخاصية المطلوبة غير موجودة، يرجع القيمة الافتراضية المقدمة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 | def | java.awt.geom.AffineTransform | القيمة الافتراضية للخاصية. |
 
 **Returns:**
@@ -696,12 +696,12 @@ public Rectangle getPropertyRectangle(String key)
 ```
 
 
-يحصل على قيمة خاصية rectangle.
+يحصل على قيمة الخاصية rectangle.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 
 **Returns:**
 java.awt.Rectangle - قيمة الخاصية.
@@ -711,12 +711,12 @@ public Rectangle getPropertyRectangle(String key, Rectangle def)
 ```
 
 
-يحصل على قيمة الخاصية من نوع rectangle. إذا كانت الخاصية المطلوبة غير موجودة، يتم إرجاع القيمة الافتراضية المقدمة.
+يحصل على قيمة خاصية المستطيل. إذا كانت الخاصية المطلوبة غير موجودة، يرجع القيمة الافتراضية المقدمة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 | def | java.awt.Rectangle | القيمة الافتراضية للخاصية. |
 
 **Returns:**
@@ -727,12 +727,12 @@ public String[] getPropertyStringArray(String key)
 ```
 
 
-يحصل على قيمة خاصية مصفوفة السلاسل.
+يحصل على قيمة الخاصية string array.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 
 **Returns:**
 java.lang.String[] - قيمة الخاصية.
@@ -747,7 +747,7 @@ public String[] getPropertyStringArray(String key, String[] def)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 | def | java.lang.String[] | القيمة الافتراضية للخاصية. |
 
 **Returns:**
@@ -771,19 +771,19 @@ public boolean isEmpty()
 
 
 **Returns:**
-boolean
+منطقي
 ### isProperty(String key) {#isProperty-java.lang.String-}
 ```
 public boolean isProperty(String key)
 ```
 
 
-يحصل على قيمة خاصية boolean.
+يحصل على قيمة الخاصية boolean.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 
 **Returns:**
 boolean - قيمة الخاصية.
@@ -798,8 +798,8 @@ public boolean isProperty(String key, boolean def)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
-| def | boolean | القيمة الافتراضية للخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
+| def | منطقي | القيمة الافتراضية للخاصية. |
 
 **Returns:**
 boolean - قيمة الخاصية.
@@ -1076,7 +1076,7 @@ public synchronized boolean remove(Object arg0, Object arg1)
 | arg1 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### replace(K arg0, V arg1) {#replace-K-V-}
 ```
 public synchronized V replace(K arg0, V arg1)
@@ -1109,7 +1109,7 @@ public synchronized boolean replace(K arg0, V arg1, V arg2)
 | arg2 | V |  |
 
 **Returns:**
-boolean
+منطقي
 ### replace(Object arg0, Object arg1) {#replace-java.lang.Object-java.lang.Object-}
 ```
 public synchronized Object replace(Object arg0, Object arg1)
@@ -1142,7 +1142,7 @@ public synchronized boolean replace(Object arg0, Object arg1, Object arg2)
 | arg2 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### replaceAll(BiFunction<? super K,? super V,? extends V> arg0) {#replaceAll-java.util.function.BiFunction---super-K---super-V---extends-V--}
 ```
 public synchronized void replaceAll(BiFunction<? super K,? super V,? extends V> arg0)
@@ -1189,7 +1189,7 @@ public void setProperties(Properties properties)
 ```
 
 
-ينسخ الخصائص، بما في ذلك القيم الافتراضية، إلى هذا UserProperties.
+ينسخ الخصائص، بما في ذلك القيم الافتراضية، إلى هذا UserProperties
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1202,13 +1202,13 @@ public Object setProperty(String key, boolean value)
 ```
 
 
-يضبط قيمة خاصية boolean.
+يضبط قيمة الخاصية boolean.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
-| القيمة | boolean | قيمة الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
+| القيمة | منطقي | قيمة الخاصية. |
 
 **Returns:**
 java.lang.Object - خاصية.
@@ -1218,12 +1218,12 @@ public Object setProperty(String key, double value)
 ```
 
 
-يضبط قيمة خاصية double.
+يضبط قيمة الخاصية double.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 | القيمة | double | قيمة الخاصية. |
 
 **Returns:**
@@ -1234,12 +1234,12 @@ public Object setProperty(String key, float value)
 ```
 
 
-يضبط قيمة خاصية float.
+يضبط قيمة الخاصية float.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 | القيمة | float | قيمة الخاصية. |
 
 **Returns:**
@@ -1250,12 +1250,12 @@ public Object setProperty(String key, int value)
 ```
 
 
-يضبط قيمة خاصية integer.
+يضبط قيمة الخاصية integer.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 | القيمة | int | قيمة الخاصية. |
 
 **Returns:**
@@ -1266,12 +1266,12 @@ public Object setProperty(String key, Color value)
 ```
 
 
-يضبط قيمة خاصية اللون.
+يضبط قيمة الخاصية color.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 | القيمة | java.awt.Color | قيمة الخاصية. |
 
 **Returns:**
@@ -1282,12 +1282,12 @@ public Object setProperty(String key, Dimension value)
 ```
 
 
-يضبط قيمة خاصية البُعد.
+يضبط قيمة الخاصية dimension.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 | القيمة | java.awt.Dimension | قيمة الخاصية. |
 
 **Returns:**
@@ -1298,12 +1298,12 @@ public Object setProperty(String key, Insets value)
 ```
 
 
-يضبط قيمة خاصية insets.
+يضبط قيمة الخاصية insets.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 | القيمة | java.awt.Insets | قيمة الخاصية. |
 
 **Returns:**
@@ -1314,12 +1314,12 @@ public Object setProperty(String key, Rectangle value)
 ```
 
 
-يضبط قيمة خاصية rectangle.
+يضبط قيمة الخاصية rectangle.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 | القيمة | java.awt.Rectangle | قيمة الخاصية. |
 
 **Returns:**
@@ -1330,12 +1330,12 @@ public Object setProperty(String key, AffineTransform value)
 ```
 
 
-يضبط قيمة خاصية matrix.
+يضبط قيمة الخاصية matrix.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 | القيمة | java.awt.geom.AffineTransform | قيمة الخاصية. |
 
 **Returns:**
@@ -1346,12 +1346,12 @@ public Object setProperty(String key, String value)
 ```
 
 
-يضبط قيمة خاصية السلسلة.
+يضبط قيمة الخاصية string.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 | القيمة | java.lang.String | قيمة الخاصية. |
 
 **Returns:**
@@ -1362,12 +1362,12 @@ public Object setProperty(String key, String[] value)
 ```
 
 
-يضبط قيمة خاصية مصفوفة السلاسل.
+يضبط قيمة الخاصية string array.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 | القيمة | java.lang.String[] | قيمة الخاصية. |
 
 **Returns:**
@@ -1378,14 +1378,14 @@ public static Object setProperty(Properties properties, String key, boolean valu
 ```
 
 
-يضبط قيمة خاصية boolean في جدول الخصائص المحدد.
+يضبط قيمة الخاصية boolean في جدول الخصائص المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | الخصائص | java.util.Properties | جدول الخصائص. |
-| key | java.lang.String | اسم الخاصية. |
-| القيمة | boolean | قيمة الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
+| القيمة | منطقي | قيمة الخاصية. |
 
 **Returns:**
 java.lang.Object - خاصية.
@@ -1395,13 +1395,13 @@ public static Object setProperty(Properties properties, String key, double value
 ```
 
 
-يضبط قيمة خاصية double في جدول الخصائص المحدد.
+يضبط قيمة الخاصية double في جدول الخصائص المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | الخصائص | java.util.Properties | جدول الخصائص. |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 | القيمة | double | قيمة الخاصية. |
 
 **Returns:**
@@ -1418,7 +1418,7 @@ public static Object setProperty(Properties properties, String key, float value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | الخصائص | java.util.Properties | جدول الخصائص. |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 | القيمة | float | قيمة الخاصية. |
 
 **Returns:**
@@ -1435,7 +1435,7 @@ public static Object setProperty(Properties properties, String key, int value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | الخصائص | java.util.Properties | جدول الخصائص. |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 | القيمة | int | قيمة الخاصية. |
 
 **Returns:**
@@ -1452,7 +1452,7 @@ public static Object setProperty(Properties properties, String key, Color value)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | الخصائص | java.util.Properties | جدول الخصائص. |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 | القيمة | java.awt.Color | قيمة الخاصية. |
 
 **Returns:**
@@ -1463,13 +1463,13 @@ public static Object setProperty(Properties properties, String key, Dimension va
 ```
 
 
-يضبط قيمة خاصية البُعد في جدول الخصائص المحدد.
+يضبط قيمة خاصية الأبعاد في جدول الخصائص المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | الخصائص | java.util.Properties | جدول الخصائص. |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 | القيمة | java.awt.Dimension | قيمة الخاصية. |
 
 **Returns:**
@@ -1486,7 +1486,7 @@ public static Object setProperty(Properties properties, String key, Insets value
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | الخصائص | java.util.Properties | جدول الخصائص. |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 | القيمة | java.awt.Insets | قيمة الخاصية. |
 
 **Returns:**
@@ -1503,7 +1503,7 @@ public static Object setProperty(Properties properties, String key, Rectangle va
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | الخصائص | java.util.Properties | جدول الخصائص. |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 | القيمة | java.awt.Rectangle | قيمة الخاصية. |
 
 **Returns:**
@@ -1520,7 +1520,7 @@ public static Object setProperty(Properties properties, String key, AffineTransf
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | الخصائص | java.util.Properties | جدول الخصائص. |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 | القيمة | java.awt.geom.AffineTransform | قيمة الخاصية. |
 
 **Returns:**
@@ -1537,7 +1537,7 @@ public static Object setProperty(Properties properties, String key, String[] val
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | الخصائص | java.util.Properties | جدول الخصائص. |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 | القيمة | java.lang.String[] | قيمة الخاصية. |
 
 **Returns:**

@@ -1,7 +1,7 @@
 ---
 title: "XpsPathPolySegment"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "فئة تُجَمِّع الميزات المشتركة لعناصر PolyLineSegment وPolyBzierSegment وPolyQuadraticBzierSegment."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "فئة تُجَمِّع الميزات المشتركة لعناصر PolyLineSegment و PolyBzierSegment و PolyQuadraticBzierSegment."
 type: docs
 weight: 43
 url: /ar/java/com.aspose.xps/xpspathpolysegment/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject), [c
 public abstract class XpsPathPolySegment extends XpsPathSegment
 ```
 
-الفئة التي تُجمل الميزات المشتركة لعناصر PolyLineSegment و PolyBezierSegment و PolyQuadraticBezierSegment.
+فئة تغلف الميزات المشتركة لعناصر PolyLineSegment و PolyBezierSegment و PolyQuadraticBezierSegment.
 ## الطرق
 
 | طريقة | الوصف |
@@ -42,7 +42,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -100,7 +100,7 @@ public void setStroked(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة التي تحدد ما إذا كان الحد لهذا الجزء من المسار مرسومًا. |
+| القيمة | منطقي | القيمة التي تحدد ما إذا كان الحد لهذا الجزء من المسار مرسومًا. |
 
 ### toString() {#toString--}
 ```

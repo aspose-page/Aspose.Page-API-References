@@ -1,7 +1,7 @@
 ---
 title: "DimensionF"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "فئة Dimension تُجسّد العرض والارتفاع لمكوّن بدقة مفردة في كائن واحد."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "فئة Dimension تُغلف العرض والارتفاع لمكوّن بدقة مفردة في كائن واحد."
 type: docs
 weight: 11
 url: /ar/java/com.aspose.page/dimensionf/
@@ -15,15 +15,15 @@ java.io.Serializable
 public class DimensionF extends Dimension2D implements Serializable
 ```
 
-الفئة `Dimension` تُغلف عرض وارتفاع مكوّن (بدقة مفردة) في كائن واحد.
+الفئة `Dimension` تغلف عرض وارتفاع مكوّن (بدقة مفردة) في كائن واحد.
 
-عادةً ما تكون قيم `width` و `height` أعدادًا صحيحة غير سالبة. لا تمنع المُنشئات التي تسمح لك بإنشاء بُعد من ضبط قيمة سالبة لهذه الخصائص. إذا كانت قيمة `width` أو `height` سالبة، فإن سلوك بعض الطرق المعرفة بواسطة كائنات أخرى غير محدد.
-## المنشئات
+عادةً ما تكون قيم `width` و `height` أعدادًا صحيحة غير سالبة. لا تمنع المُنشئات التي تسمح لك بإنشاء بُعد من تعيين قيمة سالبة لهذه الخصائص. إذا كانت قيمة `width` أو `height` سالبة، فإن سلوك بعض الطرق المعرفة بواسطة كائنات أخرى غير محدد.
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [DimensionF()](#DimensionF--) | ينشئ نسخة من `Dimension` بعرض صفر وارتفاع صفر. |
-| [DimensionF(DimensionF d)](#DimensionF-com.aspose.page.DimensionF-) | ينشئ نسخة من `Dimension` يكون عرضها وارتفاعها مماثلين للبُعد المحدد. |
+| [DimensionF(DimensionF d)](#DimensionF-com.aspose.page.DimensionF-) | ينشئ نسخة من `Dimension` يكون عرضها وارتفاعها نفس القيم للبعد المحدد. |
 | [DimensionF(float width, float height)](#DimensionF-float-float-) | يبني كائن `Dimension` ويُهيئه بالعرض المحدد والارتفاع المحدد. |
 ## الحقول
 
@@ -36,12 +36,12 @@ public class DimensionF extends Dimension2D implements Serializable
 | طريقة | الوصف |
 | --- | --- |
 | [clone()](#clone--) |  |
-| [equals(Object obj)](#equals-java.lang.Object-) | يتحقق مما إذا كان كائنان من النوع dimension لهما قيم متساوية. |
+| [equals(Object obj)](#equals-java.lang.Object-) | يتحقق مما إذا كان كائنان من النوع Dimension لهما قيم متساوية. |
 | [getClass()](#getClass--) |  |
 | [getHeight()](#getHeight--) | \{@inheritDoc\} |
 | [getSize()](#getSize--) | يحصل على حجم كائن `Dimension` هذا. |
 | [getWidth()](#getWidth--) | \{@inheritDoc\} |
-| [hashCode()](#hashCode--) | يرجع قيمة التجزئة (hash code) لهذا `Dimension`. |
+| [hashCode()](#hashCode--) | يرجع رمز التجزئة لهذا `Dimension`. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setSize(DimensionF d)](#setSize-com.aspose.page.DimensionF-) | يضبط حجم كائن `Dimension` هذا إلى الحجم المحدد. |
@@ -66,7 +66,7 @@ public DimensionF(DimensionF d)
 ```
 
 
-ينشئ نسخة من `Dimension` يكون عرضها وارتفاعها مماثلين للبُعد المحدد.
+ينشئ نسخة من `Dimension` يكون عرضها وارتفاعها نفس القيم للبعد المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -85,7 +85,7 @@ public DimensionF(float width, float height)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | width | float | العرض المحدد |
-| الارتفاع | float | الارتفاع المحدد |
+| height | float | الارتفاع المحدد |
 
 ### height {#height}
 ```
@@ -119,15 +119,15 @@ public boolean equals(Object obj)
 ```
 
 
-يتحقق مما إذا كان كائنان من النوع dimension لهما قيم متساوية.
+يتحقق مما إذا كان كائنان من النوع Dimension لهما قيم متساوية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| obj | java.lang.Object |  |
+| كائن | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -174,10 +174,10 @@ public int hashCode()
 ```
 
 
-يرجع قيمة التجزئة (hash code) لهذا `Dimension`.
+يرجع رمز التجزئة لهذا `Dimension`.
 
 **Returns:**
-int - رمز تجزئة لهذا الكائن `Dimension`
+int - رمز تجزئة لهذا `Dimension`
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -213,13 +213,13 @@ public void setSize(double width, double height)
 ```
 
 
-يضبط حجم هذا الكائن `Dimension` إلى العرض والارتفاع المحددين بدقة مزدوجة. لاحظ أنه إذا كان `width` أو `height` أكبر من `Integer.MAX_VALUE`، فسيتم إعادة ضبطهما إلى `Integer.MAX_VALUE`.
+يضبط حجم هذا الكائن `Dimension` إلى العرض والارتفاع المحددين بدقة مزدوجة. لاحظ أنه إذا كان `width` أو `height` أكبر من `Integer.MAX_VALUE`، فسيتم إعادة تعيينهما إلى `Integer.MAX_VALUE`.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | width | double | العرض الجديد للكائن `Dimension` |
-| الارتفاع | double | الارتفاع الجديد للكائن `Dimension` |
+| height | double | الارتفاع الجديد للكائن `Dimension` |
 
 ### setSize(float width, float height) {#setSize-float-float-}
 ```
@@ -233,7 +233,7 @@ public void setSize(float width, float height)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | width | float | العرض الجديد لهذا الكائن `Dimension` |
-| الارتفاع | float | الارتفاع الجديد لهذا الكائن `Dimension` |
+| height | float | الارتفاع الجديد لهذا الكائن `Dimension` |
 
 ### setSize(Dimension2D arg0) {#setSize-java.awt.geom.Dimension2D-}
 ```
@@ -254,7 +254,7 @@ public String toString()
 ```
 
 
-يرجع تمثيلًا نصيًا لقيم حقول `height` و `width` لهذا الكائن `Dimension`. تم تصميم هذه الطريقة للاستخدام فقط لأغراض التصحيح، وقد يختلف محتوى وتنسيق النص المرجع بين التطبيقات. قد يكون النص المرجع فارغًا لكنه لا يمكن أن يكون `null`.
+يرجع تمثيلًا نصيًا لقيم حقول `height` و `width` لهذا الكائن `Dimension`. تم تصميم هذه الطريقة للاستخدام فقط لأغراض التصحيح، وقد يختلف المحتوى وتنسيق السلسلة المرتجعة بين التطبيقات. قد تكون السلسلة المرتجعة فارغة ولكن لا يمكن أن تكون `null`.
 
 **Returns:**
 java.lang.String - تمثيل نصي لهذا الكائن `Dimension`

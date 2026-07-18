@@ -1,6 +1,6 @@
 ---
 title: "HatchStyle"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يخزن التسميات لأنماط التظليل المستخدمة في .NET"
 type: docs
 weight: 19
@@ -486,7 +486,7 @@ public final boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

@@ -1,6 +1,6 @@
 ---
 title: "CompositePrintTicketElement"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "الفئة الأساسية للفئات التي قد تكون عناصر مخطط طباعة مركبة، أي تحتوي على عناصر أخرى."
 type: docs
 weight: 11
@@ -12,13 +12,13 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public abstract class CompositePrintTicketElement extends PrintTicketElement
 ```
 
-الفئة الأساسية للفئات التي قد تكون عناصر مركبة في مخطط الطباعة (أي تحتوي على عناصر أخرى).
-## المنشئات
+الفئة الأساسية للفئات التي قد تكون عناصر مركبة في مخطط الطباعة (Print Schema) (أي تحتوي على عناصر أخرى).
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [CompositePrintTicketElement(String name, IPrintTicketElementChild[] items)](#CompositePrintTicketElement-java.lang.String-com.aspose.xps.metadata.IPrintTicketElementChild...-) | ينشئ نسخة جديدة. |
-| [CompositePrintTicketElement(CompositePrintTicketElement element)](#CompositePrintTicketElement-com.aspose.xps.metadata.CompositePrintTicketElement-) | ينسخ نسخة من كائن العنصر هذا. |
+| [CompositePrintTicketElement(String name, IPrintTicketElementChild[] items)](#CompositePrintTicketElement-java.lang.String-com.aspose.xps.metadata.IPrintTicketElementChild...-) | ينشئ مثيلًا جديدًا. |
+| [CompositePrintTicketElement(CompositePrintTicketElement element)](#CompositePrintTicketElement-com.aspose.xps.metadata.CompositePrintTicketElement-) | ينسخ هذه الحالة من العنصر. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -39,12 +39,12 @@ public CompositePrintTicketElement(String name, IPrintTicketElementChild[] items
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الاسم | java.lang.String | اسم العنصر وفقًا لبعض مخططات XML (Microsoft Print Schema Framework أو غيره). |
+| الاسم | java.lang.String | اسم العنصر وفقًا لبعض مخططات XML (إطار مخطط طباعة مايكروسوفت أو غيره). |
 | items | [IPrintTicketElementChild\[\]](../../com.aspose.xps.metadata/iprintticketelementchild) | مصفوفة عشوائية من العناصر الفرعية. |
 
 ### CompositePrintTicketElement(CompositePrintTicketElement element) {#CompositePrintTicketElement-com.aspose.xps.metadata.CompositePrintTicketElement-}
@@ -53,12 +53,12 @@ public CompositePrintTicketElement(CompositePrintTicketElement element)
 ```
 
 
-ينسخ نسخة من كائن العنصر هذا.
+ينسخ هذه الحالة من العنصر.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| element | [CompositePrintTicketElement](../../com.aspose.xps.metadata/compositeprintticketelement) | كائن عنصر للنسخ. |
+| element | [CompositePrintTicketElement](../../com.aspose.xps.metadata/compositeprintticketelement) | حالة عنصر للنسخ. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -74,7 +74,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

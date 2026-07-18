@@ -1,7 +1,7 @@
 ---
 title: "XpsPathFigure"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "الفئة التي تُجمل ميزات عنصر PathFigure."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "فئة تغلف ميزات عنصر PathFigure."
 type: docs
 weight: 41
 url: /ar/java/com.aspose.xps/xpspathfigure/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject), co
 public class XpsPathFigure extends XpsArray<XpsPathSegment>
 ```
 
-فئة تُجسِّد ميزات عنصر PathFigure. يتكون هذا العنصر من مجموعة من مقطع خط أو منحنى واحد أو أكثر.
+فئة تُجَمِّع ميزات عنصر PathFigure. يتكون هذا العنصر من مجموعة من مقطع واحد أو أكثر من الخط أو المنحنى.
 ## الطرق
 
 | طريقة | الوصف |
@@ -20,20 +20,20 @@ public class XpsPathFigure extends XpsArray<XpsPathSegment>
 | [add(T obj)](#add-T-) | يضيف كائنًا جديدًا إلى المصفوفة. |
 | [deepClone()](#deepClone--) | ينسخ هذا الشكل PathFigure. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int i)](#get-int-) | يوفر الوصول إلى عنصر المصفوفة بواسطة الفهرس i. |
+| [get(int i)](#get-int-) | يوفر الوصول إلى عنصر المصفوفة عبر الفهرس i. |
 | [getClass()](#getClass--) |  |
 | [getSegments()](#getSegments--) | إرجاع قائمة مقاطع المسار الفرعية. |
 | [getStartPoint()](#getStartPoint--) | يرجع نقطة البداية للمقطع الأول من الشكل PathFigure. |
 | [hashCode()](#hashCode--) |  |
 | [insert(int index, T obj)](#insert-int-T-) | يدرج كائنًا جديدًا في المصفوفة في الموضع المحدد. |
 | [isClosed()](#isClosed--) | يرجع القيمة التي تشير إلى ما إذا كان الشكل PathFigure مغلقًا. |
-| [isFilled()](#isFilled--) | يرجع القيمة التي تشير إلى ما إذا كان الشكل PathFigure يُستخدم في حساب مساحة هندسة المسار المحتوية. |
+| [isFilled()](#isFilled--) | يرجع القيمة التي تشير إلى ما إذا كان الشكل PathFigure يُستخدم في حساب مساحة الهندسة المسار المحتوية. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [remove(T obj)](#remove-T-) | يزيل كائنًا من المصفوفة. |
 | [removeAt(int index)](#removeAt-int-) | يزيل كائنًا من المصفوفة في الموضع المحدد. |
 | [setClosed(boolean value)](#setClosed-boolean-) | يضبط القيمة التي تشير إلى ما إذا كان الشكل PathFigure مغلقًا. |
-| [setFilled(boolean value)](#setFilled-boolean-) | يضبط القيمة التي تشير إلى ما إذا كان الشكل PathFigure يُستخدم في حساب مساحة هندسة المسار المحتوية. |
+| [setFilled(boolean value)](#setFilled-boolean-) | يضبط القيمة التي تشير إلى ما إذا كان الشكل PathFigure يُستخدم في حساب مساحة الهندسة المسار المحتوية. |
 | [setStartPoint(Point2D value)](#setStartPoint-java.awt.geom.Point2D-) | يضبط نقطة البداية للمقطع الأول من الشكل PathFigure. |
 | [size()](#size--) | يرجع عدد العناصر. |
 | [toString()](#toString--) |  |
@@ -51,7 +51,7 @@ public T add(T obj)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| obj | T | الكائن المراد إضافته. |
+| كائن | T | الكائن المراد إضافته. |
 
 **Returns:**
 T - الكائن المضاف.
@@ -79,14 +79,14 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### get(int i) {#get-int-}
 ```
 public T get(int i)
 ```
 
 
-يوفر الوصول إلى عنصر المصفوفة بواسطة الفهرس i.
+يوفر الوصول إلى عنصر المصفوفة عبر الفهرس i.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -146,11 +146,11 @@ public T insert(int index, T obj)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| فهرس | int | الموضع لإدراج كائن فيه. |
-| obj | T | الكائن المراد إدراجه. |
+| فهرس | int | الموضع الذي يُدرج فيه الكائن. |
+| كائن | T | الكائن المراد إدراجه. |
 
 **Returns:**
-T - الكائن المدخل.
+T - الكائن المُدرج.
 ### isClosed() {#isClosed--}
 ```
 public boolean isClosed()
@@ -167,10 +167,10 @@ public boolean isFilled()
 ```
 
 
-يرجع القيمة التي تشير إلى ما إذا كان الشكل PathFigure يُستخدم في حساب مساحة هندسة المسار المحتوية.
+يرجع القيمة التي تشير إلى ما إذا كان الشكل PathFigure يُستخدم في حساب مساحة الهندسة المسار المحتوية.
 
 **Returns:**
-boolean - القيمة التي تشير إلى ما إذا كان شكل المسار يُستخدم في حساب مساحة هندسة المسار المحتوية.
+boolean - القيمة التي تشير إلى ما إذا كان شكل المسار يُستخدم في حساب مساحة الهندسة المتضمنة للمسار.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -198,7 +198,7 @@ public T remove(T obj)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| obj | T | الكائن المراد إزالته. |
+| كائن | T | الكائن المراد إزالته. |
 
 **Returns:**
 T - الكائن المُزال.
@@ -228,7 +228,7 @@ public void setClosed(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة التي تشير إلى ما إذا كان شكل المسار مغلقًا. |
+| القيمة | منطقي | القيمة التي تشير إلى ما إذا كان شكل المسار مغلقًا. |
 
 ### setFilled(boolean value) {#setFilled-boolean-}
 ```
@@ -236,12 +236,12 @@ public void setFilled(boolean value)
 ```
 
 
-يضبط القيمة التي تشير إلى ما إذا كان الشكل PathFigure يُستخدم في حساب مساحة هندسة المسار المحتوية.
+يضبط القيمة التي تشير إلى ما إذا كان الشكل PathFigure يُستخدم في حساب مساحة الهندسة المسار المحتوية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة التي تشير إلى ما إذا كان شكل المسار يُستخدم في حساب مساحة هندسة المسار المحتوية. |
+| القيمة | منطقي | القيمة التي تشير إلى ما إذا كان شكل المسار يُستخدم في حساب مساحة الهندسة المتضمنة للمسار. |
 
 ### setStartPoint(Point2D value) {#setStartPoint-java.awt.geom.Point2D-}
 ```
@@ -254,7 +254,7 @@ public void setStartPoint(Point2D value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.awt.geom.Point2D | نقطة البداية للمقطع الأول من شكل المسار. |
+| القيمة | java.awt.geom.Point2D | نقطة البداية للقطعة الأولى من شكل المسار. |
 
 ### size() {#size--}
 ```

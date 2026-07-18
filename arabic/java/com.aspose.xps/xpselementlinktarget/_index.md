@@ -1,7 +1,7 @@
 ---
 title: "XpsElementLinkTarget"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "فئة تُغلف هدف الارتباط التشعبي النسبي المسمى بالعنوان."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "فئة تجسد هدف الارتباط التشعبي ذو الاسم النسبي."
 type: docs
 weight: 21
 url: /ar/java/com.aspose.xps/xpselementlinktarget/
@@ -12,10 +12,10 @@ java.lang.Object, [com.aspose.xps.XpsHyperlinkTarget](../../com.aspose.xps/xpshy
 public final class XpsElementLinkTarget extends XpsHyperlinkTarget
 ```
 
-فئة تُغلف هدف الارتباط التشعبي النسبي المسمى بالعنوان.
-## المنشئات
+فئة تجسد هدف الارتباط التشعبي ذو الاسم النسبي.
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [XpsElementLinkTarget(XpsPage targetPage)](#XpsElementLinkTarget-com.aspose.xps.XpsPage-) | ينشئ المثيل الجديد. |
 | [XpsElementLinkTarget(XpsCanvas targetCanvas)](#XpsElementLinkTarget-com.aspose.xps.XpsCanvas-) | ينشئ المثيل الجديد. |
@@ -100,7 +100,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

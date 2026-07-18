@@ -1,7 +1,7 @@
 ---
 title: "DataType"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يمثل أنواع البيانات الممكنة لمعالجة الملحق."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يمثل الأنواع الممكنة للبيانات لمعالجة الملحق."
 type: docs
 weight: 12
 url: /ar/java/com.aspose.page.plugins/datatype/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class DataType extends System.Enum
 ```
 
-يمثل أنواع البيانات الممكنة لمعالجة الملحق.
+يمثل الأنواع الممكنة للبيانات لمعالجة الملحق.
 ## الحقول
 
 | حقل | الوصف |
@@ -138,7 +138,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### format(System.Type arg0, Object arg1, String arg2) {#format-com.aspose.ms.System.Type-java.lang.Object-java.lang.String-}
 ```
 public static String format(System.Type arg0, Object arg1, String arg2)
@@ -335,7 +335,7 @@ public static boolean isDefined(System.Type arg0, Object arg1)
 | arg1 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### isDefined(System.Type arg0, String arg1) {#isDefined-com.aspose.ms.System.Type-java.lang.String-}
 ```
 public static boolean isDefined(System.Type arg0, String arg1)
@@ -351,7 +351,7 @@ public static boolean isDefined(System.Type arg0, String arg1)
 | arg1 | java.lang.String |  |
 
 **Returns:**
-boolean
+منطقي
 ### isDefined(System.Type arg0, long arg1) {#isDefined-com.aspose.ms.System.Type-long-}
 ```
 public static boolean isDefined(System.Type arg0, long arg1)
@@ -367,7 +367,7 @@ public static boolean isDefined(System.Type arg0, long arg1)
 | arg1 | long |  |
 
 **Returns:**
-boolean
+منطقي
 ### isDefined(Class<?> arg0, long arg1) {#isDefined-java.lang.Class----long-}
 ```
 public static boolean isDefined(Class<?> arg0, long arg1)
@@ -383,7 +383,7 @@ public static boolean isDefined(Class<?> arg0, long arg1)
 | arg1 | long |  |
 
 **Returns:**
-boolean
+منطقي
 ### notify() {#notify--}
 ```
 public final native void notify()

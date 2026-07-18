@@ -1,13 +1,13 @@
 ---
 title: "Size2D.Float"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "تعرف فئة Float الأبعاد المحددة بإحداثيات من نوع float."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "تعرّف فئة Float الأبعاد المحددة بإحداثيات من نوع float."
 type: docs
 weight: 10
 url: /ar/java/com.aspose.xps/size2d.float/
 ---
 **Inheritance:**
-java.lang.Object, java.awt.geom.Dimension2D, [com.aspose.xps.Size2D](../../com.aspose.xps/size2d)
+java.lang.Object، java.awt.geom.Dimension2D، [com.aspose.xps.Size2D](../../com.aspose.xps/size2d)
 
 **All Implemented Interfaces:**
 java.io.Serializable
@@ -15,13 +15,13 @@ java.io.Serializable
 public static class Size2D.Float extends Size2D implements Serializable
 ```
 
-الفئة `Float` تحدد الأبعاد المحددة بإحداثيات عائمة.
-## المنشئات
+فئة `Float` تحدد الأبعاد المحددة بإحداثيات عائمة.
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [Float()](#Float--) | ينشئ مثيل Size2D. |
-| [Float(float width, float height)](#Float-float-float-) | ينشئ مثيل Size2D. |
+| [Float()](#Float--) | ينشئ كائن Size2D. |
+| [Float(float width, float height)](#Float-float-float-) | ينشئ كائن Size2D. |
 ## الحقول
 
 | حقل | الوصف |
@@ -53,7 +53,7 @@ public Float()
 ```
 
 
-ينشئ مثيل Size2D.
+ينشئ كائن Size2D.
 
 ### Float(float width, float height) {#Float-float-float-}
 ```
@@ -61,13 +61,13 @@ public Float(float width, float height)
 ```
 
 
-ينشئ مثيل Size2D.
+ينشئ كائن Size2D.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | width | float | العرض. |
-| الارتفاع | float | الارتفاع. |
+| height | float | الارتفاع. |
 
 ### height {#height}
 ```
@@ -109,7 +109,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

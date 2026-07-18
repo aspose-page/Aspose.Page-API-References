@@ -1,6 +1,6 @@
 ---
 title: "TextDevice"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: 
 type: docs
 weight: 13
@@ -14,9 +14,9 @@ java.lang.Object, [com.aspose.page.Device](../../com.aspose.page/device)
 ```
 public class TextDevice extends Device implements IMultiPageDevice
 ```
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [TextDevice()](#TextDevice--) |  |
 ## الحقول
@@ -41,8 +41,8 @@ public class TextDevice extends Device implements IMultiPageDevice
 | [drawOval(float x, float y, float width, float height)](#drawOval-float-float-float-float-) | يرسم شكلًا بيضاويًا. |
 | [drawPolygon(float[] xPoints, float[] yPoints, int nPoints)](#drawPolygon-float---float---int-) | يرسم مضلعًا. |
 | [drawPolygon(int[] xPoints, int[] yPoints, int nPoints)](#drawPolygon-int---int---int-) | يرسم مضلعًا. |
-| [drawPolyline(float[] xPoints, float[] yPoints, int nPoints)](#drawPolyline-float---float---int-) | يرسم خطًا متعددًا. |
-| [drawPolyline(int[] xPoints, int[] yPoints, int nPoints)](#drawPolyline-int---int---int-) | يرسم خطًا متعددًا. |
+| [drawPolyline(float[] xPoints, float[] yPoints, int nPoints)](#drawPolyline-float---float---int-) | يرسم خطًا متعدد النقاط. |
+| [drawPolyline(int[] xPoints, int[] yPoints, int nPoints)](#drawPolyline-int---int---int-) | يرسم خطًا متعدد النقاط. |
 | [drawRect(float x, float y, float width, float height)](#drawRect-float-float-float-float-) | يرسم مستطيلًا. |
 | [drawRoundRect(float x, float y, float width, float height, float arcWidth, float arcHeight)](#drawRoundRect-float-float-float-float-float-float-) | يرسم مستطيلًا مستديرًا. |
 | [drawString(String str, float x, float y)](#drawString-java.lang.String-float-float-) |  |
@@ -50,7 +50,7 @@ public class TextDevice extends Device implements IMultiPageDevice
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fill(Shape path)](#fill-java.awt.Shape-) | يملأ مسارًا. |
 | [fillArc(float x, float y, float width, float height, float startAngle, float arcAngle)](#fillArc-float-float-float-float-float-float-) | يملأ قوسًا. |
-| [fillOval(float x, float y, float width, float height)](#fillOval-float-float-float-float-) | يملأ شكلًا بيضاويًا. |
+| [fillOval(float x, float y, float width, float height)](#fillOval-float-float-float-float-) | يملأ بيضاويًا. |
 | [fillPolygon(float[] xPoints, float[] yPoints, int nPoints)](#fillPolygon-float---float---int-) | يملأ مضلعًا. |
 | [fillPolygon(int[] xPoints, int[] yPoints, int nPoints)](#fillPolygon-int---int---int-) | يملأ مضلعًا. |
 | [fillRect(float x, float y, float width, float height)](#fillRect-float-float-float-float-) | يملأ مستطيلًا. |
@@ -58,7 +58,7 @@ public class TextDevice extends Device implements IMultiPageDevice
 | [getBackground()](#getBackground--) | يحصل على الخلفية الحالية للصفحة. |
 | [getCharTM()](#getCharTM--) | يحصل على تحويل الأحرف الحالي. |
 | [getClass()](#getClass--) |  |
-| [getCreator()](#getCreator--) | يحصل على منشئ مخرجات الجهاز الناتج. |
+| [getCreator()](#getCreator--) | يحصل على منشئ مخرجات الجهاز الناتجة. |
 | [getCurrentPageNumber()](#getCurrentPageNumber--) |  |
 | [getFont()](#getFont--) | يحصل على الخط الحالي. |
 | [getOpacity()](#getOpacity--) | يحصل على الشفافية الحالية. |
@@ -66,14 +66,14 @@ public class TextDevice extends Device implements IMultiPageDevice
 | [getPages()](#getPages--) |  |
 | [getPaint()](#getPaint--) | يحصل على الطلاء الحالي. |
 | [getProperties()](#getProperties--) | يحصل على خصائص الجهاز بما في ذلك البيانات الوصفية. |
-| [getProperty(String key)](#getProperty-java.lang.String-) | يحصل على قيمة الخاصية النصية. |
-| [getPropertyColor(String key)](#getPropertyColor-java.lang.String-) | يحصل على قيمة الخاصية اللونية. |
-| [getPropertyDouble(String key)](#getPropertyDouble-java.lang.String-) | يحصل على قيمة الخاصية ذات النوع المزدوج. |
-| [getPropertyInt(String key)](#getPropertyInt-java.lang.String-) | يحصل على قيمة الخاصية الصحيحة. |
+| [getProperty(String key)](#getProperty-java.lang.String-) | يحصل على قيمة خاصية سلسلة. |
+| [getPropertyColor(String key)](#getPropertyColor-java.lang.String-) | يحصل على قيمة خاصية لون. |
+| [getPropertyDouble(String key)](#getPropertyDouble-java.lang.String-) | يحصل على قيمة خاصية مزدوجة. |
+| [getPropertyInt(String key)](#getPropertyInt-java.lang.String-) | يحصل على قيمة خاصية عدد صحيح. |
 | [getPropertyMargins(String key)](#getPropertyMargins-java.lang.String-) | يحصل على قيمة خاصية الهوامش. |
-| [getPropertyMatrix(String key)](#getPropertyMatrix-java.lang.String-) | يحصل على قيمة خاصية المصفوفة. |
-| [getPropertyRectangle(String key)](#getPropertyRectangle-java.lang.String-) | يحصل على قيمة خاصية المستطيل. |
-| [getPropertySize(String key)](#getPropertySize-java.lang.String-) | يحصل على قيمة خاصية الحجم. |
+| [getPropertyMatrix(String key)](#getPropertyMatrix-java.lang.String-) | يحصل على قيمة خاصية مصفوفة. |
+| [getPropertyRectangle(String key)](#getPropertyRectangle-java.lang.String-) | يحصل على قيمة خاصية مستطيل. |
+| [getPropertySize(String key)](#getPropertySize-java.lang.String-) | يحصل على قيمة خاصية حجم. |
 | [getSaveOptions()](#getSaveOptions--) | يعيد خيارات الحفظ. |
 | [getSize()](#getSize--) | يحصل على حجم الصفحة. |
 | [getStroke()](#getStroke--) | يحصل على الحد الحالي. |
@@ -114,17 +114,17 @@ public class TextDevice extends Device implements IMultiPageDevice
 | [setTextRenderingMode(TextRenderingMode textRenderingMode)](#setTextRenderingMode-com.aspose.page.TextRenderingMode-) | يحدد وضع عرض النص. |
 | [setTextStrokeWidth(float textStrokeWidth)](#setTextStrokeWidth-float-) | يحدد عرض خط النص. |
 | [setTransform(AffineTransform transform)](#setTransform-java.awt.geom.AffineTransform-) | يحدد التحويل الحالي. |
-| [shear(double shx, double shy)](#shear-double-double-) | يقوم بقص مصفوفة التحويل الحالية. |
+| [shear(double shx, double shy)](#shear-double-double-) | يقوم بعمل قص مائل لمصفوفة التحويل الحالية. |
 | [startDocument()](#startDocument--) |  |
 | [toString()](#toString--) |  |
 | [transform(AffineTransform transform)](#transform-java.awt.geom.AffineTransform-) | يحوّل مصفوفة التحويل الحالية. |
-| [translate(double x, double y)](#translate-double-double-) | ينقل مصفوفة التحويل الحالية. |
+| [translate(double x, double y)](#translate-double-double-) | يُترجم مصفوفة التحويل الحالية. |
 | [updatePageParameters(IMultiPageDevice device)](#updatePageParameters-com.aspose.page.IMultiPageDevice-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
 | [writeComment(String comment)](#writeComment-java.lang.String-) | يكتب تعليقًا. |
-| [writeString(ITrFont font, String str)](#writeString-com.aspose.page.ITrFont-java.lang.String-) | يكتب سلسلة بخط محدد. |
+| [writeString(ITrFont font, String str)](#writeString-com.aspose.page.ITrFont-java.lang.String-) | يكتب سلسلة باستخدام الخط المحدد. |
 | [writeWarning(String warning)](#writeWarning-java.lang.String-) |  |
 ### TextDevice() {#TextDevice--}
 ```
@@ -164,7 +164,7 @@ public void closePage()
 ```
 
 
-يقوم بالتحضير الضروري للجهاز بعد أن تم عرض الصفحة.
+يقوم بالتحضير اللازم للجهاز بعد أن تم عرض الصفحة.
 
 ### create() {#create--}
 ```
@@ -182,7 +182,7 @@ public void dispose()
 ```
 
 
-يتخلص من الجهاز.
+يفرغ الجهاز.
 
 ### draw(Shape path) {#draw-java.awt.Shape-}
 ```
@@ -211,7 +211,7 @@ public void drawArc(float x, float y, float width, float height, float startAngl
 | x | float | الإحداثي X لمركز القوس. |
 | y | float | الإحداثي Y لمركز القوس. |
 | width | float | عرض المستطيل المحيط. |
-| الارتفاع | float | ارتفاع المستطيل المحيط. |
+| height | float | ارتفاع المستطيل المحيط. |
 | startAngle | float | زاوية البداية للقوس. |
 | arcAngle | float | زاوية القوس. |
 
@@ -241,10 +241,10 @@ public void drawLine(float x1, float y1, float x2, float y2)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| x1 | float | الإحداثي X لبداية المقطع. |
-| y1 | float | الإحداثي Y لبداية المقطع. |
-| x2 | float | الإحداثي X لنهاية المقطع. |
-| y2 | float | الإحداثي Y لنهاية المقطع. |
+| x1 | float | الإحداثي X لبداية الجزء. |
+| y1 | float | الإحداثي Y لبداية الجزء. |
+| x2 | float | الإحداثي X لنهاية الجزء. |
+| y2 | float | الإحداثي Y لنهاية الجزء. |
 
 ### drawOval(float x, float y, float width, float height) {#drawOval-float-float-float-float-}
 ```
@@ -260,7 +260,7 @@ public void drawOval(float x, float y, float width, float height)
 | x | float | الإحداثي X لمركز الشكل البيضاوي. |
 | y | float | الإحداثي Y لمركز الشكل البيضاوي. |
 | width | float | عرض المستطيل المحيط. |
-| الارتفاع | float | ارتفاع المستطيل المحيط. |
+| height | float | ارتفاع المستطيل المحيط. |
 
 ### drawPolygon(float[] xPoints, float[] yPoints, int nPoints) {#drawPolygon-float---float---int-}
 ```
@@ -273,7 +273,7 @@ public void drawPolygon(float[] xPoints, float[] yPoints, int nPoints)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| xPoints | float[] | إحداثيات X للنقاط. |
+| xPoints | float[] | الإحداثيات X للنقاط. |
 | yPoints | float[] | الإحداثي Y للنقاط. |
 | nPoints | int | عدد النقاط. |
 
@@ -288,7 +288,7 @@ public void drawPolygon(int[] xPoints, int[] yPoints, int nPoints)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| xPoints | int[] | إحداثيات X للنقاط. |
+| xPoints | int[] | الإحداثيات X للنقاط. |
 | yPoints | int[] | الإحداثي Y للنقاط. |
 | nPoints | int | عدد النقاط. |
 
@@ -298,12 +298,12 @@ public void drawPolyline(float[] xPoints, float[] yPoints, int nPoints)
 ```
 
 
-يرسم خطًا متعددًا.
+يرسم خطًا متعدد النقاط.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| xPoints | float[] | إحداثيات X للنقاط. |
+| xPoints | float[] | الإحداثيات X للنقاط. |
 | yPoints | float[] | الإحداثي Y للنقاط. |
 | nPoints | int | عدد النقاط. |
 
@@ -313,12 +313,12 @@ public void drawPolyline(int[] xPoints, int[] yPoints, int nPoints)
 ```
 
 
-يرسم خطًا متعددًا.
+يرسم خطًا متعدد النقاط.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| xPoints | int[] | إحداثيات X للنقاط. |
+| xPoints | int[] | الإحداثيات X للنقاط. |
 | yPoints | int[] | الإحداثي Y للنقاط. |
 | nPoints | int | عدد النقاط. |
 
@@ -336,7 +336,7 @@ public void drawRect(float x, float y, float width, float height)
 | x | float | الإحداثي X للزاوية العلوية اليسرى للمستطيل. |
 | y | float | الإحداثي Y للزاوية العلوية اليسرى للمستطيل. |
 | width | float | عرض المستطيل. |
-| الارتفاع | float | ارتفاع المستطيل. |
+| height | float | ارتفاع المستطيل. |
 
 ### drawRoundRect(float x, float y, float width, float height, float arcWidth, float arcHeight) {#drawRoundRect-float-float-float-float-float-float-}
 ```
@@ -352,7 +352,7 @@ public void drawRoundRect(float x, float y, float width, float height, float arc
 | x | float | الإحداثي X للزاوية العلوية اليسرى للمستطيل. |
 | y | float | الإحداثي Y للزاوية العلوية اليسرى للمستطيل. |
 | width | float | عرض المستطيل. |
-| الارتفاع | float | ارتفاع المستطيل. |
+| height | float | ارتفاع المستطيل. |
 | arcWidth | float | عرض المستطيل المحيط بالقوس الذي يحد زاوية المستطيل. |
 | arcHeight | float | ارتفاع المستطيل المحيط بالقوس الذي يحد زاوية المستطيل. |
 
@@ -362,7 +362,7 @@ public void drawString(String str, float x, float y)
 ```
 
 
-يرسم سلسلة نصية عند النقطة المحددة.
+يرسم سلسلة في النقطة المحددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -377,7 +377,7 @@ public void endDocument()
 ```
 
 
-يقوم بالتحضير اللازم للجهاز بعد أن تم عرض المستند.
+يقوم بالإعدادات اللازمة للجهاز بعد أن يتم عرض المستند.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -393,7 +393,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### fill(Shape path) {#fill-java.awt.Shape-}
 ```
 public void fill(Shape path)
@@ -421,7 +421,7 @@ public void fillArc(float x, float y, float width, float height, float startAngl
 | x | float | الإحداثي X لمركز القوس. |
 | y | float | الإحداثي Y لمركز القوس. |
 | width | float | عرض المستطيل المحيط. |
-| الارتفاع | float | ارتفاع المستطيل المحيط. |
+| height | float | ارتفاع المستطيل المحيط. |
 | startAngle | float | زاوية البداية للقوس. |
 | arcAngle | float | زاوية القوس. |
 
@@ -431,7 +431,7 @@ public void fillOval(float x, float y, float width, float height)
 ```
 
 
-يملأ شكلًا بيضاويًا.
+يملأ بيضاويًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -439,7 +439,7 @@ public void fillOval(float x, float y, float width, float height)
 | x | float | الإحداثي X لمركز الشكل البيضاوي. |
 | y | float | الإحداثي Y لمركز الشكل البيضاوي. |
 | width | float | عرض المستطيل المحيط. |
-| الارتفاع | float | ارتفاع المستطيل المحيط. |
+| height | float | ارتفاع المستطيل المحيط. |
 
 ### fillPolygon(float[] xPoints, float[] yPoints, int nPoints) {#fillPolygon-float---float---int-}
 ```
@@ -452,7 +452,7 @@ public void fillPolygon(float[] xPoints, float[] yPoints, int nPoints)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| xPoints | float[] | إحداثيات X للنقاط. |
+| xPoints | float[] | الإحداثيات X للنقاط. |
 | yPoints | float[] | الإحداثي Y للنقاط. |
 | nPoints | int | عدد النقاط. |
 
@@ -467,7 +467,7 @@ public void fillPolygon(int[] xPoints, int[] yPoints, int nPoints)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| xPoints | int[] | إحداثيات X للنقاط. |
+| xPoints | int[] | الإحداثيات X للنقاط. |
 | yPoints | int[] | الإحداثي Y للنقاط. |
 | nPoints | int | عدد النقاط. |
 
@@ -485,7 +485,7 @@ public void fillRect(float x, float y, float width, float height)
 | x | float | الإحداثي X للزاوية العلوية اليسرى للمستطيل. |
 | y | float | الإحداثي Y للزاوية العلوية اليسرى للمستطيل. |
 | width | float | عرض المستطيل. |
-| الارتفاع | float | ارتفاع المستطيل. |
+| height | float | ارتفاع المستطيل. |
 
 ### fillRoundRect(float x, float y, float width, float height, float arcWidth, float arcHeight) {#fillRoundRect-float-float-float-float-float-float-}
 ```
@@ -501,7 +501,7 @@ public void fillRoundRect(float x, float y, float width, float height, float arc
 | x | float | الإحداثي X للزاوية العلوية اليسرى للمستطيل. |
 | y | float | الإحداثي Y للزاوية العلوية اليسرى للمستطيل. |
 | width | float | عرض المستطيل. |
-| الارتفاع | float | ارتفاع المستطيل. |
+| height | float | ارتفاع المستطيل. |
 | arcWidth | float | عرض المستطيل المحيط بالقوس الذي يحد زاوية المستطيل. |
 | arcHeight | float | ارتفاع المستطيل المحيط بالقوس الذي يحد زاوية المستطيل. |
 
@@ -541,7 +541,7 @@ public String getCreator()
 ```
 
 
-يحصل على منشئ مخرجات الجهاز الناتج.
+يحصل على منشئ مخرجات الجهاز الناتجة.
 
 **Returns:**
 java.lang.String - قيمة المنشئ.
@@ -621,12 +621,12 @@ public String getProperty(String key)
 ```
 
 
-يحصل على قيمة الخاصية النصية.
+يحصل على قيمة خاصية سلسلة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 
 **Returns:**
 java.lang.String - قيمة الخاصية.
@@ -636,12 +636,12 @@ public Color getPropertyColor(String key)
 ```
 
 
-يحصل على قيمة الخاصية اللونية.
+يحصل على قيمة خاصية لون.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 
 **Returns:**
 java.awt.Color - قيمة الخاصية.
@@ -651,12 +651,12 @@ public double getPropertyDouble(String key)
 ```
 
 
-يحصل على قيمة الخاصية ذات النوع المزدوج.
+يحصل على قيمة خاصية مزدوجة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 
 **Returns:**
 double - قيمة الخاصية.
@@ -666,12 +666,12 @@ public int getPropertyInt(String key)
 ```
 
 
-يحصل على قيمة الخاصية الصحيحة.
+يحصل على قيمة خاصية عدد صحيح.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 
 **Returns:**
 int - قيمة الخاصية.
@@ -686,7 +686,7 @@ public Insets getPropertyMargins(String key)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 
 **Returns:**
 java.awt.Insets - قيمة الخاصية.
@@ -696,12 +696,12 @@ public AffineTransform getPropertyMatrix(String key)
 ```
 
 
-يحصل على قيمة خاصية المصفوفة.
+يحصل على قيمة خاصية مصفوفة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 
 **Returns:**
 java.awt.geom.AffineTransform - قيمة الخاصية.
@@ -711,12 +711,12 @@ public Rectangle getPropertyRectangle(String key)
 ```
 
 
-يحصل على قيمة خاصية المستطيل.
+يحصل على قيمة خاصية مستطيل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 
 **Returns:**
 java.awt.Rectangle - قيمة الخاصية.
@@ -726,12 +726,12 @@ public Dimension getPropertySize(String key)
 ```
 
 
-يحصل على قيمة خاصية الحجم.
+يحصل على قيمة خاصية حجم.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 
 **Returns:**
 java.awt.Dimension - قيمة الخاصية.
@@ -856,7 +856,7 @@ public boolean isDirectRGB()
 يشير إلى ما إذا كان الجهاز يستخدم وضع RGB المباشر، أي RGB.
 
 **Returns:**
-boolean
+منطقي
 ### isMainDocument() {#isMainDocument--}
 ```
 public boolean isMainDocument()
@@ -866,7 +866,7 @@ public boolean isMainDocument()
 
 
 **Returns:**
-boolean
+منطقي
 ### isProperty(String key) {#isProperty-java.lang.String-}
 ```
 public boolean isProperty(String key)
@@ -878,7 +878,7 @@ public boolean isProperty(String key)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| key | java.lang.String | اسم الخاصية. |
+| المفتاح | java.lang.String | اسم الخاصية. |
 
 **Returns:**
 boolean - قيمة الخاصية.
@@ -910,10 +910,10 @@ public boolean openPage(float width, float height)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | width | float |  |
-| الارتفاع | float |  |
+| height | float |  |
 
 **Returns:**
-boolean
+منطقي
 ### openPage(String title) {#openPage-java.lang.String-}
 ```
 public boolean openPage(String title)
@@ -928,14 +928,14 @@ public boolean openPage(String title)
 | العنوان | java.lang.String |  |
 
 **Returns:**
-boolean
+منطقي
 ### renew() {#renew--}
 ```
 public void renew()
 ```
 
 
-إعادة ضبط الجهاز إلى الحالة الأولية لكامل المستند. يُستخدم لإعادة ضبط تدفق الإخراج.
+إعادة ضبط الجهاز إلى الحالة الأولية للمستند بأكمله. يُستخدم لإعادة ضبط تدفق الإخراج.
 
 ### renewForMerge(boolean mainDocument) {#renewForMerge-boolean-}
 ```
@@ -948,7 +948,7 @@ public void renewForMerge(boolean mainDocument)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| المستند الرئيسي | boolean |  |
+| المستند الرئيسي | منطقي |  |
 
 ### reset() {#reset--}
 ```
@@ -969,7 +969,7 @@ public void reset(boolean zeroPageNumbers)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| أصفار أرقام الصفحات | boolean |  |
+| zeroPageNumbers | منطقي |  |
 
 ### rotate(double theta) {#rotate-double-}
 ```
@@ -977,12 +977,12 @@ public void rotate(double theta)
 ```
 
 
-قم بتدوير مصفوفة التحويل الحالية. يستدعي writeTransform(Transform). تدوير بزاوية موجبة theta يدور النقاط على المحور x الموجب نحو المحور y الموجب.
+دوّر مصفوفة التحويل الحالية. يستدعي writeTransform(Transform). تدوير بمقدار زاوية موجبة theta يدور النقاط على المحور x الموجب نحو المحور y الموجب.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| ثيتا | double | زاوية بالراديان لتدويرها. |
+| theta | double | زاوية بالراديان للدوران. |
 
 ### rotate(double theta, double x, double y) {#rotate-double-double-double-}
 ```
@@ -995,7 +995,7 @@ public void rotate(double theta, double x, double y)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| ثيتا | double | زاوية تدوير بالراديان. |
+| theta | double | زاوية دوران بالراديان. |
 | x | double | الإحداثي X للنقطة. |
 | y | double | إحداثي Y للنقطة. |
 
@@ -1005,7 +1005,7 @@ public void scale(double x, double y)
 ```
 
 
-يقوم بتكبير مصفوفة التحويل الحالية. Calls writeTransform(Transform).
+يقوم بتكبير مصفوفة التحويل الحالية. يستدعي writeTransform(Transform).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1024,7 +1024,7 @@ public void setBackground(Color background)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| خلفية | java.awt.Color | خلفية للصفحة. |
+| خلفية | java.awt.Color | خلفية الصفحة. |
 
 ### setCharTM(AffineTransform charTM) {#setCharTM-java.awt.geom.AffineTransform-}
 ```
@@ -1089,7 +1089,7 @@ public void setOpacity(float opacity)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| شفافية | float | شفافية. |
+| الشفافية | float | شفافية. |
 
 ### setOpacityMask(Paint opacityMask) {#setOpacityMask-java.awt.Paint-}
 ```
@@ -1102,7 +1102,7 @@ public void setOpacityMask(Paint opacityMask)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| opacityMask | java.awt.Paint | قناع شفافية. |
+| قناع الشفافية | java.awt.Paint | قناع شفافية. |
 
 ### setPaint(Paint paint) {#setPaint-java.awt.Paint-}
 ```
@@ -1167,7 +1167,7 @@ public void setStroke(Stroke stroke)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| stroke | java.awt.Stroke | خط. |
+| stroke | java.awt.Stroke | حد. |
 
 ### setTextRenderingMode(TextRenderingMode textRenderingMode) {#setTextRenderingMode-com.aspose.page.TextRenderingMode-}
 ```
@@ -1193,7 +1193,7 @@ public void setTextStrokeWidth(float textStrokeWidth)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| textStrokeWidth | float | عرض خط النص. |
+| عرض خط النص | float | عرض خط النص. |
 
 ### setTransform(AffineTransform transform) {#setTransform-java.awt.geom.AffineTransform-}
 ```
@@ -1214,7 +1214,7 @@ public void shear(double shx, double shy)
 ```
 
 
-يقوم بقص مصفوفة التحويل الحالية. يستدعي writeTransform(Transform).
+يقص المصفوفة التحويلية الحالية. يستدعي writeTransform(Transform).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1228,7 +1228,7 @@ public void startDocument()
 ```
 
 
-يقوم بالتحضير الضروري للجهاز قبل بدء عرض المستند.
+يقوم بالتحضير اللازم للجهاز قبل بدء عرض المستند.
 
 ### toString() {#toString--}
 ```
@@ -1236,7 +1236,7 @@ public String toString()
 ```
 
 
-يرجع اسم نوع الجهاز.
+يعيد اسم نوع الجهاز.
 
 **Returns:**
 java.lang.String
@@ -1246,12 +1246,12 @@ public void transform(AffineTransform transform)
 ```
 
 
-يحوّل مصفوفة التحويل الحالية. يستدعي writeTransform(Transform).
+يحول المصفوفة التحويلية الحالية. يستدعي writeTransform(Transform).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| transform | java.awt.geom.AffineTransform | التحويل الذي سيتم تطبيقه. |
+| transform | java.awt.geom.AffineTransform | التحويل المراد تطبيقه. |
 
 ### translate(double x, double y) {#translate-double-double-}
 ```
@@ -1259,7 +1259,7 @@ public void translate(double x, double y)
 ```
 
 
-يترجم مصفوفة التحويل الحالية. يستدعي writeTransform(Transform).
+ينقل المصفوفة التحويلية الحالية. يستدعي writeTransform(Transform).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1334,7 +1334,7 @@ public void writeString(ITrFont font, String str)
 ```
 
 
-يكتب سلسلة بخط محدد.
+يكتب سلسلة باستخدام الخط المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |

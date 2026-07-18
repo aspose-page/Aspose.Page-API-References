@@ -1,6 +1,6 @@
 ---
 title: "JobDeviceLanguage.JobDeviceLanguageOption"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف خيارات ميزة JobDeviceLanguage."
 type: docs
 weight: 10
@@ -12,12 +12,12 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class JobDeviceLanguage.JobDeviceLanguageOption extends Option
 ```
 
-يصف خيارات ميزة JobDeviceLanguage.
-## المنشئات
+يصف خيارات الميزة JobDeviceLanguage.
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [JobDeviceLanguageOption(String name, JobDeviceLanguage.IJobDeviceLanguageOptionItem[] items)](#JobDeviceLanguageOption-java.lang.String-com.aspose.xps.metadata.JobDeviceLanguage.IJobDeviceLanguageOptionItem...-) | ينشئ نسخة جديدة. |
+| [JobDeviceLanguageOption(String name, JobDeviceLanguage.IJobDeviceLanguageOptionItem[] items)](#JobDeviceLanguageOption-java.lang.String-com.aspose.xps.metadata.JobDeviceLanguage.IJobDeviceLanguageOptionItem...-) | ينشئ مثيلًا جديدًا. |
 | [JobDeviceLanguageOption(JobDeviceLanguage.JobDeviceLanguageOption option)](#JobDeviceLanguageOption-com.aspose.xps.metadata.JobDeviceLanguage.JobDeviceLanguageOption-) | ينسخ هذا المثيل من الخيار. |
 ## الحقول
 
@@ -40,14 +40,14 @@ public static final class JobDeviceLanguage.JobDeviceLanguageOption extends Opti
 | [PostScript](#PostScript) | لغة الجهاز المحددة هي PostScript. |
 | [RPDL](#RPDL) | لغة الجهاز المحددة هي RPDL. |
 | [RTL](#RTL) | لغة الجهاز المحددة هي RTL. |
-| [XPS](#XPS) | يحدد أن لغة الجهاز هي XPS. |
-| [_201PL](#-201PL) | يحدد أن لغة الجهاز هي PC-PR201. |
+| [XPS](#XPS) | يحدد لغة الجهاز هي XPS. |
+| [_201PL](#-201PL) | يحدد لغة الجهاز هي PC-PR201. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. |
-| [add(JobDeviceLanguage.IJobDeviceLanguageOptionItem[] items)](#add-com.aspose.xps.metadata.JobDeviceLanguage.IJobDeviceLanguageOptionItem...-) | يضيف قائمة من كائنات  IJobDeviceLanguageOptionItem  إلى الخيارات. |
+| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. |
+| [add(JobDeviceLanguage.IJobDeviceLanguageOptionItem[] items)](#add-com.aspose.xps.metadata.JobDeviceLanguage.IJobDeviceLanguageOptionItem...-) | يضيف قائمة من كائنات IJobDeviceLanguageOptionItem إلى الخيارات. |
 | [clone()](#clone--) | ينسخ هذا المثيل من الخيار. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
@@ -55,9 +55,9 @@ public static final class JobDeviceLanguage.JobDeviceLanguageOption extends Opti
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setLanguageEncoding(String languageEncoding)](#setLanguageEncoding-java.lang.String-) | يضبط قيمة الخاصية المحسوبة  LanguageEncoding . |
-| [setLanguageLevel(String languageLevel)](#setLanguageLevel-java.lang.String-) | يضبط قيمة الخاصية المحسوبة  LanguageLevel . |
-| [setLanguageVersion(String languageVersion)](#setLanguageVersion-java.lang.String-) | يضبط قيمة الخاصية المحسوبة  LanguageVersion . |
+| [setLanguageEncoding(String languageEncoding)](#setLanguageEncoding-java.lang.String-) | يضبط قيمة الخاصية المقيمة  LanguageEncoding . |
+| [setLanguageLevel(String languageLevel)](#setLanguageLevel-java.lang.String-) | يضبط قيمة الخاصية المقيمة  LanguageLevel . |
+| [setLanguageVersion(String languageVersion)](#setLanguageVersion-java.lang.String-) | يضبط قيمة الخاصية المقيمة  LanguageVersion . |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -68,13 +68,13 @@ public JobDeviceLanguageOption(String name, JobDeviceLanguage.IJobDeviceLanguage
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | الاسم | java.lang.String | اسم خيار. |
-| items | [IJobDeviceLanguageOptionItem\[\]](../../com.aspose.xps.metadata/ijobdevicelanguageoptionitem) | مصفوفة عشوائية من كائنات  IJobDeviceLanguageOptionItem . |
+| items | [IJobDeviceLanguageOptionItem\[\]](../../com.aspose.xps.metadata/ijobdevicelanguageoptionitem) | مصفوفة عشوائية من كائنات IJobDeviceLanguageOptionItem. |
 
 ### JobDeviceLanguageOption(JobDeviceLanguage.JobDeviceLanguageOption option) {#JobDeviceLanguageOption-com.aspose.xps.metadata.JobDeviceLanguage.JobDeviceLanguageOption-}
 ```
@@ -231,7 +231,7 @@ public static final JobDeviceLanguage.JobDeviceLanguageOption XPS
 ```
 
 
-يحدد أن لغة الجهاز هي XPS.
+يحدد لغة الجهاز هي XPS.
 
 ### _201PL {#-201PL}
 ```
@@ -239,7 +239,7 @@ public static final JobDeviceLanguage.JobDeviceLanguageOption _201PL
 ```
 
 
-يحدد أن لغة الجهاز هي PC-PR201.
+يحدد لغة الجهاز هي PC-PR201.
 
 ### add(IOptionItem[] items) {#add-com.aspose.xps.metadata.IOptionItem...-}
 ```
@@ -247,7 +247,7 @@ public void add(IOptionItem[] items)
 ```
 
 
-يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. يجب أن يكون كل عنصر إما  ScoredProperty  أو  Property  مثيل.
+يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. يجب أن يكون كل عنصر إما مثال ScoredProperty أو مثال Property.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -260,12 +260,12 @@ public JobDeviceLanguage.JobDeviceLanguageOption add(JobDeviceLanguage.IJobDevic
 ```
 
 
-يضيف قائمة من كائنات  IJobDeviceLanguageOptionItem  إلى الخيارات.
+يضيف قائمة من كائنات IJobDeviceLanguageOptionItem إلى الخيارات.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| items | [IJobDeviceLanguageOptionItem\[\]](../../com.aspose.xps.metadata/ijobdevicelanguageoptionitem) | مصفوفة عشوائية من كائنات  IJobDeviceLanguageOptionItem . |
+| items | [IJobDeviceLanguageOptionItem\[\]](../../com.aspose.xps.metadata/ijobdevicelanguageoptionitem) | مصفوفة عشوائية من كائنات IJobDeviceLanguageOptionItem. |
 
 **Returns:**
 [JobDeviceLanguageOption](../../com.aspose.xps.metadata/jobdevicelanguageoption) - This option instance.
@@ -275,7 +275,7 @@ public JobDeviceLanguage.JobDeviceLanguageOption clone()
 ```
 
 
-ينسخ هذا الكائن الخيار. الاختصار إلى مُنشئ النسخ.
+ينسخ هذا الكائن الخيار. الاختصار إلى مُنشئ الاستنساخ.
 
 **Returns:**
 [JobDeviceLanguageOption](../../com.aspose.xps.metadata/jobdevicelanguageoption) - The clone of this option instance.
@@ -293,7 +293,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -346,12 +346,12 @@ public JobDeviceLanguage.JobDeviceLanguageOption setLanguageEncoding(String lang
 ```
 
 
-يضبط قيمة الخاصية المحسوبة  LanguageEncoding .
+يضبط قيمة الخاصية المقيمة  LanguageEncoding .
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| languageEncoding | java.lang.String | قيمة الخاصية المحسوبة  LanguageEncoding . |
+| languageEncoding | java.lang.String | قيمة الخاصية المقيمة  LanguageEncoding . |
 
 **Returns:**
 [JobDeviceLanguageOption](../../com.aspose.xps.metadata/jobdevicelanguageoption) - This option instance.
@@ -361,12 +361,12 @@ public JobDeviceLanguage.JobDeviceLanguageOption setLanguageLevel(String languag
 ```
 
 
-يضبط قيمة الخاصية المحسوبة  LanguageLevel .
+يضبط قيمة الخاصية المقيمة  LanguageLevel .
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| languageLevel | java.lang.String | قيمة الخاصية المحسوبة  LanguageLevel . |
+| languageLevel | java.lang.String | قيمة الخاصية المقيمة  LanguageLevel . |
 
 **Returns:**
 [JobDeviceLanguageOption](../../com.aspose.xps.metadata/jobdevicelanguageoption) - This option instance.
@@ -376,12 +376,12 @@ public JobDeviceLanguage.JobDeviceLanguageOption setLanguageVersion(String langu
 ```
 
 
-يضبط قيمة الخاصية المحسوبة  LanguageVersion .
+يضبط قيمة الخاصية المقيمة  LanguageVersion .
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| languageVersion | java.lang.String | قيمة الخاصية المحسوبة  LanguageVersion . |
+| languageVersion | java.lang.String | قيمة الخاصية المقيمة  LanguageVersion . |
 
 **Returns:**
 [JobDeviceLanguageOption](../../com.aspose.xps.metadata/jobdevicelanguageoption) - This option instance.

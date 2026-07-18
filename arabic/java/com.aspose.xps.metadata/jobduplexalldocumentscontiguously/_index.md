@@ -1,6 +1,6 @@
 ---
 title: "JobDuplexAllDocumentsContiguously"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف خصائص الطباعة المزدوجة للإخراج."
 type: docs
 weight: 52
@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class JobDuplexAllDocumentsContiguously extends Duplex implements IJobPrintTicketItem
 ```
 
-يصف خصائص الازدواجية للمخرجات. تسمح ميزة الازدواجية بالطباعة على جانبي الوسائط. جميع المستندات في المهمة تُطبع مزدوجة معًا بشكل متتابع.  JobDuplexAllDocumentsContiguously  و  DocumentDuplex  متنافيان. يعود للبرنامج التعريفي (السائق) تحديد كيفية التعامل مع القيود بين هذه الكلمات المفتاحية. https://docs.microsoft.com/en-us/windows/win32/printdocs/jobduplexalldocumentscontiguously
-## المنشئات
+يصف خصائص الازدواجية للمخرجات. تسمح ميزة الازدواجية بالطباعة على جانبي الوسيط. جميع المستندات في المهمة تُطبع مزدوجة معًا بشكل متتابع.  JobDuplexAllDocumentsContiguously  و  DocumentDuplex  متعارضان. الأمر متروك للسائق لتحديد كيفية معالجة القيود بين هذه الكلمات المفتاحية. https://docs.microsoft.com/en-us/windows/win32/printdocs/jobduplexalldocumentscontiguously
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [JobDuplexAllDocumentsContiguously(Duplex.DuplexOption[] options)](#JobDuplexAllDocumentsContiguously-com.aspose.xps.metadata.Duplex.DuplexOption...-) | ينشئ نسخة جديدة. |
+| [JobDuplexAllDocumentsContiguously(Duplex.DuplexOption[] options)](#JobDuplexAllDocumentsContiguously-com.aspose.xps.metadata.Duplex.DuplexOption...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public JobDuplexAllDocumentsContiguously(Duplex.DuplexOption[] options)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

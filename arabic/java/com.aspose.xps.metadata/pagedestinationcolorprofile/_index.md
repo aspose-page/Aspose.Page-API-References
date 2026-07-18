@@ -1,7 +1,7 @@
 ---
 title: "PageDestinationColorProfile"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يحدد خصائص ملف تعريف اللون الوجهة."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يعرف خصائص ملف تعريف اللون الوجهة."
 type: docs
 weight: 91
 url: /ar/java/com.aspose.xps.metadata/pagedestinationcolorprofile/
@@ -16,16 +16,16 @@ public final class PageDestinationColorProfile extends Feature implements IJobPr
 ```
 
 يحدد خصائص ملف تعريف اللون الوجهة. يصف ما إذا كان التطبيق أو برنامج التشغيل يختار ملف تعريف اللون الوجهة الذي سيُستخدم. https://docs.microsoft.com/en-us/windows/win32/printdocs/pagedestinationcolorprofile
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PageDestinationColorProfile(PageDestinationColorProfile.PageDestinationColorProfileOption[] options)](#PageDestinationColorProfile-com.aspose.xps.metadata.PageDestinationColorProfile.PageDestinationColorProfileOption...-) | ينشئ نسخة جديدة. |
+| [PageDestinationColorProfile(PageDestinationColorProfile.PageDestinationColorProfileOption[] options)](#PageDestinationColorProfile-com.aspose.xps.metadata.PageDestinationColorProfile.PageDestinationColorProfileOption...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public PageDestinationColorProfile(PageDestinationColorProfile.PageDestinationCo
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

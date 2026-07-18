@@ -1,7 +1,7 @@
 ---
 title: "XpsRadialGradientBrush"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "الفئة التي تُجمل ميزات عنصر خاصية RadialGradientBrush."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "فئة تغلف ميزات عنصر خاصية RadialGradientBrush."
 type: docs
 weight: 48
 url: /ar/java/com.aspose.xps/xpsradialgradientbrush/
@@ -12,35 +12,35 @@ java.lang.Object, [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject), [c
 public final class XpsRadialGradientBrush extends XpsGradientBrush
 ```
 
-فئة تضم خصائص عنصر RadialGradientBrush. يُستخدم هذا العنصر لتحديد فرشاة التدرج الشعاعي.
+فئة تضم خصائص عنصر RadialGradientBrush. يُستخدم هذا العنصر لتحديد فرشاة تدرج لوني شعاعي.
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [deepClone()](#deepClone--) | ينسخ هذه فرشاة التدرج الشعاعي. |
+| [deepClone()](#deepClone--) | ينسخ هذه الفرشاة المتدرجة الشعاعية. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getCenter()](#getCenter--) | يرجع نقطة المركز للتدرج الشعاعي (أي، مركز الإهليلج). |
+| [getCenter()](#getCenter--) | يرجع نقطة المركز للتدرج الشعاعي (أي، مركز القطع الناقص). |
 | [getClass()](#getClass--) |  |
 | [getColorInterpolationMode()](#getColorInterpolationMode--) | يرجع قيمة تحدد دالة غاما لاستيفاء اللون. |
 | [getGradientOrigin()](#getGradientOrigin--) | يرجع نقطة الأصل للتدرج الشعاعي. |
-| [getGradientStops()](#getGradientStops--) | يرجع قائمة نقاط التوقف في التدرج التي تشكل التدرج. |
+| [getGradientStops()](#getGradientStops--) | يرجع قائمة بنقاط التوقف في التدرج التي تشكل التدرج. |
 | [getOpacity()](#getOpacity--) | يعيد القيمة التي تحدد الشفافية الموحدة لتعبئة الفرشاة. |
-| [getRadiusX()](#getRadiusX--) | يرجع نصف القطر في البعد x للإهليلج الذي يحدد التدرج الشعاعي. |
-| [getRadiusY()](#getRadiusY--) | يرجع نصف القطر في البعد y للإهليلج الذي يحدد التدرج الشعاعي. |
+| [getRadiusX()](#getRadiusX--) | يرجع نصف القطر في البعد x للقطع الناقص الذي يحدد التدرج الشعاعي. |
+| [getRadiusY()](#getRadiusY--) | يرجع نصف القطر في البعد y للقطع الناقص الذي يحدد التدرج الشعاعي. |
 | [getSpreadMethod()](#getSpreadMethod--) | يرجع قيمة تصف كيفية ملء الفرشاة لمنطقة المحتوى خارج منطقة التدرج الأولية. |
-| [getTransform()](#getTransform--) | يعيد تحويل المصفوفة المطبق على فضاء إحداثيات الفرشاة. |
+| [getTransform()](#getTransform--) | يعيد تحويل المصفوفة المطبق على مساحة إحداثيات الفرشاة. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCenter(Point2D value)](#setCenter-java.awt.geom.Point2D-) | يضبط نقطة المركز للتدرج الشعاعي (أي، مركز الإهليلج). |
+| [setCenter(Point2D value)](#setCenter-java.awt.geom.Point2D-) | يضبط نقطة المركز للتدرج الشعاعي (أي، مركز القطع الناقص). |
 | [setColorInterpolationMode(XpsColorInterpolationMode value)](#setColorInterpolationMode-com.aspose.xps.XpsColorInterpolationMode-) | يضبط قيمة تحدد دالة غاما لاستيفاء اللون. |
 | [setGradientOrigin(Point2D value)](#setGradientOrigin-java.awt.geom.Point2D-) | يضبط نقطة الأصل للتدرج الشعاعي. |
-| [setGradientStops(List<XpsGradientStop> value)](#setGradientStops-java.util.List-com.aspose.xps.XpsGradientStop--) | يضبط قائمة نقاط التوقف في التدرج التي تشكل التدرج. |
+| [setGradientStops(List<XpsGradientStop> value)](#setGradientStops-java.util.List-com.aspose.xps.XpsGradientStop--) | يضبط قائمة بنقاط التوقف في التدرج التي تشكل التدرج. |
 | [setOpacity(float value)](#setOpacity-float-) | يضبط القيمة التي تحدد الشفافية الموحدة لتعبئة الفرشاة. |
-| [setRadiusX(float value)](#setRadiusX-float-) | يضبط نصف القطر في البعد x للإهليلج الذي يحدد التدرج الشعاعي. |
-| [setRadiusY(float value)](#setRadiusY-float-) | يضبط نصف القطر في البعد y للإهليلج الذي يحدد التدرج الشعاعي. |
+| [setRadiusX(float value)](#setRadiusX-float-) | يضبط نصف القطر في البعد x للقطع الناقص الذي يحدد التدرج الشعاعي. |
+| [setRadiusY(float value)](#setRadiusY-float-) | يضبط نصف القطر في البعد y للقطع الناقص الذي يحدد التدرج الشعاعي. |
 | [setSpreadMethod(XpsSpreadMethod value)](#setSpreadMethod-com.aspose.xps.XpsSpreadMethod-) | يضبط قيمة تصف كيفية ملء الفرشاة لمنطقة المحتوى خارج منطقة التدرج الأولية. |
-| [setTransform(XpsMatrix value)](#setTransform-com.aspose.xps.XpsMatrix-) | يضبط تحويل المصفوفة المطبق على فضاء إحداثيات الفرشاة. |
+| [setTransform(XpsMatrix value)](#setTransform-com.aspose.xps.XpsMatrix-) | يضبط تحويل المصفوفة المطبق على مساحة إحداثيات الفرشاة. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -51,7 +51,7 @@ public XpsRadialGradientBrush deepClone()
 ```
 
 
-ينسخ هذه فرشاة التدرج الشعاعي.
+ينسخ هذه الفرشاة المتدرجة الشعاعية.
 
 **Returns:**
 [XpsRadialGradientBrush](../../com.aspose.xps/xpsradialgradientbrush) - Clone of this radial gradient brush.
@@ -69,14 +69,14 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getCenter() {#getCenter--}
 ```
 public Point2D getCenter()
 ```
 
 
-يرجع نقطة المركز للتدرج الشعاعي (أي، مركز الإهليلج).
+يرجع نقطة المركز للتدرج الشعاعي (أي، مركز القطع الناقص).
 
 **Returns:**
 java.awt.geom.Point2D - نقطة المركز للتدرج الشعاعي.
@@ -96,7 +96,7 @@ public XpsColorInterpolationMode getColorInterpolationMode()
 ```
 
 
-يرجع قيمة تحدد دالة غاما لاستيفاء اللون. لا ينبغي تطبيق تعديل غاما على المكوّن ألفا إذا تم تحديده.
+يرجع قيمة تحدد دالة غاما لاستيفاء اللون. لا ينبغي تطبيق تعديل غاما على مكوّن ألفا إذا تم تحديده.
 
 **Returns:**
 [XpsColorInterpolationMode](../../com.aspose.xps/xpscolorinterpolationmode) - Value specifying the gamma function for color interpolation.
@@ -116,10 +116,10 @@ public List<XpsGradientStop> getGradientStops()
 ```
 
 
-يرجع قائمة نقاط التوقف في التدرج التي تشكل التدرج.
+يرجع قائمة بنقاط التوقف في التدرج التي تشكل التدرج.
 
 **Returns:**
-java.util.List<com.aspose.xps.XpsGradientStop> - قائمة نقاط التوقف في التدرج التي تشكل التدرج.
+java.util.List<com.aspose.xps.XpsGradientStop> - قائمة بنقاط التوقف في التدرج التي تشكل التدرج.
 ### getOpacity() {#getOpacity--}
 ```
 public float getOpacity()
@@ -136,20 +136,20 @@ public float getRadiusX()
 ```
 
 
-يرجع نصف القطر في البعد x للإهليلج الذي يحدد التدرج الشعاعي.
+يرجع نصف القطر في البعد x للقطع الناقص الذي يحدد التدرج الشعاعي.
 
 **Returns:**
-float - نصف القطر في البعد x للإهليلج الذي يحدد التدرج الشعاعي.
+float - نصف القطر في البعد x للقطع الناقص الذي يحدد التدرج الشعاعي.
 ### getRadiusY() {#getRadiusY--}
 ```
 public float getRadiusY()
 ```
 
 
-يرجع نصف القطر في البعد y للإهليلج الذي يحدد التدرج الشعاعي.
+يرجع نصف القطر في البعد y للقطع الناقص الذي يحدد التدرج الشعاعي.
 
 **Returns:**
-float - نصف القطر في البعد y للإهليلج الذي يحدد التدرج الشعاعي.
+float - نصف القطر في البعد y للقطع الناقص الذي يحدد التدرج الشعاعي.
 ### getSpreadMethod() {#getSpreadMethod--}
 ```
 public XpsSpreadMethod getSpreadMethod()
@@ -166,7 +166,7 @@ public XpsMatrix getTransform()
 ```
 
 
-يعيد تحويل المصفوفة المطبق على فضاء إحداثيات الفرشاة. يتم ربط خاصية Transform مع تحويل العرض الفعّال الحالي لإنتاج تحويل عرض فعّال محلي للفرشاة. يتم تحويل منطقة العرض للفرشاة باستخدام تحويل العرض الفعّال المحلي.
+يعيد تحويل المصفوفة المطبق على مساحة إحداثيات الفرشاة. يتم ربط خاصية Transform مع تحويل العرض الفعلي الحالي لإنتاج تحويل عرض فعال محلي للفرشاة. يتم تحويل نافذة العرض للفرشاة باستخدام تحويل العرض الفعال المحلي.
 
 **Returns:**
 [XpsMatrix](../../com.aspose.xps/xpsmatrix) - The matrix transformation applied to the coordinate space of the brush.
@@ -202,7 +202,7 @@ public void setCenter(Point2D value)
 ```
 
 
-يضبط نقطة المركز للتدرج الشعاعي (أي، مركز الإهليلج).
+يضبط نقطة المركز للتدرج الشعاعي (أي، مركز القطع الناقص).
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -215,12 +215,12 @@ public void setColorInterpolationMode(XpsColorInterpolationMode value)
 ```
 
 
-يضبط القيمة التي تحدد دالة جاما لتق interpolating اللون. يجب عدم تطبيق تعديل الجاما على مكون ألفا إذا تم تحديده.
+يضبط القيمة التي تحدد دالة غاما لاستيفاء اللون. يجب عدم تطبيق تعديل غاما على مكون ألفا إذا تم تحديده.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [XpsColorInterpolationMode](../../com.aspose.xps/xpscolorinterpolationmode) | القيمة التي تحدد دالة جاما لتق interpolating اللون. |
+| value | [XpsColorInterpolationMode](../../com.aspose.xps/xpscolorinterpolationmode) | القيمة التي تحدد دالة غاما لاستيفاء اللون. |
 
 ### setGradientOrigin(Point2D value) {#setGradientOrigin-java.awt.geom.Point2D-}
 ```
@@ -241,7 +241,7 @@ public void setGradientStops(List<XpsGradientStop> value)
 ```
 
 
-يضبط قائمة نقاط التوقف في التدرج التي تشكل التدرج.
+يضبط قائمة بنقاط التوقف في التدرج التي تشكل التدرج.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -267,12 +267,12 @@ public void setRadiusX(float value)
 ```
 
 
-يضبط نصف القطر في البعد x للإهليلج الذي يحدد التدرج الشعاعي.
+يضبط نصف القطر في البعد x للقطع الناقص الذي يحدد التدرج الشعاعي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | نصف القطر في البُعد x للإهليلج الذي يحدد التدرج الشعاعي. |
+| القيمة | float | نصف القطر في البُعد السيني للإهليلج الذي يحدد التدرج الشعاعي. |
 
 ### setRadiusY(float value) {#setRadiusY-float-}
 ```
@@ -280,12 +280,12 @@ public void setRadiusY(float value)
 ```
 
 
-يضبط نصف القطر في البعد y للإهليلج الذي يحدد التدرج الشعاعي.
+يضبط نصف القطر في البعد y للقطع الناقص الذي يحدد التدرج الشعاعي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | نصف القطر في البُعد y للإهليلج الذي يحدد التدرج الشعاعي. |
+| القيمة | float | نصف القطر في البُعد الصادي للإهليلج الذي يحدد التدرج الشعاعي. |
 
 ### setSpreadMethod(XpsSpreadMethod value) {#setSpreadMethod-com.aspose.xps.XpsSpreadMethod-}
 ```
@@ -298,7 +298,7 @@ public void setSpreadMethod(XpsSpreadMethod value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [XpsSpreadMethod](../../com.aspose.xps/xpsspreadmethod) | القيمة التي تصف كيفية ملء الفرشاة لمنطقة المحتوى خارج منطقة التدرج الأولية. |
+| value | [XpsSpreadMethod](../../com.aspose.xps/xpsspreadmethod) | القيمة التي تصف كيفية ملء الفرشاة لمنطقة المحتوى خارج منطقة التدرج الأولية والبدائية. |
 
 ### setTransform(XpsMatrix value) {#setTransform-com.aspose.xps.XpsMatrix-}
 ```
@@ -306,12 +306,12 @@ public void setTransform(XpsMatrix value)
 ```
 
 
-يضبط تحويل المصفوفة المطبق على فضاء إحداثيات الفرشاة. يتم ربط خاصية Transform مع تحويل العرض الفعّال الحالي لإنتاج تحويل عرض فعّال محلي للفرشاة. يتم تحويل منطقة العرض للفرشاة باستخدام تحويل العرض الفعّال المحلي.
+يضبط تحويل المصفوفة المطبق على مساحة إحداثيات الفرشاة. يتم ربط خاصية Transform مع تحويل العرض الفعلي الحالي لإنتاج تحويل عرض فعال محلي للفرشاة. يتم تحويل نافذة العرض للفرشاة باستخدام تحويل العرض الفعال المحلي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [XpsMatrix](../../com.aspose.xps/xpsmatrix) | تحويل المصفوفة المطبق على فضاء إحداثيات الفرشاة. |
+| value | [XpsMatrix](../../com.aspose.xps/xpsmatrix) | تحويل المصفوفة المطبق على مساحة إحداثيات الفرشاة. |
 
 ### toString() {#toString--}
 ```

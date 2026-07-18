@@ -1,6 +1,6 @@
 ---
 title: "PageSourceColorProfileEmbedded"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يحدد ملف تعريف اللون المصدر المدمج."
 type: docs
 weight: 128
@@ -16,11 +16,11 @@ public final class PageSourceColorProfileEmbedded extends StringParameterInit im
 ```
 
 يحدد ملف تعريف اللون المصدر المدمج.
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PageSourceColorProfileEmbedded(String value)](#PageSourceColorProfileEmbedded-java.lang.String-) | ينشئ نسخة جديدة. |
+| [PageSourceColorProfileEmbedded(String value)](#PageSourceColorProfileEmbedded-java.lang.String-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -43,7 +43,7 @@ public PageSourceColorProfileEmbedded(String value)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -64,7 +64,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

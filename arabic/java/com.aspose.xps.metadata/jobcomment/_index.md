@@ -1,6 +1,6 @@
 ---
 title: "JobComment"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يحدد تعليقًا مرتبطًا بالوظيفة."
 type: docs
 weight: 48
@@ -15,12 +15,12 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class JobComment extends StringParameterInit implements IJobPrintTicketItem
 ```
 
-يحدد تعليقًا مرتبطًا بالوظيفة. مثال: "يرجى التسليم إلى الغرفة 1234 عند الانتهاء". https://docs.microsoft.com/en-us/windows/win32/printdocs/jobcomment
-## المنشئات
+يحدد تعليقًا مرتبطًا بالمهمة. مثال: "يرجى التسليم إلى الغرفة 1234 عند الانتهاء". https://docs.microsoft.com/en-us/windows/win32/printdocs/jobcomment
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [JobComment(String value)](#JobComment-java.lang.String-) | ينشئ نسخة جديدة. |
+| [JobComment(String value)](#JobComment-java.lang.String-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -43,7 +43,7 @@ public JobComment(String value)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -64,7 +64,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

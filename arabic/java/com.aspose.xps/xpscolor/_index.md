@@ -1,7 +1,7 @@
 ---
 title: "XpsColor"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "الفئة الأساسية تُغلف الميزات العامة للألوان."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "الفئة الأساسية تجسد الميزات المشتركة للألوان."
 type: docs
 weight: 17
 url: /ar/java/com.aspose.xps/xpscolor/
@@ -12,7 +12,7 @@ java.lang.Object
 public abstract class XpsColor
 ```
 
-الفئة الأساسية تُغلف الميزات العامة للألوان.
+الفئة الأساسية تجسد الميزات المشتركة للألوان.
 ## الطرق
 
 | طريقة | الوصف |
@@ -22,7 +22,7 @@ public abstract class XpsColor
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toColor()](#toColor--) | طريقة مريحة للحصول على التمثيل الأصلي لأي لون. |
+| [toColor()](#toColor--) | طريقة ملائمة للحصول على التمثيل الأصلي لأي لون. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -41,7 +41,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -84,10 +84,10 @@ public abstract Color toColor()
 ```
 
 
-طريقة مريحة للحصول على التمثيل الأصلي لأي لون.
+طريقة ملائمة للحصول على التمثيل الأصلي لأي لون.
 
 **Returns:**
-java.awt.Color -  بنية System.Drawing.Color  structure
+java.awt.Color - بنية System.Drawing.Color
 ### toString() {#toString--}
 ```
 public String toString()

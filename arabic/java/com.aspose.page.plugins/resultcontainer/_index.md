@@ -1,6 +1,6 @@
 ---
 title: "ResultContainer"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يمثل حاوية تحتوي على مجموعة النتائج لمعالجة الملحق."
 type: docs
 weight: 16
@@ -13,9 +13,9 @@ public class ResultContainer
 ```
 
 يمثل حاوية تحتوي على مجموعة النتائج لمعالجة الملحق.
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [ResultContainer()](#ResultContainer--) | يُنشئ حاوية نتيجة جديدة |
 ## الطرق
@@ -54,7 +54,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

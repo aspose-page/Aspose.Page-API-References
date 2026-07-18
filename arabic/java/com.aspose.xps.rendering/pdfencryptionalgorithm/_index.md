@@ -1,6 +1,6 @@
 ---
 title: "PdfEncryptionAlgorithm"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "تعداد وضع التشفير."
 type: docs
 weight: 21
@@ -17,8 +17,8 @@ public enum PdfEncryptionAlgorithm extends Enum<PdfEncryptionAlgorithm>
 
 | حقل | الوصف |
 | --- | --- |
-| [RC4_128](#RC4-128) | الخوارزمية، بطول مفتاح تشفير RC4 يبلغ 128 بت ومجموعة أذونات متقدمة؛ |
-| [RC4_40](#RC4-40) | الخوارزمية، بطول مفتاح تشفير RC4 يبلغ 40 بت؛ |
+| [RC4_128](#RC4-128) | الخوارزمية، بطول مفتاح تشفير RC4 قدره 128 بت ومجموعة أذونات متقدمة؛ |
+| [RC4_40](#RC4-40) | الخوارزمية، بطول مفتاح تشفير RC4 قدره 40 بت؛ |
 ## الطرق
 
 | طريقة | الوصف |
@@ -46,7 +46,7 @@ public static final PdfEncryptionAlgorithm RC4_128
 ```
 
 
-الخوارزمية، بطول مفتاح تشفير RC4 يبلغ 128 بت ومجموعة أذونات متقدمة؛
+الخوارزمية، بطول مفتاح تشفير RC4 قدره 128 بت ومجموعة أذونات متقدمة؛
 
 ### RC4_40 {#RC4-40}
 ```
@@ -54,7 +54,7 @@ public static final PdfEncryptionAlgorithm RC4_40
 ```
 
 
-الخوارزمية، بطول مفتاح تشفير RC4 يبلغ 40 بت؛
+الخوارزمية، بطول مفتاح تشفير RC4 قدره 40 بت؛
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```
@@ -111,7 +111,7 @@ public final boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

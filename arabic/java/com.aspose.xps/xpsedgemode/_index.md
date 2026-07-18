@@ -1,6 +1,6 @@
 ---
 title: "XpsEdgeMode"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "القيم الصالحة لخاصية RenderOptions.EdgeMode لعناصر Canvas."
 type: docs
 weight: 58
@@ -17,7 +17,7 @@ public enum XpsEdgeMode extends Enum<XpsEdgeMode>
 
 | حقل | الوصف |
 | --- | --- |
-| [Aliased](#Aliased) | يجب أن تكون الحواف غير ملساء. |
+| [Aliased](#Aliased) | يجب أن تكون الحواف مسننة. |
 | [None](#None) | يجب أن تُعرض الحواف بالطريقة الافتراضية للمستهلك. |
 ## الطرق
 
@@ -46,7 +46,7 @@ public static final XpsEdgeMode Aliased
 ```
 
 
-يجب أن تكون الحواف غير ملساء.
+يجب أن تكون الحواف مسننة.
 
 ### None {#None}
 ```
@@ -111,7 +111,7 @@ public final boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

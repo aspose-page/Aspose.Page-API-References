@@ -1,7 +1,7 @@
 ---
 title: "XpsGradientBrush"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "فئة تُغلف الميزات المشتركة لعناصر LinerGradientBrush و RadialGradientBrush."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "فئة تجسد الميزات المشتركة لعناصر LinerGradientBrush و RadialGradientBrush."
 type: docs
 weight: 26
 url: /ar/java/com.aspose.xps/xpsgradientbrush/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject), [c
 public abstract class XpsGradientBrush extends XpsTransformableBrush
 ```
 
-فئة تُغلف الميزات المشتركة لعناصر LinerGradientBrush و RadialGradientBrush.
+فئة تجسد الميزات المشتركة لعناصر LinerGradientBrush و RadialGradientBrush.
 ## الطرق
 
 | طريقة | الوصف |
@@ -20,18 +20,18 @@ public abstract class XpsGradientBrush extends XpsTransformableBrush
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getColorInterpolationMode()](#getColorInterpolationMode--) | يرجع قيمة تحدد دالة غاما لاستيفاء اللون. |
-| [getGradientStops()](#getGradientStops--) | يرجع قائمة نقاط التوقف في التدرج التي تشكل التدرج. |
+| [getGradientStops()](#getGradientStops--) | يرجع قائمة بنقاط التوقف في التدرج التي تشكل التدرج. |
 | [getOpacity()](#getOpacity--) | يعيد القيمة التي تحدد الشفافية الموحدة لتعبئة الفرشاة. |
 | [getSpreadMethod()](#getSpreadMethod--) | يرجع قيمة تصف كيفية ملء الفرشاة لمنطقة المحتوى خارج منطقة التدرج الأولية. |
-| [getTransform()](#getTransform--) | يعيد تحويل المصفوفة المطبق على فضاء إحداثيات الفرشاة. |
+| [getTransform()](#getTransform--) | يعيد تحويل المصفوفة المطبق على مساحة إحداثيات الفرشاة. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setColorInterpolationMode(XpsColorInterpolationMode value)](#setColorInterpolationMode-com.aspose.xps.XpsColorInterpolationMode-) | يضبط قيمة تحدد دالة غاما لاستيفاء اللون. |
-| [setGradientStops(List<XpsGradientStop> value)](#setGradientStops-java.util.List-com.aspose.xps.XpsGradientStop--) | يضبط قائمة نقاط التوقف في التدرج التي تشكل التدرج. |
+| [setGradientStops(List<XpsGradientStop> value)](#setGradientStops-java.util.List-com.aspose.xps.XpsGradientStop--) | يضبط قائمة بنقاط التوقف في التدرج التي تشكل التدرج. |
 | [setOpacity(float value)](#setOpacity-float-) | يضبط القيمة التي تحدد الشفافية الموحدة لتعبئة الفرشاة. |
 | [setSpreadMethod(XpsSpreadMethod value)](#setSpreadMethod-com.aspose.xps.XpsSpreadMethod-) | يضبط قيمة تصف كيفية ملء الفرشاة لمنطقة المحتوى خارج منطقة التدرج الأولية. |
-| [setTransform(XpsMatrix value)](#setTransform-com.aspose.xps.XpsMatrix-) | يضبط تحويل المصفوفة المطبق على فضاء إحداثيات الفرشاة. |
+| [setTransform(XpsMatrix value)](#setTransform-com.aspose.xps.XpsMatrix-) | يضبط تحويل المصفوفة المطبق على مساحة إحداثيات الفرشاة. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -50,7 +50,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -67,7 +67,7 @@ public XpsColorInterpolationMode getColorInterpolationMode()
 ```
 
 
-يرجع قيمة تحدد دالة غاما لاستيفاء اللون. لا ينبغي تطبيق تعديل غاما على المكوّن ألفا إذا تم تحديده.
+يرجع قيمة تحدد دالة غاما لاستيفاء اللون. لا ينبغي تطبيق تعديل غاما على مكوّن ألفا إذا تم تحديده.
 
 **Returns:**
 [XpsColorInterpolationMode](../../com.aspose.xps/xpscolorinterpolationmode) - Value specifying the gamma function for color interpolation.
@@ -77,10 +77,10 @@ public List<XpsGradientStop> getGradientStops()
 ```
 
 
-يرجع قائمة نقاط التوقف في التدرج التي تشكل التدرج.
+يرجع قائمة بنقاط التوقف في التدرج التي تشكل التدرج.
 
 **Returns:**
-java.util.List<com.aspose.xps.XpsGradientStop> - قائمة نقاط التوقف في التدرج التي تشكل التدرج.
+java.util.List<com.aspose.xps.XpsGradientStop> - قائمة بنقاط التوقف في التدرج التي تشكل التدرج.
 ### getOpacity() {#getOpacity--}
 ```
 public float getOpacity()
@@ -107,7 +107,7 @@ public XpsMatrix getTransform()
 ```
 
 
-يعيد تحويل المصفوفة المطبق على فضاء إحداثيات الفرشاة. يتم ربط خاصية Transform مع تحويل العرض الفعّال الحالي لإنتاج تحويل عرض فعّال محلي للفرشاة. يتم تحويل منطقة العرض للفرشاة باستخدام تحويل العرض الفعّال المحلي.
+يعيد تحويل المصفوفة المطبق على مساحة إحداثيات الفرشاة. يتم ربط خاصية Transform مع تحويل العرض الفعلي الحالي لإنتاج تحويل عرض فعال محلي للفرشاة. يتم تحويل نافذة العرض للفرشاة باستخدام تحويل العرض الفعال المحلي.
 
 **Returns:**
 [XpsMatrix](../../com.aspose.xps/xpsmatrix) - The matrix transformation applied to the coordinate space of the brush.
@@ -143,12 +143,12 @@ public void setColorInterpolationMode(XpsColorInterpolationMode value)
 ```
 
 
-يضبط القيمة التي تحدد دالة جاما لتق interpolating اللون. يجب عدم تطبيق تعديل الجاما على مكون ألفا إذا تم تحديده.
+يضبط القيمة التي تحدد دالة غاما لاستيفاء اللون. يجب عدم تطبيق تعديل غاما على مكون ألفا إذا تم تحديده.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [XpsColorInterpolationMode](../../com.aspose.xps/xpscolorinterpolationmode) | القيمة التي تحدد دالة جاما لتق interpolating اللون. |
+| value | [XpsColorInterpolationMode](../../com.aspose.xps/xpscolorinterpolationmode) | القيمة التي تحدد دالة غاما لاستيفاء اللون. |
 
 ### setGradientStops(List<XpsGradientStop> value) {#setGradientStops-java.util.List-com.aspose.xps.XpsGradientStop--}
 ```
@@ -156,7 +156,7 @@ public void setGradientStops(List<XpsGradientStop> value)
 ```
 
 
-يضبط قائمة نقاط التوقف في التدرج التي تشكل التدرج.
+يضبط قائمة بنقاط التوقف في التدرج التي تشكل التدرج.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -187,7 +187,7 @@ public void setSpreadMethod(XpsSpreadMethod value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [XpsSpreadMethod](../../com.aspose.xps/xpsspreadmethod) | القيمة التي تصف كيفية ملء الفرشاة لمنطقة المحتوى خارج منطقة التدرج الأولية. |
+| value | [XpsSpreadMethod](../../com.aspose.xps/xpsspreadmethod) | القيمة التي تصف كيفية ملء الفرشاة لمنطقة المحتوى خارج منطقة التدرج الأولية والبدائية. |
 
 ### setTransform(XpsMatrix value) {#setTransform-com.aspose.xps.XpsMatrix-}
 ```
@@ -195,12 +195,12 @@ public void setTransform(XpsMatrix value)
 ```
 
 
-يضبط تحويل المصفوفة المطبق على فضاء إحداثيات الفرشاة. يتم ربط خاصية Transform مع تحويل العرض الفعّال الحالي لإنتاج تحويل عرض فعّال محلي للفرشاة. يتم تحويل منطقة العرض للفرشاة باستخدام تحويل العرض الفعّال المحلي.
+يضبط تحويل المصفوفة المطبق على مساحة إحداثيات الفرشاة. يتم ربط خاصية Transform مع تحويل العرض الفعلي الحالي لإنتاج تحويل عرض فعال محلي للفرشاة. يتم تحويل نافذة العرض للفرشاة باستخدام تحويل العرض الفعال المحلي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [XpsMatrix](../../com.aspose.xps/xpsmatrix) | تحويل المصفوفة المطبق على فضاء إحداثيات الفرشاة. |
+| value | [XpsMatrix](../../com.aspose.xps/xpsmatrix) | تحويل المصفوفة المطبق على مساحة إحداثيات الفرشاة. |
 
 ### toString() {#toString--}
 ```

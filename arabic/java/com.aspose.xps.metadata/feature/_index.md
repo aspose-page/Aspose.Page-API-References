@@ -1,6 +1,6 @@
 ---
 title: "ميزة"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "الفئة التي تُغلف ميزة مخطط طباعة شائعة."
 type: docs
 weight: 38
@@ -16,17 +16,17 @@ public class Feature extends CompositePrintTicketElement implements IPrintTicket
 ```
 
 الفئة التي تُغلف ميزة مخطط الطباعة العامة. الفئة الأساسية لجميع الميزات المعرفة بالمخطط. عنصر  Feature  يحتوي على قائمة كاملة بعناصر  Option  و  Property  التي تصف بالكامل سمة الجهاز أو إعداد تنسيق المهمة أو أي خاصية ذات صلة أخرى. https://docs.microsoft.com/en-us/windows/win32/printdocs/feature
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [Feature(String name, Option option, IFeatureItem[] items)](#Feature-java.lang.String-com.aspose.xps.metadata.Option-com.aspose.xps.metadata.IFeatureItem...-) | ينشئ نسخة جديدة من ميزة PrintTicket. |
-| [Feature(String name, Feature feature, IFeatureItem[] items)](#Feature-java.lang.String-com.aspose.xps.metadata.Feature-com.aspose.xps.metadata.IFeatureItem...-) | ينشئ نسخة جديدة من ميزة PrintTicket. |
+| [Feature(String name, Option option, IFeatureItem[] items)](#Feature-java.lang.String-com.aspose.xps.metadata.Option-com.aspose.xps.metadata.IFeatureItem...-) | ينشئ مثيل ميزة PrintTicket جديد. |
+| [Feature(String name, Feature feature, IFeatureItem[] items)](#Feature-java.lang.String-com.aspose.xps.metadata.Feature-com.aspose.xps.metadata.IFeatureItem...-) | ينشئ مثيل ميزة PrintTicket جديد. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -43,14 +43,14 @@ public Feature(String name, Option option, IFeatureItem[] items)
 ```
 
 
-ينشئ نسخة جديدة من ميزة PrintTicket.
+ينشئ مثيل ميزة PrintTicket جديد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | الاسم | java.lang.String | اسم ميزة. |
 | option | [Option](../../com.aspose.xps.metadata/option) | مثيل  Option  مطلوب. |
-| items | [IFeatureItem\[\]](../../com.aspose.xps.metadata/ifeatureitem) | مصفوفة عشوائية من مثيلات  IFeatureItem . يجب أن يكون كل منها إما  Feature  أو  Option  أو مثيل  Property . |
+| items | [IFeatureItem\[\]](../../com.aspose.xps.metadata/ifeatureitem) | مصفوفة عشوائية من  IFeatureItem  مثيلات. يجب أن يكون كل منها إما  Feature  أو  Option  أو مثيل  Property . |
 
 ### Feature(String name, Feature feature, IFeatureItem[] items) {#Feature-java.lang.String-com.aspose.xps.metadata.Feature-com.aspose.xps.metadata.IFeatureItem...-}
 ```
@@ -58,14 +58,14 @@ public Feature(String name, Feature feature, IFeatureItem[] items)
 ```
 
 
-ينشئ نسخة جديدة من ميزة PrintTicket.
+ينشئ مثيل ميزة PrintTicket جديد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | الاسم | java.lang.String | اسم الميزة. |
 | feature | [Feature](../../com.aspose.xps.metadata/feature) | مثال مطلوب لميزة Feature. |
-| items | [IFeatureItem\[\]](../../com.aspose.xps.metadata/ifeatureitem) | مصفوفة عشوائية من مثيلات Property. يجب أن يكون كل عنصر إما Feature أو Option أو مثيل Property. |
+| items | [IFeatureItem\[\]](../../com.aspose.xps.metadata/ifeatureitem) | مصفوفة عشوائية من مثيلات Property. يجب أن يكون كل عنصر إما Feature أو Option أو Property. |
 
 ### add(IFeatureItem[] items) {#add-com.aspose.xps.metadata.IFeatureItem...-}
 ```
@@ -94,7 +94,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

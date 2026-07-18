@@ -1,7 +1,7 @@
 ---
 title: "ImageMode"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يسرد خيارات ملاءمة الصورة داخل صندوق."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "قائمة خيارات ملاءمة الصورة داخل صندوق."
 type: docs
 weight: 55
 url: /ar/java/com.aspose.xps/imagemode/
@@ -12,7 +12,7 @@ java.lang.Object, java.lang.Enum
 public enum ImageMode extends Enum<ImageMode>
 ```
 
-يسرد خيارات ملاءمة الصورة داخل صندوق.
+قائمة خيارات ملاءمة الصورة داخل صندوق.
 ## الحقول
 
 | حقل | الوصف |
@@ -120,7 +120,7 @@ public final boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

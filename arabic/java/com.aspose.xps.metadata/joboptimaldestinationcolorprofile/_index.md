@@ -1,6 +1,6 @@
 ---
 title: "JobOptimalDestinationColorProfile"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يحدد ملف اللون الأمثل بناءً على تكوين الجهاز الحالي."
 type: docs
 weight: 60
@@ -16,11 +16,11 @@ public final class JobOptimalDestinationColorProfile extends Property implements
 ```
 
 يحدد ملف تعريف اللون الأمثل بناءً على تكوين الجهاز الحالي. https://docs.microsoft.com/en-us/windows/win32/printdocs/joboptimaldestinationcolorprofile
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [JobOptimalDestinationColorProfile(JobOptimalDestinationColorProfile.Profile profile, String profileData, String path)](#JobOptimalDestinationColorProfile-com.aspose.xps.metadata.JobOptimalDestinationColorProfile.Profile-java.lang.String-java.lang.String-) | ينشئ نسخة جديدة. |
+| [JobOptimalDestinationColorProfile(JobOptimalDestinationColorProfile.Profile profile, String profileData, String path)](#JobOptimalDestinationColorProfile-com.aspose.xps.metadata.JobOptimalDestinationColorProfile.Profile-java.lang.String-java.lang.String-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -41,7 +41,7 @@ public JobOptimalDestinationColorProfile(JobOptimalDestinationColorProfile.Profi
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -64,7 +64,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

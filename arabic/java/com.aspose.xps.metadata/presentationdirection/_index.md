@@ -1,6 +1,6 @@
 ---
 title: "NUp.PresentationDirection"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف ميزة PresentationDirection الداخلية."
 type: docs
 weight: 10
@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class NUp.PresentationDirection extends Feature implements NUp.INUpItem
 ```
 
-يصف ميزة PresentationDirection الداخلية.
-## المنشئات
+يصف ميزة  PresentationDirection  الداخلية.
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PresentationDirection(NUp.PresentationDirection.PresentationDirectionOption[] options)](#PresentationDirection-com.aspose.xps.metadata.NUp.PresentationDirection.PresentationDirectionOption...-) | ينشئ نسخة جديدة. |
+| [PresentationDirection(NUp.PresentationDirection.PresentationDirectionOption[] options)](#PresentationDirection-com.aspose.xps.metadata.NUp.PresentationDirection.PresentationDirectionOption...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public PresentationDirection(NUp.PresentationDirection.PresentationDirectionOpti
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

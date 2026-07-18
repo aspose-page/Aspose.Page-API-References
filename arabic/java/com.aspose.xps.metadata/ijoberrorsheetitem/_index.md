@@ -1,6 +1,6 @@
 ---
 title: "JobErrorSheet.IJobErrorSheetItem"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "واجهة أي عنصر ميزة JobErrorSheet."
 type: docs
 weight: 12
@@ -12,4 +12,4 @@ url: /ar/java/com.aspose.xps.metadata/joberrorsheet.ijoberrorsheetitem/
 public static interface JobErrorSheet.IJobErrorSheetItem extends IFeatureItem
 ```
 
-واجهة أي عنصر ميزة JobErrorSheet.
+واجهة أي عنصر  JobErrorSheet  ميزة.

@@ -1,6 +1,6 @@
 ---
 title: "XpsStyleSimulations"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "القيم الصالحة لخاصية StyleSimulations لعناصر Glyphs."
 type: docs
 weight: 64
@@ -17,9 +17,9 @@ public enum XpsStyleSimulations extends Enum<XpsStyleSimulations>
 
 | حقل | الوصف |
 | --- | --- |
-| [BoldItalicSimulation](#BoldItalicSimulation) | محاكاة عريضة مائلة |
-| [BoldSimulation](#BoldSimulation) | محاكاة عريضة |
-| [ItalicSimulation](#ItalicSimulation) | محاكاة مائلة |
+| [BoldItalicSimulation](#BoldItalicSimulation) | محاكاة غامق مائل |
+| [BoldSimulation](#BoldSimulation) | محاكاة غامق |
+| [ItalicSimulation](#ItalicSimulation) | محاكاة مائل |
 | [None](#None) | بدون محاكاة نمط |
 ## الطرق
 
@@ -48,7 +48,7 @@ public static final XpsStyleSimulations BoldItalicSimulation
 ```
 
 
-محاكاة عريضة مائلة
+محاكاة غامق مائل
 
 ### BoldSimulation {#BoldSimulation}
 ```
@@ -56,7 +56,7 @@ public static final XpsStyleSimulations BoldSimulation
 ```
 
 
-محاكاة عريضة
+محاكاة غامق
 
 ### ItalicSimulation {#ItalicSimulation}
 ```
@@ -64,7 +64,7 @@ public static final XpsStyleSimulations ItalicSimulation
 ```
 
 
-محاكاة مائلة
+محاكاة مائل
 
 ### None {#None}
 ```
@@ -129,7 +129,7 @@ public final boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

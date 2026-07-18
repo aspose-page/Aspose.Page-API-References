@@ -1,6 +1,6 @@
 ---
 title: "Metered"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يوفر طرقًا لتعيين المفتاح المقيس."
 type: docs
 weight: 15
@@ -24,11 +24,11 @@ The component jar file:
  	Metered matered = new Metered();
  	matered.setMeteredKey("PublicKey", "PrivateKey");
 ```
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [Metered()](#Metered--) | ينشئ نسخة جديدة من هذه الفئة. |
+| [Metered()](#Metered--) | ينشئ مثيلاً جديداً لهذه الفئة. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -53,7 +53,7 @@ public Metered()
 ```
 
 
-ينشئ نسخة جديدة من هذه الفئة.
+ينشئ مثيلاً جديداً لهذه الفئة.
 
 ### clearMeteredLicense() {#clearMeteredLicense--}
 ```
@@ -77,14 +77,14 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### flush() {#flush--}
 ```
 public static void flush()
 ```
 
 
-يمسح بيانات العد على الخادم. يستخدم فقط لأغراض التصحيح.
+يفرغ بيانات العد على الخادم. يُستخدم فقط لأغراض التصحيح.
 
 ### getClass() {#getClass--}
 ```

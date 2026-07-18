@@ -1,13 +1,13 @@
 ---
 title: "com.aspose.eps.device"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "توفر حزمة com.aspose.eps.device فئات للأجهزة المحتملة وخيارات الحفظ التي يمكن استخدامها أثناء تحويل PS/EPS إلى صيغ أخرى."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "حزمة com.aspose.eps.device توفر فئات للأجهزة الممكنة وخيارات الحفظ التي يمكن استخدامها أثناء تحويل PS/EPS إلى صيغ أخرى."
 type: docs
 weight: 12
 url: /ar/java/com.aspose.eps.device/
 ---
 
-توفر الحزمة **com.aspose.eps.device** فئات للأجهزة الممكنة وخيارات الحفظ التي يمكن استخدامها أثناء تحويل ملفات PS/EPS إلى صيغ أخرى.
+الحزمة **com.aspose.eps.device** توفر فئات للأجهزة الممكنة وخيارات الحفظ التي يمكن استخدامها أثناء تحويل ملفات PS/EPS إلى صيغ أخرى.
 
 
 ## الفئات
@@ -23,5 +23,5 @@ url: /ar/java/com.aspose.eps.device/
 
 | تعداد | الوصف |
 | --- | --- |
-| [PsSaveFormat](../com.aspose.eps.device/pssaveformat) | تحتوي هذه التعداد على خيارات تنسيق الحفظ المتاحة. |
+| [PsSaveFormat](../com.aspose.eps.device/pssaveformat) | تحتوي هذه التعداد على خيارات متاحة لتنسيق الحفظ. |
 | [SmoothingMode](../com.aspose.eps.device/smoothingmode) | تعداد وضع التنعيم. |

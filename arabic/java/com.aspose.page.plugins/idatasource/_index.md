@@ -1,7 +1,7 @@
 ---
 title: "IDataSource"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "واجهة مصدر البيانات العامة التي تُعرّف الأعضاء المشتركة التي يجب أن تُطبقها مصادر البيانات الفعلية."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "واجهة مصدر البيانات العامة التي تحدد الأعضاء المشتركة التي يجب أن تنفذها مصادر البيانات الفعلية."
 type: docs
 weight: 21
 url: /ar/java/com.aspose.page.plugins/idatasource/

@@ -1,6 +1,6 @@
 ---
 title: "IEventBasedModificationOptions"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يحدد الخيارات المتعلقة بمعالجة التعديلات القائمة على الأحداث أثناء حفظ المستند."
 type: docs
 weight: 17

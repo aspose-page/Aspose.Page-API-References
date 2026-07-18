@@ -1,6 +1,6 @@
 ---
 title: "DocumentBannerSheetSource"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يحدد المصدر لورقة بانر مخصصة."
 type: docs
 weight: 14
@@ -16,11 +16,11 @@ public final class DocumentBannerSheetSource extends StringParameterInit impleme
 ```
 
 يحدد المصدر لورقة بانر مخصصة. https://docs.microsoft.com/en-us/windows/win32/printdocs/documentbannersheetsource
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [DocumentBannerSheetSource(String value)](#DocumentBannerSheetSource-java.lang.String-) | ينشئ نسخة جديدة. |
+| [DocumentBannerSheetSource(String value)](#DocumentBannerSheetSource-java.lang.String-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -43,7 +43,7 @@ public DocumentBannerSheetSource(String value)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -64,7 +64,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

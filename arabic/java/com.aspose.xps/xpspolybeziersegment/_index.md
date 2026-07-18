@@ -1,7 +1,7 @@
 ---
 title: "XpsPolyBezierSegment"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "الفئة التي تُجمل ميزات عنصر PolyBezierSegment."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "فئة تغلف ميزات عنصر PolyBezierSegment."
 type: docs
 weight: 45
 url: /ar/java/com.aspose.xps/xpspolybeziersegment/
@@ -12,12 +12,12 @@ java.lang.Object, [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject), [c
 public class XpsPolyBezierSegment extends XpsPathPolySegment
 ```
 
-فئة تُغلف ميزات عنصر PolyBezierSegment. هذا العنصر يصف مجموعة من منحنيات B?bezier المكعبة.
+فئة تضم ميزات عنصر PolyBezierSegment. يصف هذا العنصر مجموعة من منحنيات B?zier المكعبة.
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [deepClone()](#deepClone--) | ينسخ هذه المجموعة من منحنيات B?bezier المكعبة. |
+| [deepClone()](#deepClone--) | ينسخ مجموعة منحنيات B?bezier المكعبة هذه. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -35,7 +35,7 @@ public XpsPolyBezierSegment deepClone()
 ```
 
 
-ينسخ هذه المجموعة من منحنيات B?bezier المكعبة.
+ينسخ مجموعة منحنيات B?bezier المكعبة هذه.
 
 **Returns:**
 [XpsPolyBezierSegment](../../com.aspose.xps/xpspolybeziersegment) - Clone of this set of cubic B?zier curves.
@@ -53,7 +53,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -111,7 +111,7 @@ public void setStroked(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة التي تحدد ما إذا كان الحد لهذا الجزء من المسار مرسومًا. |
+| القيمة | منطقي | القيمة التي تحدد ما إذا كان الحد لهذا الجزء من المسار مرسومًا. |
 
 ### toString() {#toString--}
 ```

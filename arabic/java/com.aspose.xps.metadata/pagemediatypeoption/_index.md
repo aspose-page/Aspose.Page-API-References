@@ -1,6 +1,6 @@
 ---
 title: "PageMediaType.PageMediaTypeOption"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف خيارات ميزة PageMediaType."
 type: docs
 weight: 13
@@ -15,51 +15,51 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class PageMediaType.PageMediaTypeOption extends Option implements PageMediaType.IPageMediaTypeItem
 ```
 
-يصف خيارات ميزة PageMediaType.
-## المنشئات
+يصف خيارات ميزة  PageMediaType .
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PageMediaTypeOption(String optionName, PageMediaType.IPageMediaTypeOptionItem[] items)](#PageMediaTypeOption-java.lang.String-com.aspose.xps.metadata.PageMediaType.IPageMediaTypeOptionItem...-) | ينشئ نسخة جديدة. |
+| [PageMediaTypeOption(String optionName, PageMediaType.IPageMediaTypeOptionItem[] items)](#PageMediaTypeOption-java.lang.String-com.aspose.xps.metadata.PageMediaType.IPageMediaTypeOptionItem...-) | ينشئ مثيلًا جديدًا. |
 | [PageMediaTypeOption(PageMediaType.PageMediaTypeOption option)](#PageMediaTypeOption-com.aspose.xps.metadata.PageMediaType.PageMediaTypeOption-) | ينسخ هذا المثيل من الخيار. |
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
-| [Archival](#Archival) | يحدد وسائط بجودة أرشيفية. |
-| [AutoSelect](#AutoSelect) | يحدد أن الوسائط سيتم اختيارها تلقائيًا. |
-| [BackPrintFilm](#BackPrintFilm) | يحدد وسائط فيلم طباعة خلفية متخصصة. |
-| [Bond](#Bond) | يحدد وسائط رابطة قياسية. |
-| [CardStock](#CardStock) | يحدد وسائط ورق بطاقة قياسي. |
-| [Continous](#Continous) | يحدد وسائط تغذية مستمرة. |
-| [EnvelopePlain](#EnvelopePlain) | يحدد وسائط ظرف قياسي. |
-| [EnvelopeWindow](#EnvelopeWindow) | يحدد وسائط ظرف بنفذة. |
-| [Fabric](#Fabric) | يحدد وسائط قماشية. |
-| [HighResolution](#HighResolution) | يحدد وسائط عالية الدقة متخصصة. |
-| [Label](#Label) | يحدد وسائط ملصق. |
-| [MultiLayerForm](#MultiLayerForm) | يحدد وسائط نماذج متعددة الأجزاء مرفقة. |
-| [MultiPartForm](#MultiPartForm) | يحدد وسائط نماذج متعددة الأجزاء منفصلة. |
+| [Archival](#Archival) | يحدد وسائط ذات جودة أرشيفية. |
+| [AutoSelect](#AutoSelect) | يحدد أنه سيتم اختيار الوسائط تلقائيًا. |
+| [BackPrintFilm](#BackPrintFilm) | يحدد وسائط فيلم الطباعة الخلفية المتخصصة. |
+| [Bond](#Bond) | يحدد وسائط الربط القياسية. |
+| [CardStock](#CardStock) | يحدد وسائط ورق البطاقات القياسية. |
+| [Continous](#Continous) | يحدد وسائط التغذية المستمرة. |
+| [EnvelopePlain](#EnvelopePlain) | يحدد وسائط الظرف القياسية. |
+| [EnvelopeWindow](#EnvelopeWindow) | يحدد وسائط الظرف ذات النافذة. |
+| [Fabric](#Fabric) | يحدد وسائط القماش. |
+| [HighResolution](#HighResolution) | يحدد وسائط عالية الدقة المتخصصة. |
+| [Label](#Label) | يحدد وسائط الملصق. |
+| [MultiLayerForm](#MultiLayerForm) | يحدد وسائط النماذج المتعددة الأجزاء المرفقة. |
+| [MultiPartForm](#MultiPartForm) | يحدد وسائط النماذج المتعددة الأجزاء المنفصلة. |
 | [None](#None) | يحدد وسائط غير معروفة أو غير مدرجة. |
-| [Photographic](#Photographic) | يحدد وسائط تصوير فوتوغرافي قياسية. |
-| [PhotographicFilm](#PhotographicFilm) | يحدد وسائط تصوير فوتوغرافي فيلمية. |
-| [PhotographicGlossy](#PhotographicGlossy) | يحدد وسائط تصوير فوتوغرافي لامعة. |
-| [PhotographicHighGloss](#PhotographicHighGloss) | يحدد وسائط تصوير فوتوغرافي ذات لمعان عالي. |
-| [PhotographicMatte](#PhotographicMatte) | يحدد وسائط تصوير فوتوغرافي غير لامعة. |
-| [PhotographicSatin](#PhotographicSatin) | يحدد وسائط تصوير فوتوغرافي ساتان. |
-| [PhotographicSemiGloss](#PhotographicSemiGloss) | يحدد وسائط تصوير فوتوغرافي شبه لامعة. |
-| [Plain](#Plain) | يحدد وسائط ورق قياسية. |
-| [Screen](#Screen) | يحدد الإخراج إلى عرض مخرجات بصيغة مستمرة. |
-| [ScreenPaged](#ScreenPaged) | يحدد الإخراج إلى عرض مخرجات بصيغة صفحات. |
-| [Stationary](#Stationary) | يحدد وسائط قرطاسية متخصصة. |
+| [Photographic](#Photographic) | يحدد وسائط التصوير الفوتوغرافي القياسية. |
+| [PhotographicFilm](#PhotographicFilm) | يحدد وسائط التصوير الفوتوغرافي الفيلمية. |
+| [PhotographicGlossy](#PhotographicGlossy) | يحدد وسائط التصوير الفوتوغرافي اللامعة. |
+| [PhotographicHighGloss](#PhotographicHighGloss) | يحدد وسائط التصوير الفوتوغرافي ذات اللمعان العالي. |
+| [PhotographicMatte](#PhotographicMatte) | يحدد وسائط التصوير الفوتوغرافي غير اللامعة. |
+| [PhotographicSatin](#PhotographicSatin) | يحدد وسائط التصوير الفوتوغرافي الساتان. |
+| [PhotographicSemiGloss](#PhotographicSemiGloss) | يحدد وسائط التصوير الفوتوغرافي شبه اللامعة. |
+| [Plain](#Plain) | يحدد وسائط الورق القياسية. |
+| [Screen](#Screen) | يحدد الإخراج إلى شاشة العرض في شكل مستمر. |
+| [ScreenPaged](#ScreenPaged) | يحدد الإخراج إلى شاشة العرض في شكل صفحات. |
+| [Stationary](#Stationary) | يحدد وسائط القرطاسية المتخصصة. |
 | [TShirtTransfer](#TShirtTransfer) | يحدد وسائط نقل القمصان المتخصصة. |
-| [TabStockFull](#TabStockFull) | يحدد وسائط مخزون علامات التبويب التي لم تُقطع مسبقًا (علامات تبويب فردية). |
-| [TabStockPreCut](#TabStockPreCut) | يحدد وسائط مخزون علامات التبويب التي تم قطعها مسبقًا (عدة علامات تبويب). |
+| [TabStockFull](#TabStockFull) | يحدد وسائط المخزون للعلامات التي لم تُقطع مسبقًا (علامات فردية). |
+| [TabStockPreCut](#TabStockPreCut) | يحدد وسائط المخزون للعلامات التي تم قطعها مسبقًا (علامات متعددة). |
 | [Transparency](#Transparency) | يحدد وسائط الشفافية. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. |
+| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. |
 | [add(PageMediaType.IPageMediaTypeOptionItem[] items)](#add-com.aspose.xps.metadata.PageMediaType.IPageMediaTypeOptionItem...-) | يضيف مصفوفة من كائنات  IPageMediaTypeOptionItem  إلى الخيار. |
 | [clone()](#clone--) | ينسخ هذا المثيل من الخيار. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
@@ -79,7 +79,7 @@ public PageMediaTypeOption(String optionName, PageMediaType.IPageMediaTypeOption
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -106,7 +106,7 @@ public static PageMediaType.PageMediaTypeOption Archival
 ```
 
 
-يحدد وسائط بجودة أرشيفية.
+يحدد وسائط ذات جودة أرشيفية.
 
 ### AutoSelect {#AutoSelect}
 ```
@@ -114,7 +114,7 @@ public static PageMediaType.PageMediaTypeOption AutoSelect
 ```
 
 
-يحدد أن الوسائط سيتم اختيارها تلقائيًا.
+يحدد أنه سيتم اختيار الوسائط تلقائيًا.
 
 ### BackPrintFilm {#BackPrintFilm}
 ```
@@ -122,7 +122,7 @@ public static PageMediaType.PageMediaTypeOption BackPrintFilm
 ```
 
 
-يحدد وسائط فيلم طباعة خلفية متخصصة.
+يحدد وسائط فيلم الطباعة الخلفية المتخصصة.
 
 ### Bond {#Bond}
 ```
@@ -130,7 +130,7 @@ public static PageMediaType.PageMediaTypeOption Bond
 ```
 
 
-يحدد وسائط رابطة قياسية.
+يحدد وسائط الربط القياسية.
 
 ### CardStock {#CardStock}
 ```
@@ -138,7 +138,7 @@ public static PageMediaType.PageMediaTypeOption CardStock
 ```
 
 
-يحدد وسائط ورق بطاقة قياسي.
+يحدد وسائط ورق البطاقات القياسية.
 
 ### Continous {#Continous}
 ```
@@ -146,7 +146,7 @@ public static PageMediaType.PageMediaTypeOption Continous
 ```
 
 
-يحدد وسائط تغذية مستمرة.
+يحدد وسائط التغذية المستمرة.
 
 ### EnvelopePlain {#EnvelopePlain}
 ```
@@ -154,7 +154,7 @@ public static PageMediaType.PageMediaTypeOption EnvelopePlain
 ```
 
 
-يحدد وسائط ظرف قياسي.
+يحدد وسائط الظرف القياسية.
 
 ### EnvelopeWindow {#EnvelopeWindow}
 ```
@@ -162,7 +162,7 @@ public static PageMediaType.PageMediaTypeOption EnvelopeWindow
 ```
 
 
-يحدد وسائط ظرف بنفذة.
+يحدد وسائط الظرف ذات النافذة.
 
 ### Fabric {#Fabric}
 ```
@@ -170,7 +170,7 @@ public static PageMediaType.PageMediaTypeOption Fabric
 ```
 
 
-يحدد وسائط قماشية.
+يحدد وسائط القماش.
 
 ### HighResolution {#HighResolution}
 ```
@@ -178,7 +178,7 @@ public static PageMediaType.PageMediaTypeOption HighResolution
 ```
 
 
-يحدد وسائط عالية الدقة متخصصة.
+يحدد وسائط عالية الدقة المتخصصة.
 
 ### Label {#Label}
 ```
@@ -186,7 +186,7 @@ public static PageMediaType.PageMediaTypeOption Label
 ```
 
 
-يحدد وسائط ملصق.
+يحدد وسائط الملصق.
 
 ### MultiLayerForm {#MultiLayerForm}
 ```
@@ -194,7 +194,7 @@ public static PageMediaType.PageMediaTypeOption MultiLayerForm
 ```
 
 
-يحدد وسائط نماذج متعددة الأجزاء مرفقة.
+يحدد وسائط النماذج المتعددة الأجزاء المرفقة.
 
 ### MultiPartForm {#MultiPartForm}
 ```
@@ -202,7 +202,7 @@ public static PageMediaType.PageMediaTypeOption MultiPartForm
 ```
 
 
-يحدد وسائط نماذج متعددة الأجزاء منفصلة.
+يحدد وسائط النماذج المتعددة الأجزاء المنفصلة.
 
 ### None {#None}
 ```
@@ -218,7 +218,7 @@ public static PageMediaType.PageMediaTypeOption Photographic
 ```
 
 
-يحدد وسائط تصوير فوتوغرافي قياسية.
+يحدد وسائط التصوير الفوتوغرافي القياسية.
 
 ### PhotographicFilm {#PhotographicFilm}
 ```
@@ -226,7 +226,7 @@ public static PageMediaType.PageMediaTypeOption PhotographicFilm
 ```
 
 
-يحدد وسائط تصوير فوتوغرافي فيلمية.
+يحدد وسائط التصوير الفوتوغرافي الفيلمية.
 
 ### PhotographicGlossy {#PhotographicGlossy}
 ```
@@ -234,7 +234,7 @@ public static PageMediaType.PageMediaTypeOption PhotographicGlossy
 ```
 
 
-يحدد وسائط تصوير فوتوغرافي لامعة.
+يحدد وسائط التصوير الفوتوغرافي اللامعة.
 
 ### PhotographicHighGloss {#PhotographicHighGloss}
 ```
@@ -242,7 +242,7 @@ public static PageMediaType.PageMediaTypeOption PhotographicHighGloss
 ```
 
 
-يحدد وسائط تصوير فوتوغرافي ذات لمعان عالي.
+يحدد وسائط التصوير الفوتوغرافي ذات اللمعان العالي.
 
 ### PhotographicMatte {#PhotographicMatte}
 ```
@@ -250,7 +250,7 @@ public static PageMediaType.PageMediaTypeOption PhotographicMatte
 ```
 
 
-يحدد وسائط تصوير فوتوغرافي غير لامعة.
+يحدد وسائط التصوير الفوتوغرافي غير اللامعة.
 
 ### PhotographicSatin {#PhotographicSatin}
 ```
@@ -258,7 +258,7 @@ public static PageMediaType.PageMediaTypeOption PhotographicSatin
 ```
 
 
-يحدد وسائط تصوير فوتوغرافي ساتان.
+يحدد وسائط التصوير الفوتوغرافي الساتان.
 
 ### PhotographicSemiGloss {#PhotographicSemiGloss}
 ```
@@ -266,7 +266,7 @@ public static PageMediaType.PageMediaTypeOption PhotographicSemiGloss
 ```
 
 
-يحدد وسائط تصوير فوتوغرافي شبه لامعة.
+يحدد وسائط التصوير الفوتوغرافي شبه اللامعة.
 
 ### Plain {#Plain}
 ```
@@ -274,7 +274,7 @@ public static PageMediaType.PageMediaTypeOption Plain
 ```
 
 
-يحدد وسائط ورق قياسية.
+يحدد وسائط الورق القياسية.
 
 ### Screen {#Screen}
 ```
@@ -282,7 +282,7 @@ public static PageMediaType.PageMediaTypeOption Screen
 ```
 
 
-يحدد الإخراج إلى عرض مخرجات بصيغة مستمرة.
+يحدد الإخراج إلى شاشة العرض في شكل مستمر.
 
 ### ScreenPaged {#ScreenPaged}
 ```
@@ -290,7 +290,7 @@ public static PageMediaType.PageMediaTypeOption ScreenPaged
 ```
 
 
-يحدد الإخراج إلى عرض مخرجات بصيغة صفحات.
+يحدد الإخراج إلى شاشة العرض في شكل صفحات.
 
 ### Stationary {#Stationary}
 ```
@@ -298,7 +298,7 @@ public static PageMediaType.PageMediaTypeOption Stationary
 ```
 
 
-يحدد وسائط قرطاسية متخصصة.
+يحدد وسائط القرطاسية المتخصصة.
 
 ### TShirtTransfer {#TShirtTransfer}
 ```
@@ -314,7 +314,7 @@ public static PageMediaType.PageMediaTypeOption TabStockFull
 ```
 
 
-يحدد وسائط مخزون علامات التبويب التي لم تُقطع مسبقًا (علامات تبويب فردية).
+يحدد وسائط المخزون للعلامات التي لم تُقطع مسبقًا (علامات فردية).
 
 ### TabStockPreCut {#TabStockPreCut}
 ```
@@ -322,7 +322,7 @@ public static PageMediaType.PageMediaTypeOption TabStockPreCut
 ```
 
 
-يحدد وسائط مخزون علامات التبويب التي تم قطعها مسبقًا (عدة علامات تبويب).
+يحدد وسائط المخزون للعلامات التي تم قطعها مسبقًا (علامات متعددة).
 
 ### Transparency {#Transparency}
 ```
@@ -338,7 +338,7 @@ public void add(IOptionItem[] items)
 ```
 
 
-يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. يجب أن يكون كل عنصر إما  ScoredProperty  أو  Property  مثيل.
+يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. يجب أن يكون كل عنصر إما مثال ScoredProperty أو مثال Property.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -366,7 +366,7 @@ public PageMediaType.PageMediaTypeOption clone()
 ```
 
 
-ينسخ هذا الكائن الخيار. الاختصار إلى مُنشئ النسخ.
+ينسخ هذا الكائن الخيار. الاختصار إلى مُنشئ الاستنساخ.
 
 **Returns:**
 [PageMediaTypeOption](../../com.aspose.xps.metadata/pagemediatypeoption) - The clone of this option instance.
@@ -384,7 +384,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

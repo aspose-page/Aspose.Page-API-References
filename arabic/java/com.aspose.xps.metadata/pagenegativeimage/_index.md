@@ -1,7 +1,7 @@
 ---
 title: "PageNegativeImage"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يصف إعداد السالب للإخراج."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يصف إعداد السلبية للإخراج."
 type: docs
 weight: 112
 url: /ar/java/com.aspose.xps.metadata/pagenegativeimage/
@@ -16,16 +16,16 @@ public final class PageNegativeImage extends Feature implements IJobPrintTicketI
 ```
 
 يصف إعداد السلبية للمخرجات. https://docs.microsoft.com/en-us/windows/win32/printdocs/pagenegativeimage
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PageNegativeImage(PageNegativeImage.PageNegativeImageOption[] options)](#PageNegativeImage-com.aspose.xps.metadata.PageNegativeImage.PageNegativeImageOption...-) | ينشئ نسخة جديدة. |
+| [PageNegativeImage(PageNegativeImage.PageNegativeImageOption[] options)](#PageNegativeImage-com.aspose.xps.metadata.PageNegativeImage.PageNegativeImageOption...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public PageNegativeImage(PageNegativeImage.PageNegativeImageOption[] options)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

@@ -1,7 +1,7 @@
 ---
 title: "PageDeviceColorSpaceProfileURI"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يحدد URI نسبية إلى جذر الحزمة لملف تعريف ICC موجود في مستند XPS."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يحدد URI نسبية إلى جذر الحزمة إلى ملف تعريف ICC موجود في مستند XPS."
 type: docs
 weight: 94
 url: /ar/java/com.aspose.xps.metadata/pagedevicecolorspaceprofileuri/
@@ -15,12 +15,12 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class PageDeviceColorSpaceProfileURI extends StringParameterInit implements IJobPrintTicketItem, IDocumentPrintTicketItem, IPagePrintTicketItem
 ```
 
-يحدد URI نسبيًا إلى جذر الحزمة لملف تعريف ICC الموجود في مستند XPS. يعتمد معالجة هذا الخيار على إعداد ميزة PageDeviceColorSpaceUsage. يُفترض أن جميع العناصر التي تستخدم هذا الملف التعريفي موجودة بالفعل في مساحة اللون المناسبة للجهاز، ولن يتم إدارة اللون لها في برنامج التشغيل أو الجهاز. https://docs.microsoft.com/en-us/windows/win32/printdocs/pagedevicecolorspaceprofileuri
-## المنشئات
+يحدد URI نسبيًا إلى جذر الحزمة لملف تعريف ICC الموجود في مستند XPS. يعتمد معالجة هذا الخيار على إعداد ميزة PageDeviceColorSpaceUsage. تُفترض أن جميع العناصر التي تستخدم هذا الملف التعريفي موجودة بالفعل في مساحة اللون الجهازية المناسبة، ولن يتم إدارة اللون لها في برنامج التشغيل أو الجهاز. https://docs.microsoft.com/en-us/windows/win32/printdocs/pagedevicecolorspaceprofileuri
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PageDeviceColorSpaceProfileURI(String value)](#PageDeviceColorSpaceProfileURI-java.lang.String-) | ينشئ نسخة جديدة. |
+| [PageDeviceColorSpaceProfileURI(String value)](#PageDeviceColorSpaceProfileURI-java.lang.String-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -43,7 +43,7 @@ public PageDeviceColorSpaceProfileURI(String value)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -64,7 +64,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

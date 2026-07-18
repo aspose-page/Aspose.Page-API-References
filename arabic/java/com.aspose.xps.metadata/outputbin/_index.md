@@ -1,7 +1,7 @@
 ---
 title: "OutputBin"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "الفئة الأساسية لميزات JobOutputBin وDocumentOutputBin وPageOutputBin."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "الفئة الأساسية لـ JobOutputBin و DocumentOutputBin و PageOutputBin لميزات الفئات."
 type: docs
 weight: 77
 url: /ar/java/com.aspose.xps.metadata/outputbin/
@@ -12,12 +12,12 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public abstract class OutputBin extends Feature
 ```
 
-الفئة الأساسية لفئات ميزات JobOutputBin و DocumentOutputBin و PageOutputBin.
+الفئة الأساسية لـ  JobOutputBin ,  DocumentOutputBin  و  PageOutputBin  فئات الميزات.
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -55,7 +55,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

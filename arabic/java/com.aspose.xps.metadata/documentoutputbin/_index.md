@@ -1,6 +1,6 @@
 ---
 title: "DocumentOutputBin"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف القائمة الكاملة للصناديق المدعومة للجهاز."
 type: docs
 weight: 30
@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class DocumentOutputBin extends OutputBin implements IJobPrintTicketItem, IDocumentPrintTicketItem
 ```
 
-يصف القائمة الكاملة للمخازن المدعومة للجهاز. يسمح بتحديد مخزن الإخراج على أساس كل مستند. الكلمات المفتاحية  JobOutputBin ,  DocumentOutputBin  و  PageOutputBin  متعارضة ولا يمكن استخدامها سوى واحدة في مستند PrintTicket أو Print Capabilities. https://docs.microsoft.com/en-us/windows/win32/printdocs/documentoutputbin
-## المنشئات
+يصف القائمة الكاملة للصناديق المدعومة للجهاز. يسمح بتحديد صندوق الإخراج على أساس كل مستند. الكلمات المفتاحية JobOutputBin و DocumentOutputBin و PageOutputBin متعارضة ولا يمكن استخدامها معًا؛ يجب تحديد واحدة فقط في مستند PrintTicket أو مستند إمكانيات الطباعة. https://docs.microsoft.com/en-us/windows/win32/printdocs/documentoutputbin
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [DocumentOutputBin(OutputBin.IOutputBinItem[] items)](#DocumentOutputBin-com.aspose.xps.metadata.OutputBin.IOutputBinItem...-) | ينشئ نسخة جديدة. |
+| [DocumentOutputBin(OutputBin.IOutputBinItem[] items)](#DocumentOutputBin-com.aspose.xps.metadata.OutputBin.IOutputBinItem...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public DocumentOutputBin(OutputBin.IOutputBinItem[] items)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

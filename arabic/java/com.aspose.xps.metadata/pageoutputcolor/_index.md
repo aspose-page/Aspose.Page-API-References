@@ -1,6 +1,6 @@
 ---
 title: "PageOutputColor"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف خصائص إعدادات اللون للإخراج."
 type: docs
 weight: 115
@@ -16,16 +16,16 @@ public final class PageOutputColor extends Feature implements IJobPrintTicketIte
 ```
 
 يصف خصائص إعدادات اللون للإخراج. https://docs.microsoft.com/en-us/windows/win32/printdocs/pageoutputcolor
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PageOutputColor(PageOutputColor.IPageOutputColorItem[] items)](#PageOutputColor-com.aspose.xps.metadata.PageOutputColor.IPageOutputColorItem...-) | ينشئ نسخة جديدة. |
+| [PageOutputColor(PageOutputColor.IPageOutputColorItem[] items)](#PageOutputColor-com.aspose.xps.metadata.PageOutputColor.IPageOutputColorItem...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public PageOutputColor(PageOutputColor.IPageOutputColorItem[] items)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

@@ -1,7 +1,7 @@
 ---
 title: "DocumentImpositionColor"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يجب أن يظهر محتوى التطبيق المعلَّم باللون المحدد المسمى في جميع فواصل الألوان."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يجب أن يظهر محتوى التطبيق المعلَّم باللون المحدد المسماى على جميع فواصل الألوان."
 type: docs
 weight: 26
 url: /ar/java/com.aspose.xps.metadata/documentimpositioncolor/
@@ -15,12 +15,12 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class DocumentImpositionColor extends StringParameterInit implements IJobPrintTicketItem, IDocumentPrintTicketItem
 ```
 
-يجب أن يظهر محتوى التطبيق المسمى باللون المحدد على جميع فواصل الألوان. https://docs.microsoft.com/en-us/windows/win32/printdocs/documentimpositioncolor
-## المنشئات
+يجب أن يظهر محتوى التطبيق المعلَّم باللون المحدد المسماة على جميع فواصل الألوان. https://docs.microsoft.com/en-us/windows/win32/printdocs/documentimpositioncolor
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [DocumentImpositionColor(String value)](#DocumentImpositionColor-java.lang.String-) | ينشئ نسخة جديدة. |
+| [DocumentImpositionColor(String value)](#DocumentImpositionColor-java.lang.String-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -43,7 +43,7 @@ public DocumentImpositionColor(String value)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -64,7 +64,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

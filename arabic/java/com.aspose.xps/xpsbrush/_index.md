@@ -1,18 +1,18 @@
 ---
 title: "XpsBrush"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "فئة تُغلف الميزات المشتركة لجميع عناصر الفرشاة."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "فئة تجسد الميزات المشتركة لجميع عناصر الفرش."
 type: docs
 weight: 15
 url: /ar/java/com.aspose.xps/xpsbrush/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject)
+java.lang.Object, [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject)
 ```
 public abstract class XpsBrush extends XpsObject
 ```
 
-فئة تُغلف الميزات المشتركة لجميع عناصر الفرشاة.
+فئة تجسد الميزات المشتركة لجميع عناصر الفرش.
 ## الطرق
 
 | طريقة | الوصف |
@@ -42,7 +42,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

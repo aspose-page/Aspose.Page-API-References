@@ -1,26 +1,26 @@
 ---
 title: "XpsGradientStop"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "فئة تُغلف ميزات عنصر GradientStop."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "فئة تجسد ميزات عنصر GradientStop."
 type: docs
 weight: 27
 url: /ar/java/com.aspose.xps/xpsgradientstop/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject)
+java.lang.Object, [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject)
 ```
 public final class XpsGradientStop extends XpsObject
 ```
 
-فئة تُجَمِّع ميزات عنصر GradientStop. يُستخدم هذا العنصر من قبل كل من عناصر LinearGradientBrush و RadialGradientBrush لتحديد الموقع والنطاق لتدرج اللون عند عرض التدرج.
+فئة تُجَمّع ميزات عنصر GradientStop. يُستخدم هذا العنصر من قبل كلٍ من عناصر LinearGradientBrush و RadialGradientBrush لتحديد موقع ونطاق تقدم اللون عند عرض تدرج لوني.
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [deepClone()](#deepClone--) | ينسخ هذه النقطة اللونية. |
+| [deepClone()](#deepClone--) | ينسخ هذا إيقاف التدرج. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getColor()](#getColor--) | يعيد لون نقطة التدرج. |
+| [getColor()](#getColor--) | يعيد لون إيقاف التدرج. |
 | [getOffset()](#getOffset--) | يعيد إزاحة التدرج. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -35,7 +35,7 @@ public XpsGradientStop deepClone()
 ```
 
 
-ينسخ هذه النقطة اللونية.
+ينسخ هذا إيقاف التدرج.
 
 **Returns:**
 [XpsGradientStop](../../com.aspose.xps/xpsgradientstop) - Clone of this gradient stop.
@@ -53,7 +53,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -70,7 +70,7 @@ public XpsColor getColor()
 ```
 
 
-يعيد لون نقطة التدرج.
+يعيد لون إيقاف التدرج.
 
 **Returns:**
 [XpsColor](../../com.aspose.xps/xpscolor) - The gradient stop color.

@@ -1,7 +1,7 @@
 ---
 title: "IDocumentPrintTicketItem"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "واجهة عناصر تذكرة الطباعة ذات البادئة الوثائقية."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "الواجهة لعناصر تذكرة الطباعة ذات البادئة المستندية."
 type: docs
 weight: 153
 url: /ar/java/com.aspose.xps.metadata/idocumentprintticketitem/
@@ -12,4 +12,4 @@ url: /ar/java/com.aspose.xps.metadata/idocumentprintticketitem/
 public interface IDocumentPrintTicketItem extends IPrintTicketItem
 ```
 
-واجهة عناصر تذكرة الطباعة ذات البادئة الوثائقية.
+الواجهة لعناصر تذكرة الطباعة ذات البادئة المستندية.

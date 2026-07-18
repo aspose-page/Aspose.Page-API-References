@@ -1,7 +1,7 @@
 ---
 title: "SmoothingMode"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يحدد ما إذا كان يتم تطبيق تنعيم مضاد للتعرّج على الخطوط والمنحنيات وحواف المناطق المملوءة."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يحدد ما إذا كان يتم تطبيق تنعيم مضاد للتعرج على الخطوط والمنحنيات وحواف المناطق المملوءة."
 type: docs
 weight: 24
 url: /ar/java/com.aspose.xps.rendering/smoothingmode/
@@ -12,16 +12,16 @@ java.lang.Object, java.lang.Enum
 public enum SmoothingMode extends Enum<SmoothingMode>
 ```
 
-يحدد ما إذا كان يتم تطبيق التنعيم (مضاد التعرجات) على الخطوط والمنحنيات وحواف المناطق المملوءة.
+يحدد ما إذا كان يتم تطبيق التنعيم (مضاد التعرج) على الخطوط والمنحنيات وحواف المناطق المملوءة.
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
-| [AntiAlias](#AntiAlias) | يحدد العرض مع مضاد التعرّج. |
-| [Default](#Default) | يحدد عدم وجود مضاد للتعرّج. |
-| [HighQuality](#HighQuality) | يحدد العرض مع مضاد التعرّج. |
-| [HighSpeed](#HighSpeed) | يحدد عدم وجود مضاد للتعرّج. |
-| [None](#None) | يحدد عدم وجود مضاد للتعرّج. |
+| [AntiAlias](#AntiAlias) | يحدد العرض مع مضاد التعرج. |
+| [Default](#Default) | يحدد عدم وجود مضاد للتعرج. |
+| [HighQuality](#HighQuality) | يحدد العرض مع مضاد التعرج. |
+| [HighSpeed](#HighSpeed) | يحدد عدم وجود مضاد للتعرج. |
+| [None](#None) | يحدد عدم وجود مضاد للتعرج. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -49,7 +49,7 @@ public static final SmoothingMode AntiAlias
 ```
 
 
-يحدد العرض مع مضاد التعرّج.
+يحدد العرض مع مضاد التعرج.
 
 ### Default {#Default}
 ```
@@ -57,7 +57,7 @@ public static final SmoothingMode Default
 ```
 
 
-يحدد عدم وجود مضاد للتعرّج.
+يحدد عدم وجود مضاد للتعرج.
 
 ### HighQuality {#HighQuality}
 ```
@@ -65,7 +65,7 @@ public static final SmoothingMode HighQuality
 ```
 
 
-يحدد العرض مع مضاد التعرّج.
+يحدد العرض مع مضاد التعرج.
 
 ### HighSpeed {#HighSpeed}
 ```
@@ -73,7 +73,7 @@ public static final SmoothingMode HighSpeed
 ```
 
 
-يحدد عدم وجود مضاد للتعرّج.
+يحدد عدم وجود مضاد للتعرج.
 
 ### None {#None}
 ```
@@ -81,7 +81,7 @@ public static final SmoothingMode None
 ```
 
 
-يحدد عدم وجود مضاد للتعرّج.
+يحدد عدم وجود مضاد للتعرج.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```
@@ -138,7 +138,7 @@ public final boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

@@ -1,6 +1,6 @@
 ---
 title: "StreamResult"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يمثل نتيجة العملية على شكل تدفق."
 type: docs
 weight: 18
@@ -16,11 +16,11 @@ public final class StreamResult implements IOperationResult
 ```
 
 يمثل نتيجة العملية على شكل تدفق.
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [StreamResult(OutputStream stream)](#StreamResult-java.io.OutputStream-) | يُهيئ نسخة جديدة باستخدام كائن التدفق المحدد. |
+| [StreamResult(OutputStream stream)](#StreamResult-java.io.OutputStream-) | يقوم بتهيئة نسخة جديدة باستخدام كائن التدفق المحدد. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -47,12 +47,12 @@ public StreamResult(OutputStream stream)
 ```
 
 
-يُهيئ نسخة جديدة باستخدام كائن التدفق المحدد.
+يقوم بتهيئة نسخة جديدة باستخدام كائن التدفق المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| دفق | java.io.OutputStream | كائن التدفق |
+| stream | java.io.OutputStream | كائن التدفق |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -68,7 +68,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

@@ -1,7 +1,7 @@
 ---
 title: "JobOutputOptimization"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يصف معالجة المهمة المقصودة لتحسين الإخراج لسيناريوهات استخدام معينة كما هو موضح في الخيار المحدد."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يصف معالجة المهمة المقصودة لتحسين الإخراج لسيناريوهات الاستخدام الخاصة كما هو موضح في الخيار المحدد."
 type: docs
 weight: 62
 url: /ar/java/com.aspose.xps.metadata/joboutputoptimization/
@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class JobOutputOptimization extends Feature implements IJobPrintTicketItem
 ```
 
-يصف معالجة المهمة، المقصودة لتحسين الإخراج لسيناريوهات استخدام معينة كما هو موضح في الخيار المحدد. https://docs.microsoft.com/en-us/windows/win32/printdocs/joboutputoptimization
-## المنشئات
+يصف معالجة المهمة، المقصودة لتحسين الإخراج لسيناريوهات الاستخدام الخاصة كما هو موضح في الخيار المحدد. https://docs.microsoft.com/en-us/windows/win32/printdocs/joboutputoptimization
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [JobOutputOptimization(JobOutputOptimization.JobOutputOptimizationOption[] options)](#JobOutputOptimization-com.aspose.xps.metadata.JobOutputOptimization.JobOutputOptimizationOption...-) | ينشئ نسخة جديدة. |
+| [JobOutputOptimization(JobOutputOptimization.JobOutputOptimizationOption[] options)](#JobOutputOptimization-com.aspose.xps.metadata.JobOutputOptimization.JobOutputOptimizationOption...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public JobOutputOptimization(JobOutputOptimization.JobOutputOptimizationOption[]
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

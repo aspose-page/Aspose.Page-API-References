@@ -1,7 +1,7 @@
 ---
 title: "TextRenderingMode"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يحتوي هذا التعداد على القيم الممكنة لوضع عرض النص."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يحتوي هذا التعداد على القيم المحتملة لوضع عرض النص."
 type: docs
 weight: 24
 url: /ar/java/com.aspose.page/textrenderingmode/
@@ -12,7 +12,7 @@ java.lang.Object, java.lang.Enum
 public enum TextRenderingMode extends Enum<TextRenderingMode>
 ```
 
-يحتوي هذا التعداد على القيم الممكنة لوضع عرض النص.
+يحتوي هذا التعداد على القيم المحتملة لوضع عرض النص.
 ## الحقول
 
 | حقل | الوصف |
@@ -129,7 +129,7 @@ public final boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

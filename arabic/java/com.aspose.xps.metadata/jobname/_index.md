@@ -1,6 +1,6 @@
 ---
 title: "JobName"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يحدد اسمًا وصفيًا للوظيفة."
 type: docs
 weight: 59
@@ -12,12 +12,12 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class JobName extends NameProperty
 ```
 
-يحدد اسمًا وصفيًا للوظيفة. https://docs.microsoft.com/en-us/windows/win32/printdocs/jobname
-## المنشئات
+يحدد اسمًا وصفيًا للمهمة. https://docs.microsoft.com/en-us/windows/win32/printdocs/jobname
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [JobName(String jobName)](#JobName-java.lang.String-) | ينشئ نسخة جديدة. |
+| [JobName(String jobName)](#JobName-java.lang.String-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -38,12 +38,12 @@ public JobName(String jobName)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| jobName | java.lang.String | اسم الوظيفة. |
+| jobName | java.lang.String | اسم المهمة. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -59,7 +59,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
