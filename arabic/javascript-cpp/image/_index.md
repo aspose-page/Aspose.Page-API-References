@@ -1,6 +1,6 @@
 ---
 title: "دوال الصورة"
-second_title: "Aspose.Page للـ JavaScript عبر C++"
+second_title: "Aspose.Page لـ JavaScript عبر C++"
 description: "دوال للعمل مع ملفات الصورة."
 weight: 50
 type: docs
@@ -15,7 +15,7 @@ url: /ar/javascript-cpp/image/
 
 ## Detailed Description
 
-حفظ صورة بأكثر الصيغ شيوعًا مثل BMP و PNG و JPEG و GOF و TIFF كملف EPS.
+حفظ صورة بأكثر الصيغ شيوعًا مثل BMP, PNG, JPEG, GOF, TIFF كملف EPS.
 
 ```js
 /* Web Worker*/

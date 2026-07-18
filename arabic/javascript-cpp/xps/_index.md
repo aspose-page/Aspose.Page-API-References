@@ -1,7 +1,7 @@
 ---
-title: "دوال XPS"
-second_title: "Aspose.Page للـ JavaScript عبر C++"
-description: "دوال للعمل مع ملفات XPS."
+title: "وظائف XPS"
+second_title: "Aspose.Page لـ JavaScript عبر C++"
+description: "وظائف للعمل مع ملفات XPS."
 weight: 42
 type: docs
 url: /ar/javascript-cpp/xps/
@@ -11,7 +11,7 @@ url: /ar/javascript-cpp/xps/
 
 | دالة | الوصف |
 | -------- | ----------- |
-| [AsposeGetXpsPageCount](./getxpspagecount/) | الحصول على عدد الصفحات في مستند xps. |
+| [AsposeGetXpsPageCount](./getxpspagecount/) | الحصول على عدد الصفحات في مستند xps-document. |
 
 ## Detailed Description
 

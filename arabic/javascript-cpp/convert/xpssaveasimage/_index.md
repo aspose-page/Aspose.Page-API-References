@@ -1,6 +1,6 @@
 ---
 title: "XPSSaveAsImage"
-second_title: "Aspose.Page للـ JavaScript عبر C++"
+second_title: "Aspose.Page لـ JavaScript عبر C++"
 description: "يقوم بتحويل XPS إلى صورة"
 type: docs
 weight: 10
@@ -22,9 +22,9 @@ function AsposeXPSSaveAsImage(
 | معامل | نوع | الوصف |
 | --------- | ---- | ----------- |
 | fileBlob | كائن Blob | محتوى الخط المصدر للتحويل. |
-| fileName | string | اسم الملف. |
+| fileName | سلسلة | اسم الملف. |
 | imageFormat | ImageFormat | تنسيق الصورة للتحويل إليه. |
-| supressErrors | bool | يحدد ما إذا كان يجب كتم الأخطاء أم لا. |
+| supressErrors | bool | يحدد ما إذا كان يجب قمع الأخطاء أم لا. |
 
 ### قيمة الإرجاع
 
@@ -32,7 +32,7 @@ function AsposeXPSSaveAsImage(
 | حقل | الوصف |
 | ----- | ----------- |
 |  | errorCode | خطأ الكود (0 لا خطأ) |
-|  | errorText | خطأ النص ("" لا خطأ) |
+|  | errorText | خطأ النص (\"\" لا خطأ) |
 |  | fileNameResult | اسم ملف النتيجة |
 
 ### أمثلة

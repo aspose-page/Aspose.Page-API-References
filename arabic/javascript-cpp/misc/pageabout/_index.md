@@ -1,6 +1,6 @@
 ---
 title: "AsposePageAbout"
-second_title: "Aspose.Page للـ JavaScript عبر C++"
+second_title: "Aspose.Page لـ JavaScript عبر C++"
 description: "الحصول على معلومات حول المنتج."
 type: docs
 url: /ar/javascript-cpp/misc/asposepageabout/
@@ -20,7 +20,7 @@ function AsposePageAbout()
 | حقل | الوصف |
 | ----- | ----------- |
 | errorCode | خطأ الكود (0 لا خطأ) |
-| errorText | خطأ النص ("" لا خطأ) |
+| errorText | خطأ النص (\"\" لا خطأ) |
 | المنتج | اسم المنتج |
 | الإصدار | إصدار المنتج |
 | islicensed | المنتج مرخص |
