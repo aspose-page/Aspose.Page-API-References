@@ -17,8 +17,8 @@ public class FontConstants
 
 | 字段 | 描述 |
 | --- | --- |
-| [EMBED_FONTS](#EMBED-FONTS) | 属性键，指示是否在已保存的文档中嵌入字体 |
-| [EMBED_FONTS_AS](#EMBED-FONTS-AS) | 属性键，指示在保存文档时使用的字体类型 |
+| [EMBED_FONTS](#EMBED-FONTS) | 属性键，指示是否在保存的文档中嵌入字体 |
+| [EMBED_FONTS_AS](#EMBED-FONTS-AS) | 属性键，指示保存文档时使用的字体类型 |
 | [EMBED_FONTS_TRUETYPE](#EMBED-FONTS-TRUETYPE) | "TrueType" 字体类型值，用于 "EMBED\_FONTS\_AS" 键 |
 | [EMBED_FONTS_TYPE1](#EMBED-FONTS-TYPE1) | "Type3" 字体类型值，用于 "EMBED\_FONTS\_AS" 键 |
 | [EMBED_FONTS_TYPE3](#EMBED-FONTS-TYPE3) | "Type3" 字体类型值，用于 "EMBED\_FONTS\_AS" 键 |
@@ -42,7 +42,7 @@ public static final String EMBED_FONTS
 ```
 
 
-属性键，指示是否在已保存的文档中嵌入字体
+属性键，指示是否在保存的文档中嵌入字体
 
 ### EMBED_FONTS_AS {#EMBED-FONTS-AS}
 ```
@@ -50,7 +50,7 @@ public static final String EMBED_FONTS_AS
 ```
 
 
-属性键，指示在保存文档时使用的字体类型
+属性键，指示保存文档时使用的字体类型
 
 ### EMBED_FONTS_TRUETYPE {#EMBED-FONTS-TRUETYPE}
 ```

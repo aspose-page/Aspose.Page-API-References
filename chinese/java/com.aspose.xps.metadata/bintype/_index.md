@@ -15,16 +15,16 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class OutputBin.BinType extends ScoredProperty implements OutputBin.IOutputBinOptionItem
 ```
 
-定义 BinType 计分属性值的常量。
+定义  BinType  计分属性值的常量。
 ## 字段
 
 | 字段 | 描述 |
 | --- | --- |
-| [Finisher](#Finisher) | Finisher bin。 |
-| [MailBox](#MailBox) | MailBox bin。 |
+| [Finisher](#Finisher) | 装订机箱。 |
+| [MailBox](#MailBox) | 邮件箱。 |
 | [None](#None) | 以上皆非。 |
-| [Sorter](#Sorter) | Sorter bin。 |
-| [Stacker](#Stacker) | Stacker bin。 |
+| [Sorter](#Sorter) | 分拣箱。 |
+| [Stacker](#Stacker) | 堆垛箱。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -45,7 +45,7 @@ public static final OutputBin.BinType Finisher
 ```
 
 
-Finisher bin。
+装订机箱。
 
 ### MailBox {#MailBox}
 ```
@@ -53,7 +53,7 @@ public static final OutputBin.BinType MailBox
 ```
 
 
-MailBox bin。
+邮件箱。
 
 ### None {#None}
 ```
@@ -69,7 +69,7 @@ public static final OutputBin.BinType Sorter
 ```
 
 
-Sorter bin。
+分拣箱。
 
 ### Stacker {#Stacker}
 ```
@@ -77,7 +77,7 @@ public static final OutputBin.BinType Stacker
 ```
 
 
-Stacker bin。
+堆垛箱。
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class InputBin.InputBinOption extends Option implements InputBin.IInputBinItem
 ```
 
-描述 JobInputBin、DocumentInputBin 和 PageInputBin 功能选项。
+描述  JobInputBin ,  DocumentInputBin  和  PageInputBin  功能选项。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -26,7 +26,7 @@ public static final class InputBin.InputBinOption extends Option implements Inpu
 | 字段 | 描述 |
 | --- | --- |
 | [AutoSelect](#AutoSelect) | 设备将根据配置自动选择最佳选项。 |
-| [AutoSheetFeeder](#AutoSheetFeeder) | 用于喷墨打印机的设备输入托盘。 |
+| [AutoSheetFeeder](#AutoSheetFeeder) | 喷墨打印机的设备输入托盘。 |
 | [Cassette](#Cassette) | 指定送纸盒为盒式。 |
 | [Manual](#Manual) | 指定默认手动送纸盒。 |
 | [Tractor](#Tractor) | 指定送纸盒为牵引式。 |
@@ -58,7 +58,7 @@ public InputBinOption(String optionName, InputBin.IInputBinOptionItem[] items)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| optionName | java.lang.String | 选项名称。 |
+| optionName | java.lang.String | 一个选项名称。 |
 | items | [IInputBinOptionItem\[\]](../../com.aspose.xps.metadata/iinputbinoptionitem) | 任意的 IInputBinOptionItem 实例数组。 |
 
 ### AutoSelect {#AutoSelect}
@@ -75,7 +75,7 @@ public static final InputBin.InputBinOption AutoSheetFeeder
 ```
 
 
-用于喷墨打印机的设备输入托盘。
+喷墨打印机的设备输入托盘。
 
 ### Cassette {#Cassette}
 ```

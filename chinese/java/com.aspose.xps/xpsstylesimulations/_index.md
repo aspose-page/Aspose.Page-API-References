@@ -1,7 +1,7 @@
 ---
 title: "XpsStyleSimulations"
 second_title: "Aspose.Page for Java API 参考"
-description: "Glyphs 元素 StyleSimulations 属性的有效值。"
+description: "Glyphs 元素的 StyleSimulations 属性的有效值。"
 type: docs
 weight: 64
 url: /zh/java/com.aspose.xps/xpsstylesimulations/

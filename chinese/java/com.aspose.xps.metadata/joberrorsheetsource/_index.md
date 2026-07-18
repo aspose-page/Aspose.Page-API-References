@@ -1,7 +1,7 @@
 ---
 title: "JobErrorSheetSource"
 second_title: "Aspose.Page for Java API 参考"
-description: "指定自定义错误页的来源。"
+description: "指定自定义错误单的来源。"
 type: docs
 weight: 54
 url: /zh/java/com.aspose.xps.metadata/joberrorsheetsource/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class JobErrorSheetSource extends StringParameterInit implements IJobPrintTicketItem
 ```
 
-指定自定义错误纸张的来源。 https://docs.microsoft.com/en-us/windows/win32/printdocs/joberrorsheetsource
+指定自定义错误表的来源。 https://docs.microsoft.com/en-us/windows/win32/printdocs/joberrorsheetsource
 ## 构造函数
 
 | 构造函数 | 描述 |

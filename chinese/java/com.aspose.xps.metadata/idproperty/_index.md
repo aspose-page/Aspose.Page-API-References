@@ -1,7 +1,7 @@
 ---
 title: "IDProperty"
 second_title: "Aspose.Page for Java API 参考"
-description: "JobID 和 DocumentID 属性类的基类。"
+description: "用于 JobID 和 DocumentID 属性类的基类。"
 type: docs
 weight: 40
 url: /zh/java/com.aspose.xps.metadata/idproperty/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public class IDProperty extends Property
 ```
 
-用于 JobID 和 DocumentID 属性类的基类。
+用于  JobID  和  DocumentID  属性类的基类。
 ## 方法
 
 | 方法 | 描述 |

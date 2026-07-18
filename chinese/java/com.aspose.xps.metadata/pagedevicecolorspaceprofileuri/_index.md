@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class PageDeviceColorSpaceProfileURI extends StringParameterInit implements IJobPrintTicketItem, IDocumentPrintTicketItem, IPagePrintTicketItem
 ```
 
-指定相对于包根的 URI，指向 XPS 文档中包含的 ICC 配置文件。此选项的处理取决于 PageDeviceColorSpaceUsage 功能的设置。使用该配置文件的所有元素被视为已在适当的设备颜色空间中，驱动程序或设备将不对其进行颜色管理。 https://docs.microsoft.com/en-us/windows/win32/printdocs/pagedevicecolorspaceprofileuri
+指定相对于包根的 URI，指向 XPS 文档中包含的 ICC 配置文件。此选项的处理取决于 PageDeviceColorSpaceUsage 功能的设置。使用该配置文件的所有元素被视为已经处于适当的设备颜色空间，驱动程序或设备将不会对其进行颜色管理。 https://docs.microsoft.com/en-us/windows/win32/printdocs/pagedevicecolorspaceprofileuri
 ## 构造函数
 
 | 构造函数 | 描述 |

@@ -20,7 +20,7 @@ public class BeforeSavingEventArgs<T>
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAbsolutePageNumber()](#getAbsolutePageNumber--) | 返回 XPS 包中所有文档的当前绝对页码。 |
 | [getClass()](#getClass--) |  |
-| [getDocumentNumber()](#getDocumentNumber--) | 返回 XPS 包中当前文档的编号。 |
+| [getDocumentNumber()](#getDocumentNumber--) | 返回 XPS 包中当前的文档编号。 |
 | [getElementAPI()](#getElementAPI--) | 返回即将保存的元素的修改 API。 |
 | [getOutputPageNumber()](#getOutputPageNumber--) | 返回当前输出编号。 |
 | [getRelativePageNumber()](#getRelativePageNumber--) | 返回相对于 XPS 包中当前文档的当前页码。 |
@@ -72,10 +72,10 @@ public int getDocumentNumber()
 ```
 
 
-返回 XPS 包中当前文档的编号。
+返回 XPS 包中当前的文档编号。
 
 **Returns:**
-int - XPS 包中当前文档的编号。
+int - XPS 包中当前的文档编号。
 ### getElementAPI() {#getElementAPI--}
 ```
 public T getElementAPI()

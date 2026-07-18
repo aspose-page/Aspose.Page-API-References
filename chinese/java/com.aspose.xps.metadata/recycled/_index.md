@@ -1,7 +1,7 @@
 ---
 title: "PageMediaType.Recycled"
 second_title: "Aspose.Page for Java API 参考"
-description: "定义 Recycled 计分属性值的常量。"
+description: "定义用于 Recycled 计分属性值的常量。"
 type: docs
 weight: 16
 url: /zh/java/com.aspose.xps.metadata/pagemediatype.recycled/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class PageMediaType.Recycled extends ScoredProperty implements PageMediaType.IPageMediaTypeOptionItem
 ```
 
-为 Recycled 计分属性值定义常量。
+定义  Recycled  计分属性值的常量。
 ## 字段
 
 | 字段 | 描述 |

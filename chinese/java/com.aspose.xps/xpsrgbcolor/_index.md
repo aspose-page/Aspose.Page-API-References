@@ -1,7 +1,7 @@
 ---
 title: "XpsRgbColor"
 second_title: "Aspose.Page for Java API 参考"
-description: "封装任意颜色空间（sRGB 或 scRGB）的 RGB 颜色。"
+description: "封装任意颜色空间 sRGB 或 scRGB 的 RGB 颜色。"
 type: docs
 weight: 49
 url: /zh/java/com.aspose.xps/xpsrgbcolor/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.xps.XpsColor](../../com.aspose.xps/xpscolor)
 public final class XpsRgbColor extends XpsColor
 ```
 
-封装任意色彩空间（sRGB 或 scRGB）的 RGB 颜色。
+封装任意颜色空间（sRGB 或 scRGB）的 RGB 颜色。
 ## 方法
 
 | 方法 | 描述 |
@@ -87,7 +87,7 @@ public Color toColor()
 获取 RGB 颜色的 .NET 本机表示的便利方法。
 
 **Returns:**
-java.awt.Color -  System.Drawing.ColorSystem.Drawing.Color 结构。
+java.awt.Color - System.Drawing.Color 结构。
 ### toString() {#toString--}
 ```
 public String toString()

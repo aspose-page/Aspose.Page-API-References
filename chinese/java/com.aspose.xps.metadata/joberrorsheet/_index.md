@@ -1,7 +1,7 @@
 ---
 title: "JobErrorSheet"
 second_title: "Aspose.Page for Java API 参考"
-description: "描述错误页的输出。"
+description: "描述错误单的输出。"
 type: docs
 weight: 53
 url: /zh/java/com.aspose.xps.metadata/joberrorsheet/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class JobErrorSheet extends Feature implements IJobPrintTicketItem
 ```
 
-描述错误纸张的输出。整个作业将只有一张错误纸张。错误纸张应使用默认的 PageMediaSize 并使用默认的 PageMediaType 输出。错误纸张应与作业的其余部分隔离。这意味着任何装订或处理选项（如 JobDuplex、JobStaple 或 JobBinding）不应包括错误纸张。错误纸张应作为作业的最后一张纸张出现。 https://docs.microsoft.com/en-us/windows/win32/printdocs/joberrorsheet
+描述错误纸的输出。整个作业只有一张错误纸。错误纸应使用默认的 PageMediaSize 和默认的 PageMediaType 输出。错误纸应与作业的其余部分隔离。这意味着任何装订或加工选项（如 JobDuplex、JobStaple 或 JobBinding）不应包含错误纸。错误纸应作为作业的最后一页出现。 https://docs.microsoft.com/en-us/windows/win32/printdocs/joberrorsheet
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -55,7 +55,7 @@ public void add(IFeatureItem[] items)
 ```
 
 
-将一组项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
+将一系列项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

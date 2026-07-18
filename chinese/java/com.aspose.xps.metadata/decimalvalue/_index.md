@@ -25,7 +25,7 @@ public final class DecimalValue extends Value
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | 获取元素名称。 |
-| [getValueString()](#getValueString--) | 获取该值的字符串表示。 |
+| [getValueString()](#getValueString--) | 获取字符串形式的值。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -44,7 +44,7 @@ public DecimalValue(float value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 值 | float | 十进制值。 |
+| 值 | float | 一个十进制值。 |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -87,10 +87,10 @@ public String getValueString()
 ```
 
 
-获取该值的字符串表示。
+获取字符串形式的值。
 
 **Returns:**
-java.lang.String - 该值的字符串形式。
+java.lang.String - 字符串形式的值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

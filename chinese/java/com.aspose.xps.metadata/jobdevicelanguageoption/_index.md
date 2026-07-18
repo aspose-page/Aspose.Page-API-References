@@ -40,8 +40,8 @@ public static final class JobDeviceLanguage.JobDeviceLanguageOption extends Opti
 | [PostScript](#PostScript) | 指定的设备语言是 PostScript。 |
 | [RPDL](#RPDL) | 指定的设备语言是 RPDL。 |
 | [RTL](#RTL) | 指定的设备语言是 RTL。 |
-| [XPS](#XPS) | 指定的设备语言是 XPS。 |
-| [_201PL](#-201PL) | 指定的设备语言是 PC-PR201。 |
+| [XPS](#XPS) | 指定设备语言为 XPS。 |
+| [_201PL](#-201PL) | 指定设备语言为 PC-PR201。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -231,7 +231,7 @@ public static final JobDeviceLanguage.JobDeviceLanguageOption XPS
 ```
 
 
-指定的设备语言是 XPS。
+指定设备语言为 XPS。
 
 ### _201PL {#-201PL}
 ```
@@ -239,7 +239,7 @@ public static final JobDeviceLanguage.JobDeviceLanguageOption _201PL
 ```
 
 
-指定的设备语言是 PC-PR201。
+指定设备语言为 PC-PR201。
 
 ### add(IOptionItem[] items) {#add-com.aspose.xps.metadata.IOptionItem...-}
 ```
@@ -275,7 +275,7 @@ public JobDeviceLanguage.JobDeviceLanguageOption clone()
 ```
 
 
-克隆此选项实例。该快捷方式指向克隆构造函数。
+克隆此选项实例。这是克隆构造函数的快捷方式。
 
 **Returns:**
 [JobDeviceLanguageOption](../../com.aspose.xps.metadata/jobdevicelanguageoption) - The clone of this option instance.

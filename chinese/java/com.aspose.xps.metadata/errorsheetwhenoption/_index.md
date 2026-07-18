@@ -1,7 +1,7 @@
 ---
 title: "JobErrorSheet.ErrorSheetWhen.ErrorSheetWhenOption"
 second_title: "Aspose.Page for Java API 参考"
-description: "描述 ErrorSheetWhen 功能选项。"
+description: "描述 ErrorSheetWhen 功能的选项。"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.xps.metadata/joberrorsheet.errorsheetwhen.errorsheetwhenoption/

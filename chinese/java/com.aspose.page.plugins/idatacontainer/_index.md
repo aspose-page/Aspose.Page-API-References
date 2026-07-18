@@ -1,7 +1,7 @@
 ---
 title: "IDataContainer"
 second_title: "Aspose.Page for Java API 参考"
-description: "定义通用方法的通用数据容器接口，具体的数据容器插件选项应实现这些方法。"
+description: "通用数据容器接口，定义具体数据容器插件选项应实现的常用方法。"
 type: docs
 weight: 20
 url: /zh/java/com.aspose.page.plugins/idatacontainer/

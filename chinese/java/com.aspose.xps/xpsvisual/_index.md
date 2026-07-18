@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject)
 public final class XpsVisual extends XpsObject
 ```
 
-封装 Visual 元素特性的类。此属性元素包含定义单个视觉画刷瓦片内容的标记。该瓦片可用于填充应用视觉画刷的几何区域。
+封装 Visual 元素特性的类。此属性元素包含定义单个可视画刷瓦片内容的标记。该瓦片可用于填充应用了可视画刷的几何区域。
 ## 方法
 
 | 方法 | 描述 |

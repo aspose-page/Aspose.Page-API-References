@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class DocumentCollate extends Collate implements IJobPrintTicketItem, IDocumentPrintTicketItem
 ```
 
-描述输出的整理特性。每个单独文档中的所有页面都会被整理。DocumentCollate 和 JobCollateAlldocuments 互斥。关于这两个关键字是都实现还是仅实现其中一个的行为和实现方式由驱动程序决定。 https://docs.microsoft.com/en-us/windows/win32/printdocs/documentcollate
+描述输出的装订特性。每个单独文档中的所有页面都会被装订。DocumentCollate 和 JobCollateAlldocuments 互斥。是否实现这两个关键字中的一个或两个的行为和实现方式由驱动程序决定。 https://docs.microsoft.com/en-us/windows/win32/printdocs/documentcollate
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -47,7 +47,7 @@ public DocumentCollate(Collate.CollateOption[] options)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| options | [CollateOption\[\]](../../com.aspose.xps.metadata/collateoption) | 特定于此功能的选项数组。 |
+| options | [CollateOption\[\]](../../com.aspose.xps.metadata/collateoption) | 针对该功能的特定选项数组。 |
 
 ### add(IFeatureItem[] items) {#add-com.aspose.xps.metadata.IFeatureItem...-}
 ```
@@ -55,7 +55,7 @@ public void add(IFeatureItem[] items)
 ```
 
 
-将一组项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
+将一系列项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

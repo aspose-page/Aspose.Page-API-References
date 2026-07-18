@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class PageScaling.PageScalingOption extends Option implements PageScaling.IPageScalingItem
 ```
 
-描述 PageScaling 功能选项。
+描述  PageScaling  功能选项。
 ## 字段
 
 | 字段 | 描述 |
 | --- | --- |
 | [Custom](#Custom) | 指定应对 Application Media Size 应用自定义缩放。 |
 | [CustomSquare](#CustomSquare) | 指定应对 Application Media Size 应用自定义正方形缩放。 |
-| [FitApplicationBleedSizeToPageImageableSize](#FitApplicationBleedSizeToPageImageableSize) | 指定应将应用的出血尺寸缩放到 PageImageableSize，同时保持纵横比。 |
-| [FitApplicationContentSizeToPageImageableSize](#FitApplicationContentSizeToPageImageableSize) | 指定应将应用的内容尺寸缩放到 PageImageableSize，同时保持纵横比。 |
-| [FitApplicationMediaSizeToPageImageableSize](#FitApplicationMediaSizeToPageImageableSize) | 指定应将应用的媒体尺寸缩放到 PageImageableSize，同时保持纵横比。 |
-| [FitApplicationMediaSizeToPageMediaSize](#FitApplicationMediaSizeToPageMediaSize) | 指定应将应用的媒体尺寸缩放到 PageMediaSize，同时保持纵横比。 |
+| [FitApplicationBleedSizeToPageImageableSize](#FitApplicationBleedSizeToPageImageableSize) | 指定应将应用的出血尺寸按比例缩放到 PageImageableSize，保持宽高比。 |
+| [FitApplicationContentSizeToPageImageableSize](#FitApplicationContentSizeToPageImageableSize) | 指定应将应用的内容尺寸按比例缩放到 PageImageableSize，保持宽高比。 |
+| [FitApplicationMediaSizeToPageImageableSize](#FitApplicationMediaSizeToPageImageableSize) | 指定应将应用的媒体尺寸按比例缩放到 PageImageableSize，保持宽高比。 |
+| [FitApplicationMediaSizeToPageMediaSize](#FitApplicationMediaSizeToPageMediaSize) | 指定应将应用的媒体尺寸按比例缩放到 PageMediaSize，保持宽高比。 |
 | [None](#None) | 指定不应应用任何缩放。 |
 ## 方法
 
@@ -64,7 +64,7 @@ public static PageScaling.PageScalingOption FitApplicationBleedSizeToPageImageab
 ```
 
 
-指定应将应用的出血尺寸缩放到 PageImageableSize，同时保持纵横比。
+指定应将应用的出血尺寸按比例缩放到 PageImageableSize，保持宽高比。
 
 ### FitApplicationContentSizeToPageImageableSize {#FitApplicationContentSizeToPageImageableSize}
 ```
@@ -72,7 +72,7 @@ public static PageScaling.PageScalingOption FitApplicationContentSizeToPageImage
 ```
 
 
-指定应将应用的内容尺寸缩放到 PageImageableSize，同时保持纵横比。
+指定应将应用的内容尺寸按比例缩放到 PageImageableSize，保持宽高比。
 
 ### FitApplicationMediaSizeToPageImageableSize {#FitApplicationMediaSizeToPageImageableSize}
 ```
@@ -80,7 +80,7 @@ public static PageScaling.PageScalingOption FitApplicationMediaSizeToPageImageab
 ```
 
 
-指定应将应用的媒体尺寸缩放到 PageImageableSize，同时保持纵横比。
+指定应将应用的媒体尺寸按比例缩放到 PageImageableSize，保持宽高比。
 
 ### FitApplicationMediaSizeToPageMediaSize {#FitApplicationMediaSizeToPageMediaSize}
 ```
@@ -88,7 +88,7 @@ public static PageScaling.PageScalingOption FitApplicationMediaSizeToPageMediaSi
 ```
 
 
-指定应将应用的媒体尺寸缩放到 PageMediaSize，同时保持纵横比。
+指定应将应用的媒体尺寸按比例缩放到 PageMediaSize，保持宽高比。
 
 ### None {#None}
 ```

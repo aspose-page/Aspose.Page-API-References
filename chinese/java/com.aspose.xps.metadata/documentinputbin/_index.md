@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class DocumentInputBin extends InputBin implements IJobPrintTicketItem, IDocumentPrintTicketItem
 ```
 
-描述设备中已安装的输入托盘或设备支持的全部托盘列表。JobInputBin、DocumentInputBin 和 PageInputBin 关键字互斥。两者不应在 PrintTicket 或 Print Capabilities 文档中同时指定。 https://docs.microsoft.com/en-us/windows/win32/printdocs/documentinputbin
+描述设备中已安装的输入托盘或设备支持的完整托盘列表。JobInputBin、DocumentInputBin 和 PageInputBin 关键字互斥。两者不应在 PrintTicket 或 Print Capabilities 文档中同时指定。 https://docs.microsoft.com/en-us/windows/win32/printdocs/documentinputbin
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -55,7 +55,7 @@ public void add(IFeatureItem[] items)
 ```
 
 
-将一组项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
+将一系列项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

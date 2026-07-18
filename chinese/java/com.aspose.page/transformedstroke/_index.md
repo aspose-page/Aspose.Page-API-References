@@ -25,7 +25,7 @@ public class TransformedStroke implements Stroke
 
 | 方法 | 描述 |
 | --- | --- |
-| [createStrokedShape(Shape s)](#createStrokedShape-java.awt.Shape-) | 使用此笔画对给定的 Shape 进行描边，创建轮廓。 |
+| [createStrokedShape(Shape s)](#createStrokedShape-java.awt.Shape-) | 使用此笔画对给定的 Shape 进行描边，生成轮廓。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getBaseStroke()](#getBaseStroke--) | 获取基本笔画。 |
 | [getClass()](#getClass--) |  |
@@ -48,8 +48,8 @@ public TransformedStroke(Stroke base, AffineTransform at)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 基准 | java.awt.Stroke | 笔画基准。 |
-| 仿射变换 | java.awt.geom.AffineTransform | 仿射变换。 |
+| base | java.awt.Stroke | 笔画基准。 |
+| at | java.awt.geom.AffineTransform | 仿射变换。 |
 
 ### createStrokedShape(Shape s) {#createStrokedShape-java.awt.Shape-}
 ```
@@ -57,7 +57,7 @@ public Shape createStrokedShape(Shape s)
 ```
 
 
-使用此笔画对给定的 Shape 进行描边，创建轮廓。该轮廓相对于基笔画所产生的轮廓会被我们的 AffineTransform 扭曲，但仅在缩放方面（即线条粗细），因为在描边后平移和旋转会被取消。
+使用此笔画对给定的 Shape 进行描边，生成轮廓。该轮廓会被我们的 AffineTransform 扭曲，相对于基准笔画所产生的轮廓，仅在缩放（即线条粗细）方面产生变化，因为在描边后平移和旋转会被取消。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -110,7 +110,7 @@ public AffineTransform getTransform()
 获取一个变换。
 
 **Returns:**
-java.awt.geom.AffineTransform - 一个变换。
+java.awt.geom.AffineTransform - 变换。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

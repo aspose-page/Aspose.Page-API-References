@@ -23,16 +23,16 @@ public abstract class XpsContentElement extends XpsHyperlinkElement
 | [getClip()](#getClip--) | 返回限制元素渲染区域的路径几何体。 |
 | [getHyperlinkTarget()](#getHyperlinkTarget--) | 返回超链接目标对象。 |
 | [getOpacity()](#getOpacity--) | 返回定义元素统一透明度的值。 |
-| [getOpacityMask()](#getOpacityMask--) | 返回指定 alpha 值掩码的画刷，该掩码以与 Opacity 属性相同的方式应用于元素，但允许元素不同区域使用不同的 alpha 值。 |
+| [getOpacityMask()](#getOpacityMask--) | 返回指定 alpha 值掩码的画刷，该掩码以与 Opacity 属性相同的方式应用于元素，但允许元素的不同区域使用不同的 alpha 值。 |
 | [getRenderTransform()](#getRenderTransform--) | 返回仿射变换矩阵，为元素的所有属性以及所有子元素（如果有）建立新的坐标系。 |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | 实现 Iterable 接口。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setClip(XpsPathGeometry value)](#setClip-com.aspose.xps.XpsPathGeometry-) | 设置限制元素渲染区域的路径几何体。 |
+| [setClip(XpsPathGeometry value)](#setClip-com.aspose.xps.XpsPathGeometry-) | 设置限制元素渲染区域的路径几何。 |
 | [setHyperlinkTarget(XpsHyperlinkTarget value)](#setHyperlinkTarget-com.aspose.xps.XpsHyperlinkTarget-) | 设置超链接目标对象。 |
 | [setOpacity(float value)](#setOpacity-float-) | 设置定义元素统一透明度的值。 |
-| [setOpacityMask(XpsBrush value)](#setOpacityMask-com.aspose.xps.XpsBrush-) | 设置画刷，指定一组 alpha 值的掩码，该掩码以与 Opacity 属性相同的方式应用于元素，但允许元素的不同区域使用不同的 alpha 值。 |
+| [setOpacityMask(XpsBrush value)](#setOpacityMask-com.aspose.xps.XpsBrush-) | 设置画刷，指定一组 alpha 值的掩码，该掩码以与 Opacity 属性相同的方式应用于元素，但允许元素不同区域使用不同的 alpha 值。 |
 | [setRenderTransform(XpsMatrix value)](#setRenderTransform-com.aspose.xps.XpsMatrix-) | 设置仿射变换矩阵，为元素的所有属性以及所有子元素（如果有）建立新的坐标系。 |
 | [size()](#size--) | 返回子元素的数量。 |
 | [toString()](#toString--) |  |
@@ -115,7 +115,7 @@ public XpsBrush getOpacityMask()
 ```
 
 
-返回指定 alpha 值掩码的画刷，该掩码以与 Opacity 属性相同的方式应用于元素，但允许元素不同区域使用不同的 alpha 值。
+返回指定 alpha 值掩码的画刷，该掩码以与 Opacity 属性相同的方式应用于元素，但允许元素的不同区域使用不同的 alpha 值。
 
 **Returns:**
 [XpsBrush](../../com.aspose.xps/xpsbrush) - The brush specifying a mask.
@@ -171,12 +171,12 @@ public void setClip(XpsPathGeometry value)
 ```
 
 
-设置限制元素渲染区域的路径几何体。
+设置限制元素渲染区域的路径几何。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [XpsPathGeometry](../../com.aspose.xps/xpspathgeometry) | 限制元素渲染区域的路径几何体。 |
+| value | [XpsPathGeometry](../../com.aspose.xps/xpspathgeometry) | 限制元素渲染区域的路径几何。 |
 
 ### setHyperlinkTarget(XpsHyperlinkTarget value) {#setHyperlinkTarget-com.aspose.xps.XpsHyperlinkTarget-}
 ```
@@ -210,7 +210,7 @@ public void setOpacityMask(XpsBrush value)
 ```
 
 
-设置画刷，指定一组 alpha 值的掩码，该掩码以与 Opacity 属性相同的方式应用于元素，但允许元素的不同区域使用不同的 alpha 值。
+设置画刷，指定一组 alpha 值的掩码，该掩码以与 Opacity 属性相同的方式应用于元素，但允许元素不同区域使用不同的 alpha 值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

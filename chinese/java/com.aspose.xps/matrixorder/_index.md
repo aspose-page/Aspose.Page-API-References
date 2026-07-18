@@ -1,7 +1,7 @@
 ---
 title: "XpsMatrix.MatrixOrder"
 second_title: "Aspose.Page for Java API 参考"
-description: "枚举定义矩阵操作的顺序。"
+description: "定义矩阵操作顺序的枚举。"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.xps/xpsmatrix.matrixorder/
@@ -12,7 +12,7 @@ java.lang.Object, java.lang.Enum
 public enum XpsMatrix.MatrixOrder extends Enum<XpsMatrix.MatrixOrder>
 ```
 
-枚举定义矩阵操作的顺序。
+定义矩阵操作顺序的枚举。
 ## 字段
 
 | 字段 | 描述 |

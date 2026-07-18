@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class PageMediaType.BackCoating extends ScoredProperty implements PageMediaType.IPageMediaTypeOptionItem
 ```
 
-为 BackCoating 计分属性值定义常量。
+定义  BackCoating  计分属性值的常量。
 ## 字段
 
 | 字段 | 描述 |
 | --- | --- |
 | [Glossy](#Glossy) | 光面值。 |
-| [HighGloss](#HighGloss) | 高光面值。 |
+| [HighGloss](#HighGloss) | 高光泽值。 |
 | [Matte](#Matte) | 哑光值。 |
 | [None](#None) | None 值。 |
 | [Satin](#Satin) | 缎面值。 |
-| [SemiGloss](#SemiGloss) | 半光面值。 |
+| [SemiGloss](#SemiGloss) | 半光泽值。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -54,7 +54,7 @@ public static PageMediaType.BackCoating HighGloss
 ```
 
 
-高光面值。
+高光泽值。
 
 ### Matte {#Matte}
 ```
@@ -86,7 +86,7 @@ public static PageMediaType.BackCoating SemiGloss
 ```
 
 
-半光面值。
+半光泽值。
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class JobPrimaryCoverBack.CoverBackOption extends Option
 ```
 
-描述 JobPrimaryCoverBack 功能选项。
+描述  JobPrimaryCoverBack  功能选项。
 ## 字段
 
 | 字段 | 描述 |
@@ -59,7 +59,7 @@ public static final JobPrimaryCoverBack.CoverBackOption PrintBack
 ```
 
 
-指定由 "CoverBackSource" 指示的封面应打印在封面纸的背面。如果未指定  JobPrimaryCoverBackSource   ParameterInit  元素，则应忽略此选项。
+指定由 "CoverBackSource" 指示的封面应打印在封面纸的背面。如果未指定 JobPrimaryCoverBackSource ParameterInit 元素，则应忽略此选项。
 
 ### PrintBoth {#PrintBoth}
 ```
@@ -67,7 +67,7 @@ public static final JobPrimaryCoverBack.CoverBackOption PrintBoth
 ```
 
 
-指定由 "CoverBackSource" 指示的封面可以打印在封面纸的任一面。如果未指定  JobPrimaryCoverBackSource   ParameterInit  元素，则应忽略此选项。
+指定由 "CoverBackSource" 指示的封面可以打印在封面纸的任一面。如果未指定 JobPrimaryCoverBackSource ParameterInit 元素，则应忽略此选项。
 
 ### PrintFront {#PrintFront}
 ```
@@ -75,7 +75,7 @@ public static final JobPrimaryCoverBack.CoverBackOption PrintFront
 ```
 
 
-指定由 "CoverBackSource" 指示的封面应打印在封面纸的正面。如果未指定  JobPrimaryCoverBackSource   ParameterInit  元素，则应忽略此选项。
+指定由 "CoverBackSource" 指示的封面应打印在封面纸的正面。如果未指定 JobPrimaryCoverBackSource ParameterInit 元素，则应忽略此选项。
 
 ### add(IOptionItem[] items) {#add-com.aspose.xps.metadata.IOptionItem...-}
 ```

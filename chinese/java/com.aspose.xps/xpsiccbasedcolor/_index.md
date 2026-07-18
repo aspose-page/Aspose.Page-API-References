@@ -98,7 +98,7 @@ public Color toColor()
 用于获取 ICC 基础颜色的 .NET 本机表示的便利方法。
 
 **Returns:**
-java.awt.Color -  System.Drawing.ColorSystem.Drawing.Color 结构。
+java.awt.Color - System.Drawing.Color 结构。
 ### toString() {#toString--}
 ```
 public String toString()

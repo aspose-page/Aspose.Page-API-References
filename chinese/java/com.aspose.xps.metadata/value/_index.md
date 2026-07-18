@@ -1,7 +1,7 @@
 ---
 title: "Value"
 second_title: "Aspose.Page for Java API 参考"
-description: "在 PrintTicket 文档中封装 Property 或 ScoredProperty 值的基类。"
+description: "基类封装了 PrintTicket 文档中 Property 或 ScoredProperty 的值。"
 type: docs
 weight: 152
 url: /zh/java/com.aspose.xps.metadata/value/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public class Value extends PrintTicketElement implements IScoredPropertyItem, IPropertyItem
 ```
 
-在 PrintTicket 文档中封装 Property 或 ScoredProperty 值的基类。Value 元素将文字与类型关联。 https://docs.microsoft.com/en-us/windows/win32/printdocs/value
+基类封装了 PrintTicket 文档中 Property 或 ScoredProperty 的值。Value 元素将文字与类型关联。 https://docs.microsoft.com/en-us/windows/win32/printdocs/value
 ## 方法
 
 | 方法 | 描述 |
@@ -23,7 +23,7 @@ public class Value extends PrintTicketElement implements IScoredPropertyItem, IP
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | 获取元素名称。 |
-| [getValueString()](#getValueString--) | 获取该值的字符串表示。 |
+| [getValueString()](#getValueString--) | 获取字符串形式的值。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -72,10 +72,10 @@ public String getValueString()
 ```
 
 
-获取该值的字符串表示。
+获取字符串形式的值。
 
 **Returns:**
-java.lang.String - 该值的字符串形式。
+java.lang.String - 字符串形式的值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

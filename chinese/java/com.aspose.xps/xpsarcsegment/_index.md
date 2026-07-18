@@ -25,16 +25,16 @@ public class XpsArcSegment extends XpsPathSegment
 | [getSize()](#getSize--) | 以 x,y 对的形式返回椭圆弧的 x 和 y 半径。 |
 | [getSweepDirection()](#getSweepDirection--) | 返回指定弧线绘制方向的值。 |
 | [hashCode()](#hashCode--) |  |
-| [isLargeArc()](#isLargeArc--) | 返回决定弧线是否以 180 度或更大幅度绘制的值。 |
-| [isStroked()](#isStroked--) | 返回指定路径此段是否绘制描边的值。 |
+| [isLargeArc()](#isLargeArc--) | 返回确定弧线是否以 180 度或更大幅度绘制的值。 |
+| [isStroked()](#isStroked--) | 返回指定是否绘制此路径段描边的值。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setLargeArc(boolean value)](#setLargeArc-boolean-) | 设置确定弧线是否以 180 度或更大幅度绘制的值。 |
 | [setPoint(Point2D value)](#setPoint-java.awt.geom.Point2D-) | 设置椭圆弧的终点。 |
 | [setRotationAngle(float value)](#setRotationAngle-float-) | 设置指示椭圆相对于当前坐标系旋转方式的值。 |
 | [setSize(Dimension2D value)](#setSize-java.awt.geom.Dimension2D-) | 设置椭圆弧的 x 和 y 半径，以 x,y 对的形式。 |
-| [setStroked(boolean value)](#setStroked-boolean-) | 设置指定路径此段是否绘制描边的值。 |
-| [setSweepDirection(XpsSweepDirection value)](#setSweepDirection-com.aspose.xps.XpsSweepDirection-) | 设置指定弧线绘制方向的值。 |
+| [setStroked(boolean value)](#setStroked-boolean-) | 设置指定是否绘制此路径段描边的值。 |
+| [setSweepDirection(XpsSweepDirection value)](#setSweepDirection-com.aspose.xps.XpsSweepDirection-) | 设置指定绘制弧线方向的值。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -130,7 +130,7 @@ public boolean isLargeArc()
 ```
 
 
-返回决定弧线是否以 180 度或更大幅度绘制的值。
+返回确定弧线是否以 180 度或更大幅度绘制的值。
 
 **Returns:**
 boolean - 确定弧线是否以 180 度或更大幅度绘制的值。
@@ -140,10 +140,10 @@ public boolean isStroked()
 ```
 
 
-返回指定路径此段是否绘制描边的值。
+返回指定是否绘制此路径段描边的值。
 
 **Returns:**
-boolean - 指定路径此段是否绘制描边的值。
+boolean - 指定是否绘制此路径段描边的值。
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -210,7 +210,7 @@ public void setSize(Dimension2D value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 值 | java.awt.geom.Dimension2D | 椭圆弧的 x 和 y 半径，以 x,y 对的形式表示。 |
+| 值 | java.awt.geom.Dimension2D | 椭圆弧的 x 和 y 半径，以 x,y 对的形式。 |
 
 ### setStroked(boolean value) {#setStroked-boolean-}
 ```
@@ -218,12 +218,12 @@ public void setStroked(boolean value)
 ```
 
 
-设置指定路径此段是否绘制描边的值。
+设置指定是否绘制此路径段描边的值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 值 | boolean | 指定路径此段是否绘制描边的值。 |
+| 值 | boolean | 指定是否绘制此路径段描边的值。 |
 
 ### setSweepDirection(XpsSweepDirection value) {#setSweepDirection-com.aspose.xps.XpsSweepDirection-}
 ```
@@ -231,12 +231,12 @@ public void setSweepDirection(XpsSweepDirection value)
 ```
 
 
-设置指定弧线绘制方向的值。
+设置指定绘制弧线方向的值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [XpsSweepDirection](../../com.aspose.xps/xpssweepdirection) | 指定弧线绘制方向的值。 |
+| value | [XpsSweepDirection](../../com.aspose.xps/xpssweepdirection) | 指定绘制弧线方向的值。 |
 
 ### toString() {#toString--}
 ```

@@ -1,7 +1,7 @@
 ---
 title: "DocumentCoverBack"
 second_title: "Aspose.Page for Java API 参考"
-description: "描述背面的结束封面页。"
+description: "描述背面结束封面页。"
 type: docs
 weight: 19
 url: /zh/java/com.aspose.xps.metadata/documentcoverback/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class DocumentCoverBack extends Feature implements IJobPrintTicketItem, IDocumentPrintTicketItem
 ```
 
-描述背面（结束）封面页。每个文档都有单独的封面页。封面页应使用文档最后一页的 PageMediaSize 和 PageMediaType 打印。封面页应按照指定的 Option 集成到处理选项中（例如 DocumentDuplex、DocumentNUp）。 https://docs.microsoft.com/en-us/windows/win32/printdocs/documentcoverback
+描述背面（结束）封面页。每个文档都有单独的封面页。封面页应使用文档最后一页的 PageMediaSize 和 PageMediaType 进行打印。封面页应按照指定的 Option 集成到处理选项中（例如 DocumentDuplex、DocumentNUp）。 https://docs.microsoft.com/en-us/windows/win32/printdocs/documentcoverback
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -47,7 +47,7 @@ public DocumentCoverBack(DocumentCoverBack.CoverBackOption[] options)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| options | [CoverBackOption\[\]](../../com.aspose.xps.metadata/coverbackoption) | 特定于此功能的选项数组。 |
+| options | [CoverBackOption\[\]](../../com.aspose.xps.metadata/coverbackoption) | 针对该功能的特定选项数组。 |
 
 ### add(IFeatureItem[] items) {#add-com.aspose.xps.metadata.IFeatureItem...-}
 ```
@@ -55,7 +55,7 @@ public void add(IFeatureItem[] items)
 ```
 
 
-将一组项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
+将一系列项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

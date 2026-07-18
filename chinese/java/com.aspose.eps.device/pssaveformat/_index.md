@@ -17,8 +17,8 @@ public enum PsSaveFormat extends Enum<PsSaveFormat>
 
 | 字段 | 描述 |
 | --- | --- |
-| [EPS](#EPS) | 此选项表示生成的文档必须是封装的 PostScript (EPS) 文件。 |
-| [PS](#PS) | 此选项表示生成的文档必须是 PostScript (PS) 或封装的 PostScript (EPS) 文件。 |
+| [EPS](#EPS) | 此选项表示生成的文档必须是封装的 PostScript（EPS）文件。 |
+| [PS](#PS) | 此选项表示生成的文档必须是 PostScript（PS）或封装的 PostScript（EPS）文件。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -46,7 +46,7 @@ public static final PsSaveFormat EPS
 ```
 
 
-此选项指示生成的文档必须是封装的PostScript（EPS）文件。仅用于单页文档；
+此选项指示生成的文档必须是封装的 PostScript (EPS) 文件。仅用于单页文档；
 
 ### PS {#PS}
 ```
@@ -54,7 +54,7 @@ public static final PsSaveFormat PS
 ```
 
 
-此选项表示生成的文档必须是 PostScript (PS) 或封装的 PostScript (EPS) 文件。
+此选项表示生成的文档必须是 PostScript（PS）或封装的 PostScript（EPS）文件。
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

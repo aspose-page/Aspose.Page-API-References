@@ -18,9 +18,9 @@ public class XpsConverterToImageOptions extends XpsConverterOptions
 | 构造函数 | 描述 |
 | --- | --- |
 | [XpsConverterToImageOptions()](#XpsConverterToImageOptions--) | 初始化 [XpsConverterToImageOptions](../../com.aspose.xps.plugins/xpsconvertertoimageoptions) 对象的新实例。 |
-| [XpsConverterToImageOptions(ImageFormat imageFormat)](#XpsConverterToImageOptions-com.aspose.page.ImageFormat-) | 使用图像格式初始化 [XpsConverterToImageOptions](../../com.aspose.xps.plugins/xpsconvertertoimageoptions) 对象的新实例。 |
-| [XpsConverterToImageOptions(Dimension size)](#XpsConverterToImageOptions-java.awt.Dimension-) | 使用生成图像的尺寸初始化 [XpsConverterToImageOptions](../../com.aspose.xps.plugins/xpsconvertertoimageoptions) 对象的新实例。 |
-| [XpsConverterToImageOptions(ImageFormat imageFormat, Dimension size)](#XpsConverterToImageOptions-com.aspose.page.ImageFormat-java.awt.Dimension-) | 使用图像格式初始化 [XpsConverterToImageOptions](../../com.aspose.xps.plugins/xpsconvertertoimageoptions) 对象的新实例。 |
+| [XpsConverterToImageOptions(ImageFormat imageFormat)](#XpsConverterToImageOptions-com.aspose.page.ImageFormat-) | 初始化 [XpsConverterToImageOptions](../../com.aspose.xps.plugins/xpsconvertertoimageoptions) 对象的新实例，使用图像格式。 |
+| [XpsConverterToImageOptions(Dimension size)](#XpsConverterToImageOptions-java.awt.Dimension-) | 初始化 [XpsConverterToImageOptions](../../com.aspose.xps.plugins/xpsconvertertoimageoptions) 对象的新实例，指定生成图像的尺寸。 |
+| [XpsConverterToImageOptions(ImageFormat imageFormat, Dimension size)](#XpsConverterToImageOptions-com.aspose.page.ImageFormat-java.awt.Dimension-) | 初始化 [XpsConverterToImageOptions](../../com.aspose.xps.plugins/xpsconvertertoimageoptions) 对象的新实例，使用图像格式。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -35,8 +35,8 @@ public class XpsConverterToImageOptions extends XpsConverterOptions
 | [getOperationName()](#getOperationName--) | 返回操作名称。 |
 | [getPageNumbers()](#getPageNumbers--) | 获取要转换的 XPS 文档中页码的数组。 |
 | [getResolution()](#getResolution--) | 获取图像分辨率。 |
-| [getSaveTargetsCollection()](#getSaveTargetsCollection--) | 获取用于保存操作结果的已添加目标的集合。 |
-| [getSize()](#getSize--) | 获取生成图像的大小。 |
+| [getSaveTargetsCollection()](#getSaveTargetsCollection--) | 获取用于保存操作结果的已添加目标集合。 |
+| [getSize()](#getSize--) | 获取生成图像的尺寸。 |
 | [getSmoothingMode()](#getSmoothingMode--) | 获取渲染图像的平滑模式。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -45,7 +45,7 @@ public class XpsConverterToImageOptions extends XpsConverterOptions
 | [setJpegQualityLevel(int value)](#setJpegQualityLevel-int-) | 设置指定图像压缩级别的值。 |
 | [setPageNumbers(int[] pageNumbers)](#setPageNumbers-int---) | 设置要转换的 XPS 文档页数数组。 |
 | [setResolution(int resolution)](#setResolution-int-) | 设置图像分辨率。 |
-| [setSize(Dimension size)](#setSize-java.awt.Dimension-) | 设置生成图像的大小。 |
+| [setSize(Dimension size)](#setSize-java.awt.Dimension-) | 设置生成图像的尺寸。 |
 | [setSmoothingMode(SmoothingMode smoothingMode)](#setSmoothingMode-com.aspose.xps.rendering.SmoothingMode-) | 设置渲染图像的平滑模式。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -65,7 +65,7 @@ public XpsConverterToImageOptions(ImageFormat imageFormat)
 ```
 
 
-使用图像格式初始化 [XpsConverterToImageOptions](../../com.aspose.xps.plugins/xpsconvertertoimageoptions) 对象的新实例。
+初始化 [XpsConverterToImageOptions](../../com.aspose.xps.plugins/xpsconvertertoimageoptions) 对象的新实例，使用图像格式。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -78,12 +78,12 @@ public XpsConverterToImageOptions(Dimension size)
 ```
 
 
-使用生成图像的尺寸初始化 [XpsConverterToImageOptions](../../com.aspose.xps.plugins/xpsconvertertoimageoptions) 对象的新实例。
+初始化 [XpsConverterToImageOptions](../../com.aspose.xps.plugins/xpsconvertertoimageoptions) 对象的新实例，指定生成图像的尺寸。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 大小 | java.awt.Dimension | 生成图像的大小。 |
+| 大小 | java.awt.Dimension | 生成图像的尺寸。 |
 
 ### XpsConverterToImageOptions(ImageFormat imageFormat, Dimension size) {#XpsConverterToImageOptions-com.aspose.page.ImageFormat-java.awt.Dimension-}
 ```
@@ -91,7 +91,7 @@ public XpsConverterToImageOptions(ImageFormat imageFormat, Dimension size)
 ```
 
 
-使用图像格式初始化 [XpsConverterToImageOptions](../../com.aspose.xps.plugins/xpsconvertertoimageoptions) 对象的新实例。
+初始化 [XpsConverterToImageOptions](../../com.aspose.xps.plugins/xpsconvertertoimageoptions) 对象的新实例，使用图像格式。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -176,7 +176,7 @@ public int getJpegQualityLevel()
 ```
 
 
-返回指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值会产生最低质量的图像，而 100 则产生最高质量的图像。
+返回指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值产生最低质量的图像，而 100 则产生最高质量的图像。
 
 **Returns:**
 int - 指定图像压缩级别的值。
@@ -216,7 +216,7 @@ public final List<IDataSource> getSaveTargetsCollection()
 ```
 
 
-获取用于保存操作结果的已添加目标的集合。
+获取用于保存操作结果的已添加目标集合。
 
 **Returns:**
 java.util.List<com.aspose.page.plugins.IDataSource>
@@ -226,10 +226,10 @@ public Dimension getSize()
 ```
 
 
-获取生成图像的大小。
+获取生成图像的尺寸。
 
 **Returns:**
-java.awt.Dimension - 图像大小。
+java.awt.Dimension - 图像尺寸。
 ### getSmoothingMode() {#getSmoothingMode--}
 ```
 public SmoothingMode getSmoothingMode()
@@ -285,7 +285,7 @@ public void setJpegQualityLevel(int value)
 ```
 
 
-设置指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值会产生最低质量的图像，而 100 则产生最高质量的图像。
+设置指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值产生最低质量的图像，而 100 则产生最高质量的图像。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -303,7 +303,7 @@ public void setPageNumbers(int[] pageNumbers)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| pageNumbers | int[] | XPS 文档中页数的数组。 |
+| pageNumbers | int[] | XPS 文档中页面数量的数组。 |
 
 ### setResolution(int resolution) {#setResolution-int-}
 ```
@@ -324,7 +324,7 @@ public void setSize(Dimension size)
 ```
 
 
-设置生成图像的大小。
+设置生成图像的尺寸。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

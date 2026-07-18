@@ -21,15 +21,15 @@ public final class XpsPage extends XpsElement
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int i)](#get-int-) | 提供通过索引 i 访问元素子项的功能。 |
 | [getClass()](#getClass--) |  |
-| [getHeight()](#getHeight--) | 返回页面的高度，以有效坐标空间单位的实数表示。 |
-| [getWidth()](#getWidth--) | 返回页面的宽度，以有效坐标空间单位的实数表示。 |
+| [getHeight()](#getHeight--) | 返回页面的高度，以有效坐标空间的单位表示的实数。 |
+| [getWidth()](#getWidth--) | 返回页面的宽度，以有效坐标空间的单位表示的实数。 |
 | [getXmlLang()](#getXmlLang--) | 返回指定当前元素及其任何子元素或后代元素使用的默认语言的值。 |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | 实现 Iterable 接口。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setHeight(float value)](#setHeight-float-) | 设置页面的高度，以有效坐标空间单位的实数表示。 |
-| [setWidth(float value)](#setWidth-float-) | 设置页面的宽度，以有效坐标空间单位的实数表示。 |
+| [setHeight(float value)](#setHeight-float-) | 设置页面的高度，以有效坐标空间的单位表示的实数。 |
+| [setWidth(float value)](#setWidth-float-) | 设置页面的宽度，以有效坐标空间的单位表示的实数。 |
 | [setXmlLang(String value)](#setXmlLang-java.lang.String-) | 设置指定当前元素及其任何子元素或后代元素使用的默认语言的值。 |
 | [size()](#size--) | 返回子元素的数量。 |
 | [toString()](#toString--) |  |
@@ -92,7 +92,7 @@ public float getHeight()
 ```
 
 
-返回页面的高度，以有效坐标空间单位的实数表示。
+返回页面的高度，以有效坐标空间的单位表示的实数。
 
 **Returns:**
 float - 页面高度。
@@ -102,7 +102,7 @@ public float getWidth()
 ```
 
 
-返回页面的宽度，以有效坐标空间单位的实数表示。
+返回页面的宽度，以有效坐标空间的单位表示的实数。
 
 **Returns:**
 float - 页面宽度。
@@ -158,7 +158,7 @@ public void setHeight(float value)
 ```
 
 
-设置页面的高度，以有效坐标空间单位的实数表示。
+设置页面的高度，以有效坐标空间的单位表示的实数。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -171,7 +171,7 @@ public void setWidth(float value)
 ```
 
 
-设置页面的宽度，以有效坐标空间单位的实数表示。
+设置页面的宽度，以有效坐标空间的单位表示的实数。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

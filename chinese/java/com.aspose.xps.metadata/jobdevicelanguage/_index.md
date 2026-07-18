@@ -1,7 +1,7 @@
 ---
 title: "JobDeviceLanguage"
 second_title: "Aspose.Page for Java API 参考"
-description: "描述从驱动程序向物理设备发送数据所支持的设备语言。"
+description: "描述从驱动程序向物理设备发送数据时支持的设备语言。"
 type: docs
 weight: 50
 url: /zh/java/com.aspose.xps.metadata/jobdevicelanguage/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class JobDeviceLanguage extends Feature implements IJobPrintTicketItem
 ```
 
-描述从驱动程序发送数据到物理设备所支持的设备语言。这通常称为“页面描述语言”。此关键字定义驱动程序和物理设备支持的页面描述语言。 https://docs.microsoft.com/en-us/windows/win32/printdocs/jobdevicelanguage
+描述从驱动程序向物理设备发送数据时支持的设备语言。这通常称为“页面描述语言”。此关键字定义驱动程序和物理设备支持的页面描述语言。 https://docs.microsoft.com/en-us/windows/win32/printdocs/jobdevicelanguage
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -47,7 +47,7 @@ public JobDeviceLanguage(JobDeviceLanguage.JobDeviceLanguageOption[] options)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| options | [JobDeviceLanguageOption\[\]](../../com.aspose.xps.metadata/jobdevicelanguageoption) | 特定于此功能的选项数组。 |
+| options | [JobDeviceLanguageOption\[\]](../../com.aspose.xps.metadata/jobdevicelanguageoption) | 针对该功能的特定选项数组。 |
 
 ### add(IFeatureItem[] items) {#add-com.aspose.xps.metadata.IFeatureItem...-}
 ```
@@ -55,7 +55,7 @@ public void add(IFeatureItem[] items)
 ```
 
 
-将一组项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
+将一系列项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

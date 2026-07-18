@@ -20,43 +20,43 @@ public class PdfSaveOptions extends SaveOptions implements IMultiPageSaveOptions
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [PdfSaveOptions()](#PdfSaveOptions--) | 创建 options 的新实例。 |
+| [PdfSaveOptions()](#PdfSaveOptions--) | 创建选项的新实例。 |
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAdditionalFontsFolders()](#getAdditionalFontsFolders--) | 返回转换器应在其中查找输入文档字体的附加字体文件夹。 |
-| [getBatchSize()](#getBatchSize--) | 返回要从节点传递到节点的页面部分的大小。 |
+| [getBatchSize()](#getBatchSize--) | 返回从节点到节点传递的一部分页面的大小。 |
 | [getBeforePageSavingEventHandlers()](#getBeforePageSavingEventHandlers--) | 返回在 XPS 页面保存之前执行修改的事件处理程序集合。 |
 | [getClass()](#getClass--) |  |
 | [getConvertFontsToTTF()](#getConvertFontsToTTF--) | 获取标志，指示是否需要将非 TrueType 字体保存为 TTF。 |
-| [getEncryptionDetails()](#getEncryptionDetails--) | 返回加密细节。 |
+| [getEncryptionDetails()](#getEncryptionDetails--) | 返回加密详细信息。 |
 | [getExceptions()](#getExceptions--) | 返回非关键错误的列表。 |
 | [getImageCompression()](#getImageCompression--) | 返回文档中所有图像使用的压缩类型。 |
 | [getJpegQualityLevel()](#getJpegQualityLevel--) | 返回指定图像压缩级别的值。 |
-| [getOutlineTreeExpansionLevel()](#getOutlineTreeExpansionLevel--) | 获取在 PDF 文件在查看器中打开时文档大纲应展开到的级别。1 - 仅显示第一级大纲项，2 - 显示第一、二级大纲项，依此类推。 |
-| [getOutlineTreeHeight()](#getOutlineTreeHeight--) | 获取要保存的文档大纲树的高度。0 - 不转换大纲树，1 - 仅转换第一级大纲项，依此类推。 |
-| [getPageNumbers()](#getPageNumbers--) | 获取要渲染的页面数量数组。 |
+| [getOutlineTreeExpansionLevel()](#getOutlineTreeExpansionLevel--) | 获取在查看器中打开 PDF 文件时文档大纲应展开的层级。1 - 仅显示第一层大纲项，2 - 仅显示第一层和第二层大纲项，依此类推。 |
+| [getOutlineTreeHeight()](#getOutlineTreeHeight--) | 获取要保存的文档大纲树的深度。0 - 大纲树将不被转换，1 - 仅转换第一层大纲项，依此类推。 |
+| [getPageNumbers()](#getPageNumbers--) | 获取要渲染的页面编号数组。 |
 | [getSize()](#getSize--) | 获取页面或图像的大小。 |
 | [getTextCompression()](#getTextCompression--) | 返回除图像外所有内容流使用的压缩类型。 |
 | [hashCode()](#hashCode--) |  |
-| [isDebug()](#isDebug--) | 获取允许在转换期间输出警告和消息的标志。 |
+| [isDebug()](#isDebug--) | 获取在转换期间允许输出警告和消息的标志。 |
 | [isSupressErrors()](#isSupressErrors--) | 返回指示在转换期间是否会抑制错误的值。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [preserveText()](#preserveText--) | 在 XPS 中，某些文本元素可能包含指向字体中不存在任何字符码的替代字形形式的引用。 |
-| [preserveText(boolean value)](#preserveText-boolean-) | 在 XPS 中，某些文本元素可能包含指向字体中不存在任何字符码的替代字形形式的引用。 |
+| [preserveText()](#preserveText--) | 在 XPS 中，某些文本元素可能包含与字体中任何字符代码不对应的替代字形形式的引用。 |
+| [preserveText(boolean value)](#preserveText-boolean-) | 在 XPS 中，某些文本元素可能包含与字体中任何字符代码不对应的替代字形形式的引用。 |
 | [setAdditionalFontsFolders(String[] fontsFolders)](#setAdditionalFontsFolders-java.lang.String---) | 指定转换器应在其中查找输入文档字体的附加字体文件夹。 |
-| [setBatchSize(int value)](#setBatchSize-int-) | 设置要从节点传递到节点的页面部分的大小。 |
+| [setBatchSize(int value)](#setBatchSize-int-) | 设置从节点到节点传递的一部分页面的大小。 |
 | [setConvertFontsToTTF(boolean value)](#setConvertFontsToTTF-boolean-) | 指定是否将非 TrueType 字体保存为 TTF。 |
-| [setDebug(boolean debug)](#setDebug-boolean-) | 指定允许在转换期间输出警告和消息的标志。 |
-| [setEncryptionDetails(PdfEncryptionDetails value)](#setEncryptionDetails-com.aspose.xps.rendering.PdfEncryptionDetails-) | 设置加密细节。 |
+| [setDebug(boolean debug)](#setDebug-boolean-) | 指定在转换期间允许输出警告和消息的标志。 |
+| [setEncryptionDetails(PdfEncryptionDetails value)](#setEncryptionDetails-com.aspose.xps.rendering.PdfEncryptionDetails-) | 设置加密详细信息。 |
 | [setImageCompression(PdfImageCompression value)](#setImageCompression-com.aspose.xps.rendering.PdfImageCompression-) | 设置文档中所有图像使用的压缩类型。 |
 | [setJpegQualityLevel(int value)](#setJpegQualityLevel-int-) | 设置指定图像压缩级别的值。 |
-| [setOutlineTreeExpansionLevel(int value)](#setOutlineTreeExpansionLevel-int-) | 设置在 PDF 文件在查看器中打开时文档大纲应展开到的级别。1 - 仅显示第一级大纲项，2 - 显示第一、二级大纲项，依此类推。 |
-| [setOutlineTreeHeight(int value)](#setOutlineTreeHeight-int-) | 设置要保存的文档大纲树的高度。0 - 不转换大纲树，1 - 仅转换第一级大纲项，依此类推。 |
-| [setPageNumbers(int[] value)](#setPageNumbers-int---) | 设置要渲染的页面数量数组。 |
+| [setOutlineTreeExpansionLevel(int value)](#setOutlineTreeExpansionLevel-int-) | 设置在查看器中打开 PDF 文件时文档大纲应展开的层级。1 - 仅显示第一层大纲项，2 - 仅显示第一层和第二层大纲项，依此类推。 |
+| [setOutlineTreeHeight(int value)](#setOutlineTreeHeight-int-) | 设置要保存的文档大纲树的深度。0 - 大纲树将不被转换，1 - 仅转换第一层大纲项，依此类推。 |
+| [setPageNumbers(int[] value)](#setPageNumbers-int---) | 设置要渲染的页面编号数组。 |
 | [setSize(Dimension size)](#setSize-java.awt.Dimension-) | 指定页面或图像的大小。 |
 | [setSupressErrors(boolean supressErrors)](#setSupressErrors-boolean-) | 指定指示在转换期间是否抑制错误的标志。 |
 | [setTextCompression(PdfTextCompression value)](#setTextCompression-com.aspose.xps.rendering.PdfTextCompression-) | 设置除图像外所有内容流使用的压缩类型。 |
@@ -70,7 +70,7 @@ public PdfSaveOptions()
 ```
 
 
-创建 options 的新实例。
+创建选项的新实例。
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -93,7 +93,7 @@ public String[] getAdditionalFontsFolders()
 ```
 
 
-返回转换器应在其中查找输入文档字体的附加字体文件夹。默认文件夹是操作系统用于内部需求的标准字体文件夹。
+返回转换器应在其中为输入文档查找字体的附加字体文件夹。默认文件夹是操作系统用于内部需求的标准字体文件夹。
 
 **Returns:**
 java.lang.String[] - 字体文件夹数组。
@@ -103,10 +103,10 @@ public int getBatchSize()
 ```
 
 
-返回要从节点传递到节点的页面部分的大小。
+返回从节点到节点传递的一部分页面的大小。
 
 **Returns:**
-int - 要从节点传递到节点的页面部分的大小。
+int - 从节点到节点传递的一部分页面的大小。
 ### getBeforePageSavingEventHandlers() {#getBeforePageSavingEventHandlers--}
 ```
 public List<EventBasedModifications.BeforePageSavingEventHandler> getBeforePageSavingEventHandlers()
@@ -143,7 +143,7 @@ public PdfEncryptionDetails getEncryptionDetails()
 ```
 
 
-返回加密细节。如果未设置，则不执行加密。
+返回加密详细信息。如果未设置，则不会执行加密。
 
 **Returns:**
 [PdfEncryptionDetails](../../com.aspose.xps.rendering/pdfencryptiondetails) - The encryption details.
@@ -163,7 +163,7 @@ public PdfImageCompression getImageCompression()
 ```
 
 
-返回文档中所有图像使用的压缩类型。默认是 PdfImageCompression.Auto。
+返回文档中所有图像使用的压缩类型。默认是 PdfImageCompression.Auto 。
 
 **Returns:**
 [PdfImageCompression](../../com.aspose.xps.rendering/pdfimagecompression) - The compression type.
@@ -173,7 +173,7 @@ public int getJpegQualityLevel()
 ```
 
 
-返回指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值会产生最低质量的图像，而 100 则产生最高质量的图像。
+返回指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值产生最低质量的图像，而 100 则产生最高质量的图像。
 
 **Returns:**
 int - 指定图像压缩级别的值。
@@ -183,7 +183,7 @@ public int getOutlineTreeExpansionLevel()
 ```
 
 
-获取在 PDF 文件在查看器中打开时文档大纲应展开到的级别。1 - 仅显示第一级大纲项，2 - 显示第一、二级大纲项，依此类推。
+获取在查看器中打开 PDF 文件时文档大纲应展开的层级。1 - 仅显示第一层大纲项，2 - 仅显示第一层和第二层大纲项，依此类推。
 
 **Returns:**
 int - 大纲树展开级别。
@@ -193,7 +193,7 @@ public int getOutlineTreeHeight()
 ```
 
 
-获取要保存的文档大纲树的高度。0 - 大纲树将不被转换，1 - 只转换第一层大纲项，依此类推。默认是 10。
+获取要保存的文档大纲树的高度。0 - 大纲树将不被转换，1 - 仅转换第一层大纲项，依此类推。默认是 10。
 
 **Returns:**
 int - 大纲树高度。
@@ -203,7 +203,7 @@ public int[] getPageNumbers()
 ```
 
 
-获取要渲染的页面数量数组。
+获取要渲染的页面编号数组。
 
 **Returns:**
 int[] - 页面数量。
@@ -223,7 +223,7 @@ public PdfTextCompression getTextCompression()
 ```
 
 
-返回除图像外所有内容流使用的压缩类型。默认是 PdfTextCompression.Flate。
+返回除图像外所有内容流使用的压缩类型。默认是 PdfTextCompression.Flate 。
 
 **Returns:**
 [PdfTextCompression](../../com.aspose.xps.rendering/pdftextcompression) - The compression type.
@@ -243,7 +243,7 @@ public boolean isDebug()
 ```
 
 
-获取允许在转换期间输出警告和消息的标志。
+获取在转换期间允许输出警告和消息的标志。
 
 **Returns:**
 boolean - 调试值。
@@ -279,7 +279,7 @@ public boolean preserveText()
 ```
 
 
-在 XPS 中，某些文本元素可能包含指向替代字形形式的引用，这些字形在字体中没有对应的字符码。如果此标志设置为 true，则此类 XPS 元素的文本会被转换为图形形状。随后文本本身以透明方式显示在其上方，这使得这些元素的文本仍然可选中。但副作用是输出文件可能会比原始文件大得多。如果此标志设置为 false，则应显示为替代形式的字符会被替换为其他字符，这些字符会映射到替代字形。因此，文本虽然仍可选中，但会被修改，可能变得难以阅读。
+在 XPS 中，某些文本元素可能包含指向替代字形形式的引用，这些字形在字体中没有对应的字符代码。如果此标志设置为 true，则此类 XPS 元素的文本会被转换为图形形状。然后文本本身会以透明方式显示在上方。这使得这些元素的文本仍然可选中。但副作用是输出文件可能会比原始文件大得多。如果此标志设置为 false，则应显示为替代形式的字符会被替换为其他字符，这些字符会映射到替代字形形式。因此，文本虽然仍可选中，但会被修改，可能变得难以阅读。
 
 **Returns:**
 boolean - 标志值。
@@ -289,7 +289,7 @@ public void preserveText(boolean value)
 ```
 
 
-在 XPS 中，某些文本元素可能包含指向替代字形形式的引用，这些字形在字体中没有对应的字符码。如果此标志设置为 true，则此类 XPS 元素的文本会被转换为图形形状。随后文本本身以透明方式显示在其上方，这使得这些元素的文本仍然可选中。但副作用是输出文件可能会比原始文件大得多。如果此标志设置为 false，则应显示为替代形式的字符会被替换为其他字符，这些字符会映射到替代字形。因此，文本虽然仍可选中，但会被修改，可能变得难以阅读。
+在 XPS 中，某些文本元素可能包含指向替代字形形式的引用，这些字形在字体中没有对应的字符代码。如果此标志设置为 true，则此类 XPS 元素的文本会被转换为图形形状。然后文本本身会以透明方式显示在上方。这使得这些元素的文本仍然可选中。但副作用是输出文件可能会比原始文件大得多。如果此标志设置为 false，则应显示为替代形式的字符会被替换为其他字符，这些字符会映射到替代字形形式。因此，文本虽然仍可选中，但会被修改，可能变得难以阅读。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -302,7 +302,7 @@ public void setAdditionalFontsFolders(String[] fontsFolders)
 ```
 
 
-指定转换器应在其中查找输入文档字体的附加字体文件夹。默认文件夹是操作系统用于内部需求的标准字体文件夹。
+指定转换器应在其中为输入文档查找字体的附加字体文件夹。默认文件夹是操作系统用于内部需求的标准字体文件夹。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -315,7 +315,7 @@ public void setBatchSize(int value)
 ```
 
 
-设置要从节点传递到节点的页面部分的大小。
+设置从节点到节点传递的一部分页面的大小。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -328,7 +328,7 @@ public void setConvertFontsToTTF(boolean value)
 ```
 
 
-指定是否将非 TrueType 字体保存为 TTF。它显著降低 PS 转 PDF 转换后文档的体积，并提高在非 TrueType 字体大量文本的 PS 文件转换为任何输出格式的速度。然而，在将 PostSctipt 文件转换为图像时会出现轻微的垂直文字位移。
+指定是否将非 TrueType 字体保存为 TTF。这会显著减小 PS 转 PDF 转换后生成的文档体积，并提升将包含大量非 TrueType 字体文本的 PS 文件转换为任何输出格式的速度。然而，在将 PostSctipt 文件转换为图像时会出现轻微的垂直文字位移。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -341,7 +341,7 @@ public void setDebug(boolean debug)
 ```
 
 
-指定允许在转换期间输出警告和消息的标志。
+指定在转换期间允许输出警告和消息的标志。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -354,7 +354,7 @@ public void setEncryptionDetails(PdfEncryptionDetails value)
 ```
 
 
-设置加密细节。如果未设置，则不执行加密。
+设置加密细节。如果未设置，则不会执行加密。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -367,7 +367,7 @@ public void setImageCompression(PdfImageCompression value)
 ```
 
 
-设置文档中所有图像使用的压缩类型。默认是 PdfImageCompression.Auto。
+设置文档中所有图像使用的压缩类型。默认是 PdfImageCompression.Auto 。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -380,7 +380,7 @@ public void setJpegQualityLevel(int value)
 ```
 
 
-设置指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值会产生最低质量的图像，而 100 则产生最高质量的图像。
+设置指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值产生最低质量的图像，而 100 则产生最高质量的图像。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -393,7 +393,7 @@ public void setOutlineTreeExpansionLevel(int value)
 ```
 
 
-设置在 PDF 文件在查看器中打开时文档大纲应展开到的级别。1 - 仅显示第一级大纲项，2 - 显示第一、二级大纲项，依此类推。
+设置在查看器中打开 PDF 文件时文档大纲应展开的层级。1 - 仅显示第一层大纲项，2 - 仅显示第一层和第二层大纲项，依此类推。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -406,7 +406,7 @@ public void setOutlineTreeHeight(int value)
 ```
 
 
-设置要保存的文档大纲树的高度。0 - 不转换大纲树，1 - 仅转换第一级大纲项，依此类推。
+设置要保存的文档大纲树的深度。0 - 大纲树将不被转换，1 - 仅转换第一层大纲项，依此类推。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -419,7 +419,7 @@ public void setPageNumbers(int[] value)
 ```
 
 
-设置要渲染的页面数量数组。
+设置要渲染的页面编号数组。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -458,7 +458,7 @@ public void setTextCompression(PdfTextCompression value)
 ```
 
 
-设置除图像外所有内容流使用的压缩类型。默认是 PdfTextCompression.Flate。
+设置除图像外所有内容流使用的压缩类型。默认是 PdfTextCompression.Flate 。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

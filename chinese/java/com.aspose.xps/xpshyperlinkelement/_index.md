@@ -1,7 +1,7 @@
 ---
 title: "XpsHyperlinkElement"
 second_title: "Aspose.Page for Java API 参考"
-description: "封装可以成为超链接的 XPS 元素的通用特性。"
+description: "封装可以作为超链接的 XPS 元素的通用特性。"
 type: docs
 weight: 28
 url: /zh/java/com.aspose.xps/xpshyperlinkelement/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject), [c
 public abstract class XpsHyperlinkElement extends XpsElement
 ```
 
-封装可以成为超链接的 XPS 元素的通用特性。
+封装可以作为超链接的 XPS 元素的通用特性。
 ## 方法
 
 | 方法 | 描述 |

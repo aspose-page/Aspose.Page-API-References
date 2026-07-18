@@ -1,7 +1,7 @@
 ---
 title: "PrintTicketElement"
 second_title: "Aspose.Page for Java API 参考"
-description: "可能是 Print Schema 元素的类的基类。"
+description: "可能是打印模式元素的类的基类。"
 type: docs
 weight: 142
 url: /zh/java/com.aspose.xps.metadata/printticketelement/
@@ -15,7 +15,7 @@ java.lang.Object
 public abstract class PrintTicketElement implements IPrintTicketElementChild
 ```
 
-可能是 Print Schema 元素的类的基类。
+可能是打印模式元素的类的基类。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -46,7 +46,7 @@ public PrintTicketElement(String name)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 名称 | java.lang.String | 根据某些 XML 架构（Microsoft 打印模式框架或其他），元素的名称。 |
+| 名称 | java.lang.String | 根据某些 XML 架构（Microsoft Print Schema Framework 或其他）元素的名称。 |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

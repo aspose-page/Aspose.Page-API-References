@@ -1,7 +1,7 @@
 ---
 title: "PagePoster"
 second_title: "Aspose.Page for Java API 参考"
-description: "描述单页输出到多个物理介质纸张的情况。"
+description: "描述单页输出到多个物理介质纸张。"
 type: docs
 weight: 118
 url: /zh/java/com.aspose.xps.metadata/pageposter/
@@ -26,7 +26,7 @@ public final class PagePoster extends Feature implements IJobPrintTicketItem, ID
 | 方法 | 描述 |
 | --- | --- |
 | [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | 将一系列项目添加到此功能的项目列表末尾。 |
-| [addPagesPerSheetOption(int value)](#addPagesPerSheetOption-int-) | 添加一个带有 PagesPerSheet 计分属性值的选项。 |
+| [addPagesPerSheetOption(int value)](#addPagesPerSheetOption-int-) | 添加一个带有  PagesPerSheet  计分属性值的选项。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | 获取元素名称。 |
@@ -51,7 +51,7 @@ public void add(IFeatureItem[] items)
 ```
 
 
-将一组项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
+将一系列项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -64,12 +64,12 @@ public PagePoster addPagesPerSheetOption(int value)
 ```
 
 
-添加一个带有 PagesPerSheet 计分属性值的选项。指定每个逻辑页面对应的物理纸张数量。
+添加一个带有  PagesPerSheet  计分属性值的选项。指定每个逻辑页面对应的物理纸张数量。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 值 | int | 一个 PagesPerSheet 计分属性值。 |
+| 值 | int | 一个  PagesPerSheet  计分属性值。 |
 
 **Returns:**
 [PagePoster](../../com.aspose.xps.metadata/pageposter) - This feature instance.

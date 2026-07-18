@@ -1,7 +1,7 @@
 ---
 title: "XpsPathPolySegment"
 second_title: "Aspose.Page for Java API 参考"
-description: "封装 PolyLineSegment、PolyBzierSegment 和 PolyQuadraticBzierSegment 元素公共特性的类。"
+description: "封装 PolyLineSegment、PolyBzierSegment 和 PolyQuadraticBzierSegment 元素共同特性的类。"
 type: docs
 weight: 43
 url: /zh/java/com.aspose.xps/xpspathpolysegment/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject), [c
 public abstract class XpsPathPolySegment extends XpsPathSegment
 ```
 
-封装 PolyLineSegment、PolyBezierSegment 和 PolyQuadraticBezierSegment 元素通用特性的类。
+封装 PolyLineSegment、PolyB?zierSegment 和 PolyQuadraticB?zierSegment 元素通用特性的类。
 ## 方法
 
 | 方法 | 描述 |
@@ -20,10 +20,10 @@ public abstract class XpsPathPolySegment extends XpsPathSegment
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
-| [isStroked()](#isStroked--) | 返回指定路径此段是否绘制描边的值。 |
+| [isStroked()](#isStroked--) | 返回指定是否绘制此路径段描边的值。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setStroked(boolean value)](#setStroked-boolean-) | 设置指定路径此段是否绘制描边的值。 |
+| [setStroked(boolean value)](#setStroked-boolean-) | 设置指定是否绘制此路径段描边的值。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -69,10 +69,10 @@ public boolean isStroked()
 ```
 
 
-返回指定路径此段是否绘制描边的值。
+返回指定是否绘制此路径段描边的值。
 
 **Returns:**
-boolean - 指定路径此段是否绘制描边的值。
+boolean - 指定是否绘制此路径段描边的值。
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -95,12 +95,12 @@ public void setStroked(boolean value)
 ```
 
 
-设置指定路径此段是否绘制描边的值。
+设置指定是否绘制此路径段描边的值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 值 | boolean | 指定路径此段是否绘制描边的值。 |
+| 值 | boolean | 指定是否绘制此路径段描边的值。 |
 
 ### toString() {#toString--}
 ```

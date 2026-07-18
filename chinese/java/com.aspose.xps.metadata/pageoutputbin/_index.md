@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class PageOutputBin extends OutputBin implements IJobPrintTicketItem, IDocumentPrintTicketItem, IPagePrintTicketItem
 ```
 
-描述设备支持的完整容器列表。允许在每页基础上指定输出容器。JobOutputBin、DocumentOutputBin 和 PageOutputBin 关键字互斥，PrintTicket 或 Print Capabilities 文档中只能指定一个。 https://docs.microsoft.com/en-us/windows/win32/printdocs/pageoutputbin
+描述设备支持的完整容器列表。允许在每页基础上指定输出容器。JobOutputBin、DocumentOutputBin 和 PageOutputBin 关键字互斥，PrintTicket 或 Print Capabilities 文档中只能指定其中一个。 https://docs.microsoft.com/en-us/windows/win32/printdocs/pageoutputbin
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -55,7 +55,7 @@ public void add(IFeatureItem[] items)
 ```
 
 
-将一组项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
+将一系列项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

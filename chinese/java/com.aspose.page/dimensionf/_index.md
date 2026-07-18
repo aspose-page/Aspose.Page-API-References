@@ -218,8 +218,8 @@ public void setSize(double width, double height)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 宽度 | double | `Dimension` 对象的新宽度 |
-| 高度 | double | `Dimension` 对象的新高度 |
+| 宽度 | double | 该 `Dimension` 对象的新宽度 |
+| 高度 | double | 该 `Dimension` 对象的新高度 |
 
 ### setSize(float width, float height) {#setSize-float-float-}
 ```

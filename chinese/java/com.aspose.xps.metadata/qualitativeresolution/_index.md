@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class PageResolution.QualitativeResolution extends ScoredProperty implements PageResolution.IPageResolutionOptionItem
 ```
 
-为 QualitativeResolution 计分属性值定义常量。
+定义  QualitativeResolution  评分属性值的常量。
 ## 字段
 
 | 字段 | 描述 |
@@ -23,7 +23,7 @@ public static final class PageResolution.QualitativeResolution extends ScoredPro
 | [Default](#Default) | 默认值。 |
 | [Draft](#Draft) | 草稿值。 |
 | [High](#High) | 高值。 |
-| [Normal](#Normal) | 正常值。 |
+| [Normal](#Normal) | 普通值。 |
 | [Other](#Other) | 其他值。 |
 ## 方法
 
@@ -69,7 +69,7 @@ public static PageResolution.QualitativeResolution Normal
 ```
 
 
-正常值。
+普通值。
 
 ### Other {#Other}
 ```

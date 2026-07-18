@@ -1,7 +1,7 @@
 ---
 title: "InputBin.FeedType"
 second_title: "Aspose.Page for Java API 参考"
-description: "为 FeedType 计分属性值定义常量。"
+description: "定义 FeedType 计分属性值的常量。"
 type: docs
 weight: 13
 url: /zh/java/com.aspose.xps.metadata/inputbin.feedtype/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class InputBin.FeedType extends ScoredProperty implements InputBin.IInputBinOptionItem
 ```
 
-定义 FeedType 计分属性值的常量。
+定义  FeedType  计分属性值的常量。
 ## 字段
 
 | 字段 | 描述 |

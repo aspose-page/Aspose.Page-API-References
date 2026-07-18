@@ -17,10 +17,10 @@ public static final class RollCut.RollCutOption extends Option
 
 | 字段 | 描述 |
 | --- | --- |
-| [Banner](#Banner) | 指定横幅的切割方式（仅限 DocumentRollCut）。 |
+| [Banner](#Banner) | 指定横幅（仅限 DocumentRollCut）的切割方式。 |
 | [CutSheetAtImageEdge](#CutSheetAtImageEdge) | 指定在图像边缘进行切割。 |
-| [CutSheetAtStandardMediaSize](#CutSheetAtStandardMediaSize) | 指定对标准介质尺寸进行切割。 |
-| [None](#None) | 指定不进行作业卷切。 |
+| [CutSheetAtStandardMediaSize](#CutSheetAtStandardMediaSize) | 指定标准介质尺寸的切割。 |
+| [None](#None) | 指定不进行作业切割。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -42,7 +42,7 @@ public static RollCut.RollCutOption Banner
 ```
 
 
-指定横幅的切割方式（仅限 DocumentRollCut）。
+指定横幅（仅限 DocumentRollCut）的切割方式。
 
 ### CutSheetAtImageEdge {#CutSheetAtImageEdge}
 ```
@@ -58,7 +58,7 @@ public static RollCut.RollCutOption CutSheetAtStandardMediaSize
 ```
 
 
-指定对标准介质尺寸进行切割。
+指定标准介质尺寸的切割。
 
 ### None {#None}
 ```
@@ -66,7 +66,7 @@ public static RollCut.RollCutOption None
 ```
 
 
-指定不进行作业卷切。
+指定不进行作业切割。
 
 ### add(IOptionItem[] items) {#add-com.aspose.xps.metadata.IOptionItem...-}
 ```

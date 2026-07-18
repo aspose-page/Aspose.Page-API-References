@@ -1,7 +1,7 @@
 ---
 title: "PageScalingScaleHeight"
 second_title: "Aspose.Page for Java API 参考"
-description: "指定自定义缩放时在 ImageableSizeHeight 方向上的缩放因子。"
+description: "指定自定义缩放中 ImageableSizeHeight 方向的缩放因子。"
 type: docs
 weight: 125
 url: /zh/java/com.aspose.xps.metadata/pagescalingscaleheight/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class PageScalingScaleHeight extends IntegerParameterInit implements IJobPrintTicketItem, IDocumentPrintTicketItem, IPagePrintTicketItem
 ```
 
-指定自定义缩放时在 ImageableSizeHeight 方向上的缩放因子。 https://docs.microsoft.com/en-us/windows/win32/printdocs/pagescalingscaleheight
+指定自定义缩放中 ImageableSizeHeight 方向的缩放因子。 https://docs.microsoft.com/en-us/windows/win32/printdocs/pagescalingscaleheight
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -29,7 +29,7 @@ public final class PageScalingScaleHeight extends IntegerParameterInit implement
 | [getClass()](#getClass--) |  |
 | [getMaxValue()](#getMaxValue--) | 对于整数或小数值参数，定义允许的最大值。 |
 | [getMinValue()](#getMinValue--) | 对于整数或小数值参数，定义允许的最小值。 |
-| [getMultiple()](#getMultiple--) | 对于整数或小数值参数，参数的值应为该数字的倍数。 |
+| [getMultiple()](#getMultiple--) | 对于整数或小数值参数，参数的值应是该数字的倍数。 |
 | [getName()](#getName--) | 获取元素名称。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -85,7 +85,7 @@ public int getMaxValue()
 对于整数或小数值参数，定义允许的最大值。
 
 **Returns:**
-int - 允许的最大值。
+int - 最大允许值。
 ### getMinValue() {#getMinValue--}
 ```
 public int getMinValue()
@@ -95,14 +95,14 @@ public int getMinValue()
 对于整数或小数值参数，定义允许的最小值。
 
 **Returns:**
-int - 允许的最小值。
+int - 最小允许值。
 ### getMultiple() {#getMultiple--}
 ```
 public int getMultiple()
 ```
 
 
-对于整数或小数值参数，参数的值应为该数字的倍数。
+对于整数或小数值参数，参数的值应是该数字的倍数。
 
 **Returns:**
 int - 参数应为其倍数的数字。

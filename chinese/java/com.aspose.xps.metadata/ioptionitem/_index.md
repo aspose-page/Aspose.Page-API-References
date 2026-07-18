@@ -1,7 +1,7 @@
 ---
 title: "IOptionItem"
 second_title: "Aspose.Page for Java API 参考"
-description: "可能是 Print Schema 选项项的类的接口。"
+description: "可能作为打印模式选项项的类的接口。"
 type: docs
 weight: 156
 url: /zh/java/com.aspose.xps.metadata/ioptionitem/
@@ -12,4 +12,4 @@ url: /zh/java/com.aspose.xps.metadata/ioptionitem/
 public interface IOptionItem extends IPrintTicketElementChild
 ```
 
-可能是 Print Schema Option 项目的类的接口。
+可能是 Print Schema Option 项的类的接口。

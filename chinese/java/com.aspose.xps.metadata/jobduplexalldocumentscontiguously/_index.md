@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class JobDuplexAllDocumentsContiguously extends Duplex implements IJobPrintTicketItem
 ```
 
-描述输出的双面特性。双面功能允许在介质的两面进行打印。作业中的所有文档将连续双面打印。JobDuplexAllDocumentsContiguously 和 DocumentDuplex 互斥。由驱动程序决定这些关键字之间的约束处理方式。 https://docs.microsoft.com/en-us/windows/win32/printdocs/jobduplexalldocumentscontiguously
+描述输出的双面特性。双面功能允许在介质的两面进行打印。作业中的所有文档将连续地一起进行双面打印。  JobDuplexAllDocumentsContiguously  和  DocumentDuplex  互斥。由驱动程序决定这些关键字之间的约束处理方式。 https://docs.microsoft.com/en-us/windows/win32/printdocs/jobduplexalldocumentscontiguously
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -47,7 +47,7 @@ public JobDuplexAllDocumentsContiguously(Duplex.DuplexOption[] options)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| options | [DuplexOption\[\]](../../com.aspose.xps.metadata/duplexoption) | 特定于此功能的选项数组。 |
+| options | [DuplexOption\[\]](../../com.aspose.xps.metadata/duplexoption) | 针对该功能的特定选项数组。 |
 
 ### add(IFeatureItem[] items) {#add-com.aspose.xps.metadata.IFeatureItem...-}
 ```
@@ -55,7 +55,7 @@ public void add(IFeatureItem[] items)
 ```
 
 
-将一组项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
+将一系列项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

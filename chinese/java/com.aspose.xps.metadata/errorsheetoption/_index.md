@@ -44,7 +44,7 @@ public static final JobErrorSheet.ErrorSheetOption Custom
 ```
 
 
-指定应输出自定义错误纸张。如果未指定  JobErrorSheetSource   ParameterInit  元素，则应忽略此选项。
+指定应输出自定义错误纸张。如果未指定 JobErrorSheetSource ParameterInit 元素，则应忽略此选项。
 
 ### None {#None}
 ```

@@ -12,14 +12,14 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class PageMirrorImage.PageMirrorImageOption extends Option
 ```
 
-定义 PageMirrorImage 功能选项。
+定义  PageMirrorImage  功能选项。
 ## 字段
 
 | 字段 | 描述 |
 | --- | --- |
 | [MirrorImageHeight](#MirrorImageHeight) | 指定输出应沿 MediaSizeHeight 方向镜像。 |
 | [MirrorImageWidth](#MirrorImageWidth) | 指定输出应沿 MediaSizeWidth 方向镜像。 |
-| [None](#None) | 指定输出不应镜像。 |
+| [None](#None) | 指定输出不应被镜像。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -57,7 +57,7 @@ public static PageMirrorImage.PageMirrorImageOption None
 ```
 
 
-指定输出不应镜像。
+指定输出不应被镜像。
 
 ### add(IOptionItem[] items) {#add-com.aspose.xps.metadata.IOptionItem...-}
 ```

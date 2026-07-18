@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class DocumentStaple extends Staple implements IJobPrintTicketItem, IDocumentPrintTicketItem
 ```
 
-描述输出的装订特性。每个文档单独装订。JobStapleAllDocuments 和 DocumentStaple 关键字互斥。由驱动程序决定这些关键字之间的约束处理方式。 https://docs.microsoft.com/en-us/windows/win32/printdocs/documentstaple
+描述输出的装订特性。每个文档分别装订。  JobStapleAllDocuments  和  DocumentStaple  关键字互斥。由驱动程序决定这些关键字之间的约束处理方式。 https://docs.microsoft.com/en-us/windows/win32/printdocs/documentstaple
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -47,7 +47,7 @@ public DocumentStaple(Staple.StapleOption[] options)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| options | [StapleOption\[\]](../../com.aspose.xps.metadata/stapleoption) | 特定于此功能的选项数组。 |
+| options | [StapleOption\[\]](../../com.aspose.xps.metadata/stapleoption) | 针对该功能的特定选项数组。 |
 
 ### add(IFeatureItem[] items) {#add-com.aspose.xps.metadata.IFeatureItem...-}
 ```
@@ -55,7 +55,7 @@ public void add(IFeatureItem[] items)
 ```
 
 
-将一组项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
+将一系列项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

@@ -12,13 +12,13 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class PageNegativeImage.PageNegativeImageOption extends Option
 ```
 
-定义 PageNegativeImage 功能选项。
+定义  PageNegativeImage  功能选项。
 ## 字段
 
 | 字段 | 描述 |
 | --- | --- |
-| [Negative](#Negative) | 指定输出应为负图像。 |
-| [None](#None) | 指定输出应为非负图像。 |
+| [Negative](#Negative) | 指定输出应为负片图像。 |
+| [None](#None) | 指定输出应为非负片图像。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -40,7 +40,7 @@ public static PageNegativeImage.PageNegativeImageOption Negative
 ```
 
 
-指定输出应为负图像。
+指定输出应为负片图像。
 
 ### None {#None}
 ```
@@ -48,7 +48,7 @@ public static PageNegativeImage.PageNegativeImageOption None
 ```
 
 
-指定输出应为非负图像。
+指定输出应为非负片图像。
 
 ### add(IOptionItem[] items) {#add-com.aspose.xps.metadata.IOptionItem...-}
 ```

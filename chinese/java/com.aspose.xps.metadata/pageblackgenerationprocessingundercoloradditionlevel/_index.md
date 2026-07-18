@@ -1,7 +1,7 @@
 ---
 title: "PageBlackGenerationProcessingUnderColorAdditionLevel"
 second_title: "Aspose.Page for Java API 参考"
-description: "描述在灰度分量比中添加的彩色墨水量，以用于在 GCR/UCR 已生成 BlackInkLimit 或 UCAStart 的暗色中性和近中性区域（如果已指定）。"
+description: "描述在暗中性和近中性区域中，GCR/UCR 生成 BlackInkLimit 或 UCAStart（如果已指定）时，需要以灰分量比添加的彩色墨水量。"
 type: docs
 weight: 84
 url: /zh/java/com.aspose.xps.metadata/pageblackgenerationprocessingundercoloradditionlevel/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class PageBlackGenerationProcessingUnderColorAdditionLevel extends IntegerParameterInit implements IJobPrintTicketItem, IDocumentPrintTicketItem, IPagePrintTicketItem
 ```
 
-描述在灰度分量比中添加的彩色墨水量，以用于在 GCR/UCR 已生成 "BlackInkLimit"（或 UCAStart，如果已指定） 的暗色中性和近中性区域。 https://docs.microsoft.com/en-us/windows/win32/printdocs/pageblackgenerationprocessingundercoloradditionlevel
+描述在暗中性和近中性区域中，GCR/UCR 生成 "BlackInkLimit"（或 UCAStart，如果已指定）时，以灰分量比添加的彩色墨水量。 https://docs.microsoft.com/en-us/windows/win32/printdocs/pageblackgenerationprocessingundercoloradditionlevel
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -29,7 +29,7 @@ public final class PageBlackGenerationProcessingUnderColorAdditionLevel extends 
 | [getClass()](#getClass--) |  |
 | [getMaxValue()](#getMaxValue--) | 对于整数或小数值参数，定义允许的最大值。 |
 | [getMinValue()](#getMinValue--) | 对于整数或小数值参数，定义允许的最小值。 |
-| [getMultiple()](#getMultiple--) | 对于整数或小数值参数，参数的值应为该数字的倍数。 |
+| [getMultiple()](#getMultiple--) | 对于整数或小数值参数，参数的值应是该数字的倍数。 |
 | [getName()](#getName--) | 获取元素名称。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -102,7 +102,7 @@ public int getMultiple()
 ```
 
 
-对于整数或小数值参数，参数的值应为该数字的倍数。
+对于整数或小数值参数，参数的值应是该数字的倍数。
 
 **Returns:**
 int - 参数应为其倍数的数字。

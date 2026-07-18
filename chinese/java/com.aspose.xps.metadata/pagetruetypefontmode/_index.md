@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class PageTrueTypeFontMode extends Feature implements IJobPrintTicketItem, IDocumentPrintTicketItem, IPagePrintTicketItem
 ```
 
-描述要使用的 TrueType 字体处理方法。 https://docs.microsoft.com/en-us/windows/win32/printdocs/pagetruetypefontmode
+描述将使用的 TrueType 字体处理方法。 https://docs.microsoft.com/en-us/windows/win32/printdocs/pagetruetypefontmode
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -47,7 +47,7 @@ public PageTrueTypeFontMode(PageTrueTypeFontMode.PageTrueTypeFontModeOption[] op
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| options | [PageTrueTypeFontModeOption\[\]](../../com.aspose.xps.metadata/pagetruetypefontmodeoption) | 特定于此功能的选项数组。 |
+| options | [PageTrueTypeFontModeOption\[\]](../../com.aspose.xps.metadata/pagetruetypefontmodeoption) | 针对该功能的特定选项数组。 |
 
 ### add(IFeatureItem[] items) {#add-com.aspose.xps.metadata.IFeatureItem...-}
 ```
@@ -55,7 +55,7 @@ public void add(IFeatureItem[] items)
 ```
 
 
-将一组项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
+将一系列项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

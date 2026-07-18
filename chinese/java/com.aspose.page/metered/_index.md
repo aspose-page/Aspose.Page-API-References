@@ -37,8 +37,8 @@ The component jar file:
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [flush()](#flush--) | 刷新服务器上的计数数据。 |
 | [getClass()](#getClass--) |  |
-| [getConsumptionCredit()](#getConsumptionCredit--) | 获取消耗额度。 |
-| [getConsumptionQuantity()](#getConsumptionQuantity--) | 获取消耗文件大小 |
+| [getConsumptionCredit()](#getConsumptionCredit--) | 获取消耗额度 |
+| [getConsumptionQuantity()](#getConsumptionQuantity--) | 获取消耗文件的大小 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -84,7 +84,7 @@ public static void flush()
 ```
 
 
-刷新服务器上的计数数据。仅用于调试目的。
+在服务器上刷新计数数据。仅用于调试目的。
 
 ### getClass() {#getClass--}
 ```
@@ -102,7 +102,7 @@ public static double getConsumptionCredit()
 ```
 
 
-获取消耗额度。
+获取消耗额度
 
 **Returns:**
 double - 消耗数量
@@ -112,7 +112,7 @@ public static double getConsumptionQuantity()
 ```
 
 
-获取消耗文件大小
+获取消耗文件的大小
 
 **Returns:**
 double - 消耗数量

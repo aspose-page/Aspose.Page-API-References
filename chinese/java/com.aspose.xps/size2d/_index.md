@@ -12,9 +12,9 @@ java.lang.Object, java.awt.geom.Dimension2D
 public abstract class Size2D extends Dimension2D
 ```
 
-`Size2D` 类描述尺寸 (宽 x 高)。
+`Size2D` 类描述尺寸（宽 x 高）。
 
-此类仅是所有存储二维尺寸对象的抽象超类。尺寸的实际存储表示由子类决定。
+此类仅是所有存储二维尺寸对象的抽象超类。尺寸的实际存储表示由子类实现。
 ## 构造函数
 
 | 构造函数 | 描述 |

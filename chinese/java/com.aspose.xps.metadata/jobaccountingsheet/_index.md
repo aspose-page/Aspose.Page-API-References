@@ -1,7 +1,7 @@
 ---
 title: "JobAccountingSheet"
 second_title: "Aspose.Page for Java API 参考"
-description: "描述作业要输出的会计表。"
+description: "描述作业要输出的记账单。"
 type: docs
 weight: 44
 url: /zh/java/com.aspose.xps.metadata/jobaccountingsheet/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class JobAccountingSheet extends Feature implements IJobPrintTicketItem
 ```
 
-描述要为作业输出的记账单。记账单应使用默认的 PageMediaSize 并使用默认的 PageMediaType 输出。记账单应与作业的其余部分隔离。这意味着任何装订或处理选项（例如 JobDuplex、JobStaple 或 JobBinding）都不应包含记账单。记账单可以根据实现者的决定作为作业的第一页或最后一页出现。 https://docs.microsoft.com/en-us/windows/win32/printdocs/jobaccountingsheet
+描述要为作业输出的记账单。记账单应使用默认的 PageMediaSize 并使用默认的 PageMediaType 输出。记账单应与作业的其余部分隔离。这意味着任何装订或处理选项（例如 JobDuplex、JobStaple 或 JobBinding）不应包含记账单。记账单可以在作业的第一页或最后一页出现，具体由实现者决定。 https://docs.microsoft.com/en-us/windows/win32/printdocs/jobaccountingsheet
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -47,7 +47,7 @@ public JobAccountingSheet(JobAccountingSheet.JobAccountingSheetOption[] options)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| options | [JobAccountingSheetOption\[\]](../../com.aspose.xps.metadata/jobaccountingsheetoption) | 特定于此功能的选项数组。 |
+| options | [JobAccountingSheetOption\[\]](../../com.aspose.xps.metadata/jobaccountingsheetoption) | 针对该功能的特定选项数组。 |
 
 ### add(IFeatureItem[] items) {#add-com.aspose.xps.metadata.IFeatureItem...-}
 ```
@@ -55,7 +55,7 @@ public void add(IFeatureItem[] items)
 ```
 
 
-将一组项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
+将一系列项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

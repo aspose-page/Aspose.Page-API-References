@@ -16,5 +16,5 @@ url: /zh/java/com.aspose.xps.plugins/
 | --- | --- |
 | [XpsConverter](../com.aspose.xps.plugins/xpsconverter) | 表示 XpsConverter 插件。 |
 | [XpsConverterOptions](../com.aspose.xps.plugins/xpsconverteroptions) | 表示 [XpsConverter](../com.aspose.xps.plugins/xpsconverter) 插件选项的基类。 |
-| [XpsConverterToImageOptions](../com.aspose.xps.plugins/xpsconvertertoimageoptions) | 表示用于 [XpsConverter](../com.aspose.xps.plugins/xpsconverter) 插件的 XPS 到 Image 转换器选项。 |
+| [XpsConverterToImageOptions](../com.aspose.xps.plugins/xpsconvertertoimageoptions) | 表示用于 [XpsConverter](../com.aspose.xps.plugins/xpsconverter) 插件的 XPS 到图像转换器选项。 |
 | [XpsConverterToPdfOptions](../com.aspose.xps.plugins/xpsconvertertopdfoptions) | 表示用于 [XpsConverter](../com.aspose.xps.plugins/xpsconverter) 插件的 XPS 到 PDF 转换器选项。 |

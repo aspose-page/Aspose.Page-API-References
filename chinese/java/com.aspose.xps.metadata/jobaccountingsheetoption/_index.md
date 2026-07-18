@@ -17,8 +17,8 @@ public static final class JobAccountingSheet.JobAccountingSheetOption extends Op
 
 | 字段 | 描述 |
 | --- | --- |
-| [None](#None) | 指定不输出记账表。 |
-| [Standard](#Standard) | 指定应输出标准（设备定义的）记账表。 |
+| [None](#None) | 指定不输出记账单。 |
+| [Standard](#Standard) | 指定应输出标准（设备定义的）记账单。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -40,7 +40,7 @@ public static final JobAccountingSheet.JobAccountingSheetOption None
 ```
 
 
-指定不输出记账表。
+指定不输出记账单。
 
 ### Standard {#Standard}
 ```
@@ -48,7 +48,7 @@ public static final JobAccountingSheet.JobAccountingSheetOption Standard
 ```
 
 
-指定应输出标准（设备定义的）记账表。
+指定应输出标准（设备定义的）记账单。
 
 ### add(IOptionItem[] items) {#add-com.aspose.xps.metadata.IOptionItem...-}
 ```

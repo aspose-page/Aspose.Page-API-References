@@ -17,7 +17,7 @@ public final class DocumentPrintTicket extends PrintTicket
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [DocumentPrintTicket(IDocumentPrintTicketItem[] items)](#DocumentPrintTicket-com.aspose.xps.metadata.IDocumentPrintTicketItem...-) | 创建文档级打印票实例。 |
+| [DocumentPrintTicket(IDocumentPrintTicketItem[] items)](#DocumentPrintTicket-com.aspose.xps.metadata.IDocumentPrintTicketItem...-) | 创建一个文档级打印票实例。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -40,7 +40,7 @@ public DocumentPrintTicket(IDocumentPrintTicketItem[] items)
 ```
 
 
-创建文档级打印票实例。
+创建一个文档级打印票实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -132,7 +132,7 @@ public void remove(String[] names)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 名称 | java.lang.String[] | 项目名称数组。 |
+| 名称 | java.lang.String[] | 项目名称的数组。 |
 
 ### toString() {#toString--}
 ```

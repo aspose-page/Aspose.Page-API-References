@@ -12,7 +12,7 @@ java.lang.Object, java.lang.Enum
 public enum SmoothingMode extends Enum<SmoothingMode>
 ```
 
-指定是否对直线、曲线以及填充区域的边缘应用平滑（抗锯齿）。
+指定是否对线条、曲线以及填充区域的边缘应用平滑（抗锯齿）。
 ## 字段
 
 | 字段 | 描述 |

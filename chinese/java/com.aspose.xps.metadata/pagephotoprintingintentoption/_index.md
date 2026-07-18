@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class PagePhotoPrintingIntent.PagePhotoPrintingIntentOption extends Option
 ```
 
-定义 PagePhotoPrintingIntent 功能选项。
+定义  PagePhotoPrintingIntent  功能选项。
 ## 字段
 
 | 字段 | 描述 |

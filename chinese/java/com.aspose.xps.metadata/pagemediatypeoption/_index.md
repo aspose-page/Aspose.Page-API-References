@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class PageMediaType.PageMediaTypeOption extends Option implements PageMediaType.IPageMediaTypeItem
 ```
 
-描述 PageMediaType 功能选项。
+描述  PageMediaType  功能选项。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -84,7 +84,7 @@ public PageMediaTypeOption(String optionName, PageMediaType.IPageMediaTypeOption
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| optionName | java.lang.String | 选项名称。 |
+| optionName | java.lang.String | 一个选项名称。 |
 | items | [IPageMediaTypeOptionItem\[\]](../../com.aspose.xps.metadata/ipagemediatypeoptionitem) | 任意的 IPageMediaTypeOptionItem 实例数组。 |
 
 ### PageMediaTypeOption(PageMediaType.PageMediaTypeOption option) {#PageMediaTypeOption-com.aspose.xps.metadata.PageMediaType.PageMediaTypeOption-}
@@ -366,7 +366,7 @@ public PageMediaType.PageMediaTypeOption clone()
 ```
 
 
-克隆此选项实例。该快捷方式指向克隆构造函数。
+克隆此选项实例。这是克隆构造函数的快捷方式。
 
 **Returns:**
 [PageMediaTypeOption](../../com.aspose.xps.metadata/pagemediatypeoption) - The clone of this option instance.

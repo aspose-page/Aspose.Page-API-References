@@ -1,7 +1,7 @@
 ---
 title: "OutputBin.MediaSheetCapacity"
 second_title: "Aspose.Page for Java API 参考"
-description: "定义 MediaSheetCapacity 计分属性值，该值指定容器中以页数计的介质容量的满载水平。"
+description: "定义 MediaSheetCapacity 计分属性值，该值指定容器中介质的容量（以页数计的满载水平）。"
 type: docs
 weight: 11
 url: /zh/java/com.aspose.xps.metadata/outputbin.mediasheetcapacity/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class OutputBin.MediaSheetCapacity extends ScoredProperty implements OutputBin.IOutputBinOptionItem
 ```
 
-定义 MediaSheetCapacity 计分属性值，以指定容器的媒体容量（以页数计的完整水平）。
+定义  MediaSheetCapacity  计分属性值，以指定容器的媒体容量（以页数计的完整容量）。
 ## 构造函数
 
 | 构造函数 | 描述 |

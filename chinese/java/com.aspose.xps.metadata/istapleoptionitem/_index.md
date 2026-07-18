@@ -12,4 +12,4 @@ url: /zh/java/com.aspose.xps.metadata/staple.istapleoptionitem/
 public static interface Staple.IStapleOptionItem extends IOptionItem
 ```
 
-任何 StapleOption 项目的接口。
+任何  StapleOption  项目的接口。

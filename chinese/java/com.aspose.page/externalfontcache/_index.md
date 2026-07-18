@@ -1,7 +1,7 @@
 ---
 title: "ExternalFontCache"
 second_title: "Aspose.Page for Java API 参考"
-description: "使用此类获取以 Device 接受的形式封装的字体。"
+description: "使用此类获取以 Device 接受的形式的字体封装。"
 type: docs
 weight: 13
 url: /zh/java/com.aspose.page/externalfontcache/
@@ -12,7 +12,7 @@ java.lang.Object
 public class ExternalFontCache
 ```
 
-使用此类获取以 Device 接受的形式封装的字体。
+使用此类获取以 Device 接受的形式的字体封装。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -125,7 +125,7 @@ public static DrFont fetchDrFont(String familyName, float sizePoints, int style)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | familyName | java.lang.String | 字体族名称。 |
-| sizePoints | float | 字体大小，以点为单位（一个点等于 1/72 英寸）。 |
+| sizePoints | float | 字体大小（单位为点，1 点等于 1/72 英寸）。 |
 | 样式 | int | 字体样式。 |
 
 **Returns:**
@@ -142,7 +142,7 @@ public DrFont fetchDrFont(String familyName, float sizePoints, int style, int fo
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | familyName | java.lang.String | 字体族名称。 |
-| sizePoints | float | 字体大小，以点为单位（一个点等于 1/72 英寸）。 |
+| sizePoints | float | 字体大小（单位为点，1 点等于 1/72 英寸）。 |
 | 样式 | int | 字体样式。 |
 | fontCapitals | int | 字体大写。 |
 
@@ -160,7 +160,7 @@ public DrFont fetchDrFont(String familyName, float sizePoints, int style, String
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | familyName | java.lang.String | 字体族名称。 |
-| sizePoints | float | 字体大小，以点为单位（一个点等于 1/72 英寸）。 |
+| sizePoints | float | 字体大小（单位为点，1 点等于 1/72 英寸）。 |
 | 样式 | int | 字体样式。 |
 | altFamilyName | java.lang.String | 备用字体族名称。 |
 
@@ -178,7 +178,7 @@ public DrFont fetchDrFont(String familyName, float sizePoints, int style, String
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | familyName | java.lang.String | 字体族名称。 |
-| sizePoints | float | 字体大小，以点为单位（一个点等于 1/72 英寸）。 |
+| sizePoints | float | 字体大小（单位为点，1 点等于 1/72 英寸）。 |
 | 样式 | int | 字体样式。 |
 | altFamilyName | java.lang.String | 备用字体族名称。 |
 | fontCapitals | int | 字体大写。 |
@@ -244,7 +244,7 @@ public static void setAdditionalFontsFolders(String[] additionalFontFolders)
 ```
 
 
-指定额外的字体文件夹。操作系统使用的字体文件夹默认由 ExternalFont 缓存使用。通常不需要定义它们，
+指定额外的字体文件夹。操作系统使用的字体文件夹默认由 ExternalFont 缓存使用。通常不需要自行定义它们，
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

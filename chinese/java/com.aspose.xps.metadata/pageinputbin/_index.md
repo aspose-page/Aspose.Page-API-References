@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class PageInputBin extends InputBin implements IJobPrintTicketItem, IDocumentPrintTicketItem, IPagePrintTicketItem
 ```
 
-描述设备中已安装的输入纸盒或设备支持的全部纸盒列表。允许在每页基础上指定输入纸盒。关键字 JobInputBin、DocumentInputBin 和 PageInputBin 互斥。它们不应在 PrintTicket 或 Print Capabilities 文档中同时指定。 https://docs.microsoft.com/en-us/windows/win32/printdocs/pageinputbin
+描述设备中已安装的输入纸盒或设备支持的全部纸盒列表。允许在每页基础上指定输入纸盒。关键字 JobInputBin、DocumentInputBin 和 PageInputBin 互斥。两者不应在 PrintTicket 或 Print Capabilities 文档中同时指定。 https://docs.microsoft.com/en-us/windows/win32/printdocs/pageinputbin
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -55,7 +55,7 @@ public void add(IFeatureItem[] items)
 ```
 
 
-将一组项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
+将一系列项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

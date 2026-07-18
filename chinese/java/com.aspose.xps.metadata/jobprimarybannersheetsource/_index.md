@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class JobPrimaryBannerSheetSource extends StringParameterInit implements IJobPrintTicketItem
 ```
 
-指定作业的主要自定义横幅纸张来源。 https://docs.microsoft.com/en-us/windows/win32/printdocs/jobprimarybannersheetsource
+指定作业的主要自定义横幅纸张的来源。 https://docs.microsoft.com/en-us/windows/win32/printdocs/jobprimarybannersheetsource
 ## 构造函数
 
 | 构造函数 | 描述 |

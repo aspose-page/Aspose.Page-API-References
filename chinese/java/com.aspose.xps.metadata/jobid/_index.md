@@ -1,7 +1,7 @@
 ---
 title: "JobID"
 second_title: "Aspose.Page for Java API 参考"
-description: "指定作业的唯一 ID。"
+description: "指定作业的唯一标识。"
 type: docs
 weight: 56
 url: /zh/java/com.aspose.xps.metadata/jobid/

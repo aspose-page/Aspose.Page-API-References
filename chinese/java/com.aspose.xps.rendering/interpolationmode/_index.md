@@ -1,7 +1,7 @@
 ---
 title: "InterpolationMode"
 second_title: "Aspose.Page for Java API 参考"
-description: "指定在对图像进行缩放或旋转时使用的算法。"
+description: "指定在图像缩放或旋转时使用的算法。"
 type: docs
 weight: 20
 url: /zh/java/com.aspose.xps.rendering/interpolationmode/
@@ -12,7 +12,7 @@ java.lang.Object, java.lang.Enum
 public enum InterpolationMode extends Enum<InterpolationMode>
 ```
 
-指定在对图像进行缩放或旋转时使用的算法。
+指定在图像缩放或旋转时使用的算法。
 ## 字段
 
 | 字段 | 描述 |
@@ -52,7 +52,7 @@ public static final InterpolationMode Bicubic
 ```
 
 
-指定双三次插值。未进行预过滤。此模式不适用于将图像缩小至原始大小的 25% 以下。
+指定双三次插值。不进行预过滤。此模式不适用于将图像缩小至原始尺寸的 25% 以下。
 
 ### Bilinear {#Bilinear}
 ```
@@ -60,7 +60,7 @@ public static final InterpolationMode Bilinear
 ```
 
 
-指定双线性插值。未进行预过滤。此模式不适用于将图像缩小至原始大小的 50% 以下。
+指定双线性插值。不进行预过滤。此模式不适用于将图像缩小至原始尺寸的 50% 以下。
 
 ### Default {#Default}
 ```
@@ -84,7 +84,7 @@ public static final InterpolationMode HighQualityBicubic
 ```
 
 
-指定高质量的双三次插值。进行预过滤以确保高质量缩小。此模式可生成最高质量的变换图像。
+指定高质量的双三次插值。进行预过滤以确保高质量的缩小。此模式产生最高质量的变换图像。
 
 ### HighQualityBilinear {#HighQualityBilinear}
 ```
@@ -92,7 +92,7 @@ public static final InterpolationMode HighQualityBilinear
 ```
 
 
-指定高质量的双线性插值。进行预过滤以确保高质量缩小。
+指定高质量的双线性插值。进行预过滤以确保高质量的缩小。
 
 ### Low {#Low}
 ```

@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class PageOutputColor.PageOutputColorOption extends Option implements PageOutputColor.IPageOutputColorItem
 ```
 
-描述 PageOutputColor 功能选项。
+描述  PageOutputColor  功能选项。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -51,7 +51,7 @@ public PageOutputColorOption(String optionName, PageOutputColor.IPageOutputColor
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| optionName | java.lang.String | 选项名称。 |
+| optionName | java.lang.String | 一个选项名称。 |
 | items | [IPageOutputColorOptionItem\[\]](../../com.aspose.xps.metadata/ipageoutputcoloroptionitem) | 任意 IPageOutputColorOptionItem 实例的数组。 |
 
 ### Color(int deviceBitsPerPixel, int driverBitsPerPixel) {#Color-int-int-}

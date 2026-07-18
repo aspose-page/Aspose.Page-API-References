@@ -30,7 +30,7 @@ public class XpsConverterToPdfOptions extends XpsConverterOptions
 | [getJpegQualityLevel()](#getJpegQualityLevel--) | 返回指定图像压缩级别的值。 |
 | [getOperationName()](#getOperationName--) | 返回操作名称。 |
 | [getPageNumbers()](#getPageNumbers--) | 获取要转换的 XPS 文档中页码的数组。 |
-| [getSaveTargetsCollection()](#getSaveTargetsCollection--) | 获取用于保存操作结果的已添加目标的集合。 |
+| [getSaveTargetsCollection()](#getSaveTargetsCollection--) | 获取用于保存操作结果的已添加目标集合。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -115,7 +115,7 @@ public int getJpegQualityLevel()
 ```
 
 
-返回指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值会产生最低质量的图像，而 100 则产生最高质量的图像。
+返回指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值产生最低质量的图像，而 100 则产生最高质量的图像。
 
 **Returns:**
 int - 指定图像压缩级别的值。
@@ -145,7 +145,7 @@ public final List<IDataSource> getSaveTargetsCollection()
 ```
 
 
-获取用于保存操作结果的已添加目标的集合。
+获取用于保存操作结果的已添加目标集合。
 
 **Returns:**
 java.util.List<com.aspose.page.plugins.IDataSource>
@@ -181,7 +181,7 @@ public void setJpegQualityLevel(int value)
 ```
 
 
-设置指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值会产生最低质量的图像，而 100 则产生最高质量的图像。
+设置指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值产生最低质量的图像，而 100 则产生最高质量的图像。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -199,7 +199,7 @@ public void setPageNumbers(int[] pageNumbers)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| pageNumbers | int[] | XPS 文档中页数的数组。 |
+| pageNumbers | int[] | XPS 文档中页面数量的数组。 |
 
 ### toString() {#toString--}
 ```

@@ -21,13 +21,13 @@ public class PsConverter implements IPlugin
 
 // 创建 PsConverter PsConverter converter = new PsConverter(); // 创建 PsConverterToPdfOptions 对象以将输出数据类型设置为文件 PsConverterToPdfOptions opt = new PsConverterToPdfOptions(); // 添加输入文件路径 opt.addDataSource(new FileDataSource(inputPath)); // 设置输出文件路径 opt.addSaveDataSource(new FileDataSource(outputPath)); // 启动转换过程 ResultContainer results = converter.process(opt);
 
-此示例演示如何将 PS/EPS 文件转换为图像并输出为文件。
+此示例演示如何将 PS/EPS 文件转换为带文件输出的图像。
 
-// 创建 PsConverter PsConverter converter = new PsConverter(); // 创建 PsConverterToImageOptions，目标图像格式为 JPEG。生成图像的默认格式为 PNG。 // 同时我们可以设置生成图像的尺寸、分辨率、平滑模式以及 JPEG 结果图像格式的质量等级。 PsConverterToImageOptions opt = new PsConverterToImageOptions(ImageFormat.Jpeg); // 添加输入文件路径 opt.addDataSource(new FileDataSource(inputPath)); // 如果输入的 PS 文件是多页的，结果将是一组图像文件，命名方式为：[\"outputPath\" without extension][pageNumber started from 0].[extension from \"outputPath\"] opt.addSaveDataSource(new FileDataSource(outputPath)); // 启动转换过程 converter.process(opt);
+// 创建 PsConverter PsConverter converter = new PsConverter(); // 创建 PsConverterToImageOptions，目标图像格式为 JPEG。生成图像的默认格式为 PNG。 // 还可以设置生成图像的尺寸、分辨率、平滑模式以及 JPEG 结果图像格式的质量级别。 PsConverterToImageOptions opt = new PsConverterToImageOptions(ImageFormat.Jpeg); // 添加输入文件路径 opt.addDataSource(new FileDataSource(inputPath)); // 如果输入的 PS 文件是多页的，结果将是一组图像文件，命名方式为：[\"outputPath\" without extension][pageNumber started from 0].[extension from \"outputPath\"] opt.addSaveDataSource(new FileDataSource(outputPath)); // 启动转换过程 converter.process(opt);
 
-此示例演示如何将 PS/EPS 文件转换为图像并以字节数组输出。
+此示例演示如何将 PS/EPS 文件转换为字节数组输出的图像。
 
-在字节数组输出数据源 (byte[][]) 中，每个字节数组包含一页的图像。因此，对于单页文档，结果将包含 [1][] 数组；对于多页文档，结果将包含 [输入 PS 文档的页数][] 数组。 // 创建 PsConverter PsConverter converter = new PsConverter(); // 创建 PsConverterToImageOptions，目标图像格式为 JPEG。生成图像的默认格式为 PNG。 // 同时我们可以设置生成图像的尺寸、分辨率、平滑模式以及 JPEG 结果图像格式的质量等级。 PsConverterToImageOptions opt = new PsConverterToImageOptions(ImageFormat.Jpeg); // 添加输入文件路径 opt.addDataSource(new FileDataSource(inputPath)); // 如果输入的 PS 文件是多页的，结果将是一组图像文件，命名方式为：[\"outputPath\" without extension][pageNumber started from 0].[extension from \"outputPath\"] opt.addSaveDataSource(new ByteArrayDataSource()); // 启动转换过程 converter.process(opt); // 获取生成的字节数组 byte[][] imagesBytes = (byte [][]) ((ByteArrayResult)results.ResultCollection[0]).Data;
+在字节数组输出数据源 (byte [][]) 中，每个字节数组包含一页的图像。因此，对于单页文档，结果将包含 [1][] 数组；对于多页文档，结果将包含 [number of pages in input PS document][] 数组。 // 创建 PsConverter PsConverter converter = new PsConverter(); // 创建 PsConverterToImageOptions，目标图像格式为 JPEG。生成图像的默认格式为 PNG。 // 还可以设置生成图像的尺寸、分辨率、平滑模式以及 JPEG 结果图像格式的质量级别。 PsConverterToImageOptions opt = new PsConverterToImageOptions(ImageFormat.Jpeg); // 添加输入文件路径 opt.addDataSource(new FileDataSource(inputPath)); // 如果输入的 PS 文件是多页的，结果将是一组图像文件，命名方式为：[\"outputPath\" without extension][pageNumber started from 0].[extension from \"outputPath\"] opt.addSaveDataSource(new ByteArrayDataSource()); // 启动转换过程 converter.process(opt); // 获取生成的字节数组 byte[][] imagesBytes = (byte [][]) ((ByteArrayResult)results.ResultCollection[0]).Data;
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -43,7 +43,7 @@ public class PsConverter implements IPlugin
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [process(IPluginOptions options)](#process-com.aspose.page.plugins.IPluginOptions-) | 使用指定的参数启动 PsConverter 处理。 |
+| [process(IPluginOptions options)](#process-com.aspose.page.plugins.IPluginOptions-) | 使用指定参数启动 PsConverter 处理。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -119,7 +119,7 @@ public final ResultContainer process(IPluginOptions options)
 ```
 
 
-使用指定的参数启动 PsConverter 处理。
+使用指定参数启动 PsConverter 处理。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

@@ -17,9 +17,9 @@ public enum ImageMode extends Enum<ImageMode>
 
 | 字段 | 描述 |
 | --- | --- |
-| [FitToBox](#FitToBox) | 图像适应盒子。 |
-| [FitToHeight](#FitToHeight) | 图像适应高度。 |
-| [FitToWidth](#FitToWidth) | 图像适应宽度。 |
+| [FitToBox](#FitToBox) | 图像适配到盒子。 |
+| [FitToHeight](#FitToHeight) | 图像适配到高度。 |
+| [FitToWidth](#FitToWidth) | 图像适配到宽度。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -47,7 +47,7 @@ public static final ImageMode FitToBox
 ```
 
 
-图像适应盒子。
+图像适配到盒子。
 
 ### FitToHeight {#FitToHeight}
 ```
@@ -55,7 +55,7 @@ public static final ImageMode FitToHeight
 ```
 
 
-图像适应高度。
+图像适配到高度。
 
 ### FitToWidth {#FitToWidth}
 ```
@@ -63,7 +63,7 @@ public static final ImageMode FitToWidth
 ```
 
 
-图像适应宽度。
+图像适配到宽度。
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

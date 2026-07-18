@@ -12,14 +12,14 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class PageSourceColorProfile.PageSourceColorProfileOption extends Option
 ```
 
-描述 PageSourceColorProfile 功能选项。
+描述  PageSourceColorProfile  功能选项。
 ## 字段
 
 | 字段 | 描述 |
 | --- | --- |
-| [CMYK](#CMYK) | 用于对未标记的 CMYK 数据执行色彩管理的源配置文件。 |
+| [CMYK](#CMYK) | 用于对未标记的 CMYK 数据执行颜色管理的源配置文件。 |
 | [None](#None) | 无源配置文件。 |
-| [RGB](#RGB) | 用于对未标记的 RGB 数据执行色彩管理的源配置文件。 |
+| [RGB](#RGB) | 用于对未标记的 RGB 数据执行颜色管理的源配置文件。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -41,7 +41,7 @@ public static PageSourceColorProfile.PageSourceColorProfileOption CMYK
 ```
 
 
-用于对未标记的 CMYK 数据执行色彩管理的源配置文件。
+用于对未标记的 CMYK 数据执行颜色管理的源配置文件。
 
 ### None {#None}
 ```
@@ -57,7 +57,7 @@ public static PageSourceColorProfile.PageSourceColorProfileOption RGB
 ```
 
 
-用于对未标记的 RGB 数据执行色彩管理的源配置文件。
+用于对未标记的 RGB 数据执行颜色管理的源配置文件。
 
 ### add(IOptionItem[] items) {#add-com.aspose.xps.metadata.IOptionItem...-}
 ```

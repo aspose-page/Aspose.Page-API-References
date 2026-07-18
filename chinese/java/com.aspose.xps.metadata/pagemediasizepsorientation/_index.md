@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class PageMediaSizePSOrientation extends IntegerParameterInit implements IJobPrintTicketItem, IDocumentPrintTicketItem, IPagePrintTicketItem
 ```
 
-指定相对于送纸方向的方向 https://docs.microsoft.com/en-us/windows/win32/printdocs/pagemediasizepsorientation
+指定相对于进纸方向的方向 https://docs.microsoft.com/en-us/windows/win32/printdocs/pagemediasizepsorientation
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -29,7 +29,7 @@ public final class PageMediaSizePSOrientation extends IntegerParameterInit imple
 | [getClass()](#getClass--) |  |
 | [getMaxValue()](#getMaxValue--) | 对于整数或小数值参数，定义允许的最大值。 |
 | [getMinValue()](#getMinValue--) | 对于整数或小数值参数，定义允许的最小值。 |
-| [getMultiple()](#getMultiple--) | 对于整数或小数值参数，参数的值应为该数字的倍数。 |
+| [getMultiple()](#getMultiple--) | 对于整数或小数值参数，参数的值应是该数字的倍数。 |
 | [getName()](#getName--) | 获取元素名称。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -102,7 +102,7 @@ public int getMultiple()
 ```
 
 
-对于整数或小数值参数，参数的值应为该数字的倍数。
+对于整数或小数值参数，参数的值应是该数字的倍数。
 
 **Returns:**
 int - 参数应为其倍数的数字。

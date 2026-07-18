@@ -1,7 +1,7 @@
 ---
 title: "PsConverterLicenseException"
 second_title: "Aspose.Page for Java API 参考"
-description: "此类包含与 Aspose.Page 产品授权相关的错误信息。"
+description: "此类包含与 Aspose.Page 产品许可相关的错误信息。"
 type: docs
 weight: 15
 url: /zh/java/com.aspose.eps/psconverterlicenseexception/
@@ -12,7 +12,7 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, [com.aspose.eps.PsCo
 public class PsConverterLicenseException extends PsConverterException
 ```
 
-此类包含与 Aspose.Page 产品授权相关的错误信息。
+此类包含与 Aspose.Page 产品许可相关的错误信息。
 ## 构造函数
 
 | 构造函数 | 描述 |

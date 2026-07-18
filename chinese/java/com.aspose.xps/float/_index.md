@@ -1,7 +1,7 @@
 ---
 title: "Size2D.Float"
 second_title: "Aspose.Page for Java API 参考"
-description: "Float 类定义了以 float 坐标指定的尺寸。"
+description: "Float 类定义了以 float 坐标指定的维度。"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.xps/size2d.float/
@@ -41,7 +41,7 @@ public static class Size2D.Float extends Size2D implements Serializable
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setSize(double w, double h)](#setSize-double-double-) | \{@inheritDoc\} |
-| [setSize(float w, float h)](#setSize-float-float-) | 将此 `Size2D` 的尺寸设置为指定的 `float` 值。 |
+| [setSize(float w, float h)](#setSize-float-float-) | 将此 `Size2D` 的维度设置为指定的 `float` 值。 |
 | [setSize(Dimension2D arg0)](#setSize-java.awt.geom.Dimension2D-) |  |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -186,7 +186,7 @@ public void setSize(float w, float h)
 ```
 
 
-将此 `Size2D` 的尺寸设置为指定的 `float` 值。
+将此 `Size2D` 的维度设置为指定的 `float` 值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

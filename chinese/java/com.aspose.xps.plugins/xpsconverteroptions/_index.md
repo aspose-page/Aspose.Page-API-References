@@ -1,7 +1,7 @@
 ---
 title: "XpsConverterOptions"
 second_title: "Aspose.Page for Java API 参考"
-description: "表示插件选项的基类。"
+description: "表示插件的选项基类。"
 type: docs
 weight: 11
 url: /zh/java/com.aspose.xps.plugins/xpsconverteroptions/
@@ -15,7 +15,7 @@ java.lang.Object
 public class XpsConverterOptions implements IPluginOptions, IDataContainer, ISaveInstruction
 ```
 
-表示 [XpsConverter](../../com.aspose.xps.plugins/xpsconverter) 插件选项的基类。
+表示 [XpsConverter](../../com.aspose.xps.plugins/xpsconverter) 插件的选项基类。
 ## 方法
 
 | 方法 | 描述 |
@@ -27,7 +27,7 @@ public class XpsConverterOptions implements IPluginOptions, IDataContainer, ISav
 | [getDataCollection()](#getDataCollection--) | 返回 XpsConverterOptions 插件的数据集合。 |
 | [getJpegQualityLevel()](#getJpegQualityLevel--) | 返回指定图像压缩级别的值。 |
 | [getOperationName()](#getOperationName--) | 返回操作名称。 |
-| [getSaveTargetsCollection()](#getSaveTargetsCollection--) | 获取用于保存操作结果的已添加目标的集合。 |
+| [getSaveTargetsCollection()](#getSaveTargetsCollection--) | 获取用于保存操作结果的已添加目标集合。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -103,7 +103,7 @@ public int getJpegQualityLevel()
 ```
 
 
-返回指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值会产生最低质量的图像，而 100 则产生最高质量的图像。
+返回指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值产生最低质量的图像，而 100 则产生最高质量的图像。
 
 **Returns:**
 int - 指定图像压缩级别的值。
@@ -123,7 +123,7 @@ public final List<IDataSource> getSaveTargetsCollection()
 ```
 
 
-获取用于保存操作结果的已添加目标的集合。
+获取用于保存操作结果的已添加目标集合。
 
 **Returns:**
 java.util.List<com.aspose.page.plugins.IDataSource>
@@ -159,7 +159,7 @@ public void setJpegQualityLevel(int value)
 ```
 
 
-设置指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值会产生最低质量的图像，而 100 则产生最高质量的图像。
+设置指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值产生最低质量的图像，而 100 则产生最高质量的图像。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

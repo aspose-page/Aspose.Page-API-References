@@ -21,24 +21,24 @@ public final class XpsPathGeometry extends XpsArray<XpsPathFigure> implements IT
 | 方法 | 描述 |
 | --- | --- |
 | [add(T obj)](#add-T-) | 向数组中添加新对象。 |
-| [addSegment(XpsPathSegment segment)](#addSegment-com.aspose.xps.XpsPathSegment-) | 向最后一个路径图形的子段列表添加路径段。 |
+| [addSegment(XpsPathSegment segment)](#addSegment-com.aspose.xps.XpsPathSegment-) | 将路径段添加到最后一个 pah 图形的子段列表中。 |
 | [deepClone()](#deepClone--) | 克隆此路径几何体。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int i)](#get-int-) | 提供通过索引 i 访问数组元素的方式。 |
+| [get(int i)](#get-int-) | 通过索引 i 提供对数组元素的访问。 |
 | [getClass()](#getClass--) |  |
-| [getFillRule()](#getFillRule--) | 返回指定几何形状相交区域如何组合成区域的值。 |
+| [getFillRule()](#getFillRule--) | 返回指定几何形状相交区域如何组合形成区域的值。 |
 | [getPathFigures()](#getPathFigures--) | 返回子路径图形的列表。 |
 | [getTransform()](#getTransform--) | 返回仿射变换矩阵，该矩阵建立了在路径几何体用于填充、裁剪或描边之前，应用于所有子元素和后代元素的局部矩阵变换。 |
 | [hashCode()](#hashCode--) |  |
-| [insert(int index, T obj)](#insert-int-T-) | 在指定位置向数组插入新对象。 |
-| [insertSegment(int index, XpsPathSegment segment)](#insertSegment-int-com.aspose.xps.XpsPathSegment-) | 在索引位置将路径段插入最后一个路径图形的子段列表中。 |
+| [insert(int index, T obj)](#insert-int-T-) | 在指定位置向数组中插入新对象。 |
+| [insertSegment(int index, XpsPathSegment segment)](#insertSegment-int-com.aspose.xps.XpsPathSegment-) | 在索引位置将路径段插入到最后一个路径图形的子段列表中。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [remove(T obj)](#remove-T-) | 从数组中移除对象。 |
 | [removeAt(int index)](#removeAt-int-) | 在指定位置从数组中移除对象。 |
 | [removeSegment(XpsPathSegment segment)](#removeSegment-com.aspose.xps.XpsPathSegment-) | 从最后一个路径图形的子段列表中移除路径段。 |
 | [removeSegmentAt(int index)](#removeSegmentAt-int-) | 在索引位置从最后一个路径图形的子段列表中移除路径段。 |
-| [setFillRule(XpsFillRule value)](#setFillRule-com.aspose.xps.XpsFillRule-) | 设置指定几何形状相交区域如何组合成区域的值。 |
+| [setFillRule(XpsFillRule value)](#setFillRule-com.aspose.xps.XpsFillRule-) | 设置指定几何形状相交区域如何组合形成区域的值。 |
 | [setTransform(XpsMatrix value)](#setTransform-com.aspose.xps.XpsMatrix-) | 设置仿射变换矩阵，该矩阵建立了在路径几何体用于填充、裁剪或描边之前，应用于所有子元素和后代元素的局部矩阵变换。 |
 | [size()](#size--) | 返回元素数量。 |
 | [toString()](#toString--) |  |
@@ -66,7 +66,7 @@ public XpsPathSegment addSegment(XpsPathSegment segment)
 ```
 
 
-向最后一个路径图形的子段列表添加路径段。
+将路径段添加到最后一个 pah 图形的子段列表中。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -106,7 +106,7 @@ public T get(int i)
 ```
 
 
-提供通过索引 i 访问数组元素的方式。
+通过索引 i 提供对数组元素的访问。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -131,7 +131,7 @@ public XpsFillRule getFillRule()
 ```
 
 
-返回指定几何形状相交区域如何组合成区域的值。
+返回指定几何形状相交区域如何组合形成区域的值。
 
 **Returns:**
 [XpsFillRule](../../com.aspose.xps/xpsfillrule) - The value specifying how the intersecting areas of geometric shapes are combined to form a region.
@@ -171,12 +171,12 @@ public T insert(int index, T obj)
 ```
 
 
-在指定位置向数组插入新对象。
+在指定位置向数组中插入新对象。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 索引 | int | 要插入对象的位置。 |
+| index | int | 要插入对象的位置。 |
 | 对象 | T | 要插入的对象。 |
 
 **Returns:**
@@ -187,12 +187,12 @@ public XpsPathSegment insertSegment(int index, XpsPathSegment segment)
 ```
 
 
-在索引位置将路径段插入最后一个路径图形的子段列表中。
+在索引位置将路径段插入到最后一个路径图形的子段列表中。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 索引 | int | 应插入段的位置信息。 |
+| index | int | 应插入段的位置。 |
 | segment | [XpsPathSegment](../../com.aspose.xps/xpspathsegment) | 要插入的路径段。 |
 
 **Returns:**
@@ -239,7 +239,7 @@ public T removeAt(int index)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 索引 | int | 要删除对象的位置。 |
+| index | int | 要删除对象的位置。 |
 
 **Returns:**
 T - 已删除的对象。
@@ -269,7 +269,7 @@ public XpsPathSegment removeSegmentAt(int index)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 索引 | int | 应移除路径段的位置信息。 |
+| index | int | 应移除路径段的位置。 |
 
 **Returns:**
 [XpsPathSegment](../../com.aspose.xps/xpspathsegment) - Removed path segment.
@@ -279,12 +279,12 @@ public void setFillRule(XpsFillRule value)
 ```
 
 
-设置指定几何形状相交区域如何组合成区域的值。
+设置指定几何形状相交区域如何组合形成区域的值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [XpsFillRule](../../com.aspose.xps/xpsfillrule) | 指定几何形状相交区域如何组合成区域的值。 |
+| value | [XpsFillRule](../../com.aspose.xps/xpsfillrule) | 指定几何形状相交区域如何组合形成区域的值。 |
 
 ### setTransform(XpsMatrix value) {#setTransform-com.aspose.xps.XpsMatrix-}
 ```

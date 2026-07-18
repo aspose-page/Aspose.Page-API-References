@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class PageMediaType.PrePunched extends ScoredProperty implements PageMediaType.IPageMediaTypeOptionItem
 ```
 
-为 PrePunched 计分属性值定义常量。
+定义  PrePunched  计分属性值的常量。
 ## 字段
 
 | 字段 | 描述 |

@@ -20,12 +20,12 @@ public class DocumentUtils
 | [createCircle(Point2D center, float radius)](#createCircle-java.awt.geom.Point2D-float-) | 创建表示圆形的路径几何体。 |
 | [createCircularSegment(Point2D center, float radius, float startAngle, float endAngle)](#createCircularSegment-java.awt.geom.Point2D-float-float-float-) | 创建表示两个角度之间圆形段的路径几何体。 |
 | [createEllipse(Point2D center, float radiusX, float radiusY)](#createEllipse-java.awt.geom.Point2D-float-float-) | 创建表示椭圆的路径几何体。 |
-| [createImage(String fileName, Rectangle2D imageBox)](#createImage-java.lang.String-java.awt.geom.Rectangle2D-) | 创建一个填充图像的矩形路径。 |
-| [createImage(String fileName, Rectangle2D imageBox, ImageMode mode)](#createImage-java.lang.String-java.awt.geom.Rectangle2D-com.aspose.xps.ImageMode-) | 创建一个填充图像的矩形路径。 |
+| [createImage(String fileName, Rectangle2D imageBox)](#createImage-java.lang.String-java.awt.geom.Rectangle2D-) | 创建一个用图像填充的矩形路径。 |
+| [createImage(String fileName, Rectangle2D imageBox, ImageMode mode)](#createImage-java.lang.String-java.awt.geom.Rectangle2D-com.aspose.xps.ImageMode-) | 创建一个用图像填充的矩形路径。 |
 | [createPieSlice(Point2D center, float radius, float startAngle, float endAngle)](#createPieSlice-java.awt.geom.Point2D-float-float-float-) | 创建表示两条径向射线之间圆形切片的路径几何体。 |
 | [createRectangle(Rectangle2D rectangle)](#createRectangle-java.awt.geom.Rectangle2D-) | 创建表示矩形的路径几何体。 |
-| [createRegularCircumscribedNGon(int n, Point2D center, float radius)](#createRegularCircumscribedNGon-int-java.awt.geom.Point2D-float-) | 创建表示外接于圆的正 n 边形的路径几何体。 |
-| [createRegularInscribedNGon(int n, Point2D center, float radius)](#createRegularInscribedNGon-int-java.awt.geom.Point2D-float-) | 创建表示内接于圆的正 n 边形的路径几何体。 |
+| [createRegularCircumscribedNGon(int n, Point2D center, float radius)](#createRegularCircumscribedNGon-int-java.awt.geom.Point2D-float-) | 创建表示外切于圆的正 n 边形的路径几何体。 |
+| [createRegularInscribedNGon(int n, Point2D center, float radius)](#createRegularInscribedNGon-int-java.awt.geom.Point2D-float-) | 创建表示内切于圆的正 n 边形的路径几何体。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -62,7 +62,7 @@ public XpsPathGeometry createCircularSegment(Point2D center, float radius, float
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| center | java.awt.geom.Point2D | 圆心。 |
+| center | java.awt.geom.Point2D | 圆的中心点。 |
 | 半径 | float | 圆的半径。 |
 | startAngle | float | 起始射线的角度（度）。 |
 | endAngle | float | 结束射线的角度（度）。 |
@@ -92,7 +92,7 @@ public XpsPath createImage(String fileName, Rectangle2D imageBox)
 ```
 
 
-创建一个填充图像的矩形路径。
+创建一个用图像填充的矩形路径。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -108,7 +108,7 @@ public XpsPath createImage(String fileName, Rectangle2D imageBox, ImageMode mode
 ```
 
 
-创建一个填充图像的矩形路径。
+创建一个用图像填充的矩形路径。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -130,7 +130,7 @@ public XpsPathGeometry createPieSlice(Point2D center, float radius, float startA
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| center | java.awt.geom.Point2D | 圆心。 |
+| center | java.awt.geom.Point2D | 圆的中心点。 |
 | 半径 | float | 圆的半径。 |
 | startAngle | float | 起始射线的角度（度）。 |
 | endAngle | float | 结束射线的角度（度）。 |
@@ -158,13 +158,13 @@ public XpsPathGeometry createRegularCircumscribedNGon(int n, Point2D center, flo
 ```
 
 
-创建表示外接于圆的正 n 边形的路径几何体。
+创建表示外切于圆的正 n 边形的路径几何体。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| n | int | 顶点数量。 |
-| center | java.awt.geom.Point2D | 圆心。 |
+| n | int | 顶点的数量。 |
+| center | java.awt.geom.Point2D | 圆的中心点。 |
 | 半径 | float | 圆的半径。 |
 
 **Returns:**
@@ -175,13 +175,13 @@ public XpsPathGeometry createRegularInscribedNGon(int n, Point2D center, float r
 ```
 
 
-创建表示内接于圆的正 n 边形的路径几何体。
+创建表示内切于圆的正 n 边形的路径几何体。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| n | int | 顶点数量。 |
-| center | java.awt.geom.Point2D | 圆心。 |
+| n | int | 顶点的数量。 |
+| center | java.awt.geom.Point2D | 圆的中心点。 |
 | 半径 | float | 圆的半径。 |
 
 **Returns:**

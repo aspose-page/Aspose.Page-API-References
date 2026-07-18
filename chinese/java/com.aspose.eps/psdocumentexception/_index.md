@@ -1,7 +1,7 @@
 ---
 title: "PsDocumentException"
 second_title: "Aspose.Page for Java API 参考"
-description: "此类包含在创建、完成并保存 PS 文件时抛出的错误信息。"
+description: "此类包含有关在 PS 文件创建完成并保存时抛出的错误的信息。"
 type: docs
 weight: 17
 url: /zh/java/com.aspose.eps/psdocumentexception/
@@ -12,7 +12,7 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception
 public class PsDocumentException extends Exception
 ```
 
-此类包含在创建、完成并保存 PS 文件时抛出的错误信息。
+此类包含在创建、完成和保存 PS 文件时抛出的错误信息。
 ## 构造函数
 
 | 构造函数 | 描述 |

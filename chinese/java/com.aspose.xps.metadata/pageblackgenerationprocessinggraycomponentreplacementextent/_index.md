@@ -1,7 +1,7 @@
 ---
 title: "PageBlackGenerationProcessingGrayComponentReplacementExtent"
 second_title: "Aspose.Page for Java API 参考"
-description: "描述 GCR 应用的超出中性颜色进入彩色的范围。0 表示均匀组件替换，100 表示灰度组件替换。"
+description: "描述 GCR 超出中性范围进入彩色的程度。0 均匀分量替换 100 灰分量替换。"
 type: docs
 weight: 80
 url: /zh/java/com.aspose.xps.metadata/pageblackgenerationprocessinggraycomponentreplacementextent/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class PageBlackGenerationProcessingGrayComponentReplacementExtent extends IntegerParameterInit implements IJobPrintTicketItem, IDocumentPrintTicketItem, IPagePrintTicketItem
 ```
 
-描述 GCR 应用的超出中性颜色（进入彩色）的范围。0% = 均匀组件替换，100% = 灰度组件替换。 https://docs.microsoft.com/en-us/windows/win32/printdocs/pageblackgenerationprocessinggraycomponentreplacementextent
+描述 GCR 超出中性范围（进入彩色）时的程度。0% = 均匀分量替换，100% = 灰分量替换。 https://docs.microsoft.com/en-us/windows/win32/printdocs/pageblackgenerationprocessinggraycomponentreplacementextent
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -29,7 +29,7 @@ public final class PageBlackGenerationProcessingGrayComponentReplacementExtent e
 | [getClass()](#getClass--) |  |
 | [getMaxValue()](#getMaxValue--) | 对于整数或小数值参数，定义允许的最大值。 |
 | [getMinValue()](#getMinValue--) | 对于整数或小数值参数，定义允许的最小值。 |
-| [getMultiple()](#getMultiple--) | 对于整数或小数值参数，参数的值应为该数字的倍数。 |
+| [getMultiple()](#getMultiple--) | 对于整数或小数值参数，参数的值应是该数字的倍数。 |
 | [getName()](#getName--) | 获取元素名称。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -102,7 +102,7 @@ public int getMultiple()
 ```
 
 
-对于整数或小数值参数，参数的值应为该数字的倍数。
+对于整数或小数值参数，参数的值应是该数字的倍数。
 
 **Returns:**
 int - 参数应为其倍数的数字。

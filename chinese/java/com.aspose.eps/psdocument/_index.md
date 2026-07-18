@@ -17,15 +17,15 @@ public final class PsDocument extends Document
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [PsDocument()](#PsDocument--) | 初始化空的 PsDocument 并初始化页面。 |
-| [PsDocument(String outPsFilePath, PsSaveOptions options)](#PsDocument-java.lang.String-com.aspose.eps.device.PsSaveOptions-) | 初始化空的 PsDocument 并初始化页面。 |
-| [PsDocument(OutputStream psStream, PsSaveOptions options)](#PsDocument-java.io.OutputStream-com.aspose.eps.device.PsSaveOptions-) | 初始化空的 PsDocument 并初始化页面。 |
-| [PsDocument(String outPsFilePath, PsSaveOptions options, boolean multipaged)](#PsDocument-java.lang.String-com.aspose.eps.device.PsSaveOptions-boolean-) | 初始化空的 PsDocument。 |
-| [PsDocument(OutputStream psStream, PsSaveOptions options, boolean multipaged)](#PsDocument-java.io.OutputStream-com.aspose.eps.device.PsSaveOptions-boolean-) | 初始化空的 PsDocument。 |
-| [PsDocument(String outPsFilePath, PsSaveOptions options, int numberOfPages)](#PsDocument-java.lang.String-com.aspose.eps.device.PsSaveOptions-int-) | 在预先知道 Postscript 文档页数时，初始化空的 PsDocument。 |
-| [PsDocument(OutputStream psStream, PsSaveOptions options, int numberOfPages)](#PsDocument-java.io.OutputStream-com.aspose.eps.device.PsSaveOptions-int-) | 在预先知道 Postscript 文档页数时，初始化空的 PsDocument。 |
-| [PsDocument(String psFilePath)](#PsDocument-java.lang.String-) | 使用输入的 PS/EPS 文件初始化 PsDocument。 |
-| [PsDocument(InputStream psStream)](#PsDocument-java.io.InputStream-) | 使用 PS/EPS 文件流初始化 PsDocument。 |
+| [PsDocument()](#PsDocument--) | 使用已初始化的页面初始化空的  PsDocument  。 |
+| [PsDocument(String outPsFilePath, PsSaveOptions options)](#PsDocument-java.lang.String-com.aspose.eps.device.PsSaveOptions-) | 使用已初始化的页面初始化空的  PsDocument  。 |
+| [PsDocument(OutputStream psStream, PsSaveOptions options)](#PsDocument-java.io.OutputStream-com.aspose.eps.device.PsSaveOptions-) | 使用已初始化的页面初始化空的  PsDocument  。 |
+| [PsDocument(String outPsFilePath, PsSaveOptions options, boolean multipaged)](#PsDocument-java.lang.String-com.aspose.eps.device.PsSaveOptions-boolean-) | 初始化空的  PsDocument  。 |
+| [PsDocument(OutputStream psStream, PsSaveOptions options, boolean multipaged)](#PsDocument-java.io.OutputStream-com.aspose.eps.device.PsSaveOptions-boolean-) | 初始化空的  PsDocument  。 |
+| [PsDocument(String outPsFilePath, PsSaveOptions options, int numberOfPages)](#PsDocument-java.lang.String-com.aspose.eps.device.PsSaveOptions-int-) | 当预先知道 Postscript 文档页数时，初始化空的  PsDocument  。 |
+| [PsDocument(OutputStream psStream, PsSaveOptions options, int numberOfPages)](#PsDocument-java.io.OutputStream-com.aspose.eps.device.PsSaveOptions-int-) | 当预先知道 Postscript 文档页数时，初始化空的  PsDocument  。 |
+| [PsDocument(String psFilePath)](#PsDocument-java.lang.String-) | 使用输入的 PS/EPS 文件初始化  PsDocument  。 |
+| [PsDocument(InputStream psStream)](#PsDocument-java.io.InputStream-) | 使用 PS/EPS 文件流初始化  PsDocument  。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -38,15 +38,15 @@ public final class PsDocument extends Document
 | [convertType1FontToTTF(String type1FontFilePath, String outputDir)](#convertType1FontToTTF-java.lang.String-java.lang.String-) | 将 Type 1 字体转换为 TrueType。 |
 | [convertType3FontToTTF(String type3FontFilePath, OutputStream outputStream)](#convertType3FontToTTF-java.lang.String-java.io.OutputStream-) | 将 Type 3 字体转换为 TrueType。 |
 | [convertType3FontToTTF(String type3FontFilePath, String outputDir)](#convertType3FontToTTF-java.lang.String-java.lang.String-) | 将 Type 3 字体转换为 TrueType。 |
-| [cropEps(OutputStream epsStream, float[] cropBox)](#cropEps-java.io.OutputStream-float---) | 将给定的 PsDocument 裁剪为 EPS 文件。 |
+| [cropEps(OutputStream epsStream, float[] cropBox)](#cropEps-java.io.OutputStream-float---) | 将给定的  PsDocument  裁剪为 EPS 文件。 |
 | [draw(Shape shape)](#draw-java.awt.Shape-) | 绘制任意路径。 |
 | [drawExplicitImageMask(BufferedImage image24bpp, BufferedImage alphaMask1bpp, AffineTransform transform)](#drawExplicitImageMask-java.awt.image.BufferedImage-java.awt.image.BufferedImage-java.awt.geom.AffineTransform-) | 绘制蒙版图像。 |
 | [drawImage(BufferedImage image)](#drawImage-java.awt.image.BufferedImage-) | 绘制图像。 |
 | [drawImage(BufferedImage image, AffineTransform transform, Color bkg)](#drawImage-java.awt.image.BufferedImage-java.awt.geom.AffineTransform-java.awt.Color-) | 绘制带背景的变换图像。 |
 | [drawTransparentImage(BufferedImage image, AffineTransform transform, int transparencyThreshold)](#drawTransparentImage-java.awt.image.BufferedImage-java.awt.geom.AffineTransform-int-) | 绘制带背景的透明变换图像。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [extractEpsBoundingBox()](#extractEpsBoundingBox--) | 读取 EPS 文件并从 %%BoundingBox 注释中提取 EPS 图像的边界框；如果不存在，则使用默认页面尺寸 (0, 0, 595, 842) 的边界。 |
-| [extractEpsSize()](#extractEpsSize--) | 读取 EPS 文件并从 %%BoundingBox 注释中提取 EPS 图像的尺寸；如果不存在，则使用默认页面尺寸 (595, 842)。 |
+| [extractEpsBoundingBox()](#extractEpsBoundingBox--) | 读取 EPS 文件并从 %%BoundingBox 注释中提取 EPS 图像的边界框，若不存在则使用默认页面尺寸 (0, 0, 595, 842) 的边界。 |
+| [extractEpsSize()](#extractEpsSize--) | 读取 EPS 文件并从 %%BoundingBox 注释中提取 EPS 图像的尺寸，若不存在则使用默认页面尺寸 (595, 842)。 |
 | [extractText(SaveOptions options, int startPage, int endPage)](#extractText-com.aspose.page.SaveOptions-int-int-) | 从 PS 文件中提取文本。 |
 | [fill(Shape shape)](#fill-java.awt.Shape-) | 填充任意路径。 |
 | [fillAndStrokeText(String text, DrFont drFont, float x, float y, Paint fillPaint, Paint strokePaint, Stroke stroke)](#fillAndStrokeText-java.lang.String-com.aspose.foundation.drawing.DrFont-float-float-java.awt.Paint-java.awt.Paint-java.awt.Stroke-) | 通过填充字形内部并绘制字形轮廓来添加文本字符串。 |
@@ -64,8 +64,8 @@ public final class PsDocument extends Document
 | [getClass()](#getClass--) |  |
 | [getInputStream()](#getInputStream--) |  |
 | [getNumberOfPages()](#getNumberOfPages--) | 获取生成的 PDF 文档的页数。 |
-| [getPaint()](#getPaint--) | 获取当前图形状态中的绘画对象。 |
-| [getStroke()](#getStroke--) | 获取当前图形状态中的描边。 |
+| [getPaint()](#getPaint--) | 获取当前图形状态中的绘画属性。 |
+| [getStroke()](#getStroke--) | 获取当前图形状态中的描边属性。 |
 | [getXmpMetadata()](#getXmpMetadata--) | 读取 PS/EPS 文件并提取 XmpMetdata（如果已存在），如果不存在则添加新的。 |
 | [hashCode()](#hashCode--) |  |
 | [isLicensed()](#isLicensed--) | 指示是否已访问并且有效的 Aspose.Page for Java 产品许可证。 |
@@ -92,7 +92,7 @@ public final class PsDocument extends Document
 | [save(OutputStream epsStream)](#save-java.io.OutputStream-) | 将给定的 PsDocument 保存到流中。 |
 | [save(String outEpsFilePath)](#save-java.lang.String-) | 将给定的 PsDocument 保存为 EPS 文件。 |
 | [saveAsImage(ImageSaveOptions options)](#saveAsImage-com.aspose.eps.device.ImageSaveOptions-) | 将 PS/EPS 文件保存为图像文件。 |
-| [saveAsImage(ImageSaveOptions options, String outDir, String fileNameTemplate)](#saveAsImage-com.aspose.eps.device.ImageSaveOptions-java.lang.String-java.lang.String-) | 将 PS/EPS 文件保存为图像文件到指定目录并使用指定文件名。 |
+| [saveAsImage(ImageSaveOptions options, String outDir, String fileNameTemplate)](#saveAsImage-com.aspose.eps.device.ImageSaveOptions-java.lang.String-java.lang.String-) | 将 PS/EPS 文件保存为图像文件到指定目录并使用指定的文件名。 |
 | [saveAsImagesBytes(ImageSaveOptions options)](#saveAsImagesBytes-com.aspose.eps.device.ImageSaveOptions-) | 将 PS/EPS 文件保存为图像字节数组。 |
 | [saveAsPdf(OutputStream pdfStream, PdfSaveOptions options)](#saveAsPdf-java.io.OutputStream-com.aspose.eps.device.PdfSaveOptions-) | 将 PS/EPS 文件保存到输出 PDF 流。 |
 | [saveAsPdf(String outPdfFilePath, PdfSaveOptions options)](#saveAsPdf-java.lang.String-com.aspose.eps.device.PdfSaveOptions-) | 将 PS/EPS 文件保存为 PDF 文件。 |
@@ -102,9 +102,9 @@ public final class PsDocument extends Document
 | [saveImageAsEps(String imageFilePath, String epsFilePath, PsSaveOptions options)](#saveImageAsEps-java.lang.String-java.lang.String-com.aspose.eps.device.PsSaveOptions-) | 将 PNG/JPEG/BMP/GIF 图像从文件保存为 EPS 文件。 |
 | [scale(float xScale, float yScale)](#scale-float-float-) | 向当前图形状态添加缩放（缩放当前矩阵）。 |
 | [setInputStream(InputStream is)](#setInputStream-java.io.InputStream-) | 指定输入流。 |
-| [setPageDevice(Map<String,Object> pageParams)](#setPageDevice-java.util.Map-java.lang.String-java.lang.Object--) | 设置页面设备参数（参见操作符 \"setpagedevice\" 的 PostScript 规范）。 |
+| [setPageDevice(Map<String,Object> pageParams)](#setPageDevice-java.util.Map-java.lang.String-java.lang.Object--) | 设置页面设备参数（参见操作符 "setpagedevice" 的 PostScript 规范）。 |
 | [setPageSize(float width, float height)](#setPageSize-float-float-) | 设置页面尺寸。 |
-| [setPaint(Paint paint)](#setPaint-java.awt.Paint-) | 在当前图形状态中设置绘制。 |
+| [setPaint(Paint paint)](#setPaint-java.awt.Paint-) | 在当前图形状态中设置绘图。 |
 | [setStroke(Stroke stroke)](#setStroke-java.awt.Stroke-) | 在当前图形状态中设置描边。 |
 | [setTransform(AffineTransform matrix)](#setTransform-java.awt.geom.AffineTransform-) | 将当前变换设置为此变换。 |
 | [shear(float shx, float shy)](#shear-float-float-) | 向当前图形状态添加剪切变换（剪切当前矩阵）。 |
@@ -114,15 +114,15 @@ public final class PsDocument extends Document
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-| [writeGraphicsRestore()](#writeGraphicsRestore--) | 写入恢复当前图形状态的操作（参见 PostScript 规范中的操作符 \"grestore\"）。 |
-| [writeGraphicsSave()](#writeGraphicsSave--) | 写入保存当前图形状态的操作（参见 PostScript 规范中的操作符 \"gsave\"）。 |
+| [writeGraphicsRestore()](#writeGraphicsRestore--) | 写入恢复当前图形状态的操作（参见 PostScript 规范中操作符 "grestore"）。 |
+| [writeGraphicsSave()](#writeGraphicsSave--) | 写入保存当前图形状态的操作（参见 PostScript 规范中操作符 "gsave"）。 |
 ### PsDocument() {#PsDocument--}
 ```
 public PsDocument()
 ```
 
 
-初始化空的 PsDocument 并创建页面。此构造函数仅用于与 PostScript 文件无关的额外操作，例如转换字体。
+初始化一个空的 PsDocument 并带有已初始化的页面。此构造函数仅用于与 PostScript 文件无关的额外操作，例如转换字体。
 
 ### PsDocument(String outPsFilePath, PsSaveOptions options) {#PsDocument-java.lang.String-com.aspose.eps.device.PsSaveOptions-}
 ```
@@ -130,7 +130,7 @@ public PsDocument(String outPsFilePath, PsSaveOptions options)
 ```
 
 
-初始化空的 PsDocument 并初始化页面。
+使用已初始化的页面初始化空的  PsDocument  。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -144,7 +144,7 @@ public PsDocument(OutputStream psStream, PsSaveOptions options)
 ```
 
 
-初始化空的 PsDocument 并初始化页面。
+使用已初始化的页面初始化空的  PsDocument  。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -158,14 +158,14 @@ public PsDocument(String outPsFilePath, PsSaveOptions options, boolean multipage
 ```
 
 
-初始化空的 PsDocument。
+初始化空的  PsDocument  。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | outPsFilePath | java.lang.String | 输出 PS/EPS 文件路径。 |
 | options | [PsSaveOptions](../../com.aspose.eps.device/pssaveoptions) | 一组控制 PostScript 文件保存的参数。 |
-| multipaged | boolean | 如果为 false，则页面不会被初始化。在这种情况下，页面初始化应通过显式调用 \"openPage(width, height) call。 |
+| multipaged | boolean | 如果为 false，页面将不会被初始化。在这种情况下，页面初始化应通过显式的 "openPage(width, height)" 调用来完成。 |
 
 ### PsDocument(OutputStream psStream, PsSaveOptions options, boolean multipaged) {#PsDocument-java.io.OutputStream-com.aspose.eps.device.PsSaveOptions-boolean-}
 ```
@@ -173,14 +173,14 @@ public PsDocument(OutputStream psStream, PsSaveOptions options, boolean multipag
 ```
 
 
-初始化空的 PsDocument。
+初始化空的  PsDocument  。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | psStream | java.io.OutputStream | 用于保存 PS/EPS 文件的流。 |
 | options | [PsSaveOptions](../../com.aspose.eps.device/pssaveoptions) | 一组控制 PostScript 文件保存的参数。 |
-| multipaged | boolean | 如果为 false，则页面不会被初始化。在这种情况下，页面初始化应通过显式调用 \"openPage(width, height) call。 |
+| multipaged | boolean | 如果为 false，页面将不会被初始化。在这种情况下，页面初始化应通过显式的 "openPage(width, height)" 调用来完成。 |
 
 ### PsDocument(String outPsFilePath, PsSaveOptions options, int numberOfPages) {#PsDocument-java.lang.String-com.aspose.eps.device.PsSaveOptions-int-}
 ```
@@ -188,7 +188,7 @@ public PsDocument(String outPsFilePath, PsSaveOptions options, int numberOfPages
 ```
 
 
-在预先知道 Postscript 文档页数时，初始化空的 PsDocument。
+当预先知道 Postscript 文档页数时，初始化空的  PsDocument  。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -203,7 +203,7 @@ public PsDocument(OutputStream psStream, PsSaveOptions options, int numberOfPage
 ```
 
 
-在预先知道 Postscript 文档页数时，初始化空的 PsDocument。
+当预先知道 Postscript 文档页数时，初始化空的  PsDocument  。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -218,7 +218,7 @@ public PsDocument(String psFilePath)
 ```
 
 
-使用输入的 PS/EPS 文件初始化 PsDocument。
+使用输入的 PS/EPS 文件初始化  PsDocument  。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -231,7 +231,7 @@ public PsDocument(InputStream psStream)
 ```
 
 
-使用 PS/EPS 文件流初始化 PsDocument。
+使用 PS/EPS 文件流初始化  PsDocument  。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -257,7 +257,7 @@ public void clipAndNewPath(Shape s)
 ```
 
 
-向当前图形状态添加剪裁，然后写入 \"newpath\" 操作符。这样做是为了避免此剪裁路径与后续路径（例如使用 \"charpath\" 操作符描绘的字形）发生冲突。
+向当前图形状态添加剪裁，然后写入 "newpath" 操作符。这样做是为了避免此剪裁路径与后续路径（例如使用 "charpath" 操作符描边的字形）相交。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -307,13 +307,13 @@ public void convertType1FontToTTF(String type1FontFilePath, String outputDir)
 ```
 
 
-将 Type 1 字体转换为 TrueType。转换后的 TTF 字体文件名将与输入的 Type 1 字体相同，只是扩展名为 \".ttf\"。TTF 文件将保存到指定的输出目录。
+将 Type 1 字体转换为 TrueType。转换后的 TTF 字体文件名将与输入的 Type 1 字体相同，只是扩展名为 ".ttf"。TTF 文件将保存到指定的输出目录。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | type1FontFilePath | java.lang.String | Type 1 字体文件路径.. |
-| outputDir | java.lang.String | 用于保存生成的 TrueType 字体的输出目录。 |
+| outputDir | java.lang.String | 保存生成的 TrueType 字体的输出目录。 |
 
 ### convertType3FontToTTF(String type3FontFilePath, OutputStream outputStream) {#convertType3FontToTTF-java.lang.String-java.io.OutputStream-}
 ```
@@ -321,13 +321,13 @@ public void convertType3FontToTTF(String type3FontFilePath, OutputStream outputS
 ```
 
 
-将 Type 3 字体转换为 TrueType。TTF 文件将保存到提供的输出流中。
+将 Type 3 字体转换为 TrueType。TTF 文件将保存到提供的输出流。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | type3FontFilePath | java.lang.String | Type 3 字体文件路径。 |
-| outputStream | java.io.OutputStream | 用于保存生成的 TrueType 字体的输出流。 |
+| outputStream | java.io.OutputStream | 保存生成的 TrueType 字体的输出流。 |
 
 ### convertType3FontToTTF(String type3FontFilePath, String outputDir) {#convertType3FontToTTF-java.lang.String-java.lang.String-}
 ```
@@ -335,13 +335,13 @@ public void convertType3FontToTTF(String type3FontFilePath, String outputDir)
 ```
 
 
-将 Type 3 字体转换为 TrueType。转换后的 TTF 字体文件名将与输入的 Type 3 字体相同，只是扩展名为 \".ttf\"。TTF 文件将保存到指定的输出目录。
+将 Type 3 字体转换为 TrueType。转换后的 TTF 字体文件名将与输入的 Type 3 字体相同，只是扩展名为 ".ttf"。TTF 文件将保存到指定的输出目录。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | type3FontFilePath | java.lang.String | Type 3 字体文件路径.. |
-| outputDir | java.lang.String | 用于保存生成的 TrueType 字体的输出目录。 |
+| outputDir | java.lang.String | 保存生成的 TrueType 字体的输出目录。 |
 
 ### cropEps(OutputStream epsStream, float[] cropBox) {#cropEps-java.io.OutputStream-float---}
 ```
@@ -349,7 +349,7 @@ public void cropEps(OutputStream epsStream, float[] cropBox)
 ```
 
 
-将给定的 PsDocument 裁剪为 EPS 文件。它会保存初始的 EPS 文件，并更新已有的 %%BoundingBox，或在不存在时创建新的。
+将给定的 PsDocument 裁剪为 EPS 文件。它会保存初始的 EPS 文件，并更新已有的 %%BoundingBox，或创建新的。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -419,7 +419,7 @@ public void drawTransparentImage(BufferedImage image, AffineTransform transform,
 ```
 
 
-绘制带背景的变换透明图像。如果图像没有 Alpha 通道，则会被绘制为不透明图像。
+绘制带背景的变换透明图像。如果图像没有 Alpha 通道，则会以不透明图像绘制。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -449,7 +449,7 @@ public int[] extractEpsBoundingBox()
 ```
 
 
-读取 EPS 文件并从 %%BoundingBox 注释中提取 EPS 图像的边界框；如果不存在，则使用默认页面尺寸 (0, 0, 595, 842) 的边界。
+读取 EPS 文件并从 %%BoundingBox 注释中提取 EPS 图像的边界框，若不存在则使用默认页面尺寸 (0, 0, 595, 842) 的边界。
 
 **Returns:**
 int[] - EPS 图像的边界框。
@@ -459,7 +459,7 @@ public Dimension extractEpsSize()
 ```
 
 
-读取 EPS 文件并从 %%BoundingBox 注释中提取 EPS 图像的尺寸；如果不存在，则使用默认页面尺寸 (595, 842)。
+读取 EPS 文件并从 %%BoundingBox 注释中提取 EPS 图像的尺寸，若不存在则使用默认页面尺寸 (595, 842)。
 
 **Returns:**
 java.awt.Dimension - EPS 图像的尺寸。
@@ -475,11 +475,11 @@ public String extractText(SaveOptions options, int startPage, int endPage)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | options | [SaveOptions](../../com.aspose.page/saveoptions) | 保存选项。 |
-| startPage | int | 从该页（含）开始提取文本的页面。 |
-| endPage | int | 要包含提取文本的页面。 |
+| startPage | int | 从该页（含）开始提取文本的页码。 |
+| endPage | int | 要包含在内提取文本的页面。 |
 
 **Returns:**
-java.lang.String - PS 文件中所选页面包含的文本。
+java.lang.String - 包含在所选页面的 PS 文件中的文本。
 ### fill(Shape shape) {#fill-java.awt.Shape-}
 ```
 public void fill(Shape shape)
@@ -743,20 +743,20 @@ public Paint getPaint()
 ```
 
 
-获取当前图形状态中的绘画对象。
+获取当前图形状态中的绘画属性。
 
 **Returns:**
-java.awt.Paint - 当前绘图。
+java.awt.Paint - 当前画笔。
 ### getStroke() {#getStroke--}
 ```
 public Stroke getStroke()
 ```
 
 
-获取当前图形状态中的描边。
+获取当前图形状态中的描边属性。
 
 **Returns:**
-java.awt.Stroke - 当前描边。
+java.awt.Stroke - 当前笔画。
 ### getXmpMetadata() {#getXmpMetadata--}
 ```
 public XmpMetadata getXmpMetadata()
@@ -800,7 +800,7 @@ public void merge(String[] filesForMerge, Device device, SaveOptions options)
 | --- | --- | --- |
 | filesForMerge | java.lang.String[] | 用于与此文件合并到输出设备的 PS/EPS 文件。 |
 | device | [Device](../../com.aspose.page/device) | 输出设备。 |
-| options | [SaveOptions](../../com.aspose.page/saveoptions) | 包含指定在转换期间抛出的错误输出的标志。 |
+| options | [SaveOptions](../../com.aspose.page/saveoptions) | 包含指定转换期间抛出错误输出的标志。 |
 
 ### mergeToPdf(OutputStream pdfStream, String[] filesForMerge, SaveOptions options) {#mergeToPdf-java.io.OutputStream-java.lang.String---com.aspose.page.SaveOptions-}
 ```
@@ -815,7 +815,7 @@ public void mergeToPdf(OutputStream pdfStream, String[] filesForMerge, SaveOptio
 | --- | --- | --- |
 | pdfStream | java.io.OutputStream | 输出 PDF 流。 |
 | filesForMerge | java.lang.String[] | 用于与此文件合并到输出设备的 PS/EPS 文件。 |
-| options | [SaveOptions](../../com.aspose.page/saveoptions) | 包含指定在转换期间抛出的错误输出的标志。 |
+| options | [SaveOptions](../../com.aspose.page/saveoptions) | 包含指定转换期间抛出错误输出的标志。 |
 
 ### mergeToPdf(String outPdfFilePath, String[] filesForMerge, SaveOptions options) {#mergeToPdf-java.lang.String-java.lang.String---com.aspose.page.SaveOptions-}
 ```
@@ -830,7 +830,7 @@ public void mergeToPdf(String outPdfFilePath, String[] filesForMerge, SaveOption
 | --- | --- | --- |
 | outPdfFilePath | java.lang.String | 输出 PDF 文件路径。 |
 | filesForMerge | java.lang.String[] | 用于与此文件合并到输出设备的 PS/EPS 文件。 |
-| options | [SaveOptions](../../com.aspose.page/saveoptions) | 包含指定在转换期间抛出的错误输出的标志。 |
+| options | [SaveOptions](../../com.aspose.page/saveoptions) | 包含指定转换期间抛出错误输出的标志。 |
 
 ### notify() {#notify--}
 ```
@@ -873,7 +873,7 @@ public void openPage(String pageName)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| pageName | java.lang.String | 新页面的名称。如果为 null，页面的名称将是页面的顺序编号。 |
+| pageName | java.lang.String | 新页面的名称。如果为 null，页面的名称将是页面的顺序号。 |
 
 ### outlineText(String text, DrFont drFont, float x, float y) {#outlineText-java.lang.String-com.aspose.foundation.drawing.DrFont-float-float-}
 ```
@@ -1021,7 +1021,7 @@ public void resizeEps(OutputStream epsStream, DimensionF newSizeInUnits, Units u
 ```
 
 
-将给定的 PsDocument 调整大小为 EPS 文件。此方法仅在提取 EPS 大小后使用。它会保存带有更新的现有 %%BoundingBox 的初始 EPS 文件，或创建新的。页面变换矩阵也将被设置。
+调整给定的 PsDocument 为 EPS 文件的大小。此方法仅在提取 EPS 大小后使用。它会保存带有更新的现有 %%BoundingBox 的初始 EPS 文件，或创建新的。页面变换矩阵也将被设置。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -1076,7 +1076,7 @@ public void save(Device device, SaveOptions options)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | device | [Device](../../com.aspose.page/device) | 输出设备。 |
-| options | [SaveOptions](../../com.aspose.page/saveoptions) | 包含指定在转换期间抛出的错误输出的标志。 |
+| options | [SaveOptions](../../com.aspose.page/saveoptions) | 包含指定转换期间抛出错误输出的标志。 |
 
 ### save(OutputStream epsStream) {#save-java.io.OutputStream-}
 ```
@@ -1102,7 +1102,7 @@ public void save(String outEpsFilePath)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| outEpsFilePath | java.lang.String | 输出 EPS 文件路径.. |
+| outEpsFilePath | java.lang.String | 一个输出 EPS 文件路径.. |
 
 ### saveAsImage(ImageSaveOptions options) {#saveAsImage-com.aspose.eps.device.ImageSaveOptions-}
 ```
@@ -1123,7 +1123,7 @@ public void saveAsImage(ImageSaveOptions options, String outDir, String fileName
 ```
 
 
-将 PS/EPS 文件保存为图像文件到指定目录并使用指定的文件名。文件扩展名将对应于 "options" 参数中的图像格式。
+将 PS/EPS 文件保存为图像文件，保存到指定目录并使用指定文件名。文件扩展名将对应于 "options" 参数中的图像格式。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -1159,7 +1159,7 @@ public void saveAsPdf(OutputStream pdfStream, PdfSaveOptions options)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | pdfStream | java.io.OutputStream | 输出 PDF 流。 |
-| options | [PdfSaveOptions](../../com.aspose.eps.device/pdfsaveoptions) | 包含指定在转换期间抛出的错误输出的标志。 |
+| options | [PdfSaveOptions](../../com.aspose.eps.device/pdfsaveoptions) | 包含指定转换期间抛出错误输出的标志。 |
 
 ### saveAsPdf(String outPdfFilePath, PdfSaveOptions options) {#saveAsPdf-java.lang.String-com.aspose.eps.device.PdfSaveOptions-}
 ```
@@ -1173,7 +1173,7 @@ public void saveAsPdf(String outPdfFilePath, PdfSaveOptions options)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | outPdfFilePath | java.lang.String | 输出 PDF 文件路径。 |
-| options | [PdfSaveOptions](../../com.aspose.eps.device/pdfsaveoptions) | 包含指定在转换期间抛出的错误输出的标志。 |
+| options | [PdfSaveOptions](../../com.aspose.eps.device/pdfsaveoptions) | 包含指定转换期间抛出错误输出的标志。 |
 
 ### saveImageAsEps(BufferedImage image, OutputStream epsStream, PsSaveOptions options) {#saveImageAsEps-java.awt.image.BufferedImage-java.io.OutputStream-com.aspose.eps.device.PsSaveOptions-}
 ```
@@ -1268,12 +1268,12 @@ public void setPageDevice(Map<String,Object> pageParams)
 ```
 
 
-设置页面设备参数（参见操作符 "setpagedevice" 的 PostScript 规范）。其中可能包括页面大小、颜色等。
+设置页面设备参数（参见操作符 "setpagedevice" PostScript 规范）。其中可能包括页面尺寸、颜色等。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| pageParams | java.util.Map<java.lang.String,java.lang.Object> | 页面的参数。此字典中可以包含页面尺寸和颜色等。 |
+| pageParams | java.util.Map<java.lang.String,java.lang.Object> | 页面的参数。此字典中可以包含页面大小、颜色等。 |
 
 ### setPageSize(float width, float height) {#setPageSize-float-float-}
 ```
@@ -1281,7 +1281,7 @@ public void setPageSize(float width, float height)
 ```
 
 
-设置页面尺寸。要在同一文档中创建不同尺寸的页面，请在此方法之后使用 setPageDevice 方法。
+设置页面大小。要在同一文档中创建不同尺寸的页面，请在此方法之后立即使用  setPageDevice  方法。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -1295,12 +1295,12 @@ public void setPaint(Paint paint)
 ```
 
 
-在当前图形状态中设置绘制。
+在当前图形状态中设置绘图。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| paint | java.awt.Paint | 绘画对象。它可以是 JDK 中存在的 Paint 类的任何子类。 |
+| paint | java.awt.Paint | 绘图对象。它可以是 JDK 中存在的 Paint 类的任何子类。 |
 
 ### setStroke(Stroke stroke) {#setStroke-java.awt.Stroke-}
 ```
@@ -1420,7 +1420,7 @@ public void writeGraphicsRestore()
 ```
 
 
-写入恢复当前图形状态的操作（参见 PostScript 规范中的操作符 \"grestore\"）。
+写入恢复当前图形状态的操作（参见 PostScript 规范中操作符 "grestore"）。
 
 ### writeGraphicsSave() {#writeGraphicsSave--}
 ```
@@ -1428,5 +1428,5 @@ public void writeGraphicsSave()
 ```
 
 
-写入保存当前图形状态的操作（参见 PostScript 规范中的操作符 \"gsave\"）。
+写入保存当前图形状态的操作（参见 PostScript 规范中操作符 "gsave"）。
 

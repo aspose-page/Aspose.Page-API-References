@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class PageWatermarkTextColor extends StringParameterInit implements IJobPrintTicketItem, IDocumentPrintTicketItem, IPagePrintTicketItem
 ```
 
-定义水印文本的 sRGB 颜色。格式为 ARGB: \#AARRGGBB。 https://docs.microsoft.com/en-us/windows/win32/printdocs/pagewatermarktextcolor
+定义水印文字的 sRGB 颜色。格式为 ARGB：\#AARRGGBB。 https://docs.microsoft.com/en-us/windows/win32/printdocs/pagewatermarktextcolor
 ## 构造函数
 
 | 构造函数 | 描述 |

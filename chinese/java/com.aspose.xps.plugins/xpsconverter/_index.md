@@ -23,11 +23,11 @@ public class XpsConverter implements IPlugin
 
 此示例演示如何将 XPS 文档转换为带文件输出的图像。
 
-// 创建 XpsConverter XpsConverter converter = new XpsConverter(); // 创建 XpsConverterToImageOptions，目标图像格式为 JPEG。生成图像的默认格式为 PNG。 // 我们还可以设置生成图像的尺寸、分辨率、平滑模式以及 JPEG 图像格式的质量级别。 XpsConverterToImageOptions opt = new XpsConverterToImageOptions(ImageFormat.Jpeg); // 添加输入文件路径 opt.addDataSource(new FileDataSource(inputPath)); // 如果输入 XPS 文件是多页的，结果将是一组图像文件，命名为：["outputPath"（不含扩展名）][页码从 0 开始].[来自 "outputPath" 的扩展名] opt.addSaveDataSource(new FileDataSource(outputPath)); // 启动转换过程 converter.process(opt);
+// 创建 XpsConverter XpsConverter converter = new XpsConverter(); // 创建 XpsConverterToImageOptions，目标图像格式为 JPEG。生成图像的默认格式为 PNG。 // 还可以设置生成图像的尺寸、分辨率、平滑模式以及 JPEG 图像格式的质量级别。 XpsConverterToImageOptions opt = new XpsConverterToImageOptions(ImageFormat.Jpeg); // 添加输入文件路径 opt.addDataSource(new FileDataSource(inputPath)); // 如果输入的 XPS 文件是多页的，结果将是一组图像文件，命名方式为：[\"outputPath\"（不含扩展名）][页码（从 0 开始）].[来自 \"outputPath\" 的扩展名] opt.addSaveDataSource(new FileDataSource(outputPath)); // 启动转换过程 converter.process(opt);
 
 此示例演示如何将 XPS 文档转换为字节数组输出的图像。
 
-在字节数组输出数据源 (byte[][]) 中，每个字节数组包含一页的图像。因此，对于单页文档，结果将包含 [1][] 数组；对于多页文档，结果将包含 [输入 XPS 文档的页数][] 数组。 // 创建 XpsConverter XpsConverter converter = new XpsConverter(); // 创建 XpsConverterToImageOptions，目标图像格式为 JPEG。生成图像的默认格式为 PNG。 // 我们还可以设置生成图像的尺寸、分辨率、平滑模式以及 JPEG 图像格式的质量级别。 XpsConverterToImageOptions opt = new XpsConverterToImageOptions(ImageFormat.Jpeg); // 添加输入文件路径 opt.addDataSource(new FileDataSource(inputPath)); // 如果输入 XPS 文件是多页的，结果将是一组图像文件，命名为：["outputPath"（不含扩展名）][页码从 1 开始].[来自 "outputPath" 的扩展名] opt.addSaveDataSource(new ByteArrayDataSource()); // 启动转换过程 converter.process(opt); // 获取生成的字节数组 byte[][] imagesBytes = (byte [][]) ((ByteArrayResult)results.ResultCollection[0]).Data;
+在字节数组输出数据源 (byte[][]) 中，每个字节数组包含一页的图像。因此，对于单页文档，结果将包含 [1][] 数组；对于多页文档，结果将包含 [输入 XPS 文档页数][] 数组。 // 创建 XpsConverter XpsConverter converter = new XpsConverter(); // 创建 XpsConverterToImageOptions，目标图像格式为 JPEG。生成图像的默认格式为 PNG。 // 还可以设置生成图像的尺寸、分辨率、平滑模式以及 JPEG 图像格式的质量级别。 XpsConverterToImageOptions opt = new XpsConverterToImageOptions(ImageFormat.Jpeg); // 添加输入文件路径 opt.addDataSource(new FileDataSource(inputPath)); // 如果输入的 XPS 文件是多页的，结果将是一组图像文件，命名方式为：[\"outputPath\"（不含扩展名）][页码（从 1 开始）].[来自 \"outputPath\" 的扩展名] opt.addSaveDataSource(new ByteArrayDataSource()); // 启动转换过程 converter.process(opt); // 获取生成的字节数组 byte[][] imagesBytes = (byte [][]) ((ByteArrayResult)results.ResultCollection[0]).Data;
 ## 构造函数
 
 | 构造函数 | 描述 |

@@ -12,15 +12,15 @@ java.lang.Object, java.lang.Enum
 public enum XpsDashCap extends Enum<XpsDashCap>
 ```
 
-Path 元素的 StrokeDashCap 属性的有效取值。
+Path 元素的 StrokeDashCap 属性的有效值。
 ## 字段
 
 | 字段 | 描述 |
 | --- | --- |
-| [Flat](#Flat) | 平直虚线端帽。 |
-| [Round](#Round) | 圆形虚线端帽。 |
-| [Square](#Square) | 方形虚线端帽。 |
-| [Triangle](#Triangle) | 三角形虚线端帽。 |
+| [Flat](#Flat) | 平直虚线端点。 |
+| [Round](#Round) | 圆形虚线端点。 |
+| [Square](#Square) | 方形虚线端点。 |
+| [Triangle](#Triangle) | 三角形虚线端点。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -48,7 +48,7 @@ public static final XpsDashCap Flat
 ```
 
 
-平直虚线端帽。
+平直虚线端点。
 
 ### Round {#Round}
 ```
@@ -56,7 +56,7 @@ public static final XpsDashCap Round
 ```
 
 
-圆形虚线端帽。
+圆形虚线端点。
 
 ### Square {#Square}
 ```
@@ -64,7 +64,7 @@ public static final XpsDashCap Square
 ```
 
 
-方形虚线端帽。
+方形虚线端点。
 
 ### Triangle {#Triangle}
 ```
@@ -72,7 +72,7 @@ public static final XpsDashCap Triangle
 ```
 
 
-三角形虚线端帽。
+三角形虚线端点。
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

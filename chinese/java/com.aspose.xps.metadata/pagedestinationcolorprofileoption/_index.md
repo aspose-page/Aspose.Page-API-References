@@ -12,13 +12,13 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class PageDestinationColorProfile.PageDestinationColorProfileOption extends Option
 ```
 
-描述  PageDestinationColorProfile  功能选项。
+描述 PageDestinationColorProfile 功能选项。
 ## 字段
 
 | 字段 | 描述 |
 | --- | --- |
 | [Application](#Application) | 应用程序指定要使用的目标配置文件。 |
-| [DriverConfiguration](#DriverConfiguration) | 用于执行色彩管理的目标配置文件。 |
+| [DriverConfiguration](#DriverConfiguration) | 用于执行颜色管理的目标配置文件。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -48,7 +48,7 @@ public static PageDestinationColorProfile.PageDestinationColorProfileOption Driv
 ```
 
 
-用于执行色彩管理的目标配置文件。
+用于执行颜色管理的目标配置文件。
 
 ### add(IOptionItem[] items) {#add-com.aspose.xps.metadata.IOptionItem...-}
 ```

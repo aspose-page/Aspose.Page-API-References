@@ -1,7 +1,7 @@
 ---
 title: "BeforePageSavingEventHandler"
 second_title: "Aspose.Page for Java API 参考"
-description: "用于页面保存前事件处理程序的基类。"
+description: "页面保存前事件处理程序的基类。"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.xps.features.eventbasedmodifications/beforepagesavingeventhandler/
@@ -15,7 +15,7 @@ com.aspose.xps.features.EventBasedModifications.IBeforeSavingEventHandler
 public abstract class BeforePageSavingEventHandler implements EventBasedModifications.IBeforeSavingEventHandler<EventBasedModifications.PageAPI>
 ```
 
-用于页面保存前事件处理程序的基类。
+页面保存前事件处理程序的基类。
 ## 构造函数
 
 | 构造函数 | 描述 |

@@ -12,13 +12,13 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class Collate.CollateOption extends Option
 ```
 
-描述 DocumentCollate 和 JobCollateAllDocuments 功能的选项。
+描述 DocumentCollate 和 JobCollateAllDocuments 功能选项。
 ## 字段
 
 | 字段 | 描述 |
 | --- | --- |
-| [Collated](#Collated) | 指定装订。 |
-| [Uncollated](#Uncollated) | 指定不进行装订。 |
+| [Collated](#Collated) | 指定合订。 |
+| [Uncollated](#Uncollated) | 指定不进行合订。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -40,7 +40,7 @@ public static Collate.CollateOption Collated
 ```
 
 
-指定装订。
+指定合订。
 
 ### Uncollated {#Uncollated}
 ```
@@ -48,7 +48,7 @@ public static Collate.CollateOption Uncollated
 ```
 
 
-指定不进行装订。
+指定不进行合订。
 
 ### add(IOptionItem[] items) {#add-com.aspose.xps.metadata.IOptionItem...-}
 ```

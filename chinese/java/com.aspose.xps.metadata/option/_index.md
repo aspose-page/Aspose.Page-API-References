@@ -49,8 +49,8 @@ public Option(String name, IOptionItem[] items)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 名称 | java.lang.String | 任意的 option 名称。 |
-| items | [IOptionItem\[\]](../../com.aspose.xps.metadata/ioptionitem) | 任意 IOptionItem 实例的数组。每个实例必须是 ScoredProperty 或 Property 实例。 |
+| 名称 | java.lang.String | 任意 option 名称。 |
+| items | [IOptionItem\[\]](../../com.aspose.xps.metadata/ioptionitem) | 任意 IOptionItem 实例数组。每个实例必须是 ScoredProperty 或 Property 实例。 |
 
 ### Option(IOptionItem[] items) {#Option-com.aspose.xps.metadata.IOptionItem...-}
 ```
@@ -63,7 +63,7 @@ public Option(IOptionItem[] items)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| items | [IOptionItem\[\]](../../com.aspose.xps.metadata/ioptionitem) | 任意 IOptionItem 实例的数组。每个实例必须是 ScoredProperty 或 Property 实例。 |
+| items | [IOptionItem\[\]](../../com.aspose.xps.metadata/ioptionitem) | 任意 IOptionItem 实例数组。每个实例必须是 ScoredProperty 或 Property 实例。 |
 
 ### Option(Option option) {#Option-com.aspose.xps.metadata.Option-}
 ```

@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class DocumentImpositionColor extends StringParameterInit implements IJobPrintTicketItem, IDocumentPrintTicketItem
 ```
 
-标有指定命名颜色的应用程序内容必须出现在所有颜色分离中。 https://docs.microsoft.com/en-us/windows/win32/printdocs/documentimpositioncolor
+标记为指定命名颜色的应用程序内容必须出现在所有颜色分离中。 https://docs.microsoft.com/en-us/windows/win32/printdocs/documentimpositioncolor
 ## 构造函数
 
 | 构造函数 | 描述 |

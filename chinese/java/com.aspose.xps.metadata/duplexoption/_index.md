@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class Duplex.DuplexOption extends Option
 ```
 
-描述 JobDuplexAllDocumentsContiguously 和 DocumentDuplex 功能选项。
+描述  JobDuplexAllDocumentsContiguously  和  DocumentDuplex  功能选项。
 ## 字段
 
 | 字段 | 描述 |
@@ -30,8 +30,8 @@ public static final class Duplex.DuplexOption extends Option
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [twoSidedLongEdge(Duplex.DuplexMode duplexMode)](#twoSidedLongEdge-com.aspose.xps.metadata.Duplex.DuplexMode-) | 指定双面打印，使页面沿  MediaSizeHeight  方向平行翻转。 |
-| [twoSidedShortEdge(Duplex.DuplexMode duplexMode)](#twoSidedShortEdge-com.aspose.xps.metadata.Duplex.DuplexMode-) | 指定双面打印，使页面沿  MediaSizeWidth  方向平行翻转。 |
+| [twoSidedLongEdge(Duplex.DuplexMode duplexMode)](#twoSidedLongEdge-com.aspose.xps.metadata.Duplex.DuplexMode-) | 指定双面打印，使页面沿  MediaSizeHeight  方向翻转。 |
+| [twoSidedShortEdge(Duplex.DuplexMode duplexMode)](#twoSidedShortEdge-com.aspose.xps.metadata.Duplex.DuplexMode-) | 指定双面打印，使页面沿  MediaSizeWidth  方向翻转。 |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -133,12 +133,12 @@ public static final Duplex.DuplexOption twoSidedLongEdge(Duplex.DuplexMode duple
 ```
 
 
-指定双面打印，使页面沿  MediaSizeHeight  方向平行翻转。
+指定双面打印，使页面沿  MediaSizeHeight  方向翻转。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| duplexMode | [DuplexMode](../../com.aspose.xps.metadata/duplexmode) | 该 DuplexMode |
+| duplexMode | [DuplexMode](../../com.aspose.xps.metadata/duplexmode) | DuplexMode |
 
 **Returns:**
 [DuplexOption](../../com.aspose.xps.metadata/duplexoption) - The  Duplex  option.
@@ -148,12 +148,12 @@ public static final Duplex.DuplexOption twoSidedShortEdge(Duplex.DuplexMode dupl
 ```
 
 
-指定双面打印，使页面沿  MediaSizeWidth  方向平行翻转。
+指定双面打印，使页面沿  MediaSizeWidth  方向翻转。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| duplexMode | [DuplexMode](../../com.aspose.xps.metadata/duplexmode) | 该 DuplexMode |
+| duplexMode | [DuplexMode](../../com.aspose.xps.metadata/duplexmode) | DuplexMode |
 
 **Returns:**
 [DuplexOption](../../com.aspose.xps.metadata/duplexoption) - The

@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class JobComment extends StringParameterInit implements IJobPrintTicketItem
 ```
 
-指定与作业关联的注释。示例：“请在完成后送至1234号房间”。 https://docs.microsoft.com/en-us/windows/win32/printdocs/jobcomment
+指定与作业关联的注释。示例：“请在完成后送达至 1234 号房间”。 https://docs.microsoft.com/en-us/windows/win32/printdocs/jobcomment
 ## 构造函数
 
 | 构造函数 | 描述 |

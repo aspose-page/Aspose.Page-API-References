@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public class ParameterRef extends PrintTicketElement implements IPrintTicketItem
 ```
 
-实现通用 PrintTicket 参数引用的类。ParameterRef 元素定义对 ParameterInit 元素的引用。包含 ParameterRef 元素的 ScoredProperty 元素没有显式设置的 Value 元素。相反，ScoredProperty 元素从 ParameterRef 元素引用的 ParameterInit 元素获取其值。 https://docs.microsoft.com/en-us/windows/win32/printdocs/parameterref
+实现通用 PrintTicket 参数引用的类。ParameterRef 元素定义对 ParameterInit 元素的引用。包含 ParameterRef 元素的 ScoredProperty 元素没有显式设置的 Value 元素。相反，ScoredProperty 元素的值来自 ParameterRef 元素所引用的 ParameterInit 元素。 https://docs.microsoft.com/en-us/windows/win32/printdocs/parameterref
 ## 构造函数
 
 | 构造函数 | 描述 |

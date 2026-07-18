@@ -1,7 +1,7 @@
 ---
 title: "JobPrimaryCoverFront"
 second_title: "Aspose.Page for Java API 参考"
-description: "描述正面的起始封面页。"
+description: "描述前面开始封面页。"
 type: docs
 weight: 68
 url: /zh/java/com.aspose.xps.metadata/jobprimarycoverfront/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class JobPrimaryCoverFront extends Feature implements IJobPrintTicketItem
 ```
 
-描述正面（起始）封面页。整个作业将只有一个主封面页。封面页应使用作业第一页的 PageMediaSize 和 PageMediaType 打印。封面页应按照指定的 Option 集成到处理选项中（例如 JobDuplexAllDocumentsContiguously、JobNUpAllDocumentsContiguously）。 https://docs.microsoft.com/en-us/windows/win32/printdocs/jobprimarycoverfront
+描述前面（开始）封面页。整个作业将只有一个主封面页。封面页应使用作业第一页的 PageMediaSize 和 PageMediaType 进行打印。封面页应根据指定的 Option 集成到处理选项中（例如 JobDuplexAllDocumentsContiguously、JobNUpAllDocumentsContiguously）。 https://docs.microsoft.com/en-us/windows/win32/printdocs/jobprimarycoverfront
 ## 方法
 
 | 方法 | 描述 |
@@ -37,7 +37,7 @@ public void add(IFeatureItem[] items)
 ```
 
 
-将一组项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
+将一系列项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

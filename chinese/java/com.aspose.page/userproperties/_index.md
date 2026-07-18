@@ -12,14 +12,14 @@ java.lang.Object, java.util.Dictionary, java.util.Hashtable, java.util.Propertie
 public class UserProperties extends Properties
 ```
 
-特殊属性类，允许设置和返回类型化属性。如果此属性对象不包含该属性，还允许挂接两个默认属性对象进行搜索。
+特殊属性类，允许设置和返回类型化属性。如果该属性对象不包含某属性，还可以挂接两个默认属性对象进行搜索。
 ## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [UserProperties()](#UserProperties--) | 初始化 UserProperties 类的空实例。 |
 | [UserProperties(Properties defaults)](#UserProperties-java.util.Properties-) | 使用默认值初始化 UserProperties 类的实例。 |
-| [UserProperties(Properties defaults, Properties altDefaults)](#UserProperties-java.util.Properties-java.util.Properties-) | 使用 defaults 和 altDefaults 表构造 UserProperties，按该顺序进行搜索。 |
+| [UserProperties(Properties defaults, Properties altDefaults)](#UserProperties-java.util.Properties-java.util.Properties-) | 构造 UserProperties，使用 defaults 和 altDefaults 表，按该顺序进行搜索。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -62,8 +62,8 @@ public class UserProperties extends Properties
 | [getPropertyMatrix(String key, AffineTransform def)](#getPropertyMatrix-java.lang.String-java.awt.geom.AffineTransform-) | 获取 float 属性值。 |
 | [getPropertyRectangle(String key)](#getPropertyRectangle-java.lang.String-) | 获取 rectangle 属性值。 |
 | [getPropertyRectangle(String key, Rectangle def)](#getPropertyRectangle-java.lang.String-java.awt.Rectangle-) | 获取 rectangle 属性值。 |
-| [getPropertyStringArray(String key)](#getPropertyStringArray-java.lang.String-) | 获取 string 数组属性值。 |
-| [getPropertyStringArray(String key, String[] def)](#getPropertyStringArray-java.lang.String-java.lang.String---) | 获取 string 数组属性值。 |
+| [getPropertyStringArray(String key)](#getPropertyStringArray-java.lang.String-) | 获取 string array 属性值。 |
+| [getPropertyStringArray(String key, String[] def)](#getPropertyStringArray-java.lang.String-java.lang.String---) | 获取 string array 属性值。 |
 | [hashCode()](#hashCode--) |  |
 | [isEmpty()](#isEmpty--) |  |
 | [isProperty(String key)](#isProperty-java.lang.String-) | 获取 boolean 属性值。 |
@@ -107,7 +107,7 @@ public class UserProperties extends Properties
 | [setProperty(String key, Rectangle value)](#setProperty-java.lang.String-java.awt.Rectangle-) | 设置 rectangle 属性值。 |
 | [setProperty(String key, AffineTransform value)](#setProperty-java.lang.String-java.awt.geom.AffineTransform-) | 设置 matrix 属性值。 |
 | [setProperty(String key, String value)](#setProperty-java.lang.String-java.lang.String-) | 设置 string 属性值。 |
-| [setProperty(String key, String[] value)](#setProperty-java.lang.String-java.lang.String---) | 设置 string 数组属性值。 |
+| [setProperty(String key, String[] value)](#setProperty-java.lang.String-java.lang.String---) | 设置 string array 属性值。 |
 | [setProperty(Properties properties, String key, boolean value)](#setProperty-java.util.Properties-java.lang.String-boolean-) | 在指定的属性表中设置 boolean 属性值。 |
 | [setProperty(Properties properties, String key, double value)](#setProperty-java.util.Properties-java.lang.String-double-) | 在指定的属性表中设置 double 属性值。 |
 | [setProperty(Properties properties, String key, float value)](#setProperty-java.util.Properties-java.lang.String-float-) | 在指定的属性表中设置 float 属性值。 |
@@ -157,13 +157,13 @@ public UserProperties(Properties defaults, Properties altDefaults)
 ```
 
 
-使用 defaults 和 altDefaults 表构造 UserProperties，按该顺序进行搜索。
+构造 UserProperties，使用 defaults 和 altDefaults 表，按该顺序进行搜索。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 默认值 | java.util.Properties | 默认属性。 |
-| altDefaults | java.util.Properties | 备用默认属性。 |
+| altDefaults | java.util.Properties | 替代默认属性。 |
 
 ### clear() {#clear--}
 ```
@@ -727,7 +727,7 @@ public String[] getPropertyStringArray(String key)
 ```
 
 
-获取 string 数组属性值。
+获取 string array 属性值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -1362,7 +1362,7 @@ public Object setProperty(String key, String[] value)
 ```
 
 
-设置 string 数组属性值。
+设置 string array 属性值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

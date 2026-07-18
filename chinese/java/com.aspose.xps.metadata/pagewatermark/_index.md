@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class PageWatermark extends Feature implements IJobPrintTicketItem, IDocumentPrintTicketItem, IPagePrintTicketItem
 ```
 
-描述输出的水印设置及水印特性。水印适用于逻辑页面，而非物理页面。例如，如果启用了  DocumentDuplex ，水印将出现在每张纸的每个  NUp  页面上。如果  DocumentDuplex ,  PagesPerSheet =2，则每张纸将有 2 个水印。 https://docs.microsoft.com/en-us/windows/win32/printdocs/pagewatermark
+描述输出的水印设置及水印特性。水印适用于逻辑页面，而非物理页面。例如，如果启用了 DocumentDuplex，则每张纸上的每个 NUp 页面都会出现水印。如果 DocumentDuplex，PagesPerSheet =2，则每张纸会有 2 个水印。 https://docs.microsoft.com/en-us/windows/win32/printdocs/pagewatermark
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -55,7 +55,7 @@ public void add(IFeatureItem[] items)
 ```
 
 
-将一组项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
+将一系列项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

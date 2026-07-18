@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class PageBlendColorSpaceICCProfileURI extends StringParameterInit implements IJobPrintTicketItem, IDocumentPrintTicketItem, IPagePrintTicketItem
 ```
 
-指定相对 URI 引用，以指向定义应在混合时使用的颜色空间的 ICC 配置文件。<Uri> 是相对于包根的绝对 part\_name。 https://docs.microsoft.com/en-us/windows/win32/printdocs/pageblendcolorspaceiccprofileuri
+指定一个相对 URI 引用，指向定义应在混合时使用的颜色空间的 ICC 配置文件。<Uri> 是相对于包根的绝对 part\_name。https://docs.microsoft.com/en-us/windows/win32/printdocs/pageblendcolorspaceiccprofileuri
 ## 构造函数
 
 | 构造函数 | 描述 |

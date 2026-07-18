@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class DocumentID extends IDProperty
 ```
 
-为文档指定唯一标识符。 https://docs.microsoft.com/en-us/windows/win32/printdocs/documentid
+指定文档的唯一 ID。 https://docs.microsoft.com/en-us/windows/win32/printdocs/documentid
 ## 构造函数
 
 | 构造函数 | 描述 |
