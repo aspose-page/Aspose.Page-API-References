@@ -1,6 +1,6 @@
 ---
 title: "DocumentCoverBackSource"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يحدد المصدر لورقة غلاف خلفي مخصصة."
 type: docs
 weight: 20
@@ -15,12 +15,12 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class DocumentCoverBackSource extends StringParameterInit implements IJobPrintTicketItem, IDocumentPrintTicketItem
 ```
 
-يحدد المصدر لورقة الغلاف الخلفي المخصصة. https://docs.microsoft.com/en-us/windows/win32/printdocs/documentcoverbacksource
-## المنشئات
+يحدد المصدر لصفحة غلاف خلفية مخصصة. https://docs.microsoft.com/en-us/windows/win32/printdocs/documentcoverbacksource
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [DocumentCoverBackSource(String value)](#DocumentCoverBackSource-java.lang.String-) | ينشئ نسخة جديدة. |
+| [DocumentCoverBackSource(String value)](#DocumentCoverBackSource-java.lang.String-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -43,7 +43,7 @@ public DocumentCoverBackSource(String value)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -64,7 +64,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

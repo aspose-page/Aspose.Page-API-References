@@ -1,6 +1,6 @@
 ---
 title: "DocumentURI"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يحدد معرف مورد موحد (URI) للمستند."
 type: docs
 weight: 36
@@ -12,12 +12,12 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class DocumentURI extends URIProperty
 ```
 
-يحدد معرف مورد موحد (URI) للمستند. https://docs.microsoft.com/en-us/windows/win32/printdocs/documenturi
-## المنشئات
+يحدد معرف الموارد الموحد (URI) للمستند. https://docs.microsoft.com/en-us/windows/win32/printdocs/documenturi
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [DocumentURI(String documentURI)](#DocumentURI-java.lang.String-) | ينشئ نسخة جديدة. |
+| [DocumentURI(String documentURI)](#DocumentURI-java.lang.String-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -38,7 +38,7 @@ public DocumentURI(String documentURI)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -59,7 +59,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

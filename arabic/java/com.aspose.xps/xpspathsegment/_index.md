@@ -1,18 +1,18 @@
 ---
 title: "XpsPathSegment"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "الفئة التي تُجمل الميزات المشتركة لجميع عناصر مقاطع المسار."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "فئة تغلف الميزات المشتركة لجميع عناصر مقاطع المسار."
 type: docs
 weight: 44
 url: /ar/java/com.aspose.xps/xpspathsegment/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject)
+java.lang.Object, [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject)
 ```
 public abstract class XpsPathSegment extends XpsObject
 ```
 
-الفئة التي تُجمل الميزات المشتركة لجميع عناصر مقاطع المسار.
+فئة تغلف الميزات المشتركة لجميع عناصر مقاطع المسار.
 ## الطرق
 
 | طريقة | الوصف |
@@ -42,7 +42,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -100,7 +100,7 @@ public void setStroked(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة التي تحدد ما إذا كان الحد لهذا الجزء من المسار مرسومًا. |
+| القيمة | منطقي | القيمة التي تحدد ما إذا كان الحد لهذا الجزء من المسار مرسومًا. |
 
 ### toString() {#toString--}
 ```

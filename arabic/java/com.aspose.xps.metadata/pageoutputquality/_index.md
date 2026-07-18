@@ -1,7 +1,7 @@
 ---
 title: "PageOutputQuality"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يصف إعداد السالب للإخراج."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يصف إعداد السلبية للإخراج."
 type: docs
 weight: 116
 url: /ar/java/com.aspose.xps.metadata/pageoutputquality/
@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class PageOutputQuality extends Feature implements IJobPrintTicketItem, IDocumentPrintTicketItem, IPagePrintTicketItem
 ```
 
-يصف الإعداد السالب للإخراج. https://docs.microsoft.com/en-us/windows/win32/printdocs/pageoutputquality
-## المنشئات
+يصف الإعداد السلبي للإخراج. https://docs.microsoft.com/en-us/windows/win32/printdocs/pageoutputquality
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PageOutputQuality(PageOutputQuality.PageOutputQualityOption[] options)](#PageOutputQuality-com.aspose.xps.metadata.PageOutputQuality.PageOutputQualityOption...-) | ينشئ نسخة جديدة. |
+| [PageOutputQuality(PageOutputQuality.PageOutputQualityOption[] options)](#PageOutputQuality-com.aspose.xps.metadata.PageOutputQuality.PageOutputQualityOption...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public PageOutputQuality(PageOutputQuality.PageOutputQualityOption[] options)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

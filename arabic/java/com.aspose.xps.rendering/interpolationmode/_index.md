@@ -1,7 +1,7 @@
 ---
 title: "InterpolationMode"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يحدد الخوارزمية المستخدمة عند تكبير أو تدوير الصور."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يحدد الخوارزمية المستخدمة عند تحجيم أو تدوير الصور."
 type: docs
 weight: 20
 url: /ar/java/com.aspose.xps.rendering/interpolationmode/
@@ -12,18 +12,18 @@ java.lang.Object, java.lang.Enum
 public enum InterpolationMode extends Enum<InterpolationMode>
 ```
 
-يحدد الخوارزمية المستخدمة عند تكبير أو تدوير الصور.
+يحدد الخوارزمية المستخدمة عند تحجيم أو تدوير الصور.
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
-| [Bicubic](#Bicubic) | يحدد الاستيفاء الثلاثي المكعب. |
-| [Bilinear](#Bilinear) | يحدد الاستيفاء الثنائي الخطّي. |
+| [Bicubic](#Bicubic) | يحدد الاستيفاء الثنائي المكعب. |
+| [Bilinear](#Bilinear) | يحدد الاستيفاء الثنائي الخطي. |
 | [Default](#Default) | يحدد الوضع الافتراضي. |
-| [High](#High) | يحدد استيفاء عالي الجودة. |
-| [HighQualityBicubic](#HighQualityBicubic) | يحدد استيفاء عالي الجودة، ثلاثي مكعب. |
-| [HighQualityBilinear](#HighQualityBilinear) | يحدد استيفاء عالي الجودة، ثنائي خطّي. |
-| [Low](#Low) | يحدد استيفاء منخفض الجودة. |
+| [High](#High) | يحدد الاستيفاء عالي الجودة. |
+| [HighQualityBicubic](#HighQualityBicubic) | يحدد استيفاء عالي الجودة، ثنائي مكعب. |
+| [HighQualityBilinear](#HighQualityBilinear) | يحدد استيفاء عالي الجودة، ثنائي خطي. |
+| [Low](#Low) | يحدد الاستيفاء منخفض الجودة. |
 | [NearestNeighbor](#NearestNeighbor) | يحدد استيفاء أقرب جار. |
 ## الطرق
 
@@ -52,7 +52,7 @@ public static final InterpolationMode Bicubic
 ```
 
 
-يحدد استيفاء ثلاثي مكعب. لا يتم إجراء تصفية مسبقة. هذا الوضع غير مناسب لتصغير الصورة إلى أقل من 25٪ من حجمها الأصلي.
+يحدد الاستيفاء الثنائي المكعب. لا يتم إجراء أي تصفية مسبقة. هذا الوضع غير مناسب لتصغير الصورة إلى أقل من 25٪ من حجمها الأصلي.
 
 ### Bilinear {#Bilinear}
 ```
@@ -60,7 +60,7 @@ public static final InterpolationMode Bilinear
 ```
 
 
-يحدد استيفاء ثنائي خطّي. لا يتم إجراء تصفية مسبقة. هذا الوضع غير مناسب لتصغير الصورة إلى أقل من 50٪ من حجمها الأصلي.
+يحدد الاستيفاء الثنائي الخطي. لا يتم إجراء أي تصفية مسبقة. هذا الوضع غير مناسب لتصغير الصورة إلى أقل من 50٪ من حجمها الأصلي.
 
 ### Default {#Default}
 ```
@@ -76,7 +76,7 @@ public static final InterpolationMode High
 ```
 
 
-يحدد استيفاء عالي الجودة.
+يحدد الاستيفاء عالي الجودة.
 
 ### HighQualityBicubic {#HighQualityBicubic}
 ```
@@ -84,7 +84,7 @@ public static final InterpolationMode HighQualityBicubic
 ```
 
 
-يحدد استيفاء عالي الجودة، ثلاثي مكعب. يتم إجراء تصفية مسبقة لضمان تصغير عالي الجودة. هذا الوضع ينتج أعلى جودة للصور المُحوّلة.
+يحدد استيفاء عالي الجودة، ثنائي مكعب. يتم إجراء تصفية مسبقة لضمان تصغير عالي الجودة. هذا الوضع ينتج أعلى جودة للصور المحوّلة.
 
 ### HighQualityBilinear {#HighQualityBilinear}
 ```
@@ -92,7 +92,7 @@ public static final InterpolationMode HighQualityBilinear
 ```
 
 
-يحدد استيفاء عالي الجودة، ثنائي خطّي. يتم إجراء تصفية مسبقة لضمان تصغير عالي الجودة.
+يحدد استيفاء عالي الجودة، ثنائي خطي. يتم إجراء تصفية مسبقة لضمان تصغير عالي الجودة.
 
 ### Low {#Low}
 ```
@@ -100,7 +100,7 @@ public static final InterpolationMode Low
 ```
 
 
-يحدد استيفاء منخفض الجودة.
+يحدد الاستيفاء منخفض الجودة.
 
 ### NearestNeighbor {#NearestNeighbor}
 ```
@@ -165,7 +165,7 @@ public final boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

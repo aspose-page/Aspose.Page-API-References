@@ -1,7 +1,7 @@
 ---
 title: "IPluginOptions"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "واجهة خيار الملحق العامة التي تُعرّف الأساليب المشتركة التي يجب أن يُطبقها خيار الملحق الفعلي."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "واجهة خيار الملحق العامة التي تحدد الأساليب المشتركة التي يجب أن ينفذها خيار الملحق الفعلي."
 type: docs
 weight: 24
 url: /ar/java/com.aspose.page.plugins/ipluginoptions/

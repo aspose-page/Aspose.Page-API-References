@@ -1,6 +1,6 @@
 ---
 title: "PageResolution"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يعرّف دقة الصفحة للمخرجات المطبوعة إما كقيمة نوعية أو كنقاط في البوصة أو كلاهما."
 type: docs
 weight: 120
@@ -16,16 +16,16 @@ public final class PageResolution extends Feature implements IJobPrintTicketItem
 ```
 
 يعرّف دقة الصفحة للمخرجات المطبوعة إما كقيمة نوعية أو كنقاط في البوصة، أو كلاهما. https://docs.microsoft.com/en-us/windows/win32/printdocs/pageresolution
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PageResolution(PageResolution.IPageResolutionItem[] items)](#PageResolution-com.aspose.xps.metadata.PageResolution.IPageResolutionItem...-) | ينشئ نسخة جديدة. |
+| [PageResolution(PageResolution.IPageResolutionItem[] items)](#PageResolution-com.aspose.xps.metadata.PageResolution.IPageResolutionItem...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public PageResolution(PageResolution.IPageResolutionItem[] items)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

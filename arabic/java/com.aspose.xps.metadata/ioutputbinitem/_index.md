@@ -1,7 +1,7 @@
 ---
 title: "OutputBin.IOutputBinItem"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "الواجهة لأي عنصر ميزة JobOutputBin و DocumentOutputBin و PageOutputBin."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "الواجهة لأي عنصر ميزة JobOutputBin DocumentOutputBin و PageOutputBin."
 type: docs
 weight: 13
 url: /ar/java/com.aspose.xps.metadata/outputbin.ioutputbinitem/
@@ -12,4 +12,4 @@ url: /ar/java/com.aspose.xps.metadata/outputbin.ioutputbinitem/
 public static interface OutputBin.IOutputBinItem extends IFeatureItem
 ```
 
-الواجهة لأي عنصر ميزة JobOutputBin و DocumentOutputBin و PageOutputBin.
+الواجهة لأي عنصر ميزة  JobOutputBin ,  DocumentOutputBin  و  PageOutputBin  .

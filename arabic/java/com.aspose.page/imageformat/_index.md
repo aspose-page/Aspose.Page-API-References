@@ -1,7 +1,7 @@
 ---
 title: "ImageFormat"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يحتوي هذا التعداد على الأسماء الممكنة لتنسيقات الصور التي يدعمها التحويل من PS/EPS إلى صورة."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يحتوي هذا التعداد على الأسماء المحتملة لتنسيقات الصور التي يدعمها التحويل من PS/EPS إلى صورة."
 type: docs
 weight: 23
 url: /ar/java/com.aspose.page/imageformat/
@@ -12,7 +12,7 @@ java.lang.Object, java.lang.Enum
 public enum ImageFormat extends Enum<ImageFormat>
 ```
 
-يحتوي هذا التعداد على الأسماء الممكنة لتنسيقات الصور التي يدعمها التحويل من PS/EPS إلى صورة.
+يحتوي هذا التعداد على الأسماء المحتملة لتنسيقات الصور التي يدعمها التحويل من PS/EPS إلى صورة.
 ## الحقول
 
 | حقل | الوصف |
@@ -138,7 +138,7 @@ public final boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

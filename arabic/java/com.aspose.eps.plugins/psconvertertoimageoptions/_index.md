@@ -1,7 +1,7 @@
 ---
 title: "PsConverterToImageOptions"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يمثل خيارات محول PS/EPS إلى صورة للملحق."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يمثل خيارات محول PS/EPS إلى صورة للإضافة."
 type: docs
 weight: 12
 url: /ar/java/com.aspose.eps.plugins/psconvertertoimageoptions/
@@ -12,26 +12,26 @@ java.lang.Object, [com.aspose.eps.plugins.PsConverterOptions](../../com.aspose.e
 public class PsConverterToImageOptions extends PsConverterOptions
 ```
 
-يمثل خيارات محول PS/EPS إلى صورة للملحق [PsConverter](../../com.aspose.eps.plugins/psconverter).
-## المنشئات
+يمثل خيارات محول PS/EPS إلى صورة للإضافة [PsConverter](../../com.aspose.eps.plugins/psconverter).
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PsConverterToImageOptions()](#PsConverterToImageOptions--) | ينشئ مثيلاً جديداً لكائن [PsConverterToImageOptions](../../com.aspose.eps.plugins/psconvertertoimageoptions). |
-| [PsConverterToImageOptions(ImageFormat imageFormat)](#PsConverterToImageOptions-com.aspose.page.ImageFormat-) | ينشئ مثيلاً جديداً لكائن [PsConverterToImageOptions](../../com.aspose.eps.plugins/psconvertertoimageoptions) مع تنسيق الصورة. |
-| [PsConverterToImageOptions(Dimension size)](#PsConverterToImageOptions-java.awt.Dimension-) | ينشئ مثيلاً جديداً لكائن [PsConverterToImageOptions](../../com.aspose.eps.plugins/psconvertertoimageoptions) بحجم الصورة الناتجة. |
-| [PsConverterToImageOptions(ImageFormat imageFormat, Dimension size)](#PsConverterToImageOptions-com.aspose.page.ImageFormat-java.awt.Dimension-) | ينشئ مثيلاً جديداً لكائن [PsConverterToImageOptions](../../com.aspose.eps.plugins/psconvertertoimageoptions) مع تنسيق الصورة. |
+| [PsConverterToImageOptions()](#PsConverterToImageOptions--) | يُنشئ مثيلاً جديدًا لكائن [PsConverterToImageOptions](../../com.aspose.eps.plugins/psconvertertoimageoptions). |
+| [PsConverterToImageOptions(ImageFormat imageFormat)](#PsConverterToImageOptions-com.aspose.page.ImageFormat-) | يُنشئ مثيلاً جديدًا لكائن [PsConverterToImageOptions](../../com.aspose.eps.plugins/psconvertertoimageoptions) مع تنسيق الصورة. |
+| [PsConverterToImageOptions(Dimension size)](#PsConverterToImageOptions-java.awt.Dimension-) | يُنشئ مثيلاً جديدًا لكائن [PsConverterToImageOptions](../../com.aspose.eps.plugins/psconvertertoimageoptions) بحجم الصورة الناتجة. |
+| [PsConverterToImageOptions(ImageFormat imageFormat, Dimension size)](#PsConverterToImageOptions-com.aspose.page.ImageFormat-java.awt.Dimension-) | يُنشئ مثيلاً جديدًا لكائن [PsConverterToImageOptions](../../com.aspose.eps.plugins/psconvertertoimageoptions) مع تنسيق الصورة. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [addDataSource(IDataSource dataSource)](#addDataSource-com.aspose.page.plugins.IDataSource-) | يضيف مصدر بيانات جديد إلى مجموعة بيانات ملحق PsConverter. |
-| [addSaveDataSource(IDataSource saveDataSource)](#addSaveDataSource-com.aspose.page.plugins.IDataSource-) | يضيف مصدر بيانات جديد إلى مجموعة بيانات ملحق PsConverterOptions. |
+| [addDataSource(IDataSource dataSource)](#addDataSource-com.aspose.page.plugins.IDataSource-) | يضيف مصدر بيانات جديد إلى مجموعة بيانات إضافة PsConverter. |
+| [addSaveDataSource(IDataSource saveDataSource)](#addSaveDataSource-com.aspose.page.plugins.IDataSource-) | يضيف مصدر بيانات جديد إلى مجموعة بيانات إضافة PsConverterOptions. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAdditionalFontsFolders()](#getAdditionalFontsFolders--) | يعيد مجلدات الخطوط الإضافية التي يجب على المحول العثور على الخطوط فيها للمستند المدخل. |
+| [getAdditionalFontsFolders()](#getAdditionalFontsFolders--) | إرجاع مجلدات خطوط إضافية حيث يجب على المحول العثور على الخطوط للمستند المدخل. |
 | [getClass()](#getClass--) |  |
-| [getDataCollection()](#getDataCollection--) | يعيد مجموعة بيانات ملحق PsConverterOptions. |
-| [getExceptions()](#getExceptions--) | يعيد قائمة بالأخطاء غير الحرجة. |
+| [getDataCollection()](#getDataCollection--) | يعيد مجموعة بيانات إضافة PsConverterOptions. |
+| [getExceptions()](#getExceptions--) | إرجاع قائمة بالأخطاء غير الحرجة. |
 | [getImageFormat()](#getImageFormat--) | يحصل على تنسيق الصورة. |
 | [getJpegQualityLevel()](#getJpegQualityLevel--) | يعيد القيمة التي تحدد مستوى الضغط لصورة. |
 | [getOperationName()](#getOperationName--) | يعيد اسم العملية. |
@@ -40,18 +40,18 @@ public class PsConverterToImageOptions extends PsConverterOptions
 | [getSize()](#getSize--) | يحصل على حجم الصورة الناتجة. |
 | [getSmoothingMode()](#getSmoothingMode--) | يحصل على وضع التنعيم لتصوير الصورة. |
 | [hashCode()](#hashCode--) |  |
-| [isDebug()](#isDebug--) | يحصل على العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل. |
-| [isSupressErrors()](#isSupressErrors--) | يعيد قيمة تشير إلى ما إذا كانت الأخطاء ستُقمع أثناء التحويل. |
+| [isDebug()](#isDebug--) | الحصول على العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل. |
+| [isSupressErrors()](#isSupressErrors--) | إرجاع قيمة تشير إلى ما إذا كانت الأخطاء ستُقمع أثناء التحويل. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAdditionalFontsFolders(String[] fontsFolders)](#setAdditionalFontsFolders-java.lang.String---) | يحدد مجلدات الخطوط الإضافية التي يجب على المحول العثور على الخطوط فيها للمستند المدخل. |
-| [setDebug(boolean debug)](#setDebug-boolean-) | يحدد العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل. |
+| [setAdditionalFontsFolders(String[] fontsFolders)](#setAdditionalFontsFolders-java.lang.String---) | تحديد مجلدات خطوط إضافية حيث يجب على المحول العثور على الخطوط للمستند المدخل. |
+| [setDebug(boolean debug)](#setDebug-boolean-) | تحديد العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل. |
 | [setImageFormat(ImageFormat imageFormat)](#setImageFormat-com.aspose.page.ImageFormat-) | يحصل على تنسيق الصورة. |
 | [setJpegQualityLevel(int value)](#setJpegQualityLevel-int-) | يضبط القيمة التي تحدد مستوى الضغط للصورة. |
 | [setResolution(int resolution)](#setResolution-int-) | يضبط دقة الصورة. |
 | [setSize(Dimension size)](#setSize-java.awt.Dimension-) | يضبط حجم الصورة الناتجة. |
 | [setSmoothingMode(SmoothingMode smoothingMode)](#setSmoothingMode-com.aspose.eps.device.SmoothingMode-) | يضبط وضع التنعيم لتصوير الصورة. |
-| [setSupressErrors(boolean supressErrors)](#setSupressErrors-boolean-) | يحدد العلم الذي يشير إلى ما إذا كان سيتم قمع الأخطاء أثناء التحويل. |
+| [setSupressErrors(boolean supressErrors)](#setSupressErrors-boolean-) | يحدد العلامة التي تشير إلى ما إذا كان سيتم قمع الأخطاء أثناء التحويل. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -62,7 +62,7 @@ public PsConverterToImageOptions()
 ```
 
 
-ينشئ مثيلاً جديداً لكائن [PsConverterToImageOptions](../../com.aspose.eps.plugins/psconvertertoimageoptions).
+يُنشئ مثيلاً جديدًا لكائن [PsConverterToImageOptions](../../com.aspose.eps.plugins/psconvertertoimageoptions).
 
 ### PsConverterToImageOptions(ImageFormat imageFormat) {#PsConverterToImageOptions-com.aspose.page.ImageFormat-}
 ```
@@ -70,7 +70,7 @@ public PsConverterToImageOptions(ImageFormat imageFormat)
 ```
 
 
-ينشئ مثيلاً جديداً لكائن [PsConverterToImageOptions](../../com.aspose.eps.plugins/psconvertertoimageoptions) مع تنسيق الصورة.
+يُنشئ مثيلاً جديدًا لكائن [PsConverterToImageOptions](../../com.aspose.eps.plugins/psconvertertoimageoptions) مع تنسيق الصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -83,7 +83,7 @@ public PsConverterToImageOptions(Dimension size)
 ```
 
 
-ينشئ مثيلاً جديداً لكائن [PsConverterToImageOptions](../../com.aspose.eps.plugins/psconvertertoimageoptions) بحجم الصورة الناتجة.
+يُنشئ مثيلاً جديدًا لكائن [PsConverterToImageOptions](../../com.aspose.eps.plugins/psconvertertoimageoptions) بحجم الصورة الناتجة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -96,7 +96,7 @@ public PsConverterToImageOptions(ImageFormat imageFormat, Dimension size)
 ```
 
 
-ينشئ مثيلاً جديداً لكائن [PsConverterToImageOptions](../../com.aspose.eps.plugins/psconvertertoimageoptions) مع تنسيق الصورة.
+يُنشئ مثيلاً جديدًا لكائن [PsConverterToImageOptions](../../com.aspose.eps.plugins/psconvertertoimageoptions) مع تنسيق الصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -110,7 +110,7 @@ public final void addDataSource(IDataSource dataSource)
 ```
 
 
-يضيف مصدر بيانات جديد إلى مجموعة بيانات ملحق PsConverter.
+يضيف مصدر بيانات جديد إلى مجموعة بيانات إضافة PsConverter.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -123,7 +123,7 @@ public final void addSaveDataSource(IDataSource saveDataSource)
 ```
 
 
-يضيف مصدر بيانات جديد إلى مجموعة بيانات ملحق PsConverterOptions.
+يضيف مصدر بيانات جديد إلى مجموعة بيانات إضافة PsConverterOptions.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -144,14 +144,14 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getAdditionalFontsFolders() {#getAdditionalFontsFolders--}
 ```
 public String[] getAdditionalFontsFolders()
 ```
 
 
-يرجع مجلدات الخطوط الإضافية التي يجب على المحول العثور على الخطوط فيها للمستند المدخل. المجلد الافتراضي هو مجلد الخطوط القياسي حيث يجد نظام التشغيل الخطوط للاستخدامات الداخلية.
+يعيد مجلدات الخطوط الإضافية التي يجب على المحول العثور على الخطوط فيها للمستند المدخل. المجلد الافتراضي هو مجلد الخطوط القياسي حيث يجد نظام التشغيل الخطوط للاستخدامات الداخلية.
 
 **Returns:**
 java.lang.String[] - مصفوفة من مجلدات الخطوط.
@@ -171,7 +171,7 @@ public final List<IDataSource> getDataCollection()
 ```
 
 
-يعيد مجموعة بيانات ملحق PsConverterOptions.
+يعيد مجموعة بيانات إضافة PsConverterOptions.
 
 **Returns:**
 java.util.List<com.aspose.page.plugins.IDataSource>
@@ -181,7 +181,7 @@ public List<Exception> getExceptions()
 ```
 
 
-يعيد قائمة بالأخطاء غير الحرجة.
+إرجاع قائمة بالأخطاء غير الحرجة.
 
 **Returns:**
 java.util.List<java.lang.Exception> - قائمة الاستثناءات
@@ -201,7 +201,7 @@ public int getJpegQualityLevel()
 ```
 
 
-يعيد القيمة التي تحدد مستوى الضغط للصورة. القيم المتاحة من 0 إلى 100. كلما كان الرقم المحدد أقل، زاد الضغط وبالتالي انخفضت جودة الصورة. القيمة 0 تؤدي إلى أدنى جودة للصورة، بينما القيمة 100 تؤدي إلى أعلى جودة.
+يعيد القيمة التي تحدد مستوى الضغط للصورة. القيم المتاحة هي من 0 إلى 100. كلما كان الرقم المحدد أقل، زاد الضغط وبالتالي تكون جودة الصورة أقل. القيمة 0 تنتج صورة بأدنى جودة، بينما القيمة 100 تنتج أعلى جودة.
 
 **Returns:**
 int - القيمة التي تحدد مستوى الضغط للصورة.
@@ -271,7 +271,7 @@ public boolean isDebug()
 ```
 
 
-يحصل على العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل.
+الحصول على العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل.
 
 **Returns:**
 boolean - قيمة التصحيح.
@@ -281,7 +281,7 @@ public boolean isSupressErrors()
 ```
 
 
-يعيد قيمة تشير إلى ما إذا كانت الأخطاء ستُقمع أثناء التحويل.
+إرجاع قيمة تشير إلى ما إذا كانت الأخطاء ستُقمع أثناء التحويل.
 
 **Returns:**
 منطقي - قيمة منطقية
@@ -320,12 +320,12 @@ public void setDebug(boolean debug)
 ```
 
 
-يحدد العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل.
+تحديد العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| debug | boolean | قيمة منطقية. |
+| debug | منطقي | قيمة منطقية. |
 
 ### setImageFormat(ImageFormat imageFormat) {#setImageFormat-com.aspose.page.ImageFormat-}
 ```
@@ -346,7 +346,7 @@ public void setJpegQualityLevel(int value)
 ```
 
 
-يضبط القيمة التي تحدد مستوى الضغط للصورة. القيم المتاحة من 0 إلى 100. كلما كان الرقم المحدد أقل، زاد الضغط وبالتالي انخفضت جودة الصورة. القيمة 0 تؤدي إلى أدنى جودة للصورة، بينما القيمة 100 تؤدي إلى أعلى جودة.
+يضبط القيمة التي تحدد مستوى الضغط للصورة. القيم المتاحة هي من 0 إلى 100. كلما كان الرقم المحدد أقل، زاد الضغط وبالتالي تكون جودة الصورة أقل. القيمة 0 تنتج صورة بأدنى جودة، بينما القيمة 100 تنتج أعلى جودة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -398,12 +398,12 @@ public void setSupressErrors(boolean supressErrors)
 ```
 
 
-يحدد العلم الذي يشير إلى ما إذا كان سيتم قمع الأخطاء أثناء التحويل.
+يحدد العلامة التي تشير إلى ما إذا كان سيتم قمع الأخطاء أثناء التحويل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| supressErrors | boolean | قيمة منطقية. |
+| supressErrors | منطقي | قيمة منطقية. |
 
 ### toString() {#toString--}
 ```

@@ -1,7 +1,7 @@
 ---
 title: "IntegerParameterInit"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "الفئة الأساسية لجميع مبدئي معلمات الأعداد الصحيحة."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "الفئة الأساسية لجميع مبدئي معاملات الأعداد الصحيحة."
 type: docs
 weight: 42
 url: /ar/java/com.aspose.xps.metadata/integerparameterinit/
@@ -12,21 +12,21 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public abstract class IntegerParameterInit extends ParameterInit
 ```
 
-الفئة الأساسية لجميع مبدئي معلمات الأعداد الصحيحة.
-## المنشئات
+الفئة الأساسية لجميع مبدئي معاملات الأعداد الصحيحة.
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [IntegerParameterInit(String name, int value)](#IntegerParameterInit-java.lang.String-int-) | ينشئ نسخة جديدة. |
+| [IntegerParameterInit(String name, int value)](#IntegerParameterInit-java.lang.String-int-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getMaxValue()](#getMaxValue--) | بالنسبة للمعلمات ذات القيم الصحيحة أو العشرية، يحدد أكبر قيمة مسموح بها. |
-| [getMinValue()](#getMinValue--) | بالنسبة للمعلمات ذات القيم الصحيحة أو العشرية، يحدد أصغر قيمة مسموح بها. |
-| [getMultiple()](#getMultiple--) | بالنسبة للمعلمات ذات القيم الصحيحة أو العشرية، يجب أن تكون قيمة المعلمة مضاعفًا لهذا الرقم. |
+| [getMaxValue()](#getMaxValue--) | للمعلمات ذات القيم الصحيحة أو العشرية، يحدد أكبر قيمة مسموح بها. |
+| [getMinValue()](#getMinValue--) | للمعلمات ذات القيم الصحيحة أو العشرية، يحدد أصغر قيمة مسموح بها. |
+| [getMultiple()](#getMultiple--) | للمعلمات ذات القيم الصحيحة أو العشرية، يجب أن تكون قيمة المعلمة مضاعفاً لهذا الرقم. |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -41,7 +41,7 @@ public IntegerParameterInit(String name, int value)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -63,7 +63,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -80,7 +80,7 @@ public int getMaxValue()
 ```
 
 
-بالنسبة للمعلمات ذات القيم الصحيحة أو العشرية، يحدد أكبر قيمة مسموح بها.
+للمعلمات ذات القيم الصحيحة أو العشرية، يحدد أكبر قيمة مسموح بها.
 
 **Returns:**
 int - أكبر قيمة مسموح بها.
@@ -90,7 +90,7 @@ public int getMinValue()
 ```
 
 
-بالنسبة للمعلمات ذات القيم الصحيحة أو العشرية، يحدد أصغر قيمة مسموح بها.
+للمعلمات ذات القيم الصحيحة أو العشرية، يحدد أصغر قيمة مسموح بها.
 
 **Returns:**
 int - أصغر قيمة مسموح بها.
@@ -100,10 +100,10 @@ public int getMultiple()
 ```
 
 
-بالنسبة للمعلمات ذات القيم الصحيحة أو العشرية، يجب أن تكون قيمة المعلمة مضاعفًا لهذا الرقم.
+للمعلمات ذات القيم الصحيحة أو العشرية، يجب أن تكون قيمة المعلمة مضاعفاً لهذا الرقم.
 
 **Returns:**
-int - العدد الذي يجب أن تكون المعلمة مضاعفًا له.
+int - الرقم الذي يجب أن تكون المعلمة مضاعفاً له.
 ### getName() {#getName--}
 ```
 public String getName()

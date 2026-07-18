@@ -1,7 +1,7 @@
 ---
 title: "JobOptimalDestinationColorProfile.Profile"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يصف ملفات الألوان المتاحة."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يصف ملفات اللون المتاحة."
 type: docs
 weight: 10
 url: /ar/java/com.aspose.xps.metadata/joboptimaldestinationcolorprofile.profile/
@@ -12,7 +12,7 @@ java.lang.Object
 public static final class JobOptimalDestinationColorProfile.Profile
 ```
 
-يصف ملفات الألوان المتاحة.
+يصف ملفات اللون المتاحة.
 ## الحقول
 
 | حقل | الوصف |
@@ -71,7 +71,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

@@ -1,7 +1,7 @@
 ---
 title: "InputBin.FeedDirection"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يحدد الثوابت لقيمة الخاصية المسماة FeedDirection."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يعرّف الثوابت لقيمة الخاصية المسماة FeedDirection."
 type: docs
 weight: 11
 url: /ar/java/com.aspose.xps.metadata/inputbin.feeddirection/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class InputBin.FeedDirection extends Property implements InputBin.IInputBinOptionItem
 ```
 
-يحدد الثوابت لقيمة خاصية  FeedDirection  المُسجلة.
+يحدد الثوابت لقيمة الخاصية المقيمة FeedDirection.
 ## الحقول
 
 | حقل | الوصف |
@@ -66,7 +66,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

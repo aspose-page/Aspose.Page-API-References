@@ -1,7 +1,7 @@
 ---
 title: "TiffSaveOptions"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "فئة لخيارات حفظ XPS كـ TIFF."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "فئة لخيارات حفظ XPS-as-TIFF."
 type: docs
 weight: 16
 url: /ar/java/com.aspose.xps.rendering/tiffsaveoptions/
@@ -12,50 +12,50 @@ java.lang.Object, [com.aspose.page.SaveOptions](../../com.aspose.page/saveoption
 public class TiffSaveOptions extends ImageSaveOptions
 ```
 
-فئة لخيارات حفظ XPS كـ TIFF.
-## المنشئات
+فئة لخيارات حفظ XPS-as-TIFF.
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [TiffSaveOptions()](#TiffSaveOptions--) | ينشئ مثلاً جديداً من الخيارات. |
+| [TiffSaveOptions()](#TiffSaveOptions--) | ينشئ مثلاً جديداً للخيارات. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAdditionalFontsFolders()](#getAdditionalFontsFolders--) | يعيد مجلدات الخطوط الإضافية التي يجب على المحول العثور على الخطوط فيها للمستند المدخل. |
-| [getBatchSize()](#getBatchSize--) | يعيد حجم جزء من الصفحات للانتقال من عقدة إلى عقدة أخرى. |
-| [getBeforePageSavingEventHandlers()](#getBeforePageSavingEventHandlers--) | يعيد مجموعة معالجات الأحداث التي تقوم بتعديلات على صفحة XPS قبل حفظها مباشرةً. |
+| [getAdditionalFontsFolders()](#getAdditionalFontsFolders--) | إرجاع مجلدات خطوط إضافية حيث يجب على المحول العثور على الخطوط للمستند المدخل. |
+| [getBatchSize()](#getBatchSize--) | يعيد حجم جزء من الصفحات للانتقال من عقدة إلى عقدة. |
+| [getBeforePageSavingEventHandlers()](#getBeforePageSavingEventHandlers--) | يعيد مجموعة معالجات الأحداث التي تقوم بإجراء تعديلات على صفحة XPS قبل حفظها مباشرةً. |
 | [getClass()](#getClass--) |  |
-| [getConvertFontsToTTF()](#getConvertFontsToTTF--) | يحصل على العلامة التي تُظهر ما إذا كان من الضروري حفظ الخطوط غير TrueType إلى TTF. |
-| [getExceptions()](#getExceptions--) | يعيد قائمة بالأخطاء غير الحرجة. |
+| [getConvertFontsToTTF()](#getConvertFontsToTTF--) | الحصول على العلامة التي تُظهر ما إذا كان من الضروري حفظ الخطوط غير TrueType إلى TTF. |
+| [getExceptions()](#getExceptions--) | إرجاع قائمة بالأخطاء غير الحرجة. |
 | [getImageSize()](#getImageSize--) | يحصل على حجم الصور الناتجة بالبكسل. |
 | [getInterpolationMode()](#getInterpolationMode--) | يحصل على وضع الاستيفاء. |
 | [getJpegQualityLevel()](#getJpegQualityLevel--) | يعيد القيمة التي تحدد مستوى الضغط لصورة. |
 | [getPageNumbers()](#getPageNumbers--) | يحصل على مصفوفة أعداد الصفحات التي سيتم عرضها. |
 | [getResolution()](#getResolution--) | يحصل على دقة الصورة. |
-| [getSize()](#getSize--) | يحصل على حجم الصفحة أو الصورة. |
+| [getSize()](#getSize--) | الحصول على حجم الصفحة أو الصورة. |
 | [getSmoothingMode()](#getSmoothingMode--) | يحصل على وضع التنعيم. |
 | [getTextRenderingHint()](#getTextRenderingHint--) | يحصل على تلميح عرض النص. |
 | [hashCode()](#hashCode--) |  |
-| [isDebug()](#isDebug--) | يحصل على العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل. |
-| [isSupressErrors()](#isSupressErrors--) | يعيد قيمة تشير إلى ما إذا كانت الأخطاء ستُقمع أثناء التحويل. |
+| [isDebug()](#isDebug--) | الحصول على العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل. |
+| [isSupressErrors()](#isSupressErrors--) | إرجاع قيمة تشير إلى ما إذا كانت الأخطاء ستُقمع أثناء التحويل. |
 | [multipage()](#multipage--) | يحصل على العلامة التي تحدد ما إذا كان يجب حفظ صور متعددة في ملف TIFF متعدد الصفحات. |
 | [multipage(boolean value)](#multipage-boolean-) | يضبط العلامة التي تحدد ما إذا كان يجب حفظ صور متعددة في ملف TIFF متعدد الصفحات. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAdditionalFontsFolders(String[] fontsFolders)](#setAdditionalFontsFolders-java.lang.String---) | يحدد مجلدات الخطوط الإضافية التي يجب على المحول العثور على الخطوط فيها للمستند المدخل. |
-| [setBatchSize(int value)](#setBatchSize-int-) | يضبط حجم جزء من الصفحات للانتقال من عقدة إلى عقدة أخرى. |
-| [setConvertFontsToTTF(boolean value)](#setConvertFontsToTTF-boolean-) | يحدد ما إذا كان سيتم حفظ الخطوط غير TrueType إلى TTF. |
-| [setDebug(boolean debug)](#setDebug-boolean-) | يحدد العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل. |
-| [setImageSize(Dimension value)](#setImageSize-java.awt.Dimension-) | يضبط حجم صور الإخراج بالبكسل. |
+| [setAdditionalFontsFolders(String[] fontsFolders)](#setAdditionalFontsFolders-java.lang.String---) | تحديد مجلدات خطوط إضافية حيث يجب على المحول العثور على الخطوط للمستند المدخل. |
+| [setBatchSize(int value)](#setBatchSize-int-) | يضبط حجم جزء من الصفحات للانتقال من عقدة إلى أخرى. |
+| [setConvertFontsToTTF(boolean value)](#setConvertFontsToTTF-boolean-) | تحديد ما إذا كان يجب حفظ الخطوط غير TrueType إلى TTF. |
+| [setDebug(boolean debug)](#setDebug-boolean-) | تحديد العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل. |
+| [setImageSize(Dimension value)](#setImageSize-java.awt.Dimension-) | يضبط حجم الصور الناتجة بالبكسل. |
 | [setInterpolationMode(InterpolationMode value)](#setInterpolationMode-com.aspose.xps.rendering.InterpolationMode-) | يضبط وضع الاستيفاء. |
 | [setJpegQualityLevel(int value)](#setJpegQualityLevel-int-) | يضبط القيمة التي تحدد مستوى الضغط للصورة. |
 | [setPageNumbers(int[] value)](#setPageNumbers-int---) | يضبط مصفوفة أعداد الصفحات التي سيتم عرضها. |
 | [setResolution(float value)](#setResolution-float-) | يضبط دقة الصورة. |
-| [setSize(Dimension size)](#setSize-java.awt.Dimension-) | يحدد حجم الصفحة أو الصورة. |
+| [setSize(Dimension size)](#setSize-java.awt.Dimension-) | تحديد حجم الصفحة أو الصورة. |
 | [setSmoothingMode(SmoothingMode value)](#setSmoothingMode-com.aspose.xps.rendering.SmoothingMode-) | يضبط وضع التنعيم. |
-| [setSupressErrors(boolean supressErrors)](#setSupressErrors-boolean-) | يحدد العلم الذي يشير إلى ما إذا كان سيتم قمع الأخطاء أثناء التحويل. |
+| [setSupressErrors(boolean supressErrors)](#setSupressErrors-boolean-) | يحدد العلامة التي تشير إلى ما إذا كان سيتم قمع الأخطاء أثناء التحويل. |
 | [setTextRenderingHint(TextRenderingHint value)](#setTextRenderingHint-com.aspose.xps.rendering.TextRenderingHint-) | يضبط تلميح عرض النص. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -67,7 +67,7 @@ public TiffSaveOptions()
 ```
 
 
-ينشئ مثلاً جديداً من الخيارات.
+ينشئ مثلاً جديداً للخيارات.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -83,14 +83,14 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getAdditionalFontsFolders() {#getAdditionalFontsFolders--}
 ```
 public String[] getAdditionalFontsFolders()
 ```
 
 
-يرجع مجلدات الخطوط الإضافية التي يجب على المحول العثور على الخطوط فيها للمستند المدخل. المجلد الافتراضي هو مجلد الخطوط القياسي حيث يجد نظام التشغيل الخطوط للاستخدامات الداخلية.
+يعيد مجلدات الخطوط الإضافية التي يجب على المحول العثور على الخطوط فيها للمستند المدخل. المجلد الافتراضي هو مجلد الخطوط القياسي حيث يجد نظام التشغيل الخطوط للاستخدامات الداخلية.
 
 **Returns:**
 java.lang.String[] - مصفوفة من مجلدات الخطوط.
@@ -100,17 +100,17 @@ public int getBatchSize()
 ```
 
 
-يعيد حجم جزء من الصفحات للانتقال من عقدة إلى عقدة أخرى.
+يعيد حجم جزء من الصفحات للانتقال من عقدة إلى عقدة.
 
 **Returns:**
-int - حجم جزء من الصفحات للانتقال من عقدة إلى عقدة أخرى.
+int - حجم جزء من الصفحات للانتقال من عقدة إلى عقدة.
 ### getBeforePageSavingEventHandlers() {#getBeforePageSavingEventHandlers--}
 ```
 public List<EventBasedModifications.BeforePageSavingEventHandler> getBeforePageSavingEventHandlers()
 ```
 
 
-يعيد مجموعة معالجات الأحداث التي تقوم بتعديلات على صفحة XPS قبل حفظها مباشرةً.
+يعيد مجموعة معالجات الأحداث التي تقوم بإجراء تعديلات على صفحة XPS قبل حفظها مباشرةً.
 
 **Returns:**
 java.util.List<com.aspose.xps.features.EventBasedModifications.BeforePageSavingEventHandler>
@@ -130,17 +130,17 @@ public boolean getConvertFontsToTTF()
 ```
 
 
-يحصل على العلامة التي تُظهر ما إذا كان من الضروري حفظ الخطوط غير TrueType إلى TTF.
+الحصول على العلامة التي تُظهر ما إذا كان من الضروري حفظ الخطوط غير TrueType إلى TTF.
 
 **Returns:**
-boolean - قيمة العلم.
+boolean - قيمة العلامة.
 ### getExceptions() {#getExceptions--}
 ```
 public List<Exception> getExceptions()
 ```
 
 
-يعيد قائمة بالأخطاء غير الحرجة.
+إرجاع قائمة بالأخطاء غير الحرجة.
 
 **Returns:**
 java.util.List<java.lang.Exception> - قائمة الاستثناءات
@@ -153,7 +153,7 @@ public Dimension getImageSize()
 يحصل على حجم الصور الناتجة بالبكسل.
 
 **Returns:**
-java.awt.Dimension - حجم صور الإخراج بالبكسل.
+java.awt.Dimension - حجم الصور الناتجة بالبكسل.
 ### getInterpolationMode() {#getInterpolationMode--}
 ```
 public InterpolationMode getInterpolationMode()
@@ -170,7 +170,7 @@ public int getJpegQualityLevel()
 ```
 
 
-يعيد القيمة التي تحدد مستوى الضغط للصورة. القيم المتاحة من 0 إلى 100. كلما كان الرقم المحدد أقل، زاد الضغط وبالتالي انخفضت جودة الصورة. القيمة 0 تؤدي إلى أدنى جودة للصورة، بينما القيمة 100 تؤدي إلى أعلى جودة.
+يعيد القيمة التي تحدد مستوى الضغط للصورة. القيم المتاحة هي من 0 إلى 100. كلما كان الرقم المحدد أقل، زاد الضغط وبالتالي تكون جودة الصورة أقل. القيمة 0 تنتج صورة بأدنى جودة، بينما القيمة 100 تنتج أعلى جودة.
 
 **Returns:**
 int - القيمة التي تحدد مستوى الضغط للصورة.
@@ -200,7 +200,7 @@ public Dimension getSize()
 ```
 
 
-يحصل على حجم الصفحة أو الصورة.
+الحصول على حجم الصفحة أو الصورة.
 
 **Returns:**
 java.awt.Dimension - حجم الصفحة أو الصورة.
@@ -240,7 +240,7 @@ public boolean isDebug()
 ```
 
 
-يحصل على العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل.
+الحصول على العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل.
 
 **Returns:**
 boolean - قيمة التصحيح.
@@ -250,7 +250,7 @@ public boolean isSupressErrors()
 ```
 
 
-يعيد قيمة تشير إلى ما إذا كانت الأخطاء ستُقمع أثناء التحويل.
+إرجاع قيمة تشير إلى ما إذا كانت الأخطاء ستُقمع أثناء التحويل.
 
 **Returns:**
 منطقي - قيمة منطقية
@@ -275,7 +275,7 @@ public void multipage(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | العلامة التي تحدد ما إذا كان يجب حفظ صور متعددة في ملف TIFF متعدد الصفحات واحد. |
+| القيمة | منطقي | العلامة التي تحدد ما إذا كان يجب حفظ صور متعددة في ملف TIFF متعدد الصفحات واحد. |
 
 ### notify() {#notify--}
 ```
@@ -312,12 +312,12 @@ public void setBatchSize(int value)
 ```
 
 
-يضبط حجم جزء من الصفحات للانتقال من عقدة إلى عقدة أخرى.
+يضبط حجم جزء من الصفحات للانتقال من عقدة إلى أخرى.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | حجم جزء من الصفحات للانتقال من عقدة إلى أخرى. |
+| القيمة | int | حجم جزء من الصفحات لنقله من عقدة إلى أخرى. |
 
 ### setConvertFontsToTTF(boolean value) {#setConvertFontsToTTF-boolean-}
 ```
@@ -325,12 +325,12 @@ public void setConvertFontsToTTF(boolean value)
 ```
 
 
-يحدد ما إذا كان سيتم حفظ الخطوط غير TrueType كـ TTF. هذا يقلل بشكل كبير من حجم المستند الناتج في تحويل PS إلى PDF ويزيد من سرعة تحويل ملفات PS التي تحتوي على كمية كبيرة من النص بخطوط غير TrueType إلى أي تنسيق إخراج. ومع ذلك، هناك إزاحة رأسية صغيرة للنص عند تحويل ملف PostScript إلى صورة.
+يحدد ما إذا كان سيتم حفظ الخطوط غير TrueType إلى TTF. يقلل ذلك بشكل كبير من حجم المستند الناتج في تحويل PS إلى PDF ويزيد من سرعة تحويل ملفات PS التي تحتوي على كمية كبيرة من النص بخطوط غير TrueType إلى أي تنسيق إخراج. ومع ذلك، هناك إزاحة رأسية صغيرة للنص عند تحويل ملف PostSctipt إلى صورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة العلم. |
+| القيمة | منطقي | قيمة العلامة. |
 
 ### setDebug(boolean debug) {#setDebug-boolean-}
 ```
@@ -338,12 +338,12 @@ public void setDebug(boolean debug)
 ```
 
 
-يحدد العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل.
+تحديد العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| debug | boolean | قيمة منطقية. |
+| debug | منطقي | قيمة منطقية. |
 
 ### setImageSize(Dimension value) {#setImageSize-java.awt.Dimension-}
 ```
@@ -351,7 +351,7 @@ public void setImageSize(Dimension value)
 ```
 
 
-يضبط حجم صور الإخراج بالبكسل.
+يضبط حجم الصور الناتجة بالبكسل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -377,7 +377,7 @@ public void setJpegQualityLevel(int value)
 ```
 
 
-يضبط القيمة التي تحدد مستوى الضغط للصورة. القيم المتاحة من 0 إلى 100. كلما كان الرقم المحدد أقل، زاد الضغط وبالتالي انخفضت جودة الصورة. القيمة 0 تؤدي إلى أدنى جودة للصورة، بينما القيمة 100 تؤدي إلى أعلى جودة.
+يضبط القيمة التي تحدد مستوى الضغط للصورة. القيم المتاحة هي من 0 إلى 100. كلما كان الرقم المحدد أقل، زاد الضغط وبالتالي تكون جودة الصورة أقل. القيمة 0 تنتج صورة بأدنى جودة، بينما القيمة 100 تنتج أعلى جودة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -416,7 +416,7 @@ public void setSize(Dimension size)
 ```
 
 
-يحدد حجم الصفحة أو الصورة.
+تحديد حجم الصفحة أو الصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -442,12 +442,12 @@ public void setSupressErrors(boolean supressErrors)
 ```
 
 
-يحدد العلم الذي يشير إلى ما إذا كان سيتم قمع الأخطاء أثناء التحويل.
+يحدد العلامة التي تشير إلى ما إذا كان سيتم قمع الأخطاء أثناء التحويل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| supressErrors | boolean | قيمة منطقية. |
+| supressErrors | منطقي | قيمة منطقية. |
 
 ### setTextRenderingHint(TextRenderingHint value) {#setTextRenderingHint-com.aspose.xps.rendering.TextRenderingHint-}
 ```

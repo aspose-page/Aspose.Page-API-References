@@ -1,6 +1,6 @@
 ---
 title: "InputBin.InputBinOption"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف خيارات ميزات JobInputBin و DocumentInputBin و PageInputBin."
 type: docs
 weight: 14
@@ -16,17 +16,17 @@ public static final class InputBin.InputBinOption extends Option implements Inpu
 ```
 
 يصف خيارات ميزات  JobInputBin ,  DocumentInputBin  و  PageInputBin .
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [InputBinOption(String optionName, InputBin.IInputBinOptionItem[] items)](#InputBinOption-java.lang.String-com.aspose.xps.metadata.InputBin.IInputBinOptionItem...-) | ينشئ نسخة جديدة. |
+| [InputBinOption(String optionName, InputBin.IInputBinOptionItem[] items)](#InputBinOption-java.lang.String-com.aspose.xps.metadata.InputBin.IInputBinOptionItem...-) | ينشئ مثيلًا جديدًا. |
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
 | [AutoSelect](#AutoSelect) | سيختار الجهاز تلقائيًا الخيار الأفضل بناءً على التكوين. |
-| [AutoSheetFeeder](#AutoSheetFeeder) | صينية إدخال الجهاز للطابعات النافثة للحبر. |
+| [AutoSheetFeeder](#AutoSheetFeeder) | درج إدخال الجهاز للطابعات النافثة للحبر. |
 | [Cassette](#Cassette) | يحدد أن صينية التغذية هي كاسيت. |
 | [Manual](#Manual) | يحدد صينية التغذية اليدوية الافتراضية. |
 | [Tractor](#Tractor) | يحدد أن صينية التغذية هي جرار. |
@@ -34,8 +34,8 @@ public static final class InputBin.InputBinOption extends Option implements Inpu
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. |
-| [add(InputBin.IInputBinOptionItem[] items)](#add-com.aspose.xps.metadata.InputBin.IInputBinOptionItem...-) | يضيف مصفوفة من مثيلات IInputBinOptionItem إلى الخيار. |
+| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. |
+| [add(InputBin.IInputBinOptionItem[] items)](#add-com.aspose.xps.metadata.InputBin.IInputBinOptionItem...-) | يضيف مصفوفة من كائنات IInputBinOptionItem إلى الخيار. |
 | [clone()](#clone--) | ينسخ هذا المثيل من الخيار. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
@@ -53,13 +53,13 @@ public InputBinOption(String optionName, InputBin.IInputBinOptionItem[] items)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | optionName | java.lang.String | اسم خيار. |
-| items | [IInputBinOptionItem\[\]](../../com.aspose.xps.metadata/iinputbinoptionitem) | مصفوفة عشوائية من مثيلات IInputBinOptionItem. |
+| items | [IInputBinOptionItem\[\]](../../com.aspose.xps.metadata/iinputbinoptionitem) | مصفوفة عشوائية من كائنات IInputBinOptionItem. |
 
 ### AutoSelect {#AutoSelect}
 ```
@@ -75,7 +75,7 @@ public static final InputBin.InputBinOption AutoSheetFeeder
 ```
 
 
-صينية إدخال الجهاز للطابعات النافثة للحبر.
+درج إدخال الجهاز للطابعات النافثة للحبر.
 
 ### Cassette {#Cassette}
 ```
@@ -107,7 +107,7 @@ public void add(IOptionItem[] items)
 ```
 
 
-يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. يجب أن يكون كل عنصر إما  ScoredProperty  أو  Property  مثيل.
+يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. يجب أن يكون كل عنصر إما مثال ScoredProperty أو مثال Property.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -120,12 +120,12 @@ public InputBin.InputBinOption add(InputBin.IInputBinOptionItem[] items)
 ```
 
 
-يضيف مصفوفة من مثيلات IInputBinOptionItem إلى الخيار.
+يضيف مصفوفة من كائنات IInputBinOptionItem إلى الخيار.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| items | [IInputBinOptionItem\[\]](../../com.aspose.xps.metadata/iinputbinoptionitem) | مصفوفة عشوائية من مثيلات IInputBinOptionItem. |
+| items | [IInputBinOptionItem\[\]](../../com.aspose.xps.metadata/iinputbinoptionitem) | مصفوفة عشوائية من كائنات IInputBinOptionItem. |
 
 **Returns:**
 [InputBinOption](../../com.aspose.xps.metadata/inputbinoption) - This options instance.
@@ -153,7 +153,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

@@ -1,58 +1,58 @@
 ---
 title: "XpsGlyphs"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "فئة تُغلف ميزات عنصر Glyphs."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "فئة تجسد ميزات عنصر Glyphs."
 type: docs
 weight: 25
 url: /ar/java/com.aspose.xps/xpsglyphs/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject)، [com.aspose.xps.XpsElement](../../com.aspose.xps/xpselement)، [com.aspose.xps.XpsHyperlinkElement](../../com.aspose.xps/xpshyperlinkelement)، [com.aspose.xps.XpsContentElement](../../com.aspose.xps/xpscontentelement)
+java.lang.Object, [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject), [com.aspose.xps.XpsElement](../../com.aspose.xps/xpselement), [com.aspose.xps.XpsHyperlinkElement](../../com.aspose.xps/xpshyperlinkelement), [com.aspose.xps.XpsContentElement](../../com.aspose.xps/xpscontentelement)
 ```
 public final class XpsGlyphs extends XpsContentElement
 ```
 
-فئة تُجَمِّع ميزات عنصر Glyphs. يمثل هذا العنصر سلسلة من النص المنسق بشكل موحد من خط واحد. يوفر المعلومات اللازمة للتصيير الدقيق ويدعم ميزات البحث والاختيار في مستهلكي العرض.
+فئة تُجَمِّع ميزات عنصر Glyphs. يمثل هذا العنصر سلسلة من النص المُنسَّق بشكل موحد من خط واحد. يوفر المعلومات اللازمة للتصيير الدقيق ويدعم ميزات البحث والاختيار في مستهلكي العرض.
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [deepClone()](#deepClone--) | استنسخ هذه glyphs. |
+| [deepClone()](#deepClone--) | استنسخ هذه الرموز. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int i)](#get-int-) | يوفر الوصول إلى أبناء العنصر حسب الفهرس i. |
-| [getBidiLevel()](#getBidiLevel--) | يعيد القيمة التي تحدد مستوى التعشيق الثنائي الاتجاه لخوارزمية Unicode. |
+| [get(int i)](#get-int-) | يوفر وصولاً إلى أبناء العنصر حسب الفهرس i. |
+| [getBidiLevel()](#getBidiLevel--) | يعيد القيمة التي تحدد مستوى التداخل الثنائي الاتجاه لخوارزمية Unicode. |
 | [getClass()](#getClass--) |  |
 | [getClip()](#getClip--) | يعيد هندسة المسار التي تحدّ المنطقة المرسومة للعنصر. |
-| [getFill()](#getFill--) | يعيد الفرشاة المستخدمة لملء شكل الرموز المُعالجة. |
+| [getFill()](#getFill--) | يعيد الفرشاة المستخدمة لملء شكل الرموز المُصوَّرة. |
 | [getFont()](#getFont--) | يعيد مورد الخط لخط TrueType المستخدم لتنسيق نص العناصر. |
 | [getFontRenderingEmSize()](#getFontRenderingEmSize--) | يعيد حجم الخط بوحدات سطح الرسم، معبرًا عنه كقيمة عائمة بوحدات الفضاء الإحداثي الفعّال. |
 | [getHyperlinkTarget()](#getHyperlinkTarget--) | يعيد كائن هدف الارتباط التشعبي. |
-| [getOpacity()](#getOpacity--) | يعيد القيمة التي تحدد شفافية العنصر الموحدة. |
-| [getOpacityMask()](#getOpacityMask--) | يعيد الفرشاة التي تحدد قناع قيم ألفا المطبقة على العنصر بنفس طريقة خاصية Opacity، ولكن تسمح بقيم ألفا مختلفة لمناطق مختلفة من العنصر. |
+| [getOpacity()](#getOpacity--) | يعيد القيمة التي تحدد الشفافية الموحدة للعنصر. |
+| [getOpacityMask()](#getOpacityMask--) | يعيد الفرشاة التي تحدد قناع قيم ألفا المطبقة على العنصر بنفس طريقة خاصية الشفافية (Opacity)، ولكن تسمح بقيم ألفا مختلفة لمناطق مختلفة من العنصر. |
 | [getOriginX()](#getOriginX--) | يعيد إحداثي x للرمز الأول في السلسلة، بوحدات الفضاء الإحداثي الفعّال. |
 | [getOriginY()](#getOriginY--) | يعيد إحداثي y للرمز الأول في السلسلة، بوحدات الفضاء الإحداثي الفعّال. |
-| [getRenderTransform()](#getRenderTransform--) | يعيد مصفوفة التحويل المتجانسة التي تُنشئ إطار إحداثيات جديد لجميع خصائص العنصر ولكل العناصر الفرعية (إن وجدت). |
+| [getRenderTransform()](#getRenderTransform--) | يعيد مصفوفة التحويل المتجانس التي تُنشئ إطار إحداثيات جديد لجميع خصائص العنصر ولكل العناصر الفرعية (إن وجدت). |
 | [getStyleSimulations()](#getStyleSimulations--) | يعيد القيمة التي تحدد محاكاة النمط. |
-| [getUnicodeString()](#getUnicodeString--) | يعيد سلسلة النص التي تم تصييرها بواسطة عنصر Glyphs. |
+| [getUnicodeString()](#getUnicodeString--) | يعيد سلسلة النص المُصوَّرة بواسطة عنصر Glyphs. |
 | [hashCode()](#hashCode--) |  |
-| [isSideways()](#isSideways--) | يعيد القيمة التي تشير إلى أن الرمز مائل على جانبه، مع تعريف الأصل كأعلى مركز للرمز غير المائل. |
+| [isSideways()](#isSideways--) | يعيد القيمة التي تشير إلى أن الرمز تم تدويره على جانبه، مع تعريف الأصل كأعلى مركز للرمز غير المدور. |
 | [iterator()](#iterator--) | تنفيذ واجهة Iterable. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBidiLevel(int value)](#setBidiLevel-int-) | يضبط القيمة التي تحدد مستوى التعشيق الثنائي الاتجاه لخوارزمية Unicode. |
-| [setClip(XpsPathGeometry value)](#setClip-com.aspose.xps.XpsPathGeometry-) | يضبط هندسة المسار التي تحد من المنطقة المرسومة للعنصر. |
-| [setFill(XpsBrush value)](#setFill-com.aspose.xps.XpsBrush-) | يضبط الفرشاة المستخدمة لملء شكل الرموز المُعالجة. |
+| [setBidiLevel(int value)](#setBidiLevel-int-) | يضبط القيمة التي تحدد مستوى التداخل الثنائي الاتجاه لخوارزمية Unicode. |
+| [setClip(XpsPathGeometry value)](#setClip-com.aspose.xps.XpsPathGeometry-) | يضبط هندسة المسار التي تحدّ المنطقة المرسومة للعنصر. |
+| [setFill(XpsBrush value)](#setFill-com.aspose.xps.XpsBrush-) | يضبط الفرشاة المستخدمة لملء شكل الرموز المُصوَّرة. |
 | [setFontRenderingEmSize(float value)](#setFontRenderingEmSize-float-) | يضبط حجم الخط بوحدات سطح الرسم، معبرًا عنه كقيمة عائمة بوحدات الفضاء الإحداثي الفعّال. |
 | [setHyperlinkTarget(XpsHyperlinkTarget value)](#setHyperlinkTarget-com.aspose.xps.XpsHyperlinkTarget-) | يضبط كائن هدف الارتباط التشعبي. |
-| [setOpacity(float value)](#setOpacity-float-) | يضبط القيمة التي تحدد الشفافية الموحدة للعنصر. |
-| [setOpacityMask(XpsBrush value)](#setOpacityMask-com.aspose.xps.XpsBrush-) | يضبط الفرشاة التي تحدد قناع قيم ألفا المطبق على العنصر بنفس طريقة خاصية Opacity، مع السماح بقيم ألفا مختلفة لمناطق مختلفة من العنصر. |
+| [setOpacity(float value)](#setOpacity-float-) | يضبط القيمة التي تحدد الشفافية المتساوية للعنصر. |
+| [setOpacityMask(XpsBrush value)](#setOpacityMask-com.aspose.xps.XpsBrush-) | يضبط الفرشاة التي تحدد قناعًا لقيم ألفا يُطبق على العنصر بنفس طريقة خاصية Opacity، مع السماح بقيم ألفا مختلفة لمناطق مختلفة من العنصر. |
 | [setOriginX(float value)](#setOriginX-float-) | يضبط إحداثي x للرمز الأول في السلسلة، بوحدات الفضاء الإحداثي الفعّال. |
 | [setOriginY(float value)](#setOriginY-float-) | يضبط إحداثي y للرمز الأول في السلسلة، بوحدات الفضاء الإحداثي الفعّال. |
-| [setRenderTransform(XpsMatrix value)](#setRenderTransform-com.aspose.xps.XpsMatrix-) | يضبط مصفوفة التحويل الأفينية التي تنشئ إطار إحداثيات جديد لجميع خصائص العنصر وجميع العناصر الفرعية (إن وجدت). |
-| [setSideways(boolean value)](#setSideways-boolean-) | يضبط القيمة التي تشير إلى أن الرمز مائل على جانبه، مع تعريف الأصل كأعلى مركز للرمز غير المائل. |
+| [setRenderTransform(XpsMatrix value)](#setRenderTransform-com.aspose.xps.XpsMatrix-) | يضبط مصفوفة التحويل الأفيني التي تُنشئ إطار إحداثيات جديد لجميع خصائص العنصر ولكل العناصر الفرعية (إن وجدت). |
+| [setSideways(boolean value)](#setSideways-boolean-) | يضبط القيمة التي تشير إلى أن الرمز تم تدويره على جانبه، مع تعريف الأصل كأعلى مركز للرمز غير المدور. |
 | [setStyleSimulations(XpsStyleSimulations value)](#setStyleSimulations-com.aspose.xps.XpsStyleSimulations-) | يضبط القيمة التي تحدد محاكاة النمط. |
-| [setUnicodeString(String value)](#setUnicodeString-java.lang.String-) | يضبط سلسلة النص التي تم تصييرها بواسطة عنصر Glyphs. |
-| [size()](#size--) | يرجع عدد العناصر الفرعية. |
+| [setUnicodeString(String value)](#setUnicodeString-java.lang.String-) | يضبط سلسلة النص المُصوَّرة بواسطة عنصر Glyphs. |
+| [size()](#size--) | يعيد عدد العناصر الفرعية. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -63,7 +63,7 @@ public XpsGlyphs deepClone()
 ```
 
 
-استنسخ هذه glyphs.
+استنسخ هذه الرموز.
 
 **Returns:**
 [XpsGlyphs](../../com.aspose.xps/xpsglyphs) - Clone of this glyphs.
@@ -81,14 +81,14 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### get(int i) {#get-int-}
 ```
 public XpsContentElement get(int i)
 ```
 
 
-يوفر الوصول إلى أبناء العنصر حسب الفهرس i.
+يوفر وصولاً إلى أبناء العنصر حسب الفهرس i.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -103,10 +103,10 @@ public int getBidiLevel()
 ```
 
 
-يعيد القيمة التي تحدد مستوى التعشيق الثنائي الاتجاه لخوارزمية Unicode. القيم الزوجية تعني تخطيط من اليسار إلى اليمين، والقيم الفردية تعني تخطيط من اليمين إلى اليسار. تخطيط من اليمين إلى اليسار يضع أصل السلسلة على الجانب الأيمن للرمز الأول، مع عرض تقدم إيجابي (يمثل التقدم إلى اليسار) يضع الرموز اللاحقة إلى يسار الرمز السابق.
+يعيد القيمة التي تحدد مستوى التداخل الثنائي الاتجاه لخوارزمية Unicode. القيم الزوجية تعني تخطيط من اليسار إلى اليمين، والقيم الفردية تعني تخطيط من اليمين إلى اليسار. يضع تخطيط من اليمين إلى اليسار أصل السلسلة على الجانب الأيمن للرمز الأول، مع عرض تقدمات إيجابية (تمثل تقدمًا إلى اليسار) يضع الرموز اللاحقة إلى يسار الرمز السابق.
 
 **Returns:**
-int - القيمة التي تحدد مستوى التعشيق الثنائي الاتجاه لخوارزمية Unicode.
+int - القيمة التي تحدد مستوى التداخل الثنائي الاتجاه لخوارزمية Unicode.
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -133,7 +133,7 @@ public XpsBrush getFill()
 ```
 
 
-يعيد الفرشاة المستخدمة لملء شكل الرموز المُعالجة.
+يعيد الفرشاة المستخدمة لملء شكل الرموز المُصوَّرة.
 
 **Returns:**
 [XpsBrush](../../com.aspose.xps/xpsbrush) - The brush used to fill the shape of the rendered glyphs.
@@ -173,17 +173,17 @@ public float getOpacity()
 ```
 
 
-يعيد القيمة التي تحدد شفافية العنصر الموحدة.
+يعيد القيمة التي تحدد الشفافية الموحدة للعنصر.
 
 **Returns:**
-float - القيمة التي تحدد الشفافية الموحدة للعنصر.
+float - القيمة التي تحدد الشفافية المتساوية للعنصر.
 ### getOpacityMask() {#getOpacityMask--}
 ```
 public XpsBrush getOpacityMask()
 ```
 
 
-يعيد الفرشاة التي تحدد قناع قيم ألفا المطبقة على العنصر بنفس طريقة خاصية Opacity، ولكن تسمح بقيم ألفا مختلفة لمناطق مختلفة من العنصر.
+يعيد الفرشاة التي تحدد قناع قيم ألفا المطبقة على العنصر بنفس طريقة خاصية الشفافية (Opacity)، ولكن تسمح بقيم ألفا مختلفة لمناطق مختلفة من العنصر.
 
 **Returns:**
 [XpsBrush](../../com.aspose.xps/xpsbrush) - The brush specifying a mask.
@@ -196,7 +196,7 @@ public float getOriginX()
 يعيد إحداثي x للرمز الأول في السلسلة، بوحدات الفضاء الإحداثي الفعّال.
 
 **Returns:**
-float - إحداثي x للرمز الأول في السلسلة، بوحدات الفضاء الإحداثي الفعّال.
+float - إحداثي x لأول حرف في السلسلة، بوحدات مساحة الإحداثيات الفعّالة.
 ### getOriginY() {#getOriginY--}
 ```
 public float getOriginY()
@@ -206,14 +206,14 @@ public float getOriginY()
 يعيد إحداثي y للرمز الأول في السلسلة، بوحدات الفضاء الإحداثي الفعّال.
 
 **Returns:**
-float - إحداثي y للرمز الأول في السلسلة، بوحدات الفضاء الإحداثي الفعّال.
+float - إحداثي y لأول حرف في السلسلة، بوحدات مساحة الإحداثيات الفعّالة.
 ### getRenderTransform() {#getRenderTransform--}
 ```
 public XpsMatrix getRenderTransform()
 ```
 
 
-يعيد مصفوفة التحويل المتجانسة التي تُنشئ إطار إحداثيات جديد لجميع خصائص العنصر ولكل العناصر الفرعية (إن وجدت).
+يعيد مصفوفة التحويل المتجانس التي تُنشئ إطار إحداثيات جديد لجميع خصائص العنصر ولكل العناصر الفرعية (إن وجدت).
 
 **Returns:**
 [XpsMatrix](../../com.aspose.xps/xpsmatrix) - The affine transformation matrix.
@@ -233,10 +233,10 @@ public String getUnicodeString()
 ```
 
 
-يعيد سلسلة النص التي تم عرضها بواسطة عنصر Glyphs. يتم تحديد النص كنقاط شفرة Unicode.
+يعيد السلسلة النصية التي تم عرضها بواسطة عنصر Glyphs. يتم تحديد النص كنقاط شفرة يونيكود.
 
 **Returns:**
-java.lang.String - سلسلة النص التي تم عرضها بواسطة عنصر Glyphs.
+java.lang.String - السلسلة النصية التي تم عرضها بواسطة عنصر Glyphs.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -253,10 +253,10 @@ public boolean isSideways()
 ```
 
 
-يعيد القيمة التي تشير إلى أن الرمز مائل على جانبه، مع تعريف الأصل كأعلى مركز للرمز غير المائل.
+يعيد القيمة التي تشير إلى أن الرمز تم تدويره على جانبه، مع تعريف الأصل كأعلى مركز للرمز غير المدور.
 
 **Returns:**
-boolean - القيمة التي تشير إلى أن الرمز مائل على جانبه.
+boolean - القيمة التي تشير إلى أن الحرف تم تدويره على جانبه.
 ### iterator() {#iterator--}
 ```
 public Iterator<XpsContentElement> iterator()
@@ -266,7 +266,7 @@ public Iterator<XpsContentElement> iterator()
 تنفيذ واجهة Iterable.
 
 **Returns:**
-java.util.Iterator<com.aspose.xps.XpsContentElement> - يرجع المُعدِّد للقائمة.
+java.util.Iterator<com.aspose.xps.XpsContentElement> - يعيد المُعدِّد للقائمة.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -289,12 +289,12 @@ public void setBidiLevel(int value)
 ```
 
 
-يضبط القيمة التي تحدد مستوى التداخل الثنائي الاتجاه لخوارزمية Unicode. القيم الزوجية تعني تخطيط من اليسار إلى اليمين، والقيم الفردية تعني تخطيط من اليمين إلى اليسار. تخطيط من اليمين إلى اليسار يضع أصل السلسلة على الجانب الأيمن للرمز الأول، مع عرض تقدم إيجابي (يمثل التقدم إلى اليسار) يضع الرموز اللاحقة إلى يسار الرمز السابق.
+يضبط القيمة التي تحدد مستوى التداخل الثنائي الاتجاه لخوارزمية يونيكود. القيم الزوجية تعني تخطيط من اليسار إلى اليمين، والقيم الفردية تعني تخطيط من اليمين إلى اليسار. يضع تخطيط من اليمين إلى اليسار أصل السلسلة على الجانب الأيمن من أول حرف، مع عرض تقدم إيجابي (يمثل التقدم إلى اليسار) يضع الأحرف اللاحقة إلى يسار الحرف السابق.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | القيمة التي تحدد مستوى التداخل الثنائي الاتجاه لخوارزمية Unicode. |
+| القيمة | int | القيمة التي تحدد مستوى التداخل الثنائي الاتجاه لخوارزمية يونيكود. |
 
 ### setClip(XpsPathGeometry value) {#setClip-com.aspose.xps.XpsPathGeometry-}
 ```
@@ -302,12 +302,12 @@ public void setClip(XpsPathGeometry value)
 ```
 
 
-يضبط هندسة المسار التي تحد من المنطقة المرسومة للعنصر.
+يضبط هندسة المسار التي تحدّ المنطقة المرسومة للعنصر.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [XpsPathGeometry](../../com.aspose.xps/xpspathgeometry) | هندسة المسار التي تحد من المنطقة المرسومة للعنصر. |
+| value | [XpsPathGeometry](../../com.aspose.xps/xpspathgeometry) | هندسة المسار التي تحدّ المنطقة المرسومة للعنصر. |
 
 ### setFill(XpsBrush value) {#setFill-com.aspose.xps.XpsBrush-}
 ```
@@ -315,12 +315,12 @@ public void setFill(XpsBrush value)
 ```
 
 
-يضبط الفرشاة المستخدمة لملء شكل الرموز المُعالجة.
+يضبط الفرشاة المستخدمة لملء شكل الرموز المُصوَّرة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [XpsBrush](../../com.aspose.xps/xpsbrush) | الفرشاة المستخدمة لملء شكل الرموز المعروضة. |
+| value | [XpsBrush](../../com.aspose.xps/xpsbrush) | الفرشاة المستخدمة لملء شكل الأحرف المعروضة. |
 
 ### setFontRenderingEmSize(float value) {#setFontRenderingEmSize-float-}
 ```
@@ -354,12 +354,12 @@ public void setOpacity(float value)
 ```
 
 
-يضبط القيمة التي تحدد الشفافية الموحدة للعنصر.
+يضبط القيمة التي تحدد الشفافية المتساوية للعنصر.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | القيمة التي تحدد الشفافية الموحدة للعنصر. |
+| القيمة | float | القيمة التي تحدد الشفافية المتساوية للعنصر. |
 
 ### setOpacityMask(XpsBrush value) {#setOpacityMask-com.aspose.xps.XpsBrush-}
 ```
@@ -367,7 +367,7 @@ public void setOpacityMask(XpsBrush value)
 ```
 
 
-يضبط الفرشاة التي تحدد قناع قيم ألفا المطبق على العنصر بنفس طريقة خاصية Opacity، مع السماح بقيم ألفا مختلفة لمناطق مختلفة من العنصر.
+يضبط الفرشاة التي تحدد قناعًا لقيم ألفا يُطبق على العنصر بنفس طريقة خاصية Opacity، مع السماح بقيم ألفا مختلفة لمناطق مختلفة من العنصر.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -385,7 +385,7 @@ public void setOriginX(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | إحداثي x للرمز الأول في السلسلة، بوحدات الفضاء الإحداثي الفعّال. |
+| القيمة | float | إحداثي x لأول حرف في السلسلة، بوحدات مساحة الإحداثيات الفعّالة. |
 
 ### setOriginY(float value) {#setOriginY-float-}
 ```
@@ -398,7 +398,7 @@ public void setOriginY(float value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | float | إحداثي y للرمز الأول في السلسلة، بوحدات الفضاء الإحداثي الفعّال. |
+| القيمة | float | إحداثي y لأول حرف في السلسلة، بوحدات مساحة الإحداثيات الفعّالة. |
 
 ### setRenderTransform(XpsMatrix value) {#setRenderTransform-com.aspose.xps.XpsMatrix-}
 ```
@@ -406,12 +406,12 @@ public void setRenderTransform(XpsMatrix value)
 ```
 
 
-يضبط مصفوفة التحويل الأفينية التي تنشئ إطار إحداثيات جديد لجميع خصائص العنصر وجميع العناصر الفرعية (إن وجدت).
+يضبط مصفوفة التحويل الأفيني التي تُنشئ إطار إحداثيات جديد لجميع خصائص العنصر ولكل العناصر الفرعية (إن وجدت).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [XpsMatrix](../../com.aspose.xps/xpsmatrix) | مصفوفة التحويل الأفينية. |
+| value | [XpsMatrix](../../com.aspose.xps/xpsmatrix) | مصفوفة التحويل الأفيني. |
 
 ### setSideways(boolean value) {#setSideways-boolean-}
 ```
@@ -419,12 +419,12 @@ public void setSideways(boolean value)
 ```
 
 
-يضبط القيمة التي تشير إلى أن الرمز مائل على جانبه، مع تعريف الأصل كأعلى مركز للرمز غير المائل.
+يضبط القيمة التي تشير إلى أن الرمز تم تدويره على جانبه، مع تعريف الأصل كأعلى مركز للرمز غير المدور.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة التي تشير إلى أن الرمز مائل على جانبه. |
+| القيمة | منطقي | القيمة التي تشير إلى أن الحرف تم تدويره على جانبه. |
 
 ### setStyleSimulations(XpsStyleSimulations value) {#setStyleSimulations-com.aspose.xps.XpsStyleSimulations-}
 ```
@@ -445,12 +445,12 @@ public void setUnicodeString(String value)
 ```
 
 
-يضبط سلسلة النص التي تم عرضها بواسطة عنصر Glyphs. يتم تحديد النص كنقاط شفرة Unicode.
+يضبط السلسلة النصية التي تم عرضها بواسطة عنصر Glyphs. يتم تحديد النص كنقاط شفرة يونيكود.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | java.lang.String | سلسلة النص التي تم عرضها بواسطة عنصر Glyphs. |
+| القيمة | java.lang.String | السلسلة النصية التي تم عرضها بواسطة عنصر Glyphs. |
 
 ### size() {#size--}
 ```
@@ -458,7 +458,7 @@ public int size()
 ```
 
 
-يرجع عدد العناصر الفرعية.
+يعيد عدد العناصر الفرعية.
 
 **Returns:**
 int - عدد العناصر الفرعية.

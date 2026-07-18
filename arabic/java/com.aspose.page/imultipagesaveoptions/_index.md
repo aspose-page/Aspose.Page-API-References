@@ -1,7 +1,7 @@
 ---
 title: "IMultiPageSaveOptions"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يُعرّف الواجهة لتعيين أرقام الصفحات للتحويل."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "تعرف الواجهة لتعيين أرقام الصفحات للتحويل."
 type: docs
 weight: 21
 url: /ar/java/com.aspose.page/imultipagesaveoptions/

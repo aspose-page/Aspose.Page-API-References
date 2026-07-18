@@ -1,7 +1,7 @@
 ---
 title: "PageMediaSizePSWidth"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يحدد عرض الصفحة عموديًا على اتجاه توجيه التغذية."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يحدد عرض الصفحة عموديًا على اتجاه تغذية التوجيه."
 type: docs
 weight: 108
 url: /ar/java/com.aspose.xps.metadata/pagemediasizepswidth/
@@ -15,21 +15,21 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class PageMediaSizePSWidth extends IntegerParameterInit implements IJobPrintTicketItem, IDocumentPrintTicketItem, IPagePrintTicketItem
 ```
 
-يحدد عرض الصفحة المتعامد مع اتجاه التغذية. https://docs.microsoft.com/en-us/windows/win32/printdocs/pagemediasizepswidth
-## المنشئات
+يحدد عرض الصفحة عمودياً على اتجاه التغذية. https://docs.microsoft.com/en-us/windows/win32/printdocs/pagemediasizepswidth
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PageMediaSizePSWidth(int value)](#PageMediaSizePSWidth-int-) | ينشئ نسخة جديدة. |
+| [PageMediaSizePSWidth(int value)](#PageMediaSizePSWidth-int-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getMaxValue()](#getMaxValue--) | بالنسبة للمعلمات ذات القيم الصحيحة أو العشرية، يحدد أكبر قيمة مسموح بها. |
-| [getMinValue()](#getMinValue--) | بالنسبة للمعلمات ذات القيم الصحيحة أو العشرية، يحدد أصغر قيمة مسموح بها. |
-| [getMultiple()](#getMultiple--) | بالنسبة للمعلمات ذات القيم الصحيحة أو العشرية، يجب أن تكون قيمة المعلمة مضاعفًا لهذا الرقم. |
+| [getMaxValue()](#getMaxValue--) | للمعلمات ذات القيم الصحيحة أو العشرية، يحدد أكبر قيمة مسموح بها. |
+| [getMinValue()](#getMinValue--) | للمعلمات ذات القيم الصحيحة أو العشرية، يحدد أصغر قيمة مسموح بها. |
+| [getMultiple()](#getMultiple--) | للمعلمات ذات القيم الصحيحة أو العشرية، يجب أن تكون قيمة المعلمة مضاعفاً لهذا الرقم. |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -44,7 +44,7 @@ public PageMediaSizePSWidth(int value)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -65,7 +65,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -82,7 +82,7 @@ public int getMaxValue()
 ```
 
 
-بالنسبة للمعلمات ذات القيم الصحيحة أو العشرية، يحدد أكبر قيمة مسموح بها.
+للمعلمات ذات القيم الصحيحة أو العشرية، يحدد أكبر قيمة مسموح بها.
 
 **Returns:**
 int - أكبر قيمة مسموح بها.
@@ -92,7 +92,7 @@ public int getMinValue()
 ```
 
 
-بالنسبة للمعلمات ذات القيم الصحيحة أو العشرية، يحدد أصغر قيمة مسموح بها.
+للمعلمات ذات القيم الصحيحة أو العشرية، يحدد أصغر قيمة مسموح بها.
 
 **Returns:**
 int - أصغر قيمة مسموح بها.
@@ -102,10 +102,10 @@ public int getMultiple()
 ```
 
 
-بالنسبة للمعلمات ذات القيم الصحيحة أو العشرية، يجب أن تكون قيمة المعلمة مضاعفًا لهذا الرقم.
+للمعلمات ذات القيم الصحيحة أو العشرية، يجب أن تكون قيمة المعلمة مضاعفاً لهذا الرقم.
 
 **Returns:**
-int - العدد الذي يجب أن تكون المعلمة مضاعفًا له.
+int - الرقم الذي يجب أن تكون المعلمة مضاعفاً له.
 ### getName() {#getName--}
 ```
 public String getName()

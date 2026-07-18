@@ -1,6 +1,6 @@
 ---
 title: "JobPageOrder"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يحدد ترتيب الصفحات الفعلية للإخراج."
 type: docs
 weight: 63
@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class JobPageOrder extends Feature implements IJobPrintTicketItem
 ```
 
-يحدد ترتيب الصفحات الفعلية للمخرجات. https://docs.microsoft.com/en-us/windows/win32/printdocs/jobpageorder
-## المنشئات
+يحدد ترتيب الصفحات الفعلية للإخراج. https://docs.microsoft.com/en-us/windows/win32/printdocs/jobpageorder
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [JobPageOrder(JobPageOrder.JobPageOrderOption[] options)](#JobPageOrder-com.aspose.xps.metadata.JobPageOrder.JobPageOrderOption...-) | ينشئ نسخة جديدة. |
+| [JobPageOrder(JobPageOrder.JobPageOrderOption[] options)](#JobPageOrder-com.aspose.xps.metadata.JobPageOrder.JobPageOrderOption...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public JobPageOrder(JobPageOrder.JobPageOrderOption[] options)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

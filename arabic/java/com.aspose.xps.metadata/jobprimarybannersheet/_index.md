@@ -1,6 +1,6 @@
 ---
 title: "JobPrimaryBannerSheet"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف ورقة الشعار التي سيتم إخراجها للوظيفة."
 type: docs
 weight: 64
@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class JobPrimaryBannerSheet extends Feature implements IJobPrintTicketItem
 ```
 
-يصف ورقة البانر التي سيتم إخراجها للوظيفة. يجب إخراج ورقة البانر باستخدام حجم الصفحة الافتراضي PageMediaSize وباستخدام نوع الصفحة الافتراضي PageMediaType. يجب عزل ورقة البانر عن باقي الوظيفة. وهذا يعني أن أي خيارات إنتهاء أو معالجة (مثل JobDuplexAllDocumentsContiguously أو JobStapleAllDocuments أو JobBindAllDocuments) يجب ألا تشمل ورقة البانر. يجب أن تكون ورقة البانر هي الورقة الأولى في الوظيفة.
-## المنشئات
+يصف ورقة الشعار التي سيتم إخراجها للوظيفة. يجب إخراج ورقة الشعار باستخدام حجم الصفحة الافتراضي PageMediaSize واستخدام نوع وسائط الصفحة الافتراضي PageMediaType. يجب عزل ورقة الشعار عن باقي الوظيفة. هذا يعني أن أي خيارات إنهاء أو معالجة (مثل JobDuplexAllDocumentsContiguously أو JobStapleAllDocuments أو JobBindAllDocuments) يجب ألا تشمل ورقة الشعار. يجب أن تكون ورقة الشعار هي الورقة الأولى في الوظيفة.
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [JobPrimaryBannerSheet(JobPrimaryBannerSheet.BannerSheetOption[] options)](#JobPrimaryBannerSheet-com.aspose.xps.metadata.JobPrimaryBannerSheet.BannerSheetOption...-) | ينشئ نسخة جديدة. |
+| [JobPrimaryBannerSheet(JobPrimaryBannerSheet.BannerSheetOption[] options)](#JobPrimaryBannerSheet-com.aspose.xps.metadata.JobPrimaryBannerSheet.BannerSheetOption...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public JobPrimaryBannerSheet(JobPrimaryBannerSheet.BannerSheetOption[] options)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

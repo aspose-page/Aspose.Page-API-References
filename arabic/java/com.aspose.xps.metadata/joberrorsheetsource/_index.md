@@ -1,6 +1,6 @@
 ---
 title: "JobErrorSheetSource"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يحدد المصدر لورقة خطأ مخصصة."
 type: docs
 weight: 54
@@ -16,11 +16,11 @@ public final class JobErrorSheetSource extends StringParameterInit implements IJ
 ```
 
 يحدد المصدر لورقة الأخطاء المخصصة. https://docs.microsoft.com/en-us/windows/win32/printdocs/joberrorsheetsource
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [JobErrorSheetSource(String value)](#JobErrorSheetSource-java.lang.String-) | ينشئ نسخة جديدة. |
+| [JobErrorSheetSource(String value)](#JobErrorSheetSource-java.lang.String-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -43,7 +43,7 @@ public JobErrorSheetSource(String value)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -64,7 +64,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

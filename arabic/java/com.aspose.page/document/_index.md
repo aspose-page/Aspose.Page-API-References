@@ -1,7 +1,7 @@
 ---
 title: "Document"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "فئة أساسية لجميع المستندات المُغلفة."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "فئة أساسية لجميع المستندات المغلفة."
 type: docs
 weight: 12
 url: /ar/java/com.aspose.page/document/
@@ -12,10 +12,10 @@ java.lang.Object
 public abstract class Document
 ```
 
-فئة أساسية لجميع المستندات المُغلفة.
-## المنشئات
+فئة أساسية لجميع المستندات المغلفة.
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [Document()](#Document--) |  |
 ## الطرق
@@ -53,7 +53,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

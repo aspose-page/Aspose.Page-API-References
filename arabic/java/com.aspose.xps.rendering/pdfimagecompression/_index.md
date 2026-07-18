@@ -1,6 +1,6 @@
 ---
 title: "PdfImageCompression"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يحدد نوع الضغط المطبق على الصور في ملف PDF."
 type: docs
 weight: 22
@@ -17,7 +17,7 @@ public enum PdfImageCompression extends Enum<PdfImageCompression>
 
 | حقل | الوصف |
 | --- | --- |
-| [Auto](#Auto) | يختار تلقائيًا أفضل ضغط لكل صورة. |
+| [Auto](#Auto) | يختار تلقائيًا أكثر ضغط ملائم لكل صورة. |
 | [Flate](#Flate) | ضغط Flate. |
 | [Jpeg](#Jpeg) | ضغط JPEG. |
 | [LzwBaselinePredictor](#LzwBaselinePredictor) | اختيار المتنبئ مقيد بـ PNG Paeth لتسريع العملية. |
@@ -51,7 +51,7 @@ public static final PdfImageCompression Auto
 ```
 
 
-يختار تلقائيًا أفضل ضغط لكل صورة.
+يختار تلقائيًا أكثر ضغط ملائم لكل صورة.
 
 ### Flate {#Flate}
 ```
@@ -75,7 +75,7 @@ public static final PdfImageCompression LzwBaselinePredictor
 ```
 
 
-اختيار المتنبئ مقيد بـ PNG Paeth لتسريع العملية. في الممارسة العملية يحقق أداءً مفاجئًا جيدًا. أفضل من LzwOptimizedPredictor .
+اختيار المتنبئ مقيد بـ PNG Paeth لتسريع العملية. في الواقع يؤدي بشكل مفاجئ جيد. أفضل من LzwOptimizedPredictor .
 
 ### LzwOptimizedPredictor {#LzwOptimizedPredictor}
 ```
@@ -156,7 +156,7 @@ public final boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

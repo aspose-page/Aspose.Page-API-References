@@ -1,7 +1,7 @@
 ---
 title: "PageMediaType.Material"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يعرّف الثوابت لقيمة خاصية Material المُقيمة."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يحدد الثوابت لقيمة خاصية Material المُقيمة."
 type: docs
 weight: 12
 url: /ar/java/com.aspose.xps.metadata/pagemediatype.material/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class PageMediaType.Material extends ScoredProperty implements PageMediaType.IPageMediaTypeOptionItem
 ```
 
-يعرّف الثوابت لقيمة الخاصية المقيمة Material.
+يعرف الثوابت لقيمة الخاصية المقيمة  Material .
 ## الحقول
 
 | حقل | الوصف |
@@ -24,7 +24,7 @@ public static final class PageMediaType.Material extends ScoredProperty implemen
 | [Display](#Display) | قيمة العرض. |
 | [DryFilm](#DryFilm) | قيمة DryFilm. |
 | [Paper](#Paper) | قيمة الورق. |
-| [Polyester](#Polyester) | قيمة البوليستر. |
+| [Polyester](#Polyester) | قيمة Polyester. |
 | [Transparency](#Transparency) | قيمة الشفافية. |
 | [WetFilm](#WetFilm) | قيمة WetFilm. |
 ## الطرق
@@ -79,7 +79,7 @@ public static PageMediaType.Material Polyester
 ```
 
 
-قيمة البوليستر.
+قيمة Polyester.
 
 ### Transparency {#Transparency}
 ```
@@ -111,7 +111,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

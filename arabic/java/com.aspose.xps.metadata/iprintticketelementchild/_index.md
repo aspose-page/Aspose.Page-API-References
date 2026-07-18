@@ -1,7 +1,7 @@
 ---
 title: "IPrintTicketElementChild"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "واجهة القاعدة للعنصر الفرعي لأي عنصر من Print Schema."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "واجهة القاعدة لعنصر فرعي لأي عنصر من مخطط الطباعة."
 type: docs
 weight: 158
 url: /ar/java/com.aspose.xps.metadata/iprintticketelementchild/

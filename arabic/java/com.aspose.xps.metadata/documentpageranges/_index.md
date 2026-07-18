@@ -1,6 +1,6 @@
 ---
 title: "DocumentPageRanges"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف نطاق الإخراج للمستند بالصفحات."
 type: docs
 weight: 31
@@ -15,12 +15,12 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class DocumentPageRanges extends StringParameterInit implements IJobPrintTicketItem, IDocumentPrintTicketItem
 ```
 
-يصف نطاق الإخراج للمستند بالصفحات. يجب أن تتوافق قيمة المعامل مع البنية التالية: - PageRangeText: "PageRange" أو "PageRange,PageRange" - PageRange: "PageNumber" أو "PageNumber-PageNumber" - PageNumber: 1 إلى N، حيث N هو عدد الصفحات في المستند. إذا كان PageNumber > N، فإن PageNumber = N. يجب تجاهل المسافات الفارغة في السلسلة. https://docs.microsoft.com/en-us/windows/win32/printdocs/documentpageranges
-## المنشئات
+يصف نطاق الإخراج للمستند بالصفحات. يجب أن يتوافق قيمة المعامل مع البنية التالية: - PageRangeText: "PageRange" أو "PageRange,PageRange" - PageRange: "PageNumber" أو "PageNumber-PageNumber" - PageNumber: 1 إلى N، حيث N هو عدد الصفحات في المستند. إذا كان PageNumber > N، فإن PageNumber = N. يجب تجاهل المسافات البيضاء في السلسلة. https://docs.microsoft.com/en-us/windows/win32/printdocs/documentpageranges
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [DocumentPageRanges(String value)](#DocumentPageRanges-java.lang.String-) | ينشئ نسخة جديدة. |
+| [DocumentPageRanges(String value)](#DocumentPageRanges-java.lang.String-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -43,7 +43,7 @@ public DocumentPageRanges(String value)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -64,7 +64,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

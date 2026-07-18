@@ -1,6 +1,6 @@
 ---
 title: "PageWatermark.PageWatermarkOption"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف خيارات ميزات PageWatermark."
 type: docs
 weight: 12
@@ -15,12 +15,12 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class PageWatermark.PageWatermarkOption extends Option implements PageWatermark.IPageWatermarkItem
 ```
 
-يصف خيارات ميزات  PageWatermark .
-## المنشئات
+يصف خيارات ميزات **PageWatermark**.
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PageWatermarkOption(String optionName, PageWatermark.IPageWatermarkOptionItem[] items)](#PageWatermarkOption-java.lang.String-com.aspose.xps.metadata.PageWatermark.IPageWatermarkOptionItem...-) | ينشئ نسخة جديدة. |
+| [PageWatermarkOption(String optionName, PageWatermark.IPageWatermarkOptionItem[] items)](#PageWatermarkOption-java.lang.String-com.aspose.xps.metadata.PageWatermark.IPageWatermarkOptionItem...-) | ينشئ مثيلًا جديدًا. |
 | [PageWatermarkOption(PageWatermark.PageWatermarkOption option)](#PageWatermarkOption-com.aspose.xps.metadata.PageWatermark.PageWatermarkOption-) | ينسخ هذا المثيل من الخيار. |
 ## الحقول
 
@@ -31,8 +31,8 @@ public static final class PageWatermark.PageWatermarkOption extends Option imple
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. |
-| [add(PageWatermark.IPageWatermarkOptionItem[] items)](#add-com.aspose.xps.metadata.PageWatermark.IPageWatermarkOptionItem...-) | يضيف مصفوفة من مثيلات IPageWatermarkOptionItem إلى الخيار. |
+| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. |
+| [add(PageWatermark.IPageWatermarkOptionItem[] items)](#add-com.aspose.xps.metadata.PageWatermark.IPageWatermarkOptionItem...-) | يضيف مصفوفة من مثيلات  IPageWatermarkOptionItem  إلى الخيار. |
 | [clone()](#clone--) | ينسخ هذا المثيل من الخيار. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
@@ -50,13 +50,13 @@ public PageWatermarkOption(String optionName, PageWatermark.IPageWatermarkOption
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | optionName | java.lang.String | اسم خيار. |
-| items | [IPageWatermarkOptionItem\[\]](../../com.aspose.xps.metadata/ipagewatermarkoptionitem) | مصفوفة عشوائية من مثيلات IPageWatermarkOptionItem. |
+| items | [IPageWatermarkOptionItem\[\]](../../com.aspose.xps.metadata/ipagewatermarkoptionitem) | مصفوفة عشوائية من مثيلات  IPageWatermarkOptionItem . |
 
 ### PageWatermarkOption(PageWatermark.PageWatermarkOption option) {#PageWatermarkOption-com.aspose.xps.metadata.PageWatermark.PageWatermarkOption-}
 ```
@@ -85,7 +85,7 @@ public void add(IOptionItem[] items)
 ```
 
 
-يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. يجب أن يكون كل عنصر إما  ScoredProperty  أو  Property  مثيل.
+يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. يجب أن يكون كل عنصر إما مثال ScoredProperty أو مثال Property.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -98,12 +98,12 @@ public PageWatermark.PageWatermarkOption add(PageWatermark.IPageWatermarkOptionI
 ```
 
 
-يضيف مصفوفة من مثيلات IPageWatermarkOptionItem إلى الخيار.
+يضيف مصفوفة من مثيلات  IPageWatermarkOptionItem  إلى الخيار.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| items | [IPageWatermarkOptionItem\[\]](../../com.aspose.xps.metadata/ipagewatermarkoptionitem) | مصفوفة عشوائية من مثيلات IPageWatermarkOptionItem. |
+| items | [IPageWatermarkOptionItem\[\]](../../com.aspose.xps.metadata/ipagewatermarkoptionitem) | مصفوفة عشوائية من مثيلات  IPageWatermarkOptionItem . |
 
 **Returns:**
 [PageWatermarkOption](../../com.aspose.xps.metadata/pagewatermarkoption) - This options instance.
@@ -113,7 +113,7 @@ public PageWatermark.PageWatermarkOption clone()
 ```
 
 
-ينسخ هذا الكائن الخيار. الاختصار إلى مُنشئ النسخ.
+ينسخ هذا الكائن الخيار. الاختصار إلى مُنشئ الاستنساخ.
 
 **Returns:**
 [PageWatermarkOption](../../com.aspose.xps.metadata/pagewatermarkoption) - The clone of this option instance.
@@ -131,7 +131,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

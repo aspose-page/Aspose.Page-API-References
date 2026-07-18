@@ -1,7 +1,7 @@
 ---
 title: "PageBlendColorSpaceICCProfileURI"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يحدد إشارة URI نسبية إلى ملف تعريف ICC يحدد مساحة اللون التي يجب استخدامها للمزج."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يحدد إشارة URI نسبية إلى ملف تعريف ICC يحدد مساحة اللون التي يجب استخدامها للدمج."
 type: docs
 weight: 87
 url: /ar/java/com.aspose.xps.metadata/pageblendcolorspaceiccprofileuri/
@@ -15,12 +15,12 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class PageBlendColorSpaceICCProfileURI extends StringParameterInit implements IJobPrintTicketItem, IDocumentPrintTicketItem, IPagePrintTicketItem
 ```
 
-يحدد مرجع URI نسبيًا لملف تعريف ICC يحدد مساحة اللون التي يجب استخدامها للمزج. الـ <Uri> هو اسم جزء\_name مطلق نسبيًا لجذر الحزمة. https://docs.microsoft.com/en-us/windows/win32/printdocs/pageblendcolorspaceiccprofileuri
-## المنشئات
+يحدد مرجع URI نسبيًا لملف تعريف ICC يحدد مساحة اللون التي يجب استخدامها للدمج. الـ <Uri> هو جزء\_name مطلق نسبيًا إلى جذر الحزمة. https://docs.microsoft.com/en-us/windows/win32/printdocs/pageblendcolorspaceiccprofileuri
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PageBlendColorSpaceICCProfileURI(String value)](#PageBlendColorSpaceICCProfileURI-java.lang.String-) | ينشئ نسخة جديدة. |
+| [PageBlendColorSpaceICCProfileURI(String value)](#PageBlendColorSpaceICCProfileURI-java.lang.String-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -43,7 +43,7 @@ public PageBlendColorSpaceICCProfileURI(String value)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -64,7 +64,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

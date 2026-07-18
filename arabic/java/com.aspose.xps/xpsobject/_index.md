@@ -1,7 +1,7 @@
 ---
 title: "XpsObject"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "الفئة التي تُجمل ميزات كائن نموذج XPS الشائعة."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "فئة تغلف ميزات كائن نموذج XPS الشائعة."
 type: docs
 weight: 37
 url: /ar/java/com.aspose.xps/xpsobject/
@@ -12,7 +12,7 @@ java.lang.Object
 public abstract class XpsObject
 ```
 
-الفئة التي تُجمل ميزات كائن نموذج XPS الشائعة.
+فئة تغلف ميزات كائن نموذج XPS الشائعة.
 ## الطرق
 
 | طريقة | الوصف |
@@ -40,7 +40,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

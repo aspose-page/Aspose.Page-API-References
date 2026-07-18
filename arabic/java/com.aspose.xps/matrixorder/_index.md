@@ -1,6 +1,6 @@
 ---
 title: "XpsMatrix.MatrixOrder"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "تعداد يحدد ترتيب عمليات المصفوفة."
 type: docs
 weight: 10
@@ -18,7 +18,7 @@ public enum XpsMatrix.MatrixOrder extends Enum<XpsMatrix.MatrixOrder>
 | حقل | الوصف |
 | --- | --- |
 | [Append](#Append) | ترتيب الإلحاق. |
-| [Prepend](#Prepend) | ترتيب الإلحاق المسبق. |
+| [Prepend](#Prepend) | ترتيب الإضافة في البداية. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -54,7 +54,7 @@ public static final XpsMatrix.MatrixOrder Prepend
 ```
 
 
-ترتيب الإلحاق المسبق.
+ترتيب الإضافة في البداية.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```
@@ -111,7 +111,7 @@ public final boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

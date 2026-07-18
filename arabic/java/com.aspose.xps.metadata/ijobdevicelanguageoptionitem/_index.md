@@ -1,6 +1,6 @@
 ---
 title: "JobDeviceLanguage.IJobDeviceLanguageOptionItem"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "واجهة أي عنصر JobDeviceLanguageOption."
 type: docs
 weight: 11
@@ -12,4 +12,4 @@ url: /ar/java/com.aspose.xps.metadata/jobdevicelanguage.ijobdevicelanguageoption
 public static interface JobDeviceLanguage.IJobDeviceLanguageOptionItem extends IOptionItem
 ```
 
-واجهة أي  JobDeviceLanguageOption  عنصر.
+واجهة أي عنصر  JobDeviceLanguageOption  .

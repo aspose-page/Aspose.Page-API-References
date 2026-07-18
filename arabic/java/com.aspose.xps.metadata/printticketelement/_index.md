@@ -1,7 +1,7 @@
 ---
 title: "PrintTicketElement"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "الفئة الأساسية للفئات التي قد تكون عناصر مخطط الطباعة."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "الفئة الأساسية للفئات التي قد تكون عناصر **Print Schema**."
 type: docs
 weight: 142
 url: /ar/java/com.aspose.xps.metadata/printticketelement/
@@ -15,12 +15,12 @@ java.lang.Object
 public abstract class PrintTicketElement implements IPrintTicketElementChild
 ```
 
-الفئة الأساسية للفئات التي قد تكون عناصر مخطط الطباعة.
-## المنشئات
+الفئة الأساسية للفئات التي قد تكون عناصر **Print Schema**.
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PrintTicketElement(String name)](#PrintTicketElement-java.lang.String-) | ينشئ نسخة جديدة. |
+| [PrintTicketElement(String name)](#PrintTicketElement-java.lang.String-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -41,12 +41,12 @@ public PrintTicketElement(String name)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الاسم | java.lang.String | اسم العنصر وفقًا لبعض مخططات XML (Microsoft Print Schema Framework أو غيره). |
+| الاسم | java.lang.String | اسم العنصر وفقًا لبعض مخططات XML (إطار مخطط طباعة مايكروسوفت أو غيره). |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -62,7 +62,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

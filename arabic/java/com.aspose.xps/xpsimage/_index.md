@@ -1,18 +1,18 @@
 ---
 title: "XpsImage"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "فئة تُغلف مورد صورة."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "فئة تجسد مورد صورة."
 type: docs
 weight: 32
 url: /ar/java/com.aspose.xps/xpsimage/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.xps.XpsFileResource](../../com.aspose.xps/xpsfileresource)
+java.lang.Object, [com.aspose.xps.XpsFileResource](../../com.aspose.xps/xpsfileresource)
 ```
 public final class XpsImage extends XpsFileResource
 ```
 
-فئة تُغلف مورد صورة.
+فئة تجسد مورد صورة.
 ## الطرق
 
 | طريقة | الوصف |
@@ -40,7 +40,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

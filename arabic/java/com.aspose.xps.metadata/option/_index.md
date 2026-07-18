@@ -1,7 +1,7 @@
 ---
 title: "Option"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "الفئة التي تنفّذ خيار PrintTicket الشائع."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "الفئة التي تُنفّذ خيار PrintTicket الشائع."
 type: docs
 weight: 76
 url: /ar/java/com.aspose.xps.metadata/option/
@@ -15,10 +15,10 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public class Option extends CompositePrintTicketElement implements IFeatureItem
 ```
 
-الفئة التي تنفّذ خيار PrintTicket الشائع. الفئة الأساسية لجميع الخيارات المعرفة في المخطط. يحتوي عنصر Option على جميع عناصر Property و ScoredProperty المرتبطة بهذا الخيار. https://docs.microsoft.com/en-us/windows/win32/printdocs/option
-## المنشئات
+الفئة التي تُنفّذ خيار PrintTicket الشائع. الفئة الأساسية لجميع الخيارات المعرفة بالمخطط. يحتوي عنصر Option على جميع عناصر Property و ScoredProperty المرتبطة بهذا الخيار. https://docs.microsoft.com/en-us/windows/win32/printdocs/option
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [Option(String name, IOptionItem[] items)](#Option-java.lang.String-com.aspose.xps.metadata.IOptionItem...-) | ينشئ مثيلًا جديدًا لخيار PrintTicket. |
 | [Option(IOptionItem[] items)](#Option-com.aspose.xps.metadata.IOptionItem...-) | ينشئ مثيلًا جديدًا لخيار PrintTicket. |
@@ -27,7 +27,7 @@ public class Option extends CompositePrintTicketElement implements IFeatureItem
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. |
+| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -84,7 +84,7 @@ public void add(IOptionItem[] items)
 ```
 
 
-يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. يجب أن يكون كل عنصر إما  ScoredProperty  أو  Property  مثيل.
+يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. يجب أن يكون كل عنصر إما مثال ScoredProperty أو مثال Property.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -105,7 +105,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

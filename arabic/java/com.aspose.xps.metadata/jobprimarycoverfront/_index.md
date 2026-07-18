@@ -1,6 +1,6 @@
 ---
 title: "JobPrimaryCoverFront"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف ورقة الغلاف الأمامية الابتدائية."
 type: docs
 weight: 68
@@ -15,12 +15,12 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class JobPrimaryCoverFront extends Feature implements IJobPrintTicketItem
 ```
 
-يصف ورقة الغلاف الأمامية (الابتدائية). سيحتوي كل مهمة على ورقة أولية واحدة. يجب طباعة ورقة الغلاف على  PageMediaSize  و  PageMediaType  المستخدمين للصفحة الأولى للمهمة. يجب دمج ورقة الغلاف في خيارات المعالجة (مثل  JobDuplexAllDocumentsContiguously ,  JobNUpAllDocumentsContiguously ) كما هو محدد في الـ Option. https://docs.microsoft.com/en-us/windows/win32/printdocs/jobprimarycoverfront
+يصف ورقة الغلاف الأمامية (الابتدائية). ستحتوي المهمة بأكملها على ورقة أساسية واحدة. يجب طباعة ورقة الغلاف على PageMediaSize و PageMediaType المستخدمة للصفحة الأولى للمهمة. يجب دمج ورقة الغلاف في خيارات المعالجة (مثل JobDuplexAllDocumentsContiguously، JobNUpAllDocumentsContiguously) كما هو محدد في Option. https://docs.microsoft.com/en-us/windows/win32/printdocs/jobprimarycoverfront
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -58,7 +58,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

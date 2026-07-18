@@ -1,7 +1,7 @@
 ---
 title: "ISaveInstruction"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "واجهة تعليمات الحفظ العامة التي تُعرّف الأعضاء المشتركة التي يجب أن يُطبقها خيار الملحق الفعلي."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "واجهة تعليمات الحفظ العامة التي تحدد الأعضاء المشتركة التي يجب أن ينفذها خيار الملحق الفعلي."
 type: docs
 weight: 25
 url: /ar/java/com.aspose.page.plugins/isaveinstruction/

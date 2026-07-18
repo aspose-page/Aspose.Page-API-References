@@ -1,6 +1,6 @@
 ---
 title: "PageMediaType.Recycled"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يحدد الثوابت لقيمة الخاصية المتدرجة Recycled."
 type: docs
 weight: 16
@@ -15,12 +15,12 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class PageMediaType.Recycled extends ScoredProperty implements PageMediaType.IPageMediaTypeOptionItem
 ```
 
-يعرّف الثوابت لقيمة الخاصية المقيمة Recycled.
+يعرف الثوابت لقيمة الخاصية المقيمة  Recycled .
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
-| [None](#None) | قيمة لا شيء. |
+| [None](#None) | قيمة None. |
 | [Standard](#Standard) | قيمة قياسية. |
 ## الطرق
 
@@ -42,7 +42,7 @@ public static PageMediaType.Recycled None
 ```
 
 
-قيمة لا شيء.
+قيمة None.
 
 ### Standard {#Standard}
 ```
@@ -66,7 +66,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

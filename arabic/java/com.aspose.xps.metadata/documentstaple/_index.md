@@ -1,7 +1,7 @@
 ---
 title: "DocumentStaple"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يصف خصائص التدبيس للإخراج."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يصف خصائص التثبيت للمخرجات."
 type: docs
 weight: 35
 url: /ar/java/com.aspose.xps.metadata/documentstaple/
@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class DocumentStaple extends Staple implements IJobPrintTicketItem, IDocumentPrintTicketItem
 ```
 
-يصف خصائص التدبيس في المخرجات. يتم تدبيس كل مستند بشكل منفصل. الكلمات المفتاحية JobStapleAllDocuments و DocumentStaple متعارضة ولا يمكن استخدامها معًا. يعود للبرنامج التعريف كيفية التعامل مع القيود بين هذه الكلمات المفتاحية. https://docs.microsoft.com/en-us/windows/win32/printdocs/documentstaple
-## المنشئات
+يصف خصائص التدبيس للمخرجات. يتم تدبيس كل مستند بشكل منفصل. الكلمتان المفتاحيتان JobStapleAllDocuments و DocumentStaple متنافيتان. يعود الأمر إلى برنامج التشغيل لتحديد كيفية معالجة القيود بين هاتين الكلمتين. https://docs.microsoft.com/en-us/windows/win32/printdocs/documentstaple
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [DocumentStaple(Staple.StapleOption[] options)](#DocumentStaple-com.aspose.xps.metadata.Staple.StapleOption...-) | ينشئ نسخة جديدة. |
+| [DocumentStaple(Staple.StapleOption[] options)](#DocumentStaple-com.aspose.xps.metadata.Staple.StapleOption...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public DocumentStaple(Staple.StapleOption[] options)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

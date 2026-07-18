@@ -1,7 +1,7 @@
 ---
 title: "JobPrimaryBannerSheetSource"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يحدد المصدر لورقة الشعار المخصصة الأولية للوظيفة."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يحدد المصدر لورقة الشعار المخصصة الأساسية للوظيفة."
 type: docs
 weight: 65
 url: /ar/java/com.aspose.xps.metadata/jobprimarybannersheetsource/
@@ -16,11 +16,11 @@ public final class JobPrimaryBannerSheetSource extends StringParameterInit imple
 ```
 
 يحدد المصدر لورقة بانر مخصصة أساسية للوظيفة. https://docs.microsoft.com/en-us/windows/win32/printdocs/jobprimarybannersheetsource
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [JobPrimaryBannerSheetSource(String value)](#JobPrimaryBannerSheetSource-java.lang.String-) | ينشئ نسخة جديدة. |
+| [JobPrimaryBannerSheetSource(String value)](#JobPrimaryBannerSheetSource-java.lang.String-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -43,7 +43,7 @@ public JobPrimaryBannerSheetSource(String value)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -64,7 +64,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

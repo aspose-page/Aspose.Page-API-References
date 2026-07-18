@@ -1,6 +1,6 @@
 ---
 title: "PagePhotoPrintingIntent"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يشير إلى نية عالية المستوى إلى برنامج التشغيل لتعبئة إعدادات طباعة الصور."
 type: docs
 weight: 117
@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class PagePhotoPrintingIntent extends Feature implements IJobPrintTicketItem, IDocumentPrintTicketItem, IPagePrintTicketItem
 ```
 
-يشير إلى نية عالية المستوى إلى برنامج التشغيل لملء إعدادات طباعة الصور. تتعامل هذه الإعدادات مع جودة الإخراج المتوقعة التي قد يحددها المستخدم عند طباعة الصور. https://docs.microsoft.com/en-us/windows/win32/printdocs/pagephotoprintingintent
-## المنشئات
+يشير إلى نية عالية المستوى إلى برنامج التشغيل لتعبئة إعدادات طباعة الصور. تتعامل هذه الإعدادات مع جودة الإخراج المتوقعة التي قد يحددها المستخدم عند طباعة الصور. https://docs.microsoft.com/en-us/windows/win32/printdocs/pagephotoprintingintent
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PagePhotoPrintingIntent(PagePhotoPrintingIntent.PagePhotoPrintingIntentOption[] options)](#PagePhotoPrintingIntent-com.aspose.xps.metadata.PagePhotoPrintingIntent.PagePhotoPrintingIntentOption...-) | ينشئ نسخة جديدة. |
+| [PagePhotoPrintingIntent(PagePhotoPrintingIntent.PagePhotoPrintingIntentOption[] options)](#PagePhotoPrintingIntent-com.aspose.xps.metadata.PagePhotoPrintingIntent.PagePhotoPrintingIntentOption...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public PagePhotoPrintingIntent(PagePhotoPrintingIntent.PagePhotoPrintingIntentOp
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

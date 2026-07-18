@@ -1,13 +1,13 @@
 ---
 title: "XpsVisual"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "الفئة التي تُجمل ميزات عنصر Visual."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "فئة تغلف ميزات عنصر Visual."
 type: docs
 weight: 53
 url: /ar/java/com.aspose.xps/xpsvisual/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject)
+java.lang.Object, [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject)
 ```
 public final class XpsVisual extends XpsObject
 ```
@@ -40,7 +40,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

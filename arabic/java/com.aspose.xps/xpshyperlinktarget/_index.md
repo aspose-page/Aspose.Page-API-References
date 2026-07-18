@@ -1,7 +1,7 @@
 ---
 title: "XpsHyperlinkTarget"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "الفئة الأساسية لهدف الارتباط التشعبي."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "الفئة الأساسية لهدف ارتباط تشعبي."
 type: docs
 weight: 29
 url: /ar/java/com.aspose.xps/xpshyperlinktarget/
@@ -12,10 +12,10 @@ java.lang.Object
 public abstract class XpsHyperlinkTarget
 ```
 
-الفئة الأساسية لهدف الارتباط التشعبي.
-## المنشئات
+الفئة الأساسية لهدف ارتباط تشعبي.
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [XpsHyperlinkTarget()](#XpsHyperlinkTarget--) |  |
 ## الطرق
@@ -51,7 +51,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

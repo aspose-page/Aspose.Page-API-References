@@ -1,6 +1,6 @@
 ---
 title: "XpsLineJoin"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "القيم الصالحة لخاصية StrokeLineJoin لعناصر Path."
 type: docs
 weight: 62
@@ -17,9 +17,9 @@ public enum XpsLineJoin extends Enum<XpsLineJoin>
 
 | حقل | الوصف |
 | --- | --- |
-| [Bevel](#Bevel) | تقاطع الخط المائل. |
-| [Miter](#Miter) | تقاطع الخط المِتر. |
-| [Round](#Round) | تقاطع الخط الدائري. |
+| [Bevel](#Bevel) | الانضمام المائل. |
+| [Miter](#Miter) | الانضمام المِقْطَع. |
+| [Round](#Round) | الانضمام الدائري. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -47,7 +47,7 @@ public static final XpsLineJoin Bevel
 ```
 
 
-تقاطع الخط المائل.
+الانضمام المائل.
 
 ### Miter {#Miter}
 ```
@@ -55,7 +55,7 @@ public static final XpsLineJoin Miter
 ```
 
 
-تقاطع الخط المِتر.
+الانضمام المِقْطَع.
 
 ### Round {#Round}
 ```
@@ -63,7 +63,7 @@ public static final XpsLineJoin Round
 ```
 
 
-تقاطع الخط الدائري.
+الانضمام الدائري.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```
@@ -120,7 +120,7 @@ public final boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

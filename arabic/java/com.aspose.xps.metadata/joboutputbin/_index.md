@@ -1,6 +1,6 @@
 ---
 title: "JobOutputBin"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف صينية الإخراج المثبتة في الجهاز أو القائمة الكاملة للصناديق المدعومة للجهاز."
 type: docs
 weight: 61
@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class JobOutputBin extends OutputBin implements IJobPrintTicketItem
 ```
 
-يصف صينية الإخراج المثبتة في الجهاز أو القائمة الكاملة للصناديق المدعومة للجهاز. الكلمات المفتاحية JobOutputBin ,  DocumentOutputBin  and  PageOutputBin متعارضة؛ يجب تحديد واحدة فقط في مستند PrintTicket أو مستند إمكانيات الطباعة. https://docs.microsoft.com/en-us/windows/win32/printdocs/joboutputbin
-## المنشئات
+يصف صينية الإخراج المثبتة في الجهاز أو القائمة الكاملة للصناديق المدعومة للجهاز. الكلمات المفتاحية JobOutputBin و DocumentOutputBin و PageOutputBin متعارضة؛ يجب تحديد واحدة فقط في مستند PrintTicket أو مستند قدرات الطباعة. https://docs.microsoft.com/en-us/windows/win32/printdocs/joboutputbin
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [JobOutputBin(OutputBin.IOutputBinItem[] items)](#JobOutputBin-com.aspose.xps.metadata.OutputBin.IOutputBinItem...-) | ينشئ نسخة جديدة. |
+| [JobOutputBin(OutputBin.IOutputBinItem[] items)](#JobOutputBin-com.aspose.xps.metadata.OutputBin.IOutputBinItem...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public JobOutputBin(OutputBin.IOutputBinItem[] items)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

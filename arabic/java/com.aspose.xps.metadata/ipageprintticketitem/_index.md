@@ -1,6 +1,6 @@
 ---
 title: "IPagePrintTicketItem"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "واجهة عناصر تذكرة الطباعة ذات البادئة page."
 type: docs
 weight: 157

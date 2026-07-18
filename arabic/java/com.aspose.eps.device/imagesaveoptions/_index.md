@@ -1,6 +1,6 @@
 ---
 title: "ImageSaveOptions"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "تحتوي هذه الفئة على الخيارات اللازمة لإدارة عملية التحويل."
 type: docs
 weight: 10
@@ -13,47 +13,47 @@ public class ImageSaveOptions extends SaveOptions
 ```
 
 تحتوي هذه الفئة على الخيارات اللازمة لإدارة عملية التحويل.
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [ImageSaveOptions()](#ImageSaveOptions--) | إنشاء نسخة جديدة من فئة  ImageSaveOptions  مع القيم الافتراضية للعلامات  suppressErrors  (true) و  debug  (false). |
-| [ImageSaveOptions(ImageFormat imageFormat)](#ImageSaveOptions-com.aspose.page.ImageFormat-) | يُنشئ نسخة جديدة من  ImageSaveOptions  بالتنسيق المحدد للصورة. |
-| [ImageSaveOptions(Dimension size)](#ImageSaveOptions-java.awt.Dimension-) | يُنشئ نسخة جديدة من  ImageSaveOptions  بالحجم المحدد للصورة. |
-| [ImageSaveOptions(Dimension size, ImageFormat imageFormat)](#ImageSaveOptions-java.awt.Dimension-com.aspose.page.ImageFormat-) | يُنشئ نسخة جديدة من  ImageSaveOptions  بالحجم المحدد للصورة وتنسيق الصورة. |
-| [ImageSaveOptions(ImageFormat imageFormat, boolean supressErrors)](#ImageSaveOptions-com.aspose.page.ImageFormat-boolean-) | يُنشئ نسخة جديدة من  ImageSaveOptions  بالتنسيق المحدد للصورة وعلامة suppressErrors. |
-| [ImageSaveOptions(Dimension size, boolean supressErrors)](#ImageSaveOptions-java.awt.Dimension-boolean-) | يُنشئ نسخة جديدة من  ImageSaveOptions  بالحجم المحدد للصورة وعلامة suppressErrors. |
-| [ImageSaveOptions(Dimension size, ImageFormat imageFormat, boolean supressErrors)](#ImageSaveOptions-java.awt.Dimension-com.aspose.page.ImageFormat-boolean-) | يُنشئ نسخة جديدة من  ImageSaveOptions  بالحجم المحدد للصورة، وتنسيق الصورة، وعلامة suppressErrors. |
-| [ImageSaveOptions(boolean supressErrors)](#ImageSaveOptions-boolean-) | إنشاء نسخة جديدة من فئة  ImageSaveOptions  مع القيم الافتراضية للعلامة  debug  (false). |
+| [ImageSaveOptions()](#ImageSaveOptions--) | إنشاء نسخة جديدة من الفئة ImageSaveOptions بالقيم الافتراضية للعلامات suppressErrors (true) و debug (false). |
+| [ImageSaveOptions(ImageFormat imageFormat)](#ImageSaveOptions-com.aspose.page.ImageFormat-) | ينشئ نسخة جديدة من ImageSaveOptions بالتنسيق المحدد للصورة. |
+| [ImageSaveOptions(Dimension size)](#ImageSaveOptions-java.awt.Dimension-) | ينشئ نسخة جديدة من ImageSaveOptions بالحجم المحدد للصورة. |
+| [ImageSaveOptions(Dimension size, ImageFormat imageFormat)](#ImageSaveOptions-java.awt.Dimension-com.aspose.page.ImageFormat-) | ينشئ نسخة جديدة من ImageSaveOptions بالحجم المحدد للصورة وتنسيق الصورة. |
+| [ImageSaveOptions(ImageFormat imageFormat, boolean supressErrors)](#ImageSaveOptions-com.aspose.page.ImageFormat-boolean-) | ينشئ نسخة جديدة من ImageSaveOptions بالتنسيق المحدد للصورة وعلامة suppressErrors. |
+| [ImageSaveOptions(Dimension size, boolean supressErrors)](#ImageSaveOptions-java.awt.Dimension-boolean-) | ينشئ نسخة جديدة من ImageSaveOptions بالحجم المحدد للصورة وعلامة suppressErrors. |
+| [ImageSaveOptions(Dimension size, ImageFormat imageFormat, boolean supressErrors)](#ImageSaveOptions-java.awt.Dimension-com.aspose.page.ImageFormat-boolean-) | ينشئ نسخة جديدة من ImageSaveOptions بالحجم المحدد للصورة، وتنسيق الصورة، وعلامة suppressErrors. |
+| [ImageSaveOptions(boolean supressErrors)](#ImageSaveOptions-boolean-) | إنشاء نسخة جديدة من الفئة ImageSaveOptions بالقيم الافتراضية للعلامة debug (false). |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAdditionalFontsFolders()](#getAdditionalFontsFolders--) | يعيد مجلدات الخطوط الإضافية التي يجب على المحول العثور على الخطوط فيها للمستند المدخل. |
+| [getAdditionalFontsFolders()](#getAdditionalFontsFolders--) | إرجاع مجلدات خطوط إضافية حيث يجب على المحول العثور على الخطوط للمستند المدخل. |
 | [getClass()](#getClass--) |  |
-| [getConvertFontsToTTF()](#getConvertFontsToTTF--) | يحصل على العلامة التي تُظهر ما إذا كان من الضروري حفظ الخطوط غير TrueType إلى TTF. |
-| [getExceptions()](#getExceptions--) | يعيد قائمة بالأخطاء غير الحرجة. |
-| [getImageFormat()](#getImageFormat--) | يحصل على تنسيق الصورة الناتجة. |
+| [getConvertFontsToTTF()](#getConvertFontsToTTF--) | الحصول على العلامة التي تُظهر ما إذا كان من الضروري حفظ الخطوط غير TrueType إلى TTF. |
+| [getExceptions()](#getExceptions--) | إرجاع قائمة بالأخطاء غير الحرجة. |
+| [getImageFormat()](#getImageFormat--) | يحصل على تنسيق الصورة للنتيجة. |
 | [getJpegQualityLevel()](#getJpegQualityLevel--) | يعيد القيمة التي تحدد مستوى الضغط لصورة. |
 | [getResolution()](#getResolution--) | يعيد دقة الصورة الناتجة. |
-| [getSize()](#getSize--) | يحصل على حجم الصفحة أو الصورة. |
+| [getSize()](#getSize--) | الحصول على حجم الصفحة أو الصورة. |
 | [getSmoothingMode()](#getSmoothingMode--) | يحصل على وضع التنعيم. |
 | [getTryJoinImageFragments()](#getTryJoinImageFragments--) | يشير إلى ما إذا كانت المكتبة ستحاول دمج أجزاء الصورة. |
 | [hashCode()](#hashCode--) |  |
-| [isDebug()](#isDebug--) | يحصل على العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل. |
-| [isSupressErrors()](#isSupressErrors--) | يعيد قيمة تشير إلى ما إذا كانت الأخطاء ستُقمع أثناء التحويل. |
+| [isDebug()](#isDebug--) | الحصول على العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل. |
+| [isSupressErrors()](#isSupressErrors--) | إرجاع قيمة تشير إلى ما إذا كانت الأخطاء ستُقمع أثناء التحويل. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAdditionalFontsFolders(String[] fontsFolders)](#setAdditionalFontsFolders-java.lang.String---) | يحدد مجلدات الخطوط الإضافية التي يجب على المحول العثور على الخطوط فيها للمستند المدخل. |
-| [setConvertFontsToTTF(boolean value)](#setConvertFontsToTTF-boolean-) | يحدد ما إذا كان سيتم حفظ الخطوط غير TrueType إلى TTF. |
-| [setDebug(boolean debug)](#setDebug-boolean-) | يحدد العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل. |
-| [setImageFormat(ImageFormat imageFormat)](#setImageFormat-com.aspose.page.ImageFormat-) | يحدد تنسيق الصورة الناتجة. |
+| [setAdditionalFontsFolders(String[] fontsFolders)](#setAdditionalFontsFolders-java.lang.String---) | تحديد مجلدات خطوط إضافية حيث يجب على المحول العثور على الخطوط للمستند المدخل. |
+| [setConvertFontsToTTF(boolean value)](#setConvertFontsToTTF-boolean-) | تحديد ما إذا كان يجب حفظ الخطوط غير TrueType إلى TTF. |
+| [setDebug(boolean debug)](#setDebug-boolean-) | تحديد العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل. |
+| [setImageFormat(ImageFormat imageFormat)](#setImageFormat-com.aspose.page.ImageFormat-) | يحدد تنسيق الصورة للنتيجة. |
 | [setJpegQualityLevel(int value)](#setJpegQualityLevel-int-) | يضبط القيمة التي تحدد مستوى الضغط للصورة. |
 | [setResolution(float resolution)](#setResolution-float-) | يحدد دقة الصورة الناتجة. |
-| [setSize(Dimension size)](#setSize-java.awt.Dimension-) | يحدد حجم الصفحة أو الصورة. |
+| [setSize(Dimension size)](#setSize-java.awt.Dimension-) | تحديد حجم الصفحة أو الصورة. |
 | [setSmoothingMode(SmoothingMode smoothingMode)](#setSmoothingMode-com.aspose.eps.device.SmoothingMode-) | يضبط وضع التنعيم. |
-| [setSupressErrors(boolean supressErrors)](#setSupressErrors-boolean-) | يحدد العلم الذي يشير إلى ما إذا كان سيتم قمع الأخطاء أثناء التحويل. |
+| [setSupressErrors(boolean supressErrors)](#setSupressErrors-boolean-) | يحدد العلامة التي تشير إلى ما إذا كان سيتم قمع الأخطاء أثناء التحويل. |
 | [setTryJoinImageFragments(boolean tryJoinImageFragments)](#setTryJoinImageFragments-boolean-) | يحدد ما إذا كان يجب على المكتبة محاولة ربط شظايا الصورة. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -65,7 +65,7 @@ public ImageSaveOptions()
 ```
 
 
-إنشاء نسخة جديدة من فئة  ImageSaveOptions  مع القيم الافتراضية للعلامات  suppressErrors  (true) و  debug  (false).
+إنشاء نسخة جديدة من الفئة ImageSaveOptions بالقيم الافتراضية للعلامات suppressErrors (true) و debug (false).
 
 ### ImageSaveOptions(ImageFormat imageFormat) {#ImageSaveOptions-com.aspose.page.ImageFormat-}
 ```
@@ -73,7 +73,7 @@ public ImageSaveOptions(ImageFormat imageFormat)
 ```
 
 
-يُنشئ نسخة جديدة من  ImageSaveOptions  بالتنسيق المحدد للصورة.
+ينشئ نسخة جديدة من ImageSaveOptions بالتنسيق المحدد للصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -86,7 +86,7 @@ public ImageSaveOptions(Dimension size)
 ```
 
 
-يُنشئ نسخة جديدة من  ImageSaveOptions  بالحجم المحدد للصورة.
+ينشئ نسخة جديدة من ImageSaveOptions بالحجم المحدد للصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -99,7 +99,7 @@ public ImageSaveOptions(Dimension size, ImageFormat imageFormat)
 ```
 
 
-يُنشئ نسخة جديدة من  ImageSaveOptions  بالحجم المحدد للصورة وتنسيق الصورة.
+ينشئ نسخة جديدة من ImageSaveOptions بالحجم المحدد للصورة وتنسيق الصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -113,13 +113,13 @@ public ImageSaveOptions(ImageFormat imageFormat, boolean supressErrors)
 ```
 
 
-يُنشئ نسخة جديدة من  ImageSaveOptions  بالتنسيق المحدد للصورة وعلامة suppressErrors.
+ينشئ نسخة جديدة من ImageSaveOptions بالتنسيق المحدد للصورة وعلامة suppressErrors.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | imageFormat | [ImageFormat](../../com.aspose.page/imageformat) | تنسيق الصورة. |
-| supressErrors | boolean | إذا كان صحيحًا، سيستمر التحويل على الرغم من الأخطاء غير الحرجة. |
+| supressErrors | منطقي | إذا كان صحيحًا، سيستمر التحويل على الرغم من الأخطاء غير الحرجة. |
 
 ### ImageSaveOptions(Dimension size, boolean supressErrors) {#ImageSaveOptions-java.awt.Dimension-boolean-}
 ```
@@ -127,13 +127,13 @@ public ImageSaveOptions(Dimension size, boolean supressErrors)
 ```
 
 
-يُنشئ نسخة جديدة من  ImageSaveOptions  بالحجم المحدد للصورة وعلامة suppressErrors.
+ينشئ نسخة جديدة من ImageSaveOptions بالحجم المحدد للصورة وعلامة suppressErrors.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | الحجم | java.awt.Dimension | حجم الصورة. |
-| supressErrors | boolean | إذا كان صحيحًا، سيستمر التحويل على الرغم من الأخطاء غير الحرجة. |
+| supressErrors | منطقي | إذا كان صحيحًا، سيستمر التحويل على الرغم من الأخطاء غير الحرجة. |
 
 ### ImageSaveOptions(Dimension size, ImageFormat imageFormat, boolean supressErrors) {#ImageSaveOptions-java.awt.Dimension-com.aspose.page.ImageFormat-boolean-}
 ```
@@ -141,14 +141,14 @@ public ImageSaveOptions(Dimension size, ImageFormat imageFormat, boolean supress
 ```
 
 
-يُنشئ نسخة جديدة من  ImageSaveOptions  بالحجم المحدد للصورة، وتنسيق الصورة، وعلامة suppressErrors.
+ينشئ نسخة جديدة من ImageSaveOptions بالحجم المحدد للصورة، وتنسيق الصورة، وعلامة suppressErrors.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | الحجم | java.awt.Dimension | حجم الصورة. |
 | imageFormat | [ImageFormat](../../com.aspose.page/imageformat) | تنسيق الصورة. |
-| supressErrors | boolean | إذا كان صحيحًا، سيستمر التحويل على الرغم من الأخطاء غير الحرجة. |
+| supressErrors | منطقي | إذا كان صحيحًا، سيستمر التحويل على الرغم من الأخطاء غير الحرجة. |
 
 ### ImageSaveOptions(boolean supressErrors) {#ImageSaveOptions-boolean-}
 ```
@@ -156,12 +156,12 @@ public ImageSaveOptions(boolean supressErrors)
 ```
 
 
-إنشاء نسخة جديدة من فئة  ImageSaveOptions  مع القيم الافتراضية للعلامة  debug  (false).
+إنشاء نسخة جديدة من الفئة ImageSaveOptions بالقيم الافتراضية للعلامة debug (false).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| supressErrors | boolean | إذا كان صحيحًا، سيستمر التحويل على الرغم من الأخطاء غير الحرجة. |
+| supressErrors | منطقي | إذا كان صحيحًا، سيستمر التحويل على الرغم من الأخطاء غير الحرجة. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -177,14 +177,14 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getAdditionalFontsFolders() {#getAdditionalFontsFolders--}
 ```
 public String[] getAdditionalFontsFolders()
 ```
 
 
-يرجع مجلدات الخطوط الإضافية التي يجب على المحول العثور على الخطوط فيها للمستند المدخل. المجلد الافتراضي هو مجلد الخطوط القياسي حيث يجد نظام التشغيل الخطوط للاستخدامات الداخلية.
+يعيد مجلدات الخطوط الإضافية التي يجب على المحول العثور على الخطوط فيها للمستند المدخل. المجلد الافتراضي هو مجلد الخطوط القياسي حيث يجد نظام التشغيل الخطوط للاستخدامات الداخلية.
 
 **Returns:**
 java.lang.String[] - مصفوفة من مجلدات الخطوط.
@@ -204,17 +204,17 @@ public boolean getConvertFontsToTTF()
 ```
 
 
-يحصل على العلامة التي تُظهر ما إذا كان من الضروري حفظ الخطوط غير TrueType إلى TTF.
+الحصول على العلامة التي تُظهر ما إذا كان من الضروري حفظ الخطوط غير TrueType إلى TTF.
 
 **Returns:**
-boolean - قيمة العلم.
+boolean - قيمة العلامة.
 ### getExceptions() {#getExceptions--}
 ```
 public List<Exception> getExceptions()
 ```
 
 
-يعيد قائمة بالأخطاء غير الحرجة.
+إرجاع قائمة بالأخطاء غير الحرجة.
 
 **Returns:**
 java.util.List<java.lang.Exception> - قائمة الاستثناءات
@@ -224,7 +224,7 @@ public ImageFormat getImageFormat()
 ```
 
 
-يحصل على تنسيق الصورة الناتجة.
+يحصل على تنسيق الصورة للنتيجة.
 
 **Returns:**
 [ImageFormat](../../com.aspose.page/imageformat) - An output image format.
@@ -234,7 +234,7 @@ public int getJpegQualityLevel()
 ```
 
 
-يعيد القيمة التي تحدد مستوى الضغط للصورة. القيم المتاحة من 0 إلى 100. كلما كان الرقم المحدد أقل، زاد الضغط وبالتالي انخفضت جودة الصورة. القيمة 0 تؤدي إلى أدنى جودة للصورة، بينما القيمة 100 تؤدي إلى أعلى جودة.
+يعيد القيمة التي تحدد مستوى الضغط للصورة. القيم المتاحة هي من 0 إلى 100. كلما كان الرقم المحدد أقل، زاد الضغط وبالتالي تكون جودة الصورة أقل. القيمة 0 تنتج صورة بأدنى جودة، بينما القيمة 100 تنتج أعلى جودة.
 
 **Returns:**
 int - القيمة التي تحدد مستوى الضغط للصورة.
@@ -254,7 +254,7 @@ public Dimension getSize()
 ```
 
 
-يحصل على حجم الصفحة أو الصورة.
+الحصول على حجم الصفحة أو الصورة.
 
 **Returns:**
 java.awt.Dimension - حجم الصفحة أو الصورة.
@@ -274,7 +274,7 @@ public boolean getTryJoinImageFragments()
 ```
 
 
-يشير إلى ما إذا كانت المكتبة ستحاول ربط شظايا الصورة. يُستخدم ذلك عندما يتم تقطيع الصورة في ملف PS/EPS المصدر إلى شظايا. في هذه الحالة، بدون هذه العلامة تُترك فجوات رقيقة بين الشظايا.
+يشير إلى ما إذا كانت المكتبة ستحاول ربط شظايا الصورة. يُستخدم ذلك عندما تكون الصورة في ملف PS/EPS المصدر مقطعة إلى شظايا. في هذه الحالة، بدون هذه العلامة، تُترك فجوات رقيقة بين الشظايا.
 
 **Returns:**
 boolean - قيمة العلامة.
@@ -294,7 +294,7 @@ public boolean isDebug()
 ```
 
 
-يحصل على العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل.
+الحصول على العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل.
 
 **Returns:**
 boolean - قيمة التصحيح.
@@ -304,7 +304,7 @@ public boolean isSupressErrors()
 ```
 
 
-يعيد قيمة تشير إلى ما إذا كانت الأخطاء ستُقمع أثناء التحويل.
+إرجاع قيمة تشير إلى ما إذا كانت الأخطاء ستُقمع أثناء التحويل.
 
 **Returns:**
 منطقي - قيمة منطقية
@@ -343,12 +343,12 @@ public void setConvertFontsToTTF(boolean value)
 ```
 
 
-يحدد ما إذا كان سيتم حفظ الخطوط غير TrueType كـ TTF. هذا يقلل بشكل كبير من حجم المستند الناتج في تحويل PS إلى PDF ويزيد من سرعة تحويل ملفات PS التي تحتوي على كمية كبيرة من النص بخطوط غير TrueType إلى أي تنسيق إخراج. ومع ذلك، هناك إزاحة رأسية صغيرة للنص عند تحويل ملف PostScript إلى صورة.
+يحدد ما إذا كان سيتم حفظ الخطوط غير TrueType إلى TTF. يقلل ذلك بشكل كبير من حجم المستند الناتج في تحويل PS إلى PDF ويزيد من سرعة تحويل ملفات PS التي تحتوي على كمية كبيرة من النص بخطوط غير TrueType إلى أي تنسيق إخراج. ومع ذلك، هناك إزاحة رأسية صغيرة للنص عند تحويل ملف PostSctipt إلى صورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة العلم. |
+| القيمة | منطقي | قيمة العلامة. |
 
 ### setDebug(boolean debug) {#setDebug-boolean-}
 ```
@@ -356,12 +356,12 @@ public void setDebug(boolean debug)
 ```
 
 
-يحدد العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل.
+تحديد العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| debug | boolean | قيمة منطقية. |
+| debug | منطقي | قيمة منطقية. |
 
 ### setImageFormat(ImageFormat imageFormat) {#setImageFormat-com.aspose.page.ImageFormat-}
 ```
@@ -369,7 +369,7 @@ public void setImageFormat(ImageFormat imageFormat)
 ```
 
 
-يحدد تنسيق الصورة الناتجة.
+يحدد تنسيق الصورة للنتيجة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -382,7 +382,7 @@ public void setJpegQualityLevel(int value)
 ```
 
 
-يضبط القيمة التي تحدد مستوى الضغط للصورة. القيم المتاحة من 0 إلى 100. كلما كان الرقم المحدد أقل، زاد الضغط وبالتالي انخفضت جودة الصورة. القيمة 0 تؤدي إلى أدنى جودة للصورة، بينما القيمة 100 تؤدي إلى أعلى جودة.
+يضبط القيمة التي تحدد مستوى الضغط للصورة. القيم المتاحة هي من 0 إلى 100. كلما كان الرقم المحدد أقل، زاد الضغط وبالتالي تكون جودة الصورة أقل. القيمة 0 تنتج صورة بأدنى جودة، بينما القيمة 100 تنتج أعلى جودة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -408,7 +408,7 @@ public void setSize(Dimension size)
 ```
 
 
-يحدد حجم الصفحة أو الصورة.
+تحديد حجم الصفحة أو الصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -426,7 +426,7 @@ public void setSmoothingMode(SmoothingMode smoothingMode)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| smoothingMode | [SmoothingMode](../../com.aspose.eps.device/smoothingmode) | وضع smoothingMode لتعيينه |
+| smoothingMode | [SmoothingMode](../../com.aspose.eps.device/smoothingmode) | وضع التنعيم لتعيينه |
 
 ### setSupressErrors(boolean supressErrors) {#setSupressErrors-boolean-}
 ```
@@ -434,12 +434,12 @@ public void setSupressErrors(boolean supressErrors)
 ```
 
 
-يحدد العلم الذي يشير إلى ما إذا كان سيتم قمع الأخطاء أثناء التحويل.
+يحدد العلامة التي تشير إلى ما إذا كان سيتم قمع الأخطاء أثناء التحويل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| supressErrors | boolean | قيمة منطقية. |
+| supressErrors | منطقي | قيمة منطقية. |
 
 ### setTryJoinImageFragments(boolean tryJoinImageFragments) {#setTryJoinImageFragments-boolean-}
 ```
@@ -447,12 +447,12 @@ public void setTryJoinImageFragments(boolean tryJoinImageFragments)
 ```
 
 
-يحدد ما إذا كانت المكتبة ستحاول ربط شظايا الصورة. يُستخدم ذلك عندما يتم تقطيع الصورة في ملف PS/EPS المصدر إلى شظايا. في هذه الحالة، بدون هذه العلامة تُترك فجوات رقيقة بين الشظايا.
+يحدد ما إذا كانت المكتبة ستحاول ربط شظايا الصورة. يُستخدم ذلك عندما تكون الصورة في ملف PS/EPS المصدر مقطعة إلى شظايا. في هذه الحالة، بدون هذه العلامة، تُترك فجوات رقيقة بين الشظايا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| tryJoinImageFragments | boolean | قيمة العلامة. |
+| tryJoinImageFragments | منطقي | قيمة العلامة. |
 
 ### toString() {#toString--}
 ```

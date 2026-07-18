@@ -1,6 +1,6 @@
 ---
 title: "XpsSpreadMethod"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "القيم الصالحة لخاصية SpreadMethod لفرش التدرج."
 type: docs
 weight: 63
@@ -120,7 +120,7 @@ public final boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

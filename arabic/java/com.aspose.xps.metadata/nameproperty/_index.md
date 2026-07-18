@@ -1,6 +1,6 @@
 ---
 title: "NameProperty"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "الفئة الأساسية لفئات خصائص JobName و DocumentName."
 type: docs
 weight: 75
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public class NameProperty extends Property
 ```
 
-الفئة الأساسية لفئات خصائص JobName و DocumentName.
+الفئة الأساسية لـ  JobName  و  DocumentName  فئات الخصائص.
 ## الطرق
 
 | طريقة | الوصف |
@@ -41,7 +41,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

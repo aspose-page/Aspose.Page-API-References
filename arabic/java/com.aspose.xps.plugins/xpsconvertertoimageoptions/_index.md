@@ -1,7 +1,7 @@
 ---
 title: "XpsConverterToImageOptions"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يمثل خيارات محول XPS إلى صورة للمكوّن الإضافي."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يمثل خيارات محول XPS إلى صورة للإضافة."
 type: docs
 weight: 12
 url: /ar/java/com.aspose.xps.plugins/xpsconvertertoimageoptions/
@@ -12,24 +12,24 @@ java.lang.Object, [com.aspose.xps.plugins.XpsConverterOptions](../../com.aspose.
 public class XpsConverterToImageOptions extends XpsConverterOptions
 ```
 
-يمثل خيارات محول XPS إلى صورة للمكوّن الإضافي [XpsConverter](../../com.aspose.xps.plugins/xpsconverter).
-## المنشئات
+يمثل خيارات محول XPS إلى صورة لإضافة [XpsConverter](../../com.aspose.xps.plugins/xpsconverter) plugin.
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [XpsConverterToImageOptions()](#XpsConverterToImageOptions--) | ينشئ نسخة جديدة من كائن [XpsConverterToImageOptions](../../com.aspose.xps.plugins/xpsconvertertoimageoptions). |
-| [XpsConverterToImageOptions(ImageFormat imageFormat)](#XpsConverterToImageOptions-com.aspose.page.ImageFormat-) | ينشئ نسخة جديدة من كائن [XpsConverterToImageOptions](../../com.aspose.xps.plugins/xpsconvertertoimageoptions) مع تنسيق الصورة. |
-| [XpsConverterToImageOptions(Dimension size)](#XpsConverterToImageOptions-java.awt.Dimension-) | ينشئ نسخة جديدة من كائن [XpsConverterToImageOptions](../../com.aspose.xps.plugins/xpsconvertertoimageoptions) بحجم الصورة الناتجة. |
-| [XpsConverterToImageOptions(ImageFormat imageFormat, Dimension size)](#XpsConverterToImageOptions-com.aspose.page.ImageFormat-java.awt.Dimension-) | ينشئ نسخة جديدة من كائن [XpsConverterToImageOptions](../../com.aspose.xps.plugins/xpsconvertertoimageoptions) مع تنسيق الصورة. |
+| [XpsConverterToImageOptions()](#XpsConverterToImageOptions--) | ينشئ مثيلاً جديداً لكائن [XpsConverterToImageOptions](../../com.aspose.xps.plugins/xpsconvertertoimageoptions). |
+| [XpsConverterToImageOptions(ImageFormat imageFormat)](#XpsConverterToImageOptions-com.aspose.page.ImageFormat-) | ينشئ مثيلاً جديداً لكائن [XpsConverterToImageOptions](../../com.aspose.xps.plugins/xpsconvertertoimageoptions) مع تنسيق الصورة. |
+| [XpsConverterToImageOptions(Dimension size)](#XpsConverterToImageOptions-java.awt.Dimension-) | ينشئ مثيلاً جديداً لكائن [XpsConverterToImageOptions](../../com.aspose.xps.plugins/xpsconvertertoimageoptions) بحجم الصورة الناتجة. |
+| [XpsConverterToImageOptions(ImageFormat imageFormat, Dimension size)](#XpsConverterToImageOptions-com.aspose.page.ImageFormat-java.awt.Dimension-) | ينشئ مثيلاً جديداً لكائن [XpsConverterToImageOptions](../../com.aspose.xps.plugins/xpsconvertertoimageoptions) مع تنسيق الصورة. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [addDataSource(IDataSource dataSource)](#addDataSource-com.aspose.page.plugins.IDataSource-) | يضيف مصدر بيانات جديد إلى مجموعة بيانات مكوّن XpsConverter الإضافي. |
-| [addSaveDataSource(IDataSource saveDataSource)](#addSaveDataSource-com.aspose.page.plugins.IDataSource-) | يضيف مصدر بيانات جديد إلى مجموعة بيانات مكوّن XpsConverterOptions الإضافي. |
+| [addDataSource(IDataSource dataSource)](#addDataSource-com.aspose.page.plugins.IDataSource-) | يضيف مصدر بيانات جديد إلى مجموعة بيانات إضافة XpsConverter. |
+| [addSaveDataSource(IDataSource saveDataSource)](#addSaveDataSource-com.aspose.page.plugins.IDataSource-) | يضيف مصدر بيانات جديد إلى مجموعة بيانات إضافة XpsConverterOptions. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getDataCollection()](#getDataCollection--) | يعيد مجموعة بيانات مكوّن XpsConverterOptions الإضافي. |
+| [getDataCollection()](#getDataCollection--) | يعيد مجموعة بيانات إضافة XpsConverterOptions. |
 | [getImageFormat()](#getImageFormat--) | يحصل على تنسيق الصورة. |
 | [getJpegQualityLevel()](#getJpegQualityLevel--) | يعيد القيمة التي تحدد مستوى الضغط لصورة. |
 | [getOperationName()](#getOperationName--) | يعيد اسم العملية. |
@@ -43,7 +43,7 @@ public class XpsConverterToImageOptions extends XpsConverterOptions
 | [notifyAll()](#notifyAll--) |  |
 | [setImageFormat(ImageFormat imageFormat)](#setImageFormat-com.aspose.page.ImageFormat-) | يحصل على تنسيق الصورة. |
 | [setJpegQualityLevel(int value)](#setJpegQualityLevel-int-) | يضبط القيمة التي تحدد مستوى الضغط للصورة. |
-| [setPageNumbers(int[] pageNumbers)](#setPageNumbers-int---) | يضبط مصفوفة أعداد الصفحات في مستند XPS للتحويل. |
+| [setPageNumbers(int[] pageNumbers)](#setPageNumbers-int---) | يضبط مصفوفة أرقام الصفحات في مستند XPS للتحويل. |
 | [setResolution(int resolution)](#setResolution-int-) | يضبط دقة الصورة. |
 | [setSize(Dimension size)](#setSize-java.awt.Dimension-) | يضبط حجم الصورة الناتجة. |
 | [setSmoothingMode(SmoothingMode smoothingMode)](#setSmoothingMode-com.aspose.xps.rendering.SmoothingMode-) | يضبط وضع التنعيم لتصوير الصورة. |
@@ -57,7 +57,7 @@ public XpsConverterToImageOptions()
 ```
 
 
-ينشئ نسخة جديدة من كائن [XpsConverterToImageOptions](../../com.aspose.xps.plugins/xpsconvertertoimageoptions).
+ينشئ مثيلاً جديداً لكائن [XpsConverterToImageOptions](../../com.aspose.xps.plugins/xpsconvertertoimageoptions).
 
 ### XpsConverterToImageOptions(ImageFormat imageFormat) {#XpsConverterToImageOptions-com.aspose.page.ImageFormat-}
 ```
@@ -65,7 +65,7 @@ public XpsConverterToImageOptions(ImageFormat imageFormat)
 ```
 
 
-ينشئ نسخة جديدة من كائن [XpsConverterToImageOptions](../../com.aspose.xps.plugins/xpsconvertertoimageoptions) مع تنسيق الصورة.
+ينشئ مثيلاً جديداً لكائن [XpsConverterToImageOptions](../../com.aspose.xps.plugins/xpsconvertertoimageoptions) مع تنسيق الصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -78,7 +78,7 @@ public XpsConverterToImageOptions(Dimension size)
 ```
 
 
-ينشئ نسخة جديدة من كائن [XpsConverterToImageOptions](../../com.aspose.xps.plugins/xpsconvertertoimageoptions) بحجم الصورة الناتجة.
+ينشئ مثيلاً جديداً لكائن [XpsConverterToImageOptions](../../com.aspose.xps.plugins/xpsconvertertoimageoptions) بحجم الصورة الناتجة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -91,7 +91,7 @@ public XpsConverterToImageOptions(ImageFormat imageFormat, Dimension size)
 ```
 
 
-ينشئ نسخة جديدة من كائن [XpsConverterToImageOptions](../../com.aspose.xps.plugins/xpsconvertertoimageoptions) مع تنسيق الصورة.
+ينشئ مثيلاً جديداً لكائن [XpsConverterToImageOptions](../../com.aspose.xps.plugins/xpsconvertertoimageoptions) مع تنسيق الصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -105,7 +105,7 @@ public final void addDataSource(IDataSource dataSource)
 ```
 
 
-يضيف مصدر بيانات جديد إلى مجموعة بيانات مكوّن XpsConverter الإضافي.
+يضيف مصدر بيانات جديد إلى مجموعة بيانات إضافة XpsConverter.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -118,7 +118,7 @@ public final void addSaveDataSource(IDataSource saveDataSource)
 ```
 
 
-يضيف مصدر بيانات جديد إلى مجموعة بيانات مكوّن XpsConverterOptions الإضافي.
+يضيف مصدر بيانات جديد إلى مجموعة بيانات إضافة XpsConverterOptions.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -139,7 +139,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -156,7 +156,7 @@ public final List<IDataSource> getDataCollection()
 ```
 
 
-يعيد مجموعة بيانات مكوّن XpsConverterOptions الإضافي.
+يعيد مجموعة بيانات إضافة XpsConverterOptions.
 
 **Returns:**
 java.util.List<com.aspose.page.plugins.IDataSource>
@@ -176,7 +176,7 @@ public int getJpegQualityLevel()
 ```
 
 
-يعيد القيمة التي تحدد مستوى الضغط للصورة. القيم المتاحة من 0 إلى 100. كلما كان الرقم المحدد أقل، زاد الضغط وبالتالي انخفضت جودة الصورة. القيمة 0 تؤدي إلى أدنى جودة للصورة، بينما القيمة 100 تؤدي إلى أعلى جودة.
+يعيد القيمة التي تحدد مستوى الضغط للصورة. القيم المتاحة هي من 0 إلى 100. كلما كان الرقم المحدد أقل، زاد الضغط وبالتالي تكون جودة الصورة أقل. القيمة 0 تنتج صورة بأدنى جودة، بينما القيمة 100 تنتج أعلى جودة.
 
 **Returns:**
 int - القيمة التي تحدد مستوى الضغط للصورة.
@@ -199,7 +199,7 @@ public int[] getPageNumbers()
 يحصل على مصفوفة أعداد الصفحات في مستند XPS للتحويل.
 
 **Returns:**
-int[] - مصفوفة أعداد الصفحات في مستند XPS.
+int[] - مصفوفة أرقام الصفحات في مستند XPS.
 ### getResolution() {#getResolution--}
 ```
 public int getResolution()
@@ -285,7 +285,7 @@ public void setJpegQualityLevel(int value)
 ```
 
 
-يضبط القيمة التي تحدد مستوى الضغط للصورة. القيم المتاحة من 0 إلى 100. كلما كان الرقم المحدد أقل، زاد الضغط وبالتالي انخفضت جودة الصورة. القيمة 0 تؤدي إلى أدنى جودة للصورة، بينما القيمة 100 تؤدي إلى أعلى جودة.
+يضبط القيمة التي تحدد مستوى الضغط للصورة. القيم المتاحة هي من 0 إلى 100. كلما كان الرقم المحدد أقل، زاد الضغط وبالتالي تكون جودة الصورة أقل. القيمة 0 تنتج صورة بأدنى جودة، بينما القيمة 100 تنتج أعلى جودة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -298,7 +298,7 @@ public void setPageNumbers(int[] pageNumbers)
 ```
 
 
-يضبط مصفوفة أعداد الصفحات في مستند XPS للتحويل. إذا لم يتم الضبط، سيتم تحويل جميع الصفحات.
+يضبط مصفوفة أرقام الصفحات في مستند XPS للتحويل. إذا لم يتم الضبط، سيتم تحويل جميع الصفحات.
 
 **Parameters:**
 | معامل | نوع | الوصف |

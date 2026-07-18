@@ -1,7 +1,7 @@
 ---
 title: "IInteractiveDevice"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "الواجهة التي تُعرّف طرق معالجة الميزات التفاعلية."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "الواجهة التي تحدد طرق معالجة ميزات التفاعل."
 type: docs
 weight: 20
 url: /ar/java/com.aspose.page/iinteractivedevice/

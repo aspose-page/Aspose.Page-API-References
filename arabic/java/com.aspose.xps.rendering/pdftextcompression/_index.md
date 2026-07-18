@@ -1,6 +1,6 @@
 ---
 title: "PdfTextCompression"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يحدد نوع الضغط المطبق على جميع محتويات ملف PDF باستثناء الصور."
 type: docs
 weight: 23
@@ -19,7 +19,7 @@ public enum PdfTextCompression extends Enum<PdfTextCompression>
 | --- | --- |
 | [Flate](#Flate) | نوع ضغط Flate |
 | [Lzw](#Lzw) | نوع ضغط Lzw |
-| [None](#None) | لا نوع ضغط |
+| [None](#None) | نوع ضغط لا شيء |
 | [Rle](#Rle) | نوع ضغط Rle |
 ## الطرق
 
@@ -64,7 +64,7 @@ public static final PdfTextCompression None
 ```
 
 
-لا نوع ضغط
+نوع ضغط لا شيء
 
 ### Rle {#Rle}
 ```
@@ -129,7 +129,7 @@ public final boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

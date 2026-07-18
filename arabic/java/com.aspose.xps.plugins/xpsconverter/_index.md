@@ -1,7 +1,7 @@
 ---
 title: "XpsConverter"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يمثل إضافة XpsConverter."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يمثل ملحق XpsConverter."
 type: docs
 weight: 10
 url: /ar/java/com.aspose.xps.plugins/xpsconverter/
@@ -15,7 +15,7 @@ java.lang.Object
 public class XpsConverter implements IPlugin
 ```
 
-يمثل إضافة XpsConverter.
+يمثل ملحق XpsConverter.
 
 يوضح المثال كيفية تحويل مستند XPS إلى مستند PDF.
 
@@ -23,14 +23,14 @@ public class XpsConverter implements IPlugin
 
 يوضح المثال كيفية تحويل مستند XPS إلى صورة مع إخراج ملف.
 
-// إنشاء XpsConverter XpsConverter converter = new XpsConverter(); // إنشاء XpsConverterToImageOptions مع تنسيق صورة هدف JPEG. تنسيق الصورة الافتراضي للصورة الناتجة هو PNG. // يمكننا أيضًا تعيين حجم الصورة الناتجة، ودقة، ووضع التنعيم ومستوى جودة JPEG لتنسيق صورة JPEG الناتجة. XpsConverterToImageOptions opt = new XpsConverterToImageOptions(ImageFormat.Jpeg); // إضافة مسار ملف الإدخال opt.addDataSource(new FileDataSource(inputPath)); // إذا كان ملف XPS الإدخال متعدد الصفحات، فإن النتائج ستكون مجموعة من ملفات الصور بالاسم: [\"outputPath\" بدون امتداد][رقم الصفحة يبدأ من 0].[الامتداد من \"outputPath\"] opt.addSaveDataSource(new FileDataSource(outputPath)); // بدء عملية التحويل converter.process(opt);
+// إنشاء XpsConverter XpsConverter converter = new XpsConverter(); // إنشاء XpsConverterToImageOptions بصيغة صورة هدف JPEG. صيغة الصورة الافتراضية للنتيجة هي PNG. // يمكننا أيضًا تعيين حجم الصورة الناتجة، ودقة، ووضع التنعيم ومستوى جودة JPEG لصيغة الصورة الناتجة JPEG. XpsConverterToImageOptions opt = new XpsConverterToImageOptions(ImageFormat.Jpeg); // إضافة مسار ملف الإدخال opt.addDataSource(new FileDataSource(inputPath)); // إذا كان ملف XPS الإدخال متعدد الصفحات، فإن النتائج ستكون مجموعة من ملفات الصور بالاسم: ["outputPath" بدون امتداد][pageNumber يبدأ من 0].[الامتداد من "outputPath"] opt.addSaveDataSource(new FileDataSource(outputPath)); // بدء عملية التحويل converter.process(opt);
 
 يوضح المثال كيفية تحويل مستند XPS إلى صورة مع إخراج مصفوفات بايت.
 
-في مصدر بيانات إخراج مصفوفات البايت (byte[][]) تحتوي كل مصفوفة بايت على صورة صفحة واحدة. وبالتالي، بالنسبة للمستندات ذات صفحة واحدة سيكون الناتج يحتوي على مصفوفة [1][], أما المستندات متعددة الصفحات فسيكون الناتج يحتوي على مصفوفة عدد الصفحات في مستند XPS الإدخال []. // إنشاء XpsConverter XpsConverter converter = new XpsConverter(); // إنشاء XpsConverterToImageOptions مع تنسيق صورة هدف JPEG. تنسيق الصورة الافتراضي للصورة الناتجة هو PNG. // يمكننا أيضًا تعيين حجم الصورة الناتجة، ودقة، ووضع التنعيم ومستوى جودة JPEG لتنسيق صورة JPEG الناتجة. XpsConverterToImageOptions opt = new XpsConverterToImageOptions(ImageFormat.Jpeg); // إضافة مسار ملف الإدخال opt.addDataSource(new FileDataSource(inputPath)); // إذا كان ملف XPS الإدخال متعدد الصفحات، فإن النتائج ستكون مجموعة من ملفات الصور بالاسم: [\"outputPath\" بدون امتداد][رقم الصفحة يبدأ من 1].[الامتداد من \"outputPath\"] opt.addSaveDataSource(new ByteArrayDataSource()); // بدء عملية التحويل converter.process(opt); // الحصول على مصفوفات البايت الناتجة byte[][] imagesBytes = (byte [][]) ((ByteArrayResult)results.ResultCollection[0]).Data;
-## المنشئات
+في مصدر بيانات إخراج مصفوفات البايت (byte [][]) تحتوي كل مصفوفة بايت على صورة لصفحة واحدة. وبالتالي، بالنسبة للمستندات ذات صفحة واحدة، سيحتوي النتيجة على مصفوفة [1][]، بالنسبة للمستندات متعددة الصفحات، سيحتوي النتيجة على مصفوفة [عدد الصفحات في مستند XPS الإدخال][]. // إنشاء XpsConverter XpsConverter converter = new XpsConverter(); // إنشاء XpsConverterToImageOptions بصيغة صورة هدف JPEG. صيغة الصورة الافتراضية للنتيجة هي PNG. // يمكننا أيضًا تعيين حجم الصورة الناتجة، ودقة، ووضع التنعيم ومستوى جودة JPEG لصيغة الصورة الناتجة JPEG. XpsConverterToImageOptions opt = new XpsConverterToImageOptions(ImageFormat.Jpeg); // إضافة مسار ملف الإدخال opt.addDataSource(new FileDataSource(inputPath)); // إذا كان ملف XPS الإدخال متعدد الصفحات، فإن النتائج ستكون مجموعة من ملفات الصور بالاسم: ["outputPath" بدون امتداد][pageNumber يبدأ من 1].[الامتداد من "outputPath"] opt.addSaveDataSource(new ByteArrayDataSource()); // بدء عملية التحويل converter.process(opt); // الحصول على مصفوفات البايت الناتجة byte[][] imagesBytes = (byte [][]) ((ByteArrayResult)results.ResultCollection[0]).Data;
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [XpsConverter()](#XpsConverter--) |  |
 ## الطرق
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

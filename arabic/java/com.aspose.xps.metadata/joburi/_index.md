@@ -1,6 +1,6 @@
 ---
 title: "JobURI"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يحدد معرف مورد موحد (URI) للمستند."
 type: docs
 weight: 73
@@ -13,11 +13,11 @@ public final class JobURI extends URIProperty
 ```
 
 يحدد معرف مورد موحد (URI) للمستند. https://docs.microsoft.com/en-us/windows/win32/printdocs/joburi
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [JobURI(String jobURI)](#JobURI-java.lang.String-) | ينشئ نسخة جديدة. |
+| [JobURI(String jobURI)](#JobURI-java.lang.String-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -38,7 +38,7 @@ public JobURI(String jobURI)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -59,7 +59,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

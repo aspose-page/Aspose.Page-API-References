@@ -1,6 +1,6 @@
 ---
 title: "DecimalValue"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "الفئة التي تغلف قيمة Decimal في مستند PrintTicket."
 type: docs
 weight: 12
@@ -13,11 +13,11 @@ public final class DecimalValue extends Value
 ```
 
 الفئة التي تغلف قيمة Decimal في مستند PrintTicket.
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [DecimalValue(float value)](#DecimalValue-float-) | ينشئ نسخة جديدة. |
+| [DecimalValue(float value)](#DecimalValue-float-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -39,7 +39,7 @@ public DecimalValue(float value)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -60,7 +60,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

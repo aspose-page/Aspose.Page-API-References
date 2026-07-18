@@ -1,6 +1,6 @@
 ---
 title: "TextRenderingHint"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يحدد جودة عرض النص."
 type: docs
 weight: 25
@@ -17,12 +17,12 @@ public enum TextRenderingHint extends Enum<TextRenderingHint>
 
 | حقل | الوصف |
 | --- | --- |
-| [AntiAlias](#AntiAlias) | يتم رسم كل حرف باستخدام صورة glyph bitmap المضادة للتنعيم دون توجيه. |
-| [AntiAliasGridFit](#AntiAliasGridFit) | يتم رسم كل حرف باستخدام صورة glyph bitmap المضادة للتنعيم مع التوجيه. |
-| [ClearTypeGridFit](#ClearTypeGridFit) | يتم رسم كل حرف باستخدام صورة glyph ClearType bitmap مع التوجيه. |
-| [SingleBitPerPixel](#SingleBitPerPixel) | يتم رسم كل حرف باستخدام صورة glyph bitmap. |
-| [SingleBitPerPixelGridFit](#SingleBitPerPixelGridFit) | يتم رسم كل حرف باستخدام صورة glyph bitmap. |
-| [SystemDefault](#SystemDefault) | يتم رسم كل حرف باستخدام صورة glyph bitmap، مع تلميح العرض الافتراضي للنظام. |
+| [AntiAlias](#AntiAlias) | يتم رسم كل حرف باستخدام صورة البكسل للرمز المضاد للتعرج بدون توجيه. |
+| [AntiAliasGridFit](#AntiAliasGridFit) | يتم رسم كل حرف باستخدام صورة البكسل للرمز المضاد للتعرج مع التوجيه. |
+| [ClearTypeGridFit](#ClearTypeGridFit) | يتم رسم كل حرف باستخدام صورة البكسل للرمز ClearType مع التوجيه. |
+| [SingleBitPerPixel](#SingleBitPerPixel) | يتم رسم كل حرف باستخدام صورة البكسل للرمز. |
+| [SingleBitPerPixelGridFit](#SingleBitPerPixelGridFit) | يتم رسم كل حرف باستخدام صورة البكسل للرمز. |
+| [SystemDefault](#SystemDefault) | يتم رسم كل حرف باستخدام صورة البكسل للرمز، مع توجيه العرض الافتراضي للنظام. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -50,7 +50,7 @@ public static final TextRenderingHint AntiAlias
 ```
 
 
-يتم رسم كل حرف باستخدام صورة glyph bitmap المضادة للتنعيم دون توجيه. جودة أفضل بفضل التنعيم. قد تكون فروق عرض الساق ملحوظة لأن التوجيه معطل.
+يتم رسم كل حرف باستخدام صورة البكسل للرمز المضاد للتعرج بدون توجيه. جودة أفضل بفضل التنعيم. قد تكون اختلافات عرض الساق ملحوظة لأن التوجيه مُعطل.
 
 ### AntiAliasGridFit {#AntiAliasGridFit}
 ```
@@ -58,7 +58,7 @@ public static final TextRenderingHint AntiAliasGridFit
 ```
 
 
-يتم رسم كل حرف باستخدام صورة glyph bitmap المضادة للتنعيم مع التوجيه. جودة أفضل بكثير بفضل التنعيم، لكن بتكلفة أداء أعلى.
+يتم رسم كل حرف باستخدام صورة البكسل للرمز المضاد للتعرج مع التوجيه. جودة أفضل بكثير بفضل التنعيم، لكن بتكلفة أداء أعلى.
 
 ### ClearTypeGridFit {#ClearTypeGridFit}
 ```
@@ -66,7 +66,7 @@ public static final TextRenderingHint ClearTypeGridFit
 ```
 
 
-يتم رسم كل حرف باستخدام صورة glyph ClearType bitmap مع التوجيه. أعلى إعداد للجودة. يُستخدم للاستفادة من ميزات خط ClearType.
+يتم رسم كل حرف باستخدام صورة البكسل للرمز ClearType مع التوجيه. أعلى إعداد جودة. يُستخدم للاستفادة من ميزات خطوط ClearType.
 
 ### SingleBitPerPixel {#SingleBitPerPixel}
 ```
@@ -74,7 +74,7 @@ public static final TextRenderingHint SingleBitPerPixel
 ```
 
 
-يتم رسم كل حرف باستخدام صورة glyph bitmap. لا يتم استخدام التوجيه.
+يتم رسم كل حرف باستخدام صورة البكسل للرمز. لا يُستخدم التوجيه.
 
 ### SingleBitPerPixelGridFit {#SingleBitPerPixelGridFit}
 ```
@@ -82,7 +82,7 @@ public static final TextRenderingHint SingleBitPerPixelGridFit
 ```
 
 
-يتم رسم كل حرف باستخدام صورة glyph bitmap. يُستخدم التوجيه لتحسين مظهر الحرف على الساقيات والانحناءات.
+يتم رسم كل حرف باستخدام صورة البكسل للرمز. يُستخدم التوجيه لتحسين مظهر الحرف على الساقين والانحناءات.
 
 ### SystemDefault {#SystemDefault}
 ```
@@ -90,7 +90,7 @@ public static final TextRenderingHint SystemDefault
 ```
 
 
-يتم رسم كل حرف باستخدام صورة glyph bitmap، مع تلميح العرض الافتراضي للنظام. سيتم رسم النص باستخدام أي إعدادات تنعيم للخط اختارها المستخدم للنظام.
+يتم رسم كل حرف باستخدام صورة البكسل للرمز، مع توجيه العرض الافتراضي للنظام. سيتم رسم النص باستخدام أي إعدادات تنعيم الخط التي اختارها المستخدم للنظام.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```
@@ -147,7 +147,7 @@ public final boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

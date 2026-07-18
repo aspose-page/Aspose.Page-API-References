@@ -1,6 +1,6 @@
 ---
 title: "IDProperty"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "الفئة الأساسية لفئات خصائص JobID و DocumentID."
 type: docs
 weight: 40
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public class IDProperty extends Property
 ```
 
-الفئة الأساسية لفئات خصائص  JobID  و  DocumentID .
+الفئة الأساسية لـ  JobID  و  DocumentID  فئات الخصائص.
 ## الطرق
 
 | طريقة | الوصف |
@@ -41,7 +41,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

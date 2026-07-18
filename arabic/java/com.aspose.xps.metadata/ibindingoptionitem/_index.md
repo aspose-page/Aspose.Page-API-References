@@ -1,6 +1,6 @@
 ---
 title: "JobBindAllDocuments.IBindingOptionItem"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "واجهة أي عنصر BindingOption."
 type: docs
 weight: 12
@@ -12,4 +12,4 @@ url: /ar/java/com.aspose.xps.metadata/jobbindalldocuments.ibindingoptionitem/
 public static interface JobBindAllDocuments.IBindingOptionItem extends IOptionItem
 ```
 
-واجهة أي عنصر  BindingOption  .
+واجهة أي  BindingOption  عنصر.

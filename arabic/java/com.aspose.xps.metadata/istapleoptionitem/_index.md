@@ -1,7 +1,7 @@
 ---
 title: "Staple.IStapleOptionItem"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "واجهة أي عنصر StapleOption."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "الواجهة لأي عنصر StapleOption."
 type: docs
 weight: 11
 url: /ar/java/com.aspose.xps.metadata/staple.istapleoptionitem/
@@ -12,4 +12,4 @@ url: /ar/java/com.aspose.xps.metadata/staple.istapleoptionitem/
 public static interface Staple.IStapleOptionItem extends IOptionItem
 ```
 
-واجهة أي عنصر StapleOption.
+الواجهة لأي عنصر  StapleOption .

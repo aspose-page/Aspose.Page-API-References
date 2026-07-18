@@ -1,7 +1,7 @@
 ---
 title: "DocumentBannerSheet"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يصف ورقة البانر التي سيتم إخراجها لمستند معين."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يصف ورقة البانر التي سيتم إخراجها لوثيقة معينة."
 type: docs
 weight: 13
 url: /ar/java/com.aspose.xps.metadata/documentbannersheet/
@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class DocumentBannerSheet extends Feature implements IJobPrintTicketItem, IDocumentPrintTicketItem
 ```
 
-يصف ورقة الشعار التي يجب إخراجها لمستند معين. يجب إخراج ورقة الشعار بحجم PageMediaSize الافتراضي وباستخدام نوع PageMediaType الافتراضي. يجب أيضًا عزل ورقة الشعار عن باقي المهمة. وهذا يعني أن أي خيارات إنتهاء أو معالجة (مثل DocumentDuplex أو DocumentStaple أو DocumentBinding) يجب ألا تشمل ورقة الشعار. قد تكون ورقة الشعار معزولة أو غير معزولة عن باقي المهمة. وهذا يعني أن أي خيارات إنتهاء أو معالجة للمهمة قد تشمل ورقة الشعار الخاصة بالمستند. يجب أن تكون ورقة الشعار هي الورقة الأولى في المستند. https://docs.microsoft.com/en-us/windows/win32/printdocs/documentbannersheet
-## المنشئات
+يصف ورقة الشعار التي يجب إخراجها لمستند معين. يجب إخراج ورقة الشعار باستخدام حجم الصفحة الافتراضي  PageMediaSize  وباستخدام نوع الصفحة الافتراضي  PageMediaType . يجب أيضًا عزل ورقة الشعار عن باقي المهمة. هذا يعني أن أي خيارات إنهاء أو معالجة (مثل  DocumentDuplex ,  DocumentStaple , أو  DocumentBinding ) يجب ألا تشمل ورقة الشعار. قد تكون ورقة الشعار معزولة أو غير معزولة عن باقي المهمة. هذا يعني أن أي خيارات إنهاء أو معالجة للمهمة قد تشمل ورقة الشعار الخاصة بالمستند. يجب أن تكون ورقة الشعار هي الورقة الأولى في المستند. https://docs.microsoft.com/en-us/windows/win32/printdocs/documentbannersheet
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [DocumentBannerSheet(DocumentBannerSheet.BannerSheetOption[] options)](#DocumentBannerSheet-com.aspose.xps.metadata.DocumentBannerSheet.BannerSheetOption...-) | ينشئ نسخة جديدة. |
+| [DocumentBannerSheet(DocumentBannerSheet.BannerSheetOption[] options)](#DocumentBannerSheet-com.aspose.xps.metadata.DocumentBannerSheet.BannerSheetOption...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public DocumentBannerSheet(DocumentBannerSheet.BannerSheetOption[] options)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

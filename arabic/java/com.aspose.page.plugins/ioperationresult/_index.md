@@ -1,7 +1,7 @@
 ---
 title: "IOperationResult"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "واجهة نتيجة العملية العامة التي تُعرّف الأساليب المشتركة التي يجب أن تُطبقها نتيجة عملية الملحق الفعلية."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "واجهة نتيجة العملية العامة التي تحدد الأساليب المشتركة التي يجب أن تنفذها نتيجة عملية الملحق الفعلية."
 type: docs
 weight: 22
 url: /ar/java/com.aspose.page.plugins/ioperationresult/

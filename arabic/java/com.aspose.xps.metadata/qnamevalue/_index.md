@@ -1,7 +1,7 @@
 ---
 title: "QNameValue"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "الفئة التي تغلف قيمة QName في مستند PrintTicket."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "الفئة التي تغلف قيمة QName في مستند **PrintTicket**."
 type: docs
 weight: 144
 url: /ar/java/com.aspose.xps.metadata/qnamevalue/
@@ -12,12 +12,12 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class QNameValue extends Value
 ```
 
-الفئة التي تغلف قيمة QName في مستند PrintTicket.
-## المنشئات
+الفئة التي تغلف قيمة QName في مستند **PrintTicket**.
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [QNameValue(String value)](#QNameValue-java.lang.String-) | ينشئ نسخة جديدة. |
+| [QNameValue(String value)](#QNameValue-java.lang.String-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -39,7 +39,7 @@ public QNameValue(String value)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -60,7 +60,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

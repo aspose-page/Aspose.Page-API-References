@@ -1,6 +1,6 @@
 ---
 title: "PageOutputColor.PageOutputColorOption"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف خيارات ميزة PageOutputColor."
 type: docs
 weight: 10
@@ -15,20 +15,20 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class PageOutputColor.PageOutputColorOption extends Option implements PageOutputColor.IPageOutputColorItem
 ```
 
-يصف خيارات ميزة PageOutputColor.
-## المنشئات
+يصف خيارات ميزة  PageOutputColor .
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PageOutputColorOption(String optionName, PageOutputColor.IPageOutputColorOptionItem[] items)](#PageOutputColorOption-java.lang.String-com.aspose.xps.metadata.PageOutputColor.IPageOutputColorOptionItem...-) | ينشئ نسخة جديدة. |
+| [PageOutputColorOption(String optionName, PageOutputColor.IPageOutputColorOptionItem[] items)](#PageOutputColorOption-java.lang.String-com.aspose.xps.metadata.PageOutputColor.IPageOutputColorOptionItem...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [Color(int deviceBitsPerPixel, int driverBitsPerPixel)](#Color-int-int-) | يحدد أن الإخراج يجب أن يكون بالألوان. |
+| [Color(int deviceBitsPerPixel, int driverBitsPerPixel)](#Color-int-int-) | يحدد أن الإخراج يجب أن يكون ملونًا. |
 | [Grayscale(int deviceBitsPerPixel, int driverBitsPerPixel)](#Grayscale-int-int-) | يحدد أن الإخراج يجب أن يكون بدرجات الرمادي. |
 | [Monochrome(int deviceBitsPerPixel, int driverBitsPerPixel)](#Monochrome-int-int-) | يحدد أن الإخراج يجب أن يكون أحادي اللون (أسود). |
-| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. |
+| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. |
 | [add(PageOutputColor.IPageOutputColorOptionItem[] items)](#add-com.aspose.xps.metadata.PageOutputColor.IPageOutputColorOptionItem...-) | يضيف مصفوفة من مثيلات IPageOutputColorOptionItem إلى الخيار. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
@@ -46,7 +46,7 @@ public PageOutputColorOption(String optionName, PageOutputColor.IPageOutputColor
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -60,13 +60,13 @@ public static final PageOutputColor.PageOutputColorOption Color(int deviceBitsPe
 ```
 
 
-يحدد أن الإخراج يجب أن يكون بالألوان.
+يحدد أن الإخراج يجب أن يكون ملونًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| deviceBitsPerPixel | int | قيمة خاصية DeviceBitsPerPixel المتدرجة التي تشير إلى عدد البتات لكل بكسل من بيانات اللون التي يدعمها الطابعة. |
-| driverBitsPerPixel | int | قيمة خاصية DriverBitsPerPixel المتدرجة التي تشير إلى عدد البتات لكل بكسل التي يجب على برنامج تشغيل النواة استخدامها في مخزن رسم البتات. |
+| deviceBitsPerPixel | int | قيمة خاصية DeviceBitsPerPixel المقيمة التي تشير إلى عدد البتات لكل بكسل من بيانات اللون التي يدعمها الطابعة. |
+| driverBitsPerPixel | int | قيمة خاصية DriverBitsPerPixel المقيمة التي تشير إلى عدد البتات لكل بكسل التي يجب أن يستخدمها برنامج التشغيل الأساسي لمخزن رسم البتات الخاص به. |
 
 **Returns:**
 [PageOutputColorOption](../../com.aspose.xps.metadata/pageoutputcoloroption) - The  PageOutputColor  options.
@@ -81,8 +81,8 @@ public static final PageOutputColor.PageOutputColorOption Grayscale(int deviceBi
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| deviceBitsPerPixel | int | قيمة خاصية DeviceBitsPerPixel المتدرجة التي تشير إلى عدد البتات لكل بكسل من بيانات اللون التي يدعمها الطابعة. |
-| driverBitsPerPixel | int | قيمة خاصية DriverBitsPerPixel المتدرجة التي تشير إلى عدد البتات لكل بكسل التي يجب على برنامج تشغيل النواة استخدامها في مخزن رسم البتات. |
+| deviceBitsPerPixel | int | قيمة خاصية DeviceBitsPerPixel المقيمة التي تشير إلى عدد البتات لكل بكسل من بيانات اللون التي يدعمها الطابعة. |
+| driverBitsPerPixel | int | قيمة خاصية DriverBitsPerPixel المقيمة التي تشير إلى عدد البتات لكل بكسل التي يجب أن يستخدمها برنامج التشغيل الأساسي لمخزن رسم البتات الخاص به. |
 
 **Returns:**
 [PageOutputColorOption](../../com.aspose.xps.metadata/pageoutputcoloroption) - The  PageOutputColor  options.
@@ -97,8 +97,8 @@ public static final PageOutputColor.PageOutputColorOption Monochrome(int deviceB
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| deviceBitsPerPixel | int | قيمة خاصية DeviceBitsPerPixel المتدرجة التي تشير إلى عدد البتات لكل بكسل من بيانات اللون التي يدعمها الطابعة. |
-| driverBitsPerPixel | int | قيمة خاصية DriverBitsPerPixel المتدرجة التي تشير إلى عدد البتات لكل بكسل التي يجب على برنامج تشغيل النواة استخدامها في مخزن رسم البتات. |
+| deviceBitsPerPixel | int | قيمة خاصية DeviceBitsPerPixel المقيمة التي تشير إلى عدد البتات لكل بكسل من بيانات اللون التي يدعمها الطابعة. |
+| driverBitsPerPixel | int | قيمة خاصية DriverBitsPerPixel المقيمة التي تشير إلى عدد البتات لكل بكسل التي يجب أن يستخدمها برنامج التشغيل الأساسي لمخزن رسم البتات الخاص به. |
 
 **Returns:**
 [PageOutputColorOption](../../com.aspose.xps.metadata/pageoutputcoloroption) - The  PageOutputColor  options.
@@ -108,7 +108,7 @@ public void add(IOptionItem[] items)
 ```
 
 
-يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. يجب أن يكون كل عنصر إما  ScoredProperty  أو  Property  مثيل.
+يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. يجب أن يكون كل عنصر إما مثال ScoredProperty أو مثال Property.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -144,7 +144,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

@@ -1,6 +1,6 @@
 ---
 title: "PsConverter"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يمثل ملحق PsConverter."
 type: docs
 weight: 10
@@ -21,16 +21,16 @@ public class PsConverter implements IPlugin
 
 // إنشاء PsConverter PsConverter converter = new PsConverter(); // إنشاء كائن PsConverterToPdfOptions لتعيين نوع البيانات الناتجة كملف PsConverterToPdfOptions opt = new PsConverterToPdfOptions(); // إضافة مسار ملف الإدخال opt.addDataSource(new FileDataSource(inputPath)); // تعيين مسار ملف الإخراج opt.addSaveDataSource(new FileDataSource(outputPath)); // بدء عملية التحويل ResultContainer results = converter.process(opt);
 
-يوضح المثال كيفية تحويل ملف PS/EPS إلى صورة مع إخراج إلى ملف.
+يوضح المثال كيفية تحويل ملف PS/EPS إلى صورة مع إخراج ملف.
 
-// إنشاء PsConverter PsConverter converter = new PsConverter(); // إنشاء PsConverterToImageOptions مع تنسيق صورة هدف JPEG. تنسيق الصورة الافتراضي للصورة الناتجة هو PNG. // يمكننا أيضًا تعيين حجم الصورة الناتجة، ودقة، ووضع التنعيم ومستوى جودة JPEG لتنسيق الصورة الناتجة JPEG. PsConverterToImageOptions opt = new PsConverterToImageOptions(ImageFormat.Jpeg); // إضافة مسار ملف الإدخال opt.addDataSource(new FileDataSource(inputPath)); // إذا كان ملف PS الإدخال متعدد الصفحات، ستكون النتائج مجموعة من ملفات الصورة بالأسماء: [\"outputPath\" بدون امتداد][رقم الصفحة يبدأ من 0].[الامتداد من \"outputPath\"] opt.addSaveDataSource(new FileDataSource(outputPath)); // بدء عملية التحويل converter.process(opt);
+// إنشاء PsConverter PsConverter converter = new PsConverter(); // إنشاء PsConverterToImageOptions بتنسيق صورة هدف JPEG. تنسيق الصورة الافتراضي للصورة الناتجة هو PNG. // يمكننا أيضًا تعيين حجم الصورة الناتجة، ودقة، ووضع التنعيم ومستوى جودة JPEG لتنسيق صورة JPEG الناتجة. PsConverterToImageOptions opt = new PsConverterToImageOptions(ImageFormat.Jpeg); // إضافة مسار ملف الإدخال opt.addDataSource(new FileDataSource(inputPath)); // إذا كان ملف PS الإدخال متعدد الصفحات، ستكون النتائج مجموعة من ملفات الصور بالاسم: [\"outputPath\" بدون امتداد][pageNumber started from 0].[extension from \"outputPath\"] opt.addSaveDataSource(new FileDataSource(outputPath)); // بدء عملية التحويل converter.process(opt);
 
-يوضح المثال كيفية تحويل ملف PS/EPS إلى صورة مع إخراج على شكل مصفوفات بايت.
+يوضح المثال كيفية تحويل ملف PS/EPS إلى صورة مع إخراج مصفوفات بايت.
 
-في مصدر بيانات إخراج مصفوفات البايت (byte [][] ) تحتوي مصفوفة بايت واحدة على صورة صفحة واحدة. وبالتالي، بالنسبة للمستندات ذات الصفحة الواحدة سيكون الناتج يحتوي على مصفوفة [1][], أما المستندات متعددة الصفحات فسيكون الناتج يحتوي على مصفوفة [عدد الصفحات في مستند PS الإدخال][]. // إنشاء PsConverter PsConverter converter = new PsConverter(); // إنشاء PsConverterToImageOptions مع تنسيق صورة هدف JPEG. تنسيق الصورة الافتراضي للصورة الناتجة هو PNG. // يمكننا أيضًا تعيين حجم الصورة الناتجة، ودقة، ووضع التنعيم ومستوى جودة JPEG لتنسيق الصورة الناتجة JPEG. PsConverterToImageOptions opt = new PsConverterToImageOptions(ImageFormat.Jpeg); // إضافة مسار ملف الإدخال opt.addDataSource(new FileDataSource(inputPath)); // إذا كان ملف PS الإدخال متعدد الصفحات، ستكون النتائج مجموعة من ملفات الصورة بالأسماء: [\"outputPath\" بدون امتداد][رقم الصفحة يبدأ من 0].[الامتداد من \"outputPath\"] opt.addSaveDataSource(new ByteArrayDataSource()); // بدء عملية التحويل converter.process(opt); // الحصول على مصفوفات البايت الناتجة byte[][] imagesBytes = (byte [][]) ((ByteArrayResult)results.ResultCollection[0]).Data;
-## المنشئات
+In the bytes arrays output datasource (byte [][]) one bytes array contains an image of one page. Thus, for one-paged documents the result will contain [1][] array, for multi-paged documents the result will contain [number of pages in input PS document][] array. // إنشاء PsConverter PsConverter converter = new PsConverter(); // إنشاء PsConverterToImageOptions بتنسيق صورة هدف JPEG. تنسيق الصورة الافتراضي للصورة الناتجة هو PNG. // يمكننا أيضًا تعيين حجم الصورة الناتجة، ودقة، ووضع التنعيم ومستوى جودة JPEG لتنسيق صورة JPEG الناتجة. PsConverterToImageOptions opt = new PsConverterToImageOptions(ImageFormat.Jpeg); // إضافة مسار ملف الإدخال opt.addDataSource(new FileDataSource(inputPath)); // إذا كان ملف PS الإدخال متعدد الصفحات، ستكون النتائج مجموعة من ملفات الصور بالاسم: [\"outputPath\" بدون امتداد][pageNumber started from 0].[extension from \"outputPath\"] opt.addSaveDataSource(new ByteArrayDataSource()); // بدء عملية التحويل converter.process(opt); // الحصول على مصفوفات البايت الناتجة byte[][] imagesBytes = (byte [][]) ((ByteArrayResult)results.ResultCollection[0]).Data;
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [PsConverter()](#PsConverter--) |  |
 ## الطرق
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

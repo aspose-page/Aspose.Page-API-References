@@ -1,7 +1,7 @@
 ---
 title: "IDataContainer"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "واجهة حاوية بيانات عامة تُعرّف الطرق المشتركة التي يجب على خيارات مكوّن الإضافة لحاوية البيانات المطبقة تنفيذها."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "واجهة حاوية بيانات عامة تُعرّف الطرق المشتركة التي يجب أن تُنفّذها خيارات الإضافات الخاصة بحاوية البيانات الملموسة."
 type: docs
 weight: 20
 url: /ar/java/com.aspose.page.plugins/idatacontainer/

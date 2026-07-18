@@ -1,7 +1,7 @@
 ---
 title: "ByteArrayResult"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يمثل نتيجة العملية على شكل مصفوفة بايت."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يمثل نتيجة العملية على شكل مصفوفة من البايتات."
 type: docs
 weight: 11
 url: /ar/java/com.aspose.page.plugins/bytearrayresult/
@@ -15,12 +15,12 @@ java.lang.Object
 public class ByteArrayResult implements IOperationResult
 ```
 
-يمثل نتيجة العملية على شكل مصفوفة بايت.
-## المنشئات
+يمثل نتيجة العملية على شكل مصفوفة من البايتات.
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [ByteArrayResult(byte[][] data)](#ByteArrayResult-byte-----) | يُنشئ مثيلاً جديدًا باستخدام مصفوفة من مصفوفات البايت. |
+| [ByteArrayResult(byte[][] data)](#ByteArrayResult-byte-----) | يُنشئ نسخة جديدة باستخدام مصفوفة من مصفوفات البايت. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -31,8 +31,8 @@ public class ByteArrayResult implements IOperationResult
 | [hashCode()](#hashCode--) |  |
 | [isByteArray()](#isByteArray--) | يشير إلى ما إذا كانت النتيجة مصفوفة بايتات. |
 | [isFile()](#isFile--) | يشير إلى ما إذا كانت النتيجة مسارًا إلى ملف إخراج. |
-| [isStream()](#isStream--) | يشير إلى ما إذا كان الناتج تدفق إخراج. |
-| [isString()](#isString--) | يشير إلى ما إذا كان الناتج سلسلة نصية. |
+| [isStream()](#isStream--) | يشير إلى ما إذا كان الناتج هو تدفق إخراج. |
+| [isString()](#isString--) | يشير إلى ما إذا كان الناتج هو سلسلة نصية. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toFile()](#toFile--) | يحاول تحويل النتيجة إلى ملف. |
@@ -47,12 +47,12 @@ public ByteArrayResult(byte[][] data)
 ```
 
 
-يُنشئ مثيلاً جديدًا باستخدام مصفوفة من مصفوفات البايت.
+يُنشئ نسخة جديدة باستخدام مصفوفة من مصفوفات البايت.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| بيانات | byte[][] | مصفوفة من مصفوفات البايت. تُستخدم لتحويل المستند إلى صورة. تحتوي مصفوفة بايت واحدة على بايتات صورة صفحة واحدة. |
+| البيانات | byte[][] | مصفوفة من مصفوفات البايت. تُستخدم لتحويل المستند إلى صورة. تحتوي مصفوفة البايت الواحدة على بايتات صورة صفحة واحدة. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -68,7 +68,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -125,7 +125,7 @@ public final boolean isStream()
 ```
 
 
-يشير إلى ما إذا كان الناتج تدفق إخراج.
+يشير إلى ما إذا كان الناتج هو تدفق إخراج.
 
 **Returns:**
 boolean - true إذا كانت النتيجة كائن تدفق؛ وإلا false.
@@ -135,7 +135,7 @@ public final boolean isString()
 ```
 
 
-يشير إلى ما إذا كان الناتج سلسلة نصية.
+يشير إلى ما إذا كان الناتج هو سلسلة نصية.
 
 **Returns:**
 boolean - true إذا كانت النتيجة سلسلة نصية؛ وإلا false.

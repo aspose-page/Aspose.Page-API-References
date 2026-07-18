@@ -1,6 +1,6 @@
 ---
 title: "PsSaveOptions"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "تحتوي هذه الفئة على الخيارات اللازمة لإدارة عملية التحويل."
 type: docs
 weight: 12
@@ -13,47 +13,47 @@ public class PsSaveOptions extends SaveOptions
 ```
 
 تحتوي هذه الفئة على الخيارات اللازمة لإدارة عملية التحويل.
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PsSaveOptions()](#PsSaveOptions--) | إنشاء نسخة جديدة من فئة  PdfSaveOptions  مع القيم الافتراضية للعلامات  suppressErrors  (true) و  debug  (false). |
-| [PsSaveOptions(boolean supressErrors)](#PsSaveOptions-boolean-) | إنشاء نسخة جديدة من فئة  PdfSaveOptions  مع القيم الافتراضية للعلامة  debug  (false). |
+| [PsSaveOptions()](#PsSaveOptions--) | إنشاء نسخة جديدة من الفئة PdfSaveOptions بالقيم الافتراضية للعلامات suppressErrors (true) و debug (false). |
+| [PsSaveOptions(boolean supressErrors)](#PsSaveOptions-boolean-) | إنشاء نسخة جديدة من الفئة PdfSaveOptions بالقيم الافتراضية للعلامة debug (false). |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAdditionalFontsFolders()](#getAdditionalFontsFolders--) | يعيد مجلدات الخطوط الإضافية التي يجب على المحول العثور على الخطوط فيها للمستند المدخل. |
+| [getAdditionalFontsFolders()](#getAdditionalFontsFolders--) | إرجاع مجلدات خطوط إضافية حيث يجب على المحول العثور على الخطوط للمستند المدخل. |
 | [getBackgroundColor()](#getBackgroundColor--) |  |
 | [getClass()](#getClass--) |  |
-| [getConvertFontsToTTF()](#getConvertFontsToTTF--) | يحصل على العلامة التي تُظهر ما إذا كان من الضروري حفظ الخطوط غير TrueType إلى TTF. |
+| [getConvertFontsToTTF()](#getConvertFontsToTTF--) | الحصول على العلامة التي تُظهر ما إذا كان من الضروري حفظ الخطوط غير TrueType إلى TTF. |
 | [getEmbedFontsAs()](#getEmbedFontsAs--) |  |
-| [getExceptions()](#getExceptions--) | يعيد قائمة بالأخطاء غير الحرجة. |
+| [getExceptions()](#getExceptions--) | إرجاع قائمة بالأخطاء غير الحرجة. |
 | [getJpegQualityLevel()](#getJpegQualityLevel--) | يعيد القيمة التي تحدد مستوى الضغط لصورة. |
 | [getMargins()](#getMargins--) |  |
 | [getPageSize()](#getPageSize--) |  |
 | [getSaveFormat()](#getSaveFormat--) |  |
-| [getSize()](#getSize--) | يحصل على حجم الصفحة أو الصورة. |
+| [getSize()](#getSize--) | الحصول على حجم الصفحة أو الصورة. |
 | [hashCode()](#hashCode--) |  |
-| [isDebug()](#isDebug--) | يحصل على العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل. |
+| [isDebug()](#isDebug--) | الحصول على العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل. |
 | [isEmbedFonts()](#isEmbedFonts--) | يشير إلى ما إذا كان يجب تضمين الخطوط المستخدمة في مستند PS |
-| [isSupressErrors()](#isSupressErrors--) | يعيد قيمة تشير إلى ما إذا كانت الأخطاء ستُقمع أثناء التحويل. |
+| [isSupressErrors()](#isSupressErrors--) | إرجاع قيمة تشير إلى ما إذا كانت الأخطاء ستُقمع أثناء التحويل. |
 | [isTransparent()](#isTransparent--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAdditionalFontsFolders(String[] fontsFolders)](#setAdditionalFontsFolders-java.lang.String---) | يحدد مجلدات الخطوط الإضافية التي يجب على المحول العثور على الخطوط فيها للمستند المدخل. |
+| [setAdditionalFontsFolders(String[] fontsFolders)](#setAdditionalFontsFolders-java.lang.String---) | تحديد مجلدات خطوط إضافية حيث يجب على المحول العثور على الخطوط للمستند المدخل. |
 | [setBackgroundColor(Color backgroundColor)](#setBackgroundColor-java.awt.Color-) |  |
-| [setConvertFontsToTTF(boolean value)](#setConvertFontsToTTF-boolean-) | يحدد ما إذا كان سيتم حفظ الخطوط غير TrueType إلى TTF. |
-| [setDebug(boolean debug)](#setDebug-boolean-) | يحدد العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل. |
+| [setConvertFontsToTTF(boolean value)](#setConvertFontsToTTF-boolean-) | تحديد ما إذا كان يجب حفظ الخطوط غير TrueType إلى TTF. |
+| [setDebug(boolean debug)](#setDebug-boolean-) | تحديد العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل. |
 | [setEmbedFonts(boolean embedFonts)](#setEmbedFonts-boolean-) | يحدد ما إذا كان يجب تضمين الخطوط المستخدمة في مستند PS |
-| [setEmbedFontsAs(String embedFontsAs)](#setEmbedFontsAs-java.lang.String-) | حدد نوع الخط الذي سيتم تضمين الخطوط به في مستند PS |
+| [setEmbedFontsAs(String embedFontsAs)](#setEmbedFontsAs-java.lang.String-) | حدد نوع الخط الذي سيتم تضمينه في مستند PS |
 | [setJpegQualityLevel(int value)](#setJpegQualityLevel-int-) | يضبط القيمة التي تحدد مستوى الضغط للصورة. |
 | [setMargins(Insets margins)](#setMargins-java.awt.Insets-) |  |
 | [setPageSize(Dimension pageSize)](#setPageSize-java.awt.Dimension-) |  |
 | [setSaveFormat(PsSaveFormat saveFormat)](#setSaveFormat-com.aspose.eps.device.PsSaveFormat-) | حدد تنسيق حفظ الملف الناتج |
-| [setSize(Dimension size)](#setSize-java.awt.Dimension-) | يحدد حجم الصفحة أو الصورة. |
-| [setSupressErrors(boolean supressErrors)](#setSupressErrors-boolean-) | يحدد العلم الذي يشير إلى ما إذا كان سيتم قمع الأخطاء أثناء التحويل. |
+| [setSize(Dimension size)](#setSize-java.awt.Dimension-) | تحديد حجم الصفحة أو الصورة. |
+| [setSupressErrors(boolean supressErrors)](#setSupressErrors-boolean-) | يحدد العلامة التي تشير إلى ما إذا كان سيتم قمع الأخطاء أثناء التحويل. |
 | [setTransparent(boolean transparent)](#setTransparent-boolean-) |  |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -65,7 +65,7 @@ public PsSaveOptions()
 ```
 
 
-إنشاء نسخة جديدة من فئة  PdfSaveOptions  مع القيم الافتراضية للعلامات  suppressErrors  (true) و  debug  (false).
+إنشاء نسخة جديدة من الفئة PdfSaveOptions بالقيم الافتراضية للعلامات suppressErrors (true) و debug (false).
 
 ### PsSaveOptions(boolean supressErrors) {#PsSaveOptions-boolean-}
 ```
@@ -73,12 +73,12 @@ public PsSaveOptions(boolean supressErrors)
 ```
 
 
-إنشاء نسخة جديدة من فئة  PdfSaveOptions  مع القيم الافتراضية للعلامة  debug  (false).
+إنشاء نسخة جديدة من الفئة PdfSaveOptions بالقيم الافتراضية للعلامة debug (false).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| supressErrors | boolean | إذا كان صحيحًا، سيستمر التحويل على الرغم من الأخطاء غير الحرجة. |
+| supressErrors | منطقي | إذا كان صحيحًا، سيستمر التحويل على الرغم من الأخطاء غير الحرجة. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -94,14 +94,14 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getAdditionalFontsFolders() {#getAdditionalFontsFolders--}
 ```
 public String[] getAdditionalFontsFolders()
 ```
 
 
-يرجع مجلدات الخطوط الإضافية التي يجب على المحول العثور على الخطوط فيها للمستند المدخل. المجلد الافتراضي هو مجلد الخطوط القياسي حيث يجد نظام التشغيل الخطوط للاستخدامات الداخلية.
+يعيد مجلدات الخطوط الإضافية التي يجب على المحول العثور على الخطوط فيها للمستند المدخل. المجلد الافتراضي هو مجلد الخطوط القياسي حيث يجد نظام التشغيل الخطوط للاستخدامات الداخلية.
 
 **Returns:**
 java.lang.String[] - مصفوفة من مجلدات الخطوط.
@@ -131,10 +131,10 @@ public boolean getConvertFontsToTTF()
 ```
 
 
-يحصل على العلامة التي تُظهر ما إذا كان من الضروري حفظ الخطوط غير TrueType إلى TTF.
+الحصول على العلامة التي تُظهر ما إذا كان من الضروري حفظ الخطوط غير TrueType إلى TTF.
 
 **Returns:**
-boolean - قيمة العلم.
+boolean - قيمة العلامة.
 ### getEmbedFontsAs() {#getEmbedFontsAs--}
 ```
 public String getEmbedFontsAs()
@@ -144,14 +144,14 @@ public String getEmbedFontsAs()
 
 
 **Returns:**
-java.lang.String - نوع الخط الذي سيتم تضمين الخطوط به في مستند PS
+java.lang.String - نوع الخط الذي سيتم تضمينه في مستند PS
 ### getExceptions() {#getExceptions--}
 ```
 public List<Exception> getExceptions()
 ```
 
 
-يعيد قائمة بالأخطاء غير الحرجة.
+إرجاع قائمة بالأخطاء غير الحرجة.
 
 **Returns:**
 java.util.List<java.lang.Exception> - قائمة الاستثناءات
@@ -161,7 +161,7 @@ public int getJpegQualityLevel()
 ```
 
 
-يعيد القيمة التي تحدد مستوى الضغط للصورة. القيم المتاحة من 0 إلى 100. كلما كان الرقم المحدد أقل، زاد الضغط وبالتالي انخفضت جودة الصورة. القيمة 0 تؤدي إلى أدنى جودة للصورة، بينما القيمة 100 تؤدي إلى أعلى جودة.
+يعيد القيمة التي تحدد مستوى الضغط للصورة. القيم المتاحة هي من 0 إلى 100. كلما كان الرقم المحدد أقل، زاد الضغط وبالتالي تكون جودة الصورة أقل. القيمة 0 تنتج صورة بأدنى جودة، بينما القيمة 100 تنتج أعلى جودة.
 
 **Returns:**
 int - القيمة التي تحدد مستوى الضغط للصورة.
@@ -201,7 +201,7 @@ public Dimension getSize()
 ```
 
 
-يحصل على حجم الصفحة أو الصورة.
+الحصول على حجم الصفحة أو الصورة.
 
 **Returns:**
 java.awt.Dimension - حجم الصفحة أو الصورة.
@@ -221,7 +221,7 @@ public boolean isDebug()
 ```
 
 
-يحصل على العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل.
+الحصول على العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل.
 
 **Returns:**
 boolean - قيمة التصحيح.
@@ -234,14 +234,14 @@ public boolean isEmbedFonts()
 يشير إلى ما إذا كان يجب تضمين الخطوط المستخدمة في مستند PS
 
 **Returns:**
-boolean - قيمة علامة embedFonts
+boolean - قيمة علم embedFonts
 ### isSupressErrors() {#isSupressErrors--}
 ```
 public boolean isSupressErrors()
 ```
 
 
-يعيد قيمة تشير إلى ما إذا كانت الأخطاء ستُقمع أثناء التحويل.
+إرجاع قيمة تشير إلى ما إذا كانت الأخطاء ستُقمع أثناء التحويل.
 
 **Returns:**
 منطقي - قيمة منطقية
@@ -303,12 +303,12 @@ public void setConvertFontsToTTF(boolean value)
 ```
 
 
-يحدد ما إذا كان سيتم حفظ الخطوط غير TrueType كـ TTF. هذا يقلل بشكل كبير من حجم المستند الناتج في تحويل PS إلى PDF ويزيد من سرعة تحويل ملفات PS التي تحتوي على كمية كبيرة من النص بخطوط غير TrueType إلى أي تنسيق إخراج. ومع ذلك، هناك إزاحة رأسية صغيرة للنص عند تحويل ملف PostScript إلى صورة.
+يحدد ما إذا كان سيتم حفظ الخطوط غير TrueType إلى TTF. يقلل ذلك بشكل كبير من حجم المستند الناتج في تحويل PS إلى PDF ويزيد من سرعة تحويل ملفات PS التي تحتوي على كمية كبيرة من النص بخطوط غير TrueType إلى أي تنسيق إخراج. ومع ذلك، هناك إزاحة رأسية صغيرة للنص عند تحويل ملف PostSctipt إلى صورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة العلم. |
+| القيمة | منطقي | قيمة العلامة. |
 
 ### setDebug(boolean debug) {#setDebug-boolean-}
 ```
@@ -316,12 +316,12 @@ public void setDebug(boolean debug)
 ```
 
 
-يحدد العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل.
+تحديد العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| debug | boolean | قيمة منطقية. |
+| debug | منطقي | قيمة منطقية. |
 
 ### setEmbedFonts(boolean embedFonts) {#setEmbedFonts-boolean-}
 ```
@@ -334,7 +334,7 @@ public void setEmbedFonts(boolean embedFonts)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| embedFonts | boolean | علامة embedFonts |
+| embedFonts | منطقي | علم embedFonts |
 
 ### setEmbedFontsAs(String embedFontsAs) {#setEmbedFontsAs-java.lang.String-}
 ```
@@ -342,7 +342,7 @@ public void setEmbedFontsAs(String embedFontsAs)
 ```
 
 
-حدد نوع الخط الذي سيتم تضمين الخطوط به في مستند PS
+حدد نوع الخط الذي سيتم تضمينه في مستند PS
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -355,7 +355,7 @@ public void setJpegQualityLevel(int value)
 ```
 
 
-يضبط القيمة التي تحدد مستوى الضغط للصورة. القيم المتاحة من 0 إلى 100. كلما كان الرقم المحدد أقل، زاد الضغط وبالتالي انخفضت جودة الصورة. القيمة 0 تؤدي إلى أدنى جودة للصورة، بينما القيمة 100 تؤدي إلى أعلى جودة.
+يضبط القيمة التي تحدد مستوى الضغط للصورة. القيم المتاحة هي من 0 إلى 100. كلما كان الرقم المحدد أقل، زاد الضغط وبالتالي تكون جودة الصورة أقل. القيمة 0 تنتج صورة بأدنى جودة، بينما القيمة 100 تنتج أعلى جودة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -373,7 +373,7 @@ public void setMargins(Insets margins)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| هوامش | java.awt.Insets | يحدد هوامش الصفحة |
+| margins | java.awt.Insets | يحدد هوامش الصفحة |
 
 ### setPageSize(Dimension pageSize) {#setPageSize-java.awt.Dimension-}
 ```
@@ -407,7 +407,7 @@ public void setSize(Dimension size)
 ```
 
 
-يحدد حجم الصفحة أو الصورة.
+تحديد حجم الصفحة أو الصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -420,12 +420,12 @@ public void setSupressErrors(boolean supressErrors)
 ```
 
 
-يحدد العلم الذي يشير إلى ما إذا كان سيتم قمع الأخطاء أثناء التحويل.
+يحدد العلامة التي تشير إلى ما إذا كان سيتم قمع الأخطاء أثناء التحويل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| supressErrors | boolean | قيمة منطقية. |
+| supressErrors | منطقي | قيمة منطقية. |
 
 ### setTransparent(boolean transparent) {#setTransparent-boolean-}
 ```
@@ -438,7 +438,7 @@ public void setTransparent(boolean transparent)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| شفاف | boolean | يحدد ما إذا كانت الخلفية شفافة |
+| شفاف | منطقي | يحدد ما إذا كان الخلفية شفافة |
 
 ### toString() {#toString--}
 ```

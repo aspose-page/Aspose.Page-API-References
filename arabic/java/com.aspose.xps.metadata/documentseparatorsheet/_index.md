@@ -1,6 +1,6 @@
 ---
 title: "DocumentSeparatorSheet"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف استخدام ورقة الفاصل للمستند."
 type: docs
 weight: 34
@@ -16,16 +16,16 @@ public final class DocumentSeparatorSheet extends Feature implements IJobPrintTi
 ```
 
 يصف استخدام ورقة الفاصل للمستند. يجب أن تظهر أوراق الفاصل في الإخراج كما هو موضح في الخيار المحدد أدناه. https://docs.microsoft.com/en-us/windows/win32/printdocs/documentseparatorsheet
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [DocumentSeparatorSheet(DocumentSeparatorSheet.DocumentSeparatorSheetOption[] options)](#DocumentSeparatorSheet-com.aspose.xps.metadata.DocumentSeparatorSheet.DocumentSeparatorSheetOption...-) | ينشئ نسخة جديدة. |
+| [DocumentSeparatorSheet(DocumentSeparatorSheet.DocumentSeparatorSheetOption[] options)](#DocumentSeparatorSheet-com.aspose.xps.metadata.DocumentSeparatorSheet.DocumentSeparatorSheetOption...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public DocumentSeparatorSheet(DocumentSeparatorSheet.DocumentSeparatorSheetOptio
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

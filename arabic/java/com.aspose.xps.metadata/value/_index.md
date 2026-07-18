@@ -1,7 +1,7 @@
 ---
 title: "القيمة"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "الفئة الأساسية التي تغلف قيمة خاصية أو ScoredProperty في مستند PrintTicket."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "الفئة الأساسية التي تُغلف قيمة **Property** أو **ScoredProperty** في مستند **PrintTicket**."
 type: docs
 weight: 152
 url: /ar/java/com.aspose.xps.metadata/value/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public class Value extends PrintTicketElement implements IScoredPropertyItem, IPropertyItem
 ```
 
-الفئة الأساسية التي تغلف خاصية أو ScoredProperty في مستند PrintTicket. عنصر Value يربط قيمة حرفية بنوع. https://docs.microsoft.com/en-us/windows/win32/printdocs/value
+الفئة الأساسية التي تُغلف قيمة **Property** أو **ScoredProperty** في مستند **PrintTicket**. عنصر **Value** يربط قيمة حرفية بنوع. https://docs.microsoft.com/en-us/windows/win32/printdocs/value
 ## الطرق
 
 | طريقة | الوصف |
@@ -45,7 +45,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

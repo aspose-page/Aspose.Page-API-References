@@ -1,6 +1,6 @@
 ---
 title: "JobErrorSheet.ErrorSheetWhen"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف ميزة ErrorSheetWhen الداخلية."
 type: docs
 weight: 11
@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class JobErrorSheet.ErrorSheetWhen extends Feature implements JobErrorSheet.IJobErrorSheetItem
 ```
 
-يصف ميزة ErrorSheetWhen الداخلية.
-## المنشئات
+يصف الميزة الداخلية ErrorSheetWhen.
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [ErrorSheetWhen(JobErrorSheet.ErrorSheetWhen.ErrorSheetWhenOption[] options)](#ErrorSheetWhen-com.aspose.xps.metadata.JobErrorSheet.ErrorSheetWhen.ErrorSheetWhenOption...-) | ينشئ نسخة جديدة. |
+| [ErrorSheetWhen(JobErrorSheet.ErrorSheetWhen.ErrorSheetWhenOption[] options)](#ErrorSheetWhen-com.aspose.xps.metadata.JobErrorSheet.ErrorSheetWhen.ErrorSheetWhenOption...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public ErrorSheetWhen(JobErrorSheet.ErrorSheetWhen.ErrorSheetWhenOption[] option
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

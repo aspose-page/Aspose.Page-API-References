@@ -1,6 +1,6 @@
 ---
 title: "PageDestinationColorProfileURI"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يحدد إشارة URI نسبية إلى ملف تعريف ICC موجود في مستند XPS."
 type: docs
 weight: 93
@@ -15,12 +15,12 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class PageDestinationColorProfileURI extends StringParameterInit implements IJobPrintTicketItem, IDocumentPrintTicketItem, IPagePrintTicketItem
 ```
 
-يحدد إشارة URI نسبية إلى ملف تعريف ICC موجود في مستند XPS. يعتمد معالجة هذا الخيار على إعداد ميزة PageDeviceColorSpaceUsage. يُفترض أن جميع العناصر التي تستخدم هذا الملف موجودة بالفعل في مساحة اللون المناسبة للجهاز، ولن يتم إدارة اللون لها في برنامج التشغيل أو الجهاز. https://docs.microsoft.com/en-us/windows/win32/printdocs/pagedestinationcolorprofileuri
-## المنشئات
+يحدد مرجع URI نسبي لملف تعريف ICC موجود في مستند XPS. يعتمد معالجة هذا الخيار على إعداد ميزة PageDeviceColorSpaceUsage. يُفترض أن جميع العناصر التي تستخدم هذا الملف موجودة بالفعل في مساحة اللون المناسبة للجهاز، ولن يتم إدارة اللون لها في برنامج التشغيل أو الجهاز. https://docs.microsoft.com/en-us/windows/win32/printdocs/pagedestinationcolorprofileuri
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PageDestinationColorProfileURI(String value)](#PageDestinationColorProfileURI-java.lang.String-) | ينشئ نسخة جديدة. |
+| [PageDestinationColorProfileURI(String value)](#PageDestinationColorProfileURI-java.lang.String-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -43,7 +43,7 @@ public PageDestinationColorProfileURI(String value)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -64,7 +64,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

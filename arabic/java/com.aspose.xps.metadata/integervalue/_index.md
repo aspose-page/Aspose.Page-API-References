@@ -1,7 +1,7 @@
 ---
 title: "IntegerValue"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "الفئة التي تغلف قيمة عدد صحيح في مستند PrintTicket."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "الفئة التي تُغلف قيمة عدد صحيح في مستند PrintTicket."
 type: docs
 weight: 43
 url: /ar/java/com.aspose.xps.metadata/integervalue/
@@ -12,12 +12,12 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class IntegerValue extends Value
 ```
 
-الفئة التي تغلف قيمة عدد صحيح في مستند PrintTicket.
-## المنشئات
+الفئة التي تُغلف قيمة عدد صحيح في مستند PrintTicket.
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [IntegerValue(int value)](#IntegerValue-int-) | ينشئ نسخة جديدة. |
+| [IntegerValue(int value)](#IntegerValue-int-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -39,12 +39,12 @@ public IntegerValue(int value)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | int | قيمة عدد صحيح. |
+| القيمة | int | قيمة عددية صحيحة. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -60,7 +60,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

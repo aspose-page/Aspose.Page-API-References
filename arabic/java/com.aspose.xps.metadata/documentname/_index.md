@@ -1,6 +1,6 @@
 ---
 title: "DocumentName"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يحدد اسمًا وصفيًا للمستند."
 type: docs
 weight: 29
@@ -13,11 +13,11 @@ public final class DocumentName extends NameProperty
 ```
 
 يحدد اسمًا وصفيًا للمستند. https://docs.microsoft.com/en-us/windows/win32/printdocs/documentname
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [DocumentName(String documentName)](#DocumentName-java.lang.String-) | ينشئ نسخة جديدة. |
+| [DocumentName(String documentName)](#DocumentName-java.lang.String-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -38,7 +38,7 @@ public DocumentName(String documentName)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -59,7 +59,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

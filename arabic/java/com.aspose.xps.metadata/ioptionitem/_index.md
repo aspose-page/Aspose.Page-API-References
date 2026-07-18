@@ -1,6 +1,6 @@
 ---
 title: "IOptionItem"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "الواجهة للصفوف التي قد تكون عناصر خيار مخطط الطباعة."
 type: docs
 weight: 156
@@ -12,4 +12,4 @@ url: /ar/java/com.aspose.xps.metadata/ioptionitem/
 public interface IOptionItem extends IPrintTicketElementChild
 ```
 
-واجهة الفئات التي قد تكون عناصر Print Schema Option.
+واجهة الفئات التي قد تكون عناصر خيار مخطط الطباعة.

@@ -1,6 +1,6 @@
 ---
 title: "AsposePageException"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يمثل الأخطاء التي تحدث أثناء تنفيذ تطبيق Aspose.Page."
 type: docs
 weight: 10
@@ -65,7 +65,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### fillInStackTrace() {#fillInStackTrace--}
 ```
 public synchronized Throwable fillInStackTrace()

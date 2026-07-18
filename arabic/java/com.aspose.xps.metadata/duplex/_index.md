@@ -1,7 +1,7 @@
 ---
 title: "Duplex"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "الفئة الأساسية للميزات JobDuplexAllDocumentsContiguously و DocumentDuplex."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "الفئة الأساسية لفئات ميزات JobDuplexAllDocumentsContiguously و DocumentDuplex."
 type: docs
 weight: 37
 url: /ar/java/com.aspose.xps.metadata/duplex/
@@ -12,12 +12,12 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public abstract class Duplex extends Feature
 ```
 
-الفئة الأساسية لفئات ميزات  JobDuplexAllDocumentsContiguously  و  DocumentDuplex .
+الفئة الأساسية لـ  JobDuplexAllDocumentsContiguously  و  DocumentDuplex  فئات الميزات.
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -55,7 +55,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

@@ -1,7 +1,7 @@
 ---
 title: "DocumentUtils"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "هذه الفئة توفر أدوات تتجاوز واجهة برمجة التطبيقات الرسمية لمعالجة XPS."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "هذه الفئة توفر أدوات تتجاوز واجهة برمجة التطبيقات الرسمية لتعامل XPS."
 type: docs
 weight: 10
 url: /ar/java/com.aspose.xps/documentutils/
@@ -12,7 +12,7 @@ java.lang.Object
 public class DocumentUtils
 ```
 
-هذه الفئة توفر أدوات تتجاوز واجهة برمجة التطبيقات الرسمية لمعالجة XPS.
+هذه الفئة توفر أدوات تتجاوز واجهة برمجة التطبيقات الرسمية لتعامل XPS.
 ## الطرق
 
 | طريقة | الوصف |
@@ -22,10 +22,10 @@ public class DocumentUtils
 | [createEllipse(Point2D center, float radiusX, float radiusY)](#createEllipse-java.awt.geom.Point2D-float-float-) | ينشئ هندسة مسار تمثل قطعًا ناقصًا. |
 | [createImage(String fileName, Rectangle2D imageBox)](#createImage-java.lang.String-java.awt.geom.Rectangle2D-) | ينشئ مسارًا مستطيلًا مملوءًا بصورة. |
 | [createImage(String fileName, Rectangle2D imageBox, ImageMode mode)](#createImage-java.lang.String-java.awt.geom.Rectangle2D-com.aspose.xps.ImageMode-) | ينشئ مسارًا مستطيلًا مملوءًا بصورة. |
-| [createPieSlice(Point2D center, float radius, float startAngle, float endAngle)](#createPieSlice-java.awt.geom.Point2D-float-float-float-) | ينشئ هندسة مسار تمثل شريحة دائرة بين شعاعين قطبيين. |
+| [createPieSlice(Point2D center, float radius, float startAngle, float endAngle)](#createPieSlice-java.awt.geom.Point2D-float-float-float-) | ينشئ هندسة مسار تمثل شريحة دائرة بين شعاعين شعاعيين. |
 | [createRectangle(Rectangle2D rectangle)](#createRectangle-java.awt.geom.Rectangle2D-) | ينشئ هندسة مسار تمثل مستطيلًا. |
-| [createRegularCircumscribedNGon(int n, Point2D center, float radius)](#createRegularCircumscribedNGon-int-java.awt.geom.Point2D-float-) | ينشئ هندسة مسار تمثل مضلعًا منتظمًا n-أضلاع محيطًا بدائرة. |
-| [createRegularInscribedNGon(int n, Point2D center, float radius)](#createRegularInscribedNGon-int-java.awt.geom.Point2D-float-) | ينشئ هندسة مسار تمثل مضلعًا منتظمًا n-أضلاع محاطًا بدائرة. |
+| [createRegularCircumscribedNGon(int n, Point2D center, float radius)](#createRegularCircumscribedNGon-int-java.awt.geom.Point2D-float-) | ينشئ هندسة مسار تمثل مضلعًا منتظمًا n-زاوية محاطًا بدائرة. |
+| [createRegularInscribedNGon(int n, Point2D center, float radius)](#createRegularInscribedNGon-int-java.awt.geom.Point2D-float-) | ينشئ هندسة مسار تمثل مضلعًا منتظمًا n-زاوية داخل دائرة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -80,9 +80,9 @@ public XpsPathGeometry createEllipse(Point2D center, float radiusX, float radius
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| center | java.awt.geom.Point2D | نقطة المركز للقطع الناقص. |
-| radiusX | float | نصف القطر الأفقي للقطع الناقص. |
-| radiusY | float | نصف القطر العمودي للقطع الناقص. |
+| center | java.awt.geom.Point2D | نقطة المركز للإهليلج. |
+| radiusX | float | نصف القطر الأفقي للإهليلج. |
+| radiusY | float | نصف القطر العمودي للإهليلج. |
 
 **Returns:**
 [XpsPathGeometry](../../com.aspose.xps/xpspathgeometry) - The XPS path geometry.
@@ -125,7 +125,7 @@ public XpsPathGeometry createPieSlice(Point2D center, float radius, float startA
 ```
 
 
-ينشئ هندسة مسار تمثل شريحة دائرة بين شعاعين قطبيين.
+ينشئ هندسة مسار تمثل شريحة دائرة بين شعاعين شعاعيين.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -158,7 +158,7 @@ public XpsPathGeometry createRegularCircumscribedNGon(int n, Point2D center, flo
 ```
 
 
-ينشئ هندسة مسار تمثل مضلعًا منتظمًا n-أضلاع محيطًا بدائرة.
+ينشئ هندسة مسار تمثل مضلعًا منتظمًا n-زاوية محاطًا بدائرة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -175,7 +175,7 @@ public XpsPathGeometry createRegularInscribedNGon(int n, Point2D center, float r
 ```
 
 
-ينشئ هندسة مسار تمثل مضلعًا منتظمًا n-أضلاع محاطًا بدائرة.
+ينشئ هندسة مسار تمثل مضلعًا منتظمًا n-زاوية داخل دائرة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -200,7 +200,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

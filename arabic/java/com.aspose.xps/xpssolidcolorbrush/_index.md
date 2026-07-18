@@ -1,18 +1,18 @@
 ---
 title: "XpsSolidColorBrush"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "الفئة التي تُجمل ميزات عنصر خاصية SolidColorBrush."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "فئة تغلف ميزات عنصر خاصية SolidColorBrush."
 type: docs
 weight: 50
 url: /ar/java/com.aspose.xps/xpssolidcolorbrush/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject)، [com.aspose.xps.XpsBrush](../../com.aspose.xps/xpsbrush)
+java.lang.Object, [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject), [com.aspose.xps.XpsBrush](../../com.aspose.xps/xpsbrush)
 ```
 public final class XpsSolidColorBrush extends XpsBrush
 ```
 
-فئة تُجسد ميزات عنصر خاصية SolidColorBrush. يُستخدم هذا العنصر لملء المناطق الهندسية المحددة بلون صلب.
+فئة تُحتوي على ميزات عنصر خاصية SolidColorBrush. يُستخدم هذا العنصر لملء المناطق الهندسية المحددة بلون صلب.
 ## الطرق
 
 | طريقة | الوصف |
@@ -55,7 +55,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

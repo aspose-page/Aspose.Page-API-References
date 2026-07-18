@@ -1,7 +1,7 @@
 ---
 title: "BeforeSavingEventArgs"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يحدد الفئة الأساسية للمعاملات الخاصة بمختلف أحداث الحفظ المسبق."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يحدد الفئة الأساسية للوسائط الخاصة بمختلف أحداث before-saving."
 type: docs
 weight: 11
 url: /ar/java/com.aspose.xps.features.eventbasedmodifications/beforesavingeventargs/
@@ -12,7 +12,7 @@ java.lang.Object
 public class BeforeSavingEventArgs<T>
 ```
 
-يحدد الفئة الأساسية للمعاملات الخاصة بمختلف أحداث الحفظ المسبق.
+يحدد الفئة الأساسية للوسائط الخاصة بمختلف أحداث before-saving.
 ## الطرق
 
 | طريقة | الوصف |
@@ -21,7 +21,7 @@ public class BeforeSavingEventArgs<T>
 | [getAbsolutePageNumber()](#getAbsolutePageNumber--) | يعيد رقم الصفحة المطلق الحالي عبر جميع المستندات داخل حزمة XPS. |
 | [getClass()](#getClass--) |  |
 | [getDocumentNumber()](#getDocumentNumber--) | يعيد رقم المستند الحالي داخل حزمة XPS. |
-| [getElementAPI()](#getElementAPI--) | يعيد واجهة برمجة تطبيقات التعديل للعنصر الذي على وشك الحفظ. |
+| [getElementAPI()](#getElementAPI--) | يعيد API التعديل للعنصر الذي على وشك الحفظ. |
 | [getOutputPageNumber()](#getOutputPageNumber--) | يعيد رقم الإخراج الحالي. |
 | [getRelativePageNumber()](#getRelativePageNumber--) | يعيد رقم الصفحة الحالي بالنسبة إلى المستند الحالي داخل حزمة XPS. |
 | [hashCode()](#hashCode--) |  |
@@ -45,7 +45,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getAbsolutePageNumber() {#getAbsolutePageNumber--}
 ```
 public int getAbsolutePageNumber()
@@ -82,10 +82,10 @@ public T getElementAPI()
 ```
 
 
-يعيد واجهة برمجة تطبيقات التعديل للعنصر الذي على وشك الحفظ.
+يعيد API التعديل للعنصر الذي على وشك الحفظ.
 
 **Returns:**
-T - واجهة برمجة تطبيقات التعديل للعنصر الذي على وشك الحفظ.
+T - API التعديل للعنصر الذي على وشك الحفظ.
 ### getOutputPageNumber() {#getOutputPageNumber--}
 ```
 public int getOutputPageNumber()

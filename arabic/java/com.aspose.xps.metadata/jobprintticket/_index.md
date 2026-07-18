@@ -1,7 +1,7 @@
 ---
 title: "JobPrintTicket"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "الفئة التي تُغلف تذكرة طباعة على مستوى الوظيفة."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "الفئة التي تغلف تذكرة طباعة على مستوى الوظيفة."
 type: docs
 weight: 70
 url: /ar/java/com.aspose.xps.metadata/jobprintticket/
@@ -12,24 +12,24 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicket](../../com.aspose.xps.met
 public final class JobPrintTicket extends PrintTicket
 ```
 
-الفئة التي تُغلف تذكرة طباعة على مستوى الوظيفة.
-## المنشئات
+الفئة التي تغلف تذكرة طباعة على مستوى الوظيفة.
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [JobPrintTicket(IJobPrintTicketItem[] items)](#JobPrintTicket-com.aspose.xps.metadata.IJobPrintTicketItem...-) | ينشئ مثيلًا لتذكرة طباعة على مستوى الوظيفة. |
+| [JobPrintTicket(IJobPrintTicketItem[] items)](#JobPrintTicket-com.aspose.xps.metadata.IJobPrintTicketItem...-) | ينشئ كائن تذكرة طباعة على مستوى الوظيفة. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IJobPrintTicketItem[] items)](#add-com.aspose.xps.metadata.IJobPrintTicketItem...-) | يضيف مصفوفة من العناصر إلى نهاية قائمة عناصر تذكرة الطباعة هذه. |
+| [add(IJobPrintTicketItem[] items)](#add-com.aspose.xps.metadata.IJobPrintTicketItem...-) | يضيف مصفوفة من العناصر إلى نهاية قائمة عناصر PrintTicket هذه. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | يعيد مكرّر أسماء عناصر تذكرة الطباعة. |
+| [iterator()](#iterator--) | يعيد مكرِّر أسماء عناصر تذكرة الطباعة. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove(String[] names)](#remove-java.lang.String...-) | يزيل عنصرًا من قائمة عناصر تذكرة الطباعة هذه. |
+| [remove(String[] names)](#remove-java.lang.String...-) | يزيل عنصرًا من قائمة عناصر PrintTicket هذه. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -40,7 +40,7 @@ public JobPrintTicket(IJobPrintTicketItem[] items)
 ```
 
 
-ينشئ مثيلًا لتذكرة طباعة على مستوى الوظيفة.
+ينشئ كائن تذكرة طباعة على مستوى الوظيفة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -53,7 +53,7 @@ public void add(IJobPrintTicketItem[] items)
 ```
 
 
-يضيف مصفوفة من العناصر إلى نهاية قائمة عناصر PrintTicket هذه. يمكن أن يكون كل عنصر إما Feature أو ParameterInit أو Property.
+يضيف مصفوفة من العناصر إلى نهاية قائمة عناصر PrintTicket هذه. قد يكون كل عنصر إما  Feature  أو  ParameterInit  أو  Property .
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -74,7 +74,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -101,10 +101,10 @@ public Iterator<String> iterator()
 ```
 
 
-يعيد مكرّر أسماء عناصر تذكرة الطباعة.
+يعيد مكرِّر أسماء عناصر تذكرة الطباعة.
 
 **Returns:**
-java.util.Iterator<java.lang.String> - يعيد مكرّر للقائمة.
+java.util.Iterator<java.lang.String> - يعيد مكرِّرًا للقائمة.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -127,7 +127,7 @@ public void remove(String[] names)
 ```
 
 
-يزيل عنصرًا من قائمة عناصر تذكرة الطباعة هذه.
+يزيل عنصرًا من قائمة عناصر PrintTicket هذه.
 
 **Parameters:**
 | معامل | نوع | الوصف |

@@ -1,18 +1,18 @@
 ---
 title: "XpsIccBasedColor"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "تُغلف اللون القائم على ICC."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "تجسد اللون المستند إلى ICC."
 type: docs
 weight: 30
 url: /ar/java/com.aspose.xps/xpsiccbasedcolor/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.xps.XpsColor](../../com.aspose.xps/xpscolor)
+java.lang.Object, [com.aspose.xps.XpsColor](../../com.aspose.xps/xpscolor)
 ```
 public final class XpsIccBasedColor extends XpsColor
 ```
 
-تُغلف اللون القائم على ICC.
+تجسد اللون المستند إلى ICC.
 ## الطرق
 
 | طريقة | الوصف |
@@ -42,7 +42,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -98,7 +98,7 @@ public Color toColor()
 طريقة مريحة للحصول على تمثيل .NET الأصلي للون المستند إلى ICC.
 
 **Returns:**
-java.awt.Color - بنية System.Drawing.ColorSystem.Drawing.Color.
+java.awt.Color -  System.Drawing.ColorSystem.Drawing.Color  structure.
 ### toString() {#toString--}
 ```
 public String toString()

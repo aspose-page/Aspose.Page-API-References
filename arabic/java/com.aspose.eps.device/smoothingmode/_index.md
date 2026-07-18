@@ -1,6 +1,6 @@
 ---
 title: "SmoothingMode"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "تعداد وضع التنعيم."
 type: docs
 weight: 15
@@ -17,9 +17,9 @@ public enum SmoothingMode extends Enum<SmoothingMode>
 
 | حقل | الوصف |
 | --- | --- |
-| [ANTIALIAS](#ANTIALIAS) | وضع تنعيم مضاد للتعرج |
-| [HIGH_QUALITY](#HIGH-QUALITY) | وضع التنعيم بجودة عالية ولكن بسرعة منخفضة |
-| [HIGH_SPEED](#HIGH-SPEED) | وضع التنعيم بسرعة عالية ولكن بجودة منخفضة |
+| [ANTIALIAS](#ANTIALIAS) | وضع تنعيم Antialias |
+| [HIGH_QUALITY](#HIGH-QUALITY) | وضع تنعيم عالي الجودة، لكن منخفض السرعة |
+| [HIGH_SPEED](#HIGH-SPEED) | وضع تنعيم عالي السرعة، لكن منخفض الجودة |
 ## الطرق
 
 | طريقة | الوصف |
@@ -47,7 +47,7 @@ public static final SmoothingMode ANTIALIAS
 ```
 
 
-وضع تنعيم مضاد للتعرج
+وضع تنعيم Antialias
 
 ### HIGH_QUALITY {#HIGH-QUALITY}
 ```
@@ -55,7 +55,7 @@ public static final SmoothingMode HIGH_QUALITY
 ```
 
 
-وضع التنعيم بجودة عالية ولكن بسرعة منخفضة
+وضع تنعيم عالي الجودة، لكن منخفض السرعة
 
 ### HIGH_SPEED {#HIGH-SPEED}
 ```
@@ -63,7 +63,7 @@ public static final SmoothingMode HIGH_SPEED
 ```
 
 
-وضع التنعيم بسرعة عالية ولكن بجودة منخفضة
+وضع تنعيم عالي السرعة، لكن منخفض الجودة
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```
@@ -120,7 +120,7 @@ public final boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

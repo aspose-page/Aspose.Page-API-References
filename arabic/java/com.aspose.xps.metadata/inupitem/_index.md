@@ -1,6 +1,6 @@
 ---
 title: "NUp.INUpItem"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "واجهة أي عنصر ميزة JobNUpAllDocumentsContiguously أو DocumentNUp."
 type: docs
 weight: 11

@@ -1,13 +1,13 @@
 ---
 title: "XpsDocument"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "فئة تُغلف الكيان الرئيسي لمستند XPS الذي يوفر طرق معالجة لأي عنصر XPS."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "فئة تجسد الكيان الرئيسي لمستند XPS الذي يوفر طرق التعامل لأي عنصر XPS."
 type: docs
 weight: 19
 url: /ar/java/com.aspose.xps/xpsdocument/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.page.Document](../../com.aspose.page/document)
+java.lang.Object, [com.aspose.page.Document](../../com.aspose.page/document)
 
 **All Implemented Interfaces:**
 java.io.Closeable
@@ -15,14 +15,14 @@ java.io.Closeable
 public final class XpsDocument extends Document implements Closeable
 ```
 
-فئة تُغلف الكيان الرئيسي لمستند XPS الذي يوفر طرق معالجة لأي عنصر XPS.
-## المنشئات
+فئة تجسد الكيان الرئيسي لمستند XPS الذي يوفر طرق التعامل لأي عنصر XPS.
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [XpsDocument()](#XpsDocument--) | ينشئ مستند XPS فارغ بحجم صفحة افتراضي. |
-| [XpsDocument(String path)](#XpsDocument-java.lang.String-) | يفتح مستند XPS موجود يقع في المسار. |
-| [XpsDocument(InputStream stream, LoadOptions options)](#XpsDocument-java.io.InputStream-com.aspose.xps.LoadOptions-) | يقوم بتحميل مستند موجود مخزن في الـ stream كوثيقة XPS. |
+| [XpsDocument(String path)](#XpsDocument-java.lang.String-) | يفتح مستند XPS موجود في المسار. |
+| [XpsDocument(InputStream stream, LoadOptions options)](#XpsDocument-java.io.InputStream-com.aspose.xps.LoadOptions-) | يقوم بتحميل مستند موجود مخزن في الدفق كوثيقة XPS. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -30,25 +30,25 @@ public final class XpsDocument extends Document implements Closeable
 | [<T>add(T element)](#-T-add-T-) | يضيف عنصر محتوى (Canvas، Path، أو Glyphs) |
 | [<T>insert(int index, T element)](#-T-insert-int-T-) | يدرج عنصرًا (Canvas أو Path أو Glyphs) إلى الصفحة النشطة في موضع الفهرس. |
 | [<T>remove(T element)](#-T-remove-T-) | يزيل عنصرًا من الصفحة النشطة. |
-| [addCanvas()](#addCanvas--) | يضيف لوحة رسم جديدة إلى الصفحة النشطة. |
+| [addCanvas()](#addCanvas--) | يضيف Canvas جديد إلى الصفحة النشطة. |
 | [addDocument()](#addDocument--) | يضيف مستندًا فارغًا بحجم صفحة افتراضي ويختار المستند المضاف كالنشط. |
 | [addDocument(boolean activate)](#addDocument-boolean-) | يضيف مستندًا فارغًا بحجم صفحة افتراضي. |
-| [addDocument(float width, float height)](#addDocument-float-float-) | يضيف مستندًا فارغًا بأبعاد الصفحة الأولى العرض والارتفاع ويختار المستند المضاف كالنشط. |
+| [addDocument(float width, float height)](#addDocument-float-float-) | يضيف مستندًا فارغًا بأبعاد الصفحة الأولى (العرض والارتفاع) ويختار المستند المضاف كالنشط. |
 | [addDocument(float width, float height, boolean activate)](#addDocument-float-float-boolean-) | يضيف مستندًا فارغًا بأبعاد الصفحة الأولى  width  و  height . |
 | [addGlyphs(XpsFont font, float fontRenderingEmSize, float originX, float originY, String unicodeString)](#addGlyphs-com.aspose.xps.XpsFont-float-float-float-java.lang.String-) | يضيف رموزًا جديدة إلى الصفحة النشطة. |
 | [addGlyphs(String fontFamily, float fontRenderingEmSize, XpsFontStyle fontStyle, float originX, float originY, String unicodeString)](#addGlyphs-java.lang.String-float-com.aspose.xps.XpsFontStyle-float-float-java.lang.String-) | يضيف رموزًا جديدة إلى الصفحة النشطة. |
 | [addOutlineEntry(String description, int outlineLevel, XpsHyperlinkTarget target)](#addOutlineEntry-java.lang.String-int-com.aspose.xps.XpsHyperlinkTarget-) | يضيف مدخل مخطط إلى المستند. |
 | [addPage()](#addPage--) | يضيف صفحة فارغة إلى المستند بحجم الصفحة الافتراضي. |
 | [addPage(boolean activate)](#addPage-boolean-) | يضيف صفحة فارغة إلى المستند بحجم الصفحة الافتراضي. |
-| [addPage(XpsPage page)](#addPage-com.aspose.xps.XpsPage-) | يضيف صفحة إلى المستند ويختار الصفحة المضافة كنشطة. |
+| [addPage(XpsPage page)](#addPage-com.aspose.xps.XpsPage-) | يضيف صفحة إلى المستند ويختار الصفحة المضافة كصفحة نشطة. |
 | [addPage(XpsPage page, boolean activate)](#addPage-com.aspose.xps.XpsPage-boolean-) | يضيف صفحة إلى المستند. |
-| [addPage(float width, float height)](#addPage-float-float-) | يضيف صفحة فارغة إلى المستند بالأبعاد المحددة  width  و  height . |
-| [addPage(float width, float height, boolean activate)](#addPage-float-float-boolean-) | يضيف صفحة فارغة إلى المستند بالأبعاد المحددة  width  و  height . |
+| [addPage(float width, float height)](#addPage-float-float-) | يضيف صفحة فارغة إلى المستند بالعرض  width  والارتفاع  height . |
+| [addPage(float width, float height, boolean activate)](#addPage-float-float-boolean-) | يضيف صفحة فارغة إلى المستند بالعرض  width  والارتفاع  height . |
 | [addPath(XpsPathGeometry data)](#addPath-com.aspose.xps.XpsPathGeometry-) | يضيف مسارًا جديدًا إلى الصفحة النشطة. |
-| [close()](#close--) | يتخلص من المثيل. |
-| [createArcSegment(Point2D point, Dimension2D size, float rotationAngle, boolean isLargeArc, XpsSweepDirection sweepDirection)](#createArcSegment-java.awt.geom.Point2D-java.awt.geom.Dimension2D-float-boolean-com.aspose.xps.XpsSweepDirection-) | ينشئ مقطع قوس إهليلجي مُحدَّد. |
+| [close()](#close--) | يتخلص من الكائن. |
+| [createArcSegment(Point2D point, Dimension2D size, float rotationAngle, boolean isLargeArc, XpsSweepDirection sweepDirection)](#createArcSegment-java.awt.geom.Point2D-java.awt.geom.Dimension2D-float-boolean-com.aspose.xps.XpsSweepDirection-) | ينشئ مقطع قوس إهليلجي مُحدَّد بالخط. |
 | [createArcSegment(Point2D point, Dimension2D size, float rotationAngle, boolean isLargeArc, XpsSweepDirection sweepDirection, boolean isStroked)](#createArcSegment-java.awt.geom.Point2D-java.awt.geom.Dimension2D-float-boolean-com.aspose.xps.XpsSweepDirection-boolean-) | ينشئ مقطع قوس إهليلجي جديد. |
-| [createCanvas()](#createCanvas--) | ينشئ لوحة رسم جديدة. |
+| [createCanvas()](#createCanvas--) | ينشئ canvas جديد. |
 | [createColor(XpsIccProfile iccProfile, float[] components)](#createColor-com.aspose.xps.XpsIccProfile-float...-) | ينشئ لونًا جديدًا في مساحة اللون المعتمدة على ICC. |
 | [createColor(float r, float g, float b)](#createColor-float-float-float-) | ينشئ لونًا جديدًا في مساحة اللون scRGB. |
 | [createColor(float a, float r, float g, float b)](#createColor-float-float-float-float-) | ينشئ لونًا جديدًا في مساحة اللون scRGB. |
@@ -60,8 +60,8 @@ public final class XpsDocument extends Document implements Closeable
 | [createFont(String fontFamily, XpsFontStyle fontStyle)](#createFont-java.lang.String-com.aspose.xps.XpsFontStyle-) | ينشئ مورد خط TrueType جديد. |
 | [createGlyphs(XpsFont font, float fontRenderingEmSize, float originX, float originY, String unicodeString)](#createGlyphs-com.aspose.xps.XpsFont-float-float-float-java.lang.String-) | ينشئ glyphs جديدة. |
 | [createGlyphs(String fontFamily, float fontRenderingEmSize, XpsFontStyle fontStyle, float originX, float originY, String unicodeString)](#createGlyphs-java.lang.String-float-com.aspose.xps.XpsFontStyle-float-float-java.lang.String-) | ينشئ glyphs جديدة. |
-| [createGradientStop(XpsColor color, float offset)](#createGradientStop-com.aspose.xps.XpsColor-float-) | ينشئ نقطة إيقاف تدرج جديدة. |
-| [createGradientStop(Color color, float offset)](#createGradientStop-java.awt.Color-float-) | ينشئ نقطة إيقاف تدرج جديدة. |
+| [createGradientStop(XpsColor color, float offset)](#createGradientStop-com.aspose.xps.XpsColor-float-) | ينشئ نقطة تدرج جديدة. |
+| [createGradientStop(Color color, float offset)](#createGradientStop-java.awt.Color-float-) | ينشئ نقطة تدرج جديدة. |
 | [createIccProfile(InputStream stream)](#createIccProfile-java.io.InputStream-) | ينشئ مورد ملف تعريف ICC جديد من  stream . |
 | [createIccProfile(String iccProfilePath)](#createIccProfile-java.lang.String-) | ينشئ مورد ملف تعريف ICC جديد من ملف تعريف ICC الموجود في  iccProfilePath . |
 | [createImage(InputStream stream)](#createImage-java.io.InputStream-) | ينشئ مورد صورة جديد من  stream . |
@@ -70,7 +70,7 @@ public final class XpsDocument extends Document implements Closeable
 | [createImageBrush(String imagePath, Rectangle2D viewbox, Rectangle2D viewport)](#createImageBrush-java.lang.String-java.awt.geom.Rectangle2D-java.awt.geom.Rectangle2D-) | ينشئ فرشاة صورة جديدة. |
 | [createLinearGradientBrush(Point2D startPoint, Point2D endPoint)](#createLinearGradientBrush-java.awt.geom.Point2D-java.awt.geom.Point2D-) | ينشئ فرشاة تدرج خطية جديدة. |
 | [createLinearGradientBrush(List<XpsGradientStop> gradientStops, Point2D startPoint, Point2D endPoint)](#createLinearGradientBrush-java.util.List-com.aspose.xps.XpsGradientStop--java.awt.geom.Point2D-java.awt.geom.Point2D-) | ينشئ فرشاة تدرج خطية جديدة. |
-| [createMatrix(float m11, float m12, float m21, float m22, float m31, float m32)](#createMatrix-float-float-float-float-float-float-) | ينشئ مصفوفة تحويل إقليدية جديدة. |
+| [createMatrix(float m11, float m12, float m21, float m22, float m31, float m32)](#createMatrix-float-float-float-float-float-float-) | ينشئ مصفوفة تحويل افينية جديدة. |
 | [createPath(XpsPathGeometry data)](#createPath-com.aspose.xps.XpsPathGeometry-) | ينشئ مسارًا جديدًا. |
 | [createPathFigure(Point2D startPoint)](#createPathFigure-java.awt.geom.Point2D-) | ينشئ شكل مسار مفتوح جديد. |
 | [createPathFigure(Point2D startPoint, boolean isClosed)](#createPathFigure-java.awt.geom.Point2D-boolean-) | ينشئ شكل مسار جديد. |
@@ -79,58 +79,58 @@ public final class XpsDocument extends Document implements Closeable
 | [createPathGeometry()](#createPathGeometry--) | ينشئ هندسة مسار جديدة. |
 | [createPathGeometry(String abbreviatedGeometry)](#createPathGeometry-java.lang.String-) | ينشئ هندسة مسار جديدة محددة بصيغة مختصرة. |
 | [createPathGeometry(List<XpsPathFigure> pathFigures)](#createPathGeometry-java.util.List-com.aspose.xps.XpsPathFigure--) | ينشئ هندسة مسار جديدة مع قائمة محددة من أشكال المسار. |
-| [createPolyBezierSegment(Point2D[] points)](#createPolyBezierSegment-java.awt.geom.Point2D---) | ينشئ مجموعة جديدة من منحنيات B?zier مكعبية مرسومة. |
-| [createPolyBezierSegment(Point2D[] points, boolean isStroked)](#createPolyBezierSegment-java.awt.geom.Point2D---boolean-) | ينشئ مجموعة جديدة من منحنيات B?zier مكعبية. |
-| [createPolyLineSegment(Point2D[] points)](#createPolyLineSegment-java.awt.geom.Point2D---) | ينشئ رسمًا متعدد الأضلاع مرسومًا يحتوي على عدد عشوائي من الرؤوس الفردية. |
+| [createPolyBezierSegment(Point2D[] points)](#createPolyBezierSegment-java.awt.geom.Point2D---) | ينشئ مجموعة جديدة من المنحنيات المكعبة المتحددة B?zier. |
+| [createPolyBezierSegment(Point2D[] points, boolean isStroked)](#createPolyBezierSegment-java.awt.geom.Point2D---boolean-) | ينشئ مجموعة جديدة من المنحنيات المكعبة B?zier. |
+| [createPolyLineSegment(Point2D[] points)](#createPolyLineSegment-java.awt.geom.Point2D---) | ينشئ رسمًا متعدد الأضلاع محددًا يحتوي على عدد عشوائي من الرؤوس الفردية. |
 | [createPolyLineSegment(Point2D[] points, boolean isStroked)](#createPolyLineSegment-java.awt.geom.Point2D---boolean-) | ينشئ رسمًا متعدد الأضلاع يحتوي على عدد عشوائي من الرؤوس الفردية. |
-| [createPolyQuadraticBezierSegment(Point2D[] points)](#createPolyQuadraticBezierSegment-java.awt.geom.Point2D---) | ينشئ مجموعة جديدة من منحنيات B?bezier رباعية مرسومة من النقطة السابقة في شكل المسار عبر مجموعة من الرؤوس، باستخدام نقاط التحكم المحددة. |
-| [createPolyQuadraticBezierSegment(Point2D[] points, boolean isStroked)](#createPolyQuadraticBezierSegment-java.awt.geom.Point2D---boolean-) | ينشئ مجموعة جديدة من منحنيات B?bezier رباعية من النقطة السابقة في شكل المسار عبر مجموعة من الرؤوس، باستخدام نقاط التحكم المحددة. |
+| [createPolyQuadraticBezierSegment(Point2D[] points)](#createPolyQuadraticBezierSegment-java.awt.geom.Point2D---) | ينشئ مجموعة جديدة من المنحنيات التربيعية المتحددة B?zier من النقطة السابقة في شكل المسار عبر مجموعة من الرؤوس، باستخدام نقاط التحكم المحددة. |
+| [createPolyQuadraticBezierSegment(Point2D[] points, boolean isStroked)](#createPolyQuadraticBezierSegment-java.awt.geom.Point2D---boolean-) | ينشئ مجموعة جديدة من المنحنيات التربيعية B?zier من النقطة السابقة في شكل المسار عبر مجموعة من الرؤوس، باستخدام نقاط التحكم المحددة. |
 | [createRadialGradientBrush(Point2D center, Point2D gradientOrigin, float radiusX, float radiusY)](#createRadialGradientBrush-java.awt.geom.Point2D-java.awt.geom.Point2D-float-float-) | ينشئ فرشاة تدرج شعاعي جديدة. |
 | [createRadialGradientBrush(List<XpsGradientStop> gradientStops, Point2D center, Point2D gradientOrigin, float radiusX, float radiusY)](#createRadialGradientBrush-java.util.List-com.aspose.xps.XpsGradientStop--java.awt.geom.Point2D-java.awt.geom.Point2D-float-float-) | ينشئ فرشاة تدرج شعاعي جديدة. |
 | [createSolidColorBrush(XpsColor color)](#createSolidColorBrush-com.aspose.xps.XpsColor-) | ينشئ فرشاة لون صلب جديدة. |
 | [createSolidColorBrush(Color color)](#createSolidColorBrush-java.awt.Color-) | ينشئ فرشاة لون صلب جديدة. |
 | [createVisualBrush(XpsContentElement element, Rectangle2D viewbox, Rectangle2D viewport)](#createVisualBrush-com.aspose.xps.XpsContentElement-java.awt.geom.Rectangle2D-java.awt.geom.Rectangle2D-) | ينشئ فرشاة بصرية جديدة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getActiveDocument()](#getActiveDocument--) | يعيد رقم المستند النشط. |
-| [getActivePage()](#getActivePage--) | يعيد رقم الصفحة النشطة داخل المستند النشط. |
+| [getActiveDocument()](#getActiveDocument--) | يرجع رقم المستند النشط. |
+| [getActivePage()](#getActivePage--) | يرجع رقم الصفحة النشطة داخل المستند النشط. |
 | [getClass()](#getClass--) |  |
-| [getDocumentCount()](#getDocumentCount--) | يعيد عدد المستندات داخل حزمة XPS. |
+| [getDocumentCount()](#getDocumentCount--) | يرجع عدد المستندات داخل حزمة XPS. |
 | [getDocumentPrintTicket(int documentIndex)](#getDocumentPrintTicket-int-) | يحصل على تذكرة الطباعة للمستند المفهرس بـ  documentIndex . |
-| [getJobPrintTicket()](#getJobPrintTicket--) | يعيد تذكرة طباعة مهمة المستند. |
-| [getPage()](#getPage--) | يعيد كائن  XpsPage  للصفحة النشطة. |
+| [getJobPrintTicket()](#getJobPrintTicket--) | يرجع تذكرة طباعة مهمة المستند. |
+| [getPage()](#getPage--) | يرجع كائن  XpsPage  للصفحة النشطة. |
 | [getPageCount()](#getPageCount--) | يعيد عدد الصفحات في المستند النشط. |
 | [getPagePrintTicket(int documentIndex, int pageIndex)](#getPagePrintTicket-int-int-) | يحصل على تذكرة الطباعة للصفحة المفهرسة بـ  pageIndex  في المستند المفهرس بـ  documentIndex . |
 | [getTotalPageCount()](#getTotalPageCount--) | يعيد إجمالي عدد الصفحات في جميع المستندات داخل مستند XPS. |
-| [getUtils()](#getUtils--) | يحصل على الكائن الذي يوفر أدوات تتجاوز واجهة برمجة تطبيقات XPS الرسمية. |
+| [getUtils()](#getUtils--) | يحصل على الكائن الذي يوفر أدوات تتجاوز واجهة برمجة تطبيقات معالجة XPS الرسمية. |
 | [hashCode()](#hashCode--) |  |
-| [insertCanvas(int index)](#insertCanvas-int-) | يدرج لوحة قماشية جديدة إلى الصفحة النشطة في الموضع  index . |
-| [insertDocument(int index)](#insertDocument-int-) | يدرج مستندًا فارغًا بحجم الصفحة الافتراضي في الموضع  index ويختار المستند المدخل كنشط. |
-| [insertDocument(int index, boolean activate)](#insertDocument-int-boolean-) | يدرج مستندًا فارغًا بحجم الصفحة الافتراضي في الموضع  index . |
-| [insertDocument(int index, float width, float height)](#insertDocument-int-float-float-) | يدرج مستندًا فارغًا بأبعاد الصفحة الأولى  width  و  height  في الموضع  index ويختار المستند المدخل كنشط. |
-| [insertDocument(int index, float width, float height, boolean activate)](#insertDocument-int-float-float-boolean-) | يدرج مستندًا فارغًا بأبعاد الصفحة الأولى  width  و  height  في  index  position. |
-| [insertGlyphs(int index, XpsFont font, float fontSize, float originX, float originY, String unicodeString)](#insertGlyphs-int-com.aspose.xps.XpsFont-float-float-float-java.lang.String-) | يدرج رموزًا جديدة إلى الصفحة النشطة في  index  position. |
-| [insertGlyphs(int index, String fontFamily, float fontSize, XpsFontStyle fontStyle, float originX, float originY, String unicodeString)](#insertGlyphs-int-java.lang.String-float-com.aspose.xps.XpsFontStyle-float-float-java.lang.String-) | يدرج رموزًا جديدة إلى الصفحة النشطة في  index  position. |
-| [insertPage(int index)](#insertPage-int-) | يدرج صفحة فارغة إلى المستند بحجم الصفحة الافتراضي في  index  position ويختار الصفحة المدخلة كنشطة. |
-| [insertPage(int index, boolean activate)](#insertPage-int-boolean-) | يدرج صفحة فارغة إلى المستند بحجم الصفحة الافتراضي في  index  position. |
-| [insertPage(int index, XpsPage page)](#insertPage-int-com.aspose.xps.XpsPage-) | يدرج صفحة إلى المستند في  index  position ويختار الصفحة المدخلة كنشطة. |
-| [insertPage(int index, XpsPage page, boolean activate)](#insertPage-int-com.aspose.xps.XpsPage-boolean-) | يدرج صفحة إلى المستند في  index  position. |
-| [insertPage(int index, float width, float height)](#insertPage-int-float-float-) | يدرج صفحة فارغة إلى المستند بأبعاد محددة  width  و  height  في  index  position ويختار الصفحة المدخلة كنشطة. |
-| [insertPage(int index, float width, float height, boolean activate)](#insertPage-int-float-float-boolean-) | يدرج صفحة فارغة إلى المستند بأبعاد محددة  width  و  height  في  index  position. |
-| [insertPath(int index, XpsPathGeometry data)](#insertPath-int-com.aspose.xps.XpsPathGeometry-) | يدرج مسارًا جديدًا إلى الصفحة النشطة في  index  position. |
+| [insertCanvas(int index)](#insertCanvas-int-) | يدرج لوحة قماشية جديدة إلى الصفحة النشطة في موضع  index . |
+| [insertDocument(int index)](#insertDocument-int-) | يدرج مستندًا فارغًا بحجم الصفحة الافتراضي في موضع  index ويختار المستند المدخل كنشط. |
+| [insertDocument(int index, boolean activate)](#insertDocument-int-boolean-) | يدرج مستندًا فارغًا بحجم الصفحة الافتراضي في موضع  index . |
+| [insertDocument(int index, float width, float height)](#insertDocument-int-float-float-) | يدرج مستندًا فارغًا بأبعاد الصفحة الأولى  width  و  height  في موضع  index ويختار المستند المدخل كنشط. |
+| [insertDocument(int index, float width, float height, boolean activate)](#insertDocument-int-float-float-boolean-) | يدرج مستندًا فارغًا بأبعاد الصفحة الأولى العرض والارتفاع في موضع الفهرس . |
+| [insertGlyphs(int index, XpsFont font, float fontSize, float originX, float originY, String unicodeString)](#insertGlyphs-int-com.aspose.xps.XpsFont-float-float-float-java.lang.String-) | يدرج رموزًا جديدة إلى الصفحة النشطة في موضع الفهرس . |
+| [insertGlyphs(int index, String fontFamily, float fontSize, XpsFontStyle fontStyle, float originX, float originY, String unicodeString)](#insertGlyphs-int-java.lang.String-float-com.aspose.xps.XpsFontStyle-float-float-java.lang.String-) | يدرج رموزًا جديدة إلى الصفحة النشطة في موضع الفهرس . |
+| [insertPage(int index)](#insertPage-int-) | يدرج صفحة فارغة إلى المستند بحجم الصفحة الافتراضي في موضع الفهرس ويختار الصفحة المدخلة كنشطة. |
+| [insertPage(int index, boolean activate)](#insertPage-int-boolean-) | يدرج صفحة فارغة إلى المستند بحجم الصفحة الافتراضي في موضع الفهرس. |
+| [insertPage(int index, XpsPage page)](#insertPage-int-com.aspose.xps.XpsPage-) | يدرج صفحة إلى المستند في موضع الفهرس ويختار الصفحة المدخلة كنشطة. |
+| [insertPage(int index, XpsPage page, boolean activate)](#insertPage-int-com.aspose.xps.XpsPage-boolean-) | يدرج صفحة إلى المستند في موضع الفهرس. |
+| [insertPage(int index, float width, float height)](#insertPage-int-float-float-) | يدرج صفحة فارغة إلى المستند بأبعاد محددة العرض والارتفاع في موضع الفهرس ويختار الصفحة المدخلة كنشطة. |
+| [insertPage(int index, float width, float height, boolean activate)](#insertPage-int-float-float-boolean-) | يدرج صفحة فارغة إلى المستند بأبعاد محددة العرض والارتفاع في موضع الفهرس. |
+| [insertPath(int index, XpsPathGeometry data)](#insertPath-int-com.aspose.xps.XpsPathGeometry-) | يدرج مسارًا جديدًا إلى الصفحة النشطة في موضع الفهرس. |
 | [isLicensed()](#isLicensed--) | يشير إلى ما إذا كان ترخيص منتج Aspose.Page for Java تم الوصول إليه وصالح. |
 | [merge(String[] filesForMerge, OutputStream outStream)](#merge-java.lang.String---java.io.OutputStream-) | دمج عدة ملفات XPS في مستند XPS واحد. |
 | [merge(String[] filesForMerge, String outXpsFilePath)](#merge-java.lang.String---java.lang.String-) | دمج عدة ملفات XPS في مستند XPS واحد. |
-| [mergeToPdf(String outPdfFilePath, String[] filesForMerge, PdfSaveOptions options)](#mergeToPdf-java.lang.String-java.lang.String---com.aspose.xps.rendering.PdfSaveOptions-) | دمج مستندات XPS إلى PDF باستخدام مثيل  Device . |
-| [mergeToPdf(String[] filesForMerge, OutputStream pdfStream, PdfSaveOptions options)](#mergeToPdf-java.lang.String---java.io.OutputStream-com.aspose.xps.rendering.PdfSaveOptions-) | دمج مستندات XPS إلى PDF باستخدام مثيل  Device . |
+| [mergeToPdf(String outPdfFilePath, String[] filesForMerge, PdfSaveOptions options)](#mergeToPdf-java.lang.String-java.lang.String---com.aspose.xps.rendering.PdfSaveOptions-) | دمج مستندات XPS إلى PDF باستخدام كائن Device . |
+| [mergeToPdf(String[] filesForMerge, OutputStream pdfStream, PdfSaveOptions options)](#mergeToPdf-java.lang.String---java.io.OutputStream-com.aspose.xps.rendering.PdfSaveOptions-) | دمج مستندات XPS إلى PDF باستخدام كائن Device . |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [removeAt(int index)](#removeAt-int-) | يزيل عنصرًا في  index  position من الصفحة النشطة. |
-| [removeDocumentAt(int index)](#removeDocumentAt-int-) | يزيل مستندًا في  index  position. |
+| [removeAt(int index)](#removeAt-int-) | يزيل عنصرًا في موضع الفهرس من الصفحة النشطة. |
+| [removeDocumentAt(int index)](#removeDocumentAt-int-) | يزيل مستندًا في موضع الفهرس. |
 | [removePage(XpsPage page)](#removePage-com.aspose.xps.XpsPage-) | يزيل صفحة من المستند. |
-| [removePageAt(int index)](#removePageAt-int-) | يزيل صفحة من المستند في  index  position. |
-| [save(Device device, SaveOptions options)](#save-com.aspose.page.Device-com.aspose.page.SaveOptions-) | يحفظ المستند باستخدام مثيل  Device . |
+| [removePageAt(int index)](#removePageAt-int-) | يزيل صفحة من المستند في موضع الفهرس. |
+| [save(Device device, SaveOptions options)](#save-com.aspose.page.Device-com.aspose.page.SaveOptions-) | يحفظ المستند باستخدام كائن Device . |
 | [save(OutputStream stream)](#save-java.io.OutputStream-) | يحفظ مستند XPS إلى تدفق. |
-| [save(String path)](#save-java.lang.String-) | يحفظ مستند XPS إلى ملف XPS الموجود في  path . |
+| [save(String path)](#save-java.lang.String-) | يحفظ مستند XPS إلى ملف XPS الموجود في المسار . |
 | [saveAsImage(ImageSaveOptions options)](#saveAsImage-com.aspose.xps.rendering.ImageSaveOptions-) | يحفظ المستند إلى ملف صورة. سيكون دليل الإخراج واسم الملف هو نفسه كما في ملف XPS المدخل. |
 | [saveAsImage(ImageSaveOptions options, String outDir, String fileNameTemplate)](#saveAsImage-com.aspose.xps.rendering.ImageSaveOptions-java.lang.String-java.lang.String-) | يحفظ المستند إلى ملف صورة في الدليل المحدد مع اسم الملف المحدد. |
 | [saveAsImageBytes(ImageSaveOptions options)](#saveAsImageBytes-com.aspose.xps.rendering.ImageSaveOptions-) | يحفظ المستند بتنسيق صورة bitmap كمصفوفات بايت. |
@@ -140,9 +140,9 @@ public final class XpsDocument extends Document implements Closeable
 | [saveAsPs(String outPsFilePath, PsSaveOptions options)](#saveAsPs-java.lang.String-com.aspose.eps.device.PsSaveOptions-) | يحفظ المستند بتنسيق PostSscript. |
 | [selectActiveDocument(int documentNumber)](#selectActiveDocument-int-) | يختار مستندًا نشطًا للتحرير. |
 | [selectActivePage(int pageNumber)](#selectActivePage-int-) | يختار صفحة مستند نشطة للتحرير. |
-| [setDocumentPrintTicket(int documentIndex, DocumentPrintTicket printTicket)](#setDocumentPrintTicket-int-com.aspose.xps.metadata.DocumentPrintTicket-) | يربط الـ printTicket بالمستند المفهرس بواسطة documentIndex. |
-| [setJobPrintTicket(JobPrintTicket value)](#setJobPrintTicket-com.aspose.xps.metadata.JobPrintTicket-) | يضبط تذكرة طباعة مهمة المستند. |
-| [setPagePrintTicket(int documentIndex, int pageIndex, PagePrintTicket printTicket)](#setPagePrintTicket-int-int-com.aspose.xps.metadata.PagePrintTicket-) | يربط الـ printTicket بالصفحة المفهرسة بواسطة pageIndex في المستند المفهرس بواسطة documentIndex. |
+| [setDocumentPrintTicket(int documentIndex, DocumentPrintTicket printTicket)](#setDocumentPrintTicket-int-com.aspose.xps.metadata.DocumentPrintTicket-) | يربط الـ  printTicket  بالمستند المفهرس بواسطة  documentIndex . |
+| [setJobPrintTicket(JobPrintTicket value)](#setJobPrintTicket-com.aspose.xps.metadata.JobPrintTicket-) | يضبط بطاقة طباعة وظيفة المستند. |
+| [setPagePrintTicket(int documentIndex, int pageIndex, PagePrintTicket printTicket)](#setPagePrintTicket-int-int-com.aspose.xps.metadata.PagePrintTicket-) | يربط الـ  printTicket  بالصفحة المفهرسة بواسطة  pageIndex  في المستند المفهرس بواسطة  documentIndex . |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -161,7 +161,7 @@ public XpsDocument(String path)
 ```
 
 
-يفتح مستند XPS موجود يقع في المسار.
+يفتح مستند XPS موجود في المسار.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -174,12 +174,12 @@ public XpsDocument(InputStream stream, LoadOptions options)
 ```
 
 
-يقوم بتحميل مستند موجود مخزن في الـ stream كوثيقة XPS.
+يقوم بتحميل مستند موجود مخزن في الدفق كوثيقة XPS.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| دفق | java.io.InputStream | دفق المستند. |
+| stream | java.io.InputStream | دفق المستند. |
 | options | [LoadOptions](../../com.aspose.xps/loadoptions) | خيارات تحميل المستند. |
 
 ### <T>add(T element) {#-T-add-T-}
@@ -234,7 +234,7 @@ public XpsCanvas addCanvas()
 ```
 
 
-يضيف لوحة رسم جديدة إلى الصفحة النشطة.
+يضيف Canvas جديد إلى الصفحة النشطة.
 
 **Returns:**
 [XpsCanvas](../../com.aspose.xps/xpscanvas) - Added canvas.
@@ -257,7 +257,7 @@ public void addDocument(boolean activate)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| تفعيل | boolean | علامة تشير إلى ما إذا كان يجب اختيار المستند المضاف كنشط. |
+| تفعيل | منطقي | علامة تشير إلى ما إذا كان يجب اختيار المستند المضاف كنشط. |
 
 ### addDocument(float width, float height) {#addDocument-float-float-}
 ```
@@ -265,13 +265,13 @@ public void addDocument(float width, float height)
 ```
 
 
-يضيف مستندًا فارغًا بأبعاد الصفحة الأولى العرض والارتفاع ويختار المستند المضاف كالنشط.
+يضيف مستندًا فارغًا بأبعاد الصفحة الأولى (العرض والارتفاع) ويختار المستند المضاف كالنشط.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | width | float | عرض الصفحة الأولى. |
-| الارتفاع | float | ارتفاع الصفحة الأولى. |
+| height | float | ارتفاع الصفحة الأولى. |
 
 ### addDocument(float width, float height, boolean activate) {#addDocument-float-float-boolean-}
 ```
@@ -285,8 +285,8 @@ public void addDocument(float width, float height, boolean activate)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | width | float | عرض الصفحة الأولى. |
-| الارتفاع | float | ارتفاع الصفحة الأولى. |
-| تفعيل | boolean | علامة تشير إلى ما إذا كان يجب اختيار المستند المضاف كنشط. |
+| height | float | ارتفاع الصفحة الأولى. |
+| تفعيل | منطقي | علامة تشير إلى ما إذا كان يجب اختيار المستند المضاف كنشط. |
 
 ### addGlyphs(XpsFont font, float fontRenderingEmSize, float originX, float originY, String unicodeString) {#addGlyphs-com.aspose.xps.XpsFont-float-float-float-java.lang.String-}
 ```
@@ -338,7 +338,7 @@ public void addOutlineEntry(String description, int outlineLevel, XpsHyperlinkTa
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الوصف | java.lang.String | وصف الإدخال. |
+| وصف | java.lang.String | وصف الإدخال. |
 | outlineLevel | int | مستوى المخطط. |
 | target | [XpsHyperlinkTarget](../../com.aspose.xps/xpshyperlinktarget) | هدف الإدخال. |
 
@@ -363,7 +363,7 @@ public XpsPage addPage(boolean activate)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| تفعيل | boolean | علامة تشير إلى ما إذا كان يجب اختيار الصفحة المضافة كنشطة. |
+| تفعيل | منطقي | علامة تشير إلى ما إذا كان يجب اختيار الصفحة المضافة كنشطة. |
 
 **Returns:**
 [XpsPage](../../com.aspose.xps/xpspage) - Added page.
@@ -373,7 +373,7 @@ public XpsPage addPage(XpsPage page)
 ```
 
 
-يضيف صفحة إلى المستند ويختار الصفحة المضافة كنشطة.
+يضيف صفحة إلى المستند ويختار الصفحة المضافة كصفحة نشطة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -394,7 +394,7 @@ public XpsPage addPage(XpsPage page, boolean activate)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | page | [XpsPage](../../com.aspose.xps/xpspage) | الصفحة التي سيتم إضافتها. |
-| تفعيل | boolean | علامة تشير إلى ما إذا كان يجب اختيار الصفحة المضافة كنشطة. |
+| تفعيل | منطقي | علامة تشير إلى ما إذا كان يجب اختيار الصفحة المضافة كنشطة. |
 
 **Returns:**
 [XpsPage](../../com.aspose.xps/xpspage) - Added page.
@@ -404,13 +404,13 @@ public XpsPage addPage(float width, float height)
 ```
 
 
-يضيف صفحة فارغة إلى المستند بالأبعاد المحددة  width  و  height .
+يضيف صفحة فارغة إلى المستند بالعرض  width  والارتفاع  height .
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | width | float | عرض صفحة جديدة. |
-| الارتفاع | float | ارتفاع صفحة جديدة. |
+| height | float | ارتفاع صفحة جديدة. |
 
 **Returns:**
 [XpsPage](../../com.aspose.xps/xpspage) - Added page.
@@ -420,14 +420,14 @@ public XpsPage addPage(float width, float height, boolean activate)
 ```
 
 
-يضيف صفحة فارغة إلى المستند بالأبعاد المحددة  width  و  height .
+يضيف صفحة فارغة إلى المستند بالعرض  width  والارتفاع  height .
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | width | float | عرض صفحة جديدة. |
-| الارتفاع | float | ارتفاع صفحة جديدة. |
-| تفعيل | boolean | علامة تشير إلى ما إذا كان يجب اختيار الصفحة المضافة كنشطة. |
+| height | float | ارتفاع صفحة جديدة. |
+| تفعيل | منطقي | علامة تشير إلى ما إذا كان يجب اختيار الصفحة المضافة كنشطة. |
 
 **Returns:**
 [XpsPage](../../com.aspose.xps/xpspage) - Added page.
@@ -452,7 +452,7 @@ public void close()
 ```
 
 
-يتخلص من المثيل.
+يتخلص من الكائن.
 
 ### createArcSegment(Point2D point, Dimension2D size, float rotationAngle, boolean isLargeArc, XpsSweepDirection sweepDirection) {#createArcSegment-java.awt.geom.Point2D-java.awt.geom.Dimension2D-float-boolean-com.aspose.xps.XpsSweepDirection-}
 ```
@@ -460,15 +460,15 @@ public XpsArcSegment createArcSegment(Point2D point, Dimension2D size, float rot
 ```
 
 
-ينشئ مقطع قوس إهليلجي مُحدَّد.
+ينشئ مقطع قوس إهليلجي مُحدَّد بالخط.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| نقطة | java.awt.geom.Point2D | نقطة النهاية للقوس البيضاوي. |
-| الحجم | java.awt.geom.Dimension2D | نصفا القطر x و y للقوس البيضاوي كزوج x,y. |
-| rotationAngle | float | يشير إلى كيفية دوران الشكل البيضاوي بالنسبة لنظام الإحداثيات الحالي. |
-| isLargeArc | boolean | يحدد ما إذا كان القوس يُرسم بزاوية 180 درجة أو أكثر. |
+| نقطة | java.awt.geom.Point2D | نقطة النهاية للقوس الإهليلجي. |
+| الحجم | java.awt.geom.Dimension2D | نصف القطر x و y للقوس الإهليلجي كزوج x,y. |
+| rotationAngle | float | يحدد كيفية دوران الإهليلج بالنسبة إلى نظام الإحداثيات الحالي. |
+| isLargeArc | منطقي | يحدد ما إذا كان القوس يُرسم بزاوية 180 درجة أو أكثر. |
 | sweepDirection | [XpsSweepDirection](../../com.aspose.xps/xpssweepdirection) | الاتجاه الذي يُرسم فيه القوس. |
 
 **Returns:**
@@ -484,12 +484,12 @@ public XpsArcSegment createArcSegment(Point2D point, Dimension2D size, float rot
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| نقطة | java.awt.geom.Point2D | نقطة النهاية للقوس البيضاوي. |
-| الحجم | java.awt.geom.Dimension2D | نصفا القطر x و y للقوس البيضاوي كزوج x,y. |
-| rotationAngle | float | يشير إلى كيفية دوران الشكل البيضاوي بالنسبة لنظام الإحداثيات الحالي. |
-| isLargeArc | boolean | يحدد ما إذا كان القوس يُرسم بزاوية 180 درجة أو أكثر. |
+| نقطة | java.awt.geom.Point2D | نقطة النهاية للقوس الإهليلجي. |
+| الحجم | java.awt.geom.Dimension2D | نصف القطر x و y للقوس الإهليلجي كزوج x,y. |
+| rotationAngle | float | يحدد كيفية دوران الإهليلج بالنسبة إلى نظام الإحداثيات الحالي. |
+| isLargeArc | منطقي | يحدد ما إذا كان القوس يُرسم بزاوية 180 درجة أو أكثر. |
 | sweepDirection | [XpsSweepDirection](../../com.aspose.xps/xpssweepdirection) | الاتجاه الذي يُرسم فيه القوس. |
-| isStroked | boolean | يحدد ما إذا كان الحد لهذا الجزء من المسار يُرسم. |
+| isStroked | منطقي | يحدد ما إذا كان الحد لهذا الجزء من المسار يُرسم. |
 
 **Returns:**
 [XpsArcSegment](../../com.aspose.xps/xpsarcsegment) - New elliptical arc segment.
@@ -499,7 +499,7 @@ public XpsCanvas createCanvas()
 ```
 
 
-ينشئ لوحة رسم جديدة.
+ينشئ canvas جديد.
 
 **Returns:**
 [XpsCanvas](../../com.aspose.xps/xpscanvas) - New canvas.
@@ -515,7 +515,7 @@ public XpsColor createColor(XpsIccProfile iccProfile, float[] components)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | iccProfile | [XpsIccProfile](../../com.aspose.xps/xpsiccprofile) | مورد ملف تعريف ICC. |
-| المكونات | float[] | مكونات اللون. |
+| components | float[] | مكوّنات اللون. |
 
 **Returns:**
 [XpsColor](../../com.aspose.xps/xpscolor) - New color.
@@ -530,9 +530,9 @@ public XpsColor createColor(float r, float g, float b)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| r | float | مكون اللون الأحمر. |
-| g | float | مكون اللون الأخضر. |
-| b | float | مكون اللون الأزرق. |
+| r | float | مكوّن اللون الأحمر. |
+| g | float | مكوّن اللون الأخضر. |
+| b | float | مكوّن اللون الأزرق. |
 
 **Returns:**
 [XpsColor](../../com.aspose.xps/xpscolor) - New color.
@@ -547,10 +547,10 @@ public XpsColor createColor(float a, float r, float g, float b)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | float | مكون اللون ألفا. |
-| r | float | مكون اللون الأحمر. |
-| g | float | مكون اللون الأخضر. |
-| b | float | مكون اللون الأزرق. |
+| a | float | مكوّن اللون ألفا. |
+| r | float | مكوّن اللون الأحمر. |
+| g | float | مكوّن اللون الأخضر. |
+| b | float | مكوّن اللون الأزرق. |
 
 **Returns:**
 [XpsColor](../../com.aspose.xps/xpscolor) - New color.
@@ -565,9 +565,9 @@ public XpsColor createColor(int r, int g, int b)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| r | int | مكون اللون الأحمر. |
-| g | int | مكون اللون الأخضر. |
-| b | int | مكون اللون الأزرق. |
+| r | int | مكوّن اللون الأحمر. |
+| g | int | مكوّن اللون الأخضر. |
+| b | int | مكوّن اللون الأزرق. |
 
 **Returns:**
 [XpsColor](../../com.aspose.xps/xpscolor) - New color.
@@ -582,10 +582,10 @@ public XpsColor createColor(int a, int r, int g, int b)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | int | مكون اللون ألفا. |
-| r | int | مكون اللون الأحمر. |
-| g | int | مكون اللون الأخضر. |
-| b | int | مكون اللون الأزرق. |
+| a | int | مكوّن اللون ألفا. |
+| r | int | مكوّن اللون الأحمر. |
+| g | int | مكوّن اللون الأخضر. |
+| b | int | مكوّن اللون الأزرق. |
 
 **Returns:**
 [XpsColor](../../com.aspose.xps/xpscolor) - New color.
@@ -600,7 +600,7 @@ public XpsColor createColor(Color color)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| اللون | java.awt.Color | مثال لون أصلي للون RGB. |
+| color | java.awt.Color | مثيل لون أصلي للون RGB. |
 
 **Returns:**
 [XpsColor](../../com.aspose.xps/xpscolor) - New color.
@@ -616,7 +616,7 @@ public XpsColor createColor(String path, float[] components)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | path | java.lang.String | المسار إلى ملف تعريف ICC. |
-| المكونات | float[] | مكونات اللون. |
+| components | float[] | مكوّنات اللون. |
 
 **Returns:**
 [XpsColor](../../com.aspose.xps/xpscolor) - New color.
@@ -631,7 +631,7 @@ public XpsFont createFont(InputStream stream)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| دفق | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف ICC لاستخدامه كمورد. |
+| stream | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف ICC لاستخدامه كمورد. |
 
 **Returns:**
 [XpsFont](../../com.aspose.xps/xpsfont) - New TrueType font resource.
@@ -647,7 +647,7 @@ public XpsFont createFont(String fontFamily, XpsFontStyle fontStyle)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | fontFamily | java.lang.String | عائلة الخط. |
-| fontStyle | [XpsFontStyle](../../com.aspose.xps/xpsfontstyle) | نمط الخط. راجع ثوابت فئة XpsFont (التي هي أعلام بت) للحصول على القيم المتاحة للجمع. |
+| fontStyle | [XpsFontStyle](../../com.aspose.xps/xpsfontstyle) | نمط الخط. راجع  XpsFont  ثوابت الفئة (التي هي أعلام بت) للقيم المتاحة للجمع. |
 
 **Returns:**
 [XpsFont](../../com.aspose.xps/xpsfont) - New TrueType font resource.
@@ -696,13 +696,13 @@ public XpsGradientStop createGradientStop(XpsColor color, float offset)
 ```
 
 
-ينشئ نقطة إيقاف تدرج جديدة.
+ينشئ نقطة تدرج جديدة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| color | [XpsColor](../../com.aspose.xps/xpscolor) | لون نقطة التدرج. |
-| offset | float | إزاحة التدرج. |
+| color | [XpsColor](../../com.aspose.xps/xpscolor) | لون نقطة إيقاف التدرج. |
+| الإزاحة | float | إزاحة التدرج. |
 
 **Returns:**
 [XpsGradientStop](../../com.aspose.xps/xpsgradientstop) - New gradient stop.
@@ -712,13 +712,13 @@ public XpsGradientStop createGradientStop(Color color, float offset)
 ```
 
 
-ينشئ نقطة إيقاف تدرج جديدة.
+ينشئ نقطة تدرج جديدة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| اللون | java.awt.Color | لون نقطة التدرج. |
-| offset | float | إزاحة التدرج. |
+| color | java.awt.Color | لون نقطة إيقاف التدرج. |
+| الإزاحة | float | إزاحة التدرج. |
 
 **Returns:**
 [XpsGradientStop](../../com.aspose.xps/xpsgradientstop) - New gradient stop.
@@ -733,7 +733,7 @@ public XpsIccProfile createIccProfile(InputStream stream)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| دفق | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف ICC لاستخدامه كمورد. |
+| stream | java.io.InputStream | الدفق الذي يحتوي على ملف تعريف ICC لاستخدامه كمورد. |
 
 **Returns:**
 [XpsIccProfile](../../com.aspose.xps/xpsiccprofile) - New ICC profile resource.
@@ -763,7 +763,7 @@ public XpsImage createImage(InputStream stream)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| دفق | java.io.InputStream | الدفق الذي يحتوي على الصورة لاستخدامها كمورد. |
+| stream | java.io.InputStream | الدفق الذي يحتوي على الصورة لاستخدامها كمورد. |
 
 **Returns:**
 [XpsImage](../../com.aspose.xps/xpsimage) - New image resource.
@@ -778,7 +778,7 @@ public XpsImage createImage(String imagePath)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| imagePath | java.lang.String | المسار إلى الصورة لاستخدامها كمورد. |
+| مسار الصورة | java.lang.String | المسار إلى الصورة لاستخدامها كمورد. |
 
 **Returns:**
 [XpsImage](../../com.aspose.xps/xpsimage) - New image resource.
@@ -794,8 +794,8 @@ public XpsImageBrush createImageBrush(XpsImage image, Rectangle2D viewbox, Recta
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | image | [XpsImage](../../com.aspose.xps/xpsimage) | مورد صورة. |
-| viewbox | java.awt.geom.Rectangle2D | موضع وأبعاد محتوى مصدر الفرشاة. |
-| viewport | java.awt.geom.Rectangle2D | المنطقة في مساحة الإحداثيات المحتوية لبلاطة الفرشاة الأساسية التي تُطبق (ربما بشكل متكرر) لملء المنطقة التي تُطبق عليها الفرشاة |
+| صندوق العرض | java.awt.geom.Rectangle2D | الموضع والأبعاد لمحتوى مصدر الفرشاة. |
+| منطقة العرض | java.awt.geom.Rectangle2D | المنطقة في مساحة الإحداثيات المحتوية لبلاطة الفرشاة الأساسية التي تُطبق (ربما بشكل متكرر) لملء المنطقة التي تُطبق عليها الفرشاة |
 
 **Returns:**
 [XpsImageBrush](../../com.aspose.xps/xpsimagebrush) - New image brush.
@@ -810,9 +810,9 @@ public XpsImageBrush createImageBrush(String imagePath, Rectangle2D viewbox, Rec
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| imagePath | java.lang.String | المسار إلى الصورة لاستخدامها كبلاطة فرشاة. |
-| viewbox | java.awt.geom.Rectangle2D | موضع وأبعاد محتوى مصدر الفرشاة. |
-| viewport | java.awt.geom.Rectangle2D | المنطقة في مساحة الإحداثيات المحتوية لبلاطة الفرشاة الأساسية التي تُطبق (ربما بشكل متكرر) لملء المنطقة التي تُطبق عليها الفرشاة |
+| مسار الصورة | java.lang.String | المسار إلى الصورة لاستخدامها كبلاطة فرشاة. |
+| صندوق العرض | java.awt.geom.Rectangle2D | الموضع والأبعاد لمحتوى مصدر الفرشاة. |
+| منطقة العرض | java.awt.geom.Rectangle2D | المنطقة في مساحة الإحداثيات المحتوية لبلاطة الفرشاة الأساسية التي تُطبق (ربما بشكل متكرر) لملء المنطقة التي تُطبق عليها الفرشاة |
 
 **Returns:**
 [XpsImageBrush](../../com.aspose.xps/xpsimagebrush) - New image brush.
@@ -827,8 +827,8 @@ public XpsLinearGradientBrush createLinearGradientBrush(Point2D startPoint, Poin
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| startPoint | java.awt.geom.Point2D | نقطة البداية للتدرج الخطي. |
-| endPoint | java.awt.geom.Point2D | نقطة النهاية للتدرج الخطي. |
+| نقطة البداية | java.awt.geom.Point2D | نقطة البداية للتدرج الخطي. |
+| نقطة النهاية | java.awt.geom.Point2D | نقطة النهاية للتدرج الخطي. |
 
 **Returns:**
 [XpsLinearGradientBrush](../../com.aspose.xps/xpslineargradientbrush) - New linear gradient brush.
@@ -843,9 +843,9 @@ public XpsLinearGradientBrush createLinearGradientBrush(List<XpsGradientStop> gr
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| gradientStops | java.util.List<com.aspose.xps.XpsGradientStop> | قائمة نقاط توقف التدرج. |
-| startPoint | java.awt.geom.Point2D | نقطة البداية للتدرج الخطي. |
-| endPoint | java.awt.geom.Point2D | نقطة النهاية للتدرج الخطي. |
+| نقاط التوقف للتدرج | java.util.List<com.aspose.xps.XpsGradientStop> | قائمة نقاط التوقف للتدرج. |
+| نقطة البداية | java.awt.geom.Point2D | نقطة البداية للتدرج الخطي. |
+| نقطة النهاية | java.awt.geom.Point2D | نقطة النهاية للتدرج الخطي. |
 
 **Returns:**
 [XpsLinearGradientBrush](../../com.aspose.xps/xpslineargradientbrush) - New linear gradient brush.
@@ -855,7 +855,7 @@ public XpsMatrix createMatrix(float m11, float m12, float m21, float m22, float 
 ```
 
 
-ينشئ مصفوفة تحويل إقليدية جديدة.
+ينشئ مصفوفة تحويل افينية جديدة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -895,7 +895,7 @@ public XpsPathFigure createPathFigure(Point2D startPoint)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| startPoint | java.awt.geom.Point2D | نقطة البداية للمقطع الأول من شكل المسار. |
+| نقطة البداية | java.awt.geom.Point2D | نقطة البداية للقطعة الأولى من شكل المسار. |
 
 **Returns:**
 [XpsPathFigure](../../com.aspose.xps/xpspathfigure) - New path figure.
@@ -910,8 +910,8 @@ public XpsPathFigure createPathFigure(Point2D startPoint, boolean isClosed)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| startPoint | java.awt.geom.Point2D | نقطة البداية للمقطع الأول من شكل المسار. |
-| isClosed | boolean | يحدد ما إذا كان المسار مغلقًا. إذا تم تعيينه إلى true، يتم رسم الخط "closed"، أي أن النقطة الأخيرة في المقطع الأخير من شكل المسار يتم ربطها بالنقطة المحددة في خاصية StartPoint، وإلا يتم رسم الخط "open"، ولا يتم ربط النقطة الأخيرة بنقطة البداية. ينطبق ذلك فقط إذا تم استخدام شكل المسار في عنصر Path يحدد خطًا. |
+| نقطة البداية | java.awt.geom.Point2D | نقطة البداية للقطعة الأولى من شكل المسار. |
+| isClosed | منطقي | يحدد ما إذا كان المسار مغلقًا. إذا تم تعيينه إلى true، يتم رسم الخط "closed"، أي أن النقطة الأخيرة في القطعة الأخيرة من شكل المسار يتم ربطها بالنقطة المحددة في الخاصية StartPoint، وإلا يتم رسم الخط "open"، ولا يتم ربط النقطة الأخيرة بنقطة البداية. ينطبق ذلك فقط إذا تم استخدام شكل المسار داخل عنصر Path يحدد خطًا. |
 
 **Returns:**
 [XpsPathFigure](../../com.aspose.xps/xpspathfigure) - New path figure.
@@ -926,8 +926,8 @@ public XpsPathFigure createPathFigure(Point2D startPoint, List<XpsPathSegment> s
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| startPoint | java.awt.geom.Point2D | نقطة البداية للمقطع الأول من شكل المسار. |
-| segments | java.util.List<com.aspose.xps.XpsPathSegment> | قائمة بمقاطع المسار. |
+| نقطة البداية | java.awt.geom.Point2D | نقطة البداية للقطعة الأولى من شكل المسار. |
+| segments | java.util.List<com.aspose.xps.XpsPathSegment> | قائمة بقطع المسار. |
 
 **Returns:**
 [XpsPathFigure](../../com.aspose.xps/xpspathfigure) - New path figure.
@@ -942,9 +942,9 @@ public XpsPathFigure createPathFigure(Point2D startPoint, List<XpsPathSegment> s
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| startPoint | java.awt.geom.Point2D | نقطة البداية للمقطع الأول من شكل المسار. |
-| segments | java.util.List<com.aspose.xps.XpsPathSegment> | قائمة بمقاطع المسار. |
-| isClosed | boolean | يحدد ما إذا كان المسار مغلقًا. إذا تم تعيينه إلى true، يتم رسم الخط "closed"، أي أن النقطة الأخيرة في المقطع الأخير من شكل المسار يتم ربطها بالنقطة المحددة في خاصية StartPoint، وإلا يتم رسم الخط "open"، ولا يتم ربط النقطة الأخيرة بنقطة البداية. ينطبق ذلك فقط إذا تم استخدام شكل المسار في عنصر Path يحدد خطًا. |
+| نقطة البداية | java.awt.geom.Point2D | نقطة البداية للقطعة الأولى من شكل المسار. |
+| segments | java.util.List<com.aspose.xps.XpsPathSegment> | قائمة بقطع المسار. |
+| isClosed | منطقي | يحدد ما إذا كان المسار مغلقًا. إذا تم تعيينه إلى true، يتم رسم الخط "closed"، أي أن النقطة الأخيرة في القطعة الأخيرة من شكل المسار يتم ربطها بالنقطة المحددة في الخاصية StartPoint، وإلا يتم رسم الخط "open"، ولا يتم ربط النقطة الأخيرة بنقطة البداية. ينطبق ذلك فقط إذا تم استخدام شكل المسار داخل عنصر Path يحدد خطًا. |
 
 **Returns:**
 [XpsPathFigure](../../com.aspose.xps/xpspathfigure) - New path figure.
@@ -994,12 +994,12 @@ public XpsPolyBezierSegment createPolyBezierSegment(Point2D[] points)
 ```
 
 
-ينشئ مجموعة جديدة من منحنيات B?zier مكعبية مرسومة.
+ينشئ مجموعة جديدة من المنحنيات المكعبة المتحددة B?zier.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| points | java.awt.geom.Point2D[] | نقاط التحكم لعدة مقاطع B?bezier. |
+| points | java.awt.geom.Point2D[] | نقاط التحكم لعدة قطع B?bezier. |
 
 **Returns:**
 [XpsPolyBezierSegment](../../com.aspose.xps/xpspolybeziersegment) - New cubic B?zier curves segment.
@@ -1009,13 +1009,13 @@ public XpsPolyBezierSegment createPolyBezierSegment(Point2D[] points, boolean is
 ```
 
 
-ينشئ مجموعة جديدة من منحنيات B?zier مكعبية.
+ينشئ مجموعة جديدة من المنحنيات المكعبة B?zier.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| points | java.awt.geom.Point2D[] | نقاط التحكم لعدة مقاطع B?bezier. |
-| isStroked | boolean | يحدد ما إذا كان الحد لهذا الجزء من المسار يُرسم. |
+| points | java.awt.geom.Point2D[] | نقاط التحكم لعدة قطع B?bezier. |
+| isStroked | منطقي | يحدد ما إذا كان الحد لهذا الجزء من المسار يُرسم. |
 
 **Returns:**
 [XpsPolyBezierSegment](../../com.aspose.xps/xpspolybeziersegment) - New cubic B?zier curves segment.
@@ -1025,12 +1025,12 @@ public XpsPolyLineSegment createPolyLineSegment(Point2D[] points)
 ```
 
 
-ينشئ رسمًا متعدد الأضلاع مرسومًا يحتوي على عدد عشوائي من الرؤوس الفردية.
+ينشئ رسمًا متعدد الأضلاع محددًا يحتوي على عدد عشوائي من الرؤوس الفردية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| points | java.awt.geom.Point2D[] | مجموعة من الإحداثيات للمقاطع المتعددة التي تحدد مقطع الخط المتعدد. |
+| points | java.awt.geom.Point2D[] | مجموعة من الإحداثيات للقطع المتعددة التي تُعرّف مقطع الخط المتعدد. |
 
 **Returns:**
 [XpsPolyLineSegment](../../com.aspose.xps/xpspolylinesegment) - New polygonal drawing segment.
@@ -1045,8 +1045,8 @@ public XpsPolyLineSegment createPolyLineSegment(Point2D[] points, boolean isStro
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| points | java.awt.geom.Point2D[] | مجموعة من الإحداثيات للمقاطع المتعددة التي تحدد مقطع الخط المتعدد. |
-| isStroked | boolean | يحدد ما إذا كان الحد لهذا الجزء من المسار يُرسم. |
+| points | java.awt.geom.Point2D[] | مجموعة من الإحداثيات للقطع المتعددة التي تُعرّف مقطع الخط المتعدد. |
+| isStroked | منطقي | يحدد ما إذا كان الحد لهذا الجزء من المسار يُرسم. |
 
 **Returns:**
 [XpsPolyLineSegment](../../com.aspose.xps/xpspolylinesegment) - New polygonal drawing segment.
@@ -1056,12 +1056,12 @@ public XpsPolyQuadraticBezierSegment createPolyQuadraticBezierSegment(Point2D[] 
 ```
 
 
-ينشئ مجموعة جديدة من منحنيات B?bezier رباعية مرسومة من النقطة السابقة في شكل المسار عبر مجموعة من الرؤوس، باستخدام نقاط التحكم المحددة.
+ينشئ مجموعة جديدة من المنحنيات التربيعية المتحددة B?zier من النقطة السابقة في شكل المسار عبر مجموعة من الرؤوس، باستخدام نقاط التحكم المحددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| points | java.awt.geom.Point2D[] | نقاط التحكم لعدة مقاطع B?bezier تربيعية. |
+| points | java.awt.geom.Point2D[] | نقاط التحكم لعدة قطع B?bezier تربيعية. |
 
 **Returns:**
 [XpsPolyQuadraticBezierSegment](../../com.aspose.xps/xpspolyquadraticbeziersegment) - New quadratic B?zier curves segment.
@@ -1071,13 +1071,13 @@ public XpsPolyQuadraticBezierSegment createPolyQuadraticBezierSegment(Point2D[] 
 ```
 
 
-ينشئ مجموعة جديدة من منحنيات B?bezier رباعية من النقطة السابقة في شكل المسار عبر مجموعة من الرؤوس، باستخدام نقاط التحكم المحددة.
+ينشئ مجموعة جديدة من المنحنيات التربيعية B?zier من النقطة السابقة في شكل المسار عبر مجموعة من الرؤوس، باستخدام نقاط التحكم المحددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| points | java.awt.geom.Point2D[] | نقاط التحكم لعدة مقاطع B?bezier تربيعية. |
-| isStroked | boolean | يحدد ما إذا كان الحد لهذا الجزء من المسار يُرسم. |
+| points | java.awt.geom.Point2D[] | نقاط التحكم لعدة قطع B?bezier تربيعية. |
+| isStroked | منطقي | يحدد ما إذا كان الحد لهذا الجزء من المسار يُرسم. |
 
 **Returns:**
 [XpsPolyQuadraticBezierSegment](../../com.aspose.xps/xpspolyquadraticbeziersegment) - New quadratic B?zier curves segment.
@@ -1092,10 +1092,10 @@ public XpsRadialGradientBrush createRadialGradientBrush(Point2D center, Point2D 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| center | java.awt.geom.Point2D | نقطة المركز للتدرج الشعاعي (أي مركز الشكل البيضاوي). |
+| center | java.awt.geom.Point2D | نقطة المركز للتدرج الشعاعي (أي مركز القطع الناقص). |
 | gradientOrigin | java.awt.geom.Point2D | نقطة الأصل للتدرج الشعاعي. |
-| radiusX | float | نصف القطر في البُعد x للإهليلج الذي يحدد التدرج الشعاعي. |
-| radiusY | float | نصف القطر في البُعد y للإهليلج الذي يحدد التدرج الشعاعي. |
+| radiusX | float | نصف القطر في البُعد السيني للإهليلج الذي يحدد التدرج الشعاعي. |
+| radiusY | float | نصف القطر في البُعد الصادي للإهليلج الذي يحدد التدرج الشعاعي. |
 
 **Returns:**
 [XpsRadialGradientBrush](../../com.aspose.xps/xpsradialgradientbrush) - New radial gradient brush.
@@ -1110,11 +1110,11 @@ public XpsRadialGradientBrush createRadialGradientBrush(List<XpsGradientStop> gr
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| gradientStops | java.util.List<com.aspose.xps.XpsGradientStop> | قائمة نقاط توقف التدرج. |
-| center | java.awt.geom.Point2D | نقطة المركز للتدرج الشعاعي (أي مركز الشكل البيضاوي). |
+| نقاط التوقف للتدرج | java.util.List<com.aspose.xps.XpsGradientStop> | قائمة نقاط التوقف للتدرج. |
+| center | java.awt.geom.Point2D | نقطة المركز للتدرج الشعاعي (أي مركز القطع الناقص). |
 | gradientOrigin | java.awt.geom.Point2D | نقطة الأصل للتدرج الشعاعي. |
-| radiusX | float | نصف القطر في البُعد x للإهليلج الذي يحدد التدرج الشعاعي. |
-| radiusY | float | نصف القطر في البُعد y للإهليلج الذي يحدد التدرج الشعاعي. |
+| radiusX | float | نصف القطر في البُعد السيني للإهليلج الذي يحدد التدرج الشعاعي. |
+| radiusY | float | نصف القطر في البُعد الصادي للإهليلج الذي يحدد التدرج الشعاعي. |
 
 **Returns:**
 [XpsRadialGradientBrush](../../com.aspose.xps/xpsradialgradientbrush) - New radial gradient brush.
@@ -1144,7 +1144,7 @@ public XpsSolidColorBrush createSolidColorBrush(Color color)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| اللون | java.awt.Color | اللون للعناصر المملوءة. |
+| color | java.awt.Color | اللون للعناصر المملوءة. |
 
 **Returns:**
 [XpsSolidColorBrush](../../com.aspose.xps/xpssolidcolorbrush) - New solid color brush.
@@ -1159,9 +1159,9 @@ public XpsVisualBrush createVisualBrush(XpsContentElement element, Rectangle2D v
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| element | [XpsContentElement](../../com.aspose.xps/xpscontentelement) | عنصر XPS (Canvas أو Path أو Glyphs) لخاصية Visual للفرشاة البصرية. |
-| viewbox | java.awt.geom.Rectangle2D | موضع وأبعاد محتوى مصدر الفرشاة. |
-| viewport | java.awt.geom.Rectangle2D | المنطقة في مساحة الإحداثيات المحتوية لبلاطة الفرشاة الأساسية التي تُطبق (ربما بشكل متكرر) لملء المنطقة التي تُطبق عليها الفرشاة |
+| element | [XpsContentElement](../../com.aspose.xps/xpscontentelement) | عنصر XPS (Canvas, Path أو Glyphs) لخاصية Visual للفرشاة البصرية. |
+| صندوق العرض | java.awt.geom.Rectangle2D | الموضع والأبعاد لمحتوى مصدر الفرشاة. |
+| منطقة العرض | java.awt.geom.Rectangle2D | المنطقة في مساحة الإحداثيات المحتوية لبلاطة الفرشاة الأساسية التي تُطبق (ربما بشكل متكرر) لملء المنطقة التي تُطبق عليها الفرشاة |
 
 **Returns:**
 [XpsVisualBrush](../../com.aspose.xps/xpsvisualbrush) - New visual brush.
@@ -1179,14 +1179,14 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getActiveDocument() {#getActiveDocument--}
 ```
 public int getActiveDocument()
 ```
 
 
-يعيد رقم المستند النشط.
+يرجع رقم المستند النشط.
 
 **Returns:**
 int - قيمة int.
@@ -1196,7 +1196,7 @@ public int getActivePage()
 ```
 
 
-يعيد رقم الصفحة النشطة داخل المستند النشط.
+يرجع رقم الصفحة النشطة داخل المستند النشط.
 
 **Returns:**
 int - قيمة int.
@@ -1216,7 +1216,7 @@ public int getDocumentCount()
 ```
 
 
-يعيد عدد المستندات داخل حزمة XPS.
+يرجع عدد المستندات داخل حزمة XPS.
 
 **Returns:**
 int - عدد المستندات داخل حزمة XPS.
@@ -1241,7 +1241,7 @@ public JobPrintTicket getJobPrintTicket()
 ```
 
 
-يعيد تذكرة طباعة مهمة المستند.
+يرجع تذكرة طباعة مهمة المستند.
 
 **Returns:**
 [JobPrintTicket](../../com.aspose.xps.metadata/jobprintticket) - The document's job print ticket.
@@ -1251,7 +1251,7 @@ public XpsPage getPage()
 ```
 
 
-يعيد كائن  XpsPage  للصفحة النشطة.
+يرجع كائن  XpsPage  للصفحة النشطة.
 
 **Returns:**
 [XpsPage](../../com.aspose.xps/xpspage) - The  XpsPage  instance for active page.
@@ -1297,7 +1297,7 @@ public DocumentUtils getUtils()
 ```
 
 
-يحصل على الكائن الذي يوفر أدوات تتجاوز واجهة برمجة تطبيقات XPS الرسمية.
+يحصل على الكائن الذي يوفر أدوات تتجاوز واجهة برمجة تطبيقات معالجة XPS الرسمية.
 
 **Returns:**
 [DocumentUtils](../../com.aspose.xps/documentutils) - The utilities object.
@@ -1317,7 +1317,7 @@ public XpsCanvas insertCanvas(int index)
 ```
 
 
-يدرج لوحة قماشية جديدة إلى الصفحة النشطة في الموضع  index .
+يدرج لوحة قماشية جديدة إلى الصفحة النشطة في موضع  index .
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1332,7 +1332,7 @@ public void insertDocument(int index)
 ```
 
 
-يدرج مستندًا فارغًا بحجم الصفحة الافتراضي في الموضع  index ويختار المستند المدخل كنشط.
+يدرج مستندًا فارغًا بحجم الصفحة الافتراضي في موضع  index ويختار المستند المدخل كنشط.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1345,13 +1345,13 @@ public void insertDocument(int index, boolean activate)
 ```
 
 
-يدرج مستندًا فارغًا بحجم الصفحة الافتراضي في الموضع  index .
+يدرج مستندًا فارغًا بحجم الصفحة الافتراضي في موضع  index .
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | فهرس | int | الموضع الذي يجب إدراج المستند فيه. |
-| تفعيل | boolean | علامة تشير إلى ما إذا كان يجب اختيار المستند المُدرج كنشط. |
+| تفعيل | منطقي | علامة تشير إلى ما إذا كان يجب اختيار المستند المُدرج كنشط. |
 
 ### insertDocument(int index, float width, float height) {#insertDocument-int-float-float-}
 ```
@@ -1359,14 +1359,14 @@ public void insertDocument(int index, float width, float height)
 ```
 
 
-يدرج مستندًا فارغًا بأبعاد الصفحة الأولى  width  و  height  في الموضع  index ويختار المستند المدخل كنشط.
+يدرج مستندًا فارغًا بأبعاد الصفحة الأولى  width  و  height  في موضع  index ويختار المستند المدخل كنشط.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | فهرس | int | الموضع الذي يجب إدراج المستند فيه. |
 | width | float | عرض الصفحة الأولى. |
-| الارتفاع | float | ارتفاع الصفحة الأولى. |
+| height | float | ارتفاع الصفحة الأولى. |
 
 ### insertDocument(int index, float width, float height, boolean activate) {#insertDocument-int-float-float-boolean-}
 ```
@@ -1374,15 +1374,15 @@ public void insertDocument(int index, float width, float height, boolean activat
 ```
 
 
-يدرج مستندًا فارغًا بأبعاد الصفحة الأولى  width  و  height  في  index  position.
+يدرج مستندًا فارغًا بأبعاد الصفحة الأولى العرض والارتفاع في موضع الفهرس .
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | فهرس | int | الموضع الذي يجب إدراج المستند فيه. |
 | width | float | عرض الصفحة الأولى. |
-| الارتفاع | float | ارتفاع الصفحة الأولى. |
-| تفعيل | boolean | علامة تشير إلى ما إذا كان يجب اختيار المستند المُدرج كنشط. |
+| height | float | ارتفاع الصفحة الأولى. |
+| تفعيل | منطقي | علامة تشير إلى ما إذا كان يجب اختيار المستند المُدرج كنشط. |
 
 ### insertGlyphs(int index, XpsFont font, float fontSize, float originX, float originY, String unicodeString) {#insertGlyphs-int-com.aspose.xps.XpsFont-float-float-float-java.lang.String-}
 ```
@@ -1390,7 +1390,7 @@ public XpsGlyphs insertGlyphs(int index, XpsFont font, float fontSize, float ori
 ```
 
 
-يدرج رموزًا جديدة إلى الصفحة النشطة في  index  position.
+يدرج رموزًا جديدة إلى الصفحة النشطة في موضع الفهرس .
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1410,7 +1410,7 @@ public XpsGlyphs insertGlyphs(int index, String fontFamily, float fontSize, XpsF
 ```
 
 
-يدرج رموزًا جديدة إلى الصفحة النشطة في  index  position.
+يدرج رموزًا جديدة إلى الصفحة النشطة في موضع الفهرس .
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1431,7 +1431,7 @@ public XpsPage insertPage(int index)
 ```
 
 
-يدرج صفحة فارغة إلى المستند بحجم الصفحة الافتراضي في  index  position ويختار الصفحة المدخلة كنشطة.
+يدرج صفحة فارغة إلى المستند بحجم الصفحة الافتراضي في موضع الفهرس ويختار الصفحة المدخلة كنشطة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1446,13 +1446,13 @@ public XpsPage insertPage(int index, boolean activate)
 ```
 
 
-يدرج صفحة فارغة إلى المستند بحجم الصفحة الافتراضي في  index  position.
+يدرج صفحة فارغة إلى المستند بحجم الصفحة الافتراضي في موضع الفهرس.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | فهرس | int | الموضع الذي يجب إدراج الصفحة فيه. |
-| تفعيل | boolean | علامة تشير إلى ما إذا كان يجب اختيار الصفحة المُدرجة كنشطة. |
+| تفعيل | منطقي | علامة تشير إلى ما إذا كان يجب اختيار الصفحة المُدرجة كنشطة. |
 
 **Returns:**
 [XpsPage](../../com.aspose.xps/xpspage) - Inserted page.
@@ -1462,7 +1462,7 @@ public XpsPage insertPage(int index, XpsPage page)
 ```
 
 
-يدرج صفحة إلى المستند في  index  position ويختار الصفحة المدخلة كنشطة.
+يدرج صفحة إلى المستند في موضع الفهرس ويختار الصفحة المدخلة كنشطة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1478,14 +1478,14 @@ public XpsPage insertPage(int index, XpsPage page, boolean activate)
 ```
 
 
-يدرج صفحة إلى المستند في  index  position.
+يدرج صفحة إلى المستند في موضع الفهرس.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | فهرس | int | الموضع الذي يجب إضافة الصفحة فيه. |
 | page | [XpsPage](../../com.aspose.xps/xpspage) | الصفحة التي سيتم إدراجها. |
-| تفعيل | boolean | علامة تشير إلى ما إذا كان يجب اختيار الصفحة المُدرجة كنشطة. |
+| تفعيل | منطقي | علامة تشير إلى ما إذا كان يجب اختيار الصفحة المُدرجة كنشطة. |
 
 **Returns:**
 [XpsPage](../../com.aspose.xps/xpspage) - Inserted page.
@@ -1495,14 +1495,14 @@ public XpsPage insertPage(int index, float width, float height)
 ```
 
 
-يدرج صفحة فارغة إلى المستند بأبعاد محددة  width  و  height  في  index  position ويختار الصفحة المدخلة كنشطة.
+يدرج صفحة فارغة إلى المستند بأبعاد محددة العرض والارتفاع في موضع الفهرس ويختار الصفحة المدخلة كنشطة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | فهرس | int | الموضع الذي يجب إدراج الصفحة فيه. |
 | width | float | عرض صفحة جديدة. |
-| الارتفاع | float | ارتفاع صفحة جديدة. |
+| height | float | ارتفاع صفحة جديدة. |
 
 **Returns:**
 [XpsPage](../../com.aspose.xps/xpspage) - Inserted page.
@@ -1512,15 +1512,15 @@ public XpsPage insertPage(int index, float width, float height, boolean activate
 ```
 
 
-يدرج صفحة فارغة إلى المستند بأبعاد محددة  width  و  height  في  index  position.
+يدرج صفحة فارغة إلى المستند بأبعاد محددة العرض والارتفاع في موضع الفهرس.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | فهرس | int | الموضع الذي يجب إدراج الصفحة فيه. |
 | width | float | عرض صفحة جديدة. |
-| الارتفاع | float | ارتفاع صفحة جديدة. |
-| تفعيل | boolean | علامة تشير إلى ما إذا كان يجب اختيار الصفحة المُدرجة كنشطة. |
+| height | float | ارتفاع صفحة جديدة. |
+| تفعيل | منطقي | علامة تشير إلى ما إذا كان يجب اختيار الصفحة المُدرجة كنشطة. |
 
 **Returns:**
 [XpsPage](../../com.aspose.xps/xpspage) - Inserted page.
@@ -1530,7 +1530,7 @@ public XpsPath insertPath(int index, XpsPathGeometry data)
 ```
 
 
-يدرج مسارًا جديدًا إلى الصفحة النشطة في  index  position.
+يدرج مسارًا جديدًا إلى الصفحة النشطة في موضع الفهرس.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1584,7 +1584,7 @@ public void mergeToPdf(String outPdfFilePath, String[] filesForMerge, PdfSaveOpt
 ```
 
 
-دمج مستندات XPS إلى PDF باستخدام مثيل  Device .
+دمج مستندات XPS إلى PDF باستخدام كائن Device .
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1599,7 +1599,7 @@ public void mergeToPdf(String[] filesForMerge, OutputStream pdfStream, PdfSaveOp
 ```
 
 
-دمج مستندات XPS إلى PDF باستخدام مثيل  Device .
+دمج مستندات XPS إلى PDF باستخدام كائن Device .
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1630,7 +1630,7 @@ public XpsContentElement removeAt(int index)
 ```
 
 
-يزيل عنصرًا في  index  position من الصفحة النشطة.
+يزيل عنصرًا في موضع الفهرس من الصفحة النشطة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1645,7 +1645,7 @@ public void removeDocumentAt(int index)
 ```
 
 
-يزيل مستندًا في  index  position.
+يزيل مستندًا في موضع الفهرس.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1673,7 +1673,7 @@ public XpsPage removePageAt(int index)
 ```
 
 
-يزيل صفحة من المستند في  index  position.
+يزيل صفحة من المستند في موضع الفهرس.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1688,7 +1688,7 @@ public void save(Device device, SaveOptions options)
 ```
 
 
-يحفظ المستند باستخدام مثيل  Device .
+يحفظ المستند باستخدام كائن Device .
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1707,7 +1707,7 @@ public void save(OutputStream stream)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| دفق | java.io.OutputStream | دفق مستند XPS ليتم حفظه في. |
+| stream | java.io.OutputStream | دفق مستند XPS ليتم حفظه في. |
 
 ### save(String path) {#save-java.lang.String-}
 ```
@@ -1715,7 +1715,7 @@ public void save(String path)
 ```
 
 
-يحفظ مستند XPS إلى ملف XPS الموجود في  path .
+يحفظ مستند XPS إلى ملف XPS الموجود في المسار .
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1728,12 +1728,12 @@ public void saveAsImage(ImageSaveOptions options)
 ```
 
 
-يحفظ المستند كملف صورة. سيكون دليل الإخراج واسم الملف هو نفسه كما في ملف XPS المدخل. سيتطابق امتداد الملف مع تنسيق الصورة في "options" param. إذا تم تهيئة المستند باستخدام تدفق ليس FileInputStream، فسيتم حفظ ملف الصورة في المجلد الحالي باستخدام قالب اسم ملف افتراضي.
+يحفظ المستند كملف صورة. سيكون دليل الإخراج واسم الملف هو نفسه كما في ملف XPS المدخل. سيتطابق امتداد الملف مع تنسيق الصورة في معلمة "options". إذا تم تهيئة المستند باستخدام تدفق ليس FileInputStream، فسيتم حفظ ملف الصورة في المجلد الحالي باستخدام قالب اسم ملف افتراضي.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| options | [ImageSaveOptions](../../com.aspose.xps.rendering/imagesaveoptions) | خيارات حفظ المستند بتنسيق صورة نقطية. |
+| options | [ImageSaveOptions](../../com.aspose.xps.rendering/imagesaveoptions) | خيارات حفظ المستند بتنسيق صورة bitmap. |
 
 ### saveAsImage(ImageSaveOptions options, String outDir, String fileNameTemplate) {#saveAsImage-com.aspose.xps.rendering.ImageSaveOptions-java.lang.String-java.lang.String-}
 ```
@@ -1741,14 +1741,14 @@ public void saveAsImage(ImageSaveOptions options, String outDir, String fileName
 ```
 
 
-يحفظ المستند كملف صورة في الدليل المحدد مع اسم الملف المحدد. سيتطابق امتداد الملف مع تنسيق الصورة في "options" param.
+يحفظ المستند كملف صورة في الدليل المحدد مع اسم الملف المحدد. سيتطابق امتداد الملف مع تنسيق الصورة في معلمة "options".
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| options | [ImageSaveOptions](../../com.aspose.xps.rendering/imagesaveoptions) | خيارات حفظ المستند بتنسيق صورة نقطية. |
+| options | [ImageSaveOptions](../../com.aspose.xps.rendering/imagesaveoptions) | خيارات حفظ المستند بتنسيق صورة bitmap. |
 | outDir | java.lang.String | دليل الإخراج حيث سيتم حفظ ملف الصورة. |
-| fileNameTemplate | java.lang.String | قالب اسم الملف للصورة (بدون امتداد). إذا كان ملف XPS المدخل صفحة واحدة فسيكون بالضبط اسم الملف، وإلا "\_[n]" حيث "n" - رقم الصفحة بدءًا من 1، سيتم إلحاق لاحقة إلى ذلك. سيتطابق امتداد الملف مع تنسيق الصورة في "option" param. |
+| fileNameTemplate | java.lang.String | قالب اسم الملف للصورة (بدون امتداد). إذا كان ملف XPS المدخل صفحة واحدة فسيكون اسم الملف بالضبط، وإلا سيكون "\_[n]" حيث "n" - رقم الصفحة بدءًا من 1، وسيُضاف لاحقة إلى ذلك. سيتطابق امتداد الملف مع تنسيق الصورة في معلمة "option". |
 
 ### saveAsImageBytes(ImageSaveOptions options) {#saveAsImageBytes-com.aspose.xps.rendering.ImageSaveOptions-}
 ```
@@ -1761,10 +1761,10 @@ public byte[][][] saveAsImageBytes(ImageSaveOptions options)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| options | [ImageSaveOptions](../../com.aspose.xps.rendering/imagesaveoptions) | خيارات حفظ المستند بتنسيق صورة نقطية. |
+| options | [ImageSaveOptions](../../com.aspose.xps.rendering/imagesaveoptions) | خيارات حفظ المستند بتنسيق صورة bitmap. |
 
 **Returns:**
-byte[][][] - مصفوفات البايت للصور الناتجة. البُعد الأول للمستندات الداخلية والبُعد الثاني للصفحات داخل المستندات الداخلية.
+byte[][][] - مصفوفات البايت للصور الناتجة. البُعد الأول مخصص للمستندات الداخلية والبُعد الثاني للصفحات داخل المستندات الداخلية.
 ### saveAsPdf(OutputStream stream, PdfSaveOptions options) {#saveAsPdf-java.io.OutputStream-com.aspose.xps.rendering.PdfSaveOptions-}
 ```
 public void saveAsPdf(OutputStream stream, PdfSaveOptions options)
@@ -1776,7 +1776,7 @@ public void saveAsPdf(OutputStream stream, PdfSaveOptions options)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| دفق | java.io.OutputStream | التدفق لكتابة ملف PDF الناتج إليه. |
+| stream | java.io.OutputStream | التدفق لكتابة ملف PDF الناتج إليه. |
 | options | [PdfSaveOptions](../../com.aspose.xps.rendering/pdfsaveoptions) | خيارات حفظ المستند بتنسيق PDF. |
 
 ### saveAsPdf(String outPdfFilePath, PdfSaveOptions options) {#saveAsPdf-java.lang.String-com.aspose.xps.rendering.PdfSaveOptions-}
@@ -1804,7 +1804,7 @@ public void saveAsPs(OutputStream stream, PsSaveOptions options)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| دفق | java.io.OutputStream | التدفق لكتابة ملف PS الناتج إليه. |
+| stream | java.io.OutputStream | التدفق لكتابة ملف PS الناتج إليه. |
 | options | [PsSaveOptions](../../com.aspose.eps.device/pssaveoptions) | خيارات حفظ المستند بتنسيق PS. |
 
 ### saveAsPs(String outPsFilePath, PsSaveOptions options) {#saveAsPs-java.lang.String-com.aspose.eps.device.PsSaveOptions-}
@@ -1855,7 +1855,7 @@ public void setDocumentPrintTicket(int documentIndex, DocumentPrintTicket printT
 ```
 
 
-يربط الـ printTicket بالمستند المفهرس بواسطة documentIndex.
+يربط الـ  printTicket  بالمستند المفهرس بواسطة  documentIndex .
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1869,7 +1869,7 @@ public void setJobPrintTicket(JobPrintTicket value)
 ```
 
 
-يضبط تذكرة طباعة مهمة المستند.
+يضبط بطاقة طباعة وظيفة المستند.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1882,13 +1882,13 @@ public void setPagePrintTicket(int documentIndex, int pageIndex, PagePrintTicket
 ```
 
 
-يربط الـ printTicket بالصفحة المفهرسة بواسطة pageIndex في المستند المفهرس بواسطة documentIndex.
+يربط الـ  printTicket  بالصفحة المفهرسة بواسطة  pageIndex  في المستند المفهرس بواسطة  documentIndex .
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | documentIndex | int | فهرس المستند. |
-| pageIndex | int | فهرس الصفحة لربط تذكرة الطباعة به. |
+| pageIndex | int | فهرس الصفحة لربط تذكرة الطباعة بها. |
 | printTicket | [PagePrintTicket](../../com.aspose.xps.metadata/pageprintticket) | تذكرة الطباعة للربط. |
 
 ### toString() {#toString--}

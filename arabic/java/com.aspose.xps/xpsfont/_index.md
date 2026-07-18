@@ -1,18 +1,18 @@
 ---
 title: "XpsFont"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "فئة تُغلف مورد خط TrueType."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "فئة تجسد مورد خط TrueType."
 type: docs
 weight: 24
 url: /ar/java/com.aspose.xps/xpsfont/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.xps.XpsFileResource](../../com.aspose.xps/xpsfileresource)
+java.lang.Object, [com.aspose.xps.XpsFileResource](../../com.aspose.xps/xpsfileresource)
 ```
 public final class XpsFont extends XpsFileResource
 ```
 
-فئة تُغلف مورد خط TrueType.
+فئة تجسد مورد خط TrueType.
 ## الطرق
 
 | طريقة | الوصف |
@@ -40,7 +40,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

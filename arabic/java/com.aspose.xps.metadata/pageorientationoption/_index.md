@@ -1,6 +1,6 @@
 ---
 title: "PageOrientation.PageOrientationOption"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف خيارات ميزة PageOrientation."
 type: docs
 weight: 10
@@ -12,20 +12,20 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class PageOrientation.PageOrientationOption extends Option
 ```
 
-يصف خيارات ميزة PageOrientation.
+يصف خيارات ميزة  PageOrientation .
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
-| [Landscape](#Landscape) | يتم تدوير المحتوى على الصفحة 90 درجة عكس اتجاه عقارب الساعة مقارنةً بالاتجاه القياسي (عمودي). |
+| [Landscape](#Landscape) | المحتوى مُدوَّر على الصفحة 90 درجة عكس اتجاه عقارب الساعة مقارنةً بالاتجاه القياسي (عمودي). |
 | [Portrait](#Portrait) | الاتجاه القياسي. |
-| [ReverseLandscape](#ReverseLandscape) | المحتوى مُدوَّر على الصفحة 270 درجة عكس اتجاه عقارب الساعة مقارنةً بالاتجاه القياسي (العمودي). |
-| [ReversePortrait](#ReversePortrait) | المحتوى مُدوَّر على الصفحة 180 درجة مقارنةً بالاتجاه القياسي (العمودي). |
+| [ReverseLandscape](#ReverseLandscape) | المحتوى مدور على الصفحة 270 درجة عكس اتجاه عقارب الساعة مقارنةً بالاتجاه القياسي (عمودي). |
+| [ReversePortrait](#ReversePortrait) | المحتوى مدور على الصفحة 180 درجة مقارنةً بالاتجاه القياسي (عمودي). |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. |
+| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public static final PageOrientation.PageOrientationOption Landscape
 ```
 
 
-يتم تدوير المحتوى على الصفحة 90 درجة عكس اتجاه عقارب الساعة مقارنةً بالاتجاه القياسي (عمودي).
+المحتوى مُدوَّر على الصفحة 90 درجة عكس اتجاه عقارب الساعة مقارنةً بالاتجاه القياسي (عمودي).
 
 ### Portrait {#Portrait}
 ```
@@ -58,7 +58,7 @@ public static final PageOrientation.PageOrientationOption ReverseLandscape
 ```
 
 
-المحتوى مُدوَّر على الصفحة 270 درجة عكس اتجاه عقارب الساعة مقارنةً بالاتجاه القياسي (العمودي).
+المحتوى مدور على الصفحة 270 درجة عكس اتجاه عقارب الساعة مقارنةً بالاتجاه القياسي (عمودي).
 
 ### ReversePortrait {#ReversePortrait}
 ```
@@ -66,7 +66,7 @@ public static final PageOrientation.PageOrientationOption ReversePortrait
 ```
 
 
-المحتوى مُدوَّر على الصفحة 180 درجة مقارنةً بالاتجاه القياسي (العمودي).
+المحتوى مدور على الصفحة 180 درجة مقارنةً بالاتجاه القياسي (عمودي).
 
 ### add(IOptionItem[] items) {#add-com.aspose.xps.metadata.IOptionItem...-}
 ```
@@ -74,7 +74,7 @@ public void add(IOptionItem[] items)
 ```
 
 
-يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. يجب أن يكون كل عنصر إما  ScoredProperty  أو  Property  مثيل.
+يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. يجب أن يكون كل عنصر إما مثال ScoredProperty أو مثال Property.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -95,7 +95,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

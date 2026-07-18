@@ -1,6 +1,6 @@
 ---
 title: "PageMediaSize.IPageMediaSizeOptionItem"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "واجهة أي عنصر PageMediaSizeOption."
 type: docs
 weight: 12
@@ -12,4 +12,4 @@ url: /ar/java/com.aspose.xps.metadata/pagemediasize.ipagemediasizeoptionitem/
 public static interface PageMediaSize.IPageMediaSizeOptionItem extends IOptionItem
 ```
 
-واجهة أي  PageMediaSizeOption  عنصر.
+واجهة أي عنصر PageMediaSizeOption.

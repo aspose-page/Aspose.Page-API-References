@@ -1,6 +1,6 @@
 ---
 title: "PdfEncryptionDetails"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يحتوي على تفاصيل لتشفير PDF."
 type: docs
 weight: 13
@@ -13,11 +13,11 @@ public class PdfEncryptionDetails
 ```
 
 يحتوي على تفاصيل لتشفير PDF.
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PdfEncryptionDetails(String userPassword, String ownerPassword, int permissions, PdfEncryptionAlgorithm encryptionAlgorithm)](#PdfEncryptionDetails-java.lang.String-java.lang.String-int-com.aspose.xps.rendering.PdfEncryptionAlgorithm-) | يُنشئ مثيلاً جديداً لفئة  PdfEncryptionDetailsCore . |
+| [PdfEncryptionDetails(String userPassword, String ownerPassword, int permissions, PdfEncryptionAlgorithm encryptionAlgorithm)](#PdfEncryptionDetails-java.lang.String-java.lang.String-int-com.aspose.xps.rendering.PdfEncryptionAlgorithm-) | يُنشئ مثيلاً جديداً من الفئة PdfEncryptionDetailsCore . |
 ## الطرق
 
 | طريقة | الوصف |
@@ -45,7 +45,7 @@ public PdfEncryptionDetails(String userPassword, String ownerPassword, int permi
 ```
 
 
-يُنشئ مثيلاً جديداً لفئة  PdfEncryptionDetailsCore .
+يُنشئ مثيلاً جديداً من الفئة PdfEncryptionDetailsCore .
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -69,7 +69,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -120,7 +120,7 @@ public String getUserPassword()
 
 يعيد كلمة مرور المستخدم.
 
-فتح المستند باستخدام كلمة مرور المستخدم الصحيحة (أو فتح مستند لا يحتوي على كلمة مرور للمستخدم) يسمح بتنفيذ عمليات إضافية وفقًا لأذونات وصول المستخدم المحددة في قاموس تشفير المستند\\u2019s.
+فتح المستند باستخدام كلمة مرور المستخدم الصحيحة (أو فتح مستند لا يحتوي على كلمة مرور للمستخدم) يسمح بتنفيذ عمليات إضافية وفقًا لأذونات وصول المستخدم المحددة في قاموس تشفير المستند.
 
 **Returns:**
 java.lang.String - كلمة مرور المستخدم.
@@ -199,7 +199,7 @@ public void setUserPassword(String value)
 
 يضبط كلمة مرور المستخدم.
 
-فتح المستند باستخدام كلمة مرور المستخدم الصحيحة (أو فتح مستند لا يحتوي على كلمة مرور للمستخدم) يسمح بتنفيذ عمليات إضافية وفقًا لأذونات وصول المستخدم المحددة في قاموس تشفير المستند\\u2019s.
+فتح المستند باستخدام كلمة مرور المستخدم الصحيحة (أو فتح مستند لا يحتوي على كلمة مرور للمستخدم) يسمح بتنفيذ عمليات إضافية وفقًا لأذونات وصول المستخدم المحددة في قاموس تشفير المستند.
 
 **Parameters:**
 | معامل | نوع | الوصف |

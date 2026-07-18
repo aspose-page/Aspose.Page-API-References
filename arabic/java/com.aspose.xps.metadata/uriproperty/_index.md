@@ -1,7 +1,7 @@
 ---
 title: "URIProperty"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "الفئة الأساسية لفئات خصائص JobURI وDocumentURI."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "الفئة الأساسية لفئات خصائص JobURI و DocumentURI."
 type: docs
 weight: 151
 url: /ar/java/com.aspose.xps.metadata/uriproperty/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public class URIProperty extends Property
 ```
 
-الفئة الأساسية لفئات خصائص  JobURI  و  DocumentURI .
+الفئة الأساسية لفئات خصائص **JobURI** و **DocumentURI**.
 ## الطرق
 
 | طريقة | الوصف |
@@ -41,7 +41,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

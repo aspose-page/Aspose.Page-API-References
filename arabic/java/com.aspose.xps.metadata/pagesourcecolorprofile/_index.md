@@ -1,6 +1,6 @@
 ---
 title: "PageSourceColorProfile"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يحدد خصائص ملف تعريف اللون المصدر."
 type: docs
 weight: 127
@@ -16,16 +16,16 @@ public final class PageSourceColorProfile extends Feature implements IJobPrintTi
 ```
 
 يحدد خصائص ملف تعريف اللون المصدر. https://docs.microsoft.com/en-us/windows/win32/printdocs/pagesourcecolorprofile
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PageSourceColorProfile(PageSourceColorProfile.PageSourceColorProfileOption[] options)](#PageSourceColorProfile-com.aspose.xps.metadata.PageSourceColorProfile.PageSourceColorProfileOption...-) | ينشئ نسخة جديدة. |
+| [PageSourceColorProfile(PageSourceColorProfile.PageSourceColorProfileOption[] options)](#PageSourceColorProfile-com.aspose.xps.metadata.PageSourceColorProfile.PageSourceColorProfileOption...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public PageSourceColorProfile(PageSourceColorProfile.PageSourceColorProfileOptio
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

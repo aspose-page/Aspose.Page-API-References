@@ -1,6 +1,6 @@
 ---
 title: "PageColorManagement"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يضبط إدارة اللون للصفحة الحالية."
 type: docs
 weight: 89
@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class PageColorManagement extends Feature implements IJobPrintTicketItem, IDocumentPrintTicketItem, IPagePrintTicketItem
 ```
 
-يقوم بتكوين إدارة الألوان للصفحة الحالية. يُعتبر هذا تلقائيًا في SHIM - DM\_ICMMethod Add System. يصف المكوّن الذي يجب أن يُجري إدارة الألوان (مثل Driver). https://docs.microsoft.com/en-us/windows/win32/printdocs/pagecolormanagement
-## المنشئات
+يقوم بتكوين إدارة اللون للصفحة الحالية. يُعتبر هذا تلقائيًا في SHIM - DM\_ICMMethod Add System. يصف المكوّن الذي يجب أن ينفّذ إدارة اللون (مثل السائق). https://docs.microsoft.com/en-us/windows/win32/printdocs/pagecolormanagement
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PageColorManagement(PageColorManagement.PageColorManagementOption[] options)](#PageColorManagement-com.aspose.xps.metadata.PageColorManagement.PageColorManagementOption...-) | ينشئ نسخة جديدة. |
+| [PageColorManagement(PageColorManagement.PageColorManagementOption[] options)](#PageColorManagement-com.aspose.xps.metadata.PageColorManagement.PageColorManagementOption...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public PageColorManagement(PageColorManagement.PageColorManagementOption[] optio
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

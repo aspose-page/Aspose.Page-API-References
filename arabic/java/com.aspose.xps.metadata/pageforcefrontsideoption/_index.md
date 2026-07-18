@@ -1,6 +1,6 @@
 ---
 title: "PageForceFrontSide.PageForceFrontSideOption"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف خيارات ميزة PageForceFrontSide."
 type: docs
 weight: 10
@@ -17,13 +17,13 @@ public static final class PageForceFrontSide.PageForceFrontSideOption extends Op
 
 | حقل | الوصف |
 | --- | --- |
-| [ForceFrontSide](#ForceFrontSide) | يحدد أن المخرجات مقصورة على الوجه الأمامي للورقة. |
-| [None](#None) | يحدد عدم وجود أي قيود على المخرجات. |
+| [ForceFrontSide](#ForceFrontSide) | يحدد أن الإخراج مقيد بالجانب الأمامي من الورقة. |
+| [None](#None) | يحدد عدم وجود أي قيود على الإخراج. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. |
+| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -40,7 +40,7 @@ public static PageForceFrontSide.PageForceFrontSideOption ForceFrontSide
 ```
 
 
-يحدد أن المخرجات مقصورة على الوجه الأمامي للورقة.
+يحدد أن الإخراج مقيد بالجانب الأمامي من الورقة.
 
 ### None {#None}
 ```
@@ -48,7 +48,7 @@ public static PageForceFrontSide.PageForceFrontSideOption None
 ```
 
 
-يحدد عدم وجود أي قيود على المخرجات.
+يحدد عدم وجود أي قيود على الإخراج.
 
 ### add(IOptionItem[] items) {#add-com.aspose.xps.metadata.IOptionItem...-}
 ```
@@ -56,7 +56,7 @@ public void add(IOptionItem[] items)
 ```
 
 
-يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. يجب أن يكون كل عنصر إما  ScoredProperty  أو  Property  مثيل.
+يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. يجب أن يكون كل عنصر إما مثال ScoredProperty أو مثال Property.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -77,7 +77,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

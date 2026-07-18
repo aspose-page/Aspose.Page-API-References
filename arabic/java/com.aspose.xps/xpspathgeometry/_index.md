@@ -1,7 +1,7 @@
 ---
 title: "XpsPathGeometry"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "الفئة التي تُجمل ميزات عنصر خاصية PathGeometry."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "فئة تغلف ميزات عنصر خاصية PathGeometry."
 type: docs
 weight: 42
 url: /ar/java/com.aspose.xps/xpspathgeometry/
@@ -21,25 +21,25 @@ public final class XpsPathGeometry extends XpsArray<XpsPathFigure> implements IT
 | طريقة | الوصف |
 | --- | --- |
 | [add(T obj)](#add-T-) | يضيف كائنًا جديدًا إلى المصفوفة. |
-| [addSegment(XpsPathSegment segment)](#addSegment-com.aspose.xps.XpsPathSegment-) | يضيف مقطع مسار إلى قائمة المقاطع الفرعية للشكل الأخير pah. |
+| [addSegment(XpsPathSegment segment)](#addSegment-com.aspose.xps.XpsPathSegment-) | يضيف مقطع مسار إلى قائمة المقاطع الفرعية للشكل الأخير. |
 | [deepClone()](#deepClone--) | ينسخ هذا الشكل الهندسي للمسار. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int i)](#get-int-) | يوفر الوصول إلى عنصر المصفوفة بواسطة الفهرس i. |
+| [get(int i)](#get-int-) | يوفر الوصول إلى عنصر المصفوفة عبر الفهرس i. |
 | [getClass()](#getClass--) |  |
-| [getFillRule()](#getFillRule--) | يعيد القيمة التي تحدد كيفية دمج المناطق المتقاطعّة للأشكال الهندسية لتكوين منطقة. |
+| [getFillRule()](#getFillRule--) | يعيد القيمة التي تحدد كيفية دمج المناطق المتقاطعّة للأشكال الهندسية لتشكيل منطقة. |
 | [getPathFigures()](#getPathFigures--) | يعيد قائمة أشكال المسار الفرعية. |
-| [getTransform()](#getTransform--) | يعيد مصفوفة التحويل الأفيني التي تُنشئ التحويل المصفوفي المحلي المطبق على جميع العناصر الفرعية والتابعة لشكل المسار قبل استخدامه في التعبئة أو القص أو التحديد. |
+| [getTransform()](#getTransform--) | يعيد مصفوفة التحويل المتجانس التي تُنشئ التحويل المحلي للمصفوفة والذي يُطبق على جميع العناصر الفرعية والتابعة لشكل المسار قبل استخدامه في التعبئة أو القص أو التحديد. |
 | [hashCode()](#hashCode--) |  |
 | [insert(int index, T obj)](#insert-int-T-) | يدرج كائنًا جديدًا في المصفوفة في الموضع المحدد. |
-| [insertSegment(int index, XpsPathSegment segment)](#insertSegment-int-com.aspose.xps.XpsPathSegment-) | يدرج مقطع مسار إلى قائمة المقاطع الفرعية للشكل الأخير للمسار في موضع الفهرس. |
+| [insertSegment(int index, XpsPathSegment segment)](#insertSegment-int-com.aspose.xps.XpsPathSegment-) | يدرج مقطع مسار إلى قائمة المقاطع الفرعية للشكل الأخير في موضع الفهرس. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [remove(T obj)](#remove-T-) | يزيل كائنًا من المصفوفة. |
 | [removeAt(int index)](#removeAt-int-) | يزيل كائنًا من المصفوفة في الموضع المحدد. |
-| [removeSegment(XpsPathSegment segment)](#removeSegment-com.aspose.xps.XpsPathSegment-) | يزيل مقطع مسار من قائمة المقاطع الفرعية للشكل الأخير للمسار. |
-| [removeSegmentAt(int index)](#removeSegmentAt-int-) | يزيل مقطع مسار من قائمة المقاطع الفرعية للشكل الأخير للمسار في موضع الفهرس. |
-| [setFillRule(XpsFillRule value)](#setFillRule-com.aspose.xps.XpsFillRule-) | يضبط القيمة التي تحدد كيفية دمج المناطق المتقاطعّة للأشكال الهندسية لتكوين منطقة. |
-| [setTransform(XpsMatrix value)](#setTransform-com.aspose.xps.XpsMatrix-) | يضبط مصفوفة التحويل الأفيني التي تُنشئ التحويل المصفوفي المحلي المطبق على جميع العناصر الفرعية والتابعة لشكل المسار قبل استخدامه في التعبئة أو القص أو التحديد. |
+| [removeSegment(XpsPathSegment segment)](#removeSegment-com.aspose.xps.XpsPathSegment-) | يزيل مقطع مسار من قائمة المقاطع الفرعية للشكل الأخير. |
+| [removeSegmentAt(int index)](#removeSegmentAt-int-) | يزيل مقطع مسار من قائمة المقاطع الفرعية للشكل الأخير في موضع الفهرس. |
+| [setFillRule(XpsFillRule value)](#setFillRule-com.aspose.xps.XpsFillRule-) | يضبط القيمة التي تحدد كيفية دمج المناطق المتقاطعّة للأشكال الهندسية لتشكيل منطقة. |
+| [setTransform(XpsMatrix value)](#setTransform-com.aspose.xps.XpsMatrix-) | يضبط مصفوفة التحويل المتجانس التي تُنشئ التحويل المحلي للمصفوفة والذي يُطبق على جميع العناصر الفرعية والتابعة لشكل المسار قبل استخدامه في التعبئة أو القص أو التحديد. |
 | [size()](#size--) | يرجع عدد العناصر. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -56,7 +56,7 @@ public T add(T obj)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| obj | T | الكائن المراد إضافته. |
+| كائن | T | الكائن المراد إضافته. |
 
 **Returns:**
 T - الكائن المضاف.
@@ -66,7 +66,7 @@ public XpsPathSegment addSegment(XpsPathSegment segment)
 ```
 
 
-يضيف مقطع مسار إلى قائمة المقاطع الفرعية للشكل الأخير pah.
+يضيف مقطع مسار إلى قائمة المقاطع الفرعية للشكل الأخير.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -99,14 +99,14 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### get(int i) {#get-int-}
 ```
 public T get(int i)
 ```
 
 
-يوفر الوصول إلى عنصر المصفوفة بواسطة الفهرس i.
+يوفر الوصول إلى عنصر المصفوفة عبر الفهرس i.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -131,7 +131,7 @@ public XpsFillRule getFillRule()
 ```
 
 
-يعيد القيمة التي تحدد كيفية دمج المناطق المتقاطعّة للأشكال الهندسية لتكوين منطقة.
+يعيد القيمة التي تحدد كيفية دمج المناطق المتقاطعّة للأشكال الهندسية لتشكيل منطقة.
 
 **Returns:**
 [XpsFillRule](../../com.aspose.xps/xpsfillrule) - The value specifying how the intersecting areas of geometric shapes are combined to form a region.
@@ -151,7 +151,7 @@ public XpsMatrix getTransform()
 ```
 
 
-يعيد مصفوفة التحويل الأفيني التي تُنشئ التحويل المصفوفي المحلي المطبق على جميع العناصر الفرعية والتابعة لشكل المسار قبل استخدامه في التعبئة أو القص أو التحديد.
+يعيد مصفوفة التحويل المتجانس التي تُنشئ التحويل المحلي للمصفوفة والذي يُطبق على جميع العناصر الفرعية والتابعة لشكل المسار قبل استخدامه في التعبئة أو القص أو التحديد.
 
 **Returns:**
 [XpsMatrix](../../com.aspose.xps/xpsmatrix) - The affine transformation matrix.
@@ -176,24 +176,24 @@ public T insert(int index, T obj)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| فهرس | int | الموضع لإدراج كائن فيه. |
-| obj | T | الكائن المراد إدراجه. |
+| فهرس | int | الموضع الذي يُدرج فيه الكائن. |
+| كائن | T | الكائن المراد إدراجه. |
 
 **Returns:**
-T - الكائن المدخل.
+T - الكائن المُدرج.
 ### insertSegment(int index, XpsPathSegment segment) {#insertSegment-int-com.aspose.xps.XpsPathSegment-}
 ```
 public XpsPathSegment insertSegment(int index, XpsPathSegment segment)
 ```
 
 
-يدرج مقطع مسار إلى قائمة المقاطع الفرعية للشكل الأخير للمسار في موضع الفهرس.
+يدرج مقطع مسار إلى قائمة المقاطع الفرعية للشكل الأخير في موضع الفهرس.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | فهرس | int | الموضع الذي يجب إدراج المقطع فيه. |
-| segment | [XpsPathSegment](../../com.aspose.xps/xpspathsegment) | مقطع مسار لإدراجه. |
+| segment | [XpsPathSegment](../../com.aspose.xps/xpspathsegment) | مقطع مسار ليتم إدراجه. |
 
 **Returns:**
 [XpsPathSegment](../../com.aspose.xps/xpspathsegment) - Inserted path segment.
@@ -224,7 +224,7 @@ public T remove(T obj)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| obj | T | الكائن المراد إزالته. |
+| كائن | T | الكائن المراد إزالته. |
 
 **Returns:**
 T - الكائن المُزال.
@@ -249,7 +249,7 @@ public XpsPathSegment removeSegment(XpsPathSegment segment)
 ```
 
 
-يزيل مقطع مسار من قائمة المقاطع الفرعية للشكل الأخير للمسار.
+يزيل مقطع مسار من قائمة المقاطع الفرعية للشكل الأخير.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -264,7 +264,7 @@ public XpsPathSegment removeSegmentAt(int index)
 ```
 
 
-يزيل مقطع مسار من قائمة المقاطع الفرعية للشكل الأخير للمسار في موضع الفهرس.
+يزيل مقطع مسار من قائمة المقاطع الفرعية للشكل الأخير في موضع الفهرس.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -279,12 +279,12 @@ public void setFillRule(XpsFillRule value)
 ```
 
 
-يضبط القيمة التي تحدد كيفية دمج المناطق المتقاطعّة للأشكال الهندسية لتكوين منطقة.
+يضبط القيمة التي تحدد كيفية دمج المناطق المتقاطعّة للأشكال الهندسية لتشكيل منطقة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [XpsFillRule](../../com.aspose.xps/xpsfillrule) | القيمة التي تحدد كيفية دمج المناطق المتقاطعّة للأشكال الهندسية لتكوين منطقة. |
+| value | [XpsFillRule](../../com.aspose.xps/xpsfillrule) | القيمة التي تحدد كيفية دمج المناطق المتقاطعّة للأشكال الهندسية لتشكيل منطقة. |
 
 ### setTransform(XpsMatrix value) {#setTransform-com.aspose.xps.XpsMatrix-}
 ```
@@ -292,12 +292,12 @@ public void setTransform(XpsMatrix value)
 ```
 
 
-يضبط مصفوفة التحويل الأفيني التي تُنشئ التحويل المصفوفي المحلي المطبق على جميع العناصر الفرعية والتابعة لشكل المسار قبل استخدامه في التعبئة أو القص أو التحديد.
+يضبط مصفوفة التحويل المتجانس التي تُنشئ التحويل المحلي للمصفوفة والذي يُطبق على جميع العناصر الفرعية والتابعة لشكل المسار قبل استخدامه في التعبئة أو القص أو التحديد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| value | [XpsMatrix](../../com.aspose.xps/xpsmatrix) | مصفوفة التحويل الأفينية. |
+| value | [XpsMatrix](../../com.aspose.xps/xpsmatrix) | مصفوفة التحويل الأفيني. |
 
 ### size() {#size--}
 ```

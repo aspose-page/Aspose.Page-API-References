@@ -1,6 +1,6 @@
 ---
 title: "StringParameterInit"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "الفئة الأساسية لجميع مُهيئات معلمات السلسلة."
 type: docs
 weight: 149
@@ -13,11 +13,11 @@ public abstract class StringParameterInit extends ParameterInit
 ```
 
 الفئة الأساسية لجميع مُهيئات معلمات السلسلة.
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [StringParameterInit(String name, String value)](#StringParameterInit-java.lang.String-java.lang.String-) | ينشئ نسخة جديدة. |
+| [StringParameterInit(String name, String value)](#StringParameterInit-java.lang.String-java.lang.String-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -40,7 +40,7 @@ public StringParameterInit(String name, String value)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -62,7 +62,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

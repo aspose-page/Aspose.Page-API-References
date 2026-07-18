@@ -1,18 +1,18 @@
 ---
 title: "XpsRgbColor"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يحتوي على لون RGB لأي مساحة ألوان sRGB أو scRGB."
 type: docs
 weight: 49
 url: /ar/java/com.aspose.xps/xpsrgbcolor/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.xps.XpsColor](../../com.aspose.xps/xpscolor)
+java.lang.Object, [com.aspose.xps.XpsColor](../../com.aspose.xps/xpscolor)
 ```
 public final class XpsRgbColor extends XpsColor
 ```
 
-تُجمل اللون RGB لأي مساحة ألوان (sRGB أو scRGB).
+تغلف اللون RGB لأي مساحة ألوان (sRGB أو scRGB).
 ## الطرق
 
 | طريقة | الوصف |
@@ -41,7 +41,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -87,7 +87,7 @@ public Color toColor()
 طريقة مريحة للحصول على تمثيل .NET الأصلي للون RGB.
 
 **Returns:**
-java.awt.Color - بنية System.Drawing.ColorSystem.Drawing.Color.
+java.awt.Color -  System.Drawing.ColorSystem.Drawing.Color  structure.
 ### toString() {#toString--}
 ```
 public String toString()

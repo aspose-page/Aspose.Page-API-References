@@ -1,6 +1,6 @@
 ---
 title: "JobErrorSheet"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف إخراج ورقة الخطأ."
 type: docs
 weight: 53
@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class JobErrorSheet extends Feature implements IJobPrintTicketItem
 ```
 
-يصف إخراج ورقة الخطأ. سيتضمن العمل بالكامل ورقة خطأ واحدة. يجب إخراج ورقة الخطأ على حجم الصفحة الافتراضي PageMediaSize وباستخدام نوع الصفحة الافتراضي PageMediaType. يجب عزل ورقة الخطأ عن باقي العمل. وهذا يعني أن أي خيارات تشطيب أو معالجة (مثل JobDuplex أو JobStaple أو JobBinding) لا يجب أن تشمل ورقة الخطأ. يجب أن تكون ورقة الخطأ هي الورقة النهائية في العمل. https://docs.microsoft.com/en-us/windows/win32/printdocs/joberrorsheet
-## المنشئات
+يصف مخرجات ورقة الخطأ. ستحصل العملية بأكملها على ورقة خطأ واحدة. يجب إخراج ورقة الخطأ بحجم  PageMediaSize  الافتراضي وباستخدام نوع  PageMediaType  الافتراضي. يجب عزل ورقة الخطأ عن باقي العملية. هذا يعني أن أي خيارات إنهاء أو معالجة (مثل  JobDuplex ,  JobStaple , أو  JobBinding ) يجب ألا تشمل ورقة الخطأ. يجب أن تكون ورقة الخطأ هي الورقة النهائية للعملية. https://docs.microsoft.com/en-us/windows/win32/printdocs/joberrorsheet
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [JobErrorSheet(JobErrorSheet.IJobErrorSheetItem[] items)](#JobErrorSheet-com.aspose.xps.metadata.JobErrorSheet.IJobErrorSheetItem...-) | ينشئ نسخة جديدة. |
+| [JobErrorSheet(JobErrorSheet.IJobErrorSheetItem[] items)](#JobErrorSheet-com.aspose.xps.metadata.JobErrorSheet.IJobErrorSheetItem...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public JobErrorSheet(JobErrorSheet.IJobErrorSheetItem[] items)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

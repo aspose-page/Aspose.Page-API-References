@@ -1,7 +1,7 @@
 ---
 title: "PageBlackGenerationProcessing"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يحدد سلوك توليد الأسود لفصل ألوان CMYK."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يحدد سلوك توليد الأسود لفواصل CMYK."
 type: docs
 weight: 78
 url: /ar/java/com.aspose.xps.metadata/pageblackgenerationprocessing/
@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class PageBlackGenerationProcessing extends Feature implements IJobPrintTicketItem, IDocumentPrintTicketItem, IPagePrintTicketItem
 ```
 
-يحدد سلوك توليد اللون الأسود للفواصل CMYK. https://docs.microsoft.com/en-us/windows/win32/printdocs/pageblackgenerationprocessing
-## المنشئات
+يحدد سلوك توليد الأسود للفواصل CMYK. https://docs.microsoft.com/en-us/windows/win32/printdocs/pageblackgenerationprocessing
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PageBlackGenerationProcessing(PageBlackGenerationProcessing.PageBlackGenerationProcessingOption[] options)](#PageBlackGenerationProcessing-com.aspose.xps.metadata.PageBlackGenerationProcessing.PageBlackGenerationProcessingOption...-) | ينشئ نسخة جديدة. |
+| [PageBlackGenerationProcessing(PageBlackGenerationProcessing.PageBlackGenerationProcessingOption[] options)](#PageBlackGenerationProcessing-com.aspose.xps.metadata.PageBlackGenerationProcessing.PageBlackGenerationProcessingOption...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public PageBlackGenerationProcessing(PageBlackGenerationProcessing.PageBlackGene
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

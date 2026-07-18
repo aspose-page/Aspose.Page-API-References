@@ -1,7 +1,7 @@
 ---
 title: "Duplex.DuplexMode"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يحدد القيم الممكنة لخاصية DuplexMode المصنفة في DuplexOptions."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يحدد القيم المحتملة لخاصية DuplexMode المصنفة في DuplexOptions."
 type: docs
 weight: 10
 url: /ar/java/com.aspose.xps.metadata/duplex.duplexmode/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class Duplex.DuplexMode extends ScoredProperty
 ```
 
-يحدد القيم الممكنة لخاصية  DuplexMode  المُسجلة في  DuplexOption .
+يحدد القيم الممكنة للخاصية المقيمة DuplexMode الخاصة بـ DuplexOption.
 ## الحقول
 
 | حقل | الوصف |
@@ -63,7 +63,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

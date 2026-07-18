@@ -1,7 +1,7 @@
 ---
 title: "PsDocumentException"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "هذه الفئة تحتوي على معلومات حول خطأ يتم إلقاؤه أثناء إنشاء ملف PS وإكماله وحفظه."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "هذه الفئة تحتوي على معلومات حول خطأ يتم إلقاؤه أثناء إنشاء ملف PS واكتماله وحفظه."
 type: docs
 weight: 17
 url: /ar/java/com.aspose.eps/psdocumentexception/
@@ -13,11 +13,11 @@ public class PsDocumentException extends Exception
 ```
 
 هذه الفئة تحتوي على معلومات حول الخطأ الذي يُرمى أثناء إنشاء ملف PS وإكماله وحفظه.
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PsDocumentException(String errorStr)](#PsDocumentException-java.lang.String-) | ينشئ مثيلاً جديدًا من  PsDocumentException  من سلسلة errorStr. |
+| [PsDocumentException(String errorStr)](#PsDocumentException-java.lang.String-) | يُنشئ مثلاً جديداً من PsDocumentException من سلسلة errorStr. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -49,7 +49,7 @@ public PsDocumentException(String errorStr)
 ```
 
 
-ينشئ مثيلاً جديدًا من  PsDocumentException  من سلسلة errorStr.
+يُنشئ مثلاً جديداً من PsDocumentException من سلسلة errorStr.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -83,7 +83,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### fillInStackTrace() {#fillInStackTrace--}
 ```
 public synchronized Throwable fillInStackTrace()

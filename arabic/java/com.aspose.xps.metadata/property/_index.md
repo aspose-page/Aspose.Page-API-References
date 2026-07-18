@@ -1,6 +1,6 @@
 ---
 title: "Property"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "الفئة التي تنفذ خاصية تذكرة الطباعة."
 type: docs
 weight: 143
@@ -15,13 +15,13 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public class Property extends CompositePrintTicketElement implements IPrintTicketItem, IFeatureItem, IOptionItem, IScoredPropertyItem, IPropertyItem
 ```
 
-فئة تنفّذ خاصية تذكرة الطباعة. الفئة التي تنفّذ PrintTicket Property الشائعة. الفئة الأساسية لجميع الخصائص المعرفة بالمخطط. عنصر Property يعلن عن جهاز أو تنسيق مهمة أو أي خاصية ذات صلة يُعطى اسمها بواسطة سمة الاسم. عنصر Value يُستخدم لتعيين قيمة لـ Property. يمكن أن تكون Property معقدة، وربما تحتوي على خصائص فرعية متعددة. الخصائص الفرعية ممثلة أيضًا بعناصر Property. https://docs.microsoft.com/en-us/windows/win32/printdocs/property
-## المنشئات
+فئة تنفّذ خاصية تذكرة الطباعة. الفئة التي تنفّذ خاصية PrintTicket الشائعة. الفئة الأساسية لجميع الخصائص المعرفة في المخطط. عنصر Property يعلن عن جهاز أو تنسيق وظيفة أو أي خاصية ذات صلة يُعطى اسمها بواسطة سمة الاسم. يُستخدم عنصر Value لتعيين قيمة للـ Property. يمكن أن تكون الـ Property معقدة، وربما تحتوي على خصائص فرعية متعددة. كما تُمثَّل الخصائص الفرعية بعناصر Property. https://docs.microsoft.com/en-us/windows/win32/printdocs/property
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [Property(String name, Property property, IPropertyItem[] items)](#Property-java.lang.String-com.aspose.xps.metadata.Property-com.aspose.xps.metadata.IPropertyItem...-) | ينشئ نسخة جديدة. |
-| [Property(String name, Value value, IPropertyItem[] items)](#Property-java.lang.String-com.aspose.xps.metadata.Value-com.aspose.xps.metadata.IPropertyItem...-) | ينشئ نسخة جديدة. |
+| [Property(String name, Property property, IPropertyItem[] items)](#Property-java.lang.String-com.aspose.xps.metadata.Property-com.aspose.xps.metadata.IPropertyItem...-) | ينشئ مثيلًا جديدًا. |
+| [Property(String name, Value value, IPropertyItem[] items)](#Property-java.lang.String-com.aspose.xps.metadata.Value-com.aspose.xps.metadata.IPropertyItem...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -42,7 +42,7 @@ public Property(String name, Property property, IPropertyItem[] items)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -57,13 +57,13 @@ public Property(String name, Value value, IPropertyItem[] items)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | الاسم | java.lang.String | اسم خاصية. |
-| value | [Value](../../com.aspose.xps.metadata/value) | مثال إلزامي  Value. |
+| value | [Value](../../com.aspose.xps.metadata/value) | مثال إلزامي لـ Value. |
 | items | [IPropertyItem\[\]](../../com.aspose.xps.metadata/ipropertyitem) | مصفوفة عشوائية من مثيلات IPropertyItem. يجب أن يكون كل منها إما مثيل Property أو مثيل Value. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
@@ -80,7 +80,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

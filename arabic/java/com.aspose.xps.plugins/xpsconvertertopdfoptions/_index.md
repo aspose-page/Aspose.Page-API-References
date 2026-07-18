@@ -1,6 +1,6 @@
 ---
 title: "XpsConverterToPdfOptions"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يمثل خيارات محول XPS إلى PDF للمكوّن الإضافي."
 type: docs
 weight: 13
@@ -13,20 +13,20 @@ public class XpsConverterToPdfOptions extends XpsConverterOptions
 ```
 
 يمثل خيارات محول XPS إلى PDF للمكوّن الإضافي [XpsConverter](../../com.aspose.xps.plugins/xpsconverter).
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [XpsConverterToPdfOptions()](#XpsConverterToPdfOptions--) | ينشئ نسخة جديدة من الكائن [XpsConverterToPdfOptions](../../com.aspose.xps.plugins/xpsconvertertopdfoptions). |
+| [XpsConverterToPdfOptions()](#XpsConverterToPdfOptions--) | ينشئ مثيلاً جديداً لكائن [XpsConverterToPdfOptions](../../com.aspose.xps.plugins/xpsconvertertopdfoptions). |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [addDataSource(IDataSource dataSource)](#addDataSource-com.aspose.page.plugins.IDataSource-) | يضيف مصدر بيانات جديد إلى مجموعة بيانات مكوّن XpsConverter الإضافي. |
-| [addSaveDataSource(IDataSource saveDataSource)](#addSaveDataSource-com.aspose.page.plugins.IDataSource-) | يضيف مصدر بيانات جديد إلى مجموعة بيانات مكوّن XpsConverterOptions الإضافي. |
+| [addDataSource(IDataSource dataSource)](#addDataSource-com.aspose.page.plugins.IDataSource-) | يضيف مصدر بيانات جديد إلى مجموعة بيانات إضافة XpsConverter. |
+| [addSaveDataSource(IDataSource saveDataSource)](#addSaveDataSource-com.aspose.page.plugins.IDataSource-) | يضيف مصدر بيانات جديد إلى مجموعة بيانات إضافة XpsConverterOptions. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getDataCollection()](#getDataCollection--) | يعيد مجموعة بيانات مكوّن XpsConverterOptions الإضافي. |
+| [getDataCollection()](#getDataCollection--) | يعيد مجموعة بيانات إضافة XpsConverterOptions. |
 | [getJpegQualityLevel()](#getJpegQualityLevel--) | يعيد القيمة التي تحدد مستوى الضغط لصورة. |
 | [getOperationName()](#getOperationName--) | يعيد اسم العملية. |
 | [getPageNumbers()](#getPageNumbers--) | يحصل على مصفوفة أعداد الصفحات في مستند XPS للتحويل. |
@@ -35,7 +35,7 @@ public class XpsConverterToPdfOptions extends XpsConverterOptions
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setJpegQualityLevel(int value)](#setJpegQualityLevel-int-) | يضبط القيمة التي تحدد مستوى الضغط للصورة. |
-| [setPageNumbers(int[] pageNumbers)](#setPageNumbers-int---) | يضبط مصفوفة أعداد الصفحات في مستند XPS للتحويل. |
+| [setPageNumbers(int[] pageNumbers)](#setPageNumbers-int---) | يضبط مصفوفة أرقام الصفحات في مستند XPS للتحويل. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -46,7 +46,7 @@ public XpsConverterToPdfOptions()
 ```
 
 
-ينشئ نسخة جديدة من الكائن [XpsConverterToPdfOptions](../../com.aspose.xps.plugins/xpsconvertertopdfoptions).
+ينشئ مثيلاً جديداً لكائن [XpsConverterToPdfOptions](../../com.aspose.xps.plugins/xpsconvertertopdfoptions).
 
 ### addDataSource(IDataSource dataSource) {#addDataSource-com.aspose.page.plugins.IDataSource-}
 ```
@@ -54,7 +54,7 @@ public final void addDataSource(IDataSource dataSource)
 ```
 
 
-يضيف مصدر بيانات جديد إلى مجموعة بيانات مكوّن XpsConverter الإضافي.
+يضيف مصدر بيانات جديد إلى مجموعة بيانات إضافة XpsConverter.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -67,7 +67,7 @@ public final void addSaveDataSource(IDataSource saveDataSource)
 ```
 
 
-يضيف مصدر بيانات جديد إلى مجموعة بيانات مكوّن XpsConverterOptions الإضافي.
+يضيف مصدر بيانات جديد إلى مجموعة بيانات إضافة XpsConverterOptions.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -88,7 +88,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -105,7 +105,7 @@ public final List<IDataSource> getDataCollection()
 ```
 
 
-يعيد مجموعة بيانات مكوّن XpsConverterOptions الإضافي.
+يعيد مجموعة بيانات إضافة XpsConverterOptions.
 
 **Returns:**
 java.util.List<com.aspose.page.plugins.IDataSource>
@@ -115,7 +115,7 @@ public int getJpegQualityLevel()
 ```
 
 
-يعيد القيمة التي تحدد مستوى الضغط للصورة. القيم المتاحة من 0 إلى 100. كلما كان الرقم المحدد أقل، زاد الضغط وبالتالي انخفضت جودة الصورة. القيمة 0 تؤدي إلى أدنى جودة للصورة، بينما القيمة 100 تؤدي إلى أعلى جودة.
+يعيد القيمة التي تحدد مستوى الضغط للصورة. القيم المتاحة هي من 0 إلى 100. كلما كان الرقم المحدد أقل، زاد الضغط وبالتالي تكون جودة الصورة أقل. القيمة 0 تنتج صورة بأدنى جودة، بينما القيمة 100 تنتج أعلى جودة.
 
 **Returns:**
 int - القيمة التي تحدد مستوى الضغط للصورة.
@@ -138,7 +138,7 @@ public int[] getPageNumbers()
 يحصل على مصفوفة أعداد الصفحات في مستند XPS للتحويل.
 
 **Returns:**
-int[] - مصفوفة أعداد الصفحات في مستند XPS.
+int[] - مصفوفة أرقام الصفحات في مستند XPS.
 ### getSaveTargetsCollection() {#getSaveTargetsCollection--}
 ```
 public final List<IDataSource> getSaveTargetsCollection()
@@ -181,7 +181,7 @@ public void setJpegQualityLevel(int value)
 ```
 
 
-يضبط القيمة التي تحدد مستوى الضغط للصورة. القيم المتاحة من 0 إلى 100. كلما كان الرقم المحدد أقل، زاد الضغط وبالتالي انخفضت جودة الصورة. القيمة 0 تؤدي إلى أدنى جودة للصورة، بينما القيمة 100 تؤدي إلى أعلى جودة.
+يضبط القيمة التي تحدد مستوى الضغط للصورة. القيم المتاحة هي من 0 إلى 100. كلما كان الرقم المحدد أقل، زاد الضغط وبالتالي تكون جودة الصورة أقل. القيمة 0 تنتج صورة بأدنى جودة، بينما القيمة 100 تنتج أعلى جودة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -194,7 +194,7 @@ public void setPageNumbers(int[] pageNumbers)
 ```
 
 
-يضبط مصفوفة أعداد الصفحات في مستند XPS للتحويل. إذا لم يتم الضبط، سيتم تحويل جميع الصفحات.
+يضبط مصفوفة أرقام الصفحات في مستند XPS للتحويل. إذا لم يتم الضبط، سيتم تحويل جميع الصفحات.
 
 **Parameters:**
 | معامل | نوع | الوصف |

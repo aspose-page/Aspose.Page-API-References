@@ -1,6 +1,6 @@
 ---
 title: "PluginExceptionMessages"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "هذه الفئة تمثل تخزينًا للرسائل المستخدمة في الاستثناءات المُرمية من الملحقات."
 type: docs
 weight: 15
@@ -13,9 +13,9 @@ public class PluginExceptionMessages
 ```
 
 هذه الفئة تمثل تخزينًا للرسائل المستخدمة في الاستثناءات المُرمية من الملحقات.
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [PluginExceptionMessages()](#PluginExceptionMessages--) |  |
 ## الحقول
@@ -90,7 +90,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

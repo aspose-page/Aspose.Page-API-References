@@ -1,6 +1,6 @@
 ---
 title: "SaveOptions"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "تحتوي هذه الفئة على الخيارات اللازمة لإدارة عملية التحويل."
 type: docs
 weight: 16
@@ -13,36 +13,36 @@ public class SaveOptions
 ```
 
 تحتوي هذه الفئة على الخيارات اللازمة لإدارة عملية التحويل.
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [SaveOptions()](#SaveOptions--) | إنشاء مثال جديد من SaveOptions مع القيم الافتراضية للعلامات suppressErrors (true) و debug (false). |
-| [SaveOptions(boolean supressErrors)](#SaveOptions-boolean-) | إنشاء مثال جديد من SaveOptions مع القيمة الافتراضية للعلامة debug (false). |
-| [SaveOptions(Dimension size)](#SaveOptions-java.awt.Dimension-) | ينشئ مثالًا جديدًا من SaveOptions بالحجم المحدد. |
-| [SaveOptions(boolean supressErrors, Dimension size)](#SaveOptions-boolean-java.awt.Dimension-) | إنشاء مثال جديد من SaveOptions مع القيمة الافتراضية للعلامة debug (false) ومع الحجم المحدد. |
+| [SaveOptions()](#SaveOptions--) | إنشاء نسخة جديدة من SaveOptions بالقيم الافتراضية للعلامات suppressErrors (true) و debug (false). |
+| [SaveOptions(boolean supressErrors)](#SaveOptions-boolean-) | إنشاء نسخة جديدة من SaveOptions بالقيمة الافتراضية للعلامة debug (false). |
+| [SaveOptions(Dimension size)](#SaveOptions-java.awt.Dimension-) | إنشاء نسخة جديدة من SaveOptions بالحجم المحدد. |
+| [SaveOptions(boolean supressErrors, Dimension size)](#SaveOptions-boolean-java.awt.Dimension-) | إنشاء نسخة جديدة من SaveOptions بالقيمة الافتراضية للعلامة debug (false) ومع الحجم المحدد. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAdditionalFontsFolders()](#getAdditionalFontsFolders--) | يعيد مجلدات الخطوط الإضافية التي يجب على المحول العثور على الخطوط فيها للمستند المدخل. |
+| [getAdditionalFontsFolders()](#getAdditionalFontsFolders--) | إرجاع مجلدات خطوط إضافية حيث يجب على المحول العثور على الخطوط للمستند المدخل. |
 | [getClass()](#getClass--) |  |
-| [getConvertFontsToTTF()](#getConvertFontsToTTF--) | يحصل على العلامة التي تُظهر ما إذا كان من الضروري حفظ الخطوط غير TrueType إلى TTF. |
-| [getExceptions()](#getExceptions--) | يعيد قائمة بالأخطاء غير الحرجة. |
+| [getConvertFontsToTTF()](#getConvertFontsToTTF--) | الحصول على العلامة التي تُظهر ما إذا كان من الضروري حفظ الخطوط غير TrueType إلى TTF. |
+| [getExceptions()](#getExceptions--) | إرجاع قائمة بالأخطاء غير الحرجة. |
 | [getJpegQualityLevel()](#getJpegQualityLevel--) | يعيد القيمة التي تحدد مستوى الضغط لصورة. |
-| [getSize()](#getSize--) | يحصل على حجم الصفحة أو الصورة. |
+| [getSize()](#getSize--) | الحصول على حجم الصفحة أو الصورة. |
 | [hashCode()](#hashCode--) |  |
-| [isDebug()](#isDebug--) | يحصل على العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل. |
-| [isSupressErrors()](#isSupressErrors--) | يعيد قيمة تشير إلى ما إذا كانت الأخطاء ستُقمع أثناء التحويل. |
+| [isDebug()](#isDebug--) | الحصول على العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل. |
+| [isSupressErrors()](#isSupressErrors--) | إرجاع قيمة تشير إلى ما إذا كانت الأخطاء ستُقمع أثناء التحويل. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAdditionalFontsFolders(String[] fontsFolders)](#setAdditionalFontsFolders-java.lang.String---) | يحدد مجلدات الخطوط الإضافية التي يجب على المحول العثور على الخطوط فيها للمستند المدخل. |
-| [setConvertFontsToTTF(boolean value)](#setConvertFontsToTTF-boolean-) | يحدد ما إذا كان سيتم حفظ الخطوط غير TrueType إلى TTF. |
-| [setDebug(boolean debug)](#setDebug-boolean-) | يحدد العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل. |
+| [setAdditionalFontsFolders(String[] fontsFolders)](#setAdditionalFontsFolders-java.lang.String---) | تحديد مجلدات خطوط إضافية حيث يجب على المحول العثور على الخطوط للمستند المدخل. |
+| [setConvertFontsToTTF(boolean value)](#setConvertFontsToTTF-boolean-) | تحديد ما إذا كان يجب حفظ الخطوط غير TrueType إلى TTF. |
+| [setDebug(boolean debug)](#setDebug-boolean-) | تحديد العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل. |
 | [setJpegQualityLevel(int value)](#setJpegQualityLevel-int-) | يضبط القيمة التي تحدد مستوى الضغط للصورة. |
-| [setSize(Dimension size)](#setSize-java.awt.Dimension-) | يحدد حجم الصفحة أو الصورة. |
-| [setSupressErrors(boolean supressErrors)](#setSupressErrors-boolean-) | يحدد العلم الذي يشير إلى ما إذا كان سيتم قمع الأخطاء أثناء التحويل. |
+| [setSize(Dimension size)](#setSize-java.awt.Dimension-) | تحديد حجم الصفحة أو الصورة. |
+| [setSupressErrors(boolean supressErrors)](#setSupressErrors-boolean-) | يحدد العلامة التي تشير إلى ما إذا كان سيتم قمع الأخطاء أثناء التحويل. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -53,7 +53,7 @@ public SaveOptions()
 ```
 
 
-إنشاء مثال جديد من SaveOptions مع القيم الافتراضية للعلامات suppressErrors (true) و debug (false).
+إنشاء نسخة جديدة من SaveOptions بالقيم الافتراضية للعلامات suppressErrors (true) و debug (false).
 
 ### SaveOptions(boolean supressErrors) {#SaveOptions-boolean-}
 ```
@@ -61,12 +61,12 @@ public SaveOptions(boolean supressErrors)
 ```
 
 
-إنشاء مثال جديد من SaveOptions مع القيمة الافتراضية للعلامة debug (false).
+إنشاء نسخة جديدة من SaveOptions بالقيمة الافتراضية للعلامة debug (false).
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| supressErrors | boolean | إذا كان صحيحًا، سيستمر التحويل على الرغم من الأخطاء غير الحرجة. |
+| supressErrors | منطقي | إذا كان صحيحًا، سيستمر التحويل على الرغم من الأخطاء غير الحرجة. |
 
 ### SaveOptions(Dimension size) {#SaveOptions-java.awt.Dimension-}
 ```
@@ -74,7 +74,7 @@ public SaveOptions(Dimension size)
 ```
 
 
-ينشئ مثالًا جديدًا من SaveOptions بالحجم المحدد.
+إنشاء نسخة جديدة من SaveOptions بالحجم المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -87,12 +87,12 @@ public SaveOptions(boolean supressErrors, Dimension size)
 ```
 
 
-إنشاء مثال جديد من SaveOptions مع القيمة الافتراضية للعلامة debug (false) ومع الحجم المحدد.
+إنشاء نسخة جديدة من SaveOptions بالقيمة الافتراضية للعلامة debug (false) ومع الحجم المحدد.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| supressErrors | boolean | إذا كان صحيحًا، سيستمر التحويل على الرغم من الأخطاء غير الحرجة. |
+| supressErrors | منطقي | إذا كان صحيحًا، سيستمر التحويل على الرغم من الأخطاء غير الحرجة. |
 | الحجم | java.awt.Dimension | الحجم. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
@@ -109,14 +109,14 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getAdditionalFontsFolders() {#getAdditionalFontsFolders--}
 ```
 public String[] getAdditionalFontsFolders()
 ```
 
 
-يرجع مجلدات الخطوط الإضافية التي يجب على المحول العثور على الخطوط فيها للمستند المدخل. المجلد الافتراضي هو مجلد الخطوط القياسي حيث يجد نظام التشغيل الخطوط للاستخدامات الداخلية.
+يعيد مجلدات الخطوط الإضافية التي يجب على المحول العثور على الخطوط فيها للمستند المدخل. المجلد الافتراضي هو مجلد الخطوط القياسي حيث يجد نظام التشغيل الخطوط للاستخدامات الداخلية.
 
 **Returns:**
 java.lang.String[] - مصفوفة من مجلدات الخطوط.
@@ -136,17 +136,17 @@ public boolean getConvertFontsToTTF()
 ```
 
 
-يحصل على العلامة التي تُظهر ما إذا كان من الضروري حفظ الخطوط غير TrueType إلى TTF.
+الحصول على العلامة التي تُظهر ما إذا كان من الضروري حفظ الخطوط غير TrueType إلى TTF.
 
 **Returns:**
-boolean - قيمة العلم.
+boolean - قيمة العلامة.
 ### getExceptions() {#getExceptions--}
 ```
 public List<Exception> getExceptions()
 ```
 
 
-يعيد قائمة بالأخطاء غير الحرجة.
+إرجاع قائمة بالأخطاء غير الحرجة.
 
 **Returns:**
 java.util.List<java.lang.Exception> - قائمة الاستثناءات
@@ -156,7 +156,7 @@ public int getJpegQualityLevel()
 ```
 
 
-يعيد القيمة التي تحدد مستوى الضغط للصورة. القيم المتاحة من 0 إلى 100. كلما كان الرقم المحدد أقل، زاد الضغط وبالتالي انخفضت جودة الصورة. القيمة 0 تؤدي إلى أدنى جودة للصورة، بينما القيمة 100 تؤدي إلى أعلى جودة.
+يعيد القيمة التي تحدد مستوى الضغط للصورة. القيم المتاحة هي من 0 إلى 100. كلما كان الرقم المحدد أقل، زاد الضغط وبالتالي تكون جودة الصورة أقل. القيمة 0 تنتج صورة بأدنى جودة، بينما القيمة 100 تنتج أعلى جودة.
 
 **Returns:**
 int - القيمة التي تحدد مستوى الضغط للصورة.
@@ -166,7 +166,7 @@ public Dimension getSize()
 ```
 
 
-يحصل على حجم الصفحة أو الصورة.
+الحصول على حجم الصفحة أو الصورة.
 
 **Returns:**
 java.awt.Dimension - حجم الصفحة أو الصورة.
@@ -186,7 +186,7 @@ public boolean isDebug()
 ```
 
 
-يحصل على العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل.
+الحصول على العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل.
 
 **Returns:**
 boolean - قيمة التصحيح.
@@ -196,7 +196,7 @@ public boolean isSupressErrors()
 ```
 
 
-يعيد قيمة تشير إلى ما إذا كانت الأخطاء ستُقمع أثناء التحويل.
+إرجاع قيمة تشير إلى ما إذا كانت الأخطاء ستُقمع أثناء التحويل.
 
 **Returns:**
 منطقي - قيمة منطقية
@@ -235,12 +235,12 @@ public void setConvertFontsToTTF(boolean value)
 ```
 
 
-يحدد ما إذا كان سيتم حفظ الخطوط غير TrueType كـ TTF. هذا يقلل بشكل كبير من حجم المستند الناتج في تحويل PS إلى PDF ويزيد من سرعة تحويل ملفات PS التي تحتوي على كمية كبيرة من النص بخطوط غير TrueType إلى أي تنسيق إخراج. ومع ذلك، هناك إزاحة رأسية صغيرة للنص عند تحويل ملف PostScript إلى صورة.
+يحدد ما إذا كان سيتم حفظ الخطوط غير TrueType إلى TTF. يقلل ذلك بشكل كبير من حجم المستند الناتج في تحويل PS إلى PDF ويزيد من سرعة تحويل ملفات PS التي تحتوي على كمية كبيرة من النص بخطوط غير TrueType إلى أي تنسيق إخراج. ومع ذلك، هناك إزاحة رأسية صغيرة للنص عند تحويل ملف PostSctipt إلى صورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | قيمة العلم. |
+| القيمة | منطقي | قيمة العلامة. |
 
 ### setDebug(boolean debug) {#setDebug-boolean-}
 ```
@@ -248,12 +248,12 @@ public void setDebug(boolean debug)
 ```
 
 
-يحدد العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل.
+تحديد العلامة التي تسمح بإخراج التحذيرات والرسائل أثناء التحويل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| debug | boolean | قيمة منطقية. |
+| debug | منطقي | قيمة منطقية. |
 
 ### setJpegQualityLevel(int value) {#setJpegQualityLevel-int-}
 ```
@@ -261,7 +261,7 @@ public void setJpegQualityLevel(int value)
 ```
 
 
-يضبط القيمة التي تحدد مستوى الضغط للصورة. القيم المتاحة من 0 إلى 100. كلما كان الرقم المحدد أقل، زاد الضغط وبالتالي انخفضت جودة الصورة. القيمة 0 تؤدي إلى أدنى جودة للصورة، بينما القيمة 100 تؤدي إلى أعلى جودة.
+يضبط القيمة التي تحدد مستوى الضغط للصورة. القيم المتاحة هي من 0 إلى 100. كلما كان الرقم المحدد أقل، زاد الضغط وبالتالي تكون جودة الصورة أقل. القيمة 0 تنتج صورة بأدنى جودة، بينما القيمة 100 تنتج أعلى جودة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -274,7 +274,7 @@ public void setSize(Dimension size)
 ```
 
 
-يحدد حجم الصفحة أو الصورة.
+تحديد حجم الصفحة أو الصورة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -287,12 +287,12 @@ public void setSupressErrors(boolean supressErrors)
 ```
 
 
-يحدد العلم الذي يشير إلى ما إذا كان سيتم قمع الأخطاء أثناء التحويل.
+يحدد العلامة التي تشير إلى ما إذا كان سيتم قمع الأخطاء أثناء التحويل.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| supressErrors | boolean | قيمة منطقية. |
+| supressErrors | منطقي | قيمة منطقية. |
 
 ### toString() {#toString--}
 ```

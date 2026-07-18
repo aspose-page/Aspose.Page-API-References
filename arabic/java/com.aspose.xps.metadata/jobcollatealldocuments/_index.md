@@ -1,6 +1,6 @@
 ---
 title: "JobCollateAllDocuments"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف خصائص التجميع للإخراج."
 type: docs
 weight: 47
@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class JobCollateAllDocuments extends Collate implements IJobPrintTicketItem
 ```
 
-يصف خصائص التجميع للإخراج. يتم تجميع جميع المستندات في كل مهمة فردية.  DocumentCollate  و  JobCollateAllDocuments  متنافيان. سلوك وتنفيذ ما إذا كان يتم تنفيذ كلا الكلمتين المفتاحيتين أو إحداهما فقط يُترك للسائق. https://docs.microsoft.com/en-us/windows/win32/printdocs/jobcollatealldocuments
-## المنشئات
+يصف خصائص التجميع للمخرجات. يتم تجميع جميع المستندات في كل مهمة فردية.  DocumentCollate  و  JobCollateAllDocuments  متنافيان. سلوك وتنفيذ ما إذا كان يتم تنفيذ كلا الكلمتين المفتاحيتين أو إحداهما فقط يُترك للسائق. https://docs.microsoft.com/en-us/windows/win32/printdocs/jobcollatealldocuments
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [JobCollateAllDocuments(Collate.CollateOption[] options)](#JobCollateAllDocuments-com.aspose.xps.metadata.Collate.CollateOption...-) | ينشئ نسخة جديدة. |
+| [JobCollateAllDocuments(Collate.CollateOption[] options)](#JobCollateAllDocuments-com.aspose.xps.metadata.Collate.CollateOption...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public JobCollateAllDocuments(Collate.CollateOption[] options)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

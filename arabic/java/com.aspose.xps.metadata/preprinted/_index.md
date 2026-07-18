@@ -1,6 +1,6 @@
 ---
 title: "PageMediaType.PrePrinted"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يحدد الثوابت لقيمة الخاصية المتدرجة PrePrinted."
 type: docs
 weight: 14
@@ -15,13 +15,13 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class PageMediaType.PrePrinted extends ScoredProperty implements PageMediaType.IPageMediaTypeOptionItem
 ```
 
-يعرّف الثوابت لقيمة الخاصية المقيمة PrePrinted.
+يعرف الثوابت لقيمة الخاصية المقيمة  PrePrinted .
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
 | [Letterhead](#Letterhead) | قيمة Letterhead. |
-| [None](#None) | قيمة لا شيء. |
+| [None](#None) | قيمة None. |
 | [PrePrintedValue](#PrePrintedValue) | قيمة PrePrinted. |
 ## الطرق
 
@@ -51,7 +51,7 @@ public static PageMediaType.PrePrinted None
 ```
 
 
-قيمة لا شيء.
+قيمة None.
 
 ### PrePrintedValue {#PrePrintedValue}
 ```
@@ -75,7 +75,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

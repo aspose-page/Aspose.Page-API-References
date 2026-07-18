@@ -1,6 +1,6 @@
 ---
 title: "PageAPI"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "واجهة برمجة تطبيقات تعديل عنصر الصفحة."
 type: docs
 weight: 12
@@ -15,7 +15,7 @@ java.lang.Object
 public class PageAPI implements EventBasedModifications.IModificationAPI
 ```
 
-واجهة برمجة تطبيقات تعديل عنصر **Page**.
+واجهة برمجة تطبيقات تعديل العنصر **Page**.
 ## الطرق
 
 | طريقة | الوصف |
@@ -23,14 +23,14 @@ public class PageAPI implements EventBasedModifications.IModificationAPI
 | [<T>add(T element)](#-T-add-T-) | يضيف عنصر محتوى (Canvas، Path، أو Glyphs) |
 | [<T>insert(int index, T element)](#-T-insert-int-T-) | يدرج عنصرًا (Canvas، Path، أو Glyphs) إلى الصفحة في موضع الفهرس. |
 | [<T>remove(T element)](#-T-remove-T-) | يزيل عنصرًا من الصفحة. |
-| [addCanvas()](#addCanvas--) | يضيف لوحة رسم جديدة إلى الصفحة. |
+| [addCanvas()](#addCanvas--) | يضيف canvas جديد إلى الصفحة. |
 | [addGlyphs(XpsFont font, float fontRenderingEmSize, float originX, float originY, String unicodeString)](#addGlyphs-com.aspose.xps.XpsFont-float-float-float-java.lang.String-) | يضيف glyphs جديدة إلى الصفحة. |
 | [addGlyphs(String fontFamily, float fontRenderingEmSize, XpsFontStyle fontStyle, float originX, float originY, String unicodeString)](#addGlyphs-java.lang.String-float-com.aspose.xps.XpsFontStyle-float-float-java.lang.String-) | يضيف glyphs جديدة إلى الصفحة. |
 | [addOutlineEntry(String description, int outlineLevel, int targetPageNumber)](#addOutlineEntry-java.lang.String-int-int-) | يضيف مدخل مخطط إلى المستند. |
 | [addPath(XpsPathGeometry data)](#addPath-com.aspose.xps.XpsPathGeometry-) | يضيف مسارًا جديدًا إلى الصفحة. |
-| [createArcSegment(Point2D point, Dimension2D size, float rotationAngle, boolean isLargeArc, XpsSweepDirection sweepDirection)](#createArcSegment-java.awt.geom.Point2D-java.awt.geom.Dimension2D-float-boolean-com.aspose.xps.XpsSweepDirection-) | ينشئ مقطع قوس إهليلجي مُحدَّد. |
+| [createArcSegment(Point2D point, Dimension2D size, float rotationAngle, boolean isLargeArc, XpsSweepDirection sweepDirection)](#createArcSegment-java.awt.geom.Point2D-java.awt.geom.Dimension2D-float-boolean-com.aspose.xps.XpsSweepDirection-) | ينشئ مقطع قوس إهليلجي مُحدَّد بالخط. |
 | [createArcSegment(Point2D point, Dimension2D size, float rotationAngle, boolean isLargeArc, XpsSweepDirection sweepDirection, boolean isStroked)](#createArcSegment-java.awt.geom.Point2D-java.awt.geom.Dimension2D-float-boolean-com.aspose.xps.XpsSweepDirection-boolean-) | ينشئ مقطع قوس إهليلجي جديد. |
-| [createCanvas()](#createCanvas--) | ينشئ لوحة رسم جديدة. |
+| [createCanvas()](#createCanvas--) | ينشئ canvas جديد. |
 | [createColor(XpsIccProfile iccProfile, float[] components)](#createColor-com.aspose.xps.XpsIccProfile-float...-) | ينشئ لونًا جديدًا في مساحة اللون المعتمدة على ICC. |
 | [createColor(float r, float g, float b)](#createColor-float-float-float-) | ينشئ لونًا جديدًا في مساحة اللون scRGB. |
 | [createColor(float a, float r, float g, float b)](#createColor-float-float-float-float-) | ينشئ لونًا جديدًا في مساحة اللون scRGB. |
@@ -40,13 +40,13 @@ public class PageAPI implements EventBasedModifications.IModificationAPI
 | [createColor(String path, float[] components)](#createColor-java.lang.String-float...-) | ينشئ لونًا جديدًا في مساحة اللون المعتمدة على ICC. |
 | [createGlyphs(XpsFont font, float fontRenderingEmSize, float originX, float originY, String unicodeString)](#createGlyphs-com.aspose.xps.XpsFont-float-float-float-java.lang.String-) | ينشئ glyphs جديدة. |
 | [createGlyphs(String fontFamily, float fontRenderingEmSize, XpsFontStyle fontStyle, float originX, float originY, String unicodeString)](#createGlyphs-java.lang.String-float-com.aspose.xps.XpsFontStyle-float-float-java.lang.String-) | ينشئ glyphs جديدة. |
-| [createGradientStop(XpsColor color, float offset)](#createGradientStop-com.aspose.xps.XpsColor-float-) | ينشئ نقطة إيقاف تدرج جديدة. |
-| [createGradientStop(Color color, float offset)](#createGradientStop-java.awt.Color-float-) | ينشئ نقطة إيقاف تدرج جديدة. |
+| [createGradientStop(XpsColor color, float offset)](#createGradientStop-com.aspose.xps.XpsColor-float-) | ينشئ نقطة تدرج جديدة. |
+| [createGradientStop(Color color, float offset)](#createGradientStop-java.awt.Color-float-) | ينشئ نقطة تدرج جديدة. |
 | [createImageBrush(XpsImage image, Rectangle2D viewbox, Rectangle2D viewport)](#createImageBrush-com.aspose.xps.XpsImage-java.awt.geom.Rectangle2D-java.awt.geom.Rectangle2D-) | ينشئ فرشاة صورة جديدة. |
 | [createImageBrush(String imagePath, Rectangle2D viewbox, Rectangle2D viewport)](#createImageBrush-java.lang.String-java.awt.geom.Rectangle2D-java.awt.geom.Rectangle2D-) | ينشئ فرشاة صورة جديدة. |
 | [createLinearGradientBrush(Point2D startPoint, Point2D endPoint)](#createLinearGradientBrush-java.awt.geom.Point2D-java.awt.geom.Point2D-) | ينشئ فرشاة تدرج خطية جديدة. |
 | [createLinearGradientBrush(List<XpsGradientStop> gradientStops, Point2D startPoint, Point2D endPoint)](#createLinearGradientBrush-java.util.List-com.aspose.xps.XpsGradientStop--java.awt.geom.Point2D-java.awt.geom.Point2D-) | ينشئ فرشاة تدرج خطية جديدة. |
-| [createMatrix(float m11, float m12, float m21, float m22, float m31, float m32)](#createMatrix-float-float-float-float-float-float-) | ينشئ مصفوفة تحويل إقليدية جديدة. |
+| [createMatrix(float m11, float m12, float m21, float m22, float m31, float m32)](#createMatrix-float-float-float-float-float-float-) | ينشئ مصفوفة تحويل افينية جديدة. |
 | [createPath(XpsPathGeometry data)](#createPath-com.aspose.xps.XpsPathGeometry-) | ينشئ مسارًا جديدًا. |
 | [createPathFigure(Point2D startPoint)](#createPathFigure-java.awt.geom.Point2D-) | ينشئ شكل مسار مفتوح جديد. |
 | [createPathFigure(Point2D startPoint, boolean isClosed)](#createPathFigure-java.awt.geom.Point2D-boolean-) | ينشئ شكل مسار جديد. |
@@ -55,12 +55,12 @@ public class PageAPI implements EventBasedModifications.IModificationAPI
 | [createPathGeometry()](#createPathGeometry--) | ينشئ هندسة مسار جديدة. |
 | [createPathGeometry(String abbreviatedGeometry)](#createPathGeometry-java.lang.String-) | ينشئ هندسة مسار جديدة محددة بصيغة مختصرة. |
 | [createPathGeometry(List<XpsPathFigure> pathFigures)](#createPathGeometry-java.util.List-com.aspose.xps.XpsPathFigure--) | ينشئ هندسة مسار جديدة مع قائمة محددة من أشكال المسار. |
-| [createPolyBezierSegment(Point2D[] points)](#createPolyBezierSegment-java.awt.geom.Point2D---) | ينشئ مجموعة جديدة من منحنيات B?zier مكعبية مرسومة. |
-| [createPolyBezierSegment(Point2D[] points, boolean isStroked)](#createPolyBezierSegment-java.awt.geom.Point2D---boolean-) | ينشئ مجموعة جديدة من منحنيات B?zier مكعبية. |
-| [createPolyLineSegment(Point2D[] points)](#createPolyLineSegment-java.awt.geom.Point2D---) | ينشئ رسمًا متعدد الأضلاع مرسومًا يحتوي على عدد عشوائي من الرؤوس الفردية. |
+| [createPolyBezierSegment(Point2D[] points)](#createPolyBezierSegment-java.awt.geom.Point2D---) | ينشئ مجموعة جديدة من المنحنيات المكعبة المتحددة B?zier. |
+| [createPolyBezierSegment(Point2D[] points, boolean isStroked)](#createPolyBezierSegment-java.awt.geom.Point2D---boolean-) | ينشئ مجموعة جديدة من المنحنيات المكعبة B?zier. |
+| [createPolyLineSegment(Point2D[] points)](#createPolyLineSegment-java.awt.geom.Point2D---) | ينشئ رسمًا متعدد الأضلاع محددًا يحتوي على عدد عشوائي من الرؤوس الفردية. |
 | [createPolyLineSegment(Point2D[] points, boolean isStroked)](#createPolyLineSegment-java.awt.geom.Point2D---boolean-) | ينشئ رسمًا متعدد الأضلاع يحتوي على عدد عشوائي من الرؤوس الفردية. |
-| [createPolyQuadraticBezierSegment(Point2D[] points)](#createPolyQuadraticBezierSegment-java.awt.geom.Point2D---) | ينشئ مجموعة جديدة من منحنيات B?bezier رباعية مرسومة من النقطة السابقة في شكل المسار عبر مجموعة من الرؤوس، باستخدام نقاط التحكم المحددة. |
-| [createPolyQuadraticBezierSegment(Point2D[] points, boolean isStroked)](#createPolyQuadraticBezierSegment-java.awt.geom.Point2D---boolean-) | ينشئ مجموعة جديدة من منحنيات B?bezier رباعية من النقطة السابقة في شكل المسار عبر مجموعة من الرؤوس، باستخدام نقاط التحكم المحددة. |
+| [createPolyQuadraticBezierSegment(Point2D[] points)](#createPolyQuadraticBezierSegment-java.awt.geom.Point2D---) | ينشئ مجموعة جديدة من المنحنيات التربيعية المتحددة B?zier من النقطة السابقة في شكل المسار عبر مجموعة من الرؤوس، باستخدام نقاط التحكم المحددة. |
+| [createPolyQuadraticBezierSegment(Point2D[] points, boolean isStroked)](#createPolyQuadraticBezierSegment-java.awt.geom.Point2D---boolean-) | ينشئ مجموعة جديدة من المنحنيات التربيعية B?zier من النقطة السابقة في شكل المسار عبر مجموعة من الرؤوس، باستخدام نقاط التحكم المحددة. |
 | [createRadialGradientBrush(Point2D center, Point2D gradientOrigin, float radiusX, float radiusY)](#createRadialGradientBrush-java.awt.geom.Point2D-java.awt.geom.Point2D-float-float-) | ينشئ فرشاة تدرج شعاعي جديدة. |
 | [createRadialGradientBrush(List<XpsGradientStop> gradientStops, Point2D center, Point2D gradientOrigin, float radiusX, float radiusY)](#createRadialGradientBrush-java.util.List-com.aspose.xps.XpsGradientStop--java.awt.geom.Point2D-java.awt.geom.Point2D-float-float-) | ينشئ فرشاة تدرج شعاعي جديدة. |
 | [createSolidColorBrush(XpsColor color)](#createSolidColorBrush-com.aspose.xps.XpsColor-) | ينشئ فرشاة لون صلب جديدة. |
@@ -71,16 +71,16 @@ public class PageAPI implements EventBasedModifications.IModificationAPI
 | [getHeight()](#getHeight--) | يعيد ارتفاع الصفحة، معبرًا عنه كعدد حقيقي بوحدات مساحة الإحداثيات الفعّالة. |
 | [getPageCount()](#getPageCount--) | يعيد عدد الصفحات في المستند النشط. |
 | [getTotalPageCount()](#getTotalPageCount--) | يعيد إجمالي عدد الصفحات في جميع المستندات داخل مستند XPS. |
-| [getUtils()](#getUtils--) | يحصل على الكائن الذي يوفر أدوات تتجاوز واجهة برمجة تطبيقات XPS الرسمية. |
+| [getUtils()](#getUtils--) | يحصل على الكائن الذي يوفر أدوات تتجاوز واجهة برمجة تطبيقات معالجة XPS الرسمية. |
 | [getWidth()](#getWidth--) | يعيد عرض الصفحة، معبرًا عنه كعدد حقيقي بوحدات مساحة الإحداثيات الفعّالة. |
 | [hashCode()](#hashCode--) |  |
-| [insertCanvas(int index)](#insertCanvas-int-) | يدرج لوحة قماشية جديدة إلى الصفحة في موضع  index . |
-| [insertGlyphs(int index, XpsFont font, float fontSize, float originX, float originY, String unicodeString)](#insertGlyphs-int-com.aspose.xps.XpsFont-float-float-float-java.lang.String-) | يدرج رموزًا جديدة إلى الصفحة في موضع  index . |
-| [insertGlyphs(int index, String fontFamily, float fontSize, XpsFontStyle fontStyle, float originX, float originY, String unicodeString)](#insertGlyphs-int-java.lang.String-float-com.aspose.xps.XpsFontStyle-float-float-java.lang.String-) | يدرج رموزًا جديدة إلى الصفحة في موضع  index . |
-| [insertPath(int index, XpsPathGeometry data)](#insertPath-int-com.aspose.xps.XpsPathGeometry-) | يدرج مسارًا جديدًا إلى الصفحة في موضع  index . |
+| [insertCanvas(int index)](#insertCanvas-int-) | يدرج لوحة قماشية جديدة إلى الصفحة في الموضع  index  . |
+| [insertGlyphs(int index, XpsFont font, float fontSize, float originX, float originY, String unicodeString)](#insertGlyphs-int-com.aspose.xps.XpsFont-float-float-float-java.lang.String-) | يدرج رموزًا جديدة إلى الصفحة في الموضع  index  . |
+| [insertGlyphs(int index, String fontFamily, float fontSize, XpsFontStyle fontStyle, float originX, float originY, String unicodeString)](#insertGlyphs-int-java.lang.String-float-com.aspose.xps.XpsFontStyle-float-float-java.lang.String-) | يدرج رموزًا جديدة إلى الصفحة في الموضع  index  . |
+| [insertPath(int index, XpsPathGeometry data)](#insertPath-int-com.aspose.xps.XpsPathGeometry-) | يدرج مسارًا جديدًا إلى الصفحة في الموضع  index  . |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [removeAt(int index)](#removeAt-int-) | يزيل عنصرًا في موضع  index  من الصفحة. |
+| [removeAt(int index)](#removeAt-int-) | يزيل عنصرًا في الموضع  index  من الصفحة. |
 | [setHeight(float value)](#setHeight-float-) | يضبط ارتفاع الصفحة، معبرًا عنه كعدد حقيقي بوحدات مساحة الإحداثيات الفعّالة. |
 | [setWidth(float value)](#setWidth-float-) | يضبط عرض الصفحة، معبرًا عنه كعدد حقيقي بوحدات مساحة الإحداثيات الفعّالة. |
 | [toString()](#toString--) |  |
@@ -139,7 +139,7 @@ public XpsCanvas addCanvas()
 ```
 
 
-يضيف لوحة رسم جديدة إلى الصفحة.
+يضيف canvas جديد إلى الصفحة.
 
 **Returns:**
 [XpsCanvas](../../com.aspose.xps/xpscanvas) - Added canvas.
@@ -193,7 +193,7 @@ public void addOutlineEntry(String description, int outlineLevel, int targetPage
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الوصف | java.lang.String | وصف الإدخال. |
+| وصف | java.lang.String | وصف الإدخال. |
 | outlineLevel | int | مستوى المخطط. |
 | targetPageNumber | int | رقم الصفحة المستهدفة. |
 
@@ -218,15 +218,15 @@ public XpsArcSegment createArcSegment(Point2D point, Dimension2D size, float rot
 ```
 
 
-ينشئ مقطع قوس إهليلجي مُحدَّد.
+ينشئ مقطع قوس إهليلجي مُحدَّد بالخط.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| نقطة | java.awt.geom.Point2D | نقطة النهاية للقوس البيضاوي. |
-| الحجم | java.awt.geom.Dimension2D | نصفا القطر x و y للقوس البيضاوي كزوج x,y. |
-| rotationAngle | float | يشير إلى كيفية دوران الشكل البيضاوي بالنسبة لنظام الإحداثيات الحالي. |
-| isLargeArc | boolean | يحدد ما إذا كان القوس يُرسم بزاوية 180 درجة أو أكثر. |
+| نقطة | java.awt.geom.Point2D | نقطة النهاية للقوس الإهليلجي. |
+| الحجم | java.awt.geom.Dimension2D | نصف القطر x و y للقوس الإهليلجي كزوج x,y. |
+| rotationAngle | float | يحدد كيفية دوران الإهليلج بالنسبة إلى نظام الإحداثيات الحالي. |
+| isLargeArc | منطقي | يحدد ما إذا كان القوس يُرسم بزاوية 180 درجة أو أكثر. |
 | sweepDirection | [XpsSweepDirection](../../com.aspose.xps/xpssweepdirection) | الاتجاه الذي يُرسم فيه القوس. |
 
 **Returns:**
@@ -242,12 +242,12 @@ public XpsArcSegment createArcSegment(Point2D point, Dimension2D size, float rot
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| نقطة | java.awt.geom.Point2D | نقطة النهاية للقوس البيضاوي. |
-| الحجم | java.awt.geom.Dimension2D | نصفا القطر x و y للقوس البيضاوي كزوج x,y. |
-| rotationAngle | float | يشير إلى كيفية دوران الشكل البيضاوي بالنسبة لنظام الإحداثيات الحالي. |
-| isLargeArc | boolean | يحدد ما إذا كان القوس يُرسم بزاوية 180 درجة أو أكثر. |
+| نقطة | java.awt.geom.Point2D | نقطة النهاية للقوس الإهليلجي. |
+| الحجم | java.awt.geom.Dimension2D | نصف القطر x و y للقوس الإهليلجي كزوج x,y. |
+| rotationAngle | float | يحدد كيفية دوران الإهليلج بالنسبة إلى نظام الإحداثيات الحالي. |
+| isLargeArc | منطقي | يحدد ما إذا كان القوس يُرسم بزاوية 180 درجة أو أكثر. |
 | sweepDirection | [XpsSweepDirection](../../com.aspose.xps/xpssweepdirection) | الاتجاه الذي يُرسم فيه القوس. |
-| isStroked | boolean | يحدد ما إذا كان الحد لهذا الجزء من المسار يُرسم. |
+| isStroked | منطقي | يحدد ما إذا كان الحد لهذا الجزء من المسار يُرسم. |
 
 **Returns:**
 [XpsArcSegment](../../com.aspose.xps/xpsarcsegment) - New elliptical arc segment.
@@ -257,7 +257,7 @@ public XpsCanvas createCanvas()
 ```
 
 
-ينشئ لوحة رسم جديدة.
+ينشئ canvas جديد.
 
 **Returns:**
 [XpsCanvas](../../com.aspose.xps/xpscanvas) - New canvas.
@@ -273,7 +273,7 @@ public XpsColor createColor(XpsIccProfile iccProfile, float[] components)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | iccProfile | [XpsIccProfile](../../com.aspose.xps/xpsiccprofile) | مورد ملف تعريف ICC. |
-| المكونات | float[] | مكونات اللون. |
+| components | float[] | مكوّنات اللون. |
 
 **Returns:**
 [XpsColor](../../com.aspose.xps/xpscolor) - New color.
@@ -288,9 +288,9 @@ public XpsColor createColor(float r, float g, float b)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| r | float | مكون اللون الأحمر. |
-| g | float | مكون اللون الأخضر. |
-| b | float | مكون اللون الأزرق. |
+| r | float | مكوّن اللون الأحمر. |
+| g | float | مكوّن اللون الأخضر. |
+| b | float | مكوّن اللون الأزرق. |
 
 **Returns:**
 [XpsColor](../../com.aspose.xps/xpscolor) - New color.
@@ -305,10 +305,10 @@ public XpsColor createColor(float a, float r, float g, float b)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | float | مكون اللون ألفا. |
-| r | float | مكون اللون الأحمر. |
-| g | float | مكون اللون الأخضر. |
-| b | float | مكون اللون الأزرق. |
+| a | float | مكوّن اللون ألفا. |
+| r | float | مكوّن اللون الأحمر. |
+| g | float | مكوّن اللون الأخضر. |
+| b | float | مكوّن اللون الأزرق. |
 
 **Returns:**
 [XpsColor](../../com.aspose.xps/xpscolor) - New color.
@@ -323,9 +323,9 @@ public XpsColor createColor(int r, int g, int b)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| r | int | مكون اللون الأحمر. |
-| g | int | مكون اللون الأخضر. |
-| b | int | مكون اللون الأزرق. |
+| r | int | مكوّن اللون الأحمر. |
+| g | int | مكوّن اللون الأخضر. |
+| b | int | مكوّن اللون الأزرق. |
 
 **Returns:**
 [XpsColor](../../com.aspose.xps/xpscolor) - New color.
@@ -340,10 +340,10 @@ public XpsColor createColor(int a, int r, int g, int b)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| a | int | مكون اللون ألفا. |
-| r | int | مكون اللون الأحمر. |
-| g | int | مكون اللون الأخضر. |
-| b | int | مكون اللون الأزرق. |
+| a | int | مكوّن اللون ألفا. |
+| r | int | مكوّن اللون الأحمر. |
+| g | int | مكوّن اللون الأخضر. |
+| b | int | مكوّن اللون الأزرق. |
 
 **Returns:**
 [XpsColor](../../com.aspose.xps/xpscolor) - New color.
@@ -358,7 +358,7 @@ public XpsColor createColor(Color color)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| اللون | java.awt.Color | مثال لون أصلي للون RGB. |
+| color | java.awt.Color | مثيل لون أصلي للون RGB. |
 
 **Returns:**
 [XpsColor](../../com.aspose.xps/xpscolor) - New color.
@@ -374,7 +374,7 @@ public XpsColor createColor(String path, float[] components)
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | path | java.lang.String | المسار إلى ملف تعريف ICC. |
-| المكونات | float[] | مكونات اللون. |
+| components | float[] | مكوّنات اللون. |
 
 **Returns:**
 [XpsColor](../../com.aspose.xps/xpscolor) - New color.
@@ -423,13 +423,13 @@ public XpsGradientStop createGradientStop(XpsColor color, float offset)
 ```
 
 
-ينشئ نقطة إيقاف تدرج جديدة.
+ينشئ نقطة تدرج جديدة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| color | [XpsColor](../../com.aspose.xps/xpscolor) | لون نقطة التدرج. |
-| offset | float | إزاحة التدرج. |
+| color | [XpsColor](../../com.aspose.xps/xpscolor) | لون نقطة إيقاف التدرج. |
+| الإزاحة | float | إزاحة التدرج. |
 
 **Returns:**
 [XpsGradientStop](../../com.aspose.xps/xpsgradientstop) - New gradient stop.
@@ -439,13 +439,13 @@ public XpsGradientStop createGradientStop(Color color, float offset)
 ```
 
 
-ينشئ نقطة إيقاف تدرج جديدة.
+ينشئ نقطة تدرج جديدة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| اللون | java.awt.Color | لون نقطة التدرج. |
-| offset | float | إزاحة التدرج. |
+| color | java.awt.Color | لون نقطة إيقاف التدرج. |
+| الإزاحة | float | إزاحة التدرج. |
 
 **Returns:**
 [XpsGradientStop](../../com.aspose.xps/xpsgradientstop) - New gradient stop.
@@ -461,8 +461,8 @@ public XpsImageBrush createImageBrush(XpsImage image, Rectangle2D viewbox, Recta
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | image | [XpsImage](../../com.aspose.xps/xpsimage) | مورد صورة. |
-| viewbox | java.awt.geom.Rectangle2D | موضع وأبعاد محتوى مصدر الفرشاة. |
-| viewport | java.awt.geom.Rectangle2D | المنطقة في مساحة الإحداثيات المحتوية لبلاطة الفرشاة الأساسية التي تُطبق (ربما بشكل متكرر) لملء المنطقة التي تُطبق عليها الفرشاة |
+| صندوق العرض | java.awt.geom.Rectangle2D | الموضع والأبعاد لمحتوى مصدر الفرشاة. |
+| منطقة العرض | java.awt.geom.Rectangle2D | المنطقة في مساحة الإحداثيات المحتوية لبلاطة الفرشاة الأساسية التي تُطبق (ربما بشكل متكرر) لملء المنطقة التي تُطبق عليها الفرشاة |
 
 **Returns:**
 [XpsImageBrush](../../com.aspose.xps/xpsimagebrush) - New image brush.
@@ -477,9 +477,9 @@ public XpsImageBrush createImageBrush(String imagePath, Rectangle2D viewbox, Rec
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| imagePath | java.lang.String | المسار إلى الصورة لاستخدامها كبلاطة فرشاة. |
-| viewbox | java.awt.geom.Rectangle2D | موضع وأبعاد محتوى مصدر الفرشاة. |
-| viewport | java.awt.geom.Rectangle2D | المنطقة في مساحة الإحداثيات المحتوية لبلاطة الفرشاة الأساسية التي تُطبق (ربما بشكل متكرر) لملء المنطقة التي تُطبق عليها الفرشاة |
+| مسار الصورة | java.lang.String | المسار إلى الصورة لاستخدامها كبلاطة فرشاة. |
+| صندوق العرض | java.awt.geom.Rectangle2D | الموضع والأبعاد لمحتوى مصدر الفرشاة. |
+| منطقة العرض | java.awt.geom.Rectangle2D | المنطقة في مساحة الإحداثيات المحتوية لبلاطة الفرشاة الأساسية التي تُطبق (ربما بشكل متكرر) لملء المنطقة التي تُطبق عليها الفرشاة |
 
 **Returns:**
 [XpsImageBrush](../../com.aspose.xps/xpsimagebrush) - New image brush.
@@ -494,8 +494,8 @@ public XpsLinearGradientBrush createLinearGradientBrush(Point2D startPoint, Poin
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| startPoint | java.awt.geom.Point2D | نقطة البداية للتدرج الخطي. |
-| endPoint | java.awt.geom.Point2D | نقطة النهاية للتدرج الخطي. |
+| نقطة البداية | java.awt.geom.Point2D | نقطة البداية للتدرج الخطي. |
+| نقطة النهاية | java.awt.geom.Point2D | نقطة النهاية للتدرج الخطي. |
 
 **Returns:**
 [XpsLinearGradientBrush](../../com.aspose.xps/xpslineargradientbrush) - New linear gradient brush.
@@ -510,9 +510,9 @@ public XpsLinearGradientBrush createLinearGradientBrush(List<XpsGradientStop> gr
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| gradientStops | java.util.List<com.aspose.xps.XpsGradientStop> | قائمة نقاط توقف التدرج. |
-| startPoint | java.awt.geom.Point2D | نقطة البداية للتدرج الخطي. |
-| endPoint | java.awt.geom.Point2D | نقطة النهاية للتدرج الخطي. |
+| نقاط التوقف للتدرج | java.util.List<com.aspose.xps.XpsGradientStop> | قائمة نقاط التوقف للتدرج. |
+| نقطة البداية | java.awt.geom.Point2D | نقطة البداية للتدرج الخطي. |
+| نقطة النهاية | java.awt.geom.Point2D | نقطة النهاية للتدرج الخطي. |
 
 **Returns:**
 [XpsLinearGradientBrush](../../com.aspose.xps/xpslineargradientbrush) - New linear gradient brush.
@@ -522,7 +522,7 @@ public XpsMatrix createMatrix(float m11, float m12, float m21, float m22, float 
 ```
 
 
-ينشئ مصفوفة تحويل إقليدية جديدة.
+ينشئ مصفوفة تحويل افينية جديدة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -562,7 +562,7 @@ public XpsPathFigure createPathFigure(Point2D startPoint)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| startPoint | java.awt.geom.Point2D | نقطة البداية للمقطع الأول من شكل المسار. |
+| نقطة البداية | java.awt.geom.Point2D | نقطة البداية للقطعة الأولى من شكل المسار. |
 
 **Returns:**
 [XpsPathFigure](../../com.aspose.xps/xpspathfigure) - New path figure.
@@ -577,8 +577,8 @@ public XpsPathFigure createPathFigure(Point2D startPoint, boolean isClosed)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| startPoint | java.awt.geom.Point2D | نقطة البداية للمقطع الأول من شكل المسار. |
-| isClosed | boolean | يحدد ما إذا كان المسار مغلقًا. إذا تم تعيينه إلى true، يتم رسم الخط "closed"، أي أن النقطة الأخيرة في المقطع الأخير من شكل المسار يتم ربطها بالنقطة المحددة في خاصية StartPoint، وإلا يتم رسم الخط "open"، ولا يتم ربط النقطة الأخيرة بنقطة البداية. ينطبق ذلك فقط إذا تم استخدام شكل المسار في عنصر Path يحدد خطًا. |
+| نقطة البداية | java.awt.geom.Point2D | نقطة البداية للقطعة الأولى من شكل المسار. |
+| isClosed | منطقي | يحدد ما إذا كان المسار مغلقًا. إذا تم تعيينه إلى true، يتم رسم الخط "closed"، أي أن النقطة الأخيرة في القطعة الأخيرة من شكل المسار يتم ربطها بالنقطة المحددة في الخاصية StartPoint، وإلا يتم رسم الخط "open"، ولا يتم ربط النقطة الأخيرة بنقطة البداية. ينطبق ذلك فقط إذا تم استخدام شكل المسار داخل عنصر Path يحدد خطًا. |
 
 **Returns:**
 [XpsPathFigure](../../com.aspose.xps/xpspathfigure) - New path figure.
@@ -593,8 +593,8 @@ public XpsPathFigure createPathFigure(Point2D startPoint, List<XpsPathSegment> s
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| startPoint | java.awt.geom.Point2D | نقطة البداية للمقطع الأول من شكل المسار. |
-| segments | java.util.List<com.aspose.xps.XpsPathSegment> | قائمة بمقاطع المسار. |
+| نقطة البداية | java.awt.geom.Point2D | نقطة البداية للقطعة الأولى من شكل المسار. |
+| segments | java.util.List<com.aspose.xps.XpsPathSegment> | قائمة بقطع المسار. |
 
 **Returns:**
 [XpsPathFigure](../../com.aspose.xps/xpspathfigure) - New path figure.
@@ -609,9 +609,9 @@ public XpsPathFigure createPathFigure(Point2D startPoint, List<XpsPathSegment> s
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| startPoint | java.awt.geom.Point2D | نقطة البداية للمقطع الأول من شكل المسار. |
-| segments | java.util.List<com.aspose.xps.XpsPathSegment> | قائمة بمقاطع المسار. |
-| isClosed | boolean | يحدد ما إذا كان المسار مغلقًا. إذا تم تعيينه إلى true، يتم رسم الخط "closed"، أي أن النقطة الأخيرة في المقطع الأخير من شكل المسار يتم ربطها بالنقطة المحددة في خاصية StartPoint، وإلا يتم رسم الخط "open"، ولا يتم ربط النقطة الأخيرة بنقطة البداية. ينطبق ذلك فقط إذا تم استخدام شكل المسار في عنصر Path يحدد خطًا. |
+| نقطة البداية | java.awt.geom.Point2D | نقطة البداية للقطعة الأولى من شكل المسار. |
+| segments | java.util.List<com.aspose.xps.XpsPathSegment> | قائمة بقطع المسار. |
+| isClosed | منطقي | يحدد ما إذا كان المسار مغلقًا. إذا تم تعيينه إلى true، يتم رسم الخط "closed"، أي أن النقطة الأخيرة في القطعة الأخيرة من شكل المسار يتم ربطها بالنقطة المحددة في الخاصية StartPoint، وإلا يتم رسم الخط "open"، ولا يتم ربط النقطة الأخيرة بنقطة البداية. ينطبق ذلك فقط إذا تم استخدام شكل المسار داخل عنصر Path يحدد خطًا. |
 
 **Returns:**
 [XpsPathFigure](../../com.aspose.xps/xpspathfigure) - New path figure.
@@ -661,12 +661,12 @@ public XpsPolyBezierSegment createPolyBezierSegment(Point2D[] points)
 ```
 
 
-ينشئ مجموعة جديدة من منحنيات B?zier مكعبية مرسومة.
+ينشئ مجموعة جديدة من المنحنيات المكعبة المتحددة B?zier.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| points | java.awt.geom.Point2D[] | نقاط التحكم لعدة مقاطع B?bezier. |
+| points | java.awt.geom.Point2D[] | نقاط التحكم لعدة قطع B?bezier. |
 
 **Returns:**
 [XpsPolyBezierSegment](../../com.aspose.xps/xpspolybeziersegment) - New cubic B?zier curves segment.
@@ -676,13 +676,13 @@ public XpsPolyBezierSegment createPolyBezierSegment(Point2D[] points, boolean is
 ```
 
 
-ينشئ مجموعة جديدة من منحنيات B?zier مكعبية.
+ينشئ مجموعة جديدة من المنحنيات المكعبة B?zier.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| points | java.awt.geom.Point2D[] | نقاط التحكم لعدة مقاطع B?bezier. |
-| isStroked | boolean | يحدد ما إذا كان الحد لهذا الجزء من المسار يُرسم. |
+| points | java.awt.geom.Point2D[] | نقاط التحكم لعدة قطع B?bezier. |
+| isStroked | منطقي | يحدد ما إذا كان الحد لهذا الجزء من المسار يُرسم. |
 
 **Returns:**
 [XpsPolyBezierSegment](../../com.aspose.xps/xpspolybeziersegment) - New cubic B?zier curves segment.
@@ -692,12 +692,12 @@ public XpsPolyLineSegment createPolyLineSegment(Point2D[] points)
 ```
 
 
-ينشئ رسمًا متعدد الأضلاع مرسومًا يحتوي على عدد عشوائي من الرؤوس الفردية.
+ينشئ رسمًا متعدد الأضلاع محددًا يحتوي على عدد عشوائي من الرؤوس الفردية.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| points | java.awt.geom.Point2D[] | مجموعة من الإحداثيات للمقاطع المتعددة التي تحدد مقطع الخط المتعدد. |
+| points | java.awt.geom.Point2D[] | مجموعة من الإحداثيات للقطع المتعددة التي تُعرّف مقطع الخط المتعدد. |
 
 **Returns:**
 [XpsPolyLineSegment](../../com.aspose.xps/xpspolylinesegment) - New polygonal drawing segment.
@@ -712,8 +712,8 @@ public XpsPolyLineSegment createPolyLineSegment(Point2D[] points, boolean isStro
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| points | java.awt.geom.Point2D[] | مجموعة من الإحداثيات للمقاطع المتعددة التي تحدد مقطع الخط المتعدد. |
-| isStroked | boolean | يحدد ما إذا كان الحد لهذا الجزء من المسار يُرسم. |
+| points | java.awt.geom.Point2D[] | مجموعة من الإحداثيات للقطع المتعددة التي تُعرّف مقطع الخط المتعدد. |
+| isStroked | منطقي | يحدد ما إذا كان الحد لهذا الجزء من المسار يُرسم. |
 
 **Returns:**
 [XpsPolyLineSegment](../../com.aspose.xps/xpspolylinesegment) - New polygonal drawing segment.
@@ -723,12 +723,12 @@ public XpsPolyQuadraticBezierSegment createPolyQuadraticBezierSegment(Point2D[] 
 ```
 
 
-ينشئ مجموعة جديدة من منحنيات B?bezier رباعية مرسومة من النقطة السابقة في شكل المسار عبر مجموعة من الرؤوس، باستخدام نقاط التحكم المحددة.
+ينشئ مجموعة جديدة من المنحنيات التربيعية المتحددة B?zier من النقطة السابقة في شكل المسار عبر مجموعة من الرؤوس، باستخدام نقاط التحكم المحددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| points | java.awt.geom.Point2D[] | نقاط التحكم لعدة مقاطع B?bezier تربيعية. |
+| points | java.awt.geom.Point2D[] | نقاط التحكم لعدة قطع B?bezier تربيعية. |
 
 **Returns:**
 [XpsPolyQuadraticBezierSegment](../../com.aspose.xps/xpspolyquadraticbeziersegment) - New quadratic B?zier curves segment.
@@ -738,13 +738,13 @@ public XpsPolyQuadraticBezierSegment createPolyQuadraticBezierSegment(Point2D[] 
 ```
 
 
-ينشئ مجموعة جديدة من منحنيات B?bezier رباعية من النقطة السابقة في شكل المسار عبر مجموعة من الرؤوس، باستخدام نقاط التحكم المحددة.
+ينشئ مجموعة جديدة من المنحنيات التربيعية B?zier من النقطة السابقة في شكل المسار عبر مجموعة من الرؤوس، باستخدام نقاط التحكم المحددة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| points | java.awt.geom.Point2D[] | نقاط التحكم لعدة مقاطع B?bezier تربيعية. |
-| isStroked | boolean | يحدد ما إذا كان الحد لهذا الجزء من المسار يُرسم. |
+| points | java.awt.geom.Point2D[] | نقاط التحكم لعدة قطع B?bezier تربيعية. |
+| isStroked | منطقي | يحدد ما إذا كان الحد لهذا الجزء من المسار يُرسم. |
 
 **Returns:**
 [XpsPolyQuadraticBezierSegment](../../com.aspose.xps/xpspolyquadraticbeziersegment) - New quadratic B?zier curves segment.
@@ -759,10 +759,10 @@ public XpsRadialGradientBrush createRadialGradientBrush(Point2D center, Point2D 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| center | java.awt.geom.Point2D | نقطة المركز للتدرج الشعاعي (أي مركز الشكل البيضاوي). |
+| center | java.awt.geom.Point2D | نقطة المركز للتدرج الشعاعي (أي مركز القطع الناقص). |
 | gradientOrigin | java.awt.geom.Point2D | نقطة الأصل للتدرج الشعاعي. |
-| radiusX | float | نصف القطر في البُعد x للإهليلج الذي يحدد التدرج الشعاعي. |
-| radiusY | float | نصف القطر في البُعد y للإهليلج الذي يحدد التدرج الشعاعي. |
+| radiusX | float | نصف القطر في البُعد السيني للإهليلج الذي يحدد التدرج الشعاعي. |
+| radiusY | float | نصف القطر في البُعد الصادي للإهليلج الذي يحدد التدرج الشعاعي. |
 
 **Returns:**
 [XpsRadialGradientBrush](../../com.aspose.xps/xpsradialgradientbrush) - New radial gradient brush.
@@ -777,11 +777,11 @@ public XpsRadialGradientBrush createRadialGradientBrush(List<XpsGradientStop> gr
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| gradientStops | java.util.List<com.aspose.xps.XpsGradientStop> | قائمة نقاط توقف التدرج. |
-| center | java.awt.geom.Point2D | نقطة المركز للتدرج الشعاعي (أي مركز الشكل البيضاوي). |
+| نقاط التوقف للتدرج | java.util.List<com.aspose.xps.XpsGradientStop> | قائمة نقاط التوقف للتدرج. |
+| center | java.awt.geom.Point2D | نقطة المركز للتدرج الشعاعي (أي مركز القطع الناقص). |
 | gradientOrigin | java.awt.geom.Point2D | نقطة الأصل للتدرج الشعاعي. |
-| radiusX | float | نصف القطر في البُعد x للإهليلج الذي يحدد التدرج الشعاعي. |
-| radiusY | float | نصف القطر في البُعد y للإهليلج الذي يحدد التدرج الشعاعي. |
+| radiusX | float | نصف القطر في البُعد السيني للإهليلج الذي يحدد التدرج الشعاعي. |
+| radiusY | float | نصف القطر في البُعد الصادي للإهليلج الذي يحدد التدرج الشعاعي. |
 
 **Returns:**
 [XpsRadialGradientBrush](../../com.aspose.xps/xpsradialgradientbrush) - New radial gradient brush.
@@ -811,7 +811,7 @@ public XpsSolidColorBrush createSolidColorBrush(Color color)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| اللون | java.awt.Color | اللون للعناصر المملوءة. |
+| color | java.awt.Color | اللون للعناصر المملوءة. |
 
 **Returns:**
 [XpsSolidColorBrush](../../com.aspose.xps/xpssolidcolorbrush) - New solid color brush.
@@ -827,8 +827,8 @@ public XpsVisualBrush createVisualBrush(XpsContentElement element, Rectangle2D v
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | element | [XpsContentElement](../../com.aspose.xps/xpscontentelement) | عنصر XPS (Canvas, Path, أو Glyphs) لخاصية Visual لفرشاة بصرية. |
-| viewbox | java.awt.geom.Rectangle2D | موضع وأبعاد محتوى مصدر الفرشاة. |
-| viewport | java.awt.geom.Rectangle2D | المنطقة في مساحة الإحداثيات المحتوية لبلاطة الفرشاة الأساسية التي تُطبق (ربما بشكل متكرر) لملء المنطقة التي تُطبق عليها الفرشاة |
+| صندوق العرض | java.awt.geom.Rectangle2D | الموضع والأبعاد لمحتوى مصدر الفرشاة. |
+| منطقة العرض | java.awt.geom.Rectangle2D | المنطقة في مساحة الإحداثيات المحتوية لبلاطة الفرشاة الأساسية التي تُطبق (ربما بشكل متكرر) لملء المنطقة التي تُطبق عليها الفرشاة |
 
 **Returns:**
 [XpsVisualBrush](../../com.aspose.xps/xpsvisualbrush) - New visual brush.
@@ -846,7 +846,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -893,7 +893,7 @@ public DocumentUtils getUtils()
 ```
 
 
-يحصل على الكائن الذي يوفر أدوات تتجاوز واجهة برمجة تطبيقات XPS الرسمية.
+يحصل على الكائن الذي يوفر أدوات تتجاوز واجهة برمجة تطبيقات معالجة XPS الرسمية.
 
 **Returns:**
 [DocumentUtils](../../com.aspose.xps/documentutils) - The object that provides utilities beyond the formal XPS manipulation API.
@@ -923,7 +923,7 @@ public XpsCanvas insertCanvas(int index)
 ```
 
 
-يدرج لوحة قماشية جديدة إلى الصفحة في موضع  index .
+يدرج لوحة قماشية جديدة إلى الصفحة في الموضع  index  .
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -938,7 +938,7 @@ public XpsGlyphs insertGlyphs(int index, XpsFont font, float fontSize, float ori
 ```
 
 
-يدرج رموزًا جديدة إلى الصفحة في موضع  index .
+يدرج رموزًا جديدة إلى الصفحة في الموضع  index  .
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -958,7 +958,7 @@ public XpsGlyphs insertGlyphs(int index, String fontFamily, float fontSize, XpsF
 ```
 
 
-يدرج رموزًا جديدة إلى الصفحة في موضع  index .
+يدرج رموزًا جديدة إلى الصفحة في الموضع  index  .
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -979,7 +979,7 @@ public XpsPath insertPath(int index, XpsPathGeometry data)
 ```
 
 
-يدرج مسارًا جديدًا إلى الصفحة في موضع  index .
+يدرج مسارًا جديدًا إلى الصفحة في الموضع  index  .
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -1011,7 +1011,7 @@ public XpsContentElement removeAt(int index)
 ```
 
 
-يزيل عنصرًا في موضع  index  من الصفحة.
+يزيل عنصرًا في الموضع  index  من الصفحة.
 
 **Parameters:**
 | معامل | نوع | الوصف |

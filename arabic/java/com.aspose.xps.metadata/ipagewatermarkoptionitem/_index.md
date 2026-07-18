@@ -1,6 +1,6 @@
 ---
 title: "PageWatermark.IPageWatermarkOptionItem"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "واجهة أي عنصر PageWatermarkOption."
 type: docs
 weight: 14
@@ -12,4 +12,4 @@ url: /ar/java/com.aspose.xps.metadata/pagewatermark.ipagewatermarkoptionitem/
 public static interface PageWatermark.IPageWatermarkOptionItem extends IOptionItem
 ```
 
-واجهة أي عنصر PageWatermarkOption.
+واجهة أي عنصر  PageWatermarkOption .

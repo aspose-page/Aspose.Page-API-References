@@ -1,6 +1,6 @@
 ---
 title: "PageConstants"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "هذه الفئة تعرف مجموعة من الثوابت التي تصف صفحة."
 type: docs
 weight: 13
@@ -12,7 +12,7 @@ java.lang.Object
 public class PageConstants
 ```
 
-هذه الفئة تعرف مجموعة من الثوابت التي تصف صفحة. يتم توفير كائنات مريحة لمختلف الهوامش، والاتجاهات، وإعادة التحجيم، وأحجام الصفحات القياسية.
+هذه الفئة تُعرّف مجموعة من الثوابت التي تصف صفحة. تُوفر كائنات مريحة لمختلف الهوامش، الاتجاهات، إعادة التحجيم، وأحجام الصفحات القياسية.
 ## الحقول
 
 | حقل | الوصف |
@@ -20,14 +20,14 @@ public class PageConstants
 | [BACKGROUND](#BACKGROUND) | مفتاح الخلفية |
 | [BACKGROUND_COLOR](#BACKGROUND-COLOR) | مفتاح لون الخلفية |
 | [FIT_TO_PAGE](#FIT-TO-PAGE) | مفتاح ملاءمة المحتوى للصفحة |
-| [MARGINS_LARGE](#MARGINS-LARGE) | "Large" قيمة هوامش الصفحة |
-| [MARGINS_MEDIUM](#MARGINS-MEDIUM) | "Medium" قيمة هوامش الصفحة |
-| [MARGINS_SMALL](#MARGINS-SMALL) | "Small" قيمة هوامش الصفحة |
-| [MARGINS_ZERO](#MARGINS-ZERO) | "Zero" قيمة هوامش الصفحة |
-| [ORIENTATION](#ORIENTATION) | مفتاح الاتجاه، للاتجاه المسمى للصفحة، Portret أو Landscape. |
-| [ORIENTATION_BEST_FIT](#ORIENTATION-BEST-FIT) | "Best fit" قيمة الاتجاه |
-| [ORIENTATION_LANDSCAPE](#ORIENTATION-LANDSCAPE) | "Landscape" قيمة الاتجاه |
-| [ORIENTATION_PORTRAIT](#ORIENTATION-PORTRAIT) | "Portrait" قيمة الاتجاه |
+| [MARGINS_LARGE](#MARGINS-LARGE) | قيمة هوامش الصفحة "Large" |
+| [MARGINS_MEDIUM](#MARGINS-MEDIUM) | قيمة هوامش الصفحة "Medium" |
+| [MARGINS_SMALL](#MARGINS-SMALL) | قيمة هوامش الصفحة "Small" |
+| [MARGINS_ZERO](#MARGINS-ZERO) | قيمة هوامش الصفحة "Zero" |
+| [ORIENTATION](#ORIENTATION) | مفتاح الاتجاه، لتحديد الاتجاه المسمى للصفحة، Portret أو Landscape. |
+| [ORIENTATION_BEST_FIT](#ORIENTATION-BEST-FIT) | قيمة الاتجاه "Best fit" |
+| [ORIENTATION_LANDSCAPE](#ORIENTATION-LANDSCAPE) | قيمة الاتجاه "Landscape" |
+| [ORIENTATION_PORTRAIT](#ORIENTATION-PORTRAIT) | قيمة الاتجاه "Portrait" |
 | [PAGE_MARGINS](#PAGE-MARGINS) | مفتاح هوامش الصفحة |
 | [PAGE_SIZE](#PAGE-SIZE) | مفتاح حجم الصفحة |
 | [SIZE_A3](#SIZE-A3) | "A3" قيمة حجم الصفحة |
@@ -40,7 +40,7 @@ public class PageConstants
 | [SIZE_LEGAL](#SIZE-LEGAL) | "Legal" قيمة حجم الصفحة |
 | [SIZE_LETTER](#SIZE-LETTER) | "Letter" قيمة حجم الصفحة |
 | [TRANSPARENT](#TRANSPARENT) | مفتاح الخلفية الشفافة |
-| [VIEWING_ORIENTATION](#VIEWING-ORIENTATION) | مفتاح اتجاه العرض، لتمييز اتجاه المحتوى على الصفحة باستخدام مصفوفة الدوران. |
+| [VIEWING_ORIENTATION](#VIEWING-ORIENTATION) | مفتاح اتجاه العرض، لتحديد مصفوفة الدوران التي تميز اتجاه المحتوى على الصفحة. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -50,9 +50,9 @@ public class PageConstants
 | [getMargins(Insets insets, String orientation)](#getMargins-java.awt.Insets-java.lang.String-) | احسب هوامش الصفحة في الاتجاه المحدد |
 | [getMargins(String size)](#getMargins-java.lang.String-) |  |
 | [getOrientationList()](#getOrientationList--) |  |
-| [getSize(Dimension size, String orientation)](#getSize-java.awt.Dimension-java.lang.String-) | يحسب حجم الصفحة في الاتجاه المحدد للصفحة |
+| [getSize(Dimension size, String orientation)](#getSize-java.awt.Dimension-java.lang.String-) | يحسب حجم الصفحة في اتجاه الصفحة المحدد |
 | [getSize(String size)](#getSize-java.lang.String-) | يحسب حجم الصفحة في اتجاه الصفحة "Portrait" |
-| [getSize(String size, String orientation)](#getSize-java.lang.String-java.lang.String-) | يحسب حجم الصفحة في الاتجاه المحدد للصفحة |
+| [getSize(String size, String orientation)](#getSize-java.lang.String-java.lang.String-) | يحسب حجم الصفحة في اتجاه الصفحة المحدد |
 | [getSizeList()](#getSizeList--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -91,7 +91,7 @@ public static final String MARGINS_LARGE
 ```
 
 
-"Large" قيمة هوامش الصفحة
+قيمة هوامش الصفحة "Large"
 
 ### MARGINS_MEDIUM {#MARGINS-MEDIUM}
 ```
@@ -99,7 +99,7 @@ public static final String MARGINS_MEDIUM
 ```
 
 
-"Medium" قيمة هوامش الصفحة
+قيمة هوامش الصفحة "Medium"
 
 ### MARGINS_SMALL {#MARGINS-SMALL}
 ```
@@ -107,7 +107,7 @@ public static final String MARGINS_SMALL
 ```
 
 
-"Small" قيمة هوامش الصفحة
+قيمة هوامش الصفحة "Small"
 
 ### MARGINS_ZERO {#MARGINS-ZERO}
 ```
@@ -115,7 +115,7 @@ public static final String MARGINS_ZERO
 ```
 
 
-"Zero" قيمة هوامش الصفحة
+قيمة هوامش الصفحة "Zero"
 
 ### ORIENTATION {#ORIENTATION}
 ```
@@ -123,7 +123,7 @@ public static final String ORIENTATION
 ```
 
 
-مفتاح الاتجاه، للاتجاه المسمى للصفحة، Portret أو Landscape.
+مفتاح الاتجاه، لتحديد الاتجاه المسمى للصفحة، Portret أو Landscape.
 
 ### ORIENTATION_BEST_FIT {#ORIENTATION-BEST-FIT}
 ```
@@ -131,7 +131,7 @@ public static final String ORIENTATION_BEST_FIT
 ```
 
 
-"Best fit" قيمة الاتجاه
+قيمة الاتجاه "Best fit"
 
 ### ORIENTATION_LANDSCAPE {#ORIENTATION-LANDSCAPE}
 ```
@@ -139,7 +139,7 @@ public static final String ORIENTATION_LANDSCAPE
 ```
 
 
-"Landscape" قيمة الاتجاه
+قيمة الاتجاه "Landscape"
 
 ### ORIENTATION_PORTRAIT {#ORIENTATION-PORTRAIT}
 ```
@@ -147,7 +147,7 @@ public static final String ORIENTATION_PORTRAIT
 ```
 
 
-"Portrait" قيمة الاتجاه
+قيمة الاتجاه "Portrait"
 
 ### PAGE_MARGINS {#PAGE-MARGINS}
 ```
@@ -251,7 +251,7 @@ public static final String VIEWING_ORIENTATION
 ```
 
 
-مفتاح اتجاه العرض، لتمييز اتجاه المحتوى على الصفحة باستخدام مصفوفة الدوران. مصفوفة اتجاه العرض الافتراضية هي هوية.
+مفتاح اتجاه العرض، لتحديد مصفوفة الدوران التي تميز اتجاه المحتوى على الصفحة. مصفوفة اتجاه العرض الافتراضية هي هوية.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -267,7 +267,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -289,11 +289,11 @@ public static final Insets getMargins(Insets insets, String orientation)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| المسافات الداخلية | java.awt.Insets | الهامش الأصلي |
+| الهوامش الداخلية | java.awt.Insets | الهوامش الأصلية |
 | الاتجاه | java.lang.String | اتجاه الصفحة |
 
 **Returns:**
-java.awt.Insets - هوامش صفحة مسبقة التعريف للاتجاه المحدد
+java.awt.Insets - هوامش صفحة محددة مسبقًا للاتجاه المحدد
 ### getMargins(String size) {#getMargins-java.lang.String-}
 ```
 public static final Insets getMargins(String size)
@@ -305,10 +305,10 @@ public static final Insets getMargins(String size)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الحجم | java.lang.String | حجم صفحة مسبق التعريف |
+| الحجم | java.lang.String | حجم صفحة محدد مسبقًا |
 
 **Returns:**
-java.awt.Insets - هوامش صفحة مسبقة التعريف
+java.awt.Insets - هوامش صفحة محددة مسبقًا
 ### getOrientationList() {#getOrientationList--}
 ```
 public static final String[] getOrientationList()
@@ -325,7 +325,7 @@ public static final Dimension getSize(Dimension size, String orientation)
 ```
 
 
-يحسب حجم الصفحة في الاتجاه المحدد للصفحة
+يحسب حجم الصفحة في اتجاه الصفحة المحدد
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -346,7 +346,7 @@ public static final Dimension getSize(String size)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الحجم | java.lang.String | حجم صفحة مسبق التعريف |
+| الحجم | java.lang.String | حجم صفحة محدد مسبقًا |
 
 **Returns:**
 java.awt.Dimension - حجم الصفحة المحسوب
@@ -356,12 +356,12 @@ public static final Dimension getSize(String size, String orientation)
 ```
 
 
-يحسب حجم الصفحة في الاتجاه المحدد للصفحة
+يحسب حجم الصفحة في اتجاه الصفحة المحدد
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| الحجم | java.lang.String | حجم صفحة مسبق التعريف |
+| الحجم | java.lang.String | حجم صفحة محدد مسبقًا |
 | الاتجاه | java.lang.String | اتجاه الصفحة |
 
 **Returns:**

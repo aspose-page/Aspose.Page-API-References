@@ -1,7 +1,7 @@
 ---
 title: "JobStapleAllDocuments"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يصف خصائص التدبيس للإخراج."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يصف خصائص التثبيت للمخرجات."
 type: docs
 weight: 72
 url: /ar/java/com.aspose.xps.metadata/jobstaplealldocuments/
@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class JobStapleAllDocuments extends Staple implements IJobPrintTicketItem
 ```
 
-يصف خصائص التثبيت للمخرجات. يتم تثبيت جميع المستندات في المهمة معًا. الكلمات المفتاحية  JobStapleAllDocuments  و  DocumentStaple  متعارضة. يعود إلى برنامج التشغيل تحديد كيفية التعامل مع القيود بين هذه الكلمات المفتاحية. https://docs.microsoft.com/en-us/windows/win32/printdocs/jobstaplealldocuments
-## المنشئات
+يصف خصائص التجليد للإخراج. جميع المستندات في المهمة مُجَمعَة معًا بالتجليد. الكلمات المفتاحية  JobStapleAllDocuments  و  DocumentStaple  متعارضة ولا يمكن استخدامها معًا. يعود للبرنامج التعريفي (السائق) تحديد كيفية معالجة القيود بين هذه الكلمات المفتاحية. https://docs.microsoft.com/en-us/windows/win32/printdocs/jobstaplealldocuments
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [JobStapleAllDocuments(Staple.StapleOption[] options)](#JobStapleAllDocuments-com.aspose.xps.metadata.Staple.StapleOption...-) | ينشئ نسخة جديدة. |
+| [JobStapleAllDocuments(Staple.StapleOption[] options)](#JobStapleAllDocuments-com.aspose.xps.metadata.Staple.StapleOption...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public JobStapleAllDocuments(Staple.StapleOption[] options)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

@@ -1,7 +1,7 @@
 ---
 title: "ScoredProperty"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "الفئة التي تنفّذ ScoredProperty شائع في PrintTicket."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "الفئة التي تنفّذ ScoredProperty شائعًا في PrintTicket."
 type: docs
 weight: 146
 url: /ar/java/com.aspose.xps.metadata/scoredproperty/
@@ -15,13 +15,13 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public class ScoredProperty extends CompositePrintTicketElement implements IOptionItem, IScoredPropertyItem
 ```
 
-الفئة التي تنفّذ ScoredProperty شائع في PrintTicket. الفئة الأساسية لجميع الخصائص المُقّيمة المعرفة بالمخطط. عنصر ScoredProperty يعلن عن خاصية جوهرية لتعريف Option. يجب مقارنة هذه الخصائص عند تقييم مدى تقارب Option المطلوب مع Option المدعوم من الجهاز. https://docs.microsoft.com/en-us/windows/win32/printdocs/scoredproperty
-## المنشئات
+الفئة التي تنفّذ ScoredProperty شائعًا في PrintTicket. الفئة الأساسية لجميع الخصائص المتدرجة المعرفة بالمخطط. عنصر ScoredProperty يعلن عن خاصية جوهرية لتعريف Option. يجب مقارنة هذه الخصائص عند تقييم مدى تطابق Option المطلوب مع Option المدعوم من الجهاز. https://docs.microsoft.com/en-us/windows/win32/printdocs/scoredproperty
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [ScoredProperty(String name, ParameterRef parameterRef)](#ScoredProperty-java.lang.String-com.aspose.xps.metadata.ParameterRef-) | ينشئ نسخة جديدة. |
-| [ScoredProperty(String name, Value value, IScoredPropertyItem[] items)](#ScoredProperty-java.lang.String-com.aspose.xps.metadata.Value-com.aspose.xps.metadata.IScoredPropertyItem...-) | ينشئ نسخة جديدة. |
+| [ScoredProperty(String name, ParameterRef parameterRef)](#ScoredProperty-java.lang.String-com.aspose.xps.metadata.ParameterRef-) | ينشئ مثيلًا جديدًا. |
+| [ScoredProperty(String name, Value value, IScoredPropertyItem[] items)](#ScoredProperty-java.lang.String-com.aspose.xps.metadata.Value-com.aspose.xps.metadata.IScoredPropertyItem...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -42,13 +42,13 @@ public ScoredProperty(String name, ParameterRef parameterRef)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | الاسم | java.lang.String | اسم خاصية. |
-| parameterRef | [ParameterRef](../../com.aspose.xps.metadata/parameterref) | مثيل ParameterRef. |
+| parameterRef | [ParameterRef](../../com.aspose.xps.metadata/parameterref) | مثيل  ParameterRef  . |
 
 ### ScoredProperty(String name, Value value, IScoredPropertyItem[] items) {#ScoredProperty-java.lang.String-com.aspose.xps.metadata.Value-com.aspose.xps.metadata.IScoredPropertyItem...-}
 ```
@@ -56,14 +56,14 @@ public ScoredProperty(String name, Value value, IScoredPropertyItem[] items)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | الاسم | java.lang.String | اسم خاصية. |
 | value | [Value](../../com.aspose.xps.metadata/value) | قيمة الخاصية. |
-| items | [IScoredPropertyItem\[\]](../../com.aspose.xps.metadata/iscoredpropertyitem) | مصفوفة عشوائية من مثيلات IScoredPropertyItem. يجب أن يكون كل منها ScoredProperty أو Property أو Value. |
+| items | [IScoredPropertyItem\[\]](../../com.aspose.xps.metadata/iscoredpropertyitem) | مصفوفة عشوائية من  IScoredPropertyItem  . يجب أن يكون كل منها  ScoredProperty  أو  Property  أو  Value  . |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -79,7 +79,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

@@ -1,6 +1,6 @@
 ---
 title: "Duplex.DuplexOption"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف خيارات ميزات JobDuplexAllDocumentsContiguously و DocumentDuplex."
 type: docs
 weight: 11
@@ -22,7 +22,7 @@ public static final class Duplex.DuplexOption extends Option
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. |
+| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -49,7 +49,7 @@ public void add(IOptionItem[] items)
 ```
 
 
-يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. يجب أن يكون كل عنصر إما  ScoredProperty  أو  Property  مثيل.
+يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. يجب أن يكون كل عنصر إما مثال ScoredProperty أو مثال Property.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -70,7 +70,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -138,7 +138,7 @@ public static final Duplex.DuplexOption twoSidedLongEdge(Duplex.DuplexMode duple
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| duplexMode | [DuplexMode](../../com.aspose.xps.metadata/duplexmode) | الـ  DuplexMode |
+| duplexMode | [DuplexMode](../../com.aspose.xps.metadata/duplexmode) | وضع  DuplexMode |
 
 **Returns:**
 [DuplexOption](../../com.aspose.xps.metadata/duplexoption) - The  Duplex  option.
@@ -153,7 +153,7 @@ public static final Duplex.DuplexOption twoSidedShortEdge(Duplex.DuplexMode dupl
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| duplexMode | [DuplexMode](../../com.aspose.xps.metadata/duplexmode) | الـ  DuplexMode |
+| duplexMode | [DuplexMode](../../com.aspose.xps.metadata/duplexmode) | وضع  DuplexMode |
 
 **Returns:**
 [DuplexOption](../../com.aspose.xps.metadata/duplexoption) - The
@@ -162,7 +162,7 @@ public static final Duplex.DuplexOption twoSidedShortEdge(Duplex.DuplexMode dupl
 Duplex
 ```
 
-خيار.
+خيار
 ### wait() {#wait--}
 ```
 public final void wait()

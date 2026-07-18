@@ -1,6 +1,6 @@
 ---
 title: "XpsConverterOptions"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يمثل الفئة الأساسية للخيارات الخاصة بالمكوّن الإضافي."
 type: docs
 weight: 11
@@ -15,16 +15,16 @@ java.lang.Object
 public class XpsConverterOptions implements IPluginOptions, IDataContainer, ISaveInstruction
 ```
 
-يمثل الفئة الأساسية للخيارات الخاصة بالمكوّن الإضافي [XpsConverter](../../com.aspose.xps.plugins/xpsconverter) المكوّن الإضافي.
+يمثل الفئة الأساسية للخيارات الخاصة بالمكوّن الإضافي [XpsConverter](../../com.aspose.xps.plugins/xpsconverter).
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [addDataSource(IDataSource dataSource)](#addDataSource-com.aspose.page.plugins.IDataSource-) | يضيف مصدر بيانات جديد إلى مجموعة بيانات مكوّن XpsConverter الإضافي. |
-| [addSaveDataSource(IDataSource saveDataSource)](#addSaveDataSource-com.aspose.page.plugins.IDataSource-) | يضيف مصدر بيانات جديد إلى مجموعة بيانات مكوّن XpsConverterOptions الإضافي. |
+| [addDataSource(IDataSource dataSource)](#addDataSource-com.aspose.page.plugins.IDataSource-) | يضيف مصدر بيانات جديد إلى مجموعة بيانات إضافة XpsConverter. |
+| [addSaveDataSource(IDataSource saveDataSource)](#addSaveDataSource-com.aspose.page.plugins.IDataSource-) | يضيف مصدر بيانات جديد إلى مجموعة بيانات إضافة XpsConverterOptions. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getDataCollection()](#getDataCollection--) | يعيد مجموعة بيانات مكوّن XpsConverterOptions الإضافي. |
+| [getDataCollection()](#getDataCollection--) | يعيد مجموعة بيانات إضافة XpsConverterOptions. |
 | [getJpegQualityLevel()](#getJpegQualityLevel--) | يعيد القيمة التي تحدد مستوى الضغط لصورة. |
 | [getOperationName()](#getOperationName--) | يعيد اسم العملية. |
 | [getSaveTargetsCollection()](#getSaveTargetsCollection--) | يحصل على مجموعة الأهداف المضافة لحفظ نتائج العملية. |
@@ -42,7 +42,7 @@ public final void addDataSource(IDataSource dataSource)
 ```
 
 
-يضيف مصدر بيانات جديد إلى مجموعة بيانات مكوّن XpsConverter الإضافي.
+يضيف مصدر بيانات جديد إلى مجموعة بيانات إضافة XpsConverter.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -55,7 +55,7 @@ public final void addSaveDataSource(IDataSource saveDataSource)
 ```
 
 
-يضيف مصدر بيانات جديد إلى مجموعة بيانات مكوّن XpsConverterOptions الإضافي.
+يضيف مصدر بيانات جديد إلى مجموعة بيانات إضافة XpsConverterOptions.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -93,7 +93,7 @@ public final List<IDataSource> getDataCollection()
 ```
 
 
-يعيد مجموعة بيانات مكوّن XpsConverterOptions الإضافي.
+يعيد مجموعة بيانات إضافة XpsConverterOptions.
 
 **Returns:**
 java.util.List<com.aspose.page.plugins.IDataSource>
@@ -103,7 +103,7 @@ public int getJpegQualityLevel()
 ```
 
 
-يعيد القيمة التي تحدد مستوى الضغط للصورة. القيم المتاحة من 0 إلى 100. كلما كان الرقم المحدد أقل، زاد الضغط وبالتالي انخفضت جودة الصورة. القيمة 0 تؤدي إلى أدنى جودة للصورة، بينما القيمة 100 تؤدي إلى أعلى جودة.
+يعيد القيمة التي تحدد مستوى الضغط للصورة. القيم المتاحة هي من 0 إلى 100. كلما كان الرقم المحدد أقل، زاد الضغط وبالتالي تكون جودة الصورة أقل. القيمة 0 تنتج صورة بأدنى جودة، بينما القيمة 100 تنتج أعلى جودة.
 
 **Returns:**
 int - القيمة التي تحدد مستوى الضغط للصورة.
@@ -159,7 +159,7 @@ public void setJpegQualityLevel(int value)
 ```
 
 
-يضبط القيمة التي تحدد مستوى الضغط للصورة. القيم المتاحة من 0 إلى 100. كلما كان الرقم المحدد أقل، زاد الضغط وبالتالي انخفضت جودة الصورة. القيمة 0 تؤدي إلى أدنى جودة للصورة، بينما القيمة 100 تؤدي إلى أعلى جودة.
+يضبط القيمة التي تحدد مستوى الضغط للصورة. القيم المتاحة هي من 0 إلى 100. كلما كان الرقم المحدد أقل، زاد الضغط وبالتالي تكون جودة الصورة أقل. القيمة 0 تنتج صورة بأدنى جودة، بينما القيمة 100 تنتج أعلى جودة.
 
 **Parameters:**
 | معامل | نوع | الوصف |

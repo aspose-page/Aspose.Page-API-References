@@ -1,7 +1,7 @@
 ---
 title: "PageDestinationColorProfileEmbedded"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يحدد ملف تعريف اللون الوجهة المضمن."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يحدد ملف تعريف اللون الوجهة المدمج."
 type: docs
 weight: 92
 url: /ar/java/com.aspose.xps.metadata/pagedestinationcolorprofileembedded/
@@ -15,12 +15,12 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class PageDestinationColorProfileEmbedded extends StringParameterInit implements IJobPrintTicketItem, IDocumentPrintTicketItem, IPagePrintTicketItem
 ```
 
-يحدد ملف تعريف اللون الوجهة المضمّن. https://docs.microsoft.com/en-us/windows/win32/printdocs/pagedestinationcolorprofileembedded
-## المنشئات
+يحدد ملف تعريف اللون المدمج للوجهة. https://docs.microsoft.com/en-us/windows/win32/printdocs/pagedestinationcolorprofileembedded
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PageDestinationColorProfileEmbedded(String value)](#PageDestinationColorProfileEmbedded-java.lang.String-) | ينشئ نسخة جديدة. |
+| [PageDestinationColorProfileEmbedded(String value)](#PageDestinationColorProfileEmbedded-java.lang.String-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -43,7 +43,7 @@ public PageDestinationColorProfileEmbedded(String value)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -64,7 +64,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

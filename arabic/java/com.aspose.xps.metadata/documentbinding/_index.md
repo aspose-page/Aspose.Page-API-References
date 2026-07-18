@@ -1,6 +1,6 @@
 ---
 title: "DocumentBinding"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف طريقة التجليد."
 type: docs
 weight: 15
@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class DocumentBinding extends Feature implements IJobPrintTicketItem, IDocumentPrintTicketItem
 ```
 
-يصف طريقة التجليد. يتم تجليد كل مستند بشكل منفصل. إن DocumentBinding و JobBindAllDocuments متعارضان. يعود إلى برنامج التشغيل تحديد كيفية التعامل مع القيود بين الكلمات المفتاحية. https://docs.microsoft.com/en-us/windows/win32/printdocs/documentbinding
-## المنشئات
+يصف طريقة التجليد. كل مستند يتم تجليده بشكل منفصل. DocumentBinding و JobBindAllDocuments متنافيان. يعود إلى برنامج التشغيل تحديد كيفية التعامل مع القيود بين الكلمات المفتاحية. https://docs.microsoft.com/en-us/windows/win32/printdocs/documentbinding
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [DocumentBinding(DocumentBinding.BindingOption[] options)](#DocumentBinding-com.aspose.xps.metadata.DocumentBinding.BindingOption...-) | ينشئ نسخة جديدة. |
+| [DocumentBinding(DocumentBinding.BindingOption[] options)](#DocumentBinding-com.aspose.xps.metadata.DocumentBinding.BindingOption...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public DocumentBinding(DocumentBinding.BindingOption[] options)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

@@ -1,7 +1,7 @@
 ---
 title: "JobPrimaryCoverBackSource"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يحدد المصدر لورقة الغلاف الخلفي الأولية المخصصة للوظيفة."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يحدد المصدر لورقة الغلاف الخلفي الأساسية المخصصة للوظيفة."
 type: docs
 weight: 67
 url: /ar/java/com.aspose.xps.metadata/jobprimarycoverbacksource/
@@ -15,12 +15,12 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class JobPrimaryCoverBackSource extends StringParameterInit implements IJobPrintTicketItem
 ```
 
-يحدد المصدر للصفحة الأساسية للغلاف الخلفي المخصص للوظيفة. https://docs.microsoft.com/en-us/windows/win32/printdocs/jobprimarycoverbacksource
-## المنشئات
+يحدد المصدر للصفحة الأساسية المخصصة للغلاف الخلفي للوظيفة. https://docs.microsoft.com/en-us/windows/win32/printdocs/jobprimarycoverbacksource
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [JobPrimaryCoverBackSource(String value)](#JobPrimaryCoverBackSource-java.lang.String-) | ينشئ نسخة جديدة. |
+| [JobPrimaryCoverBackSource(String value)](#JobPrimaryCoverBackSource-java.lang.String-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -43,7 +43,7 @@ public JobPrimaryCoverBackSource(String value)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -64,7 +64,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

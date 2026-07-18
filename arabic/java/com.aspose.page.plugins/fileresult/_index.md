@@ -1,6 +1,6 @@
 ---
 title: "FileResult"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يمثل نتيجة العملية على شكل مسار سلسلة إلى الملف."
 type: docs
 weight: 14
@@ -16,11 +16,11 @@ public final class FileResult implements IOperationResult
 ```
 
 يمثل نتيجة العملية على شكل مسار سلسلة إلى الملف.
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [FileResult(String path)](#FileResult-java.lang.String-) | يُنشئ مثيلاً جديدًا باستخدام المسار المحدد إلى ملف إخراج. |
+| [FileResult(String path)](#FileResult-java.lang.String-) | يُنشئ نسخة جديدة باستخدام المسار المحدد لملف الإخراج. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -31,8 +31,8 @@ public final class FileResult implements IOperationResult
 | [hashCode()](#hashCode--) |  |
 | [isByteArray()](#isByteArray--) | يشير إلى ما إذا كانت النتيجة مصفوفة بايتات. |
 | [isFile()](#isFile--) | يشير إلى ما إذا كانت النتيجة مسارًا إلى ملف إخراج. |
-| [isStream()](#isStream--) | يشير إلى ما إذا كان الناتج تدفق إخراج. |
-| [isString()](#isString--) | يشير إلى ما إذا كان الناتج سلسلة نصية. |
+| [isStream()](#isStream--) | يشير إلى ما إذا كان الناتج هو تدفق إخراج. |
+| [isString()](#isString--) | يشير إلى ما إذا كان الناتج هو سلسلة نصية. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toFile()](#toFile--) | يحاول تحويل النتيجة إلى ملف. |
@@ -47,7 +47,7 @@ public FileResult(String path)
 ```
 
 
-يُنشئ مثيلاً جديدًا باستخدام المسار المحدد إلى ملف إخراج.
+يُنشئ نسخة جديدة باستخدام المسار المحدد لملف الإخراج.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -68,7 +68,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -125,7 +125,7 @@ public final boolean isStream()
 ```
 
 
-يشير إلى ما إذا كان الناتج تدفق إخراج.
+يشير إلى ما إذا كان الناتج هو تدفق إخراج.
 
 **Returns:**
 boolean - true إذا كانت النتيجة كائن تدفق؛ وإلا false.
@@ -135,7 +135,7 @@ public final boolean isString()
 ```
 
 
-يشير إلى ما إذا كان الناتج سلسلة نصية.
+يشير إلى ما إذا كان الناتج هو سلسلة نصية.
 
 **Returns:**
 boolean - true إذا كانت النتيجة سلسلة نصية؛ وإلا false.

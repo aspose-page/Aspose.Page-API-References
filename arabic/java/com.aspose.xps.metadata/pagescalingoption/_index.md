@@ -1,6 +1,6 @@
 ---
 title: "PageScaling.PageScalingOption"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف خيارات ميزات PageScaling."
 type: docs
 weight: 10
@@ -22,16 +22,16 @@ public static final class PageScaling.PageScalingOption extends Option implement
 | --- | --- |
 | [Custom](#Custom) | يحدد أنه يجب تطبيق تحجيم مخصص على حجم وسائط التطبيق. |
 | [CustomSquare](#CustomSquare) | يحدد أنه يجب تطبيق تحجيم مربع مخصص على حجم وسائط التطبيق. |
-| [FitApplicationBleedSizeToPageImageableSize](#FitApplicationBleedSizeToPageImageableSize) | يحدد أنه يجب تحجيم حجم الزحف للتطبيق إلى PageImageableSize مع الحفاظ على نسبة الأبعاد. |
-| [FitApplicationContentSizeToPageImageableSize](#FitApplicationContentSizeToPageImageableSize) | يحدد أنه يجب تحجيم حجم محتوى التطبيق إلى PageImageableSize مع الحفاظ على نسبة الأبعاد. |
-| [FitApplicationMediaSizeToPageImageableSize](#FitApplicationMediaSizeToPageImageableSize) | يحدد أنه يجب تحجيم حجم وسائط التطبيق إلى PageImageableSize مع الحفاظ على نسبة الأبعاد. |
-| [FitApplicationMediaSizeToPageMediaSize](#FitApplicationMediaSizeToPageMediaSize) | يحدد أنه يجب تحجيم حجم وسائط التطبيق إلى PageMediaSize مع الحفاظ على نسبة الأبعاد. |
+| [FitApplicationBleedSizeToPageImageableSize](#FitApplicationBleedSizeToPageImageableSize) | يحدد أنه يجب تحجيم حجم الزحف للتطبيق إلى PageImageableSize مع الحفاظ على نسبة العرض إلى الارتفاع. |
+| [FitApplicationContentSizeToPageImageableSize](#FitApplicationContentSizeToPageImageableSize) | يحدد أنه يجب تحجيم حجم محتوى التطبيق إلى PageImageableSize مع الحفاظ على نسبة العرض إلى الارتفاع. |
+| [FitApplicationMediaSizeToPageImageableSize](#FitApplicationMediaSizeToPageImageableSize) | يحدد أنه يجب تحجيم حجم وسائط التطبيق إلى PageImageableSize مع الحفاظ على نسبة العرض إلى الارتفاع. |
+| [FitApplicationMediaSizeToPageMediaSize](#FitApplicationMediaSizeToPageMediaSize) | يحدد أنه يجب تحجيم حجم وسائط التطبيق إلى PageMediaSize مع الحفاظ على نسبة العرض إلى الارتفاع. |
 | [None](#None) | يحدد أنه لا يجب تطبيق أي تحجيم. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. |
+| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -64,7 +64,7 @@ public static PageScaling.PageScalingOption FitApplicationBleedSizeToPageImageab
 ```
 
 
-يحدد أنه يجب تحجيم حجم الزحف للتطبيق إلى PageImageableSize مع الحفاظ على نسبة الأبعاد.
+يحدد أنه يجب تحجيم حجم الزحف للتطبيق إلى PageImageableSize مع الحفاظ على نسبة العرض إلى الارتفاع.
 
 ### FitApplicationContentSizeToPageImageableSize {#FitApplicationContentSizeToPageImageableSize}
 ```
@@ -72,7 +72,7 @@ public static PageScaling.PageScalingOption FitApplicationContentSizeToPageImage
 ```
 
 
-يحدد أنه يجب تحجيم حجم محتوى التطبيق إلى PageImageableSize مع الحفاظ على نسبة الأبعاد.
+يحدد أنه يجب تحجيم حجم محتوى التطبيق إلى PageImageableSize مع الحفاظ على نسبة العرض إلى الارتفاع.
 
 ### FitApplicationMediaSizeToPageImageableSize {#FitApplicationMediaSizeToPageImageableSize}
 ```
@@ -80,7 +80,7 @@ public static PageScaling.PageScalingOption FitApplicationMediaSizeToPageImageab
 ```
 
 
-يحدد أنه يجب تحجيم حجم وسائط التطبيق إلى PageImageableSize مع الحفاظ على نسبة الأبعاد.
+يحدد أنه يجب تحجيم حجم وسائط التطبيق إلى PageImageableSize مع الحفاظ على نسبة العرض إلى الارتفاع.
 
 ### FitApplicationMediaSizeToPageMediaSize {#FitApplicationMediaSizeToPageMediaSize}
 ```
@@ -88,7 +88,7 @@ public static PageScaling.PageScalingOption FitApplicationMediaSizeToPageMediaSi
 ```
 
 
-يحدد أنه يجب تحجيم حجم وسائط التطبيق إلى PageMediaSize مع الحفاظ على نسبة الأبعاد.
+يحدد أنه يجب تحجيم حجم وسائط التطبيق إلى PageMediaSize مع الحفاظ على نسبة العرض إلى الارتفاع.
 
 ### None {#None}
 ```
@@ -104,7 +104,7 @@ public void add(IOptionItem[] items)
 ```
 
 
-يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. يجب أن يكون كل عنصر إما  ScoredProperty  أو  Property  مثيل.
+يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. يجب أن يكون كل عنصر إما مثال ScoredProperty أو مثال Property.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -125,7 +125,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

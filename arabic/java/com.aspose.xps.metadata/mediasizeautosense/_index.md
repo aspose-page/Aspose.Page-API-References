@@ -1,7 +1,7 @@
 ---
 title: "InputBin.MediaSizeAutoSense"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يعرّف الثوابت لقيمة الخاصية MediaSizeAutoSense المقيمة."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يعرّف الثوابت لقيمة الخاصية MediaSizeAutoSense."
 type: docs
 weight: 18
 url: /ar/java/com.aspose.xps.metadata/inputbin.mediasizeautosense/
@@ -15,12 +15,12 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class InputBin.MediaSizeAutoSense extends ScoredProperty implements InputBin.IInputBinOptionItem
 ```
 
-يحدد الثوابت لقيمة الخاصية المتدرجة MediaSizeAutoSense.
+يعرف الثوابت لقيمة الخاصية المقيمة MediaSizeAutoSense.
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
-| [None](#None) | قيمة لا شيء. |
+| [None](#None) | قيمة None. |
 | [Supported](#Supported) | قيمة مدعومة. |
 ## الطرق
 
@@ -42,7 +42,7 @@ public static final InputBin.MediaSizeAutoSense None
 ```
 
 
-قيمة لا شيء.
+قيمة None.
 
 ### Supported {#Supported}
 ```
@@ -66,7 +66,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

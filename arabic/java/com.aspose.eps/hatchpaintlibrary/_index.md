@@ -1,7 +1,7 @@
 ---
 title: "HatchPaintLibrary"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يقوم بتحويل فرش الحشوة GDI إلى صور مناسبة للكتابة إلى XPS و PDF."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يحوّل فرش الحشوة GDI إلى صور مناسبة للكتابة إلى XPS و PDF."
 type: docs
 weight: 11
 url: /ar/java/com.aspose.eps/hatchpaintlibrary/
@@ -12,7 +12,7 @@ java.lang.Object
 public class HatchPaintLibrary
 ```
 
-تحول فرش الحشوة GDI+ إلى صور مناسبة للكتابة إلى XPS و PDF.
+تحول فرش الحشوة GDI+ إلى صور مناسبة للكتابة إلى XPS وPDF.
 ## الحقول
 
 | حقل | الوصف |
@@ -24,7 +24,7 @@ public class HatchPaintLibrary
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getHatchTexturePaint(HatchStyle style, Color foreColor, Color backColor)](#getHatchTexturePaint-com.aspose.eps.HatchStyle-java.awt.Color-java.awt.Color-) | يعيد TexturePaint المُنشأ الذي يضم نمط الحشوة وفقًا لنمط الحشوة. |
+| [getHatchTexturePaint(HatchStyle style, Color foreColor, Color backColor)](#getHatchTexturePaint-com.aspose.eps.HatchStyle-java.awt.Color-java.awt.Color-) | يرجع TexturePaint الذي تم إنشاؤه ويحتوي على نمط الحشوة وفقًا لنمط الحشوة. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -52,7 +52,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -69,7 +69,7 @@ public static TexturePaint getHatchTexturePaint(HatchStyle style, Color foreColo
 ```
 
 
-يعيد TexturePaint المُنشأ الذي يضم نمط الحشوة وفقًا لنمط الحشوة.
+يرجع TexturePaint الذي تم إنشاؤه ويحتوي على نمط الحشوة وفقًا لنمط الحشوة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -79,7 +79,7 @@ public static TexturePaint getHatchTexturePaint(HatchStyle style, Color foreColo
 | backColor | java.awt.Color | لون الخلفية. |
 
 **Returns:**
-java.awt.TexturePaint - يعيد نمط نسيج الحشوة
+java.awt.TexturePaint - يرجع نمط نسيج الحشوة
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

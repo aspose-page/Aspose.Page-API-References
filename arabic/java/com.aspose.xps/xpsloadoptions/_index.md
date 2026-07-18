@@ -1,23 +1,23 @@
 ---
 title: "XpsLoadOptions"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "خيارات تحميل مستند XPS."
 type: docs
 weight: 35
 url: /ar/java/com.aspose.xps/xpsloadoptions/
 ---
 **Inheritance:**
-java.lang.Object، [com.aspose.xps.LoadOptions](../../com.aspose.xps/loadoptions)
+java.lang.Object, [com.aspose.xps.LoadOptions](../../com.aspose.xps/loadoptions)
 ```
 public class XpsLoadOptions extends LoadOptions
 ```
 
 خيارات تحميل مستند XPS.
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [XpsLoadOptions()](#XpsLoadOptions--) | ينشئ مثلاً جديداً من الخيارات. |
+| [XpsLoadOptions()](#XpsLoadOptions--) | ينشئ مثلاً جديداً للخيارات. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -37,7 +37,7 @@ public XpsLoadOptions()
 ```
 
 
-ينشئ مثلاً جديداً من الخيارات.
+ينشئ مثلاً جديداً للخيارات.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -53,7 +53,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

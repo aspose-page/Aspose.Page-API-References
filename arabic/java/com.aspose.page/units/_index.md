@@ -1,7 +1,7 @@
 ---
 title: "الوحدات"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يحتوي هذا التعداد على القيم الممكنة لوحدات الحجم."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يحتوي هذا التعداد على القيم المحتملة لوحدات الحجم."
 type: docs
 weight: 25
 url: /ar/java/com.aspose.page/units/
@@ -12,7 +12,7 @@ java.lang.Object, java.lang.Enum
 public enum Units extends Enum<Units>
 ```
 
-يحتوي هذا التعداد على القيم الممكنة لوحدات الحجم.
+يحتوي هذا التعداد على القيم المحتملة لوحدات الحجم.
 ## الحقول
 
 | حقل | الوصف |
@@ -20,7 +20,7 @@ public enum Units extends Enum<Units>
 | [Centimeters](#Centimeters) | سنتيمترات. |
 | [Inches](#Inches) | بوصات. |
 | [Millimeters](#Millimeters) | ملليمترات. |
-| [Percents](#Percents) | نسب مئوية للحجم الموجود. |
+| [Percents](#Percents) | نسب مئوية من الحجم الحالي. |
 | [Points](#Points) | نقاط (1/72 من البوصة). |
 ## الطرق
 
@@ -73,7 +73,7 @@ public static final Units Percents
 ```
 
 
-نسب مئوية للحجم الموجود.
+نسب مئوية من الحجم الحالي.
 
 ### Points {#Points}
 ```
@@ -138,7 +138,7 @@ public final boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

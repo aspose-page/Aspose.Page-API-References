@@ -1,6 +1,6 @@
 ---
 title: "PageImageableSize"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف القماش المصور للتخطيط والعرض."
 type: docs
 weight: 99
@@ -15,13 +15,13 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class PageImageableSize extends Property implements IJobPrintTicketItem, IDocumentPrintTicketItem, IPagePrintTicketItem
 ```
 
-يصف القماش المصور للتخطيط والعرض. سيتم الإبلاغ عنه بناءً على  PageMediaSize  و  PageOrientation . https://docs.microsoft.com/en-us/windows/win32/printdocs/pageimageablesize
-## المنشئات
+يصف القماش المصور للتخطيط والعرض. سيتم الإبلاغ عنه بناءً على **PageMediaSize** و **PageOrientation**. https://docs.microsoft.com/en-us/windows/win32/printdocs/pageimageablesize
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PageImageableSize(int width, int height)](#PageImageableSize-int-int-) | ينشئ نسخة جديدة. |
-| [PageImageableSize(int width, int height, int originWidth, int originHeight, int extentWidth, int extentHeight)](#PageImageableSize-int-int-int-int-int-int-) | ينشئ نسخة جديدة. |
+| [PageImageableSize(int width, int height)](#PageImageableSize-int-int-) | ينشئ مثيلًا جديدًا. |
+| [PageImageableSize(int width, int height, int originWidth, int originHeight, int extentWidth, int extentHeight)](#PageImageableSize-int-int-int-int-int-int-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -42,7 +42,7 @@ public PageImageableSize(int width, int height)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -54,7 +54,7 @@ ImageableSizeWidth
 ```
 
 قيمة الخاصية. |
-|  | الارتفاع | int | أحد |
+|  | height | int | أحد |
 
 ```
 ImageableSizeHeight
@@ -68,7 +68,7 @@ public PageImageableSize(int width, int height, int originWidth, int originHeigh
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -80,7 +80,7 @@ ImageableSizeWidth
 ```
 
 قيمة الخاصية. |
-|  | الارتفاع | int | أحد |
+|  | height | int | أحد |
 
 ```
 ImageableSizeHeight
@@ -93,7 +93,7 @@ ImageableSizeHeight
 ImageableArea
 ```
 
-الخاصية الفرعية
+خاصية فرعية
 
 ```
 OriginWidth
@@ -106,7 +106,7 @@ OriginWidth
 ImageableArea
 ```
 
-الخاصية الفرعية
+خاصية فرعية
 
 ```
 OriginHeight
@@ -119,7 +119,7 @@ OriginHeight
 ImageableArea
 ```
 
-الخاصية الفرعية
+خاصية فرعية
 
 ```
 ExtentWidth
@@ -132,7 +132,7 @@ ExtentWidth
 ImageableArea
 ```
 
-الخاصية الفرعية
+خاصية فرعية
 
 ```
 ExtentHeight
@@ -154,7 +154,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

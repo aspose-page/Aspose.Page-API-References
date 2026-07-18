@@ -1,6 +1,6 @@
 ---
 title: "DocumentCoverFront"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف ورقة الغلاف الأمامية الابتدائية."
 type: docs
 weight: 21
@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class DocumentCoverFront extends Feature implements IJobPrintTicketItem, IDocumentPrintTicketItem
 ```
 
-يصف الغلاف الأمامي (البداية) للصفحة. سيحصل كل مستند على ورقة غلاف منفصلة. يجب طباعة ورقة الغلاف على الـ PageMediaSize والـ PageMediaType المستخدمين للصفحة الأولى من المستند. يجب دمج ورقة الغلاف في خيارات المعالجة (مثل DocumentDuplex، DocumentNUp) كما هو موضح في الـ Option المحدد. https://docs.microsoft.com/en-us/windows/win32/printdocs/documentcoverfront
-## المنشئات
+يصف الغلاف الأمامي (البداية) للصفحة. سيحصل كل مستند على ورقة غلاف منفصلة. يجب طباعة ورقة الغلاف على  PageMediaSize  و  PageMediaType  المستخدمة للصفحة الأولى من المستند. يجب دمج ورقة الغلاف في خيارات المعالجة (مثل  DocumentDuplex ,  DocumentNUp ) كما هو موضح في الخيار المحدد. https://docs.microsoft.com/en-us/windows/win32/printdocs/documentcoverfront
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [DocumentCoverFront(DocumentCoverFront.CoverFrontOption[] options)](#DocumentCoverFront-com.aspose.xps.metadata.DocumentCoverFront.CoverFrontOption...-) | ينشئ نسخة جديدة. |
+| [DocumentCoverFront(DocumentCoverFront.CoverFrontOption[] options)](#DocumentCoverFront-com.aspose.xps.metadata.DocumentCoverFront.CoverFrontOption...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public DocumentCoverFront(DocumentCoverFront.CoverFrontOption[] options)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

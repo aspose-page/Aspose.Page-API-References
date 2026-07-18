@@ -1,6 +1,6 @@
 ---
 title: "PageWatermarkTransparency"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يحدد شفافية العلامة المائية."
 type: docs
 weight: 138
@@ -16,20 +16,20 @@ public final class PageWatermarkTransparency extends IntegerParameterInit implem
 ```
 
 يحدد شفافية العلامة المائية. الشفافية الكاملة (معتمة تمامًا) ستكون بقيمة 0. https://docs.microsoft.com/en-us/windows/win32/printdocs/pagewatermarktransparency
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PageWatermarkTransparency(int value)](#PageWatermarkTransparency-int-) | ينشئ نسخة جديدة. |
+| [PageWatermarkTransparency(int value)](#PageWatermarkTransparency-int-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getMaxValue()](#getMaxValue--) | بالنسبة للمعلمات ذات القيم الصحيحة أو العشرية، يحدد أكبر قيمة مسموح بها. |
-| [getMinValue()](#getMinValue--) | بالنسبة للمعلمات ذات القيم الصحيحة أو العشرية، يحدد أصغر قيمة مسموح بها. |
-| [getMultiple()](#getMultiple--) | بالنسبة للمعلمات ذات القيم الصحيحة أو العشرية، يجب أن تكون قيمة المعلمة مضاعفًا لهذا الرقم. |
+| [getMaxValue()](#getMaxValue--) | للمعلمات ذات القيم الصحيحة أو العشرية، يحدد أكبر قيمة مسموح بها. |
+| [getMinValue()](#getMinValue--) | للمعلمات ذات القيم الصحيحة أو العشرية، يحدد أصغر قيمة مسموح بها. |
+| [getMultiple()](#getMultiple--) | للمعلمات ذات القيم الصحيحة أو العشرية، يجب أن تكون قيمة المعلمة مضاعفاً لهذا الرقم. |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -44,7 +44,7 @@ public PageWatermarkTransparency(int value)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -65,7 +65,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -82,7 +82,7 @@ public int getMaxValue()
 ```
 
 
-بالنسبة للمعلمات ذات القيم الصحيحة أو العشرية، يحدد أكبر قيمة مسموح بها.
+للمعلمات ذات القيم الصحيحة أو العشرية، يحدد أكبر قيمة مسموح بها.
 
 **Returns:**
 int
@@ -92,7 +92,7 @@ public int getMinValue()
 ```
 
 
-بالنسبة للمعلمات ذات القيم الصحيحة أو العشرية، يحدد أصغر قيمة مسموح بها.
+للمعلمات ذات القيم الصحيحة أو العشرية، يحدد أصغر قيمة مسموح بها.
 
 **Returns:**
 int
@@ -102,10 +102,10 @@ public int getMultiple()
 ```
 
 
-بالنسبة للمعلمات ذات القيم الصحيحة أو العشرية، يجب أن تكون قيمة المعلمة مضاعفًا لهذا الرقم.
+للمعلمات ذات القيم الصحيحة أو العشرية، يجب أن تكون قيمة المعلمة مضاعفاً لهذا الرقم.
 
 **Returns:**
-int - العدد الذي يجب أن تكون المعلمة مضاعفًا له.
+int - الرقم الذي يجب أن تكون المعلمة مضاعفاً له.
 ### getName() {#getName--}
 ```
 public String getName()

@@ -1,6 +1,6 @@
 ---
 title: "PageBlendColorSpace.PageBlendColorSpaceOption"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف خيارات ميزة PageBlendColorSpace."
 type: docs
 weight: 10
@@ -17,14 +17,14 @@ public static final class PageBlendColorSpace.PageBlendColorSpaceOption extends 
 
 | حقل | الوصف |
 | --- | --- |
-| [ICCProfile](#ICCProfile) | يحدد ملف تعريف ICC يعرّف مساحة اللون التي يجب استخدامها للمزج. |
-| [sRGB](#sRGB) | يجب استخدام مساحة اللون sRGB للدمج. |
-| [scRGB](#scRGB) | يجب استخدام مساحة اللون scRGB للدمج. |
+| [ICCProfile](#ICCProfile) | يحدد ملف تعريف ICC الذي يحدد مساحة الألوان التي يجب استخدامها للدمج. |
+| [sRGB](#sRGB) | يجب استخدام مساحة اللون sRGB للمزج. |
+| [scRGB](#scRGB) | يجب استخدام مساحة اللون scRGB للمزج. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. |
+| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -41,7 +41,7 @@ public static PageBlendColorSpace.PageBlendColorSpaceOption ICCProfile
 ```
 
 
-يحدد ملف تعريف ICC الذي يعرّف مساحة اللون التي يجب استخدامها للدمج. ملاحظة: ينطبق هذا على مستندات XPS فقط ولا ينبغي استخدامه في بطاقات الطباعة العشوائية.
+يحدد ملف تعريف ICC الذي يحدد مساحة اللون التي يجب استخدامها للمزج. ملاحظة: ينطبق هذا على مستندات XPS فقط ولا ينبغي استخدامه في بطاقات الطباعة العشوائية.
 
 ### sRGB {#sRGB}
 ```
@@ -49,7 +49,7 @@ public static PageBlendColorSpace.PageBlendColorSpaceOption sRGB
 ```
 
 
-يجب استخدام مساحة اللون sRGB للدمج.
+يجب استخدام مساحة اللون sRGB للمزج.
 
 ### scRGB {#scRGB}
 ```
@@ -57,7 +57,7 @@ public static PageBlendColorSpace.PageBlendColorSpaceOption scRGB
 ```
 
 
-يجب استخدام مساحة اللون scRGB للدمج.
+يجب استخدام مساحة اللون scRGB للمزج.
 
 ### add(IOptionItem[] items) {#add-com.aspose.xps.metadata.IOptionItem...-}
 ```
@@ -65,7 +65,7 @@ public void add(IOptionItem[] items)
 ```
 
 
-يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. يجب أن يكون كل عنصر إما  ScoredProperty  أو  Property  مثيل.
+يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. يجب أن يكون كل عنصر إما مثال ScoredProperty أو مثال Property.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -86,7 +86,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

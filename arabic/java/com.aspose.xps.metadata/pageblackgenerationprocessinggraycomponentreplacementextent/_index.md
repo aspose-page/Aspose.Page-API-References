@@ -1,7 +1,7 @@
 ---
 title: "PageBlackGenerationProcessingGrayComponentReplacementExtent"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يصف الامتداد إلى ما وراء الألوان المحايدة إلى الألوان الصبغية الذي يطبقه GCR. 0 استبدال مكوّن موحد 100 استبدال المكوّن الرمادي."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يصف الامتداد إلى ما بعد الألوان المحايدة إلى الألوان الصبغية الذي يطبقه GCR. 0 استبدال مكوّن موحد 100 استبدال مكوّن رمادي."
 type: docs
 weight: 80
 url: /ar/java/com.aspose.xps.metadata/pageblackgenerationprocessinggraycomponentreplacementextent/
@@ -15,21 +15,21 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class PageBlackGenerationProcessingGrayComponentReplacementExtent extends IntegerParameterInit implements IJobPrintTicketItem, IDocumentPrintTicketItem, IPagePrintTicketItem
 ```
 
-يصف الامتداد إلى ما وراء الألوان المحايدة (إلى الألوان الصبغية) الذي يطبقه GCR. 0% = استبدال مكوّن موحد، 100% = استبدال المكوّن الرمادي. https://docs.microsoft.com/en-us/windows/win32/printdocs/pageblackgenerationprocessinggraycomponentreplacementextent
-## المنشئات
+يصف الامتداد إلى ما بعد الألوان المحايدة (إلى الألوان الصبغية) الذي يطبقه GCR. 0% = استبدال مكوّن موحد، 100% = استبدال مكوّن رمادي. https://docs.microsoft.com/en-us/windows/win32/printdocs/pageblackgenerationprocessinggraycomponentreplacementextent
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PageBlackGenerationProcessingGrayComponentReplacementExtent(int value)](#PageBlackGenerationProcessingGrayComponentReplacementExtent-int-) | ينشئ نسخة جديدة. |
+| [PageBlackGenerationProcessingGrayComponentReplacementExtent(int value)](#PageBlackGenerationProcessingGrayComponentReplacementExtent-int-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getMaxValue()](#getMaxValue--) | بالنسبة للمعلمات ذات القيم الصحيحة أو العشرية، يحدد أكبر قيمة مسموح بها. |
-| [getMinValue()](#getMinValue--) | بالنسبة للمعلمات ذات القيم الصحيحة أو العشرية، يحدد أصغر قيمة مسموح بها. |
-| [getMultiple()](#getMultiple--) | بالنسبة للمعلمات ذات القيم الصحيحة أو العشرية، يجب أن تكون قيمة المعلمة مضاعفًا لهذا الرقم. |
+| [getMaxValue()](#getMaxValue--) | للمعلمات ذات القيم الصحيحة أو العشرية، يحدد أكبر قيمة مسموح بها. |
+| [getMinValue()](#getMinValue--) | للمعلمات ذات القيم الصحيحة أو العشرية، يحدد أصغر قيمة مسموح بها. |
+| [getMultiple()](#getMultiple--) | للمعلمات ذات القيم الصحيحة أو العشرية، يجب أن تكون قيمة المعلمة مضاعفاً لهذا الرقم. |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -44,7 +44,7 @@ public PageBlackGenerationProcessingGrayComponentReplacementExtent(int value)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -65,7 +65,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -82,7 +82,7 @@ public int getMaxValue()
 ```
 
 
-بالنسبة للمعلمات ذات القيم الصحيحة أو العشرية، يحدد أكبر قيمة مسموح بها.
+للمعلمات ذات القيم الصحيحة أو العشرية، يحدد أكبر قيمة مسموح بها.
 
 **Returns:**
 int
@@ -92,7 +92,7 @@ public int getMinValue()
 ```
 
 
-بالنسبة للمعلمات ذات القيم الصحيحة أو العشرية، يحدد أصغر قيمة مسموح بها.
+للمعلمات ذات القيم الصحيحة أو العشرية، يحدد أصغر قيمة مسموح بها.
 
 **Returns:**
 int
@@ -102,10 +102,10 @@ public int getMultiple()
 ```
 
 
-بالنسبة للمعلمات ذات القيم الصحيحة أو العشرية، يجب أن تكون قيمة المعلمة مضاعفًا لهذا الرقم.
+للمعلمات ذات القيم الصحيحة أو العشرية، يجب أن تكون قيمة المعلمة مضاعفاً لهذا الرقم.
 
 **Returns:**
-int - العدد الذي يجب أن تكون المعلمة مضاعفًا له.
+int - الرقم الذي يجب أن تكون المعلمة مضاعفاً له.
 ### getName() {#getName--}
 ```
 public String getName()

@@ -1,6 +1,6 @@
 ---
 title: "XpsLineCap"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "القيم الصالحة لخصائص StrokeStartLineCap و StrokeEndLineCap لعناصر Path."
 type: docs
 weight: 61
@@ -18,7 +18,7 @@ public enum XpsLineCap extends Enum<XpsLineCap>
 | حقل | الوصف |
 | --- | --- |
 | [Flat](#Flat) | قمة خط مسطحة. |
-| [Round](#Round) | قمة خط دائرية. |
+| [Round](#Round) | قمة خط مستديرة. |
 | [Square](#Square) | قمة خط مربعة. |
 | [Triangle](#Triangle) | قمة خط مثلثية. |
 ## الطرق
@@ -56,7 +56,7 @@ public static final XpsLineCap Round
 ```
 
 
-قمة خط دائرية.
+قمة خط مستديرة.
 
 ### Square {#Square}
 ```
@@ -129,7 +129,7 @@ public final boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

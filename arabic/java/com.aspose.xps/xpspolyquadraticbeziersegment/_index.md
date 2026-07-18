@@ -1,7 +1,7 @@
 ---
 title: "XpsPolyQuadraticBezierSegment"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "الفئة التي تُجمل ميزات عنصر PolyQuadraticBezierSegment."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "فئة تغلف ميزات عنصر PolyQuadraticBezierSegment."
 type: docs
 weight: 47
 url: /ar/java/com.aspose.xps/xpspolyquadraticbeziersegment/
@@ -12,12 +12,12 @@ java.lang.Object, [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject), [c
 public class XpsPolyQuadraticBezierSegment extends XpsPathPolySegment
 ```
 
-فئة تُجَمِّع ميزات عنصر PolyQuadraticBezierSegment. يصف هذا العنصر مجموعة من منحنيات بيزيه التربيعية من النقطة السابقة في شكل المسار عبر مجموعة من الرؤوس، باستخدام نقاط التحكم المحددة.
+فئة تُجَمِّع ميزات عنصر PolyQuadraticBezierSegment. يصف هذا العنصر مجموعة من منحنيات B?zier رباعية من النقطة السابقة في شكل المسار عبر مجموعة من الرؤوس، باستخدام نقاط تحكم محددة.
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [deepClone()](#deepClone--) | ينسخ مجموعة منحنيات بيزيه التربيعية هذه. |
+| [deepClone()](#deepClone--) | ينسخ هذه المجموعة من منحنيات B?zier رباعية. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -35,7 +35,7 @@ public XpsPolyQuadraticBezierSegment deepClone()
 ```
 
 
-ينسخ مجموعة منحنيات بيزيه التربيعية هذه.
+ينسخ هذه المجموعة من منحنيات B?zier رباعية.
 
 **Returns:**
 [XpsPolyQuadraticBezierSegment](../../com.aspose.xps/xpspolyquadraticbeziersegment) - Clone of this set of quadratic B?zier curves.
@@ -53,7 +53,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -111,7 +111,7 @@ public void setStroked(boolean value)
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| القيمة | boolean | القيمة التي تحدد ما إذا كان الحد لهذا الجزء من المسار مرسومًا. |
+| القيمة | منطقي | القيمة التي تحدد ما إذا كان الحد لهذا الجزء من المسار مرسومًا. |
 
 ### toString() {#toString--}
 ```

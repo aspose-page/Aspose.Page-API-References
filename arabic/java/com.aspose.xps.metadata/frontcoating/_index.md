@@ -1,7 +1,7 @@
 ---
 title: "PageMediaType.FrontCoating"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يحدد الثوابت لقيمة الخاصية المقيمة للـ FrontCoating."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يحدد الثوابت لقيمة الخاصية المتدرجة FrontCoating."
 type: docs
 weight: 11
 url: /ar/java/com.aspose.xps.metadata/pagemediatype.frontcoating/
@@ -15,15 +15,15 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class PageMediaType.FrontCoating extends ScoredProperty implements PageMediaType.IPageMediaTypeOptionItem
 ```
 
-يعرّف الثوابت لقيمة الخاصية المقيمة FrontCoating.
+يعرف الثوابت لقيمة الخاصية المقيمة  FrontCoating .
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
 | [Glossy](#Glossy) | قيمة لامعة. |
-| [HighGloss](#HighGloss) | قيمة لمعان عالي. |
-| [Matte](#Matte) | قيمة غير لامعة. |
-| [None](#None) | قيمة لا شيء. |
+| [HighGloss](#HighGloss) | قيمة لامع عالي. |
+| [Matte](#Matte) | قيمة مطفي. |
+| [None](#None) | قيمة None. |
 | [Satin](#Satin) | قيمة ساتان. |
 | [SemiGloss](#SemiGloss) | قيمة شبه لامعة. |
 ## الطرق
@@ -54,7 +54,7 @@ public static PageMediaType.FrontCoating HighGloss
 ```
 
 
-قيمة لمعان عالي.
+قيمة لامع عالي.
 
 ### Matte {#Matte}
 ```
@@ -62,7 +62,7 @@ public static PageMediaType.FrontCoating Matte
 ```
 
 
-قيمة غير لامعة.
+قيمة مطفي.
 
 ### None {#None}
 ```
@@ -70,7 +70,7 @@ public static PageMediaType.FrontCoating None
 ```
 
 
-قيمة لا شيء.
+قيمة None.
 
 ### Satin {#Satin}
 ```
@@ -102,7 +102,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

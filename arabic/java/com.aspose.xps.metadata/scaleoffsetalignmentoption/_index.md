@@ -1,6 +1,6 @@
 ---
 title: "PageScaling.ScaleOffsetAlignmentOption"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف خيارات ميزات ScaleOffsetAlignment."
 type: docs
 weight: 12
@@ -12,25 +12,25 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class PageScaling.ScaleOffsetAlignmentOption extends Option
 ```
 
-يصف خيارات ميزات ScaleOffsetAlignment. يحدد محاذاة المحتوى المُقاس.
+يصف خيارات ميزات  ScaleOffsetAlignment . يحدد محاذاة المحتوى المُقاس.
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
-| [BottomCenter](#BottomCenter) | يحدد أن يتم محاذاة التحجيم إلى مركز الحافة السفلية للوسائط. |
+| [BottomCenter](#BottomCenter) | يحدد أن يتم محاذاة التحجيم على مركز الحافة السفلية للوسائط. |
 | [BottomLeft](#BottomLeft) | يحدد أن يتم محاذاة التحجيم في الزاوية السفلية اليسرى للوسائط. |
 | [BottomRight](#BottomRight) | يحدد أن يتم محاذاة التحجيم في الزاوية السفلية اليمنى للوسائط. |
 | [Center](#Center) | يحدد أن يتم توسيط التحجيم على الوسائط. |
 | [LeftCenter](#LeftCenter) | يحدد أن يتم محاذاة التحجيم في مركز الحافة اليسرى للوسائط. |
 | [RightCenter](#RightCenter) | يحدد أن يتم محاذاة التحجيم في مركز الحافة اليمنى للوسائط. |
-| [TopCenter](#TopCenter) | يحدد أن يتم محاذاة التحجيم في مركز الحافة العلوية للوسائط. |
-| [TopLeft](#TopLeft) | يحدد أن يتم محاذاة التحجيم في الزاوية العلوية اليسرى للوسائط. |
-| [TopRight](#TopRight) | يحدد أن يتم محاذاة التحجيم في الزاوية العلوية اليمنى للوسائط. |
+| [TopCenter](#TopCenter) | يحدد أن يتم محاذاة التحجيم في مركز الحافة العليا للوسائط. |
+| [TopLeft](#TopLeft) | يحدد أن يتم محاذاة التحجيم في الزاوية العليا اليسرى للوسائط. |
+| [TopRight](#TopRight) | يحدد أن يتم محاذاة التحجيم في الزاوية العليا اليمنى للوسائط. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. |
+| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -47,7 +47,7 @@ public static PageScaling.ScaleOffsetAlignmentOption BottomCenter
 ```
 
 
-يحدد أن يتم محاذاة التحجيم إلى مركز الحافة السفلية للوسائط.
+يحدد أن يتم محاذاة التحجيم على مركز الحافة السفلية للوسائط.
 
 ### BottomLeft {#BottomLeft}
 ```
@@ -95,7 +95,7 @@ public static PageScaling.ScaleOffsetAlignmentOption TopCenter
 ```
 
 
-يحدد أن يتم محاذاة التحجيم في مركز الحافة العلوية للوسائط.
+يحدد أن يتم محاذاة التحجيم في مركز الحافة العليا للوسائط.
 
 ### TopLeft {#TopLeft}
 ```
@@ -103,7 +103,7 @@ public static PageScaling.ScaleOffsetAlignmentOption TopLeft
 ```
 
 
-يحدد أن يتم محاذاة التحجيم في الزاوية العلوية اليسرى للوسائط.
+يحدد أن يتم محاذاة التحجيم في الزاوية العليا اليسرى للوسائط.
 
 ### TopRight {#TopRight}
 ```
@@ -111,7 +111,7 @@ public static PageScaling.ScaleOffsetAlignmentOption TopRight
 ```
 
 
-يحدد أن يتم محاذاة التحجيم في الزاوية العلوية اليمنى للوسائط.
+يحدد أن يتم محاذاة التحجيم في الزاوية العليا اليمنى للوسائط.
 
 ### add(IOptionItem[] items) {#add-com.aspose.xps.metadata.IOptionItem...-}
 ```
@@ -119,7 +119,7 @@ public void add(IOptionItem[] items)
 ```
 
 
-يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. يجب أن يكون كل عنصر إما  ScoredProperty  أو  Property  مثيل.
+يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. يجب أن يكون كل عنصر إما مثال ScoredProperty أو مثال Property.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -140,7 +140,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

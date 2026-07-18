@@ -1,6 +1,6 @@
 ---
 title: "JobPrimaryBannerSheet.BannerSheetOption"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يمثل خيارات ميزة JobPrimaryBannerSheet."
 type: docs
 weight: 10
@@ -12,19 +12,19 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class JobPrimaryBannerSheet.BannerSheetOption extends Option
 ```
 
-يمثل خيارات ميزة JobPrimaryBannerSheet.
+يمثل خيارات ميزة  JobPrimaryBannerSheet .
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
-| [Custom](#Custom) | يحدد أنه يجب إخراج ورقة بانر مخصصة. |
-| [None](#None) | يحدد أنه لا يجب إخراج أي ورقة بانر. |
-| [Standard](#Standard) | يحدد أنه يجب إخراج ورقة البانر القياسية (المحددة من الجهاز). |
+| [Custom](#Custom) | يحدد أنه يجب إخراج ورقة شعار مخصصة. |
+| [None](#None) | يحدد أنه لا يجب إخراج أي ورقة شعار. |
+| [Standard](#Standard) | يحدد أنه يجب إخراج ورقة الشعار القياسية (المحددة من الجهاز). |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. |
+| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -41,7 +41,7 @@ public static final JobPrimaryBannerSheet.BannerSheetOption Custom
 ```
 
 
-يحدد أنه يجب إخراج ورقة بانر مخصصة. إذا لم يتم تحديد عنصر JobPrimaryBannerSheetSource ParameterInit، يجب تجاهل هذا الخيار.
+يحدد أنه يجب إخراج ورقة شعار مخصصة. إذا لم يتم تحديد عنصر JobPrimaryBannerSheetSource ParameterInit، يجب تجاهل هذا الخيار.
 
 ### None {#None}
 ```
@@ -49,7 +49,7 @@ public static final JobPrimaryBannerSheet.BannerSheetOption None
 ```
 
 
-يحدد أنه لا يجب إخراج أي ورقة بانر.
+يحدد أنه لا يجب إخراج أي ورقة شعار.
 
 ### Standard {#Standard}
 ```
@@ -57,7 +57,7 @@ public static final JobPrimaryBannerSheet.BannerSheetOption Standard
 ```
 
 
-يحدد أنه يجب إخراج ورقة البانر القياسية (المحددة من الجهاز).
+يحدد أنه يجب إخراج ورقة الشعار القياسية (المحددة من الجهاز).
 
 ### add(IOptionItem[] items) {#add-com.aspose.xps.metadata.IOptionItem...-}
 ```
@@ -65,7 +65,7 @@ public void add(IOptionItem[] items)
 ```
 
 
-يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. يجب أن يكون كل عنصر إما  ScoredProperty  أو  Property  مثيل.
+يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. يجب أن يكون كل عنصر إما مثال ScoredProperty أو مثال Property.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -86,7 +86,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

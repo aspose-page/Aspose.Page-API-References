@@ -1,7 +1,7 @@
 ---
 title: "XpsHyperlinkElement"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "تُغلف الميزات العامة لعناصر XPS التي يمكن أن تكون ارتباطًا تشعبيًا."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "تجسد الميزات المشتركة لعناصر XPS التي يمكن أن تكون ارتباطًا تشعبيًا."
 type: docs
 weight: 28
 url: /ar/java/com.aspose.xps/xpshyperlinkelement/
@@ -12,13 +12,13 @@ java.lang.Object, [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject), [c
 public abstract class XpsHyperlinkElement extends XpsElement
 ```
 
-تُغلف الميزات العامة لعناصر XPS التي يمكن أن تكون ارتباطًا تشعبيًا.
+تجسد الميزات المشتركة لعناصر XPS التي يمكن أن تكون ارتباطًا تشعبيًا.
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int i)](#get-int-) | يوفر الوصول إلى أبناء العنصر حسب الفهرس i. |
+| [get(int i)](#get-int-) | يوفر وصولاً إلى أبناء العنصر حسب الفهرس i. |
 | [getClass()](#getClass--) |  |
 | [getHyperlinkTarget()](#getHyperlinkTarget--) | يعيد كائن هدف الارتباط التشعبي. |
 | [hashCode()](#hashCode--) |  |
@@ -26,7 +26,7 @@ public abstract class XpsHyperlinkElement extends XpsElement
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setHyperlinkTarget(XpsHyperlinkTarget value)](#setHyperlinkTarget-com.aspose.xps.XpsHyperlinkTarget-) | يضبط كائن هدف الارتباط التشعبي. |
-| [size()](#size--) | يرجع عدد العناصر الفرعية. |
+| [size()](#size--) | يعيد عدد العناصر الفرعية. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -45,14 +45,14 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### get(int i) {#get-int-}
 ```
 public XpsContentElement get(int i)
 ```
 
 
-يوفر الوصول إلى أبناء العنصر حسب الفهرس i.
+يوفر وصولاً إلى أبناء العنصر حسب الفهرس i.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -100,7 +100,7 @@ public Iterator<XpsContentElement> iterator()
 تنفيذ واجهة Iterable.
 
 **Returns:**
-java.util.Iterator<com.aspose.xps.XpsContentElement> - يرجع المُعدِّد للقائمة.
+java.util.Iterator<com.aspose.xps.XpsContentElement> - يعيد المُعدِّد للقائمة.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -136,7 +136,7 @@ public int size()
 ```
 
 
-يرجع عدد العناصر الفرعية.
+يعيد عدد العناصر الفرعية.
 
 **Returns:**
 int - عدد العناصر الفرعية.

@@ -1,6 +1,6 @@
 ---
 title: "PageWatermarkTextText"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يحدد نص العلامة المائية."
 type: docs
 weight: 137
@@ -16,11 +16,11 @@ public final class PageWatermarkTextText extends StringParameterInit implements 
 ```
 
 يحدد نص العلامة المائية. https://docs.microsoft.com/en-us/windows/win32/printdocs/pagewatermarktexttext
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PageWatermarkTextText(String value)](#PageWatermarkTextText-java.lang.String-) | ينشئ نسخة جديدة. |
+| [PageWatermarkTextText(String value)](#PageWatermarkTextText-java.lang.String-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -43,7 +43,7 @@ public PageWatermarkTextText(String value)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -64,7 +64,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

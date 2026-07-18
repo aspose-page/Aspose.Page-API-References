@@ -1,6 +1,6 @@
 ---
 title: "XpsSweepDirection"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "القيم الصالحة لخاصية SweepDirection لعناصر ArcSegment."
 type: docs
 weight: 65
@@ -17,8 +17,8 @@ public enum XpsSweepDirection extends Enum<XpsSweepDirection>
 
 | حقل | الوصف |
 | --- | --- |
-| [Clockwise](#Clockwise) | اتجاه عقارب الساعة. |
-| [Counterclockwise](#Counterclockwise) | اتجاه عكس عقارب الساعة. |
+| [Clockwise](#Clockwise) | الاتجاه مع عقارب الساعة. |
+| [Counterclockwise](#Counterclockwise) | الاتجاه عكس عقارب الساعة. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -46,7 +46,7 @@ public static final XpsSweepDirection Clockwise
 ```
 
 
-اتجاه عقارب الساعة.
+الاتجاه مع عقارب الساعة.
 
 ### Counterclockwise {#Counterclockwise}
 ```
@@ -54,7 +54,7 @@ public static final XpsSweepDirection Counterclockwise
 ```
 
 
-اتجاه عكس عقارب الساعة.
+الاتجاه عكس عقارب الساعة.
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```
@@ -111,7 +111,7 @@ public final boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

@@ -1,6 +1,6 @@
 ---
 title: "JobID"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يحدد معرفًا فريدًا للوظيفة."
 type: docs
 weight: 56
@@ -13,11 +13,11 @@ public final class JobID extends IDProperty
 ```
 
 يحدد معرفًا فريدًا للوظيفة. https://docs.microsoft.com/en-us/windows/win32/printdocs/jobid
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [JobID(String jobID)](#JobID-java.lang.String-) | ينشئ نسخة جديدة. |
+| [JobID(String jobID)](#JobID-java.lang.String-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
@@ -38,12 +38,12 @@ public JobID(String jobID)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| jobID | java.lang.String | معرّف الوظيفة. |
+| jobID | java.lang.String | معرف الوظيفة. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -59,7 +59,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

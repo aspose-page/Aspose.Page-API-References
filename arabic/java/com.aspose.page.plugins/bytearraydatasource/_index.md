@@ -1,6 +1,6 @@
 ---
 title: "ByteArrayDataSource"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: 
 type: docs
 weight: 10
@@ -14,9 +14,9 @@ java.lang.Object
 ```
 public final class ByteArrayDataSource implements IDataSource
 ```
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [ByteArrayDataSource()](#ByteArrayDataSource--) |  |
 ## الطرق
@@ -53,7 +53,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

@@ -1,7 +1,7 @@
 ---
 title: "PsSaveFormat"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "تحتوي هذه التعداد على خيارات تنسيق الحفظ المتاحة."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "تحتوي هذه التعداد على خيارات متاحة لتنسيق الحفظ."
 type: docs
 weight: 14
 url: /ar/java/com.aspose.eps.device/pssaveformat/
@@ -12,7 +12,7 @@ java.lang.Object, java.lang.Enum
 public enum PsSaveFormat extends Enum<PsSaveFormat>
 ```
 
-يحتوي هذا التعداد على الخيارات المتاحة لتنسيق الحفظ. يمكن أن يكون PS أو EPS. يُستخدم EPS للمستندات ذات صفحة واحدة فقط بينما يمكن لملف PS أن يحتوي على أي عدد من الصفحات.
+هذا التعداد يحتوي على الخيارات المتاحة لتنسيق الحفظ. يمكن أن يكون PS أو EPS. يُستخدم EPS للمستندات ذات صفحة واحدة فقط بينما يمكن لملف PS أن يحتوي على أي عدد من الصفحات.
 ## الحقول
 
 | حقل | الوصف |
@@ -46,7 +46,7 @@ public static final PsSaveFormat EPS
 ```
 
 
-هذا الخيار يشير إلى أن المستند الناتج يجب أن يكون ملف Encapsulated PostScript (EPS). يُستخدم فقط للمستندات ذات صفحة واحدة؛
+تشير هذه الخيار إلى أن المستند الناتج يجب أن يكون ملف Encapsulated PostScript (EPS). يُستخدم فقط للمستندات ذات صفحة واحدة؛
 
 ### PS {#PS}
 ```
@@ -111,7 +111,7 @@ public final boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

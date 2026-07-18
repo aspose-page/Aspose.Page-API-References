@@ -1,6 +1,6 @@
 ---
 title: "Staple.StapleOption"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف خيارات ميزات JobStapleAllDocuments و DocumentStaple."
 type: docs
 weight: 10
@@ -12,40 +12,40 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class Staple.StapleOption extends Option
 ```
 
-يصف خيارات ميزات  JobStapleAllDocuments  و  DocumentStaple .
-## المنشئات
+يصف خيارات ميزات **JobStapleAllDocuments** و **DocumentStaple**.
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [StapleOption(String optionName, Staple.IStapleOptionItem[] items)](#StapleOption-java.lang.String-com.aspose.xps.metadata.Staple.IStapleOptionItem...-) | ينشئ نسخة جديدة. |
+| [StapleOption(String optionName, Staple.IStapleOptionItem[] items)](#StapleOption-java.lang.String-com.aspose.xps.metadata.Staple.IStapleOptionItem...-) | ينشئ مثيلًا جديدًا. |
 ## الحقول
 
 | حقل | الوصف |
 | --- | --- |
 | [None](#None) | يحدد عدم وجود تثبيت. |
 | [SaddleStitch](#SaddleStitch) | يحدد تثبيت بخياطة السرج. |
-| [StapleBottomLeft](#StapleBottomLeft) | يحدد دبوسًا واحدًا في الزاوية السفلية اليسرى. |
-| [StapleBottomRight](#StapleBottomRight) | يحدد دبوسًا واحدًا في الزاوية السفلية اليمنى. |
-| [StapleDualBottom](#StapleDualBottom) | يحدد دبوسين على طول الحافة السفلية. |
-| [StapleDualLeft](#StapleDualLeft) | يحدد دبوسين على طول الحافة اليسرى. |
-| [StapleDualRight](#StapleDualRight) | يحدد دبوسين على طول الحافة اليمنى. |
-| [StapleDualTop](#StapleDualTop) | يحدد دبوسين على طول الحافة العلوية |
-| [StapleTopLeft](#StapleTopLeft) | يحدد دبوسًا واحدًا في الزاوية العلوية اليسرى. |
-| [StapleTopRight](#StapleTopRight) | يحدد دبوسًا واحدًا في الزاوية العلوية اليمنى. |
+| [StapleBottomLeft](#StapleBottomLeft) | يحدد مشبكًا واحدًا في الزاوية السفلية اليسرى. |
+| [StapleBottomRight](#StapleBottomRight) | يحدد مشبكًا واحدًا في الزاوية السفلية اليمنى. |
+| [StapleDualBottom](#StapleDualBottom) | يحدد مشبكين على طول الحافة السفلية. |
+| [StapleDualLeft](#StapleDualLeft) | يحدد مشبكين على طول الحافة اليسرى. |
+| [StapleDualRight](#StapleDualRight) | يحدد مشبكين على طول الحافة اليمنى. |
+| [StapleDualTop](#StapleDualTop) | يحدد مشبكين على طول الحافة العلوية |
+| [StapleTopLeft](#StapleTopLeft) | يحدد مشبكًا واحدًا في الزاوية العلوية اليسرى. |
+| [StapleTopRight](#StapleTopRight) | يحدد مشبكًا واحدًا في الزاوية العلوية اليمنى. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. |
-| [add(Staple.IStapleOptionItem[] items)](#add-com.aspose.xps.metadata.Staple.IStapleOptionItem...-) | يضيف مصفوفة من  IStapleOptionItem  إلى الميزة. |
+| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. |
+| [add(Staple.IStapleOptionItem[] items)](#add-com.aspose.xps.metadata.Staple.IStapleOptionItem...-) | يضيف مصفوفة من كائنات  IStapleOptionItem  إلى الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAngle(int angle)](#setAngle-int-) | يضبط قيمة خاصية  Angle  المُقيمة. |
-| [setSheetCapacity(int sheetCapacity)](#setSheetCapacity-int-) | يضبط قيمة خاصية  SheetCapacity  المُقيمة. |
+| [setAngle(int angle)](#setAngle-int-) | يضبط قيمة خاصية  Angle  المقيمة. |
+| [setSheetCapacity(int sheetCapacity)](#setSheetCapacity-int-) | يضبط قيمة خاصية  SheetCapacity  المقيمة. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -56,13 +56,13 @@ public StapleOption(String optionName, Staple.IStapleOptionItem[] items)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
 | optionName | java.lang.String | اسم خيار. |
-| items | [IStapleOptionItem\[\]](../../com.aspose.xps.metadata/istapleoptionitem) | مصفوفة عشوائية من  IStapleOptionItem  كائنات. |
+| items | [IStapleOptionItem\[\]](../../com.aspose.xps.metadata/istapleoptionitem) | مصفوفة عشوائية من كائنات  IStapleOptionItem . |
 
 ### None {#None}
 ```
@@ -86,7 +86,7 @@ public static final Staple.StapleOption StapleBottomLeft
 ```
 
 
-يحدد دبوسًا واحدًا في الزاوية السفلية اليسرى.
+يحدد مشبكًا واحدًا في الزاوية السفلية اليسرى.
 
 ### StapleBottomRight {#StapleBottomRight}
 ```
@@ -94,7 +94,7 @@ public static final Staple.StapleOption StapleBottomRight
 ```
 
 
-يحدد دبوسًا واحدًا في الزاوية السفلية اليمنى.
+يحدد مشبكًا واحدًا في الزاوية السفلية اليمنى.
 
 ### StapleDualBottom {#StapleDualBottom}
 ```
@@ -102,7 +102,7 @@ public static final Staple.StapleOption StapleDualBottom
 ```
 
 
-يحدد دبوسين على طول الحافة السفلية.
+يحدد مشبكين على طول الحافة السفلية.
 
 ### StapleDualLeft {#StapleDualLeft}
 ```
@@ -110,7 +110,7 @@ public static final Staple.StapleOption StapleDualLeft
 ```
 
 
-يحدد دبوسين على طول الحافة اليسرى.
+يحدد مشبكين على طول الحافة اليسرى.
 
 ### StapleDualRight {#StapleDualRight}
 ```
@@ -118,7 +118,7 @@ public static final Staple.StapleOption StapleDualRight
 ```
 
 
-يحدد دبوسين على طول الحافة اليمنى.
+يحدد مشبكين على طول الحافة اليمنى.
 
 ### StapleDualTop {#StapleDualTop}
 ```
@@ -126,7 +126,7 @@ public static final Staple.StapleOption StapleDualTop
 ```
 
 
-يحدد دبوسين على طول الحافة العلوية
+يحدد مشبكين على طول الحافة العلوية
 
 ### StapleTopLeft {#StapleTopLeft}
 ```
@@ -134,7 +134,7 @@ public static final Staple.StapleOption StapleTopLeft
 ```
 
 
-يحدد دبوسًا واحدًا في الزاوية العلوية اليسرى.
+يحدد مشبكًا واحدًا في الزاوية العلوية اليسرى.
 
 ### StapleTopRight {#StapleTopRight}
 ```
@@ -142,7 +142,7 @@ public static final Staple.StapleOption StapleTopRight
 ```
 
 
-يحدد دبوسًا واحدًا في الزاوية العلوية اليمنى.
+يحدد مشبكًا واحدًا في الزاوية العلوية اليمنى.
 
 ### add(IOptionItem[] items) {#add-com.aspose.xps.metadata.IOptionItem...-}
 ```
@@ -150,7 +150,7 @@ public void add(IOptionItem[] items)
 ```
 
 
-يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. يجب أن يكون كل عنصر إما  ScoredProperty  أو  Property  مثيل.
+يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. يجب أن يكون كل عنصر إما مثال ScoredProperty أو مثال Property.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -163,12 +163,12 @@ public Staple.StapleOption add(Staple.IStapleOptionItem[] items)
 ```
 
 
-يضيف مصفوفة من  IStapleOptionItem  إلى الميزة.
+يضيف مصفوفة من كائنات  IStapleOptionItem  إلى الميزة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| items | [IStapleOptionItem\[\]](../../com.aspose.xps.metadata/istapleoptionitem) | مصفوفة عشوائية من  IStapleOptionItem  كائنات. |
+| items | [IStapleOptionItem\[\]](../../com.aspose.xps.metadata/istapleoptionitem) | مصفوفة عشوائية من كائنات  IStapleOptionItem . |
 
 **Returns:**
 [StapleOption](../../com.aspose.xps.metadata/stapleoption) - This options instance.
@@ -186,7 +186,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -239,12 +239,12 @@ public final Staple.StapleOption setAngle(int angle)
 ```
 
 
-يضبط قيمة خاصية  Angle  المُقيمة.
+يضبط قيمة خاصية  Angle  المقيمة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| angle | int | قيمة خاصية  Angle  المُقيمة. |
+| angle | int | قيمة خاصية  Angle  المقيمة. |
 
 **Returns:**
 [StapleOption](../../com.aspose.xps.metadata/stapleoption) - This option instance.
@@ -254,12 +254,12 @@ public final Staple.StapleOption setSheetCapacity(int sheetCapacity)
 ```
 
 
-يضبط قيمة خاصية  SheetCapacity  المُقيمة.
+يضبط قيمة خاصية  SheetCapacity  المقيمة.
 
 **Parameters:**
 | معامل | نوع | الوصف |
 | --- | --- | --- |
-| sheetCapacity | int | قيمة خاصية  SheetCapacity  المُقيمة. |
+| sheetCapacity | int | قيمة خاصية  SheetCapacity  المقيمة. |
 
 **Returns:**
 [StapleOption](../../com.aspose.xps.metadata/stapleoption) - This option instance.

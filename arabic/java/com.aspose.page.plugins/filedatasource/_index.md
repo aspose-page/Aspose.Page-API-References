@@ -1,6 +1,6 @@
 ---
 title: "FileDataSource"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يمثل مصدر بيانات الملف لعمليات التحميل والحفظ للملحق."
 type: docs
 weight: 13
@@ -16,9 +16,9 @@ public final class FileDataSource implements IDataSource
 ```
 
 يمثل مصدر بيانات الملف لعمليات التحميل والحفظ للملحق.
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
 | [FileDataSource(String path)](#FileDataSource-java.lang.String-) | يُهيئ مصدر بيانات ملف جديد بالمسار المحدد. |
 ## الطرق
@@ -63,7 +63,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

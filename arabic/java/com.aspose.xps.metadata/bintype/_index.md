@@ -1,6 +1,6 @@
 ---
 title: "OutputBin.BinType"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يحدد الثوابت لقيمة الخاصية المتدرجة BinType."
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class OutputBin.BinType extends ScoredProperty implements OutputBin.IOutputBinOptionItem
 ```
 
-يحدد الثوابت لقيمة خاصية  BinType  المُسجلة.
+يحدد الثوابت لقيمة الخاصية المقيمة BinType.
 ## الحقول
 
 | حقل | الوصف |
@@ -93,7 +93,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

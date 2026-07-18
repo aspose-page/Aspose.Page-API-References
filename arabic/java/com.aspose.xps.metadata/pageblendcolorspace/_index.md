@@ -1,7 +1,7 @@
 ---
 title: "PageBlendColorSpace"
-second_title: "مرجع Aspose.Page لـ Java API"
-description: "يصف مساحة اللون التي يجب استخدامها لعمليات المزج."
+second_title: "مرجع API لـ Aspose.Page للـ Java"
+description: "يصف مساحة اللون التي يجب استخدامها لعمليات الدمج."
 type: docs
 weight: 86
 url: /ar/java/com.aspose.xps.metadata/pageblendcolorspace/
@@ -16,16 +16,16 @@ public final class PageBlendColorSpace extends Feature implements IJobPrintTicke
 ```
 
 يصف مساحة اللون التي يجب استخدامها لعمليات الدمج. https://docs.microsoft.com/en-us/windows/win32/printdocs/pageblendcolorspace
-## المنشئات
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PageBlendColorSpace(PageBlendColorSpace.PageBlendColorSpaceOption[] options)](#PageBlendColorSpace-com.aspose.xps.metadata.PageBlendColorSpace.PageBlendColorSpaceOption...-) | ينشئ نسخة جديدة. |
+| [PageBlendColorSpace(PageBlendColorSpace.PageBlendColorSpaceOption[] options)](#PageBlendColorSpace-com.aspose.xps.metadata.PageBlendColorSpace.PageBlendColorSpaceOption...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public PageBlendColorSpace(PageBlendColorSpace.PageBlendColorSpaceOption[] optio
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

@@ -1,6 +1,6 @@
 ---
 title: "PageWatermark"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف إعداد العلامة المائية للمخرجات وخصائص العلامة المائية."
 type: docs
 weight: 131
@@ -15,17 +15,17 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class PageWatermark extends Feature implements IJobPrintTicketItem, IDocumentPrintTicketItem, IPagePrintTicketItem
 ```
 
-يصف إعداد العلامة المائية للمخرجات وخصائص العلامة المائية. تُطبق العلامات المائية على الصفحة المنطقية، وليس على الصفحة الفعلية. على سبيل المثال، إذا تم تمكين  DocumentDuplex ، ستظهر علامة مائية على كل صفحة  NUp  في كل ورقة. إذا كان  DocumentDuplex  ،  PagesPerSheet =2، فإن كل ورقة ستحصل على علامتين مائيتين. https://docs.microsoft.com/en-us/windows/win32/printdocs/pagewatermark
-## المنشئات
+يصف إعداد العلامة المائية للإخراج وخصائص العلامة المائية. تُطبق العلامات المائية على الصفحة المنطقية، وليس على الصفحة الفعلية. على سبيل المثال، إذا تم تمكين  DocumentDuplex ، ستظهر علامة مائية على كل صفحة  NUp  في كل ورقة. إذا كان  DocumentDuplex  ،  PagesPerSheet =2، فإن كل ورقة ستحصل على 2 علامة مائية. https://docs.microsoft.com/en-us/windows/win32/printdocs/pagewatermark
+## المُنشئات
 
-| منشئ | الوصف |
+| المُنشئ | الوصف |
 | --- | --- |
-| [PageWatermark(PageWatermark.IPageWatermarkItem[] items)](#PageWatermark-com.aspose.xps.metadata.PageWatermark.IPageWatermarkItem...-) | ينشئ نسخة جديدة. |
+| [PageWatermark(PageWatermark.IPageWatermarkItem[] items)](#PageWatermark-com.aspose.xps.metadata.PageWatermark.IPageWatermarkItem...-) | ينشئ مثيلًا جديدًا. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذه الميزة. |
+| [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذه الميزة. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -42,7 +42,7 @@ public PageWatermark(PageWatermark.IPageWatermarkItem[] items)
 ```
 
 
-ينشئ نسخة جديدة.
+ينشئ مثيلًا جديدًا.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -76,7 +76,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()

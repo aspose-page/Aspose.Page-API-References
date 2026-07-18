@@ -1,6 +1,6 @@
 ---
 title: "PageDeviceColorSpaceUsage.PageDeviceColorSpaceUsageOption"
-second_title: "مرجع Aspose.Page لـ Java API"
+second_title: "مرجع API لـ Aspose.Page للـ Java"
 description: "يصف خيارات ميزة PageDeviceColorSpaceUsage."
 type: docs
 weight: 10
@@ -17,13 +17,13 @@ public static final class PageDeviceColorSpaceUsage.PageDeviceColorSpaceUsageOpt
 
 | حقل | الوصف |
 | --- | --- |
-| [MatchToDefault](#MatchToDefault) | إذا كان الجهاز يحدد أن الملف الشخصي المحدد بواسطة  PageDeviceColorSpaceProfileURI  المعامل يمكن استخدامه كملف تعريف مساحة ألوان الجهاز، يتم اعتبار جميع العناصر التي تستخدم نفس الملف الشخصي بأنها محددة بالفعل في مساحة ألوان الجهاز. |
-| [OverrideDeviceDefault](#OverrideDeviceDefault) | إذا كان الملف الشخصي المحدد بواسطة المعامل PageDeviceColorSpaceProfileURI يحتوي على عدد من القنوات يطابق عدد الألوان الأساسية للجهاز، يجب أن يُستخدم بدلاً من إدارة الألوان الداخلية للجهاز لجميع العناصر. |
+| [MatchToDefault](#MatchToDefault) | إذا قرر الجهاز أن الملف التعريفي المحدد بواسطة المعامل PageDeviceColorSpaceProfileURI يمكن استخدامه كملف تعريف مساحة ألوان الجهاز، فسيتم اعتبار جميع العناصر التي تستخدم نفس الملف التعريفي بأنها محددة بالفعل في مساحة ألوان الجهاز. |
+| [OverrideDeviceDefault](#OverrideDeviceDefault) | إذا كان الملف التعريفي المحدد بواسطة المعامل PageDeviceColorSpaceProfileURI يحتوي على عدد من القنوات يطابق عدد الألوان الأساسية للجهاز، يجب أن يُستخدم بدلاً من إدارة الألوان الداخلية للجهاز لجميع العناصر. |
 ## الطرق
 
 | طريقة | الوصف |
 | --- | --- |
-| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. |
+| [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | يحصل على اسم العنصر. |
@@ -40,7 +40,7 @@ public static PageDeviceColorSpaceUsage.PageDeviceColorSpaceUsageOption MatchToD
 ```
 
 
-إذا كان الجهاز يحدد أن الملف التعريفي المحدد بواسطة المعلمة PageDeviceColorSpaceProfileURI يمكن استخدامه كملف تعريف مساحة ألوان الجهاز، فسيتم التعامل مع جميع العناصر التي تستخدم نفس الملف التعريفي كما لو أنها محددة بالفعل في مساحة ألوان الجهاز. يجب على جميع العناصر الأخرى استخدام الملف التعريفي المحدد لهذا العنصر. إذا لم يكن يمكن استخدام الملف التعريفي كملف تعريف مساحة ألوان الجهاز، يجب إدارة ألوان العناصر التي تستخدم الملف التعريفي مثل أي عنصر آخر يستخدم ملف الألوان.
+إذا كان الجهاز يحدد أن الملف التعريفي المحدد بواسطة المعامل PageDeviceColorSpaceProfileURI يمكن استخدامه كملف تعريف مساحة ألوان الجهاز، فسيتم اعتبار جميع العناصر التي تستخدم نفس الملف التعريفي كأنها محددة بالفعل في مساحة ألوان الجهاز. يجب على جميع العناصر الأخرى استخدام الملف التعريفي المحدد لذلك العنصر. إذا لم يكن يمكن استخدام الملف التعريفي كملف تعريف مساحة ألوان الجهاز، يجب إدارة ألوان العناصر التي تستخدم الملف التعريفي مثل أي عنصر آخر يستخدم ملف الألوان.
 
 ### OverrideDeviceDefault {#OverrideDeviceDefault}
 ```
@@ -48,7 +48,7 @@ public static PageDeviceColorSpaceUsage.PageDeviceColorSpaceUsageOption Override
 ```
 
 
-إذا كان الملف التعريفي المحدد بواسطة المعلمة PageDeviceColorSpaceProfileURI يحتوي على عدد من القنوات يطابق عدد الألوان الأساسية للجهاز، فيجب استخدامه بدلاً من إدارة الألوان الداخلية للجهاز لجميع العناصر. تُفترض أن العناصر التي تستخدم هذا الملف التعريفي موجودة في مساحة ألوان الجهاز ولن تتم إدارة ألوانها لاحقًا.
+إذا كان الملف التعريفي المحدد بواسطة المعامل PageDeviceColorSpaceProfileURI يحتوي على عدد من القنوات يطابق عدد الألوان الأساسية للجهاز، يجب استخدامه بدلاً من إدارة الألوان الداخلية للجهاز لجميع العناصر. تُفترض أن العناصر التي تستخدم هذا الملف التعريفي تكون في مساحة ألوان الجهاز ولن يتم إدارة ألوانها لاحقًا.
 
 ### add(IOptionItem[] items) {#add-com.aspose.xps.metadata.IOptionItem...-}
 ```
@@ -56,7 +56,7 @@ public void add(IOptionItem[] items)
 ```
 
 
-يضيف قائمة من العناصر إلى نهاية قائمة العناصر لهذا الخيار. يجب أن يكون كل عنصر إما  ScoredProperty  أو  Property  مثيل.
+يضيف قائمة من العناصر إلى نهاية قائمة عناصر هذا الخيار. يجب أن يكون كل عنصر إما مثال ScoredProperty أو مثال Property.
 
 **Parameters:**
 | معامل | نوع | الوصف |
@@ -77,7 +77,7 @@ public boolean equals(Object arg0)
 | arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean
+منطقي
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
