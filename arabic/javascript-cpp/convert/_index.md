@@ -1,7 +1,7 @@
 ---
-title: "دوال التحويل"
-second_title: "Aspose.Page للـ JavaScript عبر C++"
-description: "دوال التحويل للعمل مع ملفات Postscript/XPS."
+title: "وظائف التحويل"
+second_title: "Aspose.Page لـ JavaScript عبر C++"
+description: "وظائف التحويل للعمل مع ملفات Postscript/XPS."
 weight: 10
 type: docs
 url: /ar/javascript-cpp/convert/

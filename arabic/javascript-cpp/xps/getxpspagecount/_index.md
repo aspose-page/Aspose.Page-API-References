@@ -1,6 +1,6 @@
 ---
 title: "AsposeGetXpsPageCount"
-second_title: "Aspose.Page للـ JavaScript عبر C++"
+second_title: "Aspose.Page لـ JavaScript عبر C++"
 description: "احصل على عدد الصفحات في ملف XPS"
 type: docs
 weight: 10
@@ -8,7 +8,7 @@ url: /ar/javascript-cpp/xps/getxpspagecount/
 ---
 ## AsposeGetXpsPageCount function
 
-الحصول على عدد الصفحات في مستند xps.
+الحصول على عدد الصفحات في مستند xps-document.
 
 ```js
 function AsposeGetXpsPageCount(
@@ -19,8 +19,8 @@ function AsposeGetXpsPageCount(
 
 | معامل | نوع | الوصف |
 | --------- | ---- | ----------- |
-| fileBlob | كائن Blob | محتوى ملف المصدر. |
-| fileName | string | اسم ملف المصدر. |
+| fileBlob | كائن Blob | محتوى الملف المصدر. |
+| fileName | سلسلة | اسم الملف المصدر. |
 
 ### قيمة الإرجاع
 
@@ -28,7 +28,7 @@ function AsposeGetXpsPageCount(
 | حقل | الوصف |
 | ----- | ----------- |
 |  | errorCode | خطأ الكود (0 لا خطأ) |
-|  | errorText | خطأ النص ("" لا خطأ) |
+|  | errorText | خطأ النص (\"\" لا خطأ) |
 |  | pageCount | عدد الصفحات |
 
 ### أمثلة

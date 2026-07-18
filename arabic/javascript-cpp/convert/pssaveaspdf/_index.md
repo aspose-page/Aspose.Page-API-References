@@ -1,7 +1,7 @@
 ---
 title: "PSSaveAsPdf"
-second_title: "Aspose.Page للـ JavaScript عبر C++"
-description: "يحوّل الـ Postscript إلى PDF"
+second_title: "Aspose.Page لـ JavaScript عبر C++"
+description: "يحول Postscript إلى PDF"
 type: docs
 weight: 10
 url: /ar/javascript-cpp/convert/pssaveaspdf/
@@ -21,8 +21,8 @@ function AsposePSSaveAsPdf(
 | معامل | نوع | الوصف |
 | --------- | ---- | ----------- |
 | fileBlob | كائن Blob | محتوى الخط المصدر للتحويل. |
-| fileName | string | اسم الملف. |
-| supressErrors | bool | يحدد ما إذا كان يجب كتم الأخطاء أم لا. |
+| fileName | سلسلة | اسم الملف. |
+| supressErrors | bool | يحدد ما إذا كان يجب قمع الأخطاء أم لا. |
 
 ### قيمة الإرجاع
 
@@ -30,7 +30,7 @@ function AsposePSSaveAsPdf(
 | حقل | الوصف |
 | ----- | ----------- |
 |  | errorCode | خطأ الكود (0 لا خطأ) |
-|  | errorText | خطأ النص ("" لا خطأ) |
+|  | errorText | خطأ النص (\"\" لا خطأ) |
 |  | fileNameResult | اسم ملف النتيجة |
 
 ### أمثلة

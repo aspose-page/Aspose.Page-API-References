@@ -1,6 +1,6 @@
 ---
 title: "تعداد ImageFormat"
-second_title: "Aspose.Page للـ JavaScript عبر C++"
+second_title: "Aspose.Page لـ JavaScript عبر C++"
 description: "تعداد ImageFormat. يحدد تنسيق الصورة"
 type: docs
 weight: 100
@@ -18,8 +18,8 @@ public enum ImageFormat
 
 | الاسم | القيمة | الوصف |
 | ---  | ---   | --- |
-| Bmp | `0` | تنسيق BMP للصور. |
-| Jpeg | `1` | تنسيق JPG للصور. |
-| Gif | `2` | تنسيق GIF للصور. |
-| Tiff | `3` | تنسيق TIFF للصور. |
+| Bmp | `0` | تنسيق صورة BMP. |
+| Jpeg | `1` | تنسيق صورة JPG. |
+| Gif | `2` | تنسيق صورة GIF. |
+| Tiff | `3` | تنسيق صورة TIFF. |
 

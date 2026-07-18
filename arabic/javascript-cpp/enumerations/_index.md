@@ -1,6 +1,6 @@
 ---
 title: "التعدادات"
-second_title: "Aspose.Page للـ JavaScript عبر C++"
+second_title: "Aspose.Page لـ JavaScript عبر C++"
 description: "دوال لتحويل الخطوط إلى صيغ TrueType."
 weight: 80
 type: docs

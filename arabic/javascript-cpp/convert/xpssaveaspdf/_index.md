@@ -1,6 +1,6 @@
 ---
 title: "XPSSaveAsPdf"
-second_title: "Aspose.Page للـ JavaScript عبر C++"
+second_title: "Aspose.Page لـ JavaScript عبر C++"
 description: "يقوم بتحويل XPS إلى PDF"
 type: docs
 weight: 10
@@ -21,8 +21,8 @@ function AsposeXPSSaveAsPdf(
 | معامل | نوع | الوصف |
 | --------- | ---- | ----------- |
 | fileBlob | كائن Blob | محتوى الخط المصدر للتحويل. |
-| fileName | string | اسم الملف. |
-| supressErrors | bool | يحدد ما إذا كان يجب كتم الأخطاء أم لا. |
+| fileName | سلسلة | اسم الملف. |
+| supressErrors | bool | يحدد ما إذا كان يجب قمع الأخطاء أم لا. |
 
 ### قيمة الإرجاع
 
@@ -30,7 +30,7 @@ function AsposeXPSSaveAsPdf(
 | حقل | الوصف |
 | ----- | ----------- |
 |  | errorCode | خطأ الكود (0 لا خطأ) |
-|  | errorText | خطأ النص ("" لا خطأ) |
+|  | errorText | خطأ النص (\"\" لا خطأ) |
 |  | fileNameResult | اسم ملف النتيجة |
 
 ### أمثلة
