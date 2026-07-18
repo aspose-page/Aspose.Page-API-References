@@ -1,12 +1,12 @@
 ---
 title: "AsposePagePrepareBase64"
 second_title: "Aspose.Page 用于 JavaScript via C++"
-description: "将字符串表示的 BLOB 保存到内存文件系统以进行处理。"
+description: "将字符串表示的 BLOB 保存到内存文件系统 (Memory FS) 以供处理。"
 type: docs
 url: /zh/javascript-cpp/core/asposepagepreparebase64/
 ---
 ## AsposePagePrepareBase64 function
-_在内存文件系统中保存字符串表示的 BLOB 以进行处理。_
+_保存字符串表示的 BLOB 到内存文件系统以进行处理。_
 
 ```js
 function AsposePagePrepareBase64(

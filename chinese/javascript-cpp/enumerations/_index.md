@@ -12,4 +12,4 @@ url: /zh/javascript-cpp/enumerations/
 | 枚举 | 描述 |
 | ----------- | ----------- |
 | [ImageFormat](./imageformat/) | 指定图像格式。 |
-| [Units](./units/) | 指定尺寸类型。 |
+| [Units](./units/) | 指定大小的类型。 |

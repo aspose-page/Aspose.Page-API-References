@@ -18,7 +18,7 @@ url: /zh/javascript-cpp/convert/
 
 ## Detailed Description
 
-将 Postscript 或 XPS 文件转换为图像或 PDF 文件。
+将 postscript 或 XPS 文件转换为图像或 PDF 文件。
 
 
 

@@ -8,7 +8,7 @@ url: /zh/javascript-cpp/xps/getxpspagecount/
 ---
 ## AsposeGetXpsPageCount function
 
-获取 xps 文档的页数。
+获取 xps-document 的页数。
 
 ```js
 function AsposeGetXpsPageCount(
@@ -20,15 +20,15 @@ function AsposeGetXpsPageCount(
 | 参数 | 类型 | 描述 |
 | --------- | ---- | ----------- |
 | fileBlob | Blob 对象 | 源文件的内容。 |
-| fileName | string | 源文件名。 |
+| fileName | 字符串 | 源文件名。 |
 
 ### 返回值
 
 JSON 对象
 | 字段 | 描述 |
 | ----- | ----------- |
-|  | errorCode | 错误代码（0 表示无错误） |
-|  | errorText | 错误文本（"" 表示无错误） |
+|  | errorCode | 错误代码 (0 无错误) |
+|  | errorText | 文本错误 (\"\" 无错误) |
 |  | pageCount | 页数 |
 
 ### 示例

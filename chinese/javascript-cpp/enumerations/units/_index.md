@@ -8,7 +8,7 @@ url: /zh/javascript-cpp/enumerations/units/
 ---
 ## Units enumeration
 
-指定尺寸类型。
+指定大小的类型。
 
 ```js
 enum Units

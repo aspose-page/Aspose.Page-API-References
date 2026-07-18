@@ -11,7 +11,7 @@ url: /zh/javascript-cpp/xps/
 
 | 函数 | 描述 |
 | -------- | ----------- |
-| [AsposeGetXpsPageCount](./getxpspagecount/) | 获取 xps 文档的页数。 |
+| [AsposeGetXpsPageCount](./getxpspagecount/) | 获取 xps-document 的页数。 |
 
 ## Detailed Description
 

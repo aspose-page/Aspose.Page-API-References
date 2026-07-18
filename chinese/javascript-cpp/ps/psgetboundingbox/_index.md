@@ -20,15 +20,15 @@ function AsposePSGetBoundingBox(
 | 参数 | 类型 | 描述 |
 | --------- | ---- | ----------- |
 | fileBlob | Blob 对象 | 源文件的内容。 |
-| fileName | string | 源文件名。 |
+| fileName | 字符串 | 源文件名。 |
 
 ### 返回值
 
 JSON 对象
 | 字段 | 描述 |
 | ----- | ----------- |
-|  | errorCode | 错误代码（0 表示无错误） |
-|  | errorText | 错误文本（"" 表示无错误） |
+|  | errorCode | 错误代码 (0 无错误) |
+|  | errorText | 文本错误 (\"\" 无错误) |
 |  | bbox | EPS 图像的边界框。 |
 
 ### 示例

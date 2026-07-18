@@ -15,7 +15,7 @@ url: /zh/javascript-cpp/image/
 
 ## Detailed Description
 
-将最流行格式的图像（BMP、PNG、JPEG、GOF、TIFF）保存为 EPS 文件。
+将最流行格式的图像（如 BMP、PNG、JPEG、GOF、TIFF）保存为 EPS 文件。
 
 ```js
 /* Web Worker*/
