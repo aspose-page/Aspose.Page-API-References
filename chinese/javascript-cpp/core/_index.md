@@ -11,8 +11,8 @@ url: /zh/javascript-cpp/core/
 
 | 名称 | 描述 |
 | -------------- | -------------- |
-| [AsposePagePrepare](./asposepageprepare/) | 将 BLOB 保存到内存文件系统以进行处理。 |
-| [AsposePagePrepareBase64](./asposepagereparebase64/) | 将字符串表示的 BLOB 保存到内存文件系统以进行处理。 |
+| [AsposePagePrepare](./asposepageprepare/) | 将 BLOB 保存到内存文件系统 (Memory FS) 以供处理。 |
+| [AsposePagePrepareBase64](./asposepagereparebase64/) | 将字符串表示的 BLOB 保存到内存文件系统 (Memory FS) 以供处理。 |
 
 ## Detailed Description
 

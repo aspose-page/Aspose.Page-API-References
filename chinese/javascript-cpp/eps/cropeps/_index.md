@@ -8,7 +8,7 @@ url: /zh/javascript-cpp/eps/cropeps/
 ---
 ## AsposeCropEPS function
 
-裁剪 EPS 文件。它保存初始 EPS 文件，使用更新的现有 %%BoundingBox，或创建新的。
+裁剪 EPS 文件。它保存初始 EPS 文件，使用更新的现有 %%BoundingBox，或将创建新的。
 
 ```js
 function AsposeCropEPS(
@@ -25,20 +25,20 @@ function AsposeCropEPS(
 | 参数 | 类型 | 描述 |
 | --------- | ---- | ----------- |
 | fileBlob | Blob 对象 | 源文件的内容。 |
-| fileName | string | 源文件名。 |
-| fileNameResult | string | 结果文件名。 |
-| 左 | float | 指定裁剪框的左边界。 |
-| 上 | float | 指定裁剪框的上边界。 |
-| 右 | float | 指定裁剪框的右边界。 |
-| 下 | float | 指定裁剪框的下边界。 |
+| fileName | 字符串 | 源文件名。 |
+| fileNameResult | 字符串 | 结果文件名。 |
+| 左 | 浮点数 | 指定裁剪框的左边界。 |
+| 上 | 浮点数 | 指定裁剪框的上边界。 |
+| 右 | 浮点数 | 指定裁剪框的右边界。 |
+| 下 | 浮点数 | 指定裁剪框的下边界。 |
 
 ### 返回值
 
 JSON 对象
 | 字段 | 描述 |
 | ----- | ----------- |
-|  | errorCode | 错误代码（0 表示无错误） |
-|  | errorText | 错误文本（"" 表示无错误） |
+|  | errorCode | 错误代码 (0 无错误) |
+|  | errorText | 文本错误 (\"\" 无错误) |
 |  | fileNameResult | 结果文件名 |
 
 ### 示例

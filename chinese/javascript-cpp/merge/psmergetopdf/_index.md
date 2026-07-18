@@ -20,8 +20,8 @@ function AsposePSMergePdf(
 
 | 参数 | 类型 | 描述 |
 | --------- | ---- | ----------- |
-| fileNames | string | 用于合并的文件名称。 |
-| fileNameResult | string | 结果 PDF 文件的名称。 |
+| fileNames | 字符串 | 用于合并的文件名称。 |
+| fileNameResult | 字符串 | 结果 PDF 文件的名称。 |
 | supressErrors | bool | 指定是否必须抑制错误。 |
 
 ### 返回值
@@ -29,8 +29,8 @@ function AsposePSMergePdf(
 JSON 对象
 | 字段 | 描述 |
 | ----- | ----------- |
-|  | errorCode | 错误代码（0 表示无错误） |
-|  | errorText | 错误文本（"" 表示无错误） |
+|  | errorCode | 错误代码 (0 无错误) |
+|  | errorText | 文本错误 (\"\" 无错误) |
 |  | fileNameResult | 结果文件名 |
 
 ### 示例

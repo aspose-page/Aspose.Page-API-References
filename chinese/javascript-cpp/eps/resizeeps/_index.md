@@ -8,7 +8,7 @@ url: /zh/javascript-cpp/eps/resizeeps/
 ---
 ## AsposeResizeEPS function
 
-调整 EPS 文件。它会保存初始 EPS 文件，使用更新的现有 %%BoundingBox，或者创建新的。
+调整 EPS 文件的大小。它会保存原始 EPS 文件，并更新现有的 %%BoundingBox，或创建新的。
 
 ```js
 function AsposeResizeEPS(
@@ -24,19 +24,19 @@ function AsposeResizeEPS(
 | 参数 | 类型 | 描述 |
 | --------- | ---- | ----------- |
 | fileBlob | Blob 对象 | 源文件的内容。 |
-| fileName | string | 源文件名。 |
-| fileNameResult | string | 结果文件名。 |
-| width | float | 指定新边界框的 width。 |
-| height | float | 指定新边界框的 height。 |
-| unit | Module.Units | 指定新尺寸的类型。 |
+| fileName | 字符串 | 源文件名。 |
+| fileNameResult | 字符串 | 结果文件名。 |
+| 宽度 | 浮点数 | 指定新边界框的宽度。 |
+| 高度 | 浮点数 | 指定新边界框的高度。 |
+| 单位 | Module.Units | 指定新尺寸的类型。 |
 
 ### 返回值
 
 JSON 对象
 | 字段 | 描述 |
 | ----- | ----------- |
-|  | errorCode | 错误代码（0 表示无错误） |
-|  | errorText | 错误文本（"" 表示无错误） |
+|  | errorCode | 错误代码 (0 无错误) |
+|  | errorText | 文本错误 (\"\" 无错误) |
 |  | fileNameResult | 结果文件名 |
 
 ### 示例

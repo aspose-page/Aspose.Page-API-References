@@ -22,7 +22,7 @@ function AsposeXPSSaveAsImage(
 | 参数 | 类型 | 描述 |
 | --------- | ---- | ----------- |
 | fileBlob | Blob 对象 | 用于转换的源字体内容。 |
-| fileName | string | 文件名。 |
+| fileName | 字符串 | 文件名。 |
 | imageFormat | ImageFormat | 要转换成的图像格式。 |
 | supressErrors | bool | 指定是否必须抑制错误。 |
 
@@ -31,8 +31,8 @@ function AsposeXPSSaveAsImage(
 JSON 对象
 | 字段 | 描述 |
 | ----- | ----------- |
-|  | errorCode | 错误代码（0 表示无错误） |
-|  | errorText | 错误文本（"" 表示无错误） |
+|  | errorCode | 错误代码 (0 无错误) |
+|  | errorText | 文本错误 (\"\" 无错误) |
 |  | fileNameResult | 结果文件名 |
 
 ### 示例
