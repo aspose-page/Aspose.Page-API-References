@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class DocumentHolePunch extends HolePunch implements IJobPrintTicketItem, IDocumentPrintTicketItem
 ```
 
-描述输出的打孔特性。每个文档单独打孔。JobHolePunch 和 DocumentHolePunch 关键字互斥。PrintTicket 或 Print Capabilities 文档中不应同时指定两者。 https://docs.microsoft.com/en-us/windows/win32/printdocs/documentholepunch
+描述输出的打孔特性。每个文档单独打孔。JobHolePunch 和 DocumentHolePunch 关键字互斥，PrintTicket 或 Print Capabilities 文档中不应同时指定两者。 https://docs.microsoft.com/en-us/windows/win32/printdocs/documentholepunch
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -47,7 +47,7 @@ public DocumentHolePunch(HolePunch.HolePunchOption[] options)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| options | [HolePunchOption\[\]](../../com.aspose.xps.metadata/holepunchoption) | 特定于此功能的选项数组。 |
+| options | [HolePunchOption\[\]](../../com.aspose.xps.metadata/holepunchoption) | 针对该功能的特定选项数组。 |
 
 ### add(IFeatureItem[] items) {#add-com.aspose.xps.metadata.IFeatureItem...-}
 ```
@@ -55,7 +55,7 @@ public void add(IFeatureItem[] items)
 ```
 
 
-将一组项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
+将一系列项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

@@ -12,12 +12,12 @@ java.lang.Object, [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject), [c
 public final class XpsSolidColorBrush extends XpsBrush
 ```
 
-封装 SolidColorBrush 属性元素特性的类。此元素用于使用纯色填充定义的几何区域。
+封装 SolidColorBrush 属性元素特性的类。此元素用于用纯色填充定义的几何区域。
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
-| [deepClone()](#deepClone--) | 克隆此纯色画刷。 |
+| [deepClone()](#deepClone--) | 克隆此实心颜色画刷。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getColor()](#getColor--) | 返回填充元素的颜色。 |
@@ -37,7 +37,7 @@ public XpsSolidColorBrush deepClone()
 ```
 
 
-克隆此纯色画刷。
+克隆此实心颜色画刷。
 
 **Returns:**
 [XpsSolidColorBrush](../../com.aspose.xps/xpssolidcolorbrush) - Clone of this solid color brush.

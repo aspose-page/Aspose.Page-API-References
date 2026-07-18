@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public abstract class InputBin extends Feature
 ```
 
-用于 JobInputBin、DocumentInputBin 和 PageInputBin 功能类的基类。
+用于  JobInputBin ,  DocumentInputBin  和  PageInputBin  功能类的基类。
 ## 方法
 
 | 方法 | 描述 |
@@ -34,7 +34,7 @@ public void add(IFeatureItem[] items)
 ```
 
 
-将一组项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
+将一系列项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

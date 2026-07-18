@@ -36,7 +36,7 @@ public class TextDevice extends Device implements IMultiPageDevice
 | [dispose()](#dispose--) |  |
 | [draw(Shape path)](#draw-java.awt.Shape-) | 绘制路径。 |
 | [drawArc(float x, float y, float width, float height, float startAngle, float arcAngle)](#drawArc-float-float-float-float-float-float-) | 绘制弧线。 |
-| [drawImage(BufferedImage image, AffineTransform transform, Color bkg)](#drawImage-java.awt.image.BufferedImage-java.awt.geom.AffineTransform-java.awt.Color-) | 绘制具有指定变换和背景的图像。 |
+| [drawImage(BufferedImage image, AffineTransform transform, Color bkg)](#drawImage-java.awt.image.BufferedImage-java.awt.geom.AffineTransform-java.awt.Color-) | 绘制带有指定变换和背景的图像。 |
 | [drawLine(float x1, float y1, float x2, float y2)](#drawLine-float-float-float-float-) | 绘制线段。 |
 | [drawOval(float x, float y, float width, float height)](#drawOval-float-float-float-float-) | 绘制椭圆。 |
 | [drawPolygon(float[] xPoints, float[] yPoints, int nPoints)](#drawPolygon-float---float---int-) | 绘制多边形。 |
@@ -49,7 +49,7 @@ public class TextDevice extends Device implements IMultiPageDevice
 | [endDocument()](#endDocument--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fill(Shape path)](#fill-java.awt.Shape-) | 填充路径。 |
-| [fillArc(float x, float y, float width, float height, float startAngle, float arcAngle)](#fillArc-float-float-float-float-float-float-) | 填充弧形。 |
+| [fillArc(float x, float y, float width, float height, float startAngle, float arcAngle)](#fillArc-float-float-float-float-float-float-) | 填充弧线。 |
 | [fillOval(float x, float y, float width, float height)](#fillOval-float-float-float-float-) | 填充椭圆。 |
 | [fillPolygon(float[] xPoints, float[] yPoints, int nPoints)](#fillPolygon-float---float---int-) | 填充多边形。 |
 | [fillPolygon(int[] xPoints, int[] yPoints, int nPoints)](#fillPolygon-int---int---int-) | 填充多边形。 |
@@ -64,8 +64,8 @@ public class TextDevice extends Device implements IMultiPageDevice
 | [getOpacity()](#getOpacity--) | 获取当前不透明度。 |
 | [getOpacityMask()](#getOpacityMask--) | 获取当前不透明度遮罩。 |
 | [getPages()](#getPages--) |  |
-| [getPaint()](#getPaint--) | 获取当前绘图。 |
-| [getProperties()](#getProperties--) | 获取包括元数据在内的设备属性。 |
+| [getPaint()](#getPaint--) | 获取当前画笔。 |
+| [getProperties()](#getProperties--) | 获取包括元数据的设备属性。 |
 | [getProperty(String key)](#getProperty-java.lang.String-) | 获取字符串属性的值。 |
 | [getPropertyColor(String key)](#getPropertyColor-java.lang.String-) | 获取颜色属性的值。 |
 | [getPropertyDouble(String key)](#getPropertyDouble-java.lang.String-) | 获取双精度属性的值。 |
@@ -76,14 +76,14 @@ public class TextDevice extends Device implements IMultiPageDevice
 | [getPropertySize(String key)](#getPropertySize-java.lang.String-) | 获取大小属性的值。 |
 | [getSaveOptions()](#getSaveOptions--) | 返回保存选项。 |
 | [getSize()](#getSize--) | 获取页面的尺寸。 |
-| [getStroke()](#getStroke--) | 获取当前笔触。 |
+| [getStroke()](#getStroke--) | 获取当前描边。 |
 | [getText()](#getText--) |  |
 | [getText(int startPage, int endPage)](#getText-int-int-) |  |
 | [getTextRenderingMode()](#getTextRenderingMode--) | 获取当前文本渲染模式。 |
 | [getTextStrokeWidth()](#getTextStrokeWidth--) | 获取当前文本笔画宽度。 |
 | [getTransform()](#getTransform--) | 获取当前变换。 |
 | [hashCode()](#hashCode--) |  |
-| [initClip()](#initClip--) | 初始化设备的剪裁。 |
+| [initClip()](#initClip--) | 初始化设备的裁剪区域。 |
 | [initPageNumbers()](#initPageNumbers--) |  |
 | [isDirectRGB()](#isDirectRGB--) |  |
 | [isMainDocument()](#isMainDocument--) |  |
@@ -101,20 +101,20 @@ public class TextDevice extends Device implements IMultiPageDevice
 | [scale(double x, double y)](#scale-double-double-) | 缩放当前变换矩阵。 |
 | [setBackground(Color background)](#setBackground-java.awt.Color-) | 指定页面的当前背景。 |
 | [setCharTM(AffineTransform charTM)](#setCharTM-java.awt.geom.AffineTransform-) | 指定字符变换。 |
-| [setClip(Shape clipPath)](#setClip-java.awt.Shape-) | 指定设备的剪裁。 |
-| [setCreator(String creator)](#setCreator-java.lang.String-) | 指定生成设备输出的创建者。 |
+| [setClip(Shape clipPath)](#setClip-java.awt.Shape-) | 指定设备的裁剪区域。 |
+| [setCreator(String creator)](#setCreator-java.lang.String-) | 指定生成的设备输出的创建者。 |
 | [setFont(ITrFont font)](#setFont-com.aspose.page.ITrFont-) | 指定字体。 |
 | [setOpacity(float opacity)](#setOpacity-float-) | 指定不透明度。 |
-| [setOpacityMask(Paint opacityMask)](#setOpacityMask-java.awt.Paint-) | 指定不透明度蒙版。 |
+| [setOpacityMask(Paint opacityMask)](#setOpacityMask-java.awt.Paint-) | 指定不透明度遮罩。 |
 | [setPaint(Paint paint)](#setPaint-java.awt.Paint-) | 指定绘画。 |
-| [setProperties(UserProperties props)](#setProperties-com.aspose.page.UserProperties-) | 指定包括元数据在内的设备属性。 |
+| [setProperties(UserProperties props)](#setProperties-com.aspose.page.UserProperties-) | 指定设备属性，包括元数据。 |
 | [setSaveOptions(SaveOptions options)](#setSaveOptions-com.aspose.page.SaveOptions-) | 指定用于管理渲染过程的选项。 |
 | [setSize(Dimension size)](#setSize-java.awt.Dimension-) |  |
 | [setStroke(Stroke stroke)](#setStroke-java.awt.Stroke-) | 指定笔画。 |
 | [setTextRenderingMode(TextRenderingMode textRenderingMode)](#setTextRenderingMode-com.aspose.page.TextRenderingMode-) | 指定文本渲染模式。 |
 | [setTextStrokeWidth(float textStrokeWidth)](#setTextStrokeWidth-float-) | 指定文本笔画宽度。 |
 | [setTransform(AffineTransform transform)](#setTransform-java.awt.geom.AffineTransform-) | 指定当前变换。 |
-| [shear(double shx, double shy)](#shear-double-double-) | 对当前变换矩阵进行剪切。 |
+| [shear(double shx, double shy)](#shear-double-double-) | 剪切当前变换矩阵。 |
 | [startDocument()](#startDocument--) |  |
 | [toString()](#toString--) |  |
 | [transform(AffineTransform transform)](#transform-java.awt.geom.AffineTransform-) | 变换当前变换矩阵。 |
@@ -221,7 +221,7 @@ public void drawImage(BufferedImage image, AffineTransform transform, Color bkg)
 ```
 
 
-绘制具有指定变换和背景的图像。
+绘制带有指定变换和背景的图像。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -353,8 +353,8 @@ public void drawRoundRect(float x, float y, float width, float height, float arc
 | y | float | 矩形左上角的 Y 坐标。 |
 | 宽度 | float | 矩形的宽度。 |
 | 高度 | float | 矩形的高度。 |
-| arcWidth | float | 圆弧所围外接矩形的宽度。 |
-| arcHeight | float | 圆弧所围外接矩形的高度。 |
+| arcWidth | float | 圆弧外接矩形的宽度。 |
+| arcHeight | float | 圆弧外接矩形的高度。 |
 
 ### drawString(String str, float x, float y) {#drawString-java.lang.String-float-float-}
 ```
@@ -413,7 +413,7 @@ public void fillArc(float x, float y, float width, float height, float startAngl
 ```
 
 
-填充弧形。
+填充弧线。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -502,8 +502,8 @@ public void fillRoundRect(float x, float y, float width, float height, float arc
 | y | float | 矩形左上角的 Y 坐标。 |
 | 宽度 | float | 矩形的宽度。 |
 | 高度 | float | 矩形的高度。 |
-| arcWidth | float | 圆弧所围外接矩形的宽度。 |
-| arcHeight | float | 圆弧所围外接矩形的高度。 |
+| arcWidth | float | 圆弧外接矩形的宽度。 |
+| arcHeight | float | 圆弧外接矩形的高度。 |
 
 ### getBackground() {#getBackground--}
 ```
@@ -514,7 +514,7 @@ public Color getBackground()
 获取页面的当前背景。
 
 **Returns:**
-java.awt.Color - 页面当前的背景颜色
+java.awt.Color - 页面当前的背景。
 ### getCharTM() {#getCharTM--}
 ```
 public AffineTransform getCharTM()
@@ -584,7 +584,7 @@ public Paint getOpacityMask()
 获取当前不透明度遮罩。
 
 **Returns:**
-java.awt.Paint - 当前不透明度遮罩。
+java.awt.Paint - 当前不透明度掩码。
 ### getPages() {#getPages--}
 ```
 public List<String> getPages()
@@ -601,17 +601,17 @@ public Paint getPaint()
 ```
 
 
-获取当前绘图。
+获取当前画笔。
 
 **Returns:**
-java.awt.Paint - 当前绘图。
+java.awt.Paint - 当前画笔。
 ### getProperties() {#getProperties--}
 ```
 public UserProperties getProperties()
 ```
 
 
-获取包括元数据在内的设备属性。
+获取包括元数据的设备属性。
 
 **Returns:**
 [UserProperties](../../com.aspose.page/userproperties) - Device properties.
@@ -761,10 +761,10 @@ public Stroke getStroke()
 ```
 
 
-获取当前笔触。
+获取当前描边。
 
 **Returns:**
-java.awt.Stroke - 当前描边。
+java.awt.Stroke - 当前笔画。
 ### getText() {#getText--}
 ```
 public String getText()
@@ -837,7 +837,7 @@ public void initClip()
 ```
 
 
-初始化设备的剪裁。
+初始化设备的裁剪区域。
 
 ### initPageNumbers() {#initPageNumbers--}
 ```
@@ -977,7 +977,7 @@ public void rotate(double theta)
 ```
 
 
-旋转当前变换矩阵。调用 writeTransform(Transform)。使用正角度 theta 旋转会将点从正 x 轴方向旋转到正 y 轴方向。
+旋转当前变换矩阵。调用 writeTransform(Transform)。使用正角度 theta 进行旋转会将点从正 x 轴方向旋转向正 y 轴方向。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -1045,7 +1045,7 @@ public void setClip(Shape clipPath)
 ```
 
 
-指定设备的剪裁。
+指定设备的裁剪区域。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -1058,12 +1058,12 @@ public void setCreator(String creator)
 ```
 
 
-指定生成设备输出的创建者。
+指定生成的设备输出的创建者。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| creator | java.lang.String | 创建者值。 |
+| 创建者 | java.lang.String | 创建者值。 |
 
 ### setFont(ITrFont font) {#setFont-com.aspose.page.ITrFont-}
 ```
@@ -1089,7 +1089,7 @@ public void setOpacity(float opacity)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| opacity | float | 不透明度。 |
+| 不透明度 | float | 不透明度。 |
 
 ### setOpacityMask(Paint opacityMask) {#setOpacityMask-java.awt.Paint-}
 ```
@@ -1097,12 +1097,12 @@ public void setOpacityMask(Paint opacityMask)
 ```
 
 
-指定不透明度蒙版。
+指定不透明度遮罩。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| opacityMask | java.awt.Paint | 一个不透明度蒙版。 |
+| opacityMask | java.awt.Paint | 不透明度蒙版。 |
 
 ### setPaint(Paint paint) {#setPaint-java.awt.Paint-}
 ```
@@ -1115,7 +1115,7 @@ public void setPaint(Paint paint)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| paint | java.awt.Paint | 一种绘画。 |
+| paint | java.awt.Paint | 绘图。 |
 
 ### setProperties(UserProperties props) {#setProperties-com.aspose.page.UserProperties-}
 ```
@@ -1123,7 +1123,7 @@ public void setProperties(UserProperties props)
 ```
 
 
-指定包括元数据在内的设备属性。
+指定设备属性，包括元数据。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -1167,7 +1167,7 @@ public void setStroke(Stroke stroke)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| stroke | java.awt.Stroke | 一个描边。 |
+| stroke | java.awt.Stroke | 描边。 |
 
 ### setTextRenderingMode(TextRenderingMode textRenderingMode) {#setTextRenderingMode-com.aspose.page.TextRenderingMode-}
 ```
@@ -1214,13 +1214,13 @@ public void shear(double shx, double shy)
 ```
 
 
-剪切当前的变换矩阵。调用 writeTransform(Transform)。
+剪切当前变换矩阵。调用 writeTransform(Transform)。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| shx | double | X 轴的剪切。 |
-| shy | double | Y 轴的剪切。 |
+| shx | double | X 轴方向的剪切。 |
+| shy | double | Y 轴方向的剪切。 |
 
 ### startDocument() {#startDocument--}
 ```
@@ -1246,7 +1246,7 @@ public void transform(AffineTransform transform)
 ```
 
 
-变换当前的变换矩阵。调用 writeTransform(Transform)。
+变换当前变换矩阵。调用 writeTransform(Transform)。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -1259,13 +1259,13 @@ public void translate(double x, double y)
 ```
 
 
-平移当前的变换矩阵。调用 writeTransform(Transform)。
+平移当前变换矩阵。调用 writeTransform(Transform)。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| x | double | X 轴的平移。 |
-| y | double | Y 轴的平移。 |
+| x | double | X 轴方向的平移。 |
+| y | double | Y 轴方向的平移。 |
 
 ### updatePageParameters(IMultiPageDevice device) {#updatePageParameters-com.aspose.page.IMultiPageDevice-}
 ```

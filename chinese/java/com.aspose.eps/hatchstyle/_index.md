@@ -1,7 +1,7 @@
 ---
 title: "HatchStyle"
 second_title: "Aspose.Page for Java API 参考"
-description: "存储在 .NET 中使用的填充样式的命名。"
+description: "存储 .NET 中使用的填充样式的命名。"
 type: docs
 weight: 19
 url: /zh/java/com.aspose.eps/hatchstyle/
@@ -12,7 +12,7 @@ java.lang.Object, java.lang.Enum
 public enum HatchStyle extends Enum<HatchStyle>
 ```
 
-存储在 .NET 中使用的填充样式的命名。
+存储 .NET 中使用的填充样式的命名。
 ## 字段
 
 | 字段 | 描述 |

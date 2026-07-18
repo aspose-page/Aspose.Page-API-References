@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject), [c
 public class XpsPolyLineSegment extends XpsPathPolySegment
 ```
 
-封装 PolyLineSegment 元素特性的类。此元素描述了一个包含任意数量单个顶点的多边形绘图。
+类封装 PolyLineSegment 元素特性。此元素描述包含任意数量单个顶点的多边形绘图。
 ## 方法
 
 | 方法 | 描述 |
@@ -21,10 +21,10 @@ public class XpsPolyLineSegment extends XpsPathPolySegment
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
-| [isStroked()](#isStroked--) | 返回指定路径此段是否绘制描边的值。 |
+| [isStroked()](#isStroked--) | 返回指定是否绘制此路径段描边的值。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setStroked(boolean value)](#setStroked-boolean-) | 设置指定路径此段是否绘制描边的值。 |
+| [setStroked(boolean value)](#setStroked-boolean-) | 设置指定是否绘制此路径段描边的值。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -80,10 +80,10 @@ public boolean isStroked()
 ```
 
 
-返回指定路径此段是否绘制描边的值。
+返回指定是否绘制此路径段描边的值。
 
 **Returns:**
-boolean - 指定路径此段是否绘制描边的值。
+boolean - 指定是否绘制此路径段描边的值。
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -106,12 +106,12 @@ public void setStroked(boolean value)
 ```
 
 
-设置指定路径此段是否绘制描边的值。
+设置指定是否绘制此路径段描边的值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 值 | boolean | 指定路径此段是否绘制描边的值。 |
+| 值 | boolean | 指定是否绘制此路径段描边的值。 |
 
 ### toString() {#toString--}
 ```

@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class PageICMRenderingIntent extends Feature implements IJobPrintTicketItem, IDocumentPrintTicketItem, IPagePrintTicketItem
 ```
 
-描述 ICC v2 规范定义的渲染意图。如果图像或图形元素具有指定渲染意图的嵌入式配置文件，则应忽略此值。 https://docs.microsoft.com/en-us/windows/win32/printdocs/pageicmrenderingintent
+描述由 ICC v2 规范定义的渲染意图。如果图像或图形元素嵌入了指定渲染意图的配置文件，则应忽略此值。 https://docs.microsoft.com/en-us/windows/win32/printdocs/pageicmrenderingintent
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -47,7 +47,7 @@ public PageICMRenderingIntent(PageICMRenderingIntent.PageICMRenderingIntentOptio
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| options | [PageICMRenderingIntentOption\[\]](../../com.aspose.xps.metadata/pageicmrenderingintentoption) | 特定于此功能的选项数组。 |
+| options | [PageICMRenderingIntentOption\[\]](../../com.aspose.xps.metadata/pageicmrenderingintentoption) | 针对该功能的特定选项数组。 |
 
 ### add(IFeatureItem[] items) {#add-com.aspose.xps.metadata.IFeatureItem...-}
 ```
@@ -55,7 +55,7 @@ public void add(IFeatureItem[] items)
 ```
 
 
-将一组项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
+将一系列项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

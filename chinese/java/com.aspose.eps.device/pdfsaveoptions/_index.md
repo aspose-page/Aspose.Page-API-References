@@ -17,10 +17,10 @@ public class PdfSaveOptions extends SaveOptions
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [PdfSaveOptions()](#PdfSaveOptions--) | 使用默认值初始化 PdfSaveOptions 类的新实例，标志 suppressErrors 为 true，debug 为 false。 |
-| [PdfSaveOptions(boolean supressErrors)](#PdfSaveOptions-boolean-) | 使用默认值初始化 PdfSaveOptions 类的新实例，标志 debug 为 false。 |
-| [PdfSaveOptions(Dimension size)](#PdfSaveOptions-java.awt.Dimension-) | 使用页面尺寸初始化 PdfSaveOptions 类的新实例。 |
-| [PdfSaveOptions(boolean supressErrors, Dimension size)](#PdfSaveOptions-boolean-java.awt.Dimension-) | 使用默认值初始化 PdfSaveOptions 类的新实例，标志 debug 为 false，并设置页面尺寸。 |
+| [PdfSaveOptions()](#PdfSaveOptions--) | 初始化 PdfSaveOptions 类的新实例，默认标志 suppressErrors 为 true，debug 为 false。 |
+| [PdfSaveOptions(boolean supressErrors)](#PdfSaveOptions-boolean-) | 初始化 PdfSaveOptions 类的新实例，默认标志 debug 为 false。 |
+| [PdfSaveOptions(Dimension size)](#PdfSaveOptions-java.awt.Dimension-) | 初始化 PdfSaveOptions 类的新实例，使用页面尺寸。 |
+| [PdfSaveOptions(boolean supressErrors, Dimension size)](#PdfSaveOptions-boolean-java.awt.Dimension-) | 初始化 PdfSaveOptions 类的新实例，默认标志 debug 为 false，并使用页面尺寸。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -33,13 +33,13 @@ public class PdfSaveOptions extends SaveOptions
 | [getJpegQualityLevel()](#getJpegQualityLevel--) | 返回指定图像压缩级别的值。 |
 | [getSize()](#getSize--) | 获取页面或图像的大小。 |
 | [hashCode()](#hashCode--) |  |
-| [isDebug()](#isDebug--) | 获取允许在转换期间输出警告和消息的标志。 |
+| [isDebug()](#isDebug--) | 获取在转换期间允许输出警告和消息的标志。 |
 | [isSupressErrors()](#isSupressErrors--) | 返回指示在转换期间是否会抑制错误的值。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAdditionalFontsFolders(String[] fontsFolders)](#setAdditionalFontsFolders-java.lang.String---) | 指定转换器应在其中查找输入文档字体的附加字体文件夹。 |
 | [setConvertFontsToTTF(boolean value)](#setConvertFontsToTTF-boolean-) | 指定是否将非 TrueType 字体保存为 TTF。 |
-| [setDebug(boolean debug)](#setDebug-boolean-) | 指定允许在转换期间输出警告和消息的标志。 |
+| [setDebug(boolean debug)](#setDebug-boolean-) | 指定在转换期间允许输出警告和消息的标志。 |
 | [setJpegQualityLevel(int value)](#setJpegQualityLevel-int-) | 设置指定图像压缩级别的值。 |
 | [setSize(Dimension size)](#setSize-java.awt.Dimension-) | 指定页面或图像的大小。 |
 | [setSupressErrors(boolean supressErrors)](#setSupressErrors-boolean-) | 指定指示在转换期间是否抑制错误的标志。 |
@@ -53,7 +53,7 @@ public PdfSaveOptions()
 ```
 
 
-使用默认值初始化 PdfSaveOptions 类的新实例，标志 suppressErrors 为 true，debug 为 false。
+初始化 PdfSaveOptions 类的新实例，默认标志 suppressErrors 为 true，debug 为 false。
 
 ### PdfSaveOptions(boolean supressErrors) {#PdfSaveOptions-boolean-}
 ```
@@ -61,12 +61,12 @@ public PdfSaveOptions(boolean supressErrors)
 ```
 
 
-使用默认值初始化 PdfSaveOptions 类的新实例，标志 debug 为 false。
+初始化 PdfSaveOptions 类的新实例，默认标志 debug 为 false。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| supressErrors | boolean | 如果为 true，转换将在非关键错误的情况下继续。 |
+| supressErrors | boolean | 如果为 true，则即使出现非关键错误，转换仍将继续。 |
 
 ### PdfSaveOptions(Dimension size) {#PdfSaveOptions-java.awt.Dimension-}
 ```
@@ -74,12 +74,12 @@ public PdfSaveOptions(Dimension size)
 ```
 
 
-使用页面尺寸初始化 PdfSaveOptions 类的新实例。
+初始化 PdfSaveOptions 类的新实例，使用页面尺寸。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 大小 | java.awt.Dimension | 页面的尺寸。 |
+| 大小 | java.awt.Dimension | 页面的大小。 |
 
 ### PdfSaveOptions(boolean supressErrors, Dimension size) {#PdfSaveOptions-boolean-java.awt.Dimension-}
 ```
@@ -87,13 +87,13 @@ public PdfSaveOptions(boolean supressErrors, Dimension size)
 ```
 
 
-使用默认值初始化 PdfSaveOptions 类的新实例，标志 debug 为 false，并设置页面尺寸。
+初始化 PdfSaveOptions 类的新实例，默认标志 debug 为 false，并使用页面尺寸。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| supressErrors | boolean | 如果为 true，转换将在非关键错误的情况下继续。 |
-| 大小 | java.awt.Dimension | 页面的尺寸。 |
+| supressErrors | boolean | 如果为 true，则即使出现非关键错误，转换仍将继续。 |
+| 大小 | java.awt.Dimension | 页面的大小。 |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -116,7 +116,7 @@ public String[] getAdditionalFontsFolders()
 ```
 
 
-返回转换器应在其中查找输入文档字体的附加字体文件夹。默认文件夹是操作系统用于内部需求的标准字体文件夹。
+返回转换器应在其中为输入文档查找字体的附加字体文件夹。默认文件夹是操作系统用于内部需求的标准字体文件夹。
 
 **Returns:**
 java.lang.String[] - 字体文件夹数组。
@@ -156,7 +156,7 @@ public int getJpegQualityLevel()
 ```
 
 
-返回指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值会产生最低质量的图像，而 100 则产生最高质量的图像。
+返回指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值产生最低质量的图像，而 100 则产生最高质量的图像。
 
 **Returns:**
 int - 指定图像压缩级别的值。
@@ -186,7 +186,7 @@ public boolean isDebug()
 ```
 
 
-获取允许在转换期间输出警告和消息的标志。
+获取在转换期间允许输出警告和消息的标志。
 
 **Returns:**
 boolean - 调试值。
@@ -222,7 +222,7 @@ public void setAdditionalFontsFolders(String[] fontsFolders)
 ```
 
 
-指定转换器应在其中查找输入文档字体的附加字体文件夹。默认文件夹是操作系统用于内部需求的标准字体文件夹。
+指定转换器应在其中为输入文档查找字体的附加字体文件夹。默认文件夹是操作系统用于内部需求的标准字体文件夹。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -235,7 +235,7 @@ public void setConvertFontsToTTF(boolean value)
 ```
 
 
-指定是否将非 TrueType 字体保存为 TTF。它显著降低 PS 转 PDF 转换后文档的体积，并提高在非 TrueType 字体大量文本的 PS 文件转换为任何输出格式的速度。然而，在将 PostSctipt 文件转换为图像时会出现轻微的垂直文字位移。
+指定是否将非 TrueType 字体保存为 TTF。这会显著减小 PS 转 PDF 转换后生成的文档体积，并提升将包含大量非 TrueType 字体文本的 PS 文件转换为任何输出格式的速度。然而，在将 PostSctipt 文件转换为图像时会出现轻微的垂直文字位移。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -248,7 +248,7 @@ public void setDebug(boolean debug)
 ```
 
 
-指定允许在转换期间输出警告和消息的标志。
+指定在转换期间允许输出警告和消息的标志。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -261,7 +261,7 @@ public void setJpegQualityLevel(int value)
 ```
 
 
-设置指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值会产生最低质量的图像，而 100 则产生最高质量的图像。
+设置指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值产生最低质量的图像，而 100 则产生最高质量的图像。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

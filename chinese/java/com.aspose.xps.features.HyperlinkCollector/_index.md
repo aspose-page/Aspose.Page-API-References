@@ -14,4 +14,4 @@ url: /zh/java/com.aspose.xps.features.hyperlinkcollector/
 
 | 类 | 描述 |
 | --- | --- |
-| [HyperlinkCollector](../com.aspose.xps.features.hyperlinkcollector/hyperlinkcollector) | 该类提供从 XPS 文档当前页面收集带超链接的 XPS 元素。 |
+| [HyperlinkCollector](../com.aspose.xps.features.hyperlinkcollector/hyperlinkcollector) | 该类提供从 XPS 文档的当前页面收集带超链接的 XPS 元素。 |

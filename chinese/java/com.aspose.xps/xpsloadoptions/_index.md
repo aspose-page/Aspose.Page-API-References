@@ -17,7 +17,7 @@ XPS 文档加载选项。
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [XpsLoadOptions()](#XpsLoadOptions--) | 创建 options 的新实例。 |
+| [XpsLoadOptions()](#XpsLoadOptions--) | 创建选项的新实例。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -37,7 +37,7 @@ public XpsLoadOptions()
 ```
 
 
-创建 options 的新实例。
+创建选项的新实例。
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

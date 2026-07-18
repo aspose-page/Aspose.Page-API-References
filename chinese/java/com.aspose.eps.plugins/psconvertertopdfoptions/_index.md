@@ -7,7 +7,7 @@ weight: 13
 url: /zh/java/com.aspose.eps.plugins/psconvertertopdfoptions/
 ---
 **Inheritance:**
-java.lang.Object，[com.aspose.eps.plugins.PsConverterOptions](../../com.aspose.eps.plugins/psconverteroptions)
+java.lang.Object, [com.aspose.eps.plugins.PsConverterOptions](../../com.aspose.eps.plugins/psconverteroptions)
 ```
 public class PsConverterToPdfOptions extends PsConverterOptions
 ```
@@ -22,8 +22,8 @@ public class PsConverterToPdfOptions extends PsConverterOptions
 
 | 方法 | 描述 |
 | --- | --- |
-| [addDataSource(IDataSource dataSource)](#addDataSource-com.aspose.page.plugins.IDataSource-) | 向 PsConverter 插件的数据集合添加新数据源。 |
-| [addSaveDataSource(IDataSource saveDataSource)](#addSaveDataSource-com.aspose.page.plugins.IDataSource-) | 向 PsConverterOptions 插件的数据集合添加新数据源。 |
+| [addDataSource(IDataSource dataSource)](#addDataSource-com.aspose.page.plugins.IDataSource-) | 向 PsConverter 插件的数据集合添加新的数据源。 |
+| [addSaveDataSource(IDataSource saveDataSource)](#addSaveDataSource-com.aspose.page.plugins.IDataSource-) | 向 PsConverterOptions 插件的数据集合添加新的数据源。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAdditionalFontsFolders()](#getAdditionalFontsFolders--) | 返回转换器应在其中查找输入文档字体的附加字体文件夹。 |
 | [getClass()](#getClass--) |  |
@@ -31,14 +31,14 @@ public class PsConverterToPdfOptions extends PsConverterOptions
 | [getExceptions()](#getExceptions--) | 返回非关键错误的列表。 |
 | [getJpegQualityLevel()](#getJpegQualityLevel--) | 返回指定图像压缩级别的值。 |
 | [getOperationName()](#getOperationName--) | 返回操作名称。 |
-| [getSaveTargetsCollection()](#getSaveTargetsCollection--) | 获取用于保存操作结果的已添加目标的集合。 |
+| [getSaveTargetsCollection()](#getSaveTargetsCollection--) | 获取用于保存操作结果的已添加目标集合。 |
 | [hashCode()](#hashCode--) |  |
-| [isDebug()](#isDebug--) | 获取允许在转换期间输出警告和消息的标志。 |
+| [isDebug()](#isDebug--) | 获取在转换期间允许输出警告和消息的标志。 |
 | [isSupressErrors()](#isSupressErrors--) | 返回指示在转换期间是否会抑制错误的值。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAdditionalFontsFolders(String[] fontsFolders)](#setAdditionalFontsFolders-java.lang.String---) | 指定转换器应在其中查找输入文档字体的附加字体文件夹。 |
-| [setDebug(boolean debug)](#setDebug-boolean-) | 指定允许在转换期间输出警告和消息的标志。 |
+| [setDebug(boolean debug)](#setDebug-boolean-) | 指定在转换期间允许输出警告和消息的标志。 |
 | [setJpegQualityLevel(int value)](#setJpegQualityLevel-int-) | 设置指定图像压缩级别的值。 |
 | [setSupressErrors(boolean supressErrors)](#setSupressErrors-boolean-) | 指定指示在转换期间是否抑制错误的标志。 |
 | [toString()](#toString--) |  |
@@ -59,7 +59,7 @@ public final void addDataSource(IDataSource dataSource)
 ```
 
 
-向 PsConverter 插件的数据集合添加新数据源。
+向 PsConverter 插件的数据集合添加新的数据源。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -72,7 +72,7 @@ public final void addSaveDataSource(IDataSource saveDataSource)
 ```
 
 
-向 PsConverterOptions 插件的数据集合添加新数据源。
+向 PsConverterOptions 插件的数据集合添加新的数据源。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -100,7 +100,7 @@ public String[] getAdditionalFontsFolders()
 ```
 
 
-返回转换器应在其中查找输入文档字体的附加字体文件夹。默认文件夹是操作系统用于内部需求的标准字体文件夹。
+返回转换器应在其中为输入文档查找字体的附加字体文件夹。默认文件夹是操作系统用于内部需求的标准字体文件夹。
 
 **Returns:**
 java.lang.String[] - 字体文件夹数组。
@@ -140,7 +140,7 @@ public int getJpegQualityLevel()
 ```
 
 
-返回指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值会产生最低质量的图像，而 100 则产生最高质量的图像。
+返回指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值产生最低质量的图像，而 100 则产生最高质量的图像。
 
 **Returns:**
 int - 指定图像压缩级别的值。
@@ -160,7 +160,7 @@ public final List<IDataSource> getSaveTargetsCollection()
 ```
 
 
-获取用于保存操作结果的已添加目标的集合。
+获取用于保存操作结果的已添加目标集合。
 
 **Returns:**
 java.util.List<com.aspose.page.plugins.IDataSource>
@@ -180,7 +180,7 @@ public boolean isDebug()
 ```
 
 
-获取允许在转换期间输出警告和消息的标志。
+获取在转换期间允许输出警告和消息的标志。
 
 **Returns:**
 boolean - 调试值。
@@ -216,7 +216,7 @@ public void setAdditionalFontsFolders(String[] fontsFolders)
 ```
 
 
-指定转换器应在其中查找输入文档字体的附加字体文件夹。默认文件夹是操作系统用于内部需求的标准字体文件夹。
+指定转换器应在其中为输入文档查找字体的附加字体文件夹。默认文件夹是操作系统用于内部需求的标准字体文件夹。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -229,7 +229,7 @@ public void setDebug(boolean debug)
 ```
 
 
-指定允许在转换期间输出警告和消息的标志。
+指定在转换期间允许输出警告和消息的标志。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -242,7 +242,7 @@ public void setJpegQualityLevel(int value)
 ```
 
 
-设置指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值会产生最低质量的图像，而 100 则产生最高质量的图像。
+设置指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值产生最低质量的图像，而 100 则产生最高质量的图像。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

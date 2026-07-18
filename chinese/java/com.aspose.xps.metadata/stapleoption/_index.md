@@ -23,15 +23,15 @@ public static final class Staple.StapleOption extends Option
 | 字段 | 描述 |
 | --- | --- |
 | [None](#None) | 指定无装订。 |
-| [SaddleStitch](#SaddleStitch) | 指定骑马订装订。 |
-| [StapleBottomLeft](#StapleBottomLeft) | 指定在底部左角放置单个订书钉。 |
-| [StapleBottomRight](#StapleBottomRight) | 指定在底部右角放置单个订书钉。 |
-| [StapleDualBottom](#StapleDualBottom) | 指定在底部边缘放置两个订书钉。 |
-| [StapleDualLeft](#StapleDualLeft) | 指定在左侧边缘放置两个订书钉。 |
-| [StapleDualRight](#StapleDualRight) | 指定在右侧边缘放置两个订书钉。 |
-| [StapleDualTop](#StapleDualTop) | 指定在顶部边缘放置两个订书钉 |
-| [StapleTopLeft](#StapleTopLeft) | 指定在顶部左角放置单个订书钉。 |
-| [StapleTopRight](#StapleTopRight) | 指定在顶部右角放置单个订书钉。 |
+| [SaddleStitch](#SaddleStitch) | 指定骑马钉装订。 |
+| [StapleBottomLeft](#StapleBottomLeft) | 指定在左下角的单个订书钉。 |
+| [StapleBottomRight](#StapleBottomRight) | 指定在右下角的单个订书钉。 |
+| [StapleDualBottom](#StapleDualBottom) | 指定沿底部边缘的两个订书钉。 |
+| [StapleDualLeft](#StapleDualLeft) | 指定沿左侧边缘的两个订书钉。 |
+| [StapleDualRight](#StapleDualRight) | 指定沿右侧边缘的两个订书钉。 |
+| [StapleDualTop](#StapleDualTop) | 指定沿顶部边缘的两个订书钉 |
+| [StapleTopLeft](#StapleTopLeft) | 指定在左上角的单个订书钉。 |
+| [StapleTopRight](#StapleTopRight) | 指定在右上角的单个订书钉。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -61,7 +61,7 @@ public StapleOption(String optionName, Staple.IStapleOptionItem[] items)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| optionName | java.lang.String | 选项名称。 |
+| optionName | java.lang.String | 一个选项名称。 |
 | items | [IStapleOptionItem\[\]](../../com.aspose.xps.metadata/istapleoptionitem) | 任意的 IStapleOptionItem 实例数组。 |
 
 ### None {#None}
@@ -78,7 +78,7 @@ public static final Staple.StapleOption SaddleStitch
 ```
 
 
-指定骑马订装订。
+指定骑马钉装订。
 
 ### StapleBottomLeft {#StapleBottomLeft}
 ```
@@ -86,7 +86,7 @@ public static final Staple.StapleOption StapleBottomLeft
 ```
 
 
-指定在底部左角放置单个订书钉。
+指定在左下角的单个订书钉。
 
 ### StapleBottomRight {#StapleBottomRight}
 ```
@@ -94,7 +94,7 @@ public static final Staple.StapleOption StapleBottomRight
 ```
 
 
-指定在底部右角放置单个订书钉。
+指定在右下角的单个订书钉。
 
 ### StapleDualBottom {#StapleDualBottom}
 ```
@@ -102,7 +102,7 @@ public static final Staple.StapleOption StapleDualBottom
 ```
 
 
-指定在底部边缘放置两个订书钉。
+指定沿底部边缘的两个订书钉。
 
 ### StapleDualLeft {#StapleDualLeft}
 ```
@@ -110,7 +110,7 @@ public static final Staple.StapleOption StapleDualLeft
 ```
 
 
-指定在左侧边缘放置两个订书钉。
+指定沿左侧边缘的两个订书钉。
 
 ### StapleDualRight {#StapleDualRight}
 ```
@@ -118,7 +118,7 @@ public static final Staple.StapleOption StapleDualRight
 ```
 
 
-指定在右侧边缘放置两个订书钉。
+指定沿右侧边缘的两个订书钉。
 
 ### StapleDualTop {#StapleDualTop}
 ```
@@ -126,7 +126,7 @@ public static final Staple.StapleOption StapleDualTop
 ```
 
 
-指定在顶部边缘放置两个订书钉
+指定沿顶部边缘的两个订书钉
 
 ### StapleTopLeft {#StapleTopLeft}
 ```
@@ -134,7 +134,7 @@ public static final Staple.StapleOption StapleTopLeft
 ```
 
 
-指定在顶部左角放置单个订书钉。
+指定在左上角的单个订书钉。
 
 ### StapleTopRight {#StapleTopRight}
 ```
@@ -142,7 +142,7 @@ public static final Staple.StapleOption StapleTopRight
 ```
 
 
-指定在顶部右角放置单个订书钉。
+指定在右上角的单个订书钉。
 
 ### add(IOptionItem[] items) {#add-com.aspose.xps.metadata.IOptionItem...-}
 ```
@@ -244,7 +244,7 @@ public final Staple.StapleOption setAngle(int angle)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| angle | int | Angle 计分属性值。 |
+| angle | int | 一个 Angle 计分属性值。 |
 
 **Returns:**
 [StapleOption](../../com.aspose.xps.metadata/stapleoption) - This option instance.
@@ -259,7 +259,7 @@ public final Staple.StapleOption setSheetCapacity(int sheetCapacity)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| sheetCapacity | int | SheetCapacity 计分属性值。 |
+| sheetCapacity | int | 一个 SheetCapacity 计分属性值。 |
 
 **Returns:**
 [StapleOption](../../com.aspose.xps.metadata/stapleoption) - This option instance.

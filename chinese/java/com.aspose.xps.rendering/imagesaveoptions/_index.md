@@ -1,7 +1,7 @@
 ---
 title: "ImageSaveOptions"
 second_title: "Aspose.Page for Java API 参考"
-description: "用于 XPS-as-image 保存选项的基础类。"
+description: "用于 XPS-as-image 保存选项的基本类。"
 type: docs
 weight: 11
 url: /zh/java/com.aspose.xps.rendering/imagesaveoptions/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.page.SaveOptions](../../com.aspose.page/saveoption
 public abstract class ImageSaveOptions extends SaveOptions implements IMultiPageSaveOptions, IPipelineOptions, IEventBasedModificationOptions
 ```
 
-用于 XPS-as-image 保存选项的基础类。
+用于 XPS-as-image 保存选项的基本类。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -27,7 +27,7 @@ public abstract class ImageSaveOptions extends SaveOptions implements IMultiPage
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAdditionalFontsFolders()](#getAdditionalFontsFolders--) | 返回转换器应在其中查找输入文档字体的附加字体文件夹。 |
-| [getBatchSize()](#getBatchSize--) | 返回要从节点传递到节点的页面部分的大小。 |
+| [getBatchSize()](#getBatchSize--) | 返回从节点到节点传递的一部分页面的大小。 |
 | [getBeforePageSavingEventHandlers()](#getBeforePageSavingEventHandlers--) | 返回在 XPS 页面保存之前执行修改的事件处理程序集合。 |
 | [getClass()](#getClass--) |  |
 | [getConvertFontsToTTF()](#getConvertFontsToTTF--) | 获取标志，指示是否需要将非 TrueType 字体保存为 TTF。 |
@@ -35,24 +35,24 @@ public abstract class ImageSaveOptions extends SaveOptions implements IMultiPage
 | [getImageSize()](#getImageSize--) | 获取输出图像的像素大小。 |
 | [getInterpolationMode()](#getInterpolationMode--) | 获取插值模式。 |
 | [getJpegQualityLevel()](#getJpegQualityLevel--) | 返回指定图像压缩级别的值。 |
-| [getPageNumbers()](#getPageNumbers--) | 获取要渲染的页面数量数组。 |
+| [getPageNumbers()](#getPageNumbers--) | 获取要渲染的页面编号数组。 |
 | [getResolution()](#getResolution--) | 获取图像分辨率。 |
 | [getSize()](#getSize--) | 获取页面或图像的大小。 |
 | [getSmoothingMode()](#getSmoothingMode--) | 获取平滑模式。 |
 | [getTextRenderingHint()](#getTextRenderingHint--) | 获取文本渲染提示。 |
 | [hashCode()](#hashCode--) |  |
-| [isDebug()](#isDebug--) | 获取允许在转换期间输出警告和消息的标志。 |
+| [isDebug()](#isDebug--) | 获取在转换期间允许输出警告和消息的标志。 |
 | [isSupressErrors()](#isSupressErrors--) | 返回指示在转换期间是否会抑制错误的值。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAdditionalFontsFolders(String[] fontsFolders)](#setAdditionalFontsFolders-java.lang.String---) | 指定转换器应在其中查找输入文档字体的附加字体文件夹。 |
-| [setBatchSize(int value)](#setBatchSize-int-) | 设置要从节点传递到节点的页面部分的大小。 |
+| [setBatchSize(int value)](#setBatchSize-int-) | 设置从节点到节点传递的一部分页面的大小。 |
 | [setConvertFontsToTTF(boolean value)](#setConvertFontsToTTF-boolean-) | 指定是否将非 TrueType 字体保存为 TTF。 |
-| [setDebug(boolean debug)](#setDebug-boolean-) | 指定允许在转换期间输出警告和消息的标志。 |
+| [setDebug(boolean debug)](#setDebug-boolean-) | 指定在转换期间允许输出警告和消息的标志。 |
 | [setImageSize(Dimension value)](#setImageSize-java.awt.Dimension-) | 设置输出图像的像素大小。 |
 | [setInterpolationMode(InterpolationMode value)](#setInterpolationMode-com.aspose.xps.rendering.InterpolationMode-) | 设置插值模式。 |
 | [setJpegQualityLevel(int value)](#setJpegQualityLevel-int-) | 设置指定图像压缩级别的值。 |
-| [setPageNumbers(int[] value)](#setPageNumbers-int---) | 设置要渲染的页面数量数组。 |
+| [setPageNumbers(int[] value)](#setPageNumbers-int---) | 设置要渲染的页面编号数组。 |
 | [setResolution(float value)](#setResolution-float-) | 设置图像分辨率。 |
 | [setSize(Dimension size)](#setSize-java.awt.Dimension-) | 指定页面或图像的大小。 |
 | [setSmoothingMode(SmoothingMode value)](#setSmoothingMode-com.aspose.xps.rendering.SmoothingMode-) | 设置平滑模式。 |
@@ -91,7 +91,7 @@ public String[] getAdditionalFontsFolders()
 ```
 
 
-返回转换器应在其中查找输入文档字体的附加字体文件夹。默认文件夹是操作系统用于内部需求的标准字体文件夹。
+返回转换器应在其中为输入文档查找字体的附加字体文件夹。默认文件夹是操作系统用于内部需求的标准字体文件夹。
 
 **Returns:**
 java.lang.String[] - 字体文件夹数组。
@@ -101,10 +101,10 @@ public int getBatchSize()
 ```
 
 
-返回要从节点传递到节点的页面部分的大小。
+返回从节点到节点传递的一部分页面的大小。
 
 **Returns:**
-int - 要从节点传递到节点的页面部分的大小。
+int - 从节点到节点传递的一部分页面的大小。
 ### getBeforePageSavingEventHandlers() {#getBeforePageSavingEventHandlers--}
 ```
 public List<EventBasedModifications.BeforePageSavingEventHandler> getBeforePageSavingEventHandlers()
@@ -171,7 +171,7 @@ public int getJpegQualityLevel()
 ```
 
 
-返回指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值会产生最低质量的图像，而 100 则产生最高质量的图像。
+返回指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值产生最低质量的图像，而 100 则产生最高质量的图像。
 
 **Returns:**
 int - 指定图像压缩级别的值。
@@ -181,7 +181,7 @@ public int[] getPageNumbers()
 ```
 
 
-获取要渲染的页面数量数组。
+获取要渲染的页面编号数组。
 
 **Returns:**
 int[] - 页面数量。
@@ -241,7 +241,7 @@ public boolean isDebug()
 ```
 
 
-获取允许在转换期间输出警告和消息的标志。
+获取在转换期间允许输出警告和消息的标志。
 
 **Returns:**
 boolean - 调试值。
@@ -277,7 +277,7 @@ public void setAdditionalFontsFolders(String[] fontsFolders)
 ```
 
 
-指定转换器应在其中查找输入文档字体的附加字体文件夹。默认文件夹是操作系统用于内部需求的标准字体文件夹。
+指定转换器应在其中为输入文档查找字体的附加字体文件夹。默认文件夹是操作系统用于内部需求的标准字体文件夹。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -290,7 +290,7 @@ public void setBatchSize(int value)
 ```
 
 
-设置要从节点传递到节点的页面部分的大小。
+设置从节点到节点传递的一部分页面的大小。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -303,7 +303,7 @@ public void setConvertFontsToTTF(boolean value)
 ```
 
 
-指定是否将非 TrueType 字体保存为 TTF。它显著降低 PS 转 PDF 转换后文档的体积，并提高在非 TrueType 字体大量文本的 PS 文件转换为任何输出格式的速度。然而，在将 PostSctipt 文件转换为图像时会出现轻微的垂直文字位移。
+指定是否将非 TrueType 字体保存为 TTF。这会显著减小 PS 转 PDF 转换后生成的文档体积，并提升将包含大量非 TrueType 字体文本的 PS 文件转换为任何输出格式的速度。然而，在将 PostSctipt 文件转换为图像时会出现轻微的垂直文字位移。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -316,7 +316,7 @@ public void setDebug(boolean debug)
 ```
 
 
-指定允许在转换期间输出警告和消息的标志。
+指定在转换期间允许输出警告和消息的标志。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -355,7 +355,7 @@ public void setJpegQualityLevel(int value)
 ```
 
 
-设置指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值会产生最低质量的图像，而 100 则产生最高质量的图像。
+设置指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值产生最低质量的图像，而 100 则产生最高质量的图像。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -368,7 +368,7 @@ public void setPageNumbers(int[] value)
 ```
 
 
-设置要渲染的页面数量数组。
+设置要渲染的页面编号数组。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -438,7 +438,7 @@ public void setTextRenderingHint(TextRenderingHint value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [TextRenderingHint](../../com.aspose.xps.rendering/textrenderinghint) | 文本呈现提示。 |
+| value | [TextRenderingHint](../../com.aspose.xps.rendering/textrenderinghint) | 文本渲染提示。 |
 
 ### toString() {#toString--}
 ```

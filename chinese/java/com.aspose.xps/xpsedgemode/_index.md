@@ -12,7 +12,7 @@ java.lang.Object, java.lang.Enum
 public enum XpsEdgeMode extends Enum<XpsEdgeMode>
 ```
 
-Canvas 元素的 RenderOptions.EdgeMode 属性的有效取值。
+Canvas 元素的 RenderOptions.EdgeMode 属性的有效值。
 ## 字段
 
 | 字段 | 描述 |

@@ -21,9 +21,9 @@ public enum PdfImageCompression extends Enum<PdfImageCompression>
 | [Flate](#Flate) | Flate 压缩。 |
 | [Jpeg](#Jpeg) | JPEG 压缩。 |
 | [LzwBaselinePredictor](#LzwBaselinePredictor) | 预测器选择被限制为 PNG Paeth 预测器，以加快处理速度。 |
-| [LzwOptimizedPredictor](#LzwOptimizedPredictor) | 预测器选择更为复杂，应该能产生更小的图像尺寸，但需要更多时间。 |
-| [None](#None) | 保存原始图像字节，导致 PDF 文件尺寸更大。 |
-| [Rle](#Rle) | Run Length 压缩。 |
+| [LzwOptimizedPredictor](#LzwOptimizedPredictor) | 预测器选择更为复杂，应该能够得到更小的图像尺寸，但会耗费更多时间。 |
+| [None](#None) | 保存原始图像字节，会导致 PDF 文件体积更大。 |
+| [Rle](#Rle) | 行程长度压缩。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -75,7 +75,7 @@ public static final PdfImageCompression LzwBaselinePredictor
 ```
 
 
-预测器选择被限制为 PNG Paeth 预测器，以加快处理速度。实际表现出乎意料地好。优于 LzwOptimizedPredictor。
+预测器选择被限制为 PNG Paeth 预测器，以加快处理速度。实际表现出乎意料地好。优于 LzwOptimizedPredictor 。
 
 ### LzwOptimizedPredictor {#LzwOptimizedPredictor}
 ```
@@ -83,7 +83,7 @@ public static final PdfImageCompression LzwOptimizedPredictor
 ```
 
 
-预测器选择更为复杂，应该能产生更小的图像尺寸，但需要更多时间。
+预测器选择更为复杂，应该能够得到更小的图像尺寸，但会耗费更多时间。
 
 ### None {#None}
 ```
@@ -91,7 +91,7 @@ public static final PdfImageCompression None
 ```
 
 
-保存原始图像字节，导致 PDF 文件尺寸更大。
+保存原始图像字节，会导致 PDF 文件体积更大。
 
 ### Rle {#Rle}
 ```
@@ -99,7 +99,7 @@ public static final PdfImageCompression Rle
 ```
 
 
-Run Length 压缩。
+行程长度压缩。
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

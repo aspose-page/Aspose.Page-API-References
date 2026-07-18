@@ -17,8 +17,8 @@ public class PsSaveOptions extends SaveOptions
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [PsSaveOptions()](#PsSaveOptions--) | 使用默认值初始化 PdfSaveOptions 类的新实例，标志 suppressErrors 为 true，debug 为 false。 |
-| [PsSaveOptions(boolean supressErrors)](#PsSaveOptions-boolean-) | 使用默认值初始化 PdfSaveOptions 类的新实例，标志 debug 为 false。 |
+| [PsSaveOptions()](#PsSaveOptions--) | 初始化 PdfSaveOptions 类的新实例，默认标志 suppressErrors 为 true，debug 为 false。 |
+| [PsSaveOptions(boolean supressErrors)](#PsSaveOptions-boolean-) | 初始化 PdfSaveOptions 类的新实例，默认标志 debug 为 false。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -36,8 +36,8 @@ public class PsSaveOptions extends SaveOptions
 | [getSaveFormat()](#getSaveFormat--) |  |
 | [getSize()](#getSize--) | 获取页面或图像的大小。 |
 | [hashCode()](#hashCode--) |  |
-| [isDebug()](#isDebug--) | 获取允许在转换期间输出警告和消息的标志。 |
-| [isEmbedFonts()](#isEmbedFonts--) | 指示是否在PS文档中嵌入使用的字体 |
+| [isDebug()](#isDebug--) | 获取在转换期间允许输出警告和消息的标志。 |
+| [isEmbedFonts()](#isEmbedFonts--) | 指示是否在 PS 文档中嵌入使用的字体 |
 | [isSupressErrors()](#isSupressErrors--) | 返回指示在转换期间是否会抑制错误的值。 |
 | [isTransparent()](#isTransparent--) |  |
 | [notify()](#notify--) |  |
@@ -45,9 +45,9 @@ public class PsSaveOptions extends SaveOptions
 | [setAdditionalFontsFolders(String[] fontsFolders)](#setAdditionalFontsFolders-java.lang.String---) | 指定转换器应在其中查找输入文档字体的附加字体文件夹。 |
 | [setBackgroundColor(Color backgroundColor)](#setBackgroundColor-java.awt.Color-) |  |
 | [setConvertFontsToTTF(boolean value)](#setConvertFontsToTTF-boolean-) | 指定是否将非 TrueType 字体保存为 TTF。 |
-| [setDebug(boolean debug)](#setDebug-boolean-) | 指定允许在转换期间输出警告和消息的标志。 |
-| [setEmbedFonts(boolean embedFonts)](#setEmbedFonts-boolean-) | 指定是否在PS文档中嵌入使用的字体 |
-| [setEmbedFontsAs(String embedFontsAs)](#setEmbedFontsAs-java.lang.String-) | 指定在PS文档中嵌入字体的字体类型 |
+| [setDebug(boolean debug)](#setDebug-boolean-) | 指定在转换期间允许输出警告和消息的标志。 |
+| [setEmbedFonts(boolean embedFonts)](#setEmbedFonts-boolean-) | 指定是否在 PS 文档中嵌入使用的字体 |
+| [setEmbedFontsAs(String embedFontsAs)](#setEmbedFontsAs-java.lang.String-) | 指定在 PS 文档中嵌入字体的字体类型 |
 | [setJpegQualityLevel(int value)](#setJpegQualityLevel-int-) | 设置指定图像压缩级别的值。 |
 | [setMargins(Insets margins)](#setMargins-java.awt.Insets-) |  |
 | [setPageSize(Dimension pageSize)](#setPageSize-java.awt.Dimension-) |  |
@@ -65,7 +65,7 @@ public PsSaveOptions()
 ```
 
 
-使用默认值初始化 PdfSaveOptions 类的新实例，标志 suppressErrors 为 true，debug 为 false。
+初始化 PdfSaveOptions 类的新实例，默认标志 suppressErrors 为 true，debug 为 false。
 
 ### PsSaveOptions(boolean supressErrors) {#PsSaveOptions-boolean-}
 ```
@@ -73,12 +73,12 @@ public PsSaveOptions(boolean supressErrors)
 ```
 
 
-使用默认值初始化 PdfSaveOptions 类的新实例，标志 debug 为 false。
+初始化 PdfSaveOptions 类的新实例，默认标志 debug 为 false。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| supressErrors | boolean | 如果为 true，转换将在非关键错误的情况下继续。 |
+| supressErrors | boolean | 如果为 true，则即使出现非关键错误，转换仍将继续。 |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -101,7 +101,7 @@ public String[] getAdditionalFontsFolders()
 ```
 
 
-返回转换器应在其中查找输入文档字体的附加字体文件夹。默认文件夹是操作系统用于内部需求的标准字体文件夹。
+返回转换器应在其中为输入文档查找字体的附加字体文件夹。默认文件夹是操作系统用于内部需求的标准字体文件夹。
 
 **Returns:**
 java.lang.String[] - 字体文件夹数组。
@@ -144,7 +144,7 @@ public String getEmbedFontsAs()
 
 
 **Returns:**
-java.lang.String - 在PS文档中嵌入字体的字体类型
+java.lang.String - 在 PS 文档中嵌入字体的字体类型
 ### getExceptions() {#getExceptions--}
 ```
 public List<Exception> getExceptions()
@@ -161,7 +161,7 @@ public int getJpegQualityLevel()
 ```
 
 
-返回指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值会产生最低质量的图像，而 100 则产生最高质量的图像。
+返回指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值产生最低质量的图像，而 100 则产生最高质量的图像。
 
 **Returns:**
 int - 指定图像压缩级别的值。
@@ -221,7 +221,7 @@ public boolean isDebug()
 ```
 
 
-获取允许在转换期间输出警告和消息的标志。
+获取在转换期间允许输出警告和消息的标志。
 
 **Returns:**
 boolean - 调试值。
@@ -231,7 +231,7 @@ public boolean isEmbedFonts()
 ```
 
 
-指示是否在PS文档中嵌入使用的字体
+指示是否在 PS 文档中嵌入使用的字体
 
 **Returns:**
 boolean - embedFonts 标志的值
@@ -277,7 +277,7 @@ public void setAdditionalFontsFolders(String[] fontsFolders)
 ```
 
 
-指定转换器应在其中查找输入文档字体的附加字体文件夹。默认文件夹是操作系统用于内部需求的标准字体文件夹。
+指定转换器应在其中为输入文档查找字体的附加字体文件夹。默认文件夹是操作系统用于内部需求的标准字体文件夹。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -303,7 +303,7 @@ public void setConvertFontsToTTF(boolean value)
 ```
 
 
-指定是否将非 TrueType 字体保存为 TTF。它显著降低 PS 转 PDF 转换后文档的体积，并提高在非 TrueType 字体大量文本的 PS 文件转换为任何输出格式的速度。然而，在将 PostSctipt 文件转换为图像时会出现轻微的垂直文字位移。
+指定是否将非 TrueType 字体保存为 TTF。这会显著减小 PS 转 PDF 转换后生成的文档体积，并提升将包含大量非 TrueType 字体文本的 PS 文件转换为任何输出格式的速度。然而，在将 PostSctipt 文件转换为图像时会出现轻微的垂直文字位移。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -316,7 +316,7 @@ public void setDebug(boolean debug)
 ```
 
 
-指定允许在转换期间输出警告和消息的标志。
+指定在转换期间允许输出警告和消息的标志。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -329,7 +329,7 @@ public void setEmbedFonts(boolean embedFonts)
 ```
 
 
-指定是否在PS文档中嵌入使用的字体
+指定是否在 PS 文档中嵌入使用的字体
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -342,7 +342,7 @@ public void setEmbedFontsAs(String embedFontsAs)
 ```
 
 
-指定在PS文档中嵌入字体的字体类型
+指定在 PS 文档中嵌入字体的字体类型
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -355,7 +355,7 @@ public void setJpegQualityLevel(int value)
 ```
 
 
-设置指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值会产生最低质量的图像，而 100 则产生最高质量的图像。
+设置指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值产生最低质量的图像，而 100 则产生最高质量的图像。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

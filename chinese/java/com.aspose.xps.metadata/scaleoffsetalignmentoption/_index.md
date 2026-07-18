@@ -17,7 +17,7 @@ public static final class PageScaling.ScaleOffsetAlignmentOption extends Option
 
 | 字段 | 描述 |
 | --- | --- |
-| [BottomCenter](#BottomCenter) | 指定缩放应在介质底部边缘的中心对齐。 |
+| [BottomCenter](#BottomCenter) | 指定缩放应对齐在介质底部边缘的中心。 |
 | [BottomLeft](#BottomLeft) | 指定缩放应对齐在媒体的左下角。 |
 | [BottomRight](#BottomRight) | 指定缩放应对齐在媒体的右下角。 |
 | [Center](#Center) | 指定缩放应居中于媒体。 |
@@ -47,7 +47,7 @@ public static PageScaling.ScaleOffsetAlignmentOption BottomCenter
 ```
 
 
-指定缩放应在介质底部边缘的中心对齐。
+指定缩放应对齐在介质底部边缘的中心。
 
 ### BottomLeft {#BottomLeft}
 ```

@@ -32,7 +32,7 @@ public static final class PageWatermark.PageWatermarkOption extends Option imple
 | 方法 | 描述 |
 | --- | --- |
 | [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | 将一系列项目添加到此选项的项目列表末尾。 |
-| [add(PageWatermark.IPageWatermarkOptionItem[] items)](#add-com.aspose.xps.metadata.PageWatermark.IPageWatermarkOptionItem...-) | 向选项添加一组  IPageWatermarkOptionItem  实例。 |
+| [add(PageWatermark.IPageWatermarkOptionItem[] items)](#add-com.aspose.xps.metadata.PageWatermark.IPageWatermarkOptionItem...-) | 向选项添加一个  IPageWatermarkOptionItem  实例数组。 |
 | [clone()](#clone--) | 克隆此选项实例。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
@@ -55,8 +55,8 @@ public PageWatermarkOption(String optionName, PageWatermark.IPageWatermarkOption
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| optionName | java.lang.String | 选项名称。 |
-| items | [IPageWatermarkOptionItem\[\]](../../com.aspose.xps.metadata/ipagewatermarkoptionitem) | 任意一组  IPageWatermarkOptionItem  实例。 |
+| optionName | java.lang.String | 一个选项名称。 |
+| items | [IPageWatermarkOptionItem\[\]](../../com.aspose.xps.metadata/ipagewatermarkoptionitem) | 任意的  IPageWatermarkOptionItem  实例数组。 |
 
 ### PageWatermarkOption(PageWatermark.PageWatermarkOption option) {#PageWatermarkOption-com.aspose.xps.metadata.PageWatermark.PageWatermarkOption-}
 ```
@@ -98,12 +98,12 @@ public PageWatermark.PageWatermarkOption add(PageWatermark.IPageWatermarkOptionI
 ```
 
 
-向选项添加一组  IPageWatermarkOptionItem  实例。
+向选项添加一个  IPageWatermarkOptionItem  实例数组。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| items | [IPageWatermarkOptionItem\[\]](../../com.aspose.xps.metadata/ipagewatermarkoptionitem) | 任意一组  IPageWatermarkOptionItem  实例。 |
+| items | [IPageWatermarkOptionItem\[\]](../../com.aspose.xps.metadata/ipagewatermarkoptionitem) | 任意的  IPageWatermarkOptionItem  实例数组。 |
 
 **Returns:**
 [PageWatermarkOption](../../com.aspose.xps.metadata/pagewatermarkoption) - This options instance.
@@ -113,7 +113,7 @@ public PageWatermark.PageWatermarkOption clone()
 ```
 
 
-克隆此选项实例。该快捷方式指向克隆构造函数。
+克隆此选项实例。这是克隆构造函数的快捷方式。
 
 **Returns:**
 [PageWatermarkOption](../../com.aspose.xps.metadata/pagewatermarkoption) - The clone of this option instance.

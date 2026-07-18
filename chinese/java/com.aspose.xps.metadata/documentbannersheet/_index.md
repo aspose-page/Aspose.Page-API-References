@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class DocumentBannerSheet extends Feature implements IJobPrintTicketItem, IDocumentPrintTicketItem
 ```
 
-描述特定文档的横幅纸张输出。横幅纸张应使用默认的 PageMediaSize 并使用默认的 PageMediaType 输出。横幅纸张还应与作业的其余部分隔离。这意味着任何装订或处理选项（例如 DocumentDuplex、DocumentStaple 或 DocumentBinding）不应包括横幅纸张。横幅纸张可能也可能不与作业其余部分隔离。这意味着任何作业装订或处理选项可能包括文档横幅纸张。横幅纸张应作为文档的第一张纸张出现。 https://docs.microsoft.com/en-us/windows/win32/printdocs/documentbannersheet
+描述特定文档的横幅纸张输出。横幅纸张应在默认的 PageMediaSize 上并使用默认的 PageMediaType。横幅纸张还应与作业的其余部分隔离。这意味着任何装订或处理选项（如 DocumentDuplex、DocumentStaple 或 DocumentBinding）不应包括横幅纸张。横幅纸张可能会或可能不会与作业其余部分隔离。这意味着任何作业装订或处理选项，可能包括文档横幅纸张。横幅纸张应作为文档的第一张纸出现。 https://docs.microsoft.com/en-us/windows/win32/printdocs/documentbannersheet
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -47,7 +47,7 @@ public DocumentBannerSheet(DocumentBannerSheet.BannerSheetOption[] options)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| options | [BannerSheetOption\[\]](../../com.aspose.xps.metadata/bannersheetoption) | 特定于此功能的选项数组。 |
+| options | [BannerSheetOption\[\]](../../com.aspose.xps.metadata/bannersheetoption) | 针对该功能的特定选项数组。 |
 
 ### add(IFeatureItem[] items) {#add-com.aspose.xps.metadata.IFeatureItem...-}
 ```
@@ -55,7 +55,7 @@ public void add(IFeatureItem[] items)
 ```
 
 
-将一组项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
+将一系列项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

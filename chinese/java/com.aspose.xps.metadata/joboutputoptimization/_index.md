@@ -1,7 +1,7 @@
 ---
 title: "JobOutputOptimization"
 second_title: "Aspose.Page for Java API 参考"
-description: "描述作业处理，旨在根据指定的选项优化特定使用场景的输出。"
+description: "描述旨在通过指定的选项优化特定使用场景下输出的作业处理。"
 type: docs
 weight: 62
 url: /zh/java/com.aspose.xps.metadata/joboutputoptimization/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class JobOutputOptimization extends Feature implements IJobPrintTicketItem
 ```
 
-描述作业处理，旨在根据指定的选项优化特定使用场景的输出。 https://docs.microsoft.com/en-us/windows/win32/printdocs/joboutputoptimization
+描述作业处理，旨在通过指定的选项优化特定使用场景下的输出。 https://docs.microsoft.com/en-us/windows/win32/printdocs/joboutputoptimization
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -47,7 +47,7 @@ public JobOutputOptimization(JobOutputOptimization.JobOutputOptimizationOption[]
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| options | [JobOutputOptimizationOption\[\]](../../com.aspose.xps.metadata/joboutputoptimizationoption) | 特定于此功能的选项数组。 |
+| options | [JobOutputOptimizationOption\[\]](../../com.aspose.xps.metadata/joboutputoptimizationoption) | 针对该功能的特定选项数组。 |
 
 ### add(IFeatureItem[] items) {#add-com.aspose.xps.metadata.IFeatureItem...-}
 ```
@@ -55,7 +55,7 @@ public void add(IFeatureItem[] items)
 ```
 
 
-将一组项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
+将一系列项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

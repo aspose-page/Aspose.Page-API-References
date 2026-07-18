@@ -1,7 +1,7 @@
 ---
 title: "PageColorManagement"
 second_title: "Aspose.Page for Java API 参考"
-description: "配置当前页面的颜色管理。"
+description: "为当前页面配置颜色管理。"
 type: docs
 weight: 89
 url: /zh/java/com.aspose.xps.metadata/pagecolormanagement/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class PageColorManagement extends Feature implements IJobPrintTicketItem, IDocumentPrintTicketItem, IPagePrintTicketItem
 ```
 
-为当前页面配置颜色管理。这在 SHIM - DM\_ICMMethod Add System 中被视为自动。描述应由哪个组件执行颜色管理（即驱动程序）。 https://docs.microsoft.com/en-us/windows/win32/printdocs/pagecolormanagement
+为当前页面配置颜色管理。此在 SHIM - DM\_ICMMethod Add System 中视为自动。描述应执行颜色管理的组件（例如驱动程序）。 https://docs.microsoft.com/en-us/windows/win32/printdocs/pagecolormanagement
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -47,7 +47,7 @@ public PageColorManagement(PageColorManagement.PageColorManagementOption[] optio
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| options | [PageColorManagementOption\[\]](../../com.aspose.xps.metadata/pagecolormanagementoption) | 特定于此功能的选项数组。 |
+| options | [PageColorManagementOption\[\]](../../com.aspose.xps.metadata/pagecolormanagementoption) | 针对该功能的特定选项数组。 |
 
 ### add(IFeatureItem[] items) {#add-com.aspose.xps.metadata.IFeatureItem...-}
 ```
@@ -55,7 +55,7 @@ public void add(IFeatureItem[] items)
 ```
 
 
-将一组项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
+将一系列项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

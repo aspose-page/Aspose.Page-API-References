@@ -12,4 +12,4 @@ url: /zh/java/com.aspose.xps.metadata/pageoutputcolor.ipageoutputcoloroptionitem
 public static interface PageOutputColor.IPageOutputColorOptionItem extends IOptionItem
 ```
 
-任何  PageOutputColorOption  项的接口。
+任何 PageOutputColorOption 项的接口。

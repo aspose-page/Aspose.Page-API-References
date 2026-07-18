@@ -12,12 +12,12 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class PageBlendColorSpace.PageBlendColorSpaceOption extends Option
 ```
 
-描述  PageBlendColorSpace  功能选项。
+描述 PageBlendColorSpace 功能选项。
 ## 字段
 
 | 字段 | 描述 |
 | --- | --- |
-| [ICCProfile](#ICCProfile) | 指定定义应在混合时使用的颜色空间的 ICC 配置文件。 |
+| [ICCProfile](#ICCProfile) | 指定定义应使用的颜色空间的 ICC 配置文件，用于混合。 |
 | [sRGB](#sRGB) | 应使用 sRGB 颜色空间进行混合。 |
 | [scRGB](#scRGB) | 应使用 scRGB 颜色空间进行混合。 |
 ## 方法
@@ -41,7 +41,7 @@ public static PageBlendColorSpace.PageBlendColorSpaceOption ICCProfile
 ```
 
 
-指定一个 ICC 配置文件，用于定义应使用的颜色空间进行混合。注意：此仅适用于 XPS 文档，且不应在任意 PrintTickets 中使用。
+指定用于定义应在混合时使用的颜色空间的 ICC 配置文件。注意：此仅适用于 XPS 文档，不应在任意 PrintTickets 中使用。
 
 ### sRGB {#sRGB}
 ```

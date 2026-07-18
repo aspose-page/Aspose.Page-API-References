@@ -1,7 +1,7 @@
 ---
 title: "PrintTicket"
 second_title: "Aspose.Page for Java API 参考"
-description: "实现任意范围通用 PrintTicket 的类。"
+description: "实现任意范围的通用 PrintTicket 类。"
 type: docs
 weight: 141
 url: /zh/java/com.aspose.xps.metadata/printticket/
@@ -15,7 +15,7 @@ java.lang.Iterable
 public abstract class PrintTicket implements Iterable<String>
 ```
 
-实现任何范围通用 PrintTicket 的类。用于作业、文档和页面级打印票的基类。PrintTicket 元素是 PrintTicket 文档的根元素。PrintTicket 元素包含输出作业所需的所有作业格式信息。 https://docs.microsoft.com/en-us/windows/win32/printdocs/printticket
+实现任何范围通用 PrintTicket 的类。是作业、文档和页面级打印票据的基类。PrintTicket 元素是 PrintTicket 文档的根元素。PrintTicket 元素包含输出作业所需的所有作业格式信息。 https://docs.microsoft.com/en-us/windows/win32/printdocs/printticket
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -121,7 +121,7 @@ public void remove(String[] names)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 名称 | java.lang.String[] | 项目名称数组。 |
+| 名称 | java.lang.String[] | 项目名称的数组。 |
 
 ### toString() {#toString--}
 ```

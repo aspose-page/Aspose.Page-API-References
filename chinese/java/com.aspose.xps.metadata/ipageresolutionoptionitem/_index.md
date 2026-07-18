@@ -1,7 +1,7 @@
 ---
 title: "PageResolution.IPageResolutionOptionItem"
 second_title: "Aspose.Page for Java API 参考"
-description: "任何 PageResolutionOption 项的接口。"
+description: "任何 PageResolutionOption 项目的接口。"
 type: docs
 weight: 13
 url: /zh/java/com.aspose.xps.metadata/pageresolution.ipageresolutionoptionitem/
@@ -12,4 +12,4 @@ url: /zh/java/com.aspose.xps.metadata/pageresolution.ipageresolutionoptionitem/
 public static interface PageResolution.IPageResolutionOptionItem extends IOptionItem
 ```
 
-任何 PageResolutionOption 项的接口。
+任何  PageResolutionOption  项目的接口。

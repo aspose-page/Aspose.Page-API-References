@@ -17,9 +17,9 @@ Path 元素的 StrokeLineJoin 属性的有效值。
 
 | 字段 | 描述 |
 | --- | --- |
-| [Bevel](#Bevel) | 斜角线连接。 |
-| [Miter](#Miter) | 斜接线连接。 |
-| [Round](#Round) | 圆形线连接。 |
+| [Bevel](#Bevel) | 斜角线段连接。 |
+| [Miter](#Miter) | 斜接线段连接。 |
+| [Round](#Round) | 圆形线段连接。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -47,7 +47,7 @@ public static final XpsLineJoin Bevel
 ```
 
 
-斜角线连接。
+斜角线段连接。
 
 ### Miter {#Miter}
 ```
@@ -55,7 +55,7 @@ public static final XpsLineJoin Miter
 ```
 
 
-斜接线连接。
+斜接线段连接。
 
 ### Round {#Round}
 ```
@@ -63,7 +63,7 @@ public static final XpsLineJoin Round
 ```
 
 
-圆形线连接。
+圆形线段连接。
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

@@ -1,5 +1,5 @@
 ---
-title: "特性"
+title: "功能"
 second_title: "Aspose.Page for Java API 参考"
 description: "封装通用打印模式功能的类。"
 type: docs
@@ -15,13 +15,13 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public class Feature extends CompositePrintTicketElement implements IPrintTicketItem, IFeatureItem
 ```
 
-封装通用打印模式（Print Schema）特性的类。所有模式定义特性的基类。一个  Feature  元素包含完整的  Option  和  Property  元素列表，能够完整描述设备属性、作业格式设置或其他相关特征。 https://docs.microsoft.com/en-us/windows/win32/printdocs/feature
+封装通用 Print Schema 功能的类。所有模式定义功能的基类。一个  Feature  元素包含完整的  Option  和  Property  元素列表，能够完整描述设备属性、作业格式设置或其他相关特性。 https://docs.microsoft.com/en-us/windows/win32/printdocs/feature
 ## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [Feature(String name, Option option, IFeatureItem[] items)](#Feature-java.lang.String-com.aspose.xps.metadata.Option-com.aspose.xps.metadata.IFeatureItem...-) | 创建一个新的 PrintTicket 特性实例。 |
-| [Feature(String name, Feature feature, IFeatureItem[] items)](#Feature-java.lang.String-com.aspose.xps.metadata.Feature-com.aspose.xps.metadata.IFeatureItem...-) | 创建一个新的 PrintTicket 特性实例。 |
+| [Feature(String name, Option option, IFeatureItem[] items)](#Feature-java.lang.String-com.aspose.xps.metadata.Option-com.aspose.xps.metadata.IFeatureItem...-) | 创建一个新的 PrintTicket 功能实例。 |
+| [Feature(String name, Feature feature, IFeatureItem[] items)](#Feature-java.lang.String-com.aspose.xps.metadata.Feature-com.aspose.xps.metadata.IFeatureItem...-) | 创建一个新的 PrintTicket 功能实例。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -43,14 +43,14 @@ public Feature(String name, Option option, IFeatureItem[] items)
 ```
 
 
-创建一个新的 PrintTicket 特性实例。
+创建一个新的 PrintTicket 功能实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 名称 | java.lang.String | 特性名称。 |
+| 名称 | java.lang.String | 功能名称。 |
 | option | [Option](../../com.aspose.xps.metadata/option) | 必需的  Option  实例。 |
-| items | [IFeatureItem\[\]](../../com.aspose.xps.metadata/ifeatureitem) | 任意的  IFeatureItem  实例数组。每个实例必须是一个  Feature 、一个  Option  或者一个  Property  实例。 |
+| items | [IFeatureItem\[\]](../../com.aspose.xps.metadata/ifeatureitem) | 任意的  IFeatureItem  实例数组。每个实例必须是  Feature 、  Option 、或  Property  实例。 |
 
 ### Feature(String name, Feature feature, IFeatureItem[] items) {#Feature-java.lang.String-com.aspose.xps.metadata.Feature-com.aspose.xps.metadata.IFeatureItem...-}
 ```
@@ -58,14 +58,14 @@ public Feature(String name, Feature feature, IFeatureItem[] items)
 ```
 
 
-创建一个新的 PrintTicket 特性实例。
+创建一个新的 PrintTicket 功能实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 名称 | java.lang.String | 特性名称。 |
-| feature | [Feature](../../com.aspose.xps.metadata/feature) | 必需的 Feature 实例。 |
-| items | [IFeatureItem\[\]](../../com.aspose.xps.metadata/ifeatureitem) | 任意的 Property 实例数组。每个必须是 Feature、Option 或 Property 实例。 |
+| 名称 | java.lang.String | 功能名称。 |
+| feature | [Feature](../../com.aspose.xps.metadata/feature) | 必需的  Feature  实例。 |
+| items | [IFeatureItem\[\]](../../com.aspose.xps.metadata/ifeatureitem) | 任意数组的  Property  实例。每个实例必须是  Feature 、  Option  或  Property  实例。 |
 
 ### add(IFeatureItem[] items) {#add-com.aspose.xps.metadata.IFeatureItem...-}
 ```
@@ -73,7 +73,7 @@ public void add(IFeatureItem[] items)
 ```
 
 
-将一组项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
+将一系列项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

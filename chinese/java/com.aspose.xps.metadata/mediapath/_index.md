@@ -15,12 +15,12 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class InputBin.MediaPath extends ScoredProperty implements InputBin.IInputBinOptionItem
 ```
 
-定义 MediaPath 计分属性值的常量。
+定义  MediaPath  计分属性值的常量。
 ## 字段
 
 | 字段 | 描述 |
 | --- | --- |
-| [Serpentine](#Serpentine) | 蛇形值。 |
+| [Serpentine](#Serpentine) | 蜿蜒值。 |
 | [Straight](#Straight) | 直线值。 |
 ## 方法
 
@@ -42,7 +42,7 @@ public static final InputBin.MediaPath Serpentine
 ```
 
 
-蛇形值。
+蜿蜒值。
 
 ### Straight {#Straight}
 ```

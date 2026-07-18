@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class PageForceFrontSide.PageForceFrontSideOption extends Option
 ```
 
-描述  PageForceFrontSide  功能选项。
+描述 PageForceFrontSide 功能选项。
 ## 字段
 
 | 字段 | 描述 |

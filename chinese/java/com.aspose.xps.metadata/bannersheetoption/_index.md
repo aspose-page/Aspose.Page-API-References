@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class JobPrimaryBannerSheet.BannerSheetOption extends Option
 ```
 
-表示 JobPrimaryBannerSheet 功能的选项。
+表示  JobPrimaryBannerSheet  功能的选项。
 ## 字段
 
 | 字段 | 描述 |

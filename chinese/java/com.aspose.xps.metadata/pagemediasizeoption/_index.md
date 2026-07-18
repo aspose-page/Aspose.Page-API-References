@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class PageMediaSize.PageMediaSizeOption extends Option implements PageMediaSize.IPageMediaSizeItem
 ```
 
-描述 PageMediaSize 功能选项。
+描述  PageMediaSize  功能选项。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -97,23 +97,23 @@ public static final class PageMediaSize.PageMediaSizeOption extends Option imple
 | [JapanChou3EnvelopeRotated](#JapanChou3EnvelopeRotated) | Japan Chou3 信封 旋转 |
 | [JapanChou4Envelope](#JapanChou4Envelope) | Japan Chou4 信封 |
 | [JapanChou4EnvelopeRotated](#JapanChou4EnvelopeRotated) | Japan Chou4 信封 旋转 |
-| [JapanDoubleHagakiPostcard](#JapanDoubleHagakiPostcard) | 日本 双 叶书 明信片 |
-| [JapanDoubleHagakiPostcardRotated](#JapanDoubleHagakiPostcardRotated) | 日本 双 叶书 明信片 旋转 |
-| [JapanHagakiPostcard](#JapanHagakiPostcard) | 日本 叶书 明信片 |
-| [JapanHagakiPostcardRotated](#JapanHagakiPostcardRotated) | 日本 叶书 明信片 旋转 |
-| [JapanKaku2Envelope](#JapanKaku2Envelope) | 日本 Kaku2 信封 |
-| [JapanKaku2EnvelopeRotated](#JapanKaku2EnvelopeRotated) | 日本 Kaku2 信封 旋转 |
-| [JapanKaku3Envelope](#JapanKaku3Envelope) | 日本 Kaku3 信封 |
-| [JapanKaku3EnvelopeRotated](#JapanKaku3EnvelopeRotated) | 日本 Kaku3 信封 旋转 |
-| [JapanLPhoto](#JapanLPhoto) | 日本 L 照片 |
-| [JapanQuadrupleHagakiPostcard](#JapanQuadrupleHagakiPostcard) | 日本 四倍 叶书 明信片 |
-| [JapanYou1Envelope](#JapanYou1Envelope) | 日本 You1 信封 |
-| [JapanYou2Envelope](#JapanYou2Envelope) | 日本 You2 信封 |
-| [JapanYou3Envelope](#JapanYou3Envelope) | 日本 You3 信封 |
-| [JapanYou4Envelope](#JapanYou4Envelope) | 日本 You4 信封 |
-| [JapanYou4EnvelopeRotated](#JapanYou4EnvelopeRotated) | 日本 You4 信封 旋转 |
-| [JapanYou6Envelope](#JapanYou6Envelope) | 日本 You6 信封 |
-| [JapanYou6EnvelopeRotated](#JapanYou6EnvelopeRotated) | 日本 You6 信封 旋转 |
+| [JapanDoubleHagakiPostcard](#JapanDoubleHagakiPostcard) | 日本双张明信片 |
+| [JapanDoubleHagakiPostcardRotated](#JapanDoubleHagakiPostcardRotated) | 日本双张明信片已旋转 |
+| [JapanHagakiPostcard](#JapanHagakiPostcard) | 日本明信片 |
+| [JapanHagakiPostcardRotated](#JapanHagakiPostcardRotated) | 日本明信片已旋转 |
+| [JapanKaku2Envelope](#JapanKaku2Envelope) | 日本Kaku2信封 |
+| [JapanKaku2EnvelopeRotated](#JapanKaku2EnvelopeRotated) | 日本Kaku2信封已旋转 |
+| [JapanKaku3Envelope](#JapanKaku3Envelope) | 日本Kaku3信封 |
+| [JapanKaku3EnvelopeRotated](#JapanKaku3EnvelopeRotated) | 日本Kaku3信封已旋转 |
+| [JapanLPhoto](#JapanLPhoto) | 日本L照片 |
+| [JapanQuadrupleHagakiPostcard](#JapanQuadrupleHagakiPostcard) | 日本四张明信片 |
+| [JapanYou1Envelope](#JapanYou1Envelope) | 日本You1信封 |
+| [JapanYou2Envelope](#JapanYou2Envelope) | 日本You2信封 |
+| [JapanYou3Envelope](#JapanYou3Envelope) | 日本You3信封 |
+| [JapanYou4Envelope](#JapanYou4Envelope) | 日本You4信封 |
+| [JapanYou4EnvelopeRotated](#JapanYou4EnvelopeRotated) | 日本You4信封已旋转 |
+| [JapanYou6Envelope](#JapanYou6Envelope) | 日本You6信封 |
+| [JapanYou6EnvelopeRotated](#JapanYou6EnvelopeRotated) | 日本You6信封已旋转 |
 | [NorthAmerica10x11](#NorthAmerica10x11) | 北美 10x11 |
 | [NorthAmerica10x12](#NorthAmerica10x12) | 北美 10x12 |
 | [NorthAmerica10x14](#NorthAmerica10x14) | 北美 10x14 |
@@ -137,29 +137,29 @@ public static final class PageMediaSize.PageMediaSizeOption extends Option imple
 | [NorthAmericaGermanStandardFanfold](#NorthAmericaGermanStandardFanfold) | 北美 德国 标准 折叠纸 |
 | [NorthAmericaLegal](#NorthAmericaLegal) | 北美 法律 |
 | [NorthAmericaLegalExtra](#NorthAmericaLegalExtra) | 北美 法律 加长 |
-| [NorthAmericaLetter](#NorthAmericaLetter) | 北美 信件 |
-| [NorthAmericaLetterExtra](#NorthAmericaLetterExtra) | 北美 信件 加长 |
-| [NorthAmericaLetterPlus](#NorthAmericaLetterPlus) | 北美 信件 加 |
-| [NorthAmericaLetterRotated](#NorthAmericaLetterRotated) | 北美 信件 旋转 |
+| [NorthAmericaLetter](#NorthAmericaLetter) | 北美 信纸 |
+| [NorthAmericaLetterExtra](#NorthAmericaLetterExtra) | 北美 信纸 加长 |
+| [NorthAmericaLetterPlus](#NorthAmericaLetterPlus) | 北美 信纸 加 |
+| [NorthAmericaLetterRotated](#NorthAmericaLetterRotated) | 北美 信纸 旋转 |
 | [NorthAmericaMonarchEnvelope](#NorthAmericaMonarchEnvelope) | 北美 Monarch 信封 |
 | [NorthAmericaNote](#NorthAmericaNote) | 北美 便笺 |
-| [NorthAmericaNumber10Envelope](#NorthAmericaNumber10Envelope) | 北美 10 号信封 |
-| [NorthAmericaNumber10EnvelopeRotated](#NorthAmericaNumber10EnvelopeRotated) | 北美 10 号信封 旋转 |
-| [NorthAmericaNumber11Envelope](#NorthAmericaNumber11Envelope) | 北美 11 号信封 |
-| [NorthAmericaNumber12Envelope](#NorthAmericaNumber12Envelope) | 北美 12 号信封 |
+| [NorthAmericaNumber10Envelope](#NorthAmericaNumber10Envelope) | 北美 10号 信封 |
+| [NorthAmericaNumber10EnvelopeRotated](#NorthAmericaNumber10EnvelopeRotated) | 北美 10号 信封 旋转 |
+| [NorthAmericaNumber11Envelope](#NorthAmericaNumber11Envelope) | 北美 11号 信封 |
+| [NorthAmericaNumber12Envelope](#NorthAmericaNumber12Envelope) | 北美 12号 信封 |
 | [NorthAmericaNumber14Envelope](#NorthAmericaNumber14Envelope) | 北美 14 号信封 |
 | [NorthAmericaNumber9Envelope](#NorthAmericaNumber9Envelope) | 北美 9 号信封 |
 | [NorthAmericaPersonalEnvelope](#NorthAmericaPersonalEnvelope) | 北美个人信封 |
 | [NorthAmericaQuarto](#NorthAmericaQuarto) | 北美四开 |
-| [NorthAmericaStatement](#NorthAmericaStatement) | 北美信纸 |
-| [NorthAmericaSuperA](#NorthAmericaSuperA) | 北美特大 A |
-| [NorthAmericaSuperB](#NorthAmericaSuperB) | 北美特大 B |
-| [NorthAmericaTabloid](#NorthAmericaTabloid) | 北美小报 |
-| [NorthAmericaTabloidExtra](#NorthAmericaTabloidExtra) | 北美小报加大 |
+| [NorthAmericaStatement](#NorthAmericaStatement) | 北美报表纸 |
+| [NorthAmericaSuperA](#NorthAmericaSuperA) | 北美 Super A |
+| [NorthAmericaSuperB](#NorthAmericaSuperB) | 北美 Super B |
+| [NorthAmericaTabloid](#NorthAmericaTabloid) | 北美 Tabloid |
+| [NorthAmericaTabloidExtra](#NorthAmericaTabloidExtra) | 北美 Tabloid extra |
 | [OtherMetricA3Plus](#OtherMetricA3Plus) | 其他公制 A3 Plus |
 | [OtherMetricA4Plus](#OtherMetricA4Plus) | 其他公制 A4 Plus |
-| [OtherMetricFolio](#OtherMetricFolio) | 其他公制 书册 |
-| [OtherMetricInviteEnvelope](#OtherMetricInviteEnvelope) | 其他公制请柬信封 |
+| [OtherMetricFolio](#OtherMetricFolio) | 其他公制 Folio |
+| [OtherMetricInviteEnvelope](#OtherMetricInviteEnvelope) | 其他公制邀请信封 |
 | [OtherMetricItalianEnvelope](#OtherMetricItalianEnvelope) | 其他公制意大利信封 |
 | [PRC10Envelope](#PRC10Envelope) | 中国 10 号信封 |
 | [PRC10EnvelopeRotated](#PRC10EnvelopeRotated) | 中国 10 号信封（旋转） |
@@ -173,30 +173,30 @@ public static final class PageMediaSize.PageMediaSizeOption extends Option imple
 | [PRC32KBig](#PRC32KBig) | 中国 32 开 大号 |
 | [PRC32KRotated](#PRC32KRotated) | 中国 32 开（旋转） |
 | [PRC3Envelope](#PRC3Envelope) | PRC3 信封 |
-| [PRC3EnvelopeRotated](#PRC3EnvelopeRotated) | PRC3 信封 已旋转 |
+| [PRC3EnvelopeRotated](#PRC3EnvelopeRotated) | PRC3 旋转信封 |
 | [PRC4Envelope](#PRC4Envelope) | PRC4 信封 |
-| [PRC4EnvelopeRotated](#PRC4EnvelopeRotated) | PRC4 信封 已旋转 |
+| [PRC4EnvelopeRotated](#PRC4EnvelopeRotated) | PRC4 旋转信封 |
 | [PRC5Envelope](#PRC5Envelope) | PRC 信封 |
-| [PRC5EnvelopeRotated](#PRC5EnvelopeRotated) | PRC5 信封 已旋转 |
+| [PRC5EnvelopeRotated](#PRC5EnvelopeRotated) | PRC5 旋转信封 |
 | [PRC6Envelope](#PRC6Envelope) | PRC6 信封 |
-| [PRC6EnvelopeRotated](#PRC6EnvelopeRotated) | PRC6 信封 已旋转 |
+| [PRC6EnvelopeRotated](#PRC6EnvelopeRotated) | PRC6 旋转信封 |
 | [PRC7Envelope](#PRC7Envelope) | PRC7 信封 |
-| [PRC7EnvelopeRotated](#PRC7EnvelopeRotated) | PRC7 信封 已旋转 |
+| [PRC7EnvelopeRotated](#PRC7EnvelopeRotated) | PRC7 旋转信封 |
 | [PRC8Envelope](#PRC8Envelope) | PRC8 信封 |
-| [PRC8EnvelopeRotated](#PRC8EnvelopeRotated) | PRC8 信封 已旋转 |
+| [PRC8EnvelopeRotated](#PRC8EnvelopeRotated) | PRC8 旋转信封 |
 | [PRC9Envelope](#PRC9Envelope) | PRC9 信封 |
-| [PRC9EnvelopeRotated](#PRC9EnvelopeRotated) | PRC9 信封 已旋转 |
-| [PSCustomMediaSize](#PSCustomMediaSize) | 指定自定义媒体尺寸（特定于 PostScript）。 |
-| [Roll06Inch](#Roll06Inch) | 卷 06 英寸 |
-| [Roll08Inch](#Roll08Inch) | 卷 08 英寸 |
-| [Roll12Inch](#Roll12Inch) | 卷 12 英寸 |
-| [Roll15Inch](#Roll15Inch) | 卷 15 英寸 |
-| [Roll18Inch](#Roll18Inch) | 卷 18 英寸 |
-| [Roll22Inch](#Roll22Inch) | 卷 22 英寸 |
-| [Roll24Inch](#Roll24Inch) | 卷 24 英寸 |
-| [Roll30Inch](#Roll30Inch) | 卷 30 英寸 |
-| [Roll36Inch](#Roll36Inch) | 卷 36 英寸 |
-| [Roll54Inch](#Roll54Inch) | 卷 54 英寸 |
+| [PRC9EnvelopeRotated](#PRC9EnvelopeRotated) | PRC9 旋转信封 |
+| [PSCustomMediaSize](#PSCustomMediaSize) | 指定自定义媒体尺寸（PostScript 特定）。 |
+| [Roll06Inch](#Roll06Inch) | 06 英寸卷 |
+| [Roll08Inch](#Roll08Inch) | 08 英寸卷 |
+| [Roll12Inch](#Roll12Inch) | 12 英寸卷 |
+| [Roll15Inch](#Roll15Inch) | 15 英寸卷 |
+| [Roll18Inch](#Roll18Inch) | 18 英寸卷 |
+| [Roll22Inch](#Roll22Inch) | 22 英寸卷 |
+| [Roll24Inch](#Roll24Inch) | 24 英寸卷 |
+| [Roll30Inch](#Roll30Inch) | 30 英寸卷 |
+| [Roll36Inch](#Roll36Inch) | 36 英寸卷 |
+| [Roll54Inch](#Roll54Inch) | 54 英寸卷 |
 ## 方法
 
 | 方法 | 描述 |
@@ -817,7 +817,7 @@ public static PageMediaSize.PageMediaSizeOption JapanDoubleHagakiPostcard
 ```
 
 
-日本 双 叶书 明信片
+日本双张明信片
 
 ### JapanDoubleHagakiPostcardRotated {#JapanDoubleHagakiPostcardRotated}
 ```
@@ -825,7 +825,7 @@ public static PageMediaSize.PageMediaSizeOption JapanDoubleHagakiPostcardRotated
 ```
 
 
-日本 双 叶书 明信片 旋转
+日本双张明信片已旋转
 
 ### JapanHagakiPostcard {#JapanHagakiPostcard}
 ```
@@ -833,7 +833,7 @@ public static PageMediaSize.PageMediaSizeOption JapanHagakiPostcard
 ```
 
 
-日本 叶书 明信片
+日本明信片
 
 ### JapanHagakiPostcardRotated {#JapanHagakiPostcardRotated}
 ```
@@ -841,7 +841,7 @@ public static PageMediaSize.PageMediaSizeOption JapanHagakiPostcardRotated
 ```
 
 
-日本 叶书 明信片 旋转
+日本明信片已旋转
 
 ### JapanKaku2Envelope {#JapanKaku2Envelope}
 ```
@@ -849,7 +849,7 @@ public static PageMediaSize.PageMediaSizeOption JapanKaku2Envelope
 ```
 
 
-日本 Kaku2 信封
+日本Kaku2信封
 
 ### JapanKaku2EnvelopeRotated {#JapanKaku2EnvelopeRotated}
 ```
@@ -857,7 +857,7 @@ public static PageMediaSize.PageMediaSizeOption JapanKaku2EnvelopeRotated
 ```
 
 
-日本 Kaku2 信封 旋转
+日本Kaku2信封已旋转
 
 ### JapanKaku3Envelope {#JapanKaku3Envelope}
 ```
@@ -865,7 +865,7 @@ public static PageMediaSize.PageMediaSizeOption JapanKaku3Envelope
 ```
 
 
-日本 Kaku3 信封
+日本Kaku3信封
 
 ### JapanKaku3EnvelopeRotated {#JapanKaku3EnvelopeRotated}
 ```
@@ -873,7 +873,7 @@ public static PageMediaSize.PageMediaSizeOption JapanKaku3EnvelopeRotated
 ```
 
 
-日本 Kaku3 信封 旋转
+日本Kaku3信封已旋转
 
 ### JapanLPhoto {#JapanLPhoto}
 ```
@@ -881,7 +881,7 @@ public static PageMediaSize.PageMediaSizeOption JapanLPhoto
 ```
 
 
-日本 L 照片
+日本L照片
 
 ### JapanQuadrupleHagakiPostcard {#JapanQuadrupleHagakiPostcard}
 ```
@@ -889,7 +889,7 @@ public static PageMediaSize.PageMediaSizeOption JapanQuadrupleHagakiPostcard
 ```
 
 
-日本 四倍 叶书 明信片
+日本四张明信片
 
 ### JapanYou1Envelope {#JapanYou1Envelope}
 ```
@@ -897,7 +897,7 @@ public static PageMediaSize.PageMediaSizeOption JapanYou1Envelope
 ```
 
 
-日本 You1 信封
+日本You1信封
 
 ### JapanYou2Envelope {#JapanYou2Envelope}
 ```
@@ -905,7 +905,7 @@ public static PageMediaSize.PageMediaSizeOption JapanYou2Envelope
 ```
 
 
-日本 You2 信封
+日本You2信封
 
 ### JapanYou3Envelope {#JapanYou3Envelope}
 ```
@@ -913,7 +913,7 @@ public static PageMediaSize.PageMediaSizeOption JapanYou3Envelope
 ```
 
 
-日本 You3 信封
+日本You3信封
 
 ### JapanYou4Envelope {#JapanYou4Envelope}
 ```
@@ -921,7 +921,7 @@ public static PageMediaSize.PageMediaSizeOption JapanYou4Envelope
 ```
 
 
-日本 You4 信封
+日本You4信封
 
 ### JapanYou4EnvelopeRotated {#JapanYou4EnvelopeRotated}
 ```
@@ -929,7 +929,7 @@ public static PageMediaSize.PageMediaSizeOption JapanYou4EnvelopeRotated
 ```
 
 
-日本 You4 信封 旋转
+日本You4信封已旋转
 
 ### JapanYou6Envelope {#JapanYou6Envelope}
 ```
@@ -937,7 +937,7 @@ public static PageMediaSize.PageMediaSizeOption JapanYou6Envelope
 ```
 
 
-日本 You6 信封
+日本You6信封
 
 ### JapanYou6EnvelopeRotated {#JapanYou6EnvelopeRotated}
 ```
@@ -945,7 +945,7 @@ public static PageMediaSize.PageMediaSizeOption JapanYou6EnvelopeRotated
 ```
 
 
-日本 You6 信封 旋转
+日本You6信封已旋转
 
 ### NorthAmerica10x11 {#NorthAmerica10x11}
 ```
@@ -1137,7 +1137,7 @@ public static PageMediaSize.PageMediaSizeOption NorthAmericaLetter
 ```
 
 
-北美 信件
+北美 信纸
 
 ### NorthAmericaLetterExtra {#NorthAmericaLetterExtra}
 ```
@@ -1145,7 +1145,7 @@ public static PageMediaSize.PageMediaSizeOption NorthAmericaLetterExtra
 ```
 
 
-北美 信件 加长
+北美 信纸 加长
 
 ### NorthAmericaLetterPlus {#NorthAmericaLetterPlus}
 ```
@@ -1153,7 +1153,7 @@ public static PageMediaSize.PageMediaSizeOption NorthAmericaLetterPlus
 ```
 
 
-北美 信件 加
+北美 信纸 加
 
 ### NorthAmericaLetterRotated {#NorthAmericaLetterRotated}
 ```
@@ -1161,7 +1161,7 @@ public static PageMediaSize.PageMediaSizeOption NorthAmericaLetterRotated
 ```
 
 
-北美 信件 旋转
+北美 信纸 旋转
 
 ### NorthAmericaMonarchEnvelope {#NorthAmericaMonarchEnvelope}
 ```
@@ -1185,7 +1185,7 @@ public static PageMediaSize.PageMediaSizeOption NorthAmericaNumber10Envelope
 ```
 
 
-北美 10 号信封
+北美 10号 信封
 
 ### NorthAmericaNumber10EnvelopeRotated {#NorthAmericaNumber10EnvelopeRotated}
 ```
@@ -1193,7 +1193,7 @@ public static PageMediaSize.PageMediaSizeOption NorthAmericaNumber10EnvelopeRota
 ```
 
 
-北美 10 号信封 旋转
+北美 10号 信封 旋转
 
 ### NorthAmericaNumber11Envelope {#NorthAmericaNumber11Envelope}
 ```
@@ -1201,7 +1201,7 @@ public static PageMediaSize.PageMediaSizeOption NorthAmericaNumber11Envelope
 ```
 
 
-北美 11 号信封
+北美 11号 信封
 
 ### NorthAmericaNumber12Envelope {#NorthAmericaNumber12Envelope}
 ```
@@ -1209,7 +1209,7 @@ public static PageMediaSize.PageMediaSizeOption NorthAmericaNumber12Envelope
 ```
 
 
-北美 12 号信封
+北美 12号 信封
 
 ### NorthAmericaNumber14Envelope {#NorthAmericaNumber14Envelope}
 ```
@@ -1249,7 +1249,7 @@ public static PageMediaSize.PageMediaSizeOption NorthAmericaStatement
 ```
 
 
-北美信纸
+北美报表纸
 
 ### NorthAmericaSuperA {#NorthAmericaSuperA}
 ```
@@ -1257,7 +1257,7 @@ public static PageMediaSize.PageMediaSizeOption NorthAmericaSuperA
 ```
 
 
-北美特大 A
+北美 Super A
 
 ### NorthAmericaSuperB {#NorthAmericaSuperB}
 ```
@@ -1265,7 +1265,7 @@ public static PageMediaSize.PageMediaSizeOption NorthAmericaSuperB
 ```
 
 
-北美特大 B
+北美 Super B
 
 ### NorthAmericaTabloid {#NorthAmericaTabloid}
 ```
@@ -1273,7 +1273,7 @@ public static PageMediaSize.PageMediaSizeOption NorthAmericaTabloid
 ```
 
 
-北美小报
+北美 Tabloid
 
 ### NorthAmericaTabloidExtra {#NorthAmericaTabloidExtra}
 ```
@@ -1281,7 +1281,7 @@ public static PageMediaSize.PageMediaSizeOption NorthAmericaTabloidExtra
 ```
 
 
-北美小报加大
+北美 Tabloid extra
 
 ### OtherMetricA3Plus {#OtherMetricA3Plus}
 ```
@@ -1305,7 +1305,7 @@ public static PageMediaSize.PageMediaSizeOption OtherMetricFolio
 ```
 
 
-其他公制 书册
+其他公制 Folio
 
 ### OtherMetricInviteEnvelope {#OtherMetricInviteEnvelope}
 ```
@@ -1313,7 +1313,7 @@ public static PageMediaSize.PageMediaSizeOption OtherMetricInviteEnvelope
 ```
 
 
-其他公制请柬信封
+其他公制邀请信封
 
 ### OtherMetricItalianEnvelope {#OtherMetricItalianEnvelope}
 ```
@@ -1425,7 +1425,7 @@ public static PageMediaSize.PageMediaSizeOption PRC3EnvelopeRotated
 ```
 
 
-PRC3 信封 已旋转
+PRC3 旋转信封
 
 ### PRC4Envelope {#PRC4Envelope}
 ```
@@ -1441,7 +1441,7 @@ public static PageMediaSize.PageMediaSizeOption PRC4EnvelopeRotated
 ```
 
 
-PRC4 信封 已旋转
+PRC4 旋转信封
 
 ### PRC5Envelope {#PRC5Envelope}
 ```
@@ -1457,7 +1457,7 @@ public static PageMediaSize.PageMediaSizeOption PRC5EnvelopeRotated
 ```
 
 
-PRC5 信封 已旋转
+PRC5 旋转信封
 
 ### PRC6Envelope {#PRC6Envelope}
 ```
@@ -1473,7 +1473,7 @@ public static PageMediaSize.PageMediaSizeOption PRC6EnvelopeRotated
 ```
 
 
-PRC6 信封 已旋转
+PRC6 旋转信封
 
 ### PRC7Envelope {#PRC7Envelope}
 ```
@@ -1489,7 +1489,7 @@ public static PageMediaSize.PageMediaSizeOption PRC7EnvelopeRotated
 ```
 
 
-PRC7 信封 已旋转
+PRC7 旋转信封
 
 ### PRC8Envelope {#PRC8Envelope}
 ```
@@ -1505,7 +1505,7 @@ public static PageMediaSize.PageMediaSizeOption PRC8EnvelopeRotated
 ```
 
 
-PRC8 信封 已旋转
+PRC8 旋转信封
 
 ### PRC9Envelope {#PRC9Envelope}
 ```
@@ -1521,7 +1521,7 @@ public static PageMediaSize.PageMediaSizeOption PRC9EnvelopeRotated
 ```
 
 
-PRC9 信封 已旋转
+PRC9 旋转信封
 
 ### PSCustomMediaSize {#PSCustomMediaSize}
 ```
@@ -1537,7 +1537,7 @@ public static PageMediaSize.PageMediaSizeOption Roll06Inch
 ```
 
 
-卷 06 英寸
+06 英寸卷
 
 ### Roll08Inch {#Roll08Inch}
 ```
@@ -1545,7 +1545,7 @@ public static PageMediaSize.PageMediaSizeOption Roll08Inch
 ```
 
 
-卷 08 英寸
+08 英寸卷
 
 ### Roll12Inch {#Roll12Inch}
 ```
@@ -1553,7 +1553,7 @@ public static PageMediaSize.PageMediaSizeOption Roll12Inch
 ```
 
 
-卷 12 英寸
+12 英寸卷
 
 ### Roll15Inch {#Roll15Inch}
 ```
@@ -1561,7 +1561,7 @@ public static PageMediaSize.PageMediaSizeOption Roll15Inch
 ```
 
 
-卷 15 英寸
+15 英寸卷
 
 ### Roll18Inch {#Roll18Inch}
 ```
@@ -1569,7 +1569,7 @@ public static PageMediaSize.PageMediaSizeOption Roll18Inch
 ```
 
 
-卷 18 英寸
+18 英寸卷
 
 ### Roll22Inch {#Roll22Inch}
 ```
@@ -1577,7 +1577,7 @@ public static PageMediaSize.PageMediaSizeOption Roll22Inch
 ```
 
 
-卷 22 英寸
+22 英寸卷
 
 ### Roll24Inch {#Roll24Inch}
 ```
@@ -1585,7 +1585,7 @@ public static PageMediaSize.PageMediaSizeOption Roll24Inch
 ```
 
 
-卷 24 英寸
+24 英寸卷
 
 ### Roll30Inch {#Roll30Inch}
 ```
@@ -1593,7 +1593,7 @@ public static PageMediaSize.PageMediaSizeOption Roll30Inch
 ```
 
 
-卷 30 英寸
+30 英寸卷
 
 ### Roll36Inch {#Roll36Inch}
 ```
@@ -1601,7 +1601,7 @@ public static PageMediaSize.PageMediaSizeOption Roll36Inch
 ```
 
 
-卷 36 英寸
+36 英寸卷
 
 ### Roll54Inch {#Roll54Inch}
 ```
@@ -1609,7 +1609,7 @@ public static PageMediaSize.PageMediaSizeOption Roll54Inch
 ```
 
 
-卷 54 英寸
+54 英寸卷
 
 ### add(IOptionItem[] items) {#add-com.aspose.xps.metadata.IOptionItem...-}
 ```
@@ -1645,7 +1645,7 @@ public PageMediaSize.PageMediaSizeOption clone()
 ```
 
 
-克隆此选项实例。该快捷方式指向克隆构造函数。
+克隆此选项实例。这是克隆构造函数的快捷方式。
 
 **Returns:**
 [PageMediaSizeOption](../../com.aspose.xps.metadata/pagemediasizeoption) - The clone of this option instance.

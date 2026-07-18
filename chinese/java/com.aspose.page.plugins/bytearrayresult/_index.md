@@ -20,7 +20,7 @@ public class ByteArrayResult implements IOperationResult
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [ByteArrayResult(byte[][] data)](#ByteArrayResult-byte-----) | 使用字节数组初始化一个新实例。 |
+| [ByteArrayResult(byte[][] data)](#ByteArrayResult-byte-----) | 使用字节数组初始化新实例。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -47,7 +47,7 @@ public ByteArrayResult(byte[][] data)
 ```
 
 
-使用字节数组初始化一个新实例。
+使用字节数组初始化新实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -164,7 +164,7 @@ public final String toFile()
 尝试将结果转换为文件。
 
 **Returns:**
-java.lang.String - 如果结果是文件，则为表示输出文件路径的字符串；否则为 null。
+java.lang.String - 如果结果是文件，则表示输出文件路径的字符串；否则为 null。
 ### toStream() {#toStream--}
 ```
 public final OutputStream toStream()
@@ -174,7 +174,7 @@ public final OutputStream toStream()
 尝试将结果转换为流对象。
 
 **Returns:**
-java.io.OutputStream - 如果结果是流，则为表示输出数据的流对象；否则为 null。
+java.io.OutputStream - 如果结果是流，则表示输出数据的流对象；否则为 null。
 ### toString() {#toString--}
 ```
 public String toString()

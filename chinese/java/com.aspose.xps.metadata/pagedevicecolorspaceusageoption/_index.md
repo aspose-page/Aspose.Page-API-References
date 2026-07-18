@@ -12,13 +12,13 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class PageDeviceColorSpaceUsage.PageDeviceColorSpaceUsageOption extends Option
 ```
 
-描述  PageDeviceColorSpaceUsage  功能选项。
+描述 PageDeviceColorSpaceUsage 功能选项。
 ## 字段
 
 | 字段 | 描述 |
 | --- | --- |
-| [MatchToDefault](#MatchToDefault) | 如果设备确定由 PageDeviceColorSpaceProfileURI 参数指定的配置文件可用作设备颜色空间配置文件，则使用相同配置文件的所有元素将被视为已在设备颜色空间中指定。 |
-| [OverrideDeviceDefault](#OverrideDeviceDefault) | 如果 PageDeviceColorSpaceProfileURI 参数指定的配置文件的通道数量与设备的基色数量匹配，则应将其用于所有元素，而不是设备的内部颜色管理。 |
+| [MatchToDefault](#MatchToDefault) | 如果设备确定由  PageDeviceColorSpaceProfileURI  参数指定的配置文件可以用作设备颜色空间配置文件，则使用相同配置文件的所有元素都被视为已经在设备颜色空间中指定。 |
+| [OverrideDeviceDefault](#OverrideDeviceDefault) | 如果 PageDeviceColorSpaceProfileURI 参数指定的配置文件的通道数与设备的基色数量匹配，则应使用它来替代设备内部的颜色管理，以用于所有元素。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -40,7 +40,7 @@ public static PageDeviceColorSpaceUsage.PageDeviceColorSpaceUsageOption MatchToD
 ```
 
 
-如果设备确定由 PageDeviceColorSpaceProfileURI 参数指定的配置文件可以用作设备色彩空间配置文件，则使用相同配置文件的所有元素将被视为已在设备色彩空间中指定。所有其他元素必须使用为该元素指定的配置文件。如果该配置文件不能用作设备色彩空间配置文件，则使用该配置文件的元素必须像使用任何其他颜色配置文件的元素一样进行颜色管理。
+如果设备确定由 PageDeviceColorSpaceProfileURI 参数指定的配置文件可以用作设备颜色空间配置文件，则使用相同配置文件的所有元素将被视为已在设备颜色空间中指定。所有其他元素必须使用为该元素指定的配置文件。如果该配置文件不能用作设备颜色空间配置文件，使用该配置文件的元素必须像使用任何其他颜色配置文件的元素一样进行颜色管理。
 
 ### OverrideDeviceDefault {#OverrideDeviceDefault}
 ```
@@ -48,7 +48,7 @@ public static PageDeviceColorSpaceUsage.PageDeviceColorSpaceUsageOption Override
 ```
 
 
-如果 PageDeviceColorSpaceProfileURI 参数指定的配置文件的通道数与设备的基色数量匹配，则应当在所有元素中使用它来替代设备内部的颜色管理。使用此配置文件的元素被假定为位于设备色彩空间中，且不会再进行颜色管理。
+如果 PageDeviceColorSpaceProfileURI 参数指定的配置文件的通道数与设备的基色数量匹配，则应使用它来代替设备内部的颜色管理，以用于所有元素。使用此配置文件的元素被视为位于设备颜色空间中，不会再进行颜色管理。
 
 ### add(IOptionItem[] items) {#add-com.aspose.xps.metadata.IOptionItem...-}
 ```

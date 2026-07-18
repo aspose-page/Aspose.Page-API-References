@@ -35,7 +35,7 @@ public static final class JobBindAllDocuments.BindingOption extends Option
 | [Fold](#Fold) | 指定折叠装订。 |
 | [JogOffset](#JogOffset) | 指定错位偏移装订。 |
 | [None](#None) | 指定无装订。 |
-| [Trim](#Trim) | 指定修剪装订。 |
+| [Trim](#Trim) | 指定裁剪装订。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -175,7 +175,7 @@ public static final JobBindAllDocuments.BindingOption Trim
 ```
 
 
-指定修剪装订。
+指定裁剪装订。
 
 ### add(IOptionItem[] items) {#add-com.aspose.xps.metadata.IOptionItem...-}
 ```

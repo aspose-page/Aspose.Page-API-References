@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class JobPageOrder extends Feature implements IJobPrintTicketItem
 ```
 
-定义输出的物理页顺序。 https://docs.microsoft.com/en-us/windows/win32/printdocs/jobpageorder
+定义输出的物理页面顺序。 https://docs.microsoft.com/en-us/windows/win32/printdocs/jobpageorder
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -47,7 +47,7 @@ public JobPageOrder(JobPageOrder.JobPageOrderOption[] options)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| options | [JobPageOrderOption\[\]](../../com.aspose.xps.metadata/jobpageorderoption) | 特定于此功能的选项数组。 |
+| options | [JobPageOrderOption\[\]](../../com.aspose.xps.metadata/jobpageorderoption) | 针对该功能的特定选项数组。 |
 
 ### add(IFeatureItem[] items) {#add-com.aspose.xps.metadata.IFeatureItem...-}
 ```
@@ -55,7 +55,7 @@ public void add(IFeatureItem[] items)
 ```
 
 
-将一组项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
+将一系列项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

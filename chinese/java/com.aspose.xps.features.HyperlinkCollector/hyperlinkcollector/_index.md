@@ -1,7 +1,7 @@
 ---
 title: "HyperlinkCollector"
 second_title: "Aspose.Page for Java API 参考"
-description: "该类提供从 XPS 文档当前页面收集带超链接的 XPS 元素。"
+description: "该类提供从 XPS 文档的当前页面收集带超链接的 XPS 元素。"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.xps.features.hyperlinkcollector/hyperlinkcollector/
@@ -12,7 +12,7 @@ java.lang.Object
 public class HyperlinkCollector
 ```
 
-该类提供从 XPS 文档当前页面收集带超链接的 XPS 元素。
+该类提供从 XPS 文档的当前页面收集带超链接的 XPS 元素。
 ## 方法
 
 | 方法 | 描述 |
@@ -40,7 +40,7 @@ public static Collection<XpsHyperlinkElement> <T>collectHyperlinks(XpsDocument d
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | document | [XpsDocument](../../com.aspose.xps/xpsdocument) | XPS 文档。 |
-| cls | java.lang.Class<T> | 对应要过滤的超链接目标类型的类对象。 |
+| cls | java.lang.Class<T> | 对应于要过滤的超链接目标类型的类对象。 |
 
 **Returns:**
 java.util.Collection<com.aspose.xps.XpsHyperlinkElement> - 包含超链接 XPS 元素的集合。

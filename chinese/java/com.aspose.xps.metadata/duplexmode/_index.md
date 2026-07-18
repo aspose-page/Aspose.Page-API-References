@@ -1,7 +1,7 @@
 ---
 title: "Duplex.DuplexMode"
 second_title: "Aspose.Page for Java API 参考"
-description: "定义 DuplexOptions 中 DuplexMode 计分属性的可能取值。"
+description: "定义 DuplexOptions DuplexMode 计分属性的可能取值。"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.xps.metadata/duplex.duplexmode/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class Duplex.DuplexMode extends ScoredProperty
 ```
 
-定义 DuplexOption 的 DuplexMode 计分属性的可能取值。
+定义  DuplexOption  的 DuplexMode  计分属性的可能取值。
 ## 字段
 
 | 字段 | 描述 |

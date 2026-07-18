@@ -1,7 +1,7 @@
 ---
 title: "JobBindAllDocuments.BindingGutter"
 second_title: "Aspose.Page for Java API 参考"
-description: "描述指定 BindingGutter 计分属性值的方式，可以使用整数值或引用 DocumentBindingGutter 参数。"
+description: "描述指定 BindingGutter 计分属性值的方式，无论是通过整数值还是通过对 DocumentBindingGutter 参数的引用。"
 type: docs
 weight: 10
 url: /zh/java/com.aspose.xps.metadata/jobbindalldocuments.bindinggutter/
@@ -25,7 +25,7 @@ public static final class JobBindAllDocuments.BindingGutter extends ScoredProper
 
 | 字段 | 描述 |
 | --- | --- |
-| [JobBindAllDocumentsGutter](#JobBindAllDocumentsGutter) | 通过引用 DocumentBindingGutter 参数来指定 BindingGutter 计分属性值。 |
+| [JobBindAllDocumentsGutter](#JobBindAllDocumentsGutter) | 通过对 DocumentBindingGutter 参数的引用来指定 BindingGutter 计分属性值。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -59,7 +59,7 @@ public static final JobBindAllDocuments.BindingGutter JobBindAllDocumentsGutter
 ```
 
 
-通过引用 DocumentBindingGutter 参数来指定 BindingGutter 计分属性值。
+通过对 DocumentBindingGutter 参数的引用来指定 BindingGutter 计分属性值。
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

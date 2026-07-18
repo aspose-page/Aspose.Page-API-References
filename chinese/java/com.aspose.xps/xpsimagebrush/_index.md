@@ -23,18 +23,18 @@ public final class XpsImageBrush extends XpsTilingBrush
 | [getImage()](#getImage--) | 返回用于该画刷的图像资源。 |
 | [getImageSource()](#getImageSource--) | 返回图像资源的 URI。 |
 | [getOpacity()](#getOpacity--) | 返回定义画刷填充统一透明度的值。 |
-| [getTileMode()](#getTileMode--) | 返回指定在填充几何体中如何进行平铺的值。 |
+| [getTileMode()](#getTileMode--) | 返回指定在填充几何体中如何执行平铺的值。 |
 | [getTransform()](#getTransform--) | 返回应用于画刷坐标空间的矩阵变换。 |
-| [getViewbox()](#getViewbox--) | 返回将映射到视口的画刷源内容区域。 |
-| [getViewport()](#getViewport--) | 返回第一个画刷瓦片的位置和尺寸。 |
+| [getViewbox()](#getViewbox--) | 返回要映射到视口的画刷源内容区域。 |
+| [getViewport()](#getViewport--) | 返回第一个画刷平铺的位置信息和尺寸。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setOpacity(float value)](#setOpacity-float-) | 设置定义画刷填充统一透明度的值。 |
-| [setTileMode(XpsTileMode value)](#setTileMode-com.aspose.xps.XpsTileMode-) | 设置指定在填充几何体中如何进行平铺的值。 |
+| [setTileMode(XpsTileMode value)](#setTileMode-com.aspose.xps.XpsTileMode-) | 设置指定在填充几何体中如何执行平铺的值。 |
 | [setTransform(XpsMatrix value)](#setTransform-com.aspose.xps.XpsMatrix-) | 设置应用于画刷坐标空间的矩阵变换。 |
-| [setViewbox(Rectangle2D value)](#setViewbox-java.awt.geom.Rectangle2D-) | 设置将映射到视口的画刷源内容区域。 |
-| [setViewport(Rectangle2D value)](#setViewport-java.awt.geom.Rectangle2D-) | 设置第一个画刷瓦片的位置和尺寸。 |
+| [setViewbox(Rectangle2D value)](#setViewbox-java.awt.geom.Rectangle2D-) | 设置要映射到视口的画刷源内容区域。 |
+| [setViewport(Rectangle2D value)](#setViewport-java.awt.geom.Rectangle2D-) | 设置第一个画刷平铺的位置信息和尺寸。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -110,7 +110,7 @@ public XpsTileMode getTileMode()
 ```
 
 
-返回指定在填充几何体中如何进行平铺的值。
+返回指定在填充几何体中如何执行平铺的值。
 
 **Returns:**
 [XpsTileMode](../../com.aspose.xps/xpstilemode) - Value specifying how tiling is performed in the filled geometry.
@@ -120,7 +120,7 @@ public XpsMatrix getTransform()
 ```
 
 
-返回应用于画刷坐标空间的矩阵变换。Transform 属性与当前有效渲染变换连接，以产生相对于画刷的有效渲染变换。画刷的视口使用该局部有效渲染变换进行转换。
+返回应用于画刷坐标空间的矩阵变换。Transform 属性与当前有效渲染变换连接，以产生相对于画刷的有效渲染变换。画刷的视口使用该局部有效渲染变换进行变换。
 
 **Returns:**
 [XpsMatrix](../../com.aspose.xps/xpsmatrix) - The matrix transformation applied to the coordinate space of the brush.
@@ -130,20 +130,20 @@ public Rectangle2D getViewbox()
 ```
 
 
-返回将映射到视口的画刷源内容区域。
+返回要映射到视口的画刷源内容区域。
 
 **Returns:**
-java.awt.geom.Rectangle2D - 将映射到视口的画刷源内容区域。
+java.awt.geom.Rectangle2D - 要映射到视口的画刷源内容区域。
 ### getViewport() {#getViewport--}
 ```
 public Rectangle2D getViewport()
 ```
 
 
-返回第一个画刷瓦片的位置和尺寸。后续瓦片相对于此瓦片定位，具体由瓦片模式指定。
+返回第一个画刷平铺的位置信息和尺寸。后续平铺相对于此平铺定位，依据平铺模式指定。
 
 **Returns:**
-java.awt.geom.Rectangle2D - 第一个画刷瓦片的位置和尺寸。
+java.awt.geom.Rectangle2D - 第一个画刷平铺的位置信息和尺寸。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -189,12 +189,12 @@ public void setTileMode(XpsTileMode value)
 ```
 
 
-设置指定在填充几何体中如何进行平铺的值。
+设置指定在填充几何体中如何执行平铺的值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [XpsTileMode](../../com.aspose.xps/xpstilemode) | 指定在填充几何体中如何进行平铺的值。 |
+| value | [XpsTileMode](../../com.aspose.xps/xpstilemode) | 指定在填充几何体中如何执行平铺的值。 |
 
 ### setTransform(XpsMatrix value) {#setTransform-com.aspose.xps.XpsMatrix-}
 ```
@@ -202,7 +202,7 @@ public void setTransform(XpsMatrix value)
 ```
 
 
-设置应用于画刷坐标空间的矩阵变换。Transform 属性与当前有效渲染变换连接，以产生相对于画刷的有效渲染变换。画刷的视口使用该局部有效渲染变换进行转换。
+设置应用于画刷坐标空间的矩阵变换。Transform 属性与当前有效渲染变换连接，以产生相对于画刷的有效渲染变换。画刷的视口使用该局部有效渲染变换进行变换。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -215,12 +215,12 @@ public void setViewbox(Rectangle2D value)
 ```
 
 
-设置将映射到视口的画刷源内容区域。
+设置要映射到视口的画刷源内容区域。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 值 | java.awt.geom.Rectangle2D | 将映射到视口的画刷源内容区域。 |
+| 值 | java.awt.geom.Rectangle2D | 要映射到视口的画刷源内容区域。 |
 
 ### setViewport(Rectangle2D value) {#setViewport-java.awt.geom.Rectangle2D-}
 ```
@@ -228,12 +228,12 @@ public void setViewport(Rectangle2D value)
 ```
 
 
-设置第一个画刷瓦片的位置和尺寸。后续瓦片相对于此瓦片定位，具体由瓦片模式指定。
+设置第一个画刷平铺的位置信息和尺寸。后续平铺相对于此平铺定位，依据平铺模式指定。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 值 | java.awt.geom.Rectangle2D | 第一个画刷瓦片的位置和尺寸。 |
+| 值 | java.awt.geom.Rectangle2D | 第一个画笔瓦片的位置和尺寸。 |
 
 ### toString() {#toString--}
 ```

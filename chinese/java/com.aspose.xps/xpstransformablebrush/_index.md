@@ -1,7 +1,7 @@
 ---
 title: "XpsTransformableBrush"
 second_title: "Aspose.Page for Java API 参考"
-description: "封装可变换画刷元素（除 SolidColorBrush 之外）通用特性的类。"
+description: "封装可变换画笔元素（除 SolidColorBrush 之外）通用特性的类。"
 type: docs
 weight: 52
 url: /zh/java/com.aspose.xps/xpstransformablebrush/
@@ -74,7 +74,7 @@ public XpsMatrix getTransform()
 ```
 
 
-返回应用于画刷坐标空间的矩阵变换。Transform 属性与当前有效渲染变换连接，以产生相对于画刷的有效渲染变换。画刷的视口使用该局部有效渲染变换进行转换。
+返回应用于画刷坐标空间的矩阵变换。Transform 属性与当前有效渲染变换连接，以产生相对于画刷的有效渲染变换。画刷的视口使用该局部有效渲染变换进行变换。
 
 **Returns:**
 [XpsMatrix](../../com.aspose.xps/xpsmatrix) - The matrix transformation applied to the coordinate space of the brush.
@@ -123,7 +123,7 @@ public void setTransform(XpsMatrix value)
 ```
 
 
-设置应用于画刷坐标空间的矩阵变换。Transform 属性与当前有效渲染变换连接，以产生相对于画刷的有效渲染变换。画刷的视口使用该局部有效渲染变换进行转换。
+设置应用于画刷坐标空间的矩阵变换。Transform 属性与当前有效渲染变换连接，以产生相对于画刷的有效渲染变换。画刷的视口使用该局部有效渲染变换进行变换。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

@@ -12,19 +12,19 @@ java.lang.Object, [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject), [c
 public class XpsPolyQuadraticBezierSegment extends XpsPathPolySegment
 ```
 
-封装 PolyQuadraticBezierSegment 元素特性的类。此元素描述一组二次 B?zier 曲线，从路径图形中的前一点通过一组顶点，使用指定的控制点。
+封装 PolyQuadraticBezierSegment 元素特性的类。此元素描述一组二次 Bézier 曲线，从路径图形中的前一点通过一组顶点，使用指定的控制点。
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
-| [deepClone()](#deepClone--) | 克隆此组二次 B?zier 曲线。 |
+| [deepClone()](#deepClone--) | 克隆此二次 Bézier 曲线集合。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
-| [isStroked()](#isStroked--) | 返回指定路径此段是否绘制描边的值。 |
+| [isStroked()](#isStroked--) | 返回指定是否绘制此路径段描边的值。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setStroked(boolean value)](#setStroked-boolean-) | 设置指定路径此段是否绘制描边的值。 |
+| [setStroked(boolean value)](#setStroked-boolean-) | 设置指定是否绘制此路径段描边的值。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -35,7 +35,7 @@ public XpsPolyQuadraticBezierSegment deepClone()
 ```
 
 
-克隆此组二次 B?zier 曲线。
+克隆此二次 Bézier 曲线集合。
 
 **Returns:**
 [XpsPolyQuadraticBezierSegment](../../com.aspose.xps/xpspolyquadraticbeziersegment) - Clone of this set of quadratic B?zier curves.
@@ -80,10 +80,10 @@ public boolean isStroked()
 ```
 
 
-返回指定路径此段是否绘制描边的值。
+返回指定是否绘制此路径段描边的值。
 
 **Returns:**
-boolean - 指定路径此段是否绘制描边的值。
+boolean - 指定是否绘制此路径段描边的值。
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -106,12 +106,12 @@ public void setStroked(boolean value)
 ```
 
 
-设置指定路径此段是否绘制描边的值。
+设置指定是否绘制此路径段描边的值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 值 | boolean | 指定路径此段是否绘制描边的值。 |
+| 值 | boolean | 指定是否绘制此路径段描边的值。 |
 
 ### toString() {#toString--}
 ```

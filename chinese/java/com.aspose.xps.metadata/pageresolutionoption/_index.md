@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class PageResolution.PageResolutionOption extends Option implements PageResolution.IPageResolutionItem
 ```
 
-描述 PageResolution 功能选项。
+描述  PageResolution  功能选项。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -26,7 +26,7 @@ public static final class PageResolution.PageResolutionOption extends Option imp
 | 方法 | 描述 |
 | --- | --- |
 | [add(IOptionItem[] items)](#add-com.aspose.xps.metadata.IOptionItem...-) | 将一系列项目添加到此选项的项目列表末尾。 |
-| [add(PageResolution.IPageResolutionOptionItem[] items)](#add-com.aspose.xps.metadata.PageResolution.IPageResolutionOptionItem...-) | 向选项添加一个 IPageResolutionOptionItem 实例数组。 |
+| [add(PageResolution.IPageResolutionOptionItem[] items)](#add-com.aspose.xps.metadata.PageResolution.IPageResolutionOptionItem...-) | 向选项添加一个包含  IPageResolutionOptionItem  实例的数组。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | 获取元素名称。 |
@@ -50,7 +50,7 @@ public PageResolutionOption(String optionName, PageResolution.IPageResolutionOpt
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| optionName | java.lang.String | 选项名称。 |
+| optionName | java.lang.String | 一个选项名称。 |
 | items | [IPageResolutionOptionItem\[\]](../../com.aspose.xps.metadata/ipageresolutionoptionitem) | 任意的  IPageResolutionOptionItem  实例数组。 |
 
 ### add(IOptionItem[] items) {#add-com.aspose.xps.metadata.IOptionItem...-}
@@ -72,7 +72,7 @@ public PageResolution.PageResolutionOption add(PageResolution.IPageResolutionOpt
 ```
 
 
-向选项添加一个 IPageResolutionOptionItem 实例数组。
+向选项添加一个包含  IPageResolutionOptionItem  实例的数组。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

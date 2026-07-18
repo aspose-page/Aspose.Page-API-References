@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class DocumentPageRanges extends StringParameterInit implements IJobPrintTicketItem, IDocumentPrintTicketItem
 ```
 
-描述文档的页输出范围。参数值必须符合以下结构：- PageRangeText："PageRange" 或 "PageRange,PageRange" - PageRange："PageNumber" 或 "PageNumber-PageNumber" - PageNumber：1 到 N，其中 N 为文档中的页数。如果 PageNumber > N，则 PageNumber = N。字符串中的空白应被忽略。 https://docs.microsoft.com/en-us/windows/win32/printdocs/documentpageranges
+描述文档的页输出范围。参数值必须符合以下结构：- PageRangeText：\"PageRange\" 或 \"PageRange,PageRange\" - PageRange：\"PageNumber\" 或 \"PageNumber-PageNumber\" - PageNumber：1 到 N，其中 N 为文档的页数。如果 PageNumber > N，则 PageNumber = N。字符串中的空白应被忽略。 https://docs.microsoft.com/en-us/windows/win32/printdocs/documentpageranges
 ## 构造函数
 
 | 构造函数 | 描述 |

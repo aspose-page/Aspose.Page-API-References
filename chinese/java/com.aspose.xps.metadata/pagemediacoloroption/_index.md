@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class PageMediaColor.PageMediaColorOption extends Option
 ```
 
-描述  PageMediaColor  功能选项。
+描述 PageMediaColor 功能选项。
 ## 字段
 
 | 字段 | 描述 |
@@ -21,7 +21,7 @@ public static final class PageMediaColor.PageMediaColorOption extends Option
 | [Blue](#Blue) | 蓝色。 |
 | [Brown](#Brown) | 棕色。 |
 | [Gold](#Gold) | 金色。 |
-| [GoldenRod](#GoldenRod) | 金棒。 |
+| [GoldenRod](#GoldenRod) | 金菊黄。 |
 | [Gray](#Gray) | 灰色。 |
 | [Green](#Green) | 绿色。 |
 | [Ivory](#Ivory) | 象牙色。 |
@@ -88,7 +88,7 @@ public static PageMediaColor.PageMediaColorOption GoldenRod
 ```
 
 
-金棒。
+金菊黄。
 
 ### Gray {#Gray}
 ```

@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject)
 public final class XpsGradientStop extends XpsObject
 ```
 
-封装 GradientStop 元素特性的类。此元素被 LinearGradientBrush 和 RadialGradientBrush 两个元素使用，以定义渲染渐变时颜色渐进的定位和范围。
+封装 GradientStop 元素特性的类。此元素被 LinearGradientBrush 和 RadialGradientBrush 元素共同使用，以定义渲染渐变时颜色渐进的定位和范围。
 ## 方法
 
 | 方法 | 描述 |
@@ -80,7 +80,7 @@ public float getOffset()
 ```
 
 
-返回渐变偏移量。偏移量表示在渐变进程中的一个点，在该点指定颜色。渐变进程中偏移量之间的颜色将进行插值。
+返回渐变偏移量。偏移量表示在渐变进程中的一个点，在该点指定颜色。进程中渐变偏移量之间的颜色会进行插值。
 
 **Returns:**
 float - 渐变偏移量。

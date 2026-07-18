@@ -1,7 +1,7 @@
 ---
 title: "XpsSweepDirection"
 second_title: "Aspose.Page for Java API 参考"
-description: "ArcSegment 元素 SweepDirection 属性的有效值。"
+description: "ArcSegment 元素的 SweepDirection 属性的有效值。"
 type: docs
 weight: 65
 url: /zh/java/com.aspose.xps/xpssweepdirection/

@@ -25,12 +25,12 @@ public final class XpsGlyphs extends XpsContentElement
 | [getClip()](#getClip--) | 返回限制元素渲染区域的路径几何体。 |
 | [getFill()](#getFill--) | 返回用于填充已渲染字形形状的画刷。 |
 | [getFont()](#getFont--) | 返回用于排版元素文本的 TrueType 字体资源。 |
-| [getFontRenderingEmSize()](#getFontRenderingEmSize--) | 返回以绘图表面单位表示的字体大小，作为有效坐标空间单位的浮点数。 |
+| [getFontRenderingEmSize()](#getFontRenderingEmSize--) | 返回绘图表面单位中的字体大小，以有效坐标空间单位的浮点数表示。 |
 | [getHyperlinkTarget()](#getHyperlinkTarget--) | 返回超链接目标对象。 |
 | [getOpacity()](#getOpacity--) | 返回定义元素统一透明度的值。 |
-| [getOpacityMask()](#getOpacityMask--) | 返回指定 alpha 值掩码的画刷，该掩码以与 Opacity 属性相同的方式应用于元素，但允许元素不同区域使用不同的 alpha 值。 |
-| [getOriginX()](#getOriginX--) | 返回运行中第一个字形的 x 坐标，单位为有效坐标空间。 |
-| [getOriginY()](#getOriginY--) | 返回运行中第一个字形的 y 坐标，单位为有效坐标空间。 |
+| [getOpacityMask()](#getOpacityMask--) | 返回指定 alpha 值掩码的画刷，该掩码以与 Opacity 属性相同的方式应用于元素，但允许元素的不同区域使用不同的 alpha 值。 |
+| [getOriginX()](#getOriginX--) | 返回序列中第一个字形的 X 坐标，单位为有效坐标空间。 |
+| [getOriginY()](#getOriginY--) | 返回序列中第一个字形的 Y 坐标，单位为有效坐标空间。 |
 | [getRenderTransform()](#getRenderTransform--) | 返回仿射变换矩阵，为元素的所有属性以及所有子元素（如果有）建立新的坐标系。 |
 | [getStyleSimulations()](#getStyleSimulations--) | 返回指定样式仿真的值。 |
 | [getUnicodeString()](#getUnicodeString--) | 返回 Glyphs 元素渲染的文本字符串。 |
@@ -40,14 +40,14 @@ public final class XpsGlyphs extends XpsContentElement
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setBidiLevel(int value)](#setBidiLevel-int-) | 设置指定 Unicode 算法双向嵌套级别的值。 |
-| [setClip(XpsPathGeometry value)](#setClip-com.aspose.xps.XpsPathGeometry-) | 设置限制元素渲染区域的路径几何体。 |
+| [setClip(XpsPathGeometry value)](#setClip-com.aspose.xps.XpsPathGeometry-) | 设置限制元素渲染区域的路径几何。 |
 | [setFill(XpsBrush value)](#setFill-com.aspose.xps.XpsBrush-) | 设置用于填充已渲染字形形状的画刷。 |
-| [setFontRenderingEmSize(float value)](#setFontRenderingEmSize-float-) | 设置以绘图表面单位表示的字体大小，作为有效坐标空间单位的浮点数。 |
+| [setFontRenderingEmSize(float value)](#setFontRenderingEmSize-float-) | 设置绘图表面单位中的字体大小，以有效坐标空间单位的浮点数表示。 |
 | [setHyperlinkTarget(XpsHyperlinkTarget value)](#setHyperlinkTarget-com.aspose.xps.XpsHyperlinkTarget-) | 设置超链接目标对象。 |
 | [setOpacity(float value)](#setOpacity-float-) | 设置定义元素统一透明度的值。 |
-| [setOpacityMask(XpsBrush value)](#setOpacityMask-com.aspose.xps.XpsBrush-) | 设置画刷，指定一组 alpha 值的掩码，该掩码以与 Opacity 属性相同的方式应用于元素，但允许元素的不同区域使用不同的 alpha 值。 |
-| [setOriginX(float value)](#setOriginX-float-) | 设置运行中第一个字形的 x 坐标，单位为有效坐标空间。 |
-| [setOriginY(float value)](#setOriginY-float-) | 设置运行中第一个字形的 y 坐标，单位为有效坐标空间。 |
+| [setOpacityMask(XpsBrush value)](#setOpacityMask-com.aspose.xps.XpsBrush-) | 设置画刷，指定一组 alpha 值的掩码，该掩码以与 Opacity 属性相同的方式应用于元素，但允许元素不同区域使用不同的 alpha 值。 |
+| [setOriginX(float value)](#setOriginX-float-) | 设置序列中第一个字形的 X 坐标，单位为有效坐标空间。 |
+| [setOriginY(float value)](#setOriginY-float-) | 设置序列中第一个字形的 Y 坐标，单位为有效坐标空间。 |
 | [setRenderTransform(XpsMatrix value)](#setRenderTransform-com.aspose.xps.XpsMatrix-) | 设置仿射变换矩阵，为元素的所有属性以及所有子元素（如果有）建立新的坐标系。 |
 | [setSideways(boolean value)](#setSideways-boolean-) | 设置指示字形已侧转的值，原点定义为未侧转字形的顶部中心。 |
 | [setStyleSimulations(XpsStyleSimulations value)](#setStyleSimulations-com.aspose.xps.XpsStyleSimulations-) | 设置指定样式仿真的值。 |
@@ -103,7 +103,7 @@ public int getBidiLevel()
 ```
 
 
-返回指定 Unicode 算法双向嵌套级别的值。偶数值表示从左到右布局，奇数值表示从右到左布局。右到左布局将运行原点放置在第一个字形的右侧，正的前进宽度（表示向左的前进）会将后续字形放置在前一个字形的左侧。
+返回指定 Unicode 算法双向嵌套级别的值。偶数值表示从左到右布局，奇数值表示从右到左布局。右到左布局将序列原点放置在第一个字形的右侧，正的前进宽度（表示向左的前进）会将后续字形放置在前一个字形的左侧。
 
 **Returns:**
 int - 指定 Unicode 算法双向嵌套级别的值。
@@ -153,7 +153,7 @@ public float getFontRenderingEmSize()
 ```
 
 
-返回以绘图表面单位表示的字体大小，作为有效坐标空间单位的浮点数。
+返回绘图表面单位中的字体大小，以有效坐标空间单位的浮点数表示。
 
 **Returns:**
 float - 字体大小。
@@ -183,7 +183,7 @@ public XpsBrush getOpacityMask()
 ```
 
 
-返回指定 alpha 值掩码的画刷，该掩码以与 Opacity 属性相同的方式应用于元素，但允许元素不同区域使用不同的 alpha 值。
+返回指定 alpha 值掩码的画刷，该掩码以与 Opacity 属性相同的方式应用于元素，但允许元素的不同区域使用不同的 alpha 值。
 
 **Returns:**
 [XpsBrush](../../com.aspose.xps/xpsbrush) - The brush specifying a mask.
@@ -193,7 +193,7 @@ public float getOriginX()
 ```
 
 
-返回运行中第一个字形的 x 坐标，单位为有效坐标空间。
+返回序列中第一个字形的 X 坐标，单位为有效坐标空间。
 
 **Returns:**
 float - 运行中第一个字形的 x 坐标，单位为有效坐标空间。
@@ -203,7 +203,7 @@ public float getOriginY()
 ```
 
 
-返回运行中第一个字形的 y 坐标，单位为有效坐标空间。
+返回序列中第一个字形的 Y 坐标，单位为有效坐标空间。
 
 **Returns:**
 float - 运行中第一个字形的 y 坐标，单位为有效坐标空间。
@@ -233,10 +233,10 @@ public String getUnicodeString()
 ```
 
 
-返回由 Glyphs 元素渲染的文本字符串。文本以 Unicode 代码点指定。
+返回由 Glyphs 元素呈现的文本字符串。文本以 Unicode 代码点指定。
 
 **Returns:**
-java.lang.String - 由 Glyphs 元素渲染的文本字符串。
+java.lang.String - 由 Glyphs 元素呈现的文本字符串。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -302,12 +302,12 @@ public void setClip(XpsPathGeometry value)
 ```
 
 
-设置限制元素渲染区域的路径几何体。
+设置限制元素渲染区域的路径几何。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [XpsPathGeometry](../../com.aspose.xps/xpspathgeometry) | 限制元素渲染区域的路径几何体。 |
+| value | [XpsPathGeometry](../../com.aspose.xps/xpspathgeometry) | 限制元素渲染区域的路径几何。 |
 
 ### setFill(XpsBrush value) {#setFill-com.aspose.xps.XpsBrush-}
 ```
@@ -328,7 +328,7 @@ public void setFontRenderingEmSize(float value)
 ```
 
 
-设置以绘图表面单位表示的字体大小，作为有效坐标空间单位的浮点数。
+设置绘图表面单位中的字体大小，以有效坐标空间单位的浮点数表示。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -367,7 +367,7 @@ public void setOpacityMask(XpsBrush value)
 ```
 
 
-设置画刷，指定一组 alpha 值的掩码，该掩码以与 Opacity 属性相同的方式应用于元素，但允许元素的不同区域使用不同的 alpha 值。
+设置画刷，指定一组 alpha 值的掩码，该掩码以与 Opacity 属性相同的方式应用于元素，但允许元素不同区域使用不同的 alpha 值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -380,7 +380,7 @@ public void setOriginX(float value)
 ```
 
 
-设置运行中第一个字形的 x 坐标，单位为有效坐标空间。
+设置序列中第一个字形的 X 坐标，单位为有效坐标空间。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -393,7 +393,7 @@ public void setOriginY(float value)
 ```
 
 
-设置运行中第一个字形的 y 坐标，单位为有效坐标空间。
+设置序列中第一个字形的 Y 坐标，单位为有效坐标空间。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -437,7 +437,7 @@ public void setStyleSimulations(XpsStyleSimulations value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [XpsStyleSimulations](../../com.aspose.xps/xpsstylesimulations) | 指定样式仿真的值。 |
+| value | [XpsStyleSimulations](../../com.aspose.xps/xpsstylesimulations) | 指定样式模拟的值。 |
 
 ### setUnicodeString(String value) {#setUnicodeString-java.lang.String-}
 ```
@@ -445,12 +445,12 @@ public void setUnicodeString(String value)
 ```
 
 
-设置由 Glyphs 元素渲染的文本字符串。文本以 Unicode 代码点指定。
+设置由 Glyphs 元素呈现的文本字符串。文本以 Unicode 代码点指定。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 值 | java.lang.String | 由 Glyphs 元素渲染的文本字符串。 |
+| 值 | java.lang.String | 由 Glyphs 元素呈现的文本字符串。 |
 
 ### size() {#size--}
 ```

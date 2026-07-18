@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public class Property extends CompositePrintTicketElement implements IPrintTicketItem, IFeatureItem, IOptionItem, IScoredPropertyItem, IPropertyItem
 ```
 
-实现打印票证属性的类。实现通用 PrintTicket Property 的类。所有模式定义属性的基类。Property 元素声明一个设备、作业格式或其他相关属性，其名称由其 name 属性给出。Value 元素用于为 Property 分配值。Property 可以是复合的，可能包含多个子属性。子属性也由 Property 元素表示。 https://docs.microsoft.com/en-us/windows/win32/printdocs/property
+实现打印票据属性的类。实现通用 PrintTicket Property 的类。所有模式定义属性的基类。一个 Property 元素声明一个设备、作业格式或其他相关属性，其名称由 name 属性提供。使用 Value 元素为 Property 分配值。Property 可以是复合的，可能包含多个子属性。子属性也由 Property 元素表示。 https://docs.microsoft.com/en-us/windows/win32/printdocs/property
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -63,7 +63,7 @@ public Property(String name, Value value, IPropertyItem[] items)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 名称 | java.lang.String | 属性名称。 |
-| value | [Value](../../com.aspose.xps.metadata/value) | 一个强制的 Value 实例。 |
+| value | [Value](../../com.aspose.xps.metadata/value) | 一个强制的  Value  实例。 |
 | items | [IPropertyItem\[\]](../../com.aspose.xps.metadata/ipropertyitem) | 任意数组的 IPropertyItem 实例。每个实例必须是 Property 或 Value 实例。 |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}

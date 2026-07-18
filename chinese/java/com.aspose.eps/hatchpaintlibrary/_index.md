@@ -1,7 +1,7 @@
 ---
 title: "HatchPaintLibrary"
 second_title: "Aspose.Page for Java API 参考"
-description: "将 GDI 交叉线画刷转换为适用于写入 XPS 和 PDF 的图像。"
+description: "将 GDI 交叉刷转换为适合写入 XPS 和 PDF 的图像。"
 type: docs
 weight: 11
 url: /zh/java/com.aspose.eps/hatchpaintlibrary/
@@ -24,7 +24,7 @@ public class HatchPaintLibrary
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getHatchTexturePaint(HatchStyle style, Color foreColor, Color backColor)](#getHatchTexturePaint-com.aspose.eps.HatchStyle-java.awt.Color-java.awt.Color-) | 返回创建的 TexturePaint，它封装了符合交叉线样式的交叉线图案。 |
+| [getHatchTexturePaint(HatchStyle style, Color foreColor, Color backColor)](#getHatchTexturePaint-com.aspose.eps.HatchStyle-java.awt.Color-java.awt.Color-) | 返回创建的 TexturePaint，封装符合交叉样式的交叉图案。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -69,17 +69,17 @@ public static TexturePaint getHatchTexturePaint(HatchStyle style, Color foreColo
 ```
 
 
-返回创建的 TexturePaint，它封装了符合交叉线样式的交叉线图案。
+返回创建的 TexturePaint，封装符合交叉样式的交叉图案。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| style | [HatchStyle](../../com.aspose.eps/hatchstyle) | 交叉线样式。 |
-| foreColor | java.awt.Color | 前景色。 |
-| backColor | java.awt.Color | 背景色。 |
+| style | [HatchStyle](../../com.aspose.eps/hatchstyle) | 交叉样式。 |
+| foreColor | java.awt.Color | 前景颜色。 |
+| backColor | java.awt.Color | 背景颜色。 |
 
 **Returns:**
-java.awt.TexturePaint - 返回交叉线纹理图案
+java.awt.TexturePaint - 返回交叉纹理图案
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

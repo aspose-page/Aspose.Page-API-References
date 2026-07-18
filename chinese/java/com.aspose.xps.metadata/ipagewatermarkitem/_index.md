@@ -12,4 +12,4 @@ url: /zh/java/com.aspose.xps.metadata/pagewatermark.ipagewatermarkitem/
 public static interface PageWatermark.IPageWatermarkItem extends IFeatureItem
 ```
 
-任何 PageWatermark 功能项的接口。
+任何  PageWatermark  功能项的接口。

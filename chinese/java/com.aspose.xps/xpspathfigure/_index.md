@@ -18,22 +18,22 @@ public class XpsPathFigure extends XpsArray<XpsPathSegment>
 | 方法 | 描述 |
 | --- | --- |
 | [add(T obj)](#add-T-) | 向数组中添加新对象。 |
-| [deepClone()](#deepClone--) | 克隆此 path figure。 |
+| [deepClone()](#deepClone--) | 克隆此路径图形。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int i)](#get-int-) | 提供通过索引 i 访问数组元素的方式。 |
+| [get(int i)](#get-int-) | 通过索引 i 提供对数组元素的访问。 |
 | [getClass()](#getClass--) |  |
 | [getSegments()](#getSegments--) | 返回子路径段的列表。 |
 | [getStartPoint()](#getStartPoint--) | 返回路径图形第一个段的起始点。 |
 | [hashCode()](#hashCode--) |  |
-| [insert(int index, T obj)](#insert-int-T-) | 在指定位置向数组插入新对象。 |
+| [insert(int index, T obj)](#insert-int-T-) | 在指定位置向数组中插入新对象。 |
 | [isClosed()](#isClosed--) | 返回指示路径图形是否闭合的值。 |
-| [isFilled()](#isFilled--) | 返回指示路径图形是否用于计算包含路径几何体面积的值。 |
+| [isFilled()](#isFilled--) | 返回指示路径图形是否用于计算其包含的路径几何面积的值。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [remove(T obj)](#remove-T-) | 从数组中移除对象。 |
 | [removeAt(int index)](#removeAt-int-) | 在指定位置从数组中移除对象。 |
 | [setClosed(boolean value)](#setClosed-boolean-) | 设置指示路径图形是否闭合的值。 |
-| [setFilled(boolean value)](#setFilled-boolean-) | 设置指示路径图形是否用于计算包含路径几何体面积的值。 |
+| [setFilled(boolean value)](#setFilled-boolean-) | 设置指示路径图形是否用于计算其包含的路径几何面积的值。 |
 | [setStartPoint(Point2D value)](#setStartPoint-java.awt.geom.Point2D-) | 设置路径图形第一个段的起始点。 |
 | [size()](#size--) | 返回元素数量。 |
 | [toString()](#toString--) |  |
@@ -61,7 +61,7 @@ public XpsPathFigure deepClone()
 ```
 
 
-克隆此 path figure。
+克隆此路径图形。
 
 **Returns:**
 [XpsPathFigure](../../com.aspose.xps/xpspathfigure) - Clone of this path figure.
@@ -86,7 +86,7 @@ public T get(int i)
 ```
 
 
-提供通过索引 i 访问数组元素的方式。
+通过索引 i 提供对数组元素的访问。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -141,12 +141,12 @@ public T insert(int index, T obj)
 ```
 
 
-在指定位置向数组插入新对象。
+在指定位置向数组中插入新对象。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 索引 | int | 要插入对象的位置。 |
+| index | int | 要插入对象的位置。 |
 | 对象 | T | 要插入的对象。 |
 
 **Returns:**
@@ -167,10 +167,10 @@ public boolean isFilled()
 ```
 
 
-返回指示路径图形是否用于计算包含路径几何体面积的值。
+返回指示路径图形是否用于计算其包含的路径几何面积的值。
 
 **Returns:**
-boolean - 表示路径图形是否用于计算包含路径几何体面积的值。
+boolean - 表示路径图形是否在计算包含路径几何体的面积时使用的值。
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -213,7 +213,7 @@ public T removeAt(int index)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 索引 | int | 要删除对象的位置。 |
+| index | int | 要删除对象的位置。 |
 
 **Returns:**
 T - 已删除的对象。
@@ -236,12 +236,12 @@ public void setFilled(boolean value)
 ```
 
 
-设置指示路径图形是否用于计算包含路径几何体面积的值。
+设置指示路径图形是否用于计算其包含的路径几何面积的值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 值 | boolean | 表示路径图形是否用于计算包含路径几何体面积的值。 |
+| 值 | boolean | 表示路径图形是否在计算包含路径几何体的面积时使用的值。 |
 
 ### setStartPoint(Point2D value) {#setStartPoint-java.awt.geom.Point2D-}
 ```

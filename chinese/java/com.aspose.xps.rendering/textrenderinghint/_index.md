@@ -50,7 +50,7 @@ public static final TextRenderingHint AntiAlias
 ```
 
 
-每个字符使用其无提示的抗锯齿字形位图绘制。由于抗锯齿，质量更好。由于关闭提示，可能会注意到字干宽度差异。
+每个字符使用其无提示的抗锯齿字形位图绘制。由于抗锯齿，质量更好。由于关闭了提示，可能会注意到字干宽度差异。
 
 ### AntiAliasGridFit {#AntiAliasGridFit}
 ```
@@ -58,7 +58,7 @@ public static final TextRenderingHint AntiAliasGridFit
 ```
 
 
-每个字符使用其带提示的抗锯齿字形位图绘制。由于抗锯齿，质量大幅提升，但会增加性能开销。
+每个字符使用其带提示的抗锯齿字形位图绘制。由于抗锯齿，质量大幅提升，但会带来更高的性能开销。
 
 ### ClearTypeGridFit {#ClearTypeGridFit}
 ```
@@ -82,7 +82,7 @@ public static final TextRenderingHint SingleBitPerPixelGridFit
 ```
 
 
-每个字符使用其字形位图绘制。提示用于改善字干和曲线处的字符外观。
+每个字符使用其字形位图绘制。提示用于改善字干和曲线上的字符外观。
 
 ### SystemDefault {#SystemDefault}
 ```
@@ -90,7 +90,7 @@ public static final TextRenderingHint SystemDefault
 ```
 
 
-每个字符使用其字形位图绘制，使用系统默认的渲染提示。文本将按照用户为系统选择的字体平滑设置进行绘制。
+每个字符使用其字形位图绘制，使用系统默认的渲染提示。文本将按照用户为系统选择的任何字体平滑设置进行绘制。
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

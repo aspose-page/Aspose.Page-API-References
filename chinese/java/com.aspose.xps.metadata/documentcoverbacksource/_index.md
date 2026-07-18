@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class DocumentCoverBackSource extends StringParameterInit implements IJobPrintTicketItem, IDocumentPrintTicketItem
 ```
 
-指定自定义封底页的来源。 https://docs.microsoft.com/en-us/windows/win32/printdocs/documentcoverbacksource
+指定自定义封底纸张的来源。 https://docs.microsoft.com/en-us/windows/win32/printdocs/documentcoverbacksource
 ## 构造函数
 
 | 构造函数 | 描述 |

@@ -17,7 +17,7 @@ public final class PagePrintTicket extends PrintTicket
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [PagePrintTicket(IPagePrintTicketItem[] items)](#PagePrintTicket-com.aspose.xps.metadata.IPagePrintTicketItem...-) | 创建一个页面级打印票据实例。 |
+| [PagePrintTicket(IPagePrintTicketItem[] items)](#PagePrintTicket-com.aspose.xps.metadata.IPagePrintTicketItem...-) | 创建一个页面级的打印票据实例。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -40,12 +40,12 @@ public PagePrintTicket(IPagePrintTicketItem[] items)
 ```
 
 
-创建一个页面级打印票据实例。
+创建一个页面级的打印票据实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| items | [IPagePrintTicketItem\[\]](../../com.aspose.xps.metadata/ipageprintticketitem) | 任意的 IPagePrintTicketItem 实例数组。每个实例必须是 Feature、ParameterInit 或 Property 实例。 |
+| items | [IPagePrintTicketItem\[\]](../../com.aspose.xps.metadata/ipageprintticketitem) | 任意数组的 IPagePrintTicketItem 实例。每个实例必须是 Feature、ParameterInit 或 Property 实例。 |
 
 ### add(IPagePrintTicketItem[] items) {#add-com.aspose.xps.metadata.IPagePrintTicketItem...-}
 ```
@@ -53,7 +53,7 @@ public void add(IPagePrintTicketItem[] items)
 ```
 
 
-将一个项目数组添加到此 PrintTicket 项目列表的末尾。每个项目可以是 Feature、ParameterInit 或 Property 实例。
+在此 PrintTicket 项目列表的末尾添加一个项目数组。每个项目可以是 Feature、ParameterInit 或 Property 实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -132,7 +132,7 @@ public void remove(String[] names)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 名称 | java.lang.String[] | 项目名称数组。 |
+| 名称 | java.lang.String[] | 项目名称的数组。 |
 
 ### toString() {#toString--}
 ```

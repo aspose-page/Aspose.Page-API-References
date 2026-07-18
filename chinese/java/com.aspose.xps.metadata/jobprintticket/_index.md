@@ -17,7 +17,7 @@ public final class JobPrintTicket extends PrintTicket
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [JobPrintTicket(IJobPrintTicketItem[] items)](#JobPrintTicket-com.aspose.xps.metadata.IJobPrintTicketItem...-) | 创建作业级别的打印票实例。 |
+| [JobPrintTicket(IJobPrintTicketItem[] items)](#JobPrintTicket-com.aspose.xps.metadata.IJobPrintTicketItem...-) | 创建作业级打印票实例。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -40,7 +40,7 @@ public JobPrintTicket(IJobPrintTicketItem[] items)
 ```
 
 
-创建作业级别的打印票实例。
+创建作业级打印票实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -53,7 +53,7 @@ public void add(IJobPrintTicketItem[] items)
 ```
 
 
-将一个项目数组添加到此 PrintTicket 项目列表的末尾。每个项目可以是 Feature、ParameterInit 或 Property 实例。
+在此 PrintTicket 项目列表的末尾添加一个项目数组。每个项目可以是 Feature、ParameterInit 或 Property 实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -132,7 +132,7 @@ public void remove(String[] names)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 名称 | java.lang.String[] | 项目名称数组。 |
+| 名称 | java.lang.String[] | 项目名称的数组。 |
 
 ### toString() {#toString--}
 ```

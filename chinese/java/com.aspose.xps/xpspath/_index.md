@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject), [c
 public final class XpsPath extends XpsContentElement
 ```
 
-封装 Path 元素特性的类。此元素是向固定页面添加矢量图形和图像的唯一方式。它定义了将在页面上呈现的单个矢量图形。
+封装 Path 元素特性的类。此元素是向固定页面添加矢量图形和图像的唯一方式。它定义了将在页面上渲染的单个矢量图形。
 ## 方法
 
 | 方法 | 描述 |
@@ -26,10 +26,10 @@ public final class XpsPath extends XpsContentElement
 | [getFill()](#getFill--) | 返回用于绘制路径 Data 属性指定的几何形状的画刷。 |
 | [getHyperlinkTarget()](#getHyperlinkTarget--) | 返回超链接目标对象。 |
 | [getOpacity()](#getOpacity--) | 返回定义元素统一透明度的值。 |
-| [getOpacityMask()](#getOpacityMask--) | 返回指定 alpha 值掩码的画刷，该掩码以与 Opacity 属性相同的方式应用于元素，但允许元素不同区域使用不同的 alpha 值。 |
+| [getOpacityMask()](#getOpacityMask--) | 返回指定 alpha 值掩码的画刷，该掩码以与 Opacity 属性相同的方式应用于元素，但允许元素的不同区域使用不同的 alpha 值。 |
 | [getRenderTransform()](#getRenderTransform--) | 返回仿射变换矩阵，为元素的所有属性以及所有子元素（如果有）建立新的坐标系。 |
 | [getStroke()](#getStroke--) | 返回用于绘制笔画的画刷。 |
-| [getStrokeDashArray()](#getStrokeDashArray--) | 返回指定轮廓笔画的虚线和间隙长度的数组。 |
+| [getStrokeDashArray()](#getStrokeDashArray--) | 返回指定轮廓笔画的虚线和间隔长度的数组。 |
 | [getStrokeDashCap()](#getStrokeDashCap--) | 返回指定每段虚线端点绘制方式的值。 |
 | [getStrokeDashOffset()](#getStrokeDashOffset--) | 返回用于重复虚线数组模式的起始点。 |
 | [getStrokeEndLineCap()](#getStrokeEndLineCap--) | 返回定义笔画中最后一段虚线末端形状的值。 |
@@ -41,15 +41,15 @@ public final class XpsPath extends XpsContentElement
 | [iterator()](#iterator--) | 实现 Iterable 接口。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setClip(XpsPathGeometry value)](#setClip-com.aspose.xps.XpsPathGeometry-) | 设置限制元素渲染区域的路径几何体。 |
+| [setClip(XpsPathGeometry value)](#setClip-com.aspose.xps.XpsPathGeometry-) | 设置限制元素渲染区域的路径几何。 |
 | [setData(XpsPathGeometry value)](#setData-com.aspose.xps.XpsPathGeometry-) | 设置路径的几何形状。 |
 | [setFill(XpsBrush value)](#setFill-com.aspose.xps.XpsBrush-) | 设置用于绘制路径 Data 属性指定的几何形状的画刷。 |
 | [setHyperlinkTarget(XpsHyperlinkTarget value)](#setHyperlinkTarget-com.aspose.xps.XpsHyperlinkTarget-) | 设置超链接目标对象。 |
 | [setOpacity(float value)](#setOpacity-float-) | 设置定义元素统一透明度的值。 |
-| [setOpacityMask(XpsBrush value)](#setOpacityMask-com.aspose.xps.XpsBrush-) | 设置画刷，指定一组 alpha 值的掩码，该掩码以与 Opacity 属性相同的方式应用于元素，但允许元素的不同区域使用不同的 alpha 值。 |
+| [setOpacityMask(XpsBrush value)](#setOpacityMask-com.aspose.xps.XpsBrush-) | 设置画刷，指定一组 alpha 值的掩码，该掩码以与 Opacity 属性相同的方式应用于元素，但允许元素不同区域使用不同的 alpha 值。 |
 | [setRenderTransform(XpsMatrix value)](#setRenderTransform-com.aspose.xps.XpsMatrix-) | 设置仿射变换矩阵，为元素的所有属性以及所有子元素（如果有）建立新的坐标系。 |
 | [setStroke(XpsBrush value)](#setStroke-com.aspose.xps.XpsBrush-) | 设置用于绘制笔画的画刷。 |
-| [setStrokeDashArray(float[] value)](#setStrokeDashArray-float---) | 设置指定轮廓笔画的虚线和间隙长度的数组。 |
+| [setStrokeDashArray(float[] value)](#setStrokeDashArray-float---) | 设置指定轮廓笔画的虚线和间隔长度的数组。 |
 | [setStrokeDashCap(XpsDashCap value)](#setStrokeDashCap-com.aspose.xps.XpsDashCap-) | 设置指定每段虚线端点绘制方式的值。 |
 | [setStrokeDashOffset(float value)](#setStrokeDashOffset-float-) | 设置用于重复虚线数组模式的起始点。 |
 | [setStrokeEndLineCap(XpsLineCap value)](#setStrokeEndLineCap-com.aspose.xps.XpsLineCap-) | 设置定义笔画中最后一段虚线末端形状的值。 |
@@ -168,7 +168,7 @@ public XpsBrush getOpacityMask()
 ```
 
 
-返回指定 alpha 值掩码的画刷，该掩码以与 Opacity 属性相同的方式应用于元素，但允许元素不同区域使用不同的 alpha 值。
+返回指定 alpha 值掩码的画刷，该掩码以与 Opacity 属性相同的方式应用于元素，但允许元素的不同区域使用不同的 alpha 值。
 
 **Returns:**
 [XpsBrush](../../com.aspose.xps/xpsbrush) - The brush specifying a mask.
@@ -198,10 +198,10 @@ public float[] getStrokeDashArray()
 ```
 
 
-返回指定轮廓笔画的虚线和间隙长度的数组。
+返回指定轮廓笔画的虚线和间隔长度的数组。
 
 **Returns:**
-float[] - 指定轮廓笔画的虚线和间隙长度的数组。
+float[] - 指定轮廓笔画的虚线和间隔长度的数组。
 ### getStrokeDashCap() {#getStrokeDashCap--}
 ```
 public XpsDashCap getStrokeDashCap()
@@ -248,7 +248,7 @@ public float getStrokeMiterLimit()
 ```
 
 
-返回最大斜接长度与笔画厚度一半之间的比例。仅当 StrokeLineJoin 属性指定为 Miter 时，此值才有意义。
+返回最大斜接长度与笔画厚度一半之间的比例。仅当 StrokeLineJoin 属性指定 Miter 时，此值才有意义。
 
 **Returns:**
 float - 最大斜接长度与笔画厚度一半之间的比例。
@@ -268,10 +268,10 @@ public float getStrokeThickness()
 ```
 
 
-返回笔画的厚度，单位为有效坐标空间（包括路径的渲染变换）。笔画绘制在 Path 元素\\u2019s Data 属性指定的几何形状边界之上。StrokeThickness 的一半延伸到几何形状外部，另一半延伸到几何形状内部。
+返回笔画的粗细，单位为有效坐标空间（包括路径的渲染变换）。笔画绘制在 Path 元素的 Data 属性指定的几何形状边界之上。StrokeThickness 的一半延伸到 Data 属性指定的几何形状之外，另一半延伸到几何形状内部。
 
 **Returns:**
-float - 笔画的厚度。
+float - 笔画的粗细。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -314,12 +314,12 @@ public void setClip(XpsPathGeometry value)
 ```
 
 
-设置限制元素渲染区域的路径几何体。
+设置限制元素渲染区域的路径几何。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [XpsPathGeometry](../../com.aspose.xps/xpspathgeometry) | 限制元素渲染区域的路径几何体。 |
+| value | [XpsPathGeometry](../../com.aspose.xps/xpspathgeometry) | 限制元素渲染区域的路径几何。 |
 
 ### setData(XpsPathGeometry value) {#setData-com.aspose.xps.XpsPathGeometry-}
 ```
@@ -345,7 +345,7 @@ public void setFill(XpsBrush value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [XpsBrush](../../com.aspose.xps/xpsbrush) | 用于绘制指定几何体的画刷 |
+| value | [XpsBrush](../../com.aspose.xps/xpsbrush) | 用于绘制指定的几何形状的画刷。 |
 
 ### setHyperlinkTarget(XpsHyperlinkTarget value) {#setHyperlinkTarget-com.aspose.xps.XpsHyperlinkTarget-}
 ```
@@ -379,7 +379,7 @@ public void setOpacityMask(XpsBrush value)
 ```
 
 
-设置画刷，指定一组 alpha 值的掩码，该掩码以与 Opacity 属性相同的方式应用于元素，但允许元素的不同区域使用不同的 alpha 值。
+设置画刷，指定一组 alpha 值的掩码，该掩码以与 Opacity 属性相同的方式应用于元素，但允许元素不同区域使用不同的 alpha 值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -418,7 +418,7 @@ public void setStrokeDashArray(float[] value)
 ```
 
 
-设置指定轮廓笔画的虚线和间隙长度的数组。
+设置指定轮廓笔画的虚线和间隔长度的数组。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -436,7 +436,7 @@ public void setStrokeDashCap(XpsDashCap value)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [XpsDashCap](../../com.aspose.xps/xpsdashcap) | 指定每段虚线端点绘制方式的值。 |
+| value | [XpsDashCap](../../com.aspose.xps/xpsdashcap) | 指定每段虚线末端绘制方式的值。 |
 
 ### setStrokeDashOffset(float value) {#setStrokeDashOffset-float-}
 ```
@@ -483,7 +483,7 @@ public void setStrokeMiterLimit(float value)
 ```
 
 
-设置最大斜接长度与笔画厚度一半之间的比例。仅当 StrokeLineJoin 属性指定为 Miter 时，此值才有意义。
+设置最大斜接长度与笔画厚度一半之间的比例。仅当 StrokeLineJoin 属性指定 Miter 时，此值才有意义。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -509,12 +509,12 @@ public void setStrokeThickness(float value)
 ```
 
 
-设置笔画的厚度，单位为有效坐标空间（包括路径的渲染变换）。笔画绘制在 Path 元素\\u2019s Data 属性指定的几何形状边界之上。StrokeThickness 的一半延伸到几何形状外部，另一半延伸到几何形状内部。
+设置笔画的粗细，单位为有效坐标空间（包括路径的渲染变换）。笔画绘制在 Path 元素的 Data 属性指定的几何形状边界之上。StrokeThickness 的一半延伸到 Data 属性指定的几何形状之外，另一半延伸到几何形状内部。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 值 | float | 笔画的厚度。 |
+| 值 | float | 笔画的粗细。 |
 
 ### size() {#size--}
 ```

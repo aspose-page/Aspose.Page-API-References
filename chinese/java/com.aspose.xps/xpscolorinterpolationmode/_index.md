@@ -12,7 +12,7 @@ java.lang.Object, java.lang.Enum
 public enum XpsColorInterpolationMode extends Enum<XpsColorInterpolationMode>
 ```
 
-渐变画刷的 ColorInterpolationMode 属性的有效取值。
+渐变画刷的 ColorInterpolationMode 属性的有效值。
 ## 字段
 
 | 字段 | 描述 |

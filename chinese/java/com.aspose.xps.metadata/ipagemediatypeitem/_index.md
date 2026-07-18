@@ -12,4 +12,4 @@ url: /zh/java/com.aspose.xps.metadata/pagemediatype.ipagemediatypeitem/
 public static interface PageMediaType.IPageMediaTypeItem extends IFeatureItem
 ```
 
-任何  PageMediaType  功能项的接口。
+任何 PageMediaType 功能项的接口。

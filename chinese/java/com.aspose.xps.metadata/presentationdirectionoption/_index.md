@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class NUp.PresentationDirection.PresentationDirectionOption extends Option
 ```
 
-描述 PresentationDirection 功能选项。
+描述  PresentationDirection  功能选项。
 ## 字段
 
 | 字段 | 描述 |

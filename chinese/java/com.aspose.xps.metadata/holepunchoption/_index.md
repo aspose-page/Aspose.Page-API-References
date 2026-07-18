@@ -12,16 +12,16 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class HolePunch.HolePunchOption extends Option
 ```
 
-描述 HolePunch 功能选项。
+描述  HolePunch  功能选项。
 ## 字段
 
 | 字段 | 描述 |
 | --- | --- |
-| [BottomEdge](#BottomEdge) | 指定底部边缘的孔。 |
-| [LeftEdge](#LeftEdge) | 指定左侧边缘的孔。 |
+| [BottomEdge](#BottomEdge) | 指定底部边缘的孔（s）。 |
+| [LeftEdge](#LeftEdge) | 指定左侧边缘的孔（s）。 |
 | [None](#None) | 指定不进行打孔。 |
-| [RightEdge](#RightEdge) | 指定右侧边缘的孔。 |
-| [TopEdge](#TopEdge) | 指定顶部边缘的孔。 |
+| [RightEdge](#RightEdge) | 指定右侧边缘的孔（s）。 |
+| [TopEdge](#TopEdge) | 指定顶部边缘的孔（s）。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -43,7 +43,7 @@ public static HolePunch.HolePunchOption BottomEdge
 ```
 
 
-指定底部边缘的孔。
+指定底部边缘的孔（s）。
 
 ### LeftEdge {#LeftEdge}
 ```
@@ -51,7 +51,7 @@ public static HolePunch.HolePunchOption LeftEdge
 ```
 
 
-指定左侧边缘的孔。
+指定左侧边缘的孔（s）。
 
 ### None {#None}
 ```
@@ -67,7 +67,7 @@ public static HolePunch.HolePunchOption RightEdge
 ```
 
 
-指定右侧边缘的孔。
+指定右侧边缘的孔（s）。
 
 ### TopEdge {#TopEdge}
 ```
@@ -75,7 +75,7 @@ public static HolePunch.HolePunchOption TopEdge
 ```
 
 
-指定顶部边缘的孔。
+指定顶部边缘的孔（s）。
 
 ### add(IOptionItem[] items) {#add-com.aspose.xps.metadata.IOptionItem...-}
 ```

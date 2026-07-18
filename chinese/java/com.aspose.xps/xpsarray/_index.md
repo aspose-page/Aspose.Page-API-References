@@ -19,10 +19,10 @@ public abstract class XpsArray<T> extends XpsObject
 | --- | --- |
 | [add(T obj)](#add-T-) | 向数组中添加新对象。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int i)](#get-int-) | 提供通过索引 i 访问数组元素的方式。 |
+| [get(int i)](#get-int-) | 通过索引 i 提供对数组元素的访问。 |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
-| [insert(int index, T obj)](#insert-int-T-) | 在指定位置向数组插入新对象。 |
+| [insert(int index, T obj)](#insert-int-T-) | 在指定位置向数组中插入新对象。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [remove(T obj)](#remove-T-) | 从数组中移除对象。 |
@@ -68,7 +68,7 @@ public T get(int i)
 ```
 
 
-提供通过索引 i 访问数组元素的方式。
+通过索引 i 提供对数组元素的访问。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -103,12 +103,12 @@ public T insert(int index, T obj)
 ```
 
 
-在指定位置向数组插入新对象。
+在指定位置向数组中插入新对象。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 索引 | int | 要插入对象的位置。 |
+| index | int | 要插入对象的位置。 |
 | 对象 | T | 要插入的对象。 |
 
 **Returns:**
@@ -155,7 +155,7 @@ public T removeAt(int index)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 索引 | int | 要删除对象的位置。 |
+| index | int | 要删除对象的位置。 |
 
 **Returns:**
 T - 已删除的对象。

@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public class ScoredProperty extends CompositePrintTicketElement implements IOptionItem, IScoredPropertyItem
 ```
 
-实现通用 PrintTicket ScoredProperty 的类。所有基于模式定义的计分属性的基类。ScoredProperty 元素声明了对 Option 定义固有的属性。在评估请求的 Option 与设备支持的 Option 的匹配程度时，应比较此类属性。 https://docs.microsoft.com/en-us/windows/win32/printdocs/scoredproperty
+实现通用 PrintTicket  ScoredProperty 的类。所有模式定义的计分属性的基类。一个  ScoredProperty  元素声明了对 Option 定义内在的属性。在评估请求的 Option 与设备支持的 Option 的匹配程度时，应比较此类属性。 https://docs.microsoft.com/en-us/windows/win32/printdocs/scoredproperty
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -48,7 +48,7 @@ public ScoredProperty(String name, ParameterRef parameterRef)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 名称 | java.lang.String | 属性名称。 |
-| parameterRef | [ParameterRef](../../com.aspose.xps.metadata/parameterref) | ParameterRef 实例。 |
+| parameterRef | [ParameterRef](../../com.aspose.xps.metadata/parameterref) | 一个  ParameterRef  实例。 |
 
 ### ScoredProperty(String name, Value value, IScoredPropertyItem[] items) {#ScoredProperty-java.lang.String-com.aspose.xps.metadata.Value-com.aspose.xps.metadata.IScoredPropertyItem...-}
 ```
@@ -63,7 +63,7 @@ public ScoredProperty(String name, Value value, IScoredPropertyItem[] items)
 | --- | --- | --- |
 | 名称 | java.lang.String | 属性名称。 |
 | value | [Value](../../com.aspose.xps.metadata/value) | 属性值。 |
-| items | [IScoredPropertyItem\[\]](../../com.aspose.xps.metadata/iscoredpropertyitem) | 任意 IScoredPropertyItem 实例数组。每个实例必须是 ScoredProperty、Property 或 Value 实例。 |
+| items | [IScoredPropertyItem\[\]](../../com.aspose.xps.metadata/iscoredpropertyitem) | 任意的  IScoredPropertyItem  实例数组。每个实例必须是  ScoredProperty 、  Property  或  Value  实例。 |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

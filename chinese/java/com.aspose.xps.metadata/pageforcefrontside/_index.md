@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class PageForceFrontSide extends Feature implements IJobPrintTicketItem, IDocumentPrintTicketItem, IPagePrintTicketItem
 ```
 
-强制输出显示在介质纸的正面。适用于两面表面不同的介质纸。在此功能与处理选项（例如 DocumentDuplex）冲突的情况下，PageForceFrontSide 对其适用的特定页面具有优先权。
+强制输出出现在介质纸的正面。适用于两面表面不同的介质纸。当此功能与处理选项（例如 DocumentDuplex）冲突时，PageForceFrontSide 对其适用的特定页面具有优先权。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -47,7 +47,7 @@ public PageForceFrontSide(PageForceFrontSide.PageForceFrontSideOption[] options)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| options | [PageForceFrontSideOption\[\]](../../com.aspose.xps.metadata/pageforcefrontsideoption) | 特定于此功能的选项数组。 |
+| options | [PageForceFrontSideOption\[\]](../../com.aspose.xps.metadata/pageforcefrontsideoption) | 针对该功能的特定选项数组。 |
 
 ### add(IFeatureItem[] items) {#add-com.aspose.xps.metadata.IFeatureItem...-}
 ```
@@ -55,7 +55,7 @@ public void add(IFeatureItem[] items)
 ```
 
 
-将一组项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
+将一系列项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

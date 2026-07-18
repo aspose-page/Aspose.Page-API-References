@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class JobOutputBin extends OutputBin implements IJobPrintTicketItem
 ```
 
-描述设备中已安装的输出纸盒或设备支持的全部纸盒列表。关键字 JobOutputBin、DocumentOutputBin 和 PageOutputBin 互斥，PrintTicket 或 Print Capabilities 文档中只能指定其中一个。 https://docs.microsoft.com/en-us/windows/win32/printdocs/joboutputbin
+描述设备中已安装的输出纸盒或设备支持的全部纸盒列表。关键字 JobOutputBin、DocumentOutputBin 和 PageOutputBin 互斥，只能在 PrintTicket 或 Print Capabilities 文档中指定一个。 https://docs.microsoft.com/en-us/windows/win32/printdocs/joboutputbin
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -55,7 +55,7 @@ public void add(IFeatureItem[] items)
 ```
 
 
-将一组项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
+将一系列项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

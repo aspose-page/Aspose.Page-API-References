@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class PageMediaType.Material extends ScoredProperty implements PageMediaType.IPageMediaTypeOptionItem
 ```
 
-为 Material 计分属性值定义常量。
+定义  Material  计分属性值的常量。
 ## 字段
 
 | 字段 | 描述 |
@@ -25,7 +25,7 @@ public static final class PageMediaType.Material extends ScoredProperty implemen
 | [DryFilm](#DryFilm) | 干膜值。 |
 | [Paper](#Paper) | 纸张值。 |
 | [Polyester](#Polyester) | 聚酯值。 |
-| [Transparency](#Transparency) | 透明值。 |
+| [Transparency](#Transparency) | 透明度值。 |
 | [WetFilm](#WetFilm) | 湿膜值。 |
 ## 方法
 
@@ -87,7 +87,7 @@ public static PageMediaType.Material Transparency
 ```
 
 
-透明值。
+透明度值。
 
 ### WetFilm {#WetFilm}
 ```

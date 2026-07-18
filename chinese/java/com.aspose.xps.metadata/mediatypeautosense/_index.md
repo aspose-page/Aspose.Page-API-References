@@ -1,7 +1,7 @@
 ---
 title: "InputBin.MediaTypeAutoSense"
 second_title: "Aspose.Page for Java API 参考"
-description: "定义 MediaTypeAutoSense 计分属性值的常量。"
+description: "定义用于 MediaTypeAutoSense 计分属性值的常量。"
 type: docs
 weight: 19
 url: /zh/java/com.aspose.xps.metadata/inputbin.mediatypeautosense/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class InputBin.MediaTypeAutoSense extends ScoredProperty implements InputBin.IInputBinOptionItem
 ```
 
-定义 MediaTypeAutoSense 计分属性值的常量。
+定义用于 MediaTypeAutoSense 计分属性值的常量。
 ## 字段
 
 | 字段 | 描述 |

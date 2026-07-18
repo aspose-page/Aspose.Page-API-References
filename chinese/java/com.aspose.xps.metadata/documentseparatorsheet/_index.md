@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class DocumentSeparatorSheet extends Feature implements IJobPrintTicketItem, IDocumentPrintTicketItem
 ```
 
-描述文档的分隔纸使用情况。分隔纸应按照下面指定的选项在输出中出现。 https://docs.microsoft.com/en-us/windows/win32/printdocs/documentseparatorsheet
+描述文档的分隔纸使用方式。分隔纸应按照下面指定的选项在输出中出现。 https://docs.microsoft.com/en-us/windows/win32/printdocs/documentseparatorsheet
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -47,7 +47,7 @@ public DocumentSeparatorSheet(DocumentSeparatorSheet.DocumentSeparatorSheetOptio
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| options | [DocumentSeparatorSheetOption\[\]](../../com.aspose.xps.metadata/documentseparatorsheetoption) | 特定于此功能的选项数组。 |
+| options | [DocumentSeparatorSheetOption\[\]](../../com.aspose.xps.metadata/documentseparatorsheetoption) | 针对该功能的特定选项数组。 |
 
 ### add(IFeatureItem[] items) {#add-com.aspose.xps.metadata.IFeatureItem...-}
 ```
@@ -55,7 +55,7 @@ public void add(IFeatureItem[] items)
 ```
 
 
-将一组项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
+将一系列项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

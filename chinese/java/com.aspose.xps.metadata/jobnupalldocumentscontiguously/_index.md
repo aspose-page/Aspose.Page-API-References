@@ -1,7 +1,7 @@
 ---
 title: "JobNUpAllDocumentsContiguously"
 second_title: "Aspose.Page for Java API 参考"
-description: "描述将多个逻辑页输出到单个物理纸张的方式。"
+description: "描述将多个逻辑页面输出到单个物理纸张。"
 type: docs
 weight: 58
 url: /zh/java/com.aspose.xps.metadata/jobnupalldocumentscontiguously/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class JobNUpAllDocumentsContiguously extends NUp implements IJobPrintTicketItem
 ```
 
-描述将多个逻辑页面输出到单个物理纸张的方式。作业中的所有文档会连续合并。JobNUpAllDocumentsContiguously 与 DocumentNUp 互斥。由驱动程序决定这些关键字之间的约束处理方式。 https://docs.microsoft.com/en-us/windows/win32/printdocs/jobnupalldocumentscontiguously
+描述将多个逻辑页面输出到单个物理纸张的方式。作业中的所有文档会连续合并。  JobNUpAllDocumentsContiguously  和  DocumentNUp  互斥。由驱动程序决定这些关键字之间的约束处理方式。 https://docs.microsoft.com/en-us/windows/win32/printdocs/jobnupalldocumentscontiguously
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -26,7 +26,7 @@ public final class JobNUpAllDocumentsContiguously extends NUp implements IJobPri
 | 方法 | 描述 |
 | --- | --- |
 | [add(IFeatureItem[] items)](#add-com.aspose.xps.metadata.IFeatureItem...-) | 将一系列项目添加到此功能的项目列表末尾。 |
-| [addPagesPerSheetOption(int value)](#addPagesPerSheetOption-int-) | 添加一个带有 PagesPerSheet 计分属性值的选项。 |
+| [addPagesPerSheetOption(int value)](#addPagesPerSheetOption-int-) | 添加一个带有  PagesPerSheet  计分属性值的选项。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | 获取元素名称。 |
@@ -56,7 +56,7 @@ public void add(IFeatureItem[] items)
 ```
 
 
-将一组项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
+将一系列项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -69,12 +69,12 @@ public JobNUpAllDocumentsContiguously addPagesPerSheetOption(int value)
 ```
 
 
-添加一个带有 PagesPerSheet 计分属性值的选项。指定每个物理纸张上的逻辑页面数。
+添加一个带有  PagesPerSheet  计分属性值的选项。指定每个物理纸张上的逻辑页面数量。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 值 | int | PagesPerSheet 计分属性值。支持的集合可以是任意整数集合，例如 \\{1,2,4,6,8,9,16\\}。 |
+| 值 | int | 一个  PagesPerSheet  计分属性值。支持的集合可以是任意整数集合，例如 \\{1,2,4,6,8,9,16\\}。 |
 
 **Returns:**
 [JobNUpAllDocumentsContiguously](../../com.aspose.xps.metadata/jobnupalldocumentscontiguously) - This feature instance.

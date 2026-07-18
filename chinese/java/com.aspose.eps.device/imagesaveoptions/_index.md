@@ -17,14 +17,14 @@ public class ImageSaveOptions extends SaveOptions
 
 | 构造函数 | 描述 |
 | --- | --- |
-| [ImageSaveOptions()](#ImageSaveOptions--) | 使用默认值初始化 ImageSaveOptions 类的新实例，标志 suppressErrors 为 true，debug 为 false。 |
-| [ImageSaveOptions(ImageFormat imageFormat)](#ImageSaveOptions-com.aspose.page.ImageFormat-) | 使用指定的图像格式初始化 ImageSaveOptions 的新实例。 |
-| [ImageSaveOptions(Dimension size)](#ImageSaveOptions-java.awt.Dimension-) | 使用指定的图像尺寸初始化 ImageSaveOptions 的新实例。 |
-| [ImageSaveOptions(Dimension size, ImageFormat imageFormat)](#ImageSaveOptions-java.awt.Dimension-com.aspose.page.ImageFormat-) | 使用指定的图像尺寸和图像格式初始化 ImageSaveOptions 的新实例。 |
-| [ImageSaveOptions(ImageFormat imageFormat, boolean supressErrors)](#ImageSaveOptions-com.aspose.page.ImageFormat-boolean-) | 使用指定的图像格式和 suppressErrors 标志初始化 ImageSaveOptions 的新实例。 |
-| [ImageSaveOptions(Dimension size, boolean supressErrors)](#ImageSaveOptions-java.awt.Dimension-boolean-) | 使用指定的图像尺寸和 suppressErrors 标志初始化 ImageSaveOptions 的新实例。 |
-| [ImageSaveOptions(Dimension size, ImageFormat imageFormat, boolean supressErrors)](#ImageSaveOptions-java.awt.Dimension-com.aspose.page.ImageFormat-boolean-) | 使用指定的图像尺寸、图像格式和 suppressErrors 标志初始化 ImageSaveOptions 的新实例。 |
-| [ImageSaveOptions(boolean supressErrors)](#ImageSaveOptions-boolean-) | 使用默认值初始化 ImageSaveOptions 类的新实例，标志 debug 为 false。 |
+| [ImageSaveOptions()](#ImageSaveOptions--) | 初始化 ImageSaveOptions 类的新实例，默认标志 suppressErrors 为 true，debug 为 false。 |
+| [ImageSaveOptions(ImageFormat imageFormat)](#ImageSaveOptions-com.aspose.page.ImageFormat-) | 初始化 ImageSaveOptions 的新实例，指定图像格式。 |
+| [ImageSaveOptions(Dimension size)](#ImageSaveOptions-java.awt.Dimension-) | 初始化 ImageSaveOptions 的新实例，指定图像尺寸。 |
+| [ImageSaveOptions(Dimension size, ImageFormat imageFormat)](#ImageSaveOptions-java.awt.Dimension-com.aspose.page.ImageFormat-) | 初始化 ImageSaveOptions 的新实例，指定图像尺寸和图像格式。 |
+| [ImageSaveOptions(ImageFormat imageFormat, boolean supressErrors)](#ImageSaveOptions-com.aspose.page.ImageFormat-boolean-) | 初始化 ImageSaveOptions 的新实例，指定图像格式和 suppressErrors 标志。 |
+| [ImageSaveOptions(Dimension size, boolean supressErrors)](#ImageSaveOptions-java.awt.Dimension-boolean-) | 初始化 ImageSaveOptions 的新实例，指定图像尺寸和 suppressErrors 标志。 |
+| [ImageSaveOptions(Dimension size, ImageFormat imageFormat, boolean supressErrors)](#ImageSaveOptions-java.awt.Dimension-com.aspose.page.ImageFormat-boolean-) | 初始化 ImageSaveOptions 的新实例，指定图像尺寸、图像格式和 suppressErrors 标志。 |
+| [ImageSaveOptions(boolean supressErrors)](#ImageSaveOptions-boolean-) | 初始化 ImageSaveOptions 类的新实例，默认标志 debug 为 false。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -34,23 +34,23 @@ public class ImageSaveOptions extends SaveOptions
 | [getClass()](#getClass--) |  |
 | [getConvertFontsToTTF()](#getConvertFontsToTTF--) | 获取标志，指示是否需要将非 TrueType 字体保存为 TTF。 |
 | [getExceptions()](#getExceptions--) | 返回非关键错误的列表。 |
-| [getImageFormat()](#getImageFormat--) | 获取生成图像的图像格式。 |
+| [getImageFormat()](#getImageFormat--) | 获取结果图像的图像格式。 |
 | [getJpegQualityLevel()](#getJpegQualityLevel--) | 返回指定图像压缩级别的值。 |
-| [getResolution()](#getResolution--) | 返回生成图像的分辨率。 |
+| [getResolution()](#getResolution--) | 返回结果图像的分辨率。 |
 | [getSize()](#getSize--) | 获取页面或图像的大小。 |
 | [getSmoothingMode()](#getSmoothingMode--) | 获取平滑模式。 |
 | [getTryJoinImageFragments()](#getTryJoinImageFragments--) | 指示库是否会尝试合并图像碎片。 |
 | [hashCode()](#hashCode--) |  |
-| [isDebug()](#isDebug--) | 获取允许在转换期间输出警告和消息的标志。 |
+| [isDebug()](#isDebug--) | 获取在转换期间允许输出警告和消息的标志。 |
 | [isSupressErrors()](#isSupressErrors--) | 返回指示在转换期间是否会抑制错误的值。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAdditionalFontsFolders(String[] fontsFolders)](#setAdditionalFontsFolders-java.lang.String---) | 指定转换器应在其中查找输入文档字体的附加字体文件夹。 |
 | [setConvertFontsToTTF(boolean value)](#setConvertFontsToTTF-boolean-) | 指定是否将非 TrueType 字体保存为 TTF。 |
-| [setDebug(boolean debug)](#setDebug-boolean-) | 指定允许在转换期间输出警告和消息的标志。 |
-| [setImageFormat(ImageFormat imageFormat)](#setImageFormat-com.aspose.page.ImageFormat-) | 指定生成图像的图像格式。 |
+| [setDebug(boolean debug)](#setDebug-boolean-) | 指定在转换期间允许输出警告和消息的标志。 |
+| [setImageFormat(ImageFormat imageFormat)](#setImageFormat-com.aspose.page.ImageFormat-) | 指定结果图像的图像格式。 |
 | [setJpegQualityLevel(int value)](#setJpegQualityLevel-int-) | 设置指定图像压缩级别的值。 |
-| [setResolution(float resolution)](#setResolution-float-) | 指定生成图像的分辨率。 |
+| [setResolution(float resolution)](#setResolution-float-) | 指定结果图像的分辨率。 |
 | [setSize(Dimension size)](#setSize-java.awt.Dimension-) | 指定页面或图像的大小。 |
 | [setSmoothingMode(SmoothingMode smoothingMode)](#setSmoothingMode-com.aspose.eps.device.SmoothingMode-) | 设置平滑模式。 |
 | [setSupressErrors(boolean supressErrors)](#setSupressErrors-boolean-) | 指定指示在转换期间是否抑制错误的标志。 |
@@ -65,7 +65,7 @@ public ImageSaveOptions()
 ```
 
 
-使用默认值初始化 ImageSaveOptions 类的新实例，标志 suppressErrors 为 true，debug 为 false。
+初始化 ImageSaveOptions 类的新实例，默认标志 suppressErrors 为 true，debug 为 false。
 
 ### ImageSaveOptions(ImageFormat imageFormat) {#ImageSaveOptions-com.aspose.page.ImageFormat-}
 ```
@@ -73,7 +73,7 @@ public ImageSaveOptions(ImageFormat imageFormat)
 ```
 
 
-使用指定的图像格式初始化 ImageSaveOptions 的新实例。
+初始化 ImageSaveOptions 的新实例，指定图像格式。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -86,7 +86,7 @@ public ImageSaveOptions(Dimension size)
 ```
 
 
-使用指定的图像尺寸初始化 ImageSaveOptions 的新实例。
+初始化 ImageSaveOptions 的新实例，指定图像尺寸。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -99,7 +99,7 @@ public ImageSaveOptions(Dimension size, ImageFormat imageFormat)
 ```
 
 
-使用指定的图像尺寸和图像格式初始化 ImageSaveOptions 的新实例。
+初始化 ImageSaveOptions 的新实例，指定图像尺寸和图像格式。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -113,13 +113,13 @@ public ImageSaveOptions(ImageFormat imageFormat, boolean supressErrors)
 ```
 
 
-使用指定的图像格式和 suppressErrors 标志初始化 ImageSaveOptions 的新实例。
+初始化 ImageSaveOptions 的新实例，指定图像格式和 suppressErrors 标志。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | imageFormat | [ImageFormat](../../com.aspose.page/imageformat) | 图像的格式。 |
-| supressErrors | boolean | 如果为 true，转换将在非关键错误的情况下继续。 |
+| supressErrors | boolean | 如果为 true，则即使出现非关键错误，转换仍将继续。 |
 
 ### ImageSaveOptions(Dimension size, boolean supressErrors) {#ImageSaveOptions-java.awt.Dimension-boolean-}
 ```
@@ -127,13 +127,13 @@ public ImageSaveOptions(Dimension size, boolean supressErrors)
 ```
 
 
-使用指定的图像尺寸和 suppressErrors 标志初始化 ImageSaveOptions 的新实例。
+初始化 ImageSaveOptions 的新实例，指定图像尺寸和 suppressErrors 标志。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 大小 | java.awt.Dimension | 图像大小。 |
-| supressErrors | boolean | 如果为 true，转换将在非关键错误的情况下继续。 |
+| supressErrors | boolean | 如果为 true，则即使出现非关键错误，转换仍将继续。 |
 
 ### ImageSaveOptions(Dimension size, ImageFormat imageFormat, boolean supressErrors) {#ImageSaveOptions-java.awt.Dimension-com.aspose.page.ImageFormat-boolean-}
 ```
@@ -141,14 +141,14 @@ public ImageSaveOptions(Dimension size, ImageFormat imageFormat, boolean supress
 ```
 
 
-使用指定的图像尺寸、图像格式和 suppressErrors 标志初始化 ImageSaveOptions 的新实例。
+初始化 ImageSaveOptions 的新实例，指定图像尺寸、图像格式和 suppressErrors 标志。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | 大小 | java.awt.Dimension | 图像大小。 |
 | imageFormat | [ImageFormat](../../com.aspose.page/imageformat) | 图像的格式。 |
-| supressErrors | boolean | 如果为 true，转换将在非关键错误的情况下继续。 |
+| supressErrors | boolean | 如果为 true，则即使出现非关键错误，转换仍将继续。 |
 
 ### ImageSaveOptions(boolean supressErrors) {#ImageSaveOptions-boolean-}
 ```
@@ -156,12 +156,12 @@ public ImageSaveOptions(boolean supressErrors)
 ```
 
 
-使用默认值初始化 ImageSaveOptions 类的新实例，标志 debug 为 false。
+初始化 ImageSaveOptions 类的新实例，默认标志 debug 为 false。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| supressErrors | boolean | 如果为 true，转换将在非关键错误的情况下继续。 |
+| supressErrors | boolean | 如果为 true，则即使出现非关键错误，转换仍将继续。 |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -184,7 +184,7 @@ public String[] getAdditionalFontsFolders()
 ```
 
 
-返回转换器应在其中查找输入文档字体的附加字体文件夹。默认文件夹是操作系统用于内部需求的标准字体文件夹。
+返回转换器应在其中为输入文档查找字体的附加字体文件夹。默认文件夹是操作系统用于内部需求的标准字体文件夹。
 
 **Returns:**
 java.lang.String[] - 字体文件夹数组。
@@ -224,7 +224,7 @@ public ImageFormat getImageFormat()
 ```
 
 
-获取生成图像的图像格式。
+获取结果图像的图像格式。
 
 **Returns:**
 [ImageFormat](../../com.aspose.page/imageformat) - An output image format.
@@ -234,7 +234,7 @@ public int getJpegQualityLevel()
 ```
 
 
-返回指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值会产生最低质量的图像，而 100 则产生最高质量的图像。
+返回指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值产生最低质量的图像，而 100 则产生最高质量的图像。
 
 **Returns:**
 int - 指定图像压缩级别的值。
@@ -244,7 +244,7 @@ public float getResolution()
 ```
 
 
-返回生成图像的分辨率。
+返回结果图像的分辨率。
 
 **Returns:**
 float - 图像的分辨率。
@@ -294,7 +294,7 @@ public boolean isDebug()
 ```
 
 
-获取允许在转换期间输出警告和消息的标志。
+获取在转换期间允许输出警告和消息的标志。
 
 **Returns:**
 boolean - 调试值。
@@ -330,7 +330,7 @@ public void setAdditionalFontsFolders(String[] fontsFolders)
 ```
 
 
-指定转换器应在其中查找输入文档字体的附加字体文件夹。默认文件夹是操作系统用于内部需求的标准字体文件夹。
+指定转换器应在其中为输入文档查找字体的附加字体文件夹。默认文件夹是操作系统用于内部需求的标准字体文件夹。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -343,7 +343,7 @@ public void setConvertFontsToTTF(boolean value)
 ```
 
 
-指定是否将非 TrueType 字体保存为 TTF。它显著降低 PS 转 PDF 转换后文档的体积，并提高在非 TrueType 字体大量文本的 PS 文件转换为任何输出格式的速度。然而，在将 PostSctipt 文件转换为图像时会出现轻微的垂直文字位移。
+指定是否将非 TrueType 字体保存为 TTF。这会显著减小 PS 转 PDF 转换后生成的文档体积，并提升将包含大量非 TrueType 字体文本的 PS 文件转换为任何输出格式的速度。然而，在将 PostSctipt 文件转换为图像时会出现轻微的垂直文字位移。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -356,7 +356,7 @@ public void setDebug(boolean debug)
 ```
 
 
-指定允许在转换期间输出警告和消息的标志。
+指定在转换期间允许输出警告和消息的标志。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -369,7 +369,7 @@ public void setImageFormat(ImageFormat imageFormat)
 ```
 
 
-指定生成图像的图像格式。
+指定结果图像的图像格式。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -382,7 +382,7 @@ public void setJpegQualityLevel(int value)
 ```
 
 
-设置指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值会产生最低质量的图像，而 100 则产生最高质量的图像。
+设置指定图像压缩级别的值。可用值为 0 到 100。指定的数字越低，压缩率越高，图像质量因此越低。0 值产生最低质量的图像，而 100 则产生最高质量的图像。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -395,7 +395,7 @@ public void setResolution(float resolution)
 ```
 
 
-指定生成图像的分辨率。
+指定结果图像的分辨率。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

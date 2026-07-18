@@ -7,7 +7,7 @@ weight: 12
 url: /zh/java/com.aspose.eps.device/
 ---
 
-该 **com.aspose.eps.device** 包提供可能的设备类和保存选项，可在将 PS/EPS 转换为其他格式时使用。
+该 **com.aspose.eps.device** 包提供在将 PS/EPS 转换为其他格式时可使用的设备类和保存选项。
 
 
 ## 类

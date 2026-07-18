@@ -12,38 +12,38 @@ java.lang.Object, [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject), [c
 public final class XpsCanvas extends XpsContentElement
 ```
 
-封装 Canvas 元素特性的类。此元素将元素组合在一起。例如，Glyphs 和 Path 元素可以在 canvas 中分组，以便被识别为一个单元（作为超链接目标），或将组合属性值应用于每个子元素和祖先元素。
+封装 Canvas 元素特性的类。此元素将元素组合在一起。例如，Glyphs 和 Path 元素可以在画布中分组，以便被识别为一个单元（作为超链接目标），或将组合属性值应用于每个子元素和祖先元素。
 ## 方法
 
 | 方法 | 描述 |
 | --- | --- |
-| [<T>add(T element)](#-T-add-T-) | 向此 canvas 的子列表添加一个元素。 |
-| [<T>insert(int index, T element)](#-T-insert-int-T-) | 在索引位置向此 canvas 的子列表插入一个元素。 |
-| [addCanvas()](#addCanvas--) | 向此 canvas 的子列表添加一个新 canvas。 |
-| [addGlyphs(String fontFamily, float fontSize, XpsFontStyle fontStyle, float originX, float originY, String unicodeString)](#addGlyphs-java.lang.String-float-com.aspose.xps.XpsFontStyle-float-float-java.lang.String-) | 向此 canvas 的子列表添加新的 glyphs。 |
-| [addPath(XpsPathGeometry data)](#addPath-com.aspose.xps.XpsPathGeometry-) | 向此 canvas 的子列表添加一个新 path。 |
-| [deepClone()](#deepClone--) | 克隆此 canvas。 |
+| [<T>add(T element)](#-T-add-T-) | 向此画布的子列表添加一个元素。 |
+| [<T>insert(int index, T element)](#-T-insert-int-T-) | 在 index 位置插入一个元素到此画布的子列表中。 |
+| [addCanvas()](#addCanvas--) | 向此画布的子列表添加一个新画布。 |
+| [addGlyphs(String fontFamily, float fontSize, XpsFontStyle fontStyle, float originX, float originY, String unicodeString)](#addGlyphs-java.lang.String-float-com.aspose.xps.XpsFontStyle-float-float-java.lang.String-) | 向此画布的子列表添加新的字形。 |
+| [addPath(XpsPathGeometry data)](#addPath-com.aspose.xps.XpsPathGeometry-) | 向此画布的子列表添加一个新路径。 |
+| [deepClone()](#deepClone--) | 克隆此画布。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int i)](#get-int-) | 提供通过索引 i 访问元素子项的功能。 |
 | [getClass()](#getClass--) |  |
 | [getClip()](#getClip--) | 返回限制元素渲染区域的路径几何体。 |
-| [getEdgeMode()](#getEdgeMode--) | 返回控制 canvas 中路径边缘渲染方式的值。 |
+| [getEdgeMode()](#getEdgeMode--) | 返回控制画布内路径边缘渲染方式的值。 |
 | [getHyperlinkTarget()](#getHyperlinkTarget--) | 返回超链接目标对象。 |
 | [getOpacity()](#getOpacity--) | 返回定义元素统一透明度的值。 |
-| [getOpacityMask()](#getOpacityMask--) | 返回指定 alpha 值掩码的画刷，该掩码以与 Opacity 属性相同的方式应用于元素，但允许元素不同区域使用不同的 alpha 值。 |
+| [getOpacityMask()](#getOpacityMask--) | 返回指定 alpha 值掩码的画刷，该掩码以与 Opacity 属性相同的方式应用于元素，但允许元素的不同区域使用不同的 alpha 值。 |
 | [getRenderTransform()](#getRenderTransform--) | 返回仿射变换矩阵，为元素的所有属性以及所有子元素（如果有）建立新的坐标系。 |
 | [hashCode()](#hashCode--) |  |
-| [insertCanvas(int index)](#insertCanvas-int-) | 在索引位置向此 canvas 的子列表插入一个新 canvas。 |
-| [insertGlyphs(int index, String fontFamily, float fontSize, XpsFontStyle fontStyle, float originX, float originY, String unicodeString)](#insertGlyphs-int-java.lang.String-float-com.aspose.xps.XpsFontStyle-float-float-java.lang.String-) | 在索引位置向此 canvas 的子列表插入新的 glyphs。 |
-| [insertPath(int index, XpsPathGeometry data)](#insertPath-int-com.aspose.xps.XpsPathGeometry-) | 在索引位置向此 canvas 的子列表插入一个新 path。 |
+| [insertCanvas(int index)](#insertCanvas-int-) | 在 index 位置插入一个新画布到此画布的子列表中。 |
+| [insertGlyphs(int index, String fontFamily, float fontSize, XpsFontStyle fontStyle, float originX, float originY, String unicodeString)](#insertGlyphs-int-java.lang.String-float-com.aspose.xps.XpsFontStyle-float-float-java.lang.String-) | 在 index 位置插入新的字形到此画布的子列表中。 |
+| [insertPath(int index, XpsPathGeometry data)](#insertPath-int-com.aspose.xps.XpsPathGeometry-) | 在 index 位置插入一个新路径到此画布的子列表中。 |
 | [iterator()](#iterator--) | 实现 Iterable 接口。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setClip(XpsPathGeometry value)](#setClip-com.aspose.xps.XpsPathGeometry-) | 设置限制元素渲染区域的路径几何体。 |
-| [setEdgeMode(XpsEdgeMode value)](#setEdgeMode-com.aspose.xps.XpsEdgeMode-) | 设置控制 canvas 中路径边缘渲染方式的值。 |
+| [setClip(XpsPathGeometry value)](#setClip-com.aspose.xps.XpsPathGeometry-) | 设置限制元素渲染区域的路径几何。 |
+| [setEdgeMode(XpsEdgeMode value)](#setEdgeMode-com.aspose.xps.XpsEdgeMode-) | 设置控制画布内路径边缘渲染方式的值。 |
 | [setHyperlinkTarget(XpsHyperlinkTarget value)](#setHyperlinkTarget-com.aspose.xps.XpsHyperlinkTarget-) | 设置超链接目标对象。 |
 | [setOpacity(float value)](#setOpacity-float-) | 设置定义元素统一透明度的值。 |
-| [setOpacityMask(XpsBrush value)](#setOpacityMask-com.aspose.xps.XpsBrush-) | 设置画刷，指定一组 alpha 值的掩码，该掩码以与 Opacity 属性相同的方式应用于元素，但允许元素的不同区域使用不同的 alpha 值。 |
+| [setOpacityMask(XpsBrush value)](#setOpacityMask-com.aspose.xps.XpsBrush-) | 设置画刷，指定一组 alpha 值的掩码，该掩码以与 Opacity 属性相同的方式应用于元素，但允许元素不同区域使用不同的 alpha 值。 |
 | [setRenderTransform(XpsMatrix value)](#setRenderTransform-com.aspose.xps.XpsMatrix-) | 设置仿射变换矩阵，为元素的所有属性以及所有子元素（如果有）建立新的坐标系。 |
 | [size()](#size--) | 返回子元素的数量。 |
 | [toString()](#toString--) |  |
@@ -56,7 +56,7 @@ public T <T>add(T element)
 ```
 
 
-向此 canvas 的子列表添加一个元素。
+向此画布的子列表添加一个元素。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -71,12 +71,12 @@ public T <T>insert(int index, T element)
 ```
 
 
-在索引位置向此 canvas 的子列表插入一个元素。
+在 index 位置插入一个元素到此画布的子列表中。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 索引 | int | 应插入元素的位置。 |
+| index | int | 应插入元素的位置。 |
 | 元素 | T | 要插入的元素。 |
 
 **Returns:**
@@ -87,7 +87,7 @@ public XpsCanvas addCanvas()
 ```
 
 
-向此 canvas 的子列表添加一个新 canvas。
+向此画布的子列表添加一个新画布。
 
 **Returns:**
 [XpsCanvas](../../com.aspose.xps/xpscanvas) - Added canvas.
@@ -97,7 +97,7 @@ public XpsGlyphs addGlyphs(String fontFamily, float fontSize, XpsFontStyle fontS
 ```
 
 
-向此 canvas 的子列表添加新的 glyphs。
+向此画布的子列表添加新的字形。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -106,7 +106,7 @@ public XpsGlyphs addGlyphs(String fontFamily, float fontSize, XpsFontStyle fontS
 | fontSize | float | 字体大小。 |
 | fontStyle | [XpsFontStyle](../../com.aspose.xps/xpsfontstyle) | 字体样式。 |
 | originX | float | 字形原点 X 坐标。 |
-| originY | float | Glyphs 原点的 T 坐标。 |
+| originY | float | 字形原点的 T 坐标。 |
 | unicodeString | java.lang.String | 要打印的字符串。 |
 
 **Returns:**
@@ -117,7 +117,7 @@ public XpsPath addPath(XpsPathGeometry data)
 ```
 
 
-向此 canvas 的子列表添加一个新 path。
+向此画布的子列表添加一个新路径。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -132,7 +132,7 @@ public XpsCanvas deepClone()
 ```
 
 
-克隆此 canvas。
+克隆此画布。
 
 **Returns:**
 [XpsCanvas](../../com.aspose.xps/xpscanvas) - Clone of this canvas.
@@ -192,7 +192,7 @@ public XpsEdgeMode getEdgeMode()
 ```
 
 
-返回控制 canvas 中路径边缘渲染方式的值。
+返回控制画布内路径边缘渲染方式的值。
 
 **Returns:**
 [XpsEdgeMode](../../com.aspose.xps/xpsedgemode) - The edge rendering mode.
@@ -222,7 +222,7 @@ public XpsBrush getOpacityMask()
 ```
 
 
-返回指定 alpha 值掩码的画刷，该掩码以与 Opacity 属性相同的方式应用于元素，但允许元素不同区域使用不同的 alpha 值。
+返回指定 alpha 值掩码的画刷，该掩码以与 Opacity 属性相同的方式应用于元素，但允许元素的不同区域使用不同的 alpha 值。
 
 **Returns:**
 [XpsBrush](../../com.aspose.xps/xpsbrush) - The brush specifying a mask.
@@ -252,12 +252,12 @@ public XpsCanvas insertCanvas(int index)
 ```
 
 
-在索引位置向此 canvas 的子列表插入一个新 canvas。
+在 index 位置插入一个新画布到此画布的子列表中。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 索引 | int | 应插入新 Canvas 的位置。 |
+| index | int | 应插入新 Canvas 的位置。 |
 
 **Returns:**
 [XpsCanvas](../../com.aspose.xps/xpscanvas) - Inserted canvas.
@@ -267,17 +267,17 @@ public XpsGlyphs insertGlyphs(int index, String fontFamily, float fontSize, XpsF
 ```
 
 
-在索引位置向此 canvas 的子列表插入新的 glyphs。
+在 index 位置插入新的字形到此画布的子列表中。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 索引 | int | 应插入新 Glyphs 的位置。 |
+| index | int | 应插入新 Glyphs 的位置。 |
 | fontFamily | java.lang.String | 字体族。 |
 | fontSize | float | 字体大小。 |
 | fontStyle | [XpsFontStyle](../../com.aspose.xps/xpsfontstyle) | 字体样式。 |
 | originX | float | 字形原点 X 坐标。 |
-| originY | float | Glyphs 原点的 T 坐标。 |
+| originY | float | 字形原点的 T 坐标。 |
 | unicodeString | java.lang.String | 要打印的字符串。 |
 
 **Returns:**
@@ -288,12 +288,12 @@ public XpsPath insertPath(int index, XpsPathGeometry data)
 ```
 
 
-在索引位置向此 canvas 的子列表插入一个新 path。
+在 index 位置插入一个新路径到此画布的子列表中。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 索引 | int | 应插入新 Path 的位置。 |
+| index | int | 应插入新 Path 的位置。 |
 | data | [XpsPathGeometry](../../com.aspose.xps/xpspathgeometry) | 路径的几何形状。 |
 
 **Returns:**
@@ -330,12 +330,12 @@ public void setClip(XpsPathGeometry value)
 ```
 
 
-设置限制元素渲染区域的路径几何体。
+设置限制元素渲染区域的路径几何。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [XpsPathGeometry](../../com.aspose.xps/xpspathgeometry) | 限制元素渲染区域的路径几何体。 |
+| value | [XpsPathGeometry](../../com.aspose.xps/xpspathgeometry) | 限制元素渲染区域的路径几何。 |
 
 ### setEdgeMode(XpsEdgeMode value) {#setEdgeMode-com.aspose.xps.XpsEdgeMode-}
 ```
@@ -343,7 +343,7 @@ public void setEdgeMode(XpsEdgeMode value)
 ```
 
 
-设置控制 canvas 中路径边缘渲染方式的值。
+设置控制画布内路径边缘渲染方式的值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -382,7 +382,7 @@ public void setOpacityMask(XpsBrush value)
 ```
 
 
-设置画刷，指定一组 alpha 值的掩码，该掩码以与 Opacity 属性相同的方式应用于元素，但允许元素的不同区域使用不同的 alpha 值。
+设置画刷，指定一组 alpha 值的掩码，该掩码以与 Opacity 属性相同的方式应用于元素，但允许元素不同区域使用不同的 alpha 值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

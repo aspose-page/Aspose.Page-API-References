@@ -12,4 +12,4 @@ url: /zh/java/com.aspose.xps.metadata/iscoredpropertyitem/
 public interface IScoredPropertyItem extends IPrintTicketElementChild
 ```
 
-可能是 PrintTicket ScoredProperty 项目的类的基础接口。
+可能是 PrintTicket ScoredProperty 项的类的基础接口。

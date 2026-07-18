@@ -19,13 +19,13 @@ url: /zh/java/com.aspose.eps/
 | [LoadOptions](../com.aspose.eps/loadoptions) | 文档加载选项的基础类。 |
 | [PageConstants](../com.aspose.eps/pageconstants) | 此类定义了一组描述页面的常量。 |
 | [PsConverterException](../com.aspose.eps/psconverterexception) | 此类包含在将 PS 文件转换为 PDF 文档时抛出的错误信息。 |
-| [PsConverterLicenseException](../com.aspose.eps/psconverterlicenseexception) | 此类包含与 Aspose.Page 产品授权相关的错误信息。 |
+| [PsConverterLicenseException](../com.aspose.eps/psconverterlicenseexception) | 此类包含与 Aspose.Page 产品许可相关的错误信息。 |
 | [PsDocument](../com.aspose.eps/psdocument) | 此类封装 PS/EPS 文档。 |
-| [PsDocumentException](../com.aspose.eps/psdocumentexception) | 此类包含在创建、完成并保存 PS 文件时抛出的错误信息。 |
+| [PsDocumentException](../com.aspose.eps/psdocumentexception) | 此类包含在创建、完成和保存 PS 文件时抛出的错误信息。 |
 | [PsLoadOptions](../com.aspose.eps/psloadoptions) | PS 文档加载选项。 |
 
 ## 枚举
 
 | 枚举 | 描述 |
 | --- | --- |
-| [HatchStyle](../com.aspose.eps/hatchstyle) | 存储在 .NET 中使用的填充样式的命名。 |
+| [HatchStyle](../com.aspose.eps/hatchstyle) | 存储 .NET 中使用的填充样式的命名。 |

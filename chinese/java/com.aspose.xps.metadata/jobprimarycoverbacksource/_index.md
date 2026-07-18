@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class JobPrimaryCoverBackSource extends StringParameterInit implements IJobPrintTicketItem
 ```
 
-指定作业的自定义背面封面主纸张的来源。 https://docs.microsoft.com/en-us/windows/win32/printdocs/jobprimarycoverbacksource
+指定作业的自定义封底主页的来源。 https://docs.microsoft.com/en-us/windows/win32/printdocs/jobprimarycoverbacksource
 ## 构造函数
 
 | 构造函数 | 描述 |

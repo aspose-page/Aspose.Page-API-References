@@ -12,16 +12,16 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class PageTrueTypeFontMode.PageTrueTypeFontModeOption extends Option
 ```
 
-描述 PageTrueTypeFontMode 功能选项。
+描述  PageTrueTypeFontMode  功能选项。
 ## 字段
 
 | 字段 | 描述 |
 | --- | --- |
 | [Automatic](#Automatic) | 自动处理 TrueType 字体。 |
-| [DownloadAsNativeTrueTypeFont](#DownloadAsNativeTrueTypeFont) | TrueType 字体被下载为本机 TrueType 字体。 |
-| [DownloadAsOutlineFont](#DownloadAsOutlineFont) | TrueType 字体被下载为轮廓字体。 |
-| [DownloadAsRasterFont](#DownloadAsRasterFont) | TrueType 字体被下载为光栅字体。 |
-| [RenderAsBitmap](#RenderAsBitmap) | TrueType 字体被渲染为位图。 |
+| [DownloadAsNativeTrueTypeFont](#DownloadAsNativeTrueTypeFont) | TrueType 字体以本机 TrueType 字体形式下载。 |
+| [DownloadAsOutlineFont](#DownloadAsOutlineFont) | TrueType 字体以轮廓字体形式下载。 |
+| [DownloadAsRasterFont](#DownloadAsRasterFont) | TrueType 字体以光栅字体形式下载。 |
+| [RenderAsBitmap](#RenderAsBitmap) | TrueType 字体渲染为位图。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -51,7 +51,7 @@ public static PageTrueTypeFontMode.PageTrueTypeFontModeOption DownloadAsNativeTr
 ```
 
 
-TrueType 字体被下载为本机 TrueType 字体。
+TrueType 字体以本机 TrueType 字体形式下载。
 
 ### DownloadAsOutlineFont {#DownloadAsOutlineFont}
 ```
@@ -59,7 +59,7 @@ public static PageTrueTypeFontMode.PageTrueTypeFontModeOption DownloadAsOutlineF
 ```
 
 
-TrueType 字体被下载为轮廓字体。
+TrueType 字体以轮廓字体形式下载。
 
 ### DownloadAsRasterFont {#DownloadAsRasterFont}
 ```
@@ -67,7 +67,7 @@ public static PageTrueTypeFontMode.PageTrueTypeFontModeOption DownloadAsRasterFo
 ```
 
 
-TrueType 字体被下载为光栅字体。
+TrueType 字体以光栅字体形式下载。
 
 ### RenderAsBitmap {#RenderAsBitmap}
 ```
@@ -75,7 +75,7 @@ public static PageTrueTypeFontMode.PageTrueTypeFontModeOption RenderAsBitmap
 ```
 
 
-TrueType 字体被渲染为位图。
+TrueType 字体渲染为位图。
 
 ### add(IOptionItem[] items) {#add-com.aspose.xps.metadata.IOptionItem...-}
 ```

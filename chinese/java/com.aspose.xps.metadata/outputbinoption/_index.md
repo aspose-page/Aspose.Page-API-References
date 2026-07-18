@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class OutputBin.OutputBinOption extends Option implements OutputBin.IOutputBinItem
 ```
 
-描述 JobOutputBin、DocumentOutputBin 和 PageOutputBin 功能选项。
+描述  JobOutputBin、DocumentOutputBin 和 PageOutputBin 功能选项。
 ## 构造函数
 
 | 构造函数 | 描述 |

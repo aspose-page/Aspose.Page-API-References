@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class InputBin.MediaSizeAutoSense extends ScoredProperty implements InputBin.IInputBinOptionItem
 ```
 
-定义 MediaSizeAutoSense 计分属性值的常量。
+定义用于 MediaSizeAutoSense 计分属性值的常量。
 ## 字段
 
 | 字段 | 描述 |

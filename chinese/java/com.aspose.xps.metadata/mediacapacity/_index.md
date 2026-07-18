@@ -1,7 +1,7 @@
 ---
 title: "InputBin.MediaCapacity"
 second_title: "Aspose.Page for Java API 参考"
-description: "为 MediaCapacity 计分属性值定义常量，以指定该容器是否为高容量容器（定性）。"
+description: "为 MediaCapacity 计分属性值定义常量，以指示该容器是否为高容量容器（定性）。"
 type: docs
 weight: 15
 url: /zh/java/com.aspose.xps.metadata/inputbin.mediacapacity/
@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public static final class InputBin.MediaCapacity extends ScoredProperty implements InputBin.IInputBinOptionItem
 ```
 
-定义 MediaCapacity 计分属性值的常量，以指示容器是否为高容量容器（定性）。
+定义  MediaCapacity  计分属性值的常量，以指定容器是否为高容量容器（定性）。
 ## 字段
 
 | 字段 | 描述 |

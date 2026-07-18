@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.xps.XpsObject](../../com.aspose.xps/xpsobject)
 public final class XpsMatrix extends XpsObject
 ```
 
-封装 MatrixTransform 属性元素特性的类。此元素定义用于操作元素坐标系的任意仿射矩阵变换。
+封装 MatrixTransform 属性元素特性的类。此元素定义了用于操作元素坐标系的任意仿射矩阵变换。
 ## 方法
 
 | 方法 | 描述 |
@@ -29,27 +29,27 @@ public final class XpsMatrix extends XpsObject
 | [getM32()](#getM32--) | 获取 M32 元素。 |
 | [hashCode()](#hashCode--) | 返回此实例的哈希码。 |
 | [isIdentity()](#isIdentity--) | 获取一个值，指示此实例是否为单位矩阵。 |
-| [multiply(XpsMatrix matrix)](#multiply-com.aspose.xps.XpsMatrix-) | 在默认（Prepend）顺序下，将此矩阵乘以由 matrix 指定的矩阵。 |
-| [multiply(XpsMatrix matrix, XpsMatrix.MatrixOrder matrixOrder)](#multiply-com.aspose.xps.XpsMatrix-com.aspose.xps.XpsMatrix.MatrixOrder-) | 按 matrixOrder 指定的顺序，将此矩阵乘以由 matrix 指定的矩阵。 |
+| [multiply(XpsMatrix matrix)](#multiply-com.aspose.xps.XpsMatrix-) | 在默认（Prepend）顺序下，将此矩阵乘以由  matrix  指定的矩阵。 |
+| [multiply(XpsMatrix matrix, XpsMatrix.MatrixOrder matrixOrder)](#multiply-com.aspose.xps.XpsMatrix-com.aspose.xps.XpsMatrix.MatrixOrder-) | 按照  matrixOrder  指定的顺序，将此矩阵乘以由  matrix  指定的矩阵。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [op_Equality(XpsMatrix a, XpsMatrix b)](#op-Equality-com.aspose.xps.XpsMatrix-com.aspose.xps.XpsMatrix-) | 实现运算符 ==。 |
 | [op_Inequality(XpsMatrix a, XpsMatrix b)](#op-Inequality-com.aspose.xps.XpsMatrix-com.aspose.xps.XpsMatrix-) | 实现运算符 !。 |
 | [reset()](#reset--) | 将此 Matrix 重置为单位矩阵。 |
-| [rotate(float angle)](#rotate-float-) | 在默认（Prepend）顺序下，对此 Matrix 按 angle 进行顺时针旋转。 |
-| [rotate(float angle, XpsMatrix.MatrixOrder matrixOrder)](#rotate-float-com.aspose.xps.XpsMatrix.MatrixOrder-) | 按 matrixOrder 指定的顺序，对此 Matrix 按 angle 进行顺时针旋转。 |
-| [rotateAround(float angle, Point2D pivot)](#rotateAround-float-java.awt.geom.Point2D-) | 在默认（Prepend）顺序下，对此 Matrix 绕 pivot 按 angle 进行顺时针旋转。 |
-| [rotateAround(float angle, Point2D pivot, XpsMatrix.MatrixOrder matrixOrder)](#rotateAround-float-java.awt.geom.Point2D-com.aspose.xps.XpsMatrix.MatrixOrder-) | 按 matrixOrder 指定的顺序，对此 Matrix 绕 pivot 按 angle 进行顺时针旋转。 |
+| [rotate(float angle)](#rotate-float-) | 在默认（Prepend）顺序下，对此 Matrix 应用角度为  angle  的顺时针旋转。 |
+| [rotate(float angle, XpsMatrix.MatrixOrder matrixOrder)](#rotate-float-com.aspose.xps.XpsMatrix.MatrixOrder-) | 按照  matrixOrder  指定的顺序，对此 Matrix 应用角度为  angle  的顺时针旋转。 |
+| [rotateAround(float angle, Point2D pivot)](#rotateAround-float-java.awt.geom.Point2D-) | 在默认（Prepend）顺序下，对此 Matrix 绕  pivot  进行角度为  angle  的顺时针旋转。 |
+| [rotateAround(float angle, Point2D pivot, XpsMatrix.MatrixOrder matrixOrder)](#rotateAround-float-java.awt.geom.Point2D-com.aspose.xps.XpsMatrix.MatrixOrder-) | 按照  matrixOrder  指定的顺序，对此 Matrix 绕  pivot  进行角度为  angle  的顺时针旋转。 |
 | [scale(float scaleX, float scaleY)](#scale-float-float-) | 在默认（Prepend）顺序下，将指定的缩放向量（scaleX 和 scaleY）应用于此 Matrix。 |
-| [scale(float scaleX, float scaleY, XpsMatrix.MatrixOrder matrixOrder)](#scale-float-float-com.aspose.xps.XpsMatrix.MatrixOrder-) | 按 matrixOrder 指定的顺序，将指定的缩放向量（scaleX 和 scaleY）应用于此 Matrix。 |
-| [skew(double skewX, double skewY)](#skew-double-double-) | 对此 Matrix 应用指定的倾斜变换。 |
-| [toString()](#toString--) | 返回此 XpsMatrix 实例的字符串表示形式。 |
+| [scale(float scaleX, float scaleY, XpsMatrix.MatrixOrder matrixOrder)](#scale-float-float-com.aspose.xps.XpsMatrix.MatrixOrder-) | 按照  matrixOrder  指定的顺序，将指定的缩放向量（scaleX 和 scaleY）应用于此 Matrix。 |
+| [skew(double skewX, double skewY)](#skew-double-double-) | 对该 Matrix 应用指定的倾斜变换。 |
+| [toString()](#toString--) | 返回此  XpsMatrix  实例的字符串表示。 |
 | [transform(Rectangle2D rect)](#transform-java.awt.geom.Rectangle2D-) | 将此 Matrix 表示的仿射变换应用于指定的矩形。 |
 | [transformPoint(Point2D point)](#transformPoint-java.awt.geom.Point2D-) | 将此 Matrix 表示的仿射变换应用于指定的点。 |
 | [transformPoints(Point2D[] points)](#transformPoints-java.awt.geom.Point2D---) | 将此 Matrix 表示的仿射变换应用于指定的点数组。 |
 | [transformPoints(Point2D[] points, int startIndex, int numberOfPoints)](#transformPoints-java.awt.geom.Point2D---int-int-) | 将此 Matrix 表示的仿射变换应用于点数组的指定部分。 |
 | [translate(float offsetX, float offsetY)](#translate-float-float-) | 将指定的平移向量应用于此 Matrix。 |
-| [translate(float offsetX, float offsetY, XpsMatrix.MatrixOrder matrixOrder)](#translate-float-float-com.aspose.xps.XpsMatrix.MatrixOrder-) | 按 matrixOrder 指定的顺序，将指定的平移向量应用于此 Matrix。 |
+| [translate(float offsetX, float offsetY, XpsMatrix.MatrixOrder matrixOrder)](#translate-float-float-com.aspose.xps.XpsMatrix.MatrixOrder-) | 按照  matrixOrder  指定的顺序，将指定的平移向量应用于此 Matrix。 |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -93,7 +93,7 @@ public boolean equals(Object obj)
 | 对象 | java.lang.Object | 用于与此实例比较的对象。 |
 
 **Returns:**
-boolean - 如果指定的对象等于此实例，则为 true；否则为 false。obj 参数为 null。
+boolean - true 如果指定的对象等于此实例，则为 true；否则为 false。obj 参数为 null。
 ### getClass() {#getClass--}
 ```
 public final native Class<?> getClass()
@@ -182,7 +182,7 @@ public boolean isIdentity()
 
 获取一个值，指示此实例是否为单位矩阵。
 
-Value: 如果此实例是单位矩阵，则为 True；否则为 false。
+值：True 如果此实例是单位矩阵，则为 false。
 
 **Returns:**
 boolean - 指示此实例是否为单位矩阵的值。
@@ -192,7 +192,7 @@ public void multiply(XpsMatrix matrix)
 ```
 
 
-在默认（Prepend）顺序下，将此矩阵乘以由 matrix 指定的矩阵。
+在默认（Prepend）顺序下，将此矩阵乘以由  matrix  指定的矩阵。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -205,7 +205,7 @@ public void multiply(XpsMatrix matrix, XpsMatrix.MatrixOrder matrixOrder)
 ```
 
 
-按 matrixOrder 指定的顺序，将此矩阵乘以由 matrix 指定的矩阵。
+按照  matrixOrder  指定的顺序，将此矩阵乘以由  matrix  指定的矩阵。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -275,7 +275,7 @@ public void rotate(float angle)
 ```
 
 
-在默认（Prepend）顺序下，对此 Matrix 按 angle 进行顺时针旋转。
+在默认（Prepend）顺序下，对此 Matrix 应用角度为  angle  的顺时针旋转。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -288,7 +288,7 @@ public void rotate(float angle, XpsMatrix.MatrixOrder matrixOrder)
 ```
 
 
-按 matrixOrder 指定的顺序，对此 Matrix 按 angle 进行顺时针旋转。
+按照  matrixOrder  指定的顺序，对此 Matrix 应用角度为  angle  的顺时针旋转。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -302,7 +302,7 @@ public void rotateAround(float angle, Point2D pivot)
 ```
 
 
-在默认（Prepend）顺序下，对此 Matrix 绕 pivot 按 angle 进行顺时针旋转。
+在默认（Prepend）顺序下，对此 Matrix 绕  pivot  进行角度为  angle  的顺时针旋转。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -316,7 +316,7 @@ public void rotateAround(float angle, Point2D pivot, XpsMatrix.MatrixOrder matri
 ```
 
 
-按 matrixOrder 指定的顺序，对此 Matrix 绕 pivot 按 angle 进行顺时针旋转。
+按照  matrixOrder  指定的顺序，对此 Matrix 绕  pivot  进行角度为  angle  的顺时针旋转。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -345,7 +345,7 @@ public void scale(float scaleX, float scaleY, XpsMatrix.MatrixOrder matrixOrder)
 ```
 
 
-按 matrixOrder 指定的顺序，将指定的缩放向量（scaleX 和 scaleY）应用于此 Matrix。
+按照  matrixOrder  指定的顺序，将指定的缩放向量（scaleX 和 scaleY）应用于此 Matrix。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -360,7 +360,7 @@ public void skew(double skewX, double skewY)
 ```
 
 
-对此 Matrix 应用指定的倾斜变换。
+对该 Matrix 应用指定的倾斜变换。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -374,7 +374,7 @@ public String toString()
 ```
 
 
-返回此 XpsMatrix 实例的字符串表示形式。
+返回此  XpsMatrix  实例的字符串表示。
 
 **Returns:**
 java.lang.String - 字符串表示
@@ -404,7 +404,7 @@ public Point2D transformPoint(Point2D point)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 点 | java.awt.geom.Point2D | 点。 |
+| point | java.awt.geom.Point2D | 点。 |
 
 **Returns:**
 java.awt.geom.Point2D - 变换后的点
@@ -447,8 +447,8 @@ public void translate(float offsetX, float offsetY)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| offsetX | float | X 偏移量。 |
-| offsetY | float | Y 偏移量。 |
+| offsetX | float | 偏移 X。 |
+| offsetY | float | 偏移 Y。 |
 
 ### translate(float offsetX, float offsetY, XpsMatrix.MatrixOrder matrixOrder) {#translate-float-float-com.aspose.xps.XpsMatrix.MatrixOrder-}
 ```
@@ -456,13 +456,13 @@ public void translate(float offsetX, float offsetY, XpsMatrix.MatrixOrder matrix
 ```
 
 
-按 matrixOrder 指定的顺序，将指定的平移向量应用于此 Matrix。
+按照  matrixOrder  指定的顺序，将指定的平移向量应用于此 Matrix。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| offsetX | float | X 偏移量。 |
-| offsetY | float | Y 偏移量。 |
+| offsetX | float | 偏移 X。 |
+| offsetY | float | 偏移 Y。 |
 | matrixOrder | [MatrixOrder](../../com.aspose.xps/matrixorder) | 顺序。 |
 
 ### wait() {#wait--}

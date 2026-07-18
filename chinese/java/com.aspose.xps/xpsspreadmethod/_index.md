@@ -19,7 +19,7 @@ public enum XpsSpreadMethod extends Enum<XpsSpreadMethod>
 | --- | --- |
 | [Pad](#Pad) | 在此方法中，使用第一种颜色和最后一种颜色填充起始和结束处的剩余填充区域。 |
 | [Reflect](#Reflect) | 在此方法中，梯度停止点以相反顺序重复播放，以覆盖填充区域。 |
-| [Repeat](#Repeat) | 在此方法中，梯度停止点按顺序重复，直至覆盖填充区域。 |
+| [Repeat](#Repeat) | 在此方法中，梯度停止点按顺序重复，直至填充区域被覆盖。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -63,7 +63,7 @@ public static final XpsSpreadMethod Repeat
 ```
 
 
-在此方法中，梯度停止点按顺序重复，直至覆盖填充区域。
+在此方法中，梯度停止点按顺序重复，直至填充区域被覆盖。
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

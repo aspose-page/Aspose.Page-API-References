@@ -1,7 +1,7 @@
 ---
 title: "IPagePrintTicketItem"
 second_title: "Aspose.Page for Java API 参考"
-description: "页面前缀打印票项目的接口。"
+description: "页面前缀打印票据项的接口。"
 type: docs
 weight: 157
 url: /zh/java/com.aspose.xps.metadata/ipageprintticketitem/
@@ -12,4 +12,4 @@ url: /zh/java/com.aspose.xps.metadata/ipageprintticketitem/
 public interface IPagePrintTicketItem extends IPrintTicketItem
 ```
 
-页面前缀打印票项目的接口。
+页面前缀打印票据项的接口。

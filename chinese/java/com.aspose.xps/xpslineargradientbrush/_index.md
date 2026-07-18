@@ -22,9 +22,9 @@ public final class XpsLinearGradientBrush extends XpsGradientBrush
 | [getClass()](#getClass--) |  |
 | [getColorInterpolationMode()](#getColorInterpolationMode--) | 返回指定颜色插值的伽马函数的值。 |
 | [getEndPoint()](#getEndPoint--) | 返回线性渐变的结束点。 |
-| [getGradientStops()](#getGradientStops--) | 返回构成渐变的渐变停靠点列表。 |
+| [getGradientStops()](#getGradientStops--) | 返回组成渐变的渐变停止点列表。 |
 | [getOpacity()](#getOpacity--) | 返回定义画刷填充统一透明度的值。 |
-| [getSpreadMethod()](#getSpreadMethod--) | 返回描述画刷应如何填充主初始渐变区域之外的内容区域的值。 |
+| [getSpreadMethod()](#getSpreadMethod--) | 返回描述画刷应如何填充主初始渐变区域之外内容区域的值。 |
 | [getStartPoint()](#getStartPoint--) | 返回线性渐变的起始点。 |
 | [getTransform()](#getTransform--) | 返回应用于画刷坐标空间的矩阵变换。 |
 | [hashCode()](#hashCode--) |  |
@@ -32,9 +32,9 @@ public final class XpsLinearGradientBrush extends XpsGradientBrush
 | [notifyAll()](#notifyAll--) |  |
 | [setColorInterpolationMode(XpsColorInterpolationMode value)](#setColorInterpolationMode-com.aspose.xps.XpsColorInterpolationMode-) | 设置指定颜色插值的伽马函数的值。 |
 | [setEndPoint(Point2D value)](#setEndPoint-java.awt.geom.Point2D-) | 返回/设置线性渐变的结束点。 |
-| [setGradientStops(List<XpsGradientStop> value)](#setGradientStops-java.util.List-com.aspose.xps.XpsGradientStop--) | 设置构成渐变的渐变停靠点列表。 |
+| [setGradientStops(List<XpsGradientStop> value)](#setGradientStops-java.util.List-com.aspose.xps.XpsGradientStop--) | 设置组成渐变的渐变停止点列表。 |
 | [setOpacity(float value)](#setOpacity-float-) | 设置定义画刷填充统一透明度的值。 |
-| [setSpreadMethod(XpsSpreadMethod value)](#setSpreadMethod-com.aspose.xps.XpsSpreadMethod-) | 设置描述画刷应如何填充主初始渐变区域之外的内容区域的值。 |
+| [setSpreadMethod(XpsSpreadMethod value)](#setSpreadMethod-com.aspose.xps.XpsSpreadMethod-) | 设置描述画刷应如何填充主初始渐变区域之外内容区域的值。 |
 | [setStartPoint(Point2D value)](#setStartPoint-java.awt.geom.Point2D-) | 设置线性渐变的起始点。 |
 | [setTransform(XpsMatrix value)](#setTransform-com.aspose.xps.XpsMatrix-) | 设置应用于画刷坐标空间的矩阵变换。 |
 | [toString()](#toString--) |  |
@@ -82,7 +82,7 @@ public XpsColorInterpolationMode getColorInterpolationMode()
 ```
 
 
-返回指定颜色插值的伽马函数的值。如果已指定，伽马调整不应应用于 alpha 分量。
+返回指定颜色插值的伽马函数的值。如果指定，伽马调整不应应用于 alpha 分量。
 
 **Returns:**
 [XpsColorInterpolationMode](../../com.aspose.xps/xpscolorinterpolationmode) - Value specifying the gamma function for color interpolation.
@@ -102,10 +102,10 @@ public List<XpsGradientStop> getGradientStops()
 ```
 
 
-返回构成渐变的渐变停靠点列表。
+返回组成渐变的渐变停止点列表。
 
 **Returns:**
-java.util.List<com.aspose.xps.XpsGradientStop> - 构成渐变的渐变停靠点列表。
+java.util.List<com.aspose.xps.XpsGradientStop> - 组成渐变的渐变停止点列表。
 ### getOpacity() {#getOpacity--}
 ```
 public float getOpacity()
@@ -122,7 +122,7 @@ public XpsSpreadMethod getSpreadMethod()
 ```
 
 
-返回描述画刷应如何填充主初始渐变区域之外的内容区域的值。
+返回描述画刷应如何填充主初始渐变区域之外内容区域的值。
 
 **Returns:**
 [XpsSpreadMethod](../../com.aspose.xps/xpsspreadmethod) - Value describing how the brush should fill the content area outside of the primary, initial gradient area.
@@ -142,7 +142,7 @@ public XpsMatrix getTransform()
 ```
 
 
-返回应用于画刷坐标空间的矩阵变换。Transform 属性与当前有效渲染变换连接，以产生相对于画刷的有效渲染变换。画刷的视口使用该局部有效渲染变换进行转换。
+返回应用于画刷坐标空间的矩阵变换。Transform 属性与当前有效渲染变换连接，以产生相对于画刷的有效渲染变换。画刷的视口使用该局部有效渲染变换进行变换。
 
 **Returns:**
 [XpsMatrix](../../com.aspose.xps/xpsmatrix) - The matrix transformation applied to the coordinate space of the brush.
@@ -204,7 +204,7 @@ public void setGradientStops(List<XpsGradientStop> value)
 ```
 
 
-设置构成渐变的渐变停靠点列表。
+设置组成渐变的渐变停止点列表。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -230,12 +230,12 @@ public void setSpreadMethod(XpsSpreadMethod value)
 ```
 
 
-设置描述画刷应如何填充主初始渐变区域之外的内容区域的值。
+设置描述画刷应如何填充主初始渐变区域之外内容区域的值。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [XpsSpreadMethod](../../com.aspose.xps/xpsspreadmethod) | 描述画刷应如何填充主初始渐变区域之外的内容区域的值。 |
+| value | [XpsSpreadMethod](../../com.aspose.xps/xpsspreadmethod) | 描述画笔应如何填充主初始渐变区域之外的内容区域的值。 |
 
 ### setStartPoint(Point2D value) {#setStartPoint-java.awt.geom.Point2D-}
 ```
@@ -256,7 +256,7 @@ public void setTransform(XpsMatrix value)
 ```
 
 
-设置应用于画刷坐标空间的矩阵变换。Transform 属性与当前有效渲染变换连接，以产生相对于画刷的有效渲染变换。画刷的视口使用该局部有效渲染变换进行转换。
+设置应用于画刷坐标空间的矩阵变换。Transform 属性与当前有效渲染变换连接，以产生相对于画刷的有效渲染变换。画刷的视口使用该局部有效渲染变换进行变换。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

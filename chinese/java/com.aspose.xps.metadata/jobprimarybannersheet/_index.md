@@ -15,7 +15,7 @@ java.lang.Object, [com.aspose.xps.metadata.PrintTicketElement](../../com.aspose.
 public final class JobPrimaryBannerSheet extends Feature implements IJobPrintTicketItem
 ```
 
-描述作业输出的横幅页。横幅页应使用默认的 PageMediaSize 并使用默认的 PageMediaType 输出。横幅页应与作业的其余部分隔离。这意味着任何装订或处理选项（例如 JobDuplexAllDocumentsContiguously、JobStapleAllDocuments 或 JobBindAllDocuments）都不应包含横幅页。横幅页应作为作业的第一页出现。
+描述要为作业输出的横幅页。横幅页应使用默认的  PageMediaSize  并使用默认的  PageMediaType  输出。横幅页应与作业的其余部分隔离。这意味着任何装订或处理选项（例如  JobDuplexAllDocumentsContiguously 、  JobStapleAllDocuments 、或  JobBindAllDocuments ）不应包括横幅页。横幅页应作为作业的第一张页出现。
 ## 构造函数
 
 | 构造函数 | 描述 |
@@ -47,7 +47,7 @@ public JobPrimaryBannerSheet(JobPrimaryBannerSheet.BannerSheetOption[] options)
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| options | [BannerSheetOption\[\]](../../com.aspose.xps.metadata/bannersheetoption) | 特定于此功能的选项数组。 |
+| options | [BannerSheetOption\[\]](../../com.aspose.xps.metadata/bannersheetoption) | 针对该功能的特定选项数组。 |
 
 ### add(IFeatureItem[] items) {#add-com.aspose.xps.metadata.IFeatureItem...-}
 ```
@@ -55,7 +55,7 @@ public void add(IFeatureItem[] items)
 ```
 
 
-将一组项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
+将一系列项目添加到此功能的项目列表末尾。每个项目必须是 Feature、Option 或 Property 实例。
 
 **Parameters:**
 | 参数 | 类型 | 描述 |

@@ -12,13 +12,13 @@ java.lang.Object, java.lang.Enum
 public enum XpsFillRule extends Enum<XpsFillRule>
 ```
 
-PathGeometry 元素的 FillRule 属性的有效取值。
+PathGeometry 元素的 FillRule 属性的有效值。
 ## 字段
 
 | 字段 | 描述 |
 | --- | --- |
-| [EvenOdd](#EvenOdd) | 此规则通过从点向任意方向绘制射线到无穷远，并计算射线穿过给定形状的线段数量，以确定画布上点的 \u201cinsideness\u201d。 |
-| [NonZero](#NonZero) | 此规则通过从点向任意方向绘制射线到无穷远，然后检查形状的线段穿过射线的部位，以确定画布上点的 \u201cinsideness\u201d。 |
+| [EvenOdd](#EvenOdd) | 此规则通过从点向任意方向绘制射线至无穷远，并计数射线穿过给定形状的线段数量，以确定画布上点的“内部性”。 |
+| [NonZero](#NonZero) | 此规则通过从点向任意方向绘制射线至无穷远，然后检查形状的线段穿过射线的部位，以确定画布上点的“内部性”。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -46,7 +46,7 @@ public static final XpsFillRule EvenOdd
 ```
 
 
-此规则通过从点向任意方向绘制射线到无穷远，并计算射线穿过给定形状的线段数量，以确定画布上点的 \u201cinsideness\u201d。如果此数量为奇数，则点在内部；如果为偶数，则点在外部。
+此规则通过从点向任意方向绘制射线至无穷远，并计数射线穿过给定形状的线段数量，以确定画布上点的“内部性”。如果该数量为奇数，则点在内部；如果为偶数，则点在外部。
 
 ### NonZero {#NonZero}
 ```
@@ -54,7 +54,7 @@ public static final XpsFillRule NonZero
 ```
 
 
-此规则通过从点向任意方向绘制射线到无穷远，然后检查形状的线段穿过射线的部位，以确定画布上点的 \u201cinsideness\u201d。计数从零开始，每当线段从左向右穿过射线时加一，每当路径线段从右向左穿过射线时减一。计数完交叉后，如果结果为零，则点在路径外部；否则在内部。
+此规则通过从点向任意方向绘制射线至无穷远，然后检查形状的线段穿过射线的部位。计数从零开始，每当线段从左向右穿过射线时加一，每当路径线段从右向左穿过射线时减一。计数完成后，如果结果为零，则点在路径外部；否则，点在内部。
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

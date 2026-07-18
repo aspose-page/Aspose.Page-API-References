@@ -1,7 +1,7 @@
 ---
 title: "CompositePrintTicketElement"
 second_title: "Aspose.Page for Java API 参考"
-description: "用于可能是复合打印模式元素的类的基类，即包含其他元素的类。"
+description: "可作为复合 Print Schema 元素（即包含其他元素）的类的基类。"
 type: docs
 weight: 11
 url: /zh/java/com.aspose.xps.metadata/compositeprintticketelement/
@@ -44,7 +44,7 @@ public CompositePrintTicketElement(String name, IPrintTicketElementChild[] items
 **Parameters:**
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| 名称 | java.lang.String | 根据某些 XML 架构（Microsoft 打印模式框架或其他），元素的名称。 |
+| 名称 | java.lang.String | 根据某些 XML 架构（Microsoft Print Schema Framework 或其他）元素的名称。 |
 | items | [IPrintTicketElementChild\[\]](../../com.aspose.xps.metadata/iprintticketelementchild) | 任意的子项数组。 |
 
 ### CompositePrintTicketElement(CompositePrintTicketElement element) {#CompositePrintTicketElement-com.aspose.xps.metadata.CompositePrintTicketElement-}

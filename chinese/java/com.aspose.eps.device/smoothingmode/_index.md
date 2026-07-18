@@ -18,8 +18,8 @@ public enum SmoothingMode extends Enum<SmoothingMode>
 | 字段 | 描述 |
 | --- | --- |
 | [ANTIALIAS](#ANTIALIAS) | 抗锯齿平滑模式 |
-| [HIGH_QUALITY](#HIGH-QUALITY) | 高质量但低速的平滑模式 |
-| [HIGH_SPEED](#HIGH-SPEED) | 高速但低质量的平滑模式 |
+| [HIGH_QUALITY](#HIGH-QUALITY) | 高质量但低速平滑模式 |
+| [HIGH_SPEED](#HIGH-SPEED) | 高速但低质量平滑模式 |
 ## 方法
 
 | 方法 | 描述 |
@@ -55,7 +55,7 @@ public static final SmoothingMode HIGH_QUALITY
 ```
 
 
-高质量但低速的平滑模式
+高质量但低速平滑模式
 
 ### HIGH_SPEED {#HIGH-SPEED}
 ```
@@ -63,7 +63,7 @@ public static final SmoothingMode HIGH_SPEED
 ```
 
 
-高速但低质量的平滑模式
+高速但低质量平滑模式
 
 ### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
 ```

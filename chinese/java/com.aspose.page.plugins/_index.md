@@ -1,7 +1,7 @@
 ---
 title: "com.aspose.page.plugins"
 second_title: "Aspose.Page for Java API 参考"
-description: "该 com.aspose.page.plugins 包含所有 Aspose.Page 插件通用的接口和类。"
+description: "com.aspose.page.plugins 包含所有 Aspose.Page 插件通用的接口和类。"
 type: docs
 weight: 15
 url: /zh/java/com.aspose.page.plugins/

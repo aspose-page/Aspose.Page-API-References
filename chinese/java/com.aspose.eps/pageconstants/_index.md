@@ -20,14 +20,14 @@ public class PageConstants
 | [BACKGROUND](#BACKGROUND) | 背景键 |
 | [BACKGROUND_COLOR](#BACKGROUND-COLOR) | 背景颜色键 |
 | [FIT_TO_PAGE](#FIT-TO-PAGE) | 适配内容到页面键 |
-| [MARGINS_LARGE](#MARGINS-LARGE) | \"Large\" 页面边距值 |
-| [MARGINS_MEDIUM](#MARGINS-MEDIUM) | \"Medium\" 页面边距值 |
-| [MARGINS_SMALL](#MARGINS-SMALL) | \"Small\" 页面边距值 |
-| [MARGINS_ZERO](#MARGINS-ZERO) | \"Zero\" 页面边距值 |
-| [ORIENTATION](#ORIENTATION) | 方向键，用于页面的命名方向，Portrait 或 Landscape。 |
-| [ORIENTATION_BEST_FIT](#ORIENTATION-BEST-FIT) | \"Best fit\" 方向值 |
-| [ORIENTATION_LANDSCAPE](#ORIENTATION-LANDSCAPE) | \"Landscape\" 方向值 |
-| [ORIENTATION_PORTRAIT](#ORIENTATION-PORTRAIT) | \"Portrait\" 方向值 |
+| [MARGINS_LARGE](#MARGINS-LARGE) | "Large" 页面边距值 |
+| [MARGINS_MEDIUM](#MARGINS-MEDIUM) | "Medium" 页面边距值 |
+| [MARGINS_SMALL](#MARGINS-SMALL) | "Small" 页面边距值 |
+| [MARGINS_ZERO](#MARGINS-ZERO) | "Zero" 页面边距值 |
+| [ORIENTATION](#ORIENTATION) | 方向键，用于页面的命名方向，纵向或横向。 |
+| [ORIENTATION_BEST_FIT](#ORIENTATION-BEST-FIT) | "Best fit" 方向值 |
+| [ORIENTATION_LANDSCAPE](#ORIENTATION-LANDSCAPE) | "Landscape" 方向值 |
+| [ORIENTATION_PORTRAIT](#ORIENTATION-PORTRAIT) | "Portrait" 方向值 |
 | [PAGE_MARGINS](#PAGE-MARGINS) | 页面边距键 |
 | [PAGE_SIZE](#PAGE-SIZE) | 页面尺寸键 |
 | [SIZE_A3](#SIZE-A3) | "A3" 页面尺寸值 |
@@ -40,7 +40,7 @@ public class PageConstants
 | [SIZE_LEGAL](#SIZE-LEGAL) | "Legal" 页面尺寸值 |
 | [SIZE_LETTER](#SIZE-LETTER) | "Letter" 页面尺寸值 |
 | [TRANSPARENT](#TRANSPARENT) | 透明背景键 |
-| [VIEWING_ORIENTATION](#VIEWING-ORIENTATION) | 查看方向键，用于通过旋转矩阵区分页面内容的方向。 |
+| [VIEWING_ORIENTATION](#VIEWING-ORIENTATION) | 查看方向键，用于旋转矩阵区分页面上内容的方向。 |
 ## 方法
 
 | 方法 | 描述 |
@@ -50,9 +50,9 @@ public class PageConstants
 | [getMargins(Insets insets, String orientation)](#getMargins-java.awt.Insets-java.lang.String-) | 在指定方向下计算页面边距 |
 | [getMargins(String size)](#getMargins-java.lang.String-) |  |
 | [getOrientationList()](#getOrientationList--) |  |
-| [getSize(Dimension size, String orientation)](#getSize-java.awt.Dimension-java.lang.String-) | 计算给定页面方向的页面尺寸 |
+| [getSize(Dimension size, String orientation)](#getSize-java.awt.Dimension-java.lang.String-) | 根据给定页面方向计算页面尺寸 |
 | [getSize(String size)](#getSize-java.lang.String-) | 在 "Portrait" 页面方向下计算页面尺寸 |
-| [getSize(String size, String orientation)](#getSize-java.lang.String-java.lang.String-) | 计算给定页面方向的页面尺寸 |
+| [getSize(String size, String orientation)](#getSize-java.lang.String-java.lang.String-) | 根据给定页面方向计算页面尺寸 |
 | [getSizeList()](#getSizeList--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -91,7 +91,7 @@ public static final String MARGINS_LARGE
 ```
 
 
-\"Large\" 页面边距值
+"Large" 页面边距值
 
 ### MARGINS_MEDIUM {#MARGINS-MEDIUM}
 ```
@@ -99,7 +99,7 @@ public static final String MARGINS_MEDIUM
 ```
 
 
-\"Medium\" 页面边距值
+"Medium" 页面边距值
 
 ### MARGINS_SMALL {#MARGINS-SMALL}
 ```
@@ -107,7 +107,7 @@ public static final String MARGINS_SMALL
 ```
 
 
-\"Small\" 页面边距值
+"Small" 页面边距值
 
 ### MARGINS_ZERO {#MARGINS-ZERO}
 ```
@@ -115,7 +115,7 @@ public static final String MARGINS_ZERO
 ```
 
 
-\"Zero\" 页面边距值
+"Zero" 页面边距值
 
 ### ORIENTATION {#ORIENTATION}
 ```
@@ -123,7 +123,7 @@ public static final String ORIENTATION
 ```
 
 
-方向键，用于页面的命名方向，Portrait 或 Landscape。
+方向键，用于页面的命名方向，纵向或横向。
 
 ### ORIENTATION_BEST_FIT {#ORIENTATION-BEST-FIT}
 ```
@@ -131,7 +131,7 @@ public static final String ORIENTATION_BEST_FIT
 ```
 
 
-\"Best fit\" 方向值
+"Best fit" 方向值
 
 ### ORIENTATION_LANDSCAPE {#ORIENTATION-LANDSCAPE}
 ```
@@ -139,7 +139,7 @@ public static final String ORIENTATION_LANDSCAPE
 ```
 
 
-\"Landscape\" 方向值
+"Landscape" 方向值
 
 ### ORIENTATION_PORTRAIT {#ORIENTATION-PORTRAIT}
 ```
@@ -147,7 +147,7 @@ public static final String ORIENTATION_PORTRAIT
 ```
 
 
-\"Portrait\" 方向值
+"Portrait" 方向值
 
 ### PAGE_MARGINS {#PAGE-MARGINS}
 ```
@@ -251,7 +251,7 @@ public static final String VIEWING_ORIENTATION
 ```
 
 
-查看方向键，用于通过旋转矩阵区分页面内容的方向。默认的查看方向矩阵是单位矩阵。
+查看方向键，用于旋转矩阵区分页面上内容的方向。默认的查看方向矩阵是单位矩阵。
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -318,14 +318,14 @@ public static final String[] getOrientationList()
 
 
 **Returns:**
-java.lang.String[] - 可用方向值
+java.lang.String[] - 可用的方向值
 ### getSize(Dimension size, String orientation) {#getSize-java.awt.Dimension-java.lang.String-}
 ```
 public static final Dimension getSize(Dimension size, String orientation)
 ```
 
 
-计算给定页面方向的页面尺寸
+根据给定页面方向计算页面尺寸
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -334,7 +334,7 @@ public static final Dimension getSize(Dimension size, String orientation)
 | 方向 | java.lang.String | 页面方向 |
 
 **Returns:**
-java.awt.Dimension - 计算的页面尺寸
+java.awt.Dimension - 计算得到的页面尺寸
 ### getSize(String size) {#getSize-java.lang.String-}
 ```
 public static final Dimension getSize(String size)
@@ -349,14 +349,14 @@ public static final Dimension getSize(String size)
 | 大小 | java.lang.String | 预定义页面尺寸 |
 
 **Returns:**
-java.awt.Dimension - 计算的页面尺寸
+java.awt.Dimension - 计算得到的页面尺寸
 ### getSize(String size, String orientation) {#getSize-java.lang.String-java.lang.String-}
 ```
 public static final Dimension getSize(String size, String orientation)
 ```
 
 
-计算给定页面方向的页面尺寸
+根据给定页面方向计算页面尺寸
 
 **Parameters:**
 | 参数 | 类型 | 描述 |
@@ -365,7 +365,7 @@ public static final Dimension getSize(String size, String orientation)
 | 方向 | java.lang.String | 页面方向 |
 
 **Returns:**
-java.awt.Dimension - 计算的页面尺寸
+java.awt.Dimension - 计算得到的页面尺寸
 ### getSizeList() {#getSizeList--}
 ```
 public static final String[] getSizeList()
