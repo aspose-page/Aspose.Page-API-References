@@ -1,17 +1,17 @@
 ---
-title: AsposeGetXpsPageCount
+title: AsposePSGetPageCount
 second_title: Aspose.Page for JavaScript via C++
-description: Get number of pages in XPS-file
+description: Get number of pages in PS-file
 type: docs
 weight: 10
-url: /javascript-cpp/xps/getxpspagecount/
+url: /javascript-cpp/ps/psgetpagecount/
 ---
-## AsposeGetXpsPageCount function
+## AsposePSGetPageCount function
 
-Get the number of pages in the xps-document.
+Get the number of pages in the PS-document.
 
 ```js
-function AsposeGetXpsPageCount(
+function AsposePSGetPageCount(
     fileBlob,
     fileName
 )
@@ -37,7 +37,7 @@ JSON object
   var fGetPageCount = function (e) {
     const file_reader = new FileReader();
     file_reader.onload = (event) => {
-      const json = AsposeGetXpsPageCount(event.target.result, e.target.files[0].name);
+      const json = AsposePSGetPageCount(event.target.result, e.target.files[0].name);
       if (json.errorCode == 0) {
         document.getElementById('output').textContent = "Pages count: " + json.pageCount.toString();
       }
@@ -62,7 +62,7 @@ JSON object
   const fGetPagesCount = e => {
     const file_reader = new FileReader();
     file_reader.onload = event => {
-      AsposePageWebWorker.postMessage({ "operation": 'AsposeGetXpsPageCount', "params": [event.target.result, e.target.files[0].name] }, [event.target.result]);
+      AsposePageWebWorker.postMessage({ "operation": 'AsposePSGetPageCount', "params": [event.target.result, e.target.files[0].name] }, [event.target.result]);
     };
     file_reader.readAsArrayBuffer(e.target.files[0]);
   };
