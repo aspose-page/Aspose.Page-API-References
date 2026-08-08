@@ -19,8 +19,8 @@ function AsposePageAbout()
 JSON 对象
 | 字段 | 描述 |
 | ----- | ----------- |
-| errorCode | 错误代码（0 表示无错误） |
-| errorText | 错误文本（"" 表示无错误） |
+| errorCode | 错误代码 (0 无错误) |
+| errorText | 文本错误 (\"\" 无错误) |
 | 产品 | 产品名称 |
 | 版本 | 产品版本 |
 | islicensed | 产品已授权 |

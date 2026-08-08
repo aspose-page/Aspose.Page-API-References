@@ -12,12 +12,12 @@ url: /zh/javascript-cpp/merge/
 | 名称 | 描述 |
 | -------------- | -------------- |
 | [AsposePSMergeToPdf](./psmergetopdf/) | 将 Postscript 文件合并为 PDF。 |
-| [AsposeXPSMergeToPdf](./xpsmergetopdf/) | 合并 XPS 文件为 PDF。 |
-| [AsposeXPSMergeToXps](./xpsmergetopdf/) | 合并 XPS 文件为 XPS 文件。 |
+| [AsposeXPSMergeToPdf](./xpsmergetopdf/) | 将 XPS 文件合并为 PDF。 |
+| [AsposeXPSMergeToXps](./xpsmergetopdf/) | 将 XPS 文件合并为 XPS 文件。 |
 
 ## Detailed Description
 
-合并多个 Postscript 或 XPS 文件为一个 PDF 文件，或将多个 XPS 文件合并为一个 XPS 文件。
+将多个 Postscript 或 XPS 文件合并为一个 PDF 文件，或将多个 XPS 文件合并为一个 XPS 文件。
 
 
 ```js

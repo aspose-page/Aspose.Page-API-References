@@ -1,14 +1,14 @@
 ---
 title: "AsposePSExtractText"
 second_title: "Aspose.Page 用于 JavaScript via C++"
-description: "从 PS 文件中提取文本"
+description: "从 PS 文件提取文本"
 type: docs
 weight: 10
 url: /zh/javascript-cpp/ps/psextracttext/
 ---
 ## AsposePSExtractText function
 
-从 PS 文件中提取文本。仅当文本使用 Type 42（TrueType）字体或在其向量映射中包含 Type 42 字体的 Type 0 字体编写时，才可以提取。
+从 PS 文件提取文本。仅当文本使用 Type 42（TrueType）字体或在其向量映射中包含 Type 42 字体的 Type 0 字体编写时，才可以提取。
 
 ```js
 function AsposePSExtractText(
@@ -22,17 +22,17 @@ function AsposePSExtractText(
 | 参数 | 类型 | 描述 |
 | --------- | ---- | ----------- |
 | fileBlob | Blob 对象 | 源文件的内容。 |
-| fileName | string | 源文件名。 |
-| 开始 | int | 指定开始提取文本的页码。此参数在多页文档中非常有用。 |
-| 结束 | int | 指定提取文本结束的页码。此参数在多页文档中非常有用。 |
+| fileName | 字符串 | 源文件名。 |
+| 开始 | int | 指定开始提取文本的页码。此参数对多页文档很有用。 |
+| 结束 | int | 指定提取文本结束的页码。此参数对多页文档很有用。 |
 
 ### 返回值
 
 JSON 对象
 | 字段 | 描述 |
 | ----- | ----------- |
-|  | errorCode | 错误代码（0 表示无错误） |
-|  | errorText | 错误文本（"" 表示无错误） |
+|  | errorCode | 错误代码 (0 无错误) |
+|  | errorText | 文本错误 (\"\" 无错误) |
 |  | 文本 | 提取的文本 |
 
 ### 示例

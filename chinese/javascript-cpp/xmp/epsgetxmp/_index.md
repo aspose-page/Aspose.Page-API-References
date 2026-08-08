@@ -8,9 +8,9 @@ url: /zh/javascript-cpp/xmp/epsgetxmp/
 ---
 ## AsposeEPSGetXmp function
 
-读取 PS/EPS 文件并提取 XmpMetdata（如果已存在）。
-如果 EPS 文件不包含 XMP 元数据，我们将获取一个新元数据，并用 PS 元数据注释（%%Creator、%%CreateDate、%%Title 等）中的值填充。
-填充了 XMP 元数据的 EPS 文件将保存到 fileNameResult。
+读取 PS/EPS 文件并提取已存在的 XmpMetdata。
+如果 EPS 文件不包含 XMP 元数据，我们将获取一个新元数据，并用 PS 元数据注释（%%Creator、%%CreateDate、%%Title 等）的值填充。
+填充了 XMP 元数据的 EPS 文件将保存在 fileNameResult 中。
 
 ```js
 function AsposeEPSGetXmp(
@@ -23,8 +23,8 @@ function AsposeEPSGetXmp(
 | 参数 | 类型 | 描述 |
 | --------- | ---- | ----------- |
 | fileBlob | Blob 对象 | 源文件的内容。 |
-| fileName | string | 源文件名。 |
-| fileNameResult | string | 结果文件名。 |
+| fileName | 字符串 | 源文件名。 |
+| fileNameResult | 字符串 | 结果文件名。 |
 
 
 ### 返回值
@@ -32,8 +32,8 @@ function AsposeEPSGetXmp(
 JSON 对象
 | 字段 | 描述 |
 | ----- | ----------- |
-|  | errorCode | 错误代码（0 表示无错误） |
-|  | errorText | 错误文本（"" 表示无错误） |
+|  | errorCode | 错误代码 (0 无错误) |
+|  | errorText | 文本错误 (\"\" 无错误) |
 |  | XMP | 元数据值数组 |
 |  | fileNameResult | 结果文件名 |
 

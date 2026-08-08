@@ -1,12 +1,12 @@
 ---
 title: "AsposePagePrepare"
 second_title: "Aspose.Page 用于 JavaScript via C++"
-description: "将 BLOB 保存到内存文件系统以进行处理。"
+description: "将 BLOB 保存到内存文件系统 (Memory FS) 以供处理。"
 type: docs
 url: /zh/javascript-cpp/core/asposepageprepare/
 ---
 
-_在内存文件系统中保存 BLOB 以进行处理。_
+_保存 BLOB 到内存文件系统以进行处理。_
 
 ```js
 function AsposePagePrepare(

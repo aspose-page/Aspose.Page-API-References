@@ -16,7 +16,7 @@ url: /zh/javascript-cpp/eps/
 
 ## Detailed Description
 
-操作 EPS 文件的尺寸。
+操作 EPS 文件的大小。
 
 
 ```js

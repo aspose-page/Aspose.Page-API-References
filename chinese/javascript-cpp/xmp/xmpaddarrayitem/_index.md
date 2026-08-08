@@ -21,8 +21,8 @@ function AsposeXMPAddArrayItem(
 | 参数 | 类型 | 描述 |
 | --------- | ---- | ----------- |
 | fileBlob | Blob 对象 | 源文件的内容。 |
-| fileName | string | 源文件名。 |
-| fileNameResult | string | 结果文件名。 |
+| fileName | 字符串 | 源文件名。 |
+| fileNameResult | 字符串 | 结果文件名。 |
 
 
 ### 返回值
@@ -30,8 +30,8 @@ function AsposeXMPAddArrayItem(
 JSON 对象
 | 字段 | 描述 |
 | ----- | ----------- |
-|  | errorCode | 错误代码（0 表示无错误） |
-|  | errorText | 错误文本（"" 表示无错误） |
+|  | errorCode | 错误代码 (0 无错误) |
+|  | errorText | 文本错误 (\"\" 无错误) |
 |  | XMP | 元数据值数组 |
 |  | fileNameResult | 结果文件名 |
 
