@@ -1,6 +1,6 @@
 ---
 title: "AsposePSMergeToPdf"
-second_title: "Aspose.Page للـ JavaScript عبر C++"
+second_title: "Aspose.Page لـ JavaScript عبر C++"
 description: "دمج ملفات Postscript إلى PDF"
 type: docs
 weight: 10
@@ -20,9 +20,9 @@ function AsposePSMergePdf(
 
 | معامل | نوع | الوصف |
 | --------- | ---- | ----------- |
-| fileNames | string | أسماء الملفات للدمج. |
-| fileNameResult | string | اسم ملف PDF الناتج. |
-| supressErrors | bool | يحدد ما إذا كان يجب كتم الأخطاء أم لا. |
+| fileNames | سلسلة | أسماء الملفات للدمج. |
+| fileNameResult | سلسلة | اسم ملف PDF الناتج. |
+| supressErrors | bool | يحدد ما إذا كان يجب قمع الأخطاء أم لا. |
 
 ### قيمة الإرجاع
 
@@ -30,7 +30,7 @@ function AsposePSMergePdf(
 | حقل | الوصف |
 | ----- | ----------- |
 |  | errorCode | خطأ الكود (0 لا خطأ) |
-|  | errorText | خطأ النص ("" لا خطأ) |
+|  | errorText | خطأ النص (\"\" لا خطأ) |
 |  | fileNameResult | اسم ملف النتيجة |
 
 ### أمثلة

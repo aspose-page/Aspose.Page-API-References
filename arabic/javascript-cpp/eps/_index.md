@@ -1,7 +1,7 @@
 ---
-title: "دوال EPS"
-second_title: "Aspose.Page للـ JavaScript عبر C++"
-description: "دوال للعمل مع ملفات EPS."
+title: "وظائف EPS"
+second_title: "Aspose.Page لـ JavaScript عبر C++"
+description: "وظائف للعمل مع ملفات EPS."
 weight: 41
 type: docs
 url: /ar/javascript-cpp/eps/

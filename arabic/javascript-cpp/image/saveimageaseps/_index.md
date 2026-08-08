@@ -1,6 +1,6 @@
 ---
 title: "AsposeSaveImageAsEps"
-second_title: "Aspose.Page للـ JavaScript عبر C++"
+second_title: "Aspose.Page لـ JavaScript عبر C++"
 description: "تغيير حجم EPS"
 type: docs
 weight: 10
@@ -20,9 +20,9 @@ function AsposeSaveImageAsEps(
 
 | معامل | نوع | الوصف |
 | --------- | ---- | ----------- |
-| fileBlob | كائن Blob | محتوى ملف المصدر. |
-| fileName | string | اسم ملف المصدر. |
-| fileNameResult | string | اسم ملف النتيجة. |
+| fileBlob | كائن Blob | محتوى الملف المصدر. |
+| fileName | سلسلة | اسم الملف المصدر. |
+| fileNameResult | سلسلة | اسم ملف النتيجة. |
 
 ### قيمة الإرجاع
 
@@ -30,7 +30,7 @@ function AsposeSaveImageAsEps(
 | حقل | الوصف |
 | ----- | ----------- |
 |  | errorCode | خطأ الكود (0 لا خطأ) |
-|  | errorText | خطأ النص ("" لا خطأ) |
+|  | errorText | خطأ النص (\"\" لا خطأ) |
 |  | fileNameResult | اسم ملف النتيجة |
 
 ### أمثلة

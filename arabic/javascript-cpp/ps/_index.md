@@ -1,7 +1,7 @@
 ---
-title: "دوال PS"
-second_title: "Aspose.Page للـ JavaScript عبر C++"
-description: "دوال للعمل مع ملفات PS."
+title: "وظائف PS"
+second_title: "Aspose.Page لـ JavaScript عبر C++"
+description: "وظائف للعمل مع ملفات PS."
 weight: 40
 type: docs
 url: /ar/javascript-cpp/ps/

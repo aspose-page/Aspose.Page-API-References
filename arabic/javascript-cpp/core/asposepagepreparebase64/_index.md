@@ -1,6 +1,6 @@
 ---
 title: "AsposePagePrepareBase64"
-second_title: "Aspose.Page للـ JavaScript عبر C++"
+second_title: "Aspose.Page لـ JavaScript عبر C++"
 description: "حفظ تمثيل السلسلة للـ BLOB في نظام الملفات الذاكرة للمعالجة."
 type: docs
 url: /ar/javascript-cpp/core/asposepagepreparebase64/

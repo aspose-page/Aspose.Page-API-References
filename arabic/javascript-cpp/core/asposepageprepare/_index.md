@@ -1,6 +1,6 @@
 ---
 title: "AsposePagePrepare"
-second_title: "Aspose.Page للـ JavaScript عبر C++"
+second_title: "Aspose.Page لـ JavaScript عبر C++"
 description: "حفظ الـ BLOB في نظام الملفات الذاكرة للمعالجة."
 type: docs
 url: /ar/javascript-cpp/core/asposepageprepare/

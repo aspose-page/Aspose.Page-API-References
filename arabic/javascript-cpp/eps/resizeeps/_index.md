@@ -1,6 +1,6 @@
 ---
 title: "AsposeResizeEPS"
-second_title: "Aspose.Page للـ JavaScript عبر C++"
+second_title: "Aspose.Page لـ JavaScript عبر C++"
 description: "تغيير حجم EPS"
 type: docs
 weight: 10
@@ -23,12 +23,12 @@ function AsposeResizeEPS(
 
 | معامل | نوع | الوصف |
 | --------- | ---- | ----------- |
-| fileBlob | كائن Blob | محتوى ملف المصدر. |
-| fileName | string | اسم ملف المصدر. |
-| fileNameResult | string | اسم ملف النتيجة. |
-| width | float | يحدد عرض صندوق الحدود الجديد. |
-| height | float | يحدد ارتفاع صندوق الحدود الجديد. |
-| unit | Module.Units | يحدد نوع الحجم الجديد. |
+| fileBlob | كائن Blob | محتوى الملف المصدر. |
+| fileName | سلسلة | اسم الملف المصدر. |
+| fileNameResult | سلسلة | اسم ملف النتيجة. |
+| العرض | عدد عشري | يحدد عرض الصندوق الحدودي الجديد. |
+| الارتفاع | عدد عشري | يحدد ارتفاع الصندوق الحدودي الجديد. |
+| وحدة | Module.Units | يحدد نوع الحجم الجديد. |
 
 ### قيمة الإرجاع
 
@@ -36,7 +36,7 @@ function AsposeResizeEPS(
 | حقل | الوصف |
 | ----- | ----------- |
 |  | errorCode | خطأ الكود (0 لا خطأ) |
-|  | errorText | خطأ النص ("" لا خطأ) |
+|  | errorText | خطأ النص (\"\" لا خطأ) |
 |  | fileNameResult | اسم ملف النتيجة |
 
 ### أمثلة

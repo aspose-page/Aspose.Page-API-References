@@ -1,6 +1,6 @@
 ---
 title: "دوال بيانات التعريف XMP"
-second_title: "Aspose.Page للـ JavaScript عبر C++"
+second_title: "Aspose.Page لـ JavaScript عبر C++"
 description: "دوال بيانات التعريف XMP للعمل مع ملفات EPS."
 weight: 30
 type: docs

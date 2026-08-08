@@ -1,7 +1,7 @@
 ---
-title: "تعداد الوحدات"
-second_title: "Aspose.Page للـ JavaScript عبر C++"
-description: "تعداد الوحدات. يحدد نوع الحجم"
+title: "تعداد Units"
+second_title: "Aspose.Page لـ JavaScript عبر C++"
+description: "تعداد Units. يحدد نوع الحجم"
 type: docs
 weight: 100
 url: /ar/javascript-cpp/enumerations/units/

@@ -1,6 +1,6 @@
 ---
 title: "الدوال الأساسية"
-second_title: "Aspose.Page للـ JavaScript عبر C++"
+second_title: "Aspose.Page لـ JavaScript عبر C++"
 description: "الدوال الأساسية للعمل مع ملفات Postscript/XPS."
 weight: 60
 type: docs

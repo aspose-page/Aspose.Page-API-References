@@ -1,6 +1,6 @@
 ---
 title: "DownloadFile"
-second_title: "Aspose.Page للـ JavaScript عبر C++"
+second_title: "Aspose.Page لـ JavaScript عبر C++"
 description: "إنشاء رابط في HTML لتنزيل الملف."
 type: docs
 url: /ar/javascript-cpp/misc/downloadfile/

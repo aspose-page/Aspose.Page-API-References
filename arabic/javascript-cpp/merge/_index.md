@@ -1,7 +1,7 @@
 ---
 title: "دمج الدوال"
-second_title: "Aspose.Page للـ JavaScript عبر C++"
-description: "دمج الدوال للعمل مع ملفات Postscript/XPS."
+second_title: "Aspose.Page لـ JavaScript عبر C++"
+description: "دوال دمج للعمل مع ملفات Postscript/XPS."
 weight: 20
 type: docs
 url: /ar/javascript-cpp/merge/

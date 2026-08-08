@@ -1,6 +1,6 @@
 ---
 title: "AsposeXMPAddArrayItem"
-second_title: "Aspose.Page للـ JavaScript عبر C++"
+second_title: "Aspose.Page لـ JavaScript عبر C++"
 description: "احصل على بيانات XMP الوصفية"
 type: docs
 weight: 20
@@ -8,7 +8,7 @@ url: /ar/javascript-cpp/xmp/xmpaddarrayitem/
 ---
 ## AsposeXMPAddArrayItem function
 
-يضيف قيمة إلى مصفوفة. ستُضاف القيمة في نهاية المصفوفة.
+يضيف قيمة إلى مصفوفة. سيتم إضافة القيمة في نهاية المصفوفة.
 
 ```js
 function AsposeXMPAddArrayItem(
@@ -20,9 +20,9 @@ function AsposeXMPAddArrayItem(
 
 | معامل | نوع | الوصف |
 | --------- | ---- | ----------- |
-| fileBlob | كائن Blob | محتوى ملف المصدر. |
-| fileName | string | اسم ملف المصدر. |
-| fileNameResult | string | اسم ملف النتيجة. |
+| fileBlob | كائن Blob | محتوى الملف المصدر. |
+| fileName | سلسلة | اسم الملف المصدر. |
+| fileNameResult | سلسلة | اسم ملف النتيجة. |
 
 
 ### قيمة الإرجاع
@@ -31,7 +31,7 @@ function AsposeXMPAddArrayItem(
 | حقل | الوصف |
 | ----- | ----------- |
 |  | errorCode | خطأ الكود (0 لا خطأ) |
-|  | errorText | خطأ النص ("" لا خطأ) |
+|  | errorText | خطأ النص (\"\" لا خطأ) |
 |  | XMP | مصفوفة قيم البيانات الوصفية |
 |  | fileNameResult | اسم ملف النتيجة |
 
