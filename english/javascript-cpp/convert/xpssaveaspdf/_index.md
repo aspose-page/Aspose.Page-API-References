@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /javascript-cpp/convert/xpssaveaspdf/
 ---
-## PSSaveAsPdf function
+## AsposePSSaveAsPdf function
 
 Converts the XPS to PDF.
 
