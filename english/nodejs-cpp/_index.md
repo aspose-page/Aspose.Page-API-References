@@ -21,6 +21,8 @@ is_root: true
 | [AsposePSSaveAsPdf](./convert/pssaveaspdf/) | Convert a Postscript file to PDF. |
 | [AsposeXPSSaveAsImage](./convert/xpssaveasimage/) | Convert a XPS file to image. |
 | [AsposeXPSSaveAsPdf](./convert/xpssaveaspdf/) | Convert a XPS file to PDF. |
+| [AsposePSConvertType1FontToTTF](./convert/psconverttype1fonttottf/) | Convert a PostScript Type 1 font to TrueType. |
+| [AsposePSConvertType3FontToTTF](./convert/psconverttype3fonttottf/) | Convert a PostScript Type 3 font to TrueType. |
 
 
 ## Merge functions
