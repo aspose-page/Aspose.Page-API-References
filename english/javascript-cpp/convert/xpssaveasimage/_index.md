@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /javascript-cpp/convert/xpssaveasimage/
 ---
-## PSSaveAsImage function
+## AsposePSSaveAsImage function
 
 Converts the Postscript to image.
 
